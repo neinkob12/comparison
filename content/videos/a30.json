@@ -1,0 +1,151 @@
+{
+ "id": "a30",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Samra kommt zu deinem Abiball, oder Luciano zu deiner Hochzeit?",
+  "a": {
+   "label": "Samra am Abiball",
+   "img": "artists/samra.jpg"
+  },
+  "b": {
+   "label": "Luciano auf der Hochzeit",
+   "img": "artists/luciano.jpg"
+  },
+  "pct": [
+   33,
+   67
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nur noch das Album Free Game hören, oder nur noch Nur für meine Augen?",
+   "a": {
+    "label": "Nur noch Free Game",
+    "img": "albums/album-free-game.jpg"
+   },
+   "b": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Ein Tag mit [[Nisssssiiiiiijaaaaaaa]], oder ein Tag mit Zackavelli?",
+   "a": {
+    "label": "1 Tag mit Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Zackavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    1,
+    99
+   ]
+  },
+  {
+   "say": "Nur noch Hollywoodreif hören, oder nur noch Wittenbergplatz?",
+   "a": {
+    "label": "Nur noch Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Nur noch Wittenbergplatz",
+    "img": "songs/song-wittenbergplatz.jpg"
+   },
+   "pct": [
+    52,
+    48
+   ]
+  },
+  {
+   "say": "Nie wieder Kakazette hören, oder nie wieder Souly hören?",
+   "a": {
+    "label": "Nie wieder Kakazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Souly",
+    "img": "artists/souly.jpg"
+   },
+   "pct": [
+    55,
+    45
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
+   },
+   "pct": [
+    26,
+    74
+   ]
+  },
+  {
+   "say": "Airwaves auf Dauerschleife, oder CUP auf Dauerschleife?",
+   "a": {
+    "label": "Airwaves auf Repeat",
+    "img": "songs/song-airwaves.jpg"
+   },
+   "b": {
+    "label": "CUP auf Repeat",
+    "img": "songs/song-cup.jpg"
+   },
+   "pct": [
+    9,
+    91
+   ]
+  },
+  {
+   "say": "Ein Tag mit Souly, oder ein Tag mit Caney030?",
+   "a": {
+    "label": "1 Tag mit Souly",
+    "img": "artists/souly.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Caney030",
+    "img": "artists/caney030.jpg"
+   },
+   "pct": [
+    96,
+    4
+   ]
+  },
+  {
+   "say": "[[Luuuuuussssiiiiiooooo]] kocht für dich, oder Makko fährt dich nach Hause?",
+   "a": {
+    "label": "Lucio kocht",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Makko fährt dich",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    1,
+    99
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Talahons, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+ }
+}

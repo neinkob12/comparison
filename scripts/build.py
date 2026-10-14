@@ -109,9 +109,15 @@ def build(vid):
             tts(say[:m.start()] + ",", fa); tts("oder " + say[m.end():], fb)
             ba = frames(fa) + 2
             sp = ba + frames(fb)
-            segs.append({"kind": kind, "audio": f"audio/{vid}/{fa.name}", "audioB": f"audio/{vid}/{fb.name}",
-                         "bAt": ba, "speak": sp, "gap": GAP, "hold": REVEAL,
-                         "a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]})
+            seg = {"kind": kind, "audio": f"audio/{vid}/{fa.name}", "audioB": f"audio/{vid}/{fb.name}",
+                   "bAt": ba, "speak": sp, "gap": GAP, "hold": REVEAL,
+                   "a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}
+            if q.get("winSay"):
+                fw = adir / f"{n:02d}_{kind}_win.mp3"
+                tts(q["winSay"], fw)
+                seg["winAudio"] = f"audio/{vid}/{fw.name}"
+                seg["hold"] = max(REVEAL, 12 + frames(fw) + 8)
+            segs.append(seg)
         else:
             add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": GAP, "hold": REVEAL})
         n += 1

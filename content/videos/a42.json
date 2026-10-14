@@ -1,0 +1,151 @@
+{
+ "id": "a42",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Lacazette liest deine Chats, oder Nizi19 sieht deinen Suchverlauf?",
+  "a": {
+   "label": "Lacazette liest deine Chats",
+   "img": "artists/lacazette.jpg"
+  },
+  "b": {
+   "label": "Nizi19 sieht deinen Verlauf",
+   "img": "artists/nizi19.jpg"
+  },
+  "pct": [
+   93,
+   7
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Ein Tag mit Kakavelli, oder ein Tag mit Karamel19?",
+   "a": {
+    "label": "1 Tag mit Kakavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Karamel19",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    79,
+    21
+   ]
+  },
+  {
+   "say": "Nur noch das Album Nur für meine Augen hören, oder nur noch LID?",
+   "a": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
+   },
+   "b": {
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "pct": [
+    95,
+    5
+   ]
+  },
+  {
+   "say": "Airwaves für immer löschen, oder Superkraft für immer löschen?",
+   "a": {
+    "label": "Airwaves löschen",
+    "img": "songs/song-airwaves.jpg"
+   },
+   "b": {
+    "label": "Superkraft löschen",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "pct": [
+    4,
+    96
+   ]
+  },
+  {
+   "say": "[[Nisssssiiiiiijaaaaaaa]] als großer Bruder, oder Omar101 als Mitbewohner?",
+   "a": {
+    "label": "Nizi19 als Bruder",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Omar101 als Mitbewohner",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    20,
+    80
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "Hollywoodreif für immer löschen, oder Kleiner Prinz für immer löschen?",
+   "a": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Kleiner Prinz löschen",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "pct": [
+    20,
+    80
+   ]
+  },
+  {
+   "say": "[[Lussssssiiiiiiiooooooooo]] als Lehrer, oder [[BOBOBOBOBOBOOOOOOOOO]] als Fahrlehrer?",
+   "a": {
+    "label": "Lucio als Lehrer",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Luciano als Fahrlehrer",
+    "img": "artists/luciano.jpg"
+   },
+   "pct": [
+    92,
+    8
+   ]
+  },
+  {
+   "say": "Zackavelli als großer Bruder, oder Omar101 als Mitbewohner?",
+   "a": {
+    "label": "Zackavelli als Bruder",
+    "img": "artists/zackavelli.jpg"
+   },
+   "b": {
+    "label": "Omar101 als Mitbewohner",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Talahons, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+ }
+}

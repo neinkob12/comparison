@@ -1,0 +1,151 @@
+{
+ "id": "a48",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Eine Nacht mit Luciano, oder nie wieder Haribo hören?",
+  "a": {
+   "label": "1 Nacht mit Luciano",
+   "img": "artists/lucio101.jpg"
+  },
+  "b": {
+   "label": "Nie wieder Haribo",
+   "img": "artists/yuyu19.jpg"
+  },
+  "pct": [
+   54,
+   46
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nur noch das Album 101% hören, oder nur noch 1019?",
+   "a": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "b": {
+    "label": "Nur noch 1019",
+    "img": "albums/album-1019.jpg"
+   },
+   "pct": [
+    1,
+    99
+   ]
+  },
+  {
+   "say": "Nur noch Wittenbergplatz hören, oder nur noch CUP?",
+   "a": {
+    "label": "Nur noch Wittenbergplatz",
+    "img": "songs/song-wittenbergplatz.jpg"
+   },
+   "b": {
+    "label": "Nur noch CUP",
+    "img": "songs/song-cup.jpg"
+   },
+   "pct": [
+    6,
+    94
+   ]
+  },
+  {
+   "say": "+49 auf Dauerschleife, oder FTW auf Dauerschleife?",
+   "a": {
+    "label": "+49 auf Repeat",
+    "img": "songs/song-plus49.jpg"
+   },
+   "b": {
+    "label": "FTW auf Repeat",
+    "img": "songs/song-ftw.jpg"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Mucco kocht für dich, oder [[Paschaaaaaaaaa-Niiiiiim]] fährt dich nach Hause?",
+   "a": {
+    "label": "Mucco kocht",
+    "img": "artists/mucco.jpg"
+   },
+   "b": {
+    "label": "Pashanim fährt dich",
+    "img": "artists/pashanim.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    96,
+    4
+   ]
+  },
+  {
+   "say": "Ein Tag mit [[Nisssssiiiiiijaaaaaaa]], oder ein Tag mit [[Karaaaaaameeeeeel Eins Neun]]?",
+   "a": {
+    "label": "1 Tag mit Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Karamel19",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    72,
+    28
+   ]
+  },
+  {
+   "say": "Souly in der ersten Reihe, oder Omar101 backstage?",
+   "a": {
+    "label": "Souly erste Reihe",
+    "img": "artists/souly.jpg"
+   },
+   "b": {
+    "label": "Omar101 backstage",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    98,
+    2
+   ]
+  },
+  {
+   "say": "Haribo in der ersten Reihe, oder Makko backstage?",
+   "a": {
+    "label": "Haribo erste Reihe",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Makko backstage",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+ }
+}

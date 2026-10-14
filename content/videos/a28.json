@@ -1,0 +1,151 @@
+{
+ "id": "a28",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Pashanim liest deine Chats, oder Souly sieht deinen Suchverlauf?",
+  "a": {
+   "label": "Pashanim liest deine Chats",
+   "img": "artists/pashanim.jpg"
+  },
+  "b": {
+   "label": "Souly sieht deinen Verlauf",
+   "img": "artists/souly.jpg"
+  },
+  "pct": [
+   28,
+   72
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Ein Feature mit Omar101, oder ein Feature mit Caney030?",
+   "a": {
+    "label": "Feature mit Omar101",
+    "img": "artists/omar101.jpg"
+   },
+   "b": {
+    "label": "Feature mit Caney030",
+    "img": "artists/caney030.jpg"
+   },
+   "pct": [
+    34,
+    66
+   ]
+  },
+  {
+   "say": "FTW für immer löschen, oder 16 für immer löschen?",
+   "a": {
+    "label": "FTW löschen",
+    "img": "songs/song-ftw.jpg"
+   },
+   "b": {
+    "label": "16 löschen",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    18,
+    82
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur [[Luuuuuussssiiiiiooooo]] hören, oder ein Jahr nur [[Niiiiiiiisssssiiiii]]?",
+   "a": {
+    "label": "1 Jahr nur Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "pct": [
+    7,
+    93
+   ]
+  },
+  {
+   "say": "Nie wieder Omar101 hören, oder nie wieder Makko hören?",
+   "a": {
+    "label": "Nie wieder Omar101",
+    "img": "artists/omar101.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Makko",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    95,
+    5
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
+   },
+   "pct": [
+    5,
+    95
+   ]
+  },
+  {
+   "say": "Ein Feature mit Kalim, oder ein Feature mit Ufo187?",
+   "a": {
+    "label": "Feature mit Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Feature mit Ufo187",
+    "img": "artists/ufo361.jpg"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "Nur noch das Album Free Game hören, oder nur noch 101%?",
+   "a": {
+    "label": "Nur noch Free Game",
+    "img": "albums/album-free-game.jpg"
+   },
+   "b": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "pct": [
+    8,
+    92
+   ]
+  },
+  {
+   "say": "Hollywoodreif auf Dauerschleife, oder CUP auf Dauerschleife?",
+   "a": {
+    "label": "Hollywoodreif auf Repeat",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "CUP auf Repeat",
+    "img": "songs/song-cup.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Talahons, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+ }
+}

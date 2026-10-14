@@ -1,0 +1,235 @@
+{
+ "id": "a49",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2401,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a49/00_hook_a.mp3",
+   "audioB": "audio/a49/00_hook_b.mp3",
+   "bAt": 38,
+   "speak": 86,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Nacht mit Souly",
+    "img": "img/artists/souly.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Luciano",
+    "img": "img/artists/luciano.jpg",
+    "emoji": null
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a49/01_q_a.mp3",
+   "audioB": "audio/a49/01_q_b.mp3",
+   "bAt": 38,
+   "speak": 69,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch CUP",
+    "img": "img/songs/song-cup.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Hier",
+    "img": "img/songs/song-hier.jpg",
+    "emoji": null
+   },
+   "pct": [
+    99,
+    1
+   ],
+   "duration": 204
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a49/02_q_a.mp3",
+   "audioB": "audio/a49/02_q_b.mp3",
+   "bAt": 54,
+   "speak": 131,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 kocht",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 fährt dich",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    99,
+    1
+   ],
+   "duration": 266
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a49/03_q_a.mp3",
+   "audioB": "audio/a49/03_q_b.mp3",
+   "bAt": 92,
+   "speak": 119,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Insel: 101%",
+    "img": "img/albums/album-101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: Doktor",
+    "img": "img/albums/album-doktor.jpg",
+    "emoji": null
+   },
+   "pct": [
+    68,
+    32
+   ],
+   "duration": 254
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a49/04_q_a.mp3",
+   "audioB": "audio/a49/04_q_b.mp3",
+   "bAt": 38,
+   "speak": 79,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch 16",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Kleiner Prinz",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    54,
+    46
+   ],
+   "duration": 214
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a49/05_mid_a.mp3",
+   "audioB": "audio/a49/05_mid_b.mp3",
+   "bAt": 57,
+   "speak": 148,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "img": null,
+    "emoji": "🌳"
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "duration": 283
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a49/06_q_a.mp3",
+   "audioB": "audio/a49/06_q_b.mp3",
+   "bAt": 46,
+   "speak": 109,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette erste Reihe",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Lucio backstage",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    70,
+    30
+   ],
+   "duration": 244
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a49/07_q_a.mp3",
+   "audioB": "audio/a49/07_q_b.mp3",
+   "bAt": 46,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette als Bruder",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Masi als Mitbewohner",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    98,
+    2
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a49/08_q_a.mp3",
+   "audioB": "audio/a49/08_q_b.mp3",
+   "bAt": 73,
+   "speak": 145,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Feature mit Nizi19",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Lucio",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    91,
+    9
+   ],
+   "duration": 280
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a49/09_outro.mp3",
+   "speak": 164,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Stoner, die du kennst",
+   "duration": 209
+  }
+ ]
+}

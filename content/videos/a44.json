@@ -1,0 +1,152 @@
+{
+ "id": "a44",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "24 Stunden mit Ufo361 im Fahrstuhl, oder mit Karamel19 im Bällebad?",
+  "a": {
+   "label": "Ufo361 im Fahrstuhl",
+   "img": "artists/ufo361.jpg"
+  },
+  "b": {
+   "label": "Karamel19 im Bällebad",
+   "img": "artists/karamel19.jpg"
+  },
+  "pct": [
+   1,
+   99
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nie wieder Nils Zimmermann hören, oder nie wieder [[Lussssssiiiiiiiooooooooo]] hören?",
+   "a": {
+    "label": "Nie wieder Nils Zimmermann",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    3,
+    97
+   ]
+  },
+  {
+   "say": "[[Luuuuuussssiiiiiooooo]] in der ersten Reihe, oder Souly backstage?",
+   "a": {
+    "label": "Lucio erste Reihe",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Souly backstage",
+    "img": "artists/souly.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  },
+  {
+   "say": "Kalim kocht für dich, oder Haribo fährt dich nach Hause?",
+   "a": {
+    "label": "Kalim kocht",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Haribo fährt dich",
+    "img": "artists/yuyu19.jpg"
+   },
+   "pct": [
+    5,
+    95
+   ],
+   "winSay": "Ohne Finger, Akh!"
+  },
+  {
+   "say": "Nur noch das Album 1019 hören, oder nur noch 101%?",
+   "a": {
+    "label": "Nur noch 1019",
+    "img": "albums/album-1019.jpg"
+   },
+   "b": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  },
+  {
+   "say": "Nur noch 16 hören, oder nur noch Wittenbergplatz?",
+   "a": {
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Nur noch Wittenbergplatz",
+    "img": "songs/song-wittenbergplatz.jpg"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "+49 auf Dauerschleife, oder Hier auf Dauerschleife?",
+   "a": {
+    "label": "+49 auf Repeat",
+    "img": "songs/song-plus49.jpg"
+   },
+   "b": {
+    "label": "Hier auf Repeat",
+    "img": "songs/song-hier.jpg"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "[[Haaaaarrrriiiiibooooooo]] in der ersten Reihe, oder Mucco backstage?",
+   "a": {
+    "label": "Haribo erste Reihe",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Mucco backstage",
+    "img": "artists/mucco.jpg"
+   },
+   "pct": [
+    24,
+    76
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Talahons, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+ }
+}

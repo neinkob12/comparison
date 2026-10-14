@@ -1,0 +1,151 @@
+{
+ "id": "a13",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Makko wird dein Stiefvater, oder Lucio dein Klassenlehrer?",
+  "a": {
+   "label": "Makko als Stiefvater",
+   "img": "artists/makko.jpg"
+  },
+  "b": {
+   "label": "Lucio als Klassenlehrer",
+   "img": "artists/luciano.jpg"
+  },
+  "pct": [
+   82,
+   18
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nie wieder Lacazette hören, oder nie wieder Nizi19 hören?",
+   "a": {
+    "label": "Nie wieder Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "pct": [
+    55,
+    45
+   ]
+  },
+  {
+   "say": "Nur noch Sommergewitter hören, oder nur noch Superkraft?",
+   "a": {
+    "label": "Nur noch Sommergewitter",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "b": {
+    "label": "Nur noch Superkraft",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "pct": [
+    5,
+    95
+   ]
+  },
+  {
+   "say": "Nie wieder Pashanim hören, oder nie wieder [[Uuuuuuuufoooooo Drei Sechs Eins]] hören?",
+   "a": {
+    "label": "Nie wieder Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Ufo361",
+    "img": "artists/ufo361.jpg"
+   },
+   "pct": [
+    96,
+    4
+   ]
+  },
+  {
+   "say": "Hollywoodreif für immer löschen, oder Hier für immer löschen?",
+   "a": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Hier löschen",
+    "img": "songs/song-hier.jpg"
+   },
+   "pct": [
+    49,
+    51
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
+   },
+   "pct": [
+    92,
+    8
+   ]
+  },
+  {
+   "say": "Nur noch das Album Mittendrin hören, oder nur noch 1019?",
+   "a": {
+    "label": "Nur noch Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
+   },
+   "b": {
+    "label": "Nur noch 1019",
+    "img": "albums/album-1019.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Nizi19 hören, oder ein Jahr nur Karamel19?",
+   "a": {
+    "label": "1 Jahr nur Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Karamel19",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Ein Tag mit [[Lakaaaaaaasetttttttt]], oder ein Tag mit Kalim?",
+   "a": {
+    "label": "1 Tag mit Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    94,
+    6
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+ }
+}

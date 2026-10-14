@@ -1,0 +1,151 @@
+{
+ "id": "a03",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "24 Stunden mit Kakazette im Fahrstuhl, oder mit Haribo im Bällebad?",
+  "a": {
+   "label": "Kakazette im Fahrstuhl",
+   "img": "artists/lacazette.jpg"
+  },
+  "b": {
+   "label": "Haribo im Bällebad",
+   "img": "artists/yuyu19.jpg"
+  },
+  "pct": [
+   93,
+   7
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Kleiner Prinz für immer löschen, oder CUP für immer löschen?",
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "b": {
+    "label": "CUP löschen",
+    "img": "songs/song-cup.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur [[Haaaaarrrriiiiibooooooo]] hören, oder ein Jahr nur [[BOBOBOBOBOBOOOOOOOOO]]?",
+   "a": {
+    "label": "1 Jahr nur Haribo",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Luciano",
+    "img": "artists/luciano.jpg"
+   },
+   "pct": [
+    7,
+    93
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du LID mit, oder 101%?",
+   "a": {
+    "label": "Insel: LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "b": {
+    "label": "Insel: 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "pct": [
+    6,
+    94
+   ]
+  },
+  {
+   "say": "Lacazette als Lehrer, oder Makko als Fahrlehrer?",
+   "a": {
+    "label": "Lacazette als Lehrer",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Makko als Fahrlehrer",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    51,
+    49
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
+   },
+   "pct": [
+    81,
+    19
+   ]
+  },
+  {
+   "say": "16 auf Dauerschleife, oder Superkraft auf Dauerschleife?",
+   "a": {
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Superkraft auf Repeat",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "pct": [
+    7,
+    93
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Pashanim hören, oder ein Jahr nur Karamel19?",
+   "a": {
+    "label": "1 Jahr nur Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Karamel19",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    4,
+    96
+   ]
+  },
+  {
+   "say": "Nie wieder Lacazette hören, oder nie wieder Souly hören?",
+   "a": {
+    "label": "Nie wieder Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Souly",
+    "img": "artists/souly.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+ }
+}

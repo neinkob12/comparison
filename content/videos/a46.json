@@ -1,0 +1,152 @@
+{
+ "id": "a46",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Pashanim liest deine Chats, oder Lucio sieht deinen Suchverlauf?",
+  "a": {
+   "label": "Pashanim liest deine Chats",
+   "img": "artists/pashanim.jpg"
+  },
+  "b": {
+   "label": "Lucio sieht deinen Verlauf",
+   "img": "artists/lucio101.jpg"
+  },
+  "pct": [
+   46,
+   54
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "+49 auf Dauerschleife, oder Airwaves auf Dauerschleife?",
+   "a": {
+    "label": "+49 auf Repeat",
+    "img": "songs/song-plus49.jpg"
+   },
+   "b": {
+    "label": "Airwaves auf Repeat",
+    "img": "songs/song-airwaves.jpg"
+   },
+   "pct": [
+    92,
+    8
+   ]
+  },
+  {
+   "say": "Ein Tag mit [[Luuuuuussssiiiiiooooo]], oder ein Tag mit Souly?",
+   "a": {
+    "label": "1 Tag mit Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Souly",
+    "img": "artists/souly.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Pashanim in der ersten Reihe, oder [[Haaaaarrrriiiiibooooooo]] backstage?",
+   "a": {
+    "label": "Pashanim erste Reihe",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Haribo backstage",
+    "img": "artists/yuyu19.jpg"
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "winSay": "Ohne Finger, Akh!"
+  },
+  {
+   "say": "Caney030 in der ersten Reihe, oder Mucco backstage?",
+   "a": {
+    "label": "Caney030 erste Reihe",
+    "img": "artists/caney030.jpg"
+   },
+   "b": {
+    "label": "Mucco backstage",
+    "img": "artists/mucco.jpg"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du 101% mit, oder 1019?",
+   "a": {
+    "label": "Insel: 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "b": {
+    "label": "Insel: 1019",
+    "img": "albums/album-1019.jpg"
+   },
+   "pct": [
+    92,
+    8
+   ]
+  },
+  {
+   "say": "16 für immer löschen, oder FTW für immer löschen?",
+   "a": {
+    "label": "16 löschen",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "FTW löschen",
+    "img": "songs/song-ftw.jpg"
+   },
+   "pct": [
+    7,
+    93
+   ]
+  },
+  {
+   "say": "Makko in der ersten Reihe, oder Yuyu backstage?",
+   "a": {
+    "label": "Makko erste Reihe",
+    "img": "artists/makko.jpg"
+   },
+   "b": {
+    "label": "Yuyu backstage",
+    "img": "artists/yuyu19.jpg"
+   },
+   "pct": [
+    96,
+    4
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+ }
+}

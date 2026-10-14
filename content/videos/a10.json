@@ -1,0 +1,151 @@
+{
+ "id": "a10",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Eine Nacht mit Karmahel19, oder nie wieder Mucco hören?",
+  "a": {
+   "label": "1 Nacht mit Karmahel19",
+   "img": "artists/karamel19.jpg"
+  },
+  "b": {
+   "label": "Nie wieder Mucco",
+   "img": "artists/mucco.jpg"
+  },
+  "pct": [
+   79,
+   21
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nie wieder Kalim hören, oder nie wieder [[Muuuuuutschoooooo]] hören?",
+   "a": {
+    "label": "Nie wieder Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Mucco",
+    "img": "artists/mucco.jpg"
+   },
+   "pct": [
+    91,
+    9
+   ]
+  },
+  {
+   "say": "Nur noch 16 hören, oder nur noch FTW?",
+   "a": {
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Nur noch FTW",
+    "img": "songs/song-ftw.jpg"
+   },
+   "pct": [
+    94,
+    6
+   ]
+  },
+  {
+   "say": "[[Haaaaarrrriiiiibooooooo]] als Lehrer, oder [[Karaaaaaameeeeeel Eins Neun]] als Fahrlehrer?",
+   "a": {
+    "label": "Haribo als Lehrer",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Karamel19 als Fahrlehrer",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    8,
+    92
+   ]
+  },
+  {
+   "say": "Ein Tag mit Pashanim, oder ein Tag mit Lacazette?",
+   "a": {
+    "label": "1 Tag mit Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "pct": [
+    6,
+    94
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    95,
+    5
+   ]
+  },
+  {
+   "say": "Nur noch das Album Doktor hören, oder nur noch Akh & Krach?",
+   "a": {
+    "label": "Nur noch Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "b": {
+    "label": "Nur noch Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "Kleiner Prinz für immer löschen, oder Hier für immer löschen?",
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "b": {
+    "label": "Hier löschen",
+    "img": "songs/song-hier.jpg"
+   },
+   "pct": [
+    48,
+    52
+   ]
+  },
+  {
+   "say": "Kalim in der ersten Reihe, oder Zackavelli backstage?",
+   "a": {
+    "label": "Kalim erste Reihe",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Zackavelli backstage",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    9,
+    91
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Teile das Video mit deinen Akhs",
+  "shareSay": "Und teile das Video mit deinen Akhs!"
+ }
+}

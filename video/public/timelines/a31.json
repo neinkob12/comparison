@@ -1,0 +1,236 @@
+{
+ "id": "a31",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2427,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a31/00_hook_a.mp3",
+   "audioB": "audio/a31/00_hook_b.mp3",
+   "bAt": 40,
+   "speak": 105,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lucio liest deine Chats",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nizi19 sieht deinen Verlauf",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "duration": 240
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a31/01_q_a.mp3",
+   "audioB": "audio/a31/01_q_b.mp3",
+   "bAt": 69,
+   "speak": 106,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Lucio",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Makko",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "duration": 241
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a31/02_q_a.mp3",
+   "audioB": "audio/a31/02_q_b.mp3",
+   "bAt": 43,
+   "speak": 86,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Kakko",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a31/03_q_a.mp3",
+   "audioB": "audio/a31/03_q_b.mp3",
+   "bAt": 46,
+   "speak": 109,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette als Bruder",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Ufo361 als Mitbewohner",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 244
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a31/04_q_a.mp3",
+   "audioB": "audio/a31/04_q_b.mp3",
+   "bAt": 61,
+   "speak": 94,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Mittendrin",
+    "img": "img/albums/album-mittendrin.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Doktor",
+    "img": "img/albums/album-doktor.jpg",
+    "emoji": null
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "duration": 229
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a31/05_mid_a.mp3",
+   "audioB": "audio/a31/05_mid_b.mp3",
+   "bAt": 57,
+   "speak": 154,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 289
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a31/06_q_a.mp3",
+   "audioB": "audio/a31/06_q_b.mp3",
+   "bAt": 115,
+   "speak": 155,
+   "gap": 90,
+   "hold": 51,
+   "a": {
+    "label": "1 Jahr nur Lucio",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Haribo",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    20,
+    80
+   ],
+   "winAudio": "audio/a31/06_q_win.mp3",
+   "duration": 296
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a31/07_q_a.mp3",
+   "audioB": "audio/a31/07_q_b.mp3",
+   "bAt": 50,
+   "speak": 97,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Superkraft löschen",
+    "img": "img/songs/song-superkraft.jpg",
+    "emoji": null
+   },
+   "pct": [
+    75,
+    25
+   ],
+   "duration": 232
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a31/08_q_a.mp3",
+   "audioB": "audio/a31/08_q_b.mp3",
+   "bAt": 39,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "CUP auf Repeat",
+    "img": "img/songs/song-cup.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Hollywoodreif auf Repeat",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "pct": [
+    7,
+    93
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a31/09_outro.mp3",
+   "speak": 164,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "duration": 209
+  }
+ ]
+}

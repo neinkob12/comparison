@@ -1,0 +1,236 @@
+{
+ "id": "a37",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2482,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a37/00_hook_a.mp3",
+   "audioB": "audio/a37/00_hook_b.mp3",
+   "bAt": 40,
+   "speak": 81,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Nacht mit Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Makko",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "duration": 216
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a37/01_q_a.mp3",
+   "audioB": "audio/a37/01_q_b.mp3",
+   "bAt": 49,
+   "speak": 101,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Hollywoodreif auf Repeat",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "FTW auf Repeat",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "pct": [
+    66,
+    34
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a37/02_q_a.mp3",
+   "audioB": "audio/a37/02_q_b.mp3",
+   "bAt": 64,
+   "speak": 120,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Zackavelli fährt dich",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    96,
+    4
+   ],
+   "duration": 255
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a37/03_q_a.mp3",
+   "audioB": "audio/a37/03_q_b.mp3",
+   "bAt": 43,
+   "speak": 106,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette als Bruder",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Ufo187 als Mitbewohner",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "duration": 241
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a37/04_q_a.mp3",
+   "audioB": "audio/a37/04_q_b.mp3",
+   "bAt": 83,
+   "speak": 127,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Insel: 1019",
+    "img": "img/albums/album-1019.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: 101%",
+    "img": "img/albums/album-101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    51,
+    49
+   ],
+   "duration": 262
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a37/05_mid_a.mp3",
+   "audioB": "audio/a37/05_mid_b.mp3",
+   "bAt": 61,
+   "speak": 171,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "img": null,
+    "emoji": "💌"
+   },
+   "pct": [
+    49,
+    51
+   ],
+   "duration": 306
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a37/06_q_a.mp3",
+   "audioB": "audio/a37/06_q_b.mp3",
+   "bAt": 38,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "CUP auf Repeat",
+    "img": "img/songs/song-cup.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Wittenbergplatz auf Repeat",
+    "img": "img/songs/song-wittenbergplatz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a37/07_q_a.mp3",
+   "audioB": "audio/a37/07_q_b.mp3",
+   "bAt": 95,
+   "speak": 139,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nur Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "pct": [
+    51,
+    49
+   ],
+   "duration": 274
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a37/08_q_a.mp3",
+   "audioB": "audio/a37/08_q_b.mp3",
+   "bAt": 68,
+   "speak": 106,
+   "gap": 90,
+   "hold": 50,
+   "a": {
+    "label": "1 Jahr nur Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Haribo",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    15,
+    85
+   ],
+   "winAudio": "audio/a37/08_q_win.mp3",
+   "duration": 246
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a37/09_outro.mp3",
+   "speak": 175,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Talahons, die du kennst",
+   "duration": 220
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "id": "a10",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2363,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a10/00_hook_a.mp3",
+   "audioB": "audio/a10/00_hook_b.mp3",
+   "bAt": 57,
+   "speak": 95,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Nacht mit Karmahel19",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Mucco",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "pct": [
+    79,
+    21
+   ],
+   "duration": 230
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a10/01_q_a.mp3",
+   "audioB": "audio/a10/01_q_b.mp3",
+   "bAt": 43,
+   "speak": 110,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Mucco",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "pct": [
+    91,
+    9
+   ],
+   "duration": 245
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a10/02_q_a.mp3",
+   "audioB": "audio/a10/02_q_b.mp3",
+   "bAt": 40,
+   "speak": 80,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch 16",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch FTW",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "pct": [
+    94,
+    6
+   ],
+   "duration": 215
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a10/03_q_a.mp3",
+   "audioB": "audio/a10/03_q_b.mp3",
+   "bAt": 78,
+   "speak": 184,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Haribo als Lehrer",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Karamel19 als Fahrlehrer",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    8,
+    92
+   ],
+   "duration": 319
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a10/04_q_a.mp3",
+   "audioB": "audio/a10/04_q_b.mp3",
+   "bAt": 39,
+   "speak": 76,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Pashanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "duration": 211
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a10/05_mid_a.mp3",
+   "audioB": "audio/a10/05_mid_b.mp3",
+   "bAt": 55,
+   "speak": 170,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "img": null,
+    "emoji": "💘"
+   },
+   "pct": [
+    95,
+    5
+   ],
+   "duration": 305
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a10/06_q_a.mp3",
+   "audioB": "audio/a10/06_q_b.mp3",
+   "bAt": 51,
+   "speak": 93,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Doktor",
+    "img": "img/albums/album-doktor.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Akh & Krach",
+    "img": "img/albums/album-akh-krach.jpg",
+    "emoji": null
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 228
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a10/07_q_a.mp3",
+   "audioB": "audio/a10/07_q_b.mp3",
+   "bAt": 43,
+   "speak": 79,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Hier löschen",
+    "img": "img/songs/song-hier.jpg",
+    "emoji": null
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "duration": 214
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a10/08_q_a.mp3",
+   "audioB": "audio/a10/08_q_b.mp3",
+   "bAt": 42,
+   "speak": 82,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim erste Reihe",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Zackavelli backstage",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 217
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a10/09_outro.mp3",
+   "speak": 134,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Teile das Video mit deinen Akhs",
+   "duration": 179
+  }
+ ]
+}

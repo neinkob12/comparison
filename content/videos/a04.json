@@ -1,0 +1,152 @@
+{
+ "id": "a04",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Kalim kommt zu deinem Abiball, oder Caney030 zu deiner Hochzeit?",
+  "a": {
+   "label": "Kalim am Abiball",
+   "img": "artists/kalim.jpg"
+  },
+  "b": {
+   "label": "Caney030 auf der Hochzeit",
+   "img": "artists/caney030.jpg"
+  },
+  "pct": [
+   51,
+   49
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Ein Tag mit [[Niiiiiiiisssssiiiii]], oder ein Tag mit Lucio?",
+   "a": {
+    "label": "1 Tag mit Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Lucio",
+    "img": "artists/luciano.jpg"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "+49 auf Dauerschleife, oder 16 auf Dauerschleife?",
+   "a": {
+    "label": "+49 auf Repeat",
+    "img": "songs/song-plus49.jpg"
+   },
+   "b": {
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "FTW auf Dauerschleife, oder Hollywoodreif auf Dauerschleife?",
+   "a": {
+    "label": "FTW auf Repeat",
+    "img": "songs/song-ftw.jpg"
+   },
+   "b": {
+    "label": "Hollywoodreif auf Repeat",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "pct": [
+    74,
+    26
+   ]
+  },
+  {
+   "say": "Ufo361 in der ersten Reihe, oder [[Lussssssiiiiiiiooooooooo]] backstage?",
+   "a": {
+    "label": "Ufo361 erste Reihe",
+    "img": "artists/ufo361.jpg"
+   },
+   "b": {
+    "label": "Lucio backstage",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du LID mit, oder Nur für meine Augen?",
+   "a": {
+    "label": "Insel: LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "b": {
+    "label": "Insel: Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Haribo hören, oder ein Jahr nur [[BOBOBOBOBOBOOOOOOOOO]]?",
+   "a": {
+    "label": "1 Jahr nur Haribo",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Luciano",
+    "img": "artists/luciano.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "winSay": "Ohne Finger, Akh!"
+  },
+  {
+   "say": "Omar101 in der ersten Reihe, oder Samra backstage?",
+   "a": {
+    "label": "Omar101 erste Reihe",
+    "img": "artists/omar101.jpg"
+   },
+   "b": {
+    "label": "Samra backstage",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    33,
+    67
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Talahons, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+ }
+}

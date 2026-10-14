@@ -1,0 +1,151 @@
+{
+ "id": "a34",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Eine Nacht mit Lacazette, oder nie wieder Lucio hören?",
+  "a": {
+   "label": "1 Nacht mit Lacazette",
+   "img": "artists/lacazette.jpg"
+  },
+  "b": {
+   "label": "Nie wieder Lucio",
+   "img": "artists/lucio101.jpg"
+  },
+  "pct": [
+   48,
+   52
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Sommergewitter für immer löschen, oder +49 für immer löschen?",
+   "a": {
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "b": {
+    "label": "+49 löschen",
+    "img": "songs/song-plus49.jpg"
+   },
+   "pct": [
+    96,
+    4
+   ]
+  },
+  {
+   "say": "Nie wieder Karamel19 hören, oder nie wieder Kakazette hören?",
+   "a": {
+    "label": "Nie wieder Karamel19",
+    "img": "artists/karamel19.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Kakazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "pct": [
+    93,
+    7
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du 101% mit, oder Doktor?",
+   "a": {
+    "label": "Insel: 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "b": {
+    "label": "Insel: Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "pct": [
+    9,
+    91
+   ]
+  },
+  {
+   "say": "[[Luuuuuussssiiiiiooooo]] kocht für dich, oder Samra fährt dich nach Hause?",
+   "a": {
+    "label": "Lucio kocht",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Samra fährt dich",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    19,
+    81
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
+   },
+   "pct": [
+    27,
+    73
+   ]
+  },
+  {
+   "say": "[[Luuuuuussssiiiiiooooo]] als großer Bruder, oder Nizi19 als Mitbewohner?",
+   "a": {
+    "label": "Lucio als Bruder",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Nizi19 als Mitbewohner",
+    "img": "artists/nizi19.jpg"
+   },
+   "pct": [
+    27,
+    73
+   ]
+  },
+  {
+   "say": "Nur noch FTW hören, oder nur noch Wittenbergplatz?",
+   "a": {
+    "label": "Nur noch FTW",
+    "img": "songs/song-ftw.jpg"
+   },
+   "b": {
+    "label": "Nur noch Wittenbergplatz",
+    "img": "songs/song-wittenbergplatz.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "[[Kaaaaaaaaa-liiiiim]] als Lehrer, oder Pashanim als Fahrlehrer?",
+   "a": {
+    "label": "Kalim als Lehrer",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Pashanim als Fahrlehrer",
+    "img": "artists/pashanim.jpg"
+   },
+   "pct": [
+    98,
+    2
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+ }
+}

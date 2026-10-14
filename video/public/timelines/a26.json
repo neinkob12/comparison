@@ -1,0 +1,235 @@
+{
+ "id": "a26",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2435,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a26/00_hook_a.mp3",
+   "audioB": "audio/a26/00_hook_b.mp3",
+   "bAt": 68,
+   "speak": 115,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Pashanim im Fahrstuhl",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kalim im Bällebad",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "duration": 250
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a26/01_q_a.mp3",
+   "audioB": "audio/a26/01_q_b.mp3",
+   "bAt": 63,
+   "speak": 124,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim als Bruder",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 als Mitbewohner",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    54,
+    46
+   ],
+   "duration": 259
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a26/02_q_a.mp3",
+   "audioB": "audio/a26/02_q_b.mp3",
+   "bAt": 56,
+   "speak": 129,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Karamel19 kocht",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Caney030 fährt dich",
+    "img": "img/artists/caney030.jpg",
+    "emoji": null
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 264
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a26/03_q_a.mp3",
+   "audioB": "audio/a26/03_q_b.mp3",
+   "bAt": 51,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Wittenbergplatz auf Repeat",
+    "img": "img/songs/song-wittenbergplatz.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "CUP auf Repeat",
+    "img": "img/songs/song-cup.jpg",
+    "emoji": null
+   },
+   "pct": [
+    16,
+    84
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a26/04_q_a.mp3",
+   "audioB": "audio/a26/04_q_b.mp3",
+   "bAt": 71,
+   "speak": 116,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lucio als Bruder",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Lucio als Mitbewohner",
+    "img": "img/artists/luciano.jpg",
+    "emoji": null
+   },
+   "pct": [
+    3,
+    97
+   ],
+   "duration": 251
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a26/05_mid_a.mp3",
+   "audioB": "audio/a26/05_mid_b.mp3",
+   "bAt": 57,
+   "speak": 154,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "img": null,
+    "emoji": "🌳"
+   },
+   "pct": [
+    8,
+    92
+   ],
+   "duration": 289
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a26/06_q_a.mp3",
+   "audioB": "audio/a26/06_q_b.mp3",
+   "bAt": 47,
+   "speak": 85,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch FTW",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Kleiner Prinz",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    55,
+    45
+   ],
+   "duration": 220
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a26/07_q_a.mp3",
+   "audioB": "audio/a26/07_q_b.mp3",
+   "bAt": 72,
+   "speak": 105,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Insel: Mittendrin",
+    "img": "img/albums/album-mittendrin.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: Akh & Krach",
+    "img": "img/albums/album-akh-krach.jpg",
+    "emoji": null
+   },
+   "pct": [
+    84,
+    16
+   ],
+   "duration": 240
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a26/08_q_a.mp3",
+   "audioB": "audio/a26/08_q_b.mp3",
+   "bAt": 41,
+   "speak": 98,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Feature mit Haribo",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Omar101",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    52,
+    48
+   ],
+   "duration": 233
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a26/09_outro.mp3",
+   "speak": 158,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Talahons, die du kennst",
+   "duration": 203
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "id": "a04",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2487,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a04/00_hook_a.mp3",
+   "audioB": "audio/a04/00_hook_b.mp3",
+   "bAt": 50,
+   "speak": 118,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim am Abiball",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Caney030 auf der Hochzeit",
+    "img": "img/artists/caney030.jpg",
+    "emoji": null
+   },
+   "pct": [
+    51,
+    49
+   ],
+   "duration": 253
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a04/01_q_a.mp3",
+   "audioB": "audio/a04/01_q_b.mp3",
+   "bAt": 57,
+   "speak": 92,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Nizi19",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Lucio",
+    "img": "img/artists/luciano.jpg",
+    "emoji": null
+   },
+   "pct": [
+    97,
+    3
+   ],
+   "duration": 227
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a04/02_q_a.mp3",
+   "audioB": "audio/a04/02_q_b.mp3",
+   "bAt": 52,
+   "speak": 97,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "+49 auf Repeat",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "16 auf Repeat",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "pct": [
+    97,
+    3
+   ],
+   "duration": 232
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a04/03_q_a.mp3",
+   "audioB": "audio/a04/03_q_b.mp3",
+   "bAt": 50,
+   "speak": 106,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "FTW auf Repeat",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Hollywoodreif auf Repeat",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "pct": [
+    74,
+    26
+   ],
+   "duration": 241
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a04/04_q_a.mp3",
+   "audioB": "audio/a04/04_q_b.mp3",
+   "bAt": 63,
+   "speak": 128,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Ufo361 erste Reihe",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Lucio backstage",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "duration": 263
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a04/05_mid_a.mp3",
+   "audioB": "audio/a04/05_mid_b.mp3",
+   "bAt": 55,
+   "speak": 156,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "duration": 291
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a04/06_q_a.mp3",
+   "audioB": "audio/a04/06_q_b.mp3",
+   "bAt": 69,
+   "speak": 107,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Insel: LID",
+    "img": "img/albums/album-lid.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 242
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a04/07_q_a.mp3",
+   "audioB": "audio/a04/07_q_b.mp3",
+   "bAt": 65,
+   "speak": 139,
+   "gap": 90,
+   "hold": 53,
+   "a": {
+    "label": "1 Jahr nur Haribo",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Luciano",
+    "img": "img/artists/luciano.jpg",
+    "emoji": null
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "winAudio": "audio/a04/07_q_win.mp3",
+   "duration": 282
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a04/08_q_a.mp3",
+   "audioB": "audio/a04/08_q_b.mp3",
+   "bAt": 82,
+   "speak": 120,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Omar101 erste Reihe",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Samra backstage",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "pct": [
+    33,
+    67
+   ],
+   "duration": 255
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a04/09_outro.mp3",
+   "speak": 156,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Talahons, die du kennst",
+   "duration": 201
+  }
+ ]
+}

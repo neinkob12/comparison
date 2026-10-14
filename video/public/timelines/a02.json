@@ -1,0 +1,235 @@
+{
+ "id": "a02",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2430,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a02/00_hook_a.mp3",
+   "audioB": "audio/a02/00_hook_b.mp3",
+   "bAt": 50,
+   "speak": 98,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Pashanim als Stiefvater",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kakavelli als Klassenlehrer",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    7,
+    93
+   ],
+   "duration": 233
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a02/01_q_a.mp3",
+   "audioB": "audio/a02/01_q_b.mp3",
+   "bAt": 39,
+   "speak": 148,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Haribo kocht",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Lucio fährt dich",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 283
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a02/02_q_a.mp3",
+   "audioB": "audio/a02/02_q_b.mp3",
+   "bAt": 46,
+   "speak": 87,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Wittenbergplatz",
+    "img": "img/songs/song-wittenbergplatz.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Sommergewitter",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "pct": [
+    98,
+    2
+   ],
+   "duration": 222
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a02/03_q_a.mp3",
+   "audioB": "audio/a02/03_q_b.mp3",
+   "bAt": 138,
+   "speak": 198,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nur Lucio",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Karamel19",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    17,
+    83
+   ],
+   "duration": 333
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a02/04_q_a.mp3",
+   "audioB": "audio/a02/04_q_b.mp3",
+   "bAt": 42,
+   "speak": 80,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "pct": [
+    96,
+    4
+   ],
+   "duration": 215
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a02/05_mid_a.mp3",
+   "audioB": "audio/a02/05_mid_b.mp3",
+   "bAt": 53,
+   "speak": 172,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "img": null,
+    "emoji": "💘"
+   },
+   "pct": [
+    17,
+    83
+   ],
+   "duration": 307
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a02/06_q_a.mp3",
+   "audioB": "audio/a02/06_q_b.mp3",
+   "bAt": 78,
+   "speak": 102,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Insel: Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: Doktor",
+    "img": "img/albums/album-doktor.jpg",
+    "emoji": null
+   },
+   "pct": [
+    94,
+    6
+   ],
+   "duration": 237
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a02/07_q_a.mp3",
+   "audioB": "audio/a02/07_q_b.mp3",
+   "bAt": 41,
+   "speak": 78,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Makko",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "duration": 213
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a02/08_q_a.mp3",
+   "audioB": "audio/a02/08_q_b.mp3",
+   "bAt": 38,
+   "speak": 78,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Hier",
+    "img": "img/songs/song-hier.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch FTW",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "pct": [
+    91,
+    9
+   ],
+   "duration": 213
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a02/09_outro.mp3",
+   "speak": 129,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Teile das Video mit deinen Akhs",
+   "duration": 174
+  }
+ ]
+}

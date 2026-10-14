@@ -1,0 +1,151 @@
+{
+ "id": "a36",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Eine Nacht mit Kalim, oder nie wieder Ufo187 hören?",
+  "a": {
+   "label": "1 Nacht mit Kalim",
+   "img": "artists/kalim.jpg"
+  },
+  "b": {
+   "label": "Nie wieder Ufo187",
+   "img": "artists/ufo361.jpg"
+  },
+  "pct": [
+   98,
+   2
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "16 für immer löschen, oder Kleiner Prinz für immer löschen?",
+   "a": {
+    "label": "16 löschen",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Kleiner Prinz löschen",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "pct": [
+    91,
+    9
+   ]
+  },
+  {
+   "say": "Nie wieder [[Lussssssiiiiiiiooooooooo]] hören, oder nie wieder Lacazette hören?",
+   "a": {
+    "label": "Nie wieder Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "pct": [
+    5,
+    95
+   ]
+  },
+  {
+   "say": "Ein Tag mit Makko, oder ein Tag mit Zackavelli?",
+   "a": {
+    "label": "1 Tag mit Makko",
+    "img": "artists/makko.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Zackavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    1,
+    99
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du Doktor mit, oder Akh & Krach?",
+   "a": {
+    "label": "Insel: Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "b": {
+    "label": "Insel: Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "pct": [
+    91,
+    9
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
+   },
+   "pct": [
+    17,
+    83
+   ]
+  },
+  {
+   "say": "+49 für immer löschen, oder CUP für immer löschen?",
+   "a": {
+    "label": "+49 löschen",
+    "img": "songs/song-plus49.jpg"
+   },
+   "b": {
+    "label": "CUP löschen",
+    "img": "songs/song-cup.jpg"
+   },
+   "pct": [
+    27,
+    73
+   ]
+  },
+  {
+   "say": "Nizi19 als großer Bruder, oder Caney030 als Mitbewohner?",
+   "a": {
+    "label": "Nizi19 als Bruder",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Caney030 als Mitbewohner",
+    "img": "artists/caney030.jpg"
+   },
+   "pct": [
+    99,
+    1
+   ]
+  },
+  {
+   "say": "Nie wieder [[Nisssssiiiiiijaaaaaaa]] hören, oder nie wieder Omar101 hören?",
+   "a": {
+    "label": "Nie wieder Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Omar101",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+ }
+}

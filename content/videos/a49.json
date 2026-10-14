@@ -1,0 +1,151 @@
+{
+ "id": "a49",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Eine Nacht mit Souly, oder nie wieder Luciano hören?",
+  "a": {
+   "label": "1 Nacht mit Souly",
+   "img": "artists/souly.jpg"
+  },
+  "b": {
+   "label": "Nie wieder Luciano",
+   "img": "artists/luciano.jpg"
+  },
+  "pct": [
+   9,
+   91
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nur noch CUP hören, oder nur noch Hier?",
+   "a": {
+    "label": "Nur noch CUP",
+    "img": "songs/song-cup.jpg"
+   },
+   "b": {
+    "label": "Nur noch Hier",
+    "img": "songs/song-hier.jpg"
+   },
+   "pct": [
+    99,
+    1
+   ]
+  },
+  {
+   "say": "Nizi19 kocht für dich, oder Omar101 fährt dich nach Hause?",
+   "a": {
+    "label": "Nizi19 kocht",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Omar101 fährt dich",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    99,
+    1
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du 101% mit, oder Doktor?",
+   "a": {
+    "label": "Insel: 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "b": {
+    "label": "Insel: Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "pct": [
+    68,
+    32
+   ]
+  },
+  {
+   "say": "Nur noch 16 hören, oder nur noch Kleiner Prinz?",
+   "a": {
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Nur noch Kleiner Prinz",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "pct": [
+    54,
+    46
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "Lacazette in der ersten Reihe, oder [[Lussssssiiiiiiiooooooooo]] backstage?",
+   "a": {
+    "label": "Lacazette erste Reihe",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Lucio backstage",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    70,
+    30
+   ]
+  },
+  {
+   "say": "Lacazette als großer Bruder, oder Masi als Mitbewohner?",
+   "a": {
+    "label": "Lacazette als Bruder",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Masi als Mitbewohner",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    98,
+    2
+   ]
+  },
+  {
+   "say": "Ein Feature mit [[Nisssssiiiiiijaaaaaaa]], oder ein Feature mit [[Lussssssiiiiiiiooooooooo]]?",
+   "a": {
+    "label": "Feature mit Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Feature mit Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    91,
+    9
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Stoner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Stoner, die du kennst!"
+ }
+}

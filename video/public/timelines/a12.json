@@ -1,0 +1,235 @@
+{
+ "id": "a12",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2411,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a12/00_hook_a.mp3",
+   "audioB": "audio/a12/00_hook_b.mp3",
+   "bAt": 50,
+   "speak": 113,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lucio als Stiefvater",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Karamel19 als Klassenlehrer",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 248
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/01_q_a.mp3",
+   "audioB": "audio/a12/01_q_b.mp3",
+   "bAt": 41,
+   "speak": 96,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Luciano",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Ufo361",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    78,
+    22
+   ],
+   "duration": 231
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/02_q_a.mp3",
+   "audioB": "audio/a12/02_q_b.mp3",
+   "bAt": 54,
+   "speak": 105,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Free Game",
+    "img": "img/albums/album-free-game.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "pct": [
+    68,
+    32
+   ],
+   "duration": 240
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/03_q_a.mp3",
+   "audioB": "audio/a12/03_q_b.mp3",
+   "bAt": 83,
+   "speak": 137,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kalim fährt dich",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    68,
+    32
+   ],
+   "duration": 272
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/04_q_a.mp3",
+   "audioB": "audio/a12/04_q_b.mp3",
+   "bAt": 44,
+   "speak": 104,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 als Lehrer",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Karamel19 als Fahrlehrer",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "duration": 239
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a12/05_mid_a.mp3",
+   "audioB": "audio/a12/05_mid_b.mp3",
+   "bAt": 53,
+   "speak": 148,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "img": null,
+    "emoji": "🌳"
+   },
+   "pct": [
+    69,
+    31
+   ],
+   "duration": 283
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/06_q_a.mp3",
+   "audioB": "audio/a12/06_q_b.mp3",
+   "bAt": 48,
+   "speak": 102,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Hollywoodreif löschen",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "duration": 237
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/07_q_a.mp3",
+   "audioB": "audio/a12/07_q_b.mp3",
+   "bAt": 38,
+   "speak": 82,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Hier",
+    "img": "img/songs/song-hier.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch +49",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "pct": [
+    20,
+    80
+   ],
+   "duration": 217
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/08_q_a.mp3",
+   "audioB": "audio/a12/08_q_b.mp3",
+   "bAt": 50,
+   "speak": 100,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Zackavelli erste Reihe",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Mucco backstage",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "pct": [
+    19,
+    81
+   ],
+   "duration": 235
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a12/09_outro.mp3",
+   "speak": 164,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "duration": 209
+  }
+ ]
+}

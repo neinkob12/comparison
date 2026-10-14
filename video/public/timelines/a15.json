@@ -1,0 +1,235 @@
+{
+ "id": "a15",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2431,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a15/00_hook_a.mp3",
+   "audioB": "audio/a15/00_hook_b.mp3",
+   "bAt": 61,
+   "speak": 112,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kakazette im Fahrstuhl",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Zackavelli im Bällebad",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    75,
+    25
+   ],
+   "duration": 247
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a15/01_q_a.mp3",
+   "audioB": "audio/a15/01_q_b.mp3",
+   "bAt": 46,
+   "speak": 86,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Sommergewitter",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Hollywoodreif",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "pct": [
+    7,
+    93
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a15/02_q_a.mp3",
+   "audioB": "audio/a15/02_q_b.mp3",
+   "bAt": 39,
+   "speak": 70,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch 16",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Hier",
+    "img": "img/songs/song-hier.jpg",
+    "emoji": null
+   },
+   "pct": [
+    4,
+    96
+   ],
+   "duration": 205
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a15/03_q_a.mp3",
+   "audioB": "audio/a15/03_q_b.mp3",
+   "bAt": 73,
+   "speak": 118,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch 1019",
+    "img": "img/albums/album-1019.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Akh & Krach",
+    "img": "img/albums/album-akh-krach.jpg",
+    "emoji": null
+   },
+   "pct": [
+    70,
+    30
+   ],
+   "duration": 253
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a15/04_q_a.mp3",
+   "audioB": "audio/a15/04_q_b.mp3",
+   "bAt": 77,
+   "speak": 170,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim kocht",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Lucio fährt dich",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    4,
+    96
+   ],
+   "duration": 305
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a15/05_mid_a.mp3",
+   "audioB": "audio/a15/05_mid_b.mp3",
+   "bAt": 55,
+   "speak": 170,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "img": null,
+    "emoji": "💘"
+   },
+   "pct": [
+    91,
+    9
+   ],
+   "duration": 305
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a15/06_q_a.mp3",
+   "audioB": "audio/a15/06_q_b.mp3",
+   "bAt": 43,
+   "speak": 80,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim als Bruder",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Souly als Mitbewohner",
+    "img": "img/artists/souly.jpg",
+    "emoji": null
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "duration": 215
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a15/07_q_a.mp3",
+   "audioB": "audio/a15/07_q_b.mp3",
+   "bAt": 43,
+   "speak": 101,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim als Bruder",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Karamel19 als Mitbewohner",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    69,
+    31
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a15/08_q_a.mp3",
+   "audioB": "audio/a15/08_q_b.mp3",
+   "bAt": 63,
+   "speak": 100,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nur Haribo",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Samra",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "duration": 235
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a15/09_outro.mp3",
+   "speak": 164,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Talahons, die du kennst",
+   "duration": 209
+  }
+ ]
+}

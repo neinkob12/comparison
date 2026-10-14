@@ -1,0 +1,151 @@
+{
+ "id": "a07",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Kalim liest deine Chats, oder Zackavelli sieht deinen Suchverlauf?",
+  "a": {
+   "label": "Kalim liest deine Chats",
+   "img": "artists/kalim.jpg"
+  },
+  "b": {
+   "label": "Zackavelli sieht deinen Verlauf",
+   "img": "artists/zackavelli.jpg"
+  },
+  "pct": [
+   96,
+   4
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Luciano als großer Bruder, oder Zackavelli als Mitbewohner?",
+   "a": {
+    "label": "Luciano als Bruder",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Zackavelli als Mitbewohner",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    80,
+    20
+   ]
+  },
+  {
+   "say": "Nur noch Wittenbergplatz hören, oder nur noch Kleiner Prinz?",
+   "a": {
+    "label": "Nur noch Wittenbergplatz",
+    "img": "songs/song-wittenbergplatz.jpg"
+   },
+   "b": {
+    "label": "Nur noch Kleiner Prinz",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "say": "[[Niiiiiiiisssssiiiii]] in der ersten Reihe, oder Karamel19 backstage?",
+   "a": {
+    "label": "Nizi19 erste Reihe",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Karamel19 backstage",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    6,
+    94
+   ]
+  },
+  {
+   "say": "16 für immer löschen, oder Hollywoodreif für immer löschen?",
+   "a": {
+    "label": "16 löschen",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
+   },
+   "pct": [
+    8,
+    92
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du LID mit, oder Mittendrin?",
+   "a": {
+    "label": "Insel: LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "b": {
+    "label": "Insel: Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
+   },
+   "pct": [
+    73,
+    27
+   ]
+  },
+  {
+   "say": "Haribo als Lehrer, oder Nizi19 als Fahrlehrer?",
+   "a": {
+    "label": "Haribo als Lehrer",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Nizi19 als Fahrlehrer",
+    "img": "artists/nizi19.jpg"
+   },
+   "pct": [
+    32,
+    68
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur [[Kaaaaaaaaa-liiiiim]] hören, oder ein Jahr nur Pashanim?",
+   "a": {
+    "label": "1 Jahr nur Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "pct": [
+    5,
+    95
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Teile das Video mit deinen Akhs",
+  "shareSay": "Und teile das Video mit deinen Akhs!"
+ }
+}

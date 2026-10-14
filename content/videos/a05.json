@@ -1,0 +1,151 @@
+{
+ "id": "a05",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "24 Stunden mit Pashanim im Fahrstuhl, oder mit Mucco im Bällebad?",
+  "a": {
+   "label": "Pashanim im Fahrstuhl",
+   "img": "artists/pashanim.jpg"
+  },
+  "b": {
+   "label": "Mucco im Bällebad",
+   "img": "artists/mucco.jpg"
+  },
+  "pct": [
+   3,
+   97
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Würdest du eher ein Jahr nur [[Lussssssiiiiiiiooooooooo]] hören, oder ein Jahr nur Samra?",
+   "a": {
+    "label": "1 Jahr nur Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Samra",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    91,
+    9
+   ]
+  },
+  {
+   "say": "Ein Tag mit Mucco, oder ein Tag mit Kalim?",
+   "a": {
+    "label": "1 Tag mit Mucco",
+    "img": "artists/mucco.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    79,
+    21
+   ]
+  },
+  {
+   "say": "FTW für immer löschen, oder Wittenbergplatz für immer löschen?",
+   "a": {
+    "label": "FTW löschen",
+    "img": "songs/song-ftw.jpg"
+   },
+   "b": {
+    "label": "Wittenbergplatz löschen",
+    "img": "songs/song-wittenbergplatz.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "say": "Nur noch das Album Doktor hören, oder nur noch Akh & Krach?",
+   "a": {
+    "label": "Nur noch Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "b": {
+    "label": "Nur noch Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    15,
+    85
+   ]
+  },
+  {
+   "say": "Hier für immer löschen, oder Sommergewitter für immer löschen?",
+   "a": {
+    "label": "Hier löschen",
+    "img": "songs/song-hier.jpg"
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    1,
+    99
+   ]
+  },
+  {
+   "say": "Nie wieder Yuyu hören, oder nie wieder Zackavelli hören?",
+   "a": {
+    "label": "Nie wieder Yuyu",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Zackavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur [[Lussssssiiiiiiiooooooooo]] hören, oder ein Jahr nur Kalim?",
+   "a": {
+    "label": "1 Jahr nur Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Stoner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Stoner, die du kennst!"
+ }
+}

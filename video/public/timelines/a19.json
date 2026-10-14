@@ -1,0 +1,235 @@
+{
+ "id": "a19",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2432,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a19/00_hook_a.mp3",
+   "audioB": "audio/a19/00_hook_b.mp3",
+   "bAt": 47,
+   "speak": 98,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lucio als Stiefvater",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Lacazette als Klassenlehrer",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 233
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a19/01_q_a.mp3",
+   "audioB": "audio/a19/01_q_b.mp3",
+   "bAt": 79,
+   "speak": 141,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Haribo erste Reihe",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Ufo187 backstage",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    24,
+    76
+   ],
+   "duration": 276
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a19/02_q_a.mp3",
+   "audioB": "audio/a19/02_q_b.mp3",
+   "bAt": 76,
+   "speak": 117,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch LID",
+    "img": "img/albums/album-lid.jpg",
+    "emoji": null
+   },
+   "pct": [
+    52,
+    48
+   ],
+   "duration": 252
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a19/03_q_a.mp3",
+   "audioB": "audio/a19/03_q_b.mp3",
+   "bAt": 46,
+   "speak": 93,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette als Bruder",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Haribo als Mitbewohner",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    96,
+    4
+   ],
+   "duration": 228
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a19/04_q_a.mp3",
+   "audioB": "audio/a19/04_q_b.mp3",
+   "bAt": 49,
+   "speak": 87,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Kleiner Prinz",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Hollywoodreif",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "pct": [
+    69,
+    31
+   ],
+   "duration": 222
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a19/05_mid_a.mp3",
+   "audioB": "audio/a19/05_mid_b.mp3",
+   "bAt": 53,
+   "speak": 166,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "duration": 301
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a19/06_q_a.mp3",
+   "audioB": "audio/a19/06_q_b.mp3",
+   "bAt": 39,
+   "speak": 94,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "CUP auf Repeat",
+    "img": "img/songs/song-cup.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "+49 auf Repeat",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "pct": [
+    51,
+    49
+   ],
+   "duration": 229
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a19/07_q_a.mp3",
+   "audioB": "audio/a19/07_q_b.mp3",
+   "bAt": 34,
+   "speak": 85,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Mucco kocht",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Samra fährt dich",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "pct": [
+    92,
+    8
+   ],
+   "duration": 220
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a19/08_q_a.mp3",
+   "audioB": "audio/a19/08_q_b.mp3",
+   "bAt": 69,
+   "speak": 135,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim kocht",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 fährt dich",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    91,
+    9
+   ],
+   "duration": 270
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a19/09_outro.mp3",
+   "speak": 156,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Stoner, die du kennst",
+   "duration": 201
+  }
+ ]
+}

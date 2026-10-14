@@ -1,0 +1,151 @@
+{
+ "id": "a11",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Nizi19 wird dein Stiefvater, oder Karamel19 dein Klassenlehrer?",
+  "a": {
+   "label": "Nizi19 als Stiefvater",
+   "img": "artists/nizi19.jpg"
+  },
+  "b": {
+   "label": "Karamel19 als Klassenlehrer",
+   "img": "artists/karamel19.jpg"
+  },
+  "pct": [
+   24,
+   76
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Cano030 in der ersten Reihe, oder Omar101 backstage?",
+   "a": {
+    "label": "Cano030 erste Reihe",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Omar101 backstage",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    8,
+    92
+   ]
+  },
+  {
+   "say": "[[BOBOBOBOBOBOOOOOOOOO]] als Lehrer, oder Samra als Fahrlehrer?",
+   "a": {
+    "label": "Luciano als Lehrer",
+    "img": "artists/luciano.jpg"
+   },
+   "b": {
+    "label": "Samra als Fahrlehrer",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    6,
+    94
+   ]
+  },
+  {
+   "say": "Nur noch das Album Mittendrin hören, oder nur noch Doktor?",
+   "a": {
+    "label": "Nur noch Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
+   },
+   "b": {
+    "label": "Nur noch Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "pct": [
+    3,
+    97
+   ]
+  },
+  {
+   "say": "Ein Feature mit Makko, oder ein Feature mit Lacazette?",
+   "a": {
+    "label": "Feature mit Makko",
+    "img": "artists/makko.jpg"
+   },
+   "b": {
+    "label": "Feature mit Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "pct": [
+    95,
+    5
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
+   },
+   "pct": [
+    48,
+    52
+   ]
+  },
+  {
+   "say": "FTW für immer löschen, oder Hollywoodreif für immer löschen?",
+   "a": {
+    "label": "FTW löschen",
+    "img": "songs/song-ftw.jpg"
+   },
+   "b": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "pct": [
+    1,
+    99
+   ]
+  },
+  {
+   "say": "[[Lakaaaaaaasetttttttt]] kocht für dich, oder Souly fährt dich nach Hause?",
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Souly fährt dich",
+    "img": "artists/souly.jpg"
+   },
+   "pct": [
+    22,
+    78
+   ]
+  },
+  {
+   "say": "Sommergewitter auf Dauerschleife, oder Kleiner Prinz auf Dauerschleife?",
+   "a": {
+    "label": "Sommergewitter auf Repeat",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "b": {
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "pct": [
+    3,
+    97
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+ }
+}

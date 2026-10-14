@@ -1,0 +1,151 @@
+{
+ "id": "a38",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Eine Nacht mit Kakazette, oder nie wieder Pashanim hören?",
+  "a": {
+   "label": "1 Nacht mit Kakazette",
+   "img": "artists/lacazette.jpg"
+  },
+  "b": {
+   "label": "Nie wieder Pashanim",
+   "img": "artists/pashanim.jpg"
+  },
+  "pct": [
+   70,
+   30
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nizi19 als Lehrer, oder Makko als Fahrlehrer?",
+   "a": {
+    "label": "Nizi19 als Lehrer",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Makko als Fahrlehrer",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    19,
+    81
+   ]
+  },
+  {
+   "say": "Hier für immer löschen, oder Hollywoodreif für immer löschen?",
+   "a": {
+    "label": "Hier löschen",
+    "img": "songs/song-hier.jpg"
+   },
+   "b": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "pct": [
+    80,
+    20
+   ]
+  },
+  {
+   "say": "Ein Feature mit Nizi19, oder ein Feature mit Souly?",
+   "a": {
+    "label": "Feature mit Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Feature mit Souly",
+    "img": "artists/souly.jpg"
+   },
+   "pct": [
+    49,
+    51
+   ]
+  },
+  {
+   "say": "Kalim als Lehrer, oder Mucco als Fahrlehrer?",
+   "a": {
+    "label": "Kalim als Lehrer",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Mucco als Fahrlehrer",
+    "img": "artists/mucco.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
+   },
+   "pct": [
+    8,
+    92
+   ]
+  },
+  {
+   "say": "Nur noch das Album Nur für meine Augen hören, oder nur noch 101%?",
+   "a": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
+   },
+   "b": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "pct": [
+    1,
+    99
+   ]
+  },
+  {
+   "say": "[[Lussssssiiiiiiiooooooooo]] als großer Bruder, oder [[Nisssssiiiiiijaaaaaaa]] als Mitbewohner?",
+   "a": {
+    "label": "Lucio als Bruder",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Nizi19 als Mitbewohner",
+    "img": "artists/nizi19.jpg"
+   },
+   "pct": [
+    52,
+    48
+   ]
+  },
+  {
+   "say": "Kleiner Prinz für immer löschen, oder Sommergewitter für immer löschen?",
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    69,
+    31
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+ }
+}

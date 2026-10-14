@@ -1,0 +1,151 @@
+{
+ "id": "a35",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Souly liest deine Chats, oder Lacazette sieht deinen Suchverlauf?",
+  "a": {
+   "label": "Souly liest deine Chats",
+   "img": "artists/souly.jpg"
+  },
+  "b": {
+   "label": "Lacazette sieht deinen Verlauf",
+   "img": "artists/lacazette.jpg"
+  },
+  "pct": [
+   15,
+   85
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nur noch das Album LID hören, oder nur noch 101%?",
+   "a": {
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "b": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "[[Luuuuuussssiiiiiooooo]] in der ersten Reihe, oder Kalim backstage?",
+   "a": {
+    "label": "Lucio erste Reihe",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Kalim backstage",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    4,
+    96
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Nils Zimmermann hören, oder ein Jahr nur Karamel19?",
+   "a": {
+    "label": "1 Jahr nur Nils Zimmermann",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Karamel19",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    95,
+    5
+   ]
+  },
+  {
+   "say": "[[Lussssssiiiiiiiooooooooo]] kocht für dich, oder Karamel19 fährt dich nach Hause?",
+   "a": {
+    "label": "Lucio kocht",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Karamel19 fährt dich",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    66,
+    34
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
+   },
+   "pct": [
+    35,
+    65
+   ]
+  },
+  {
+   "say": "Nie wieder Pashanim hören, oder nie wieder Kalim hören?",
+   "a": {
+    "label": "Nie wieder Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    51,
+    49
+   ]
+  },
+  {
+   "say": "Superkraft für immer löschen, oder Hier für immer löschen?",
+   "a": {
+    "label": "Superkraft löschen",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "b": {
+    "label": "Hier löschen",
+    "img": "songs/song-hier.jpg"
+   },
+   "pct": [
+    72,
+    28
+   ]
+  },
+  {
+   "say": "Sommergewitter für immer löschen, oder CUP für immer löschen?",
+   "a": {
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "b": {
+    "label": "CUP löschen",
+    "img": "songs/song-cup.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+ }
+}

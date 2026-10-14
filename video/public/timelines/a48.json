@@ -1,0 +1,235 @@
+{
+ "id": "a48",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2429,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a48/00_hook_a.mp3",
+   "audioB": "audio/a48/00_hook_b.mp3",
+   "bAt": 42,
+   "speak": 86,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Nacht mit Luciano",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Haribo",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    54,
+    46
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a48/01_q_a.mp3",
+   "audioB": "audio/a48/01_q_b.mp3",
+   "bAt": 84,
+   "speak": 140,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch 101%",
+    "img": "img/albums/album-101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch 1019",
+    "img": "img/albums/album-1019.jpg",
+    "emoji": null
+   },
+   "pct": [
+    1,
+    99
+   ],
+   "duration": 275
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a48/02_q_a.mp3",
+   "audioB": "audio/a48/02_q_b.mp3",
+   "bAt": 51,
+   "speak": 80,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Wittenbergplatz",
+    "img": "img/songs/song-wittenbergplatz.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch CUP",
+    "img": "img/songs/song-cup.jpg",
+    "emoji": null
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "duration": 215
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a48/03_q_a.mp3",
+   "audioB": "audio/a48/03_q_b.mp3",
+   "bAt": 52,
+   "speak": 104,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "+49 auf Repeat",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "FTW auf Repeat",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "pct": [
+    2,
+    98
+   ],
+   "duration": 239
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a48/04_q_a.mp3",
+   "audioB": "audio/a48/04_q_b.mp3",
+   "bAt": 35,
+   "speak": 113,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Mucco kocht",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Pashanim fährt dich",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "duration": 248
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a48/05_mid_a.mp3",
+   "audioB": "audio/a48/05_mid_b.mp3",
+   "bAt": 57,
+   "speak": 170,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "img": null,
+    "emoji": "💘"
+   },
+   "pct": [
+    96,
+    4
+   ],
+   "duration": 305
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a48/06_q_a.mp3",
+   "audioB": "audio/a48/06_q_b.mp3",
+   "bAt": 68,
+   "speak": 144,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Nizi19",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Karamel19",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    72,
+    28
+   ],
+   "duration": 279
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a48/07_q_a.mp3",
+   "audioB": "audio/a48/07_q_b.mp3",
+   "bAt": 42,
+   "speak": 93,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Souly erste Reihe",
+    "img": "img/artists/souly.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 backstage",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    98,
+    2
+   ],
+   "duration": 228
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a48/08_q_a.mp3",
+   "audioB": "audio/a48/08_q_b.mp3",
+   "bAt": 47,
+   "speak": 84,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Haribo erste Reihe",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Makko backstage",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "duration": 219
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a48/09_outro.mp3",
+   "speak": 155,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Ottos, die du kennst",
+   "duration": 200
+  }
+ ]
+}

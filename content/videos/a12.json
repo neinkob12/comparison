@@ -1,0 +1,151 @@
+{
+ "id": "a12",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Lucio wird dein Stiefvater, oder Karamel19 dein Klassenlehrer?",
+  "a": {
+   "label": "Lucio als Stiefvater",
+   "img": "artists/lucio101.jpg"
+  },
+  "b": {
+   "label": "Karamel19 als Klassenlehrer",
+   "img": "artists/karamel19.jpg"
+  },
+  "pct": [
+   44,
+   56
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Ein Tag mit Luciano, oder ein Tag mit Ufo361?",
+   "a": {
+    "label": "1 Tag mit Luciano",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Ufo361",
+    "img": "artists/ufo361.jpg"
+   },
+   "pct": [
+    78,
+    22
+   ]
+  },
+  {
+   "say": "Nur noch das Album Free Game hören, oder nur noch Nur für meine Augen?",
+   "a": {
+    "label": "Nur noch Free Game",
+    "img": "albums/album-free-game.jpg"
+   },
+   "b": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
+   },
+   "pct": [
+    68,
+    32
+   ]
+  },
+  {
+   "say": "[[Lakaaaaaaasetttttttt]] kocht für dich, oder Kalim fährt dich nach Hause?",
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Kalim fährt dich",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    68,
+    32
+   ]
+  },
+  {
+   "say": "Nizi19 als Lehrer, oder Karamel19 als Fahrlehrer?",
+   "a": {
+    "label": "Nizi19 als Lehrer",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Karamel19 als Fahrlehrer",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
+   },
+   "pct": [
+    69,
+    31
+   ]
+  },
+  {
+   "say": "Hollywoodreif für immer löschen, oder Sommergewitter für immer löschen?",
+   "a": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  },
+  {
+   "say": "Nur noch Hier hören, oder nur noch +49?",
+   "a": {
+    "label": "Nur noch Hier",
+    "img": "songs/song-hier.jpg"
+   },
+   "b": {
+    "label": "Nur noch +49",
+    "img": "songs/song-plus49.jpg"
+   },
+   "pct": [
+    20,
+    80
+   ]
+  },
+  {
+   "say": "Zackavelli in der ersten Reihe, oder [[Muuuuuutschoooooo]] backstage?",
+   "a": {
+    "label": "Zackavelli erste Reihe",
+    "img": "artists/zackavelli.jpg"
+   },
+   "b": {
+    "label": "Mucco backstage",
+    "img": "artists/mucco.jpg"
+   },
+   "pct": [
+    19,
+    81
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Gooner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
+ }
+}

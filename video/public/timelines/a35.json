@@ -1,0 +1,235 @@
+{
+ "id": "a35",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2437,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a35/00_hook_a.mp3",
+   "audioB": "audio/a35/00_hook_b.mp3",
+   "bAt": 39,
+   "speak": 94,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Souly liest deine Chats",
+    "img": "img/artists/souly.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Lacazette sieht deinen Verlauf",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "pct": [
+    15,
+    85
+   ],
+   "duration": 229
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a35/01_q_a.mp3",
+   "audioB": "audio/a35/01_q_b.mp3",
+   "bAt": 59,
+   "speak": 115,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch LID",
+    "img": "img/albums/album-lid.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch 101%",
+    "img": "img/albums/album-101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    97,
+    3
+   ],
+   "duration": 250
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a35/02_q_a.mp3",
+   "audioB": "audio/a35/02_q_b.mp3",
+   "bAt": 81,
+   "speak": 121,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lucio erste Reihe",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kalim backstage",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    4,
+    96
+   ],
+   "duration": 256
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a35/03_q_a.mp3",
+   "audioB": "audio/a35/03_q_b.mp3",
+   "bAt": 81,
+   "speak": 136,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nur Nils Zimmermann",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Karamel19",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    95,
+    5
+   ],
+   "duration": 271
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a35/04_q_a.mp3",
+   "audioB": "audio/a35/04_q_b.mp3",
+   "bAt": 67,
+   "speak": 129,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lucio kocht",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Karamel19 fährt dich",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    66,
+    34
+   ],
+   "duration": 264
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a35/05_mid_a.mp3",
+   "audioB": "audio/a35/05_mid_b.mp3",
+   "bAt": 57,
+   "speak": 151,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    35,
+    65
+   ],
+   "duration": 286
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a35/06_q_a.mp3",
+   "audioB": "audio/a35/06_q_b.mp3",
+   "bAt": 43,
+   "speak": 86,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    51,
+    49
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a35/07_q_a.mp3",
+   "audioB": "audio/a35/07_q_b.mp3",
+   "bAt": 46,
+   "speak": 83,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Superkraft löschen",
+    "img": "img/songs/song-superkraft.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Hier löschen",
+    "img": "img/songs/song-hier.jpg",
+    "emoji": null
+   },
+   "pct": [
+    72,
+    28
+   ],
+   "duration": 218
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a35/08_q_a.mp3",
+   "audioB": "audio/a35/08_q_b.mp3",
+   "bAt": 50,
+   "speak": 87,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Sommergewitter löschen",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "CUP löschen",
+    "img": "img/songs/song-cup.jpg",
+    "emoji": null
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "duration": 222
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a35/09_outro.mp3",
+   "speak": 175,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+   "duration": 220
+  }
+ ]
+}

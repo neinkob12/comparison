@@ -1,0 +1,153 @@
+{
+ "id": "a32",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Haribo wird dein Stiefvater, oder Karamel19 dein Klassenlehrer?",
+  "a": {
+   "label": "Haribo als Stiefvater",
+   "img": "artists/yuyu19.jpg"
+  },
+  "b": {
+   "label": "Karamel19 als Klassenlehrer",
+   "img": "artists/karamel19.jpg"
+  },
+  "pct": [
+   78,
+   22
+  ],
+  "winSay": "Ohne Finger, Akh!",
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Hier auf Dauerschleife, oder 16 auf Dauerschleife?",
+   "a": {
+    "label": "Hier auf Repeat",
+    "img": "songs/song-hier.jpg"
+   },
+   "b": {
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Nie wieder Pashanim hören, oder nie wieder Lacazette hören?",
+   "a": {
+    "label": "Nie wieder Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "pct": [
+    49,
+    51
+   ]
+  },
+  {
+   "say": "Pashanim in der ersten Reihe, oder [[Kaaaaaaaaa-liiiiim]] backstage?",
+   "a": {
+    "label": "Pashanim erste Reihe",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Kalim backstage",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    7,
+    93
+   ]
+  },
+  {
+   "say": "Nur noch das Album LID hören, oder nur noch 1019?",
+   "a": {
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "b": {
+    "label": "Nur noch 1019",
+    "img": "albums/album-1019.jpg"
+   },
+   "pct": [
+    92,
+    8
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
+   },
+   "pct": [
+    51,
+    49
+   ]
+  },
+  {
+   "say": "Kleiner Prinz für immer löschen, oder Wittenbergplatz für immer löschen?",
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "b": {
+    "label": "Wittenbergplatz löschen",
+    "img": "songs/song-wittenbergplatz.jpg"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Yuyu hören, oder ein Jahr nur Nizi19?",
+   "a": {
+    "label": "1 Jahr nur Yuyu",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "pct": [
+    98,
+    2
+   ],
+   "winSay": "Ohne Finger, Akh!"
+  },
+  {
+   "say": "[[Lakaaaaaaasetttttttt]] in der ersten Reihe, oder Nizi19 backstage?",
+   "a": {
+    "label": "Lacazette erste Reihe",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Nizi19 backstage",
+    "img": "artists/nizi19.jpg"
+   },
+   "pct": [
+    96,
+    4
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+ }
+}

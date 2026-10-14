@@ -1,0 +1,235 @@
+{
+ "id": "a38",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2380,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a38/00_hook_a.mp3",
+   "audioB": "audio/a38/00_hook_b.mp3",
+   "bAt": 40,
+   "speak": 92,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Nacht mit Kakazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    70,
+    30
+   ],
+   "duration": 227
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a38/01_q_a.mp3",
+   "audioB": "audio/a38/01_q_b.mp3",
+   "bAt": 45,
+   "speak": 86,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 als Lehrer",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Makko als Fahrlehrer",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "pct": [
+    19,
+    81
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a38/02_q_a.mp3",
+   "audioB": "audio/a38/02_q_b.mp3",
+   "bAt": 36,
+   "speak": 87,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Hier löschen",
+    "img": "img/songs/song-hier.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Hollywoodreif löschen",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "pct": [
+    80,
+    20
+   ],
+   "duration": 222
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a38/03_q_a.mp3",
+   "audioB": "audio/a38/03_q_b.mp3",
+   "bAt": 52,
+   "speak": 96,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Feature mit Nizi19",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Souly",
+    "img": "img/artists/souly.jpg",
+    "emoji": null
+   },
+   "pct": [
+    49,
+    51
+   ],
+   "duration": 231
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a38/04_q_a.mp3",
+   "audioB": "audio/a38/04_q_b.mp3",
+   "bAt": 39,
+   "speak": 77,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim als Lehrer",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Mucco als Fahrlehrer",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "duration": 212
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a38/05_mid_a.mp3",
+   "audioB": "audio/a38/05_mid_b.mp3",
+   "bAt": 59,
+   "speak": 150,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "img": null,
+    "emoji": "💌"
+   },
+   "pct": [
+    8,
+    92
+   ],
+   "duration": 285
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a38/06_q_a.mp3",
+   "audioB": "audio/a38/06_q_b.mp3",
+   "bAt": 71,
+   "speak": 129,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch 101%",
+    "img": "img/albums/album-101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    1,
+    99
+   ],
+   "duration": 264
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a38/07_q_a.mp3",
+   "audioB": "audio/a38/07_q_b.mp3",
+   "bAt": 79,
+   "speak": 153,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lucio als Bruder",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nizi19 als Mitbewohner",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    52,
+    48
+   ],
+   "duration": 288
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a38/08_q_a.mp3",
+   "audioB": "audio/a38/08_q_b.mp3",
+   "bAt": 48,
+   "speak": 99,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "pct": [
+    69,
+    31
+   ],
+   "duration": 234
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a38/09_outro.mp3",
+   "speak": 151,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Ottos, die du kennst",
+   "duration": 196
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "id": "a24",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "24 Stunden mit Zackavelli im Fahrstuhl, oder mit Samra im Bällebad?",
+  "a": {
+   "label": "Zackavelli im Fahrstuhl",
+   "img": "artists/zackavelli.jpg"
+  },
+  "b": {
+   "label": "Samra im Bällebad",
+   "img": "artists/samra.jpg"
+  },
+  "pct": [
+   27,
+   73
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nur noch Hollywoodreif hören, oder nur noch Sommergewitter?",
+   "a": {
+    "label": "Nur noch Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Nur noch Sommergewitter",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    85,
+    15
+   ]
+  },
+  {
+   "say": "Nie wieder Kalim hören, oder nie wieder Samra hören?",
+   "a": {
+    "label": "Nie wieder Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Samra",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  },
+  {
+   "say": "Ein Tag mit Pashanim, oder ein Tag mit Karamel19?",
+   "a": {
+    "label": "1 Tag mit Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Karamel19",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    96,
+    4
+   ]
+  },
+  {
+   "say": "Ein Tag mit [[Nisssssiiiiiijaaaaaaa]], oder ein Tag mit [[Lussiaaaaaaaaanoooooo]]?",
+   "a": {
+    "label": "1 Tag mit Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Luciano",
+    "img": "artists/luciano.jpg"
+   },
+   "pct": [
+    25,
+    75
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
+   },
+   "pct": [
+    18,
+    82
+   ]
+  },
+  {
+   "say": "Nur noch das Album 101% hören, oder nur noch LID?",
+   "a": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "b": {
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "pct": [
+    80,
+    20
+   ]
+  },
+  {
+   "say": "Haribo als Lehrer, oder Luciano als Fahrlehrer?",
+   "a": {
+    "label": "Haribo als Lehrer",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Luciano als Fahrlehrer",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    28,
+    72
+   ]
+  },
+  {
+   "say": "Nur noch Kleiner Prinz hören, oder nur noch Hier?",
+   "a": {
+    "label": "Nur noch Kleiner Prinz",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "b": {
+    "label": "Nur noch Hier",
+    "img": "songs/song-hier.jpg"
+   },
+   "pct": [
+    93,
+    7
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+ }
+}

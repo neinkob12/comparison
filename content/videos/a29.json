@@ -1,0 +1,151 @@
+{
+ "id": "a29",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Kalim kommt zu deinem Abiball, oder Caney030 zu deiner Hochzeit?",
+  "a": {
+   "label": "Kalim am Abiball",
+   "img": "artists/kalim.jpg"
+  },
+  "b": {
+   "label": "Caney030 auf der Hochzeit",
+   "img": "artists/caney030.jpg"
+  },
+  "pct": [
+   28,
+   72
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Kakko kocht für dich, oder Samra fährt dich nach Hause?",
+   "a": {
+    "label": "Kakko kocht",
+    "img": "artists/makko.jpg"
+   },
+   "b": {
+    "label": "Samra fährt dich",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    21,
+    79
+   ]
+  },
+  {
+   "say": "[[Kaaaaaaaaa-liiiiim]] als Lehrer, oder Mucco als Fahrlehrer?",
+   "a": {
+    "label": "Kalim als Lehrer",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Mucco als Fahrlehrer",
+    "img": "artists/mucco.jpg"
+   },
+   "pct": [
+    16,
+    84
+   ]
+  },
+  {
+   "say": "Hier auf Dauerschleife, oder Airwaves auf Dauerschleife?",
+   "a": {
+    "label": "Hier auf Repeat",
+    "img": "songs/song-hier.jpg"
+   },
+   "b": {
+    "label": "Airwaves auf Repeat",
+    "img": "songs/song-airwaves.jpg"
+   },
+   "pct": [
+    54,
+    46
+   ]
+  },
+  {
+   "say": "Nie wieder Nizi19 hören, oder nie wieder [[Kaaaaaaaaa-liiiiim]] hören?",
+   "a": {
+    "label": "Nie wieder Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    91,
+    9
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    67,
+    33
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du LID mit, oder Akh & Krach?",
+   "a": {
+    "label": "Insel: LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "b": {
+    "label": "Insel: Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "pct": [
+    20,
+    80
+   ]
+  },
+  {
+   "say": "Kleiner Prinz für immer löschen, oder FTW für immer löschen?",
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "b": {
+    "label": "FTW löschen",
+    "img": "songs/song-ftw.jpg"
+   },
+   "pct": [
+    48,
+    52
+   ]
+  },
+  {
+   "say": "Haribo kocht für dich, oder [[Muuuuuutschoooooo]] fährt dich nach Hause?",
+   "a": {
+    "label": "Haribo kocht",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Mucco fährt dich",
+    "img": "artists/mucco.jpg"
+   },
+   "pct": [
+    92,
+    8
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Talahons, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+ }
+}

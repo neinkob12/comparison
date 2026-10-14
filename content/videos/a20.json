@@ -1,0 +1,151 @@
+{
+ "id": "a20",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "24 Stunden mit Pashanim im Fahrstuhl, oder mit Samra im Bällebad?",
+  "a": {
+   "label": "Pashanim im Fahrstuhl",
+   "img": "artists/pashanim.jpg"
+  },
+  "b": {
+   "label": "Samra im Bällebad",
+   "img": "artists/samra.jpg"
+  },
+  "pct": [
+   97,
+   3
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Samra als Lehrer, oder Doktor19 als Fahrlehrer?",
+   "a": {
+    "label": "Samra als Lehrer",
+    "img": "artists/samra.jpg"
+   },
+   "b": {
+    "label": "Doktor19 als Fahrlehrer",
+    "img": "artists/nizi19.jpg"
+   },
+   "pct": [
+    7,
+    93
+   ]
+  },
+  {
+   "say": "+49 für immer löschen, oder Hollywoodreif für immer löschen?",
+   "a": {
+    "label": "+49 löschen",
+    "img": "songs/song-plus49.jpg"
+   },
+   "b": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "pct": [
+    79,
+    21
+   ]
+  },
+  {
+   "say": "Lacazette als großer Bruder, oder Karamel19 als Mitbewohner?",
+   "a": {
+    "label": "Lacazette als Bruder",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Karamel19 als Mitbewohner",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    93,
+    7
+   ]
+  },
+  {
+   "say": "Nur noch das Album Free Game hören, oder nur noch Doktor?",
+   "a": {
+    "label": "Nur noch Free Game",
+    "img": "albums/album-free-game.jpg"
+   },
+   "b": {
+    "label": "Nur noch Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "pct": [
+    5,
+    95
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Ein Tag mit [[Lakaaaaaaasetttttttt]], oder ein Tag mit Samra?",
+   "a": {
+    "label": "1 Tag mit Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Samra",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    94,
+    6
+   ]
+  },
+  {
+   "say": "Haribo als Lehrer, oder [[Lussiaaaaaaaaanoooooo]] als Fahrlehrer?",
+   "a": {
+    "label": "Haribo als Lehrer",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Luciano als Fahrlehrer",
+    "img": "artists/luciano.jpg"
+   },
+   "pct": [
+    98,
+    2
+   ]
+  },
+  {
+   "say": "FTW auf Dauerschleife, oder 16 auf Dauerschleife?",
+   "a": {
+    "label": "FTW auf Repeat",
+    "img": "songs/song-ftw.jpg"
+   },
+   "b": {
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    25,
+    75
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Gooner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
+ }
+}

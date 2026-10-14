@@ -1,0 +1,235 @@
+{
+ "id": "a36",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2431,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a36/00_hook_a.mp3",
+   "audioB": "audio/a36/00_hook_b.mp3",
+   "bAt": 39,
+   "speak": 108,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Nacht mit Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Ufo187",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    98,
+    2
+   ],
+   "duration": 243
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a36/01_q_a.mp3",
+   "audioB": "audio/a36/01_q_b.mp3",
+   "bAt": 40,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "16 löschen",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kleiner Prinz löschen",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    91,
+    9
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a36/02_q_a.mp3",
+   "audioB": "audio/a36/02_q_b.mp3",
+   "bAt": 63,
+   "speak": 112,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Lucio",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "pct": [
+    5,
+    95
+   ],
+   "duration": 247
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a36/03_q_a.mp3",
+   "audioB": "audio/a36/03_q_b.mp3",
+   "bAt": 40,
+   "speak": 82,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Makko",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Zackavelli",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    1,
+    99
+   ],
+   "duration": 217
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a36/04_q_a.mp3",
+   "audioB": "audio/a36/04_q_b.mp3",
+   "bAt": 65,
+   "speak": 98,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Insel: Doktor",
+    "img": "img/albums/album-doktor.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: Akh & Krach",
+    "img": "img/albums/album-akh-krach.jpg",
+    "emoji": null
+   },
+   "pct": [
+    91,
+    9
+   ],
+   "duration": 233
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a36/05_mid_a.mp3",
+   "audioB": "audio/a36/05_mid_b.mp3",
+   "bAt": 53,
+   "speak": 154,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    17,
+    83
+   ],
+   "duration": 289
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a36/06_q_a.mp3",
+   "audioB": "audio/a36/06_q_b.mp3",
+   "bAt": 49,
+   "speak": 90,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "+49 löschen",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "CUP löschen",
+    "img": "img/songs/song-cup.jpg",
+    "emoji": null
+   },
+   "pct": [
+    27,
+    73
+   ],
+   "duration": 225
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a36/07_q_a.mp3",
+   "audioB": "audio/a36/07_q_b.mp3",
+   "bAt": 60,
+   "speak": 128,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 als Bruder",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Caney030 als Mitbewohner",
+    "img": "img/artists/caney030.jpg",
+    "emoji": null
+   },
+   "pct": [
+    99,
+    1
+   ],
+   "duration": 263
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a36/08_q_a.mp3",
+   "audioB": "audio/a36/08_q_b.mp3",
+   "bAt": 79,
+   "speak": 141,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Nizi19",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Omar101",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 276
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a36/09_outro.mp3",
+   "speak": 167,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+   "duration": 212
+  }
+ ]
+}

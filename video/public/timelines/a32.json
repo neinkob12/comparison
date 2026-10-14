@@ -1,0 +1,237 @@
+{
+ "id": "a32",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2479,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a32/00_hook_a.mp3",
+   "audioB": "audio/a32/00_hook_b.mp3",
+   "bAt": 44,
+   "speak": 97,
+   "gap": 90,
+   "hold": 53,
+   "a": {
+    "label": "Haribo als Stiefvater",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Karamel19 als Klassenlehrer",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    78,
+    22
+   ],
+   "winAudio": "audio/a32/00_hook_win.mp3",
+   "duration": 240
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a32/01_q_a.mp3",
+   "audioB": "audio/a32/01_q_b.mp3",
+   "bAt": 38,
+   "speak": 82,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Hier auf Repeat",
+    "img": "img/songs/song-hier.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "16 auf Repeat",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "pct": [
+    2,
+    98
+   ],
+   "duration": 217
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a32/02_q_a.mp3",
+   "audioB": "audio/a32/02_q_b.mp3",
+   "bAt": 45,
+   "speak": 90,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "pct": [
+    49,
+    51
+   ],
+   "duration": 225
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a32/03_q_a.mp3",
+   "audioB": "audio/a32/03_q_b.mp3",
+   "bAt": 50,
+   "speak": 120,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Pashanim erste Reihe",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kalim backstage",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    7,
+    93
+   ],
+   "duration": 255
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a32/04_q_a.mp3",
+   "audioB": "audio/a32/04_q_b.mp3",
+   "bAt": 70,
+   "speak": 120,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch LID",
+    "img": "img/albums/album-lid.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch 1019",
+    "img": "img/albums/album-1019.jpg",
+    "emoji": null
+   },
+   "pct": [
+    92,
+    8
+   ],
+   "duration": 255
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a32/05_mid_a.mp3",
+   "audioB": "audio/a32/05_mid_b.mp3",
+   "bAt": 53,
+   "speak": 166,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "img": null,
+    "emoji": "💌"
+   },
+   "pct": [
+    51,
+    49
+   ],
+   "duration": 301
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a32/06_q_a.mp3",
+   "audioB": "audio/a32/06_q_b.mp3",
+   "bAt": 46,
+   "speak": 98,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Wittenbergplatz löschen",
+    "img": "img/songs/song-wittenbergplatz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    97,
+    3
+   ],
+   "duration": 233
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a32/07_q_a.mp3",
+   "audioB": "audio/a32/07_q_b.mp3",
+   "bAt": 71,
+   "speak": 126,
+   "gap": 90,
+   "hold": 51,
+   "a": {
+    "label": "1 Jahr nur Yuyu",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Nizi19",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    98,
+    2
+   ],
+   "winAudio": "audio/a32/07_q_win.mp3",
+   "duration": 267
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a32/08_q_a.mp3",
+   "audioB": "audio/a32/08_q_b.mp3",
+   "bAt": 86,
+   "speak": 134,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette erste Reihe",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nizi19 backstage",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    96,
+    4
+   ],
+   "duration": 269
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a32/09_outro.mp3",
+   "speak": 172,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+   "duration": 217
+  }
+ ]
+}

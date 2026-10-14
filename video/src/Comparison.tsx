@@ -8,7 +8,7 @@ type Side = {label: string; img: string | null; emoji?: string | null};
 type Segment = {
 	kind: 'intro' | 'q' | 'hook' | 'mid' | 'outro';
 	audio: string; audioB?: string; bAt?: number; speak: number; gap?: number; hold: number; duration: number; voiceAt?: number;
-	share?: string;
+	share?: string; winAudio?: string;
 	title?: string; sub?: string; a?: Side; b?: Side; pct?: [number, number];
 };
 export type Timeline = {
@@ -196,6 +196,7 @@ const Question: React.FC<{s: Segment}> = ({s}) => {
 			<Sequence from={bAt}><Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} /></Sequence>
 			<Sequence from={s.speak} durationInFrames={COUNT}><Audio src={staticFile('sfx/countdown.mp3')} volume={0.9} /></Sequence>
 			<Sequence from={revealAt}><Audio src={staticFile('sfx/check.mp3')} volume={0.8} /></Sequence>
+			{s.winAudio ? <Sequence from={revealAt + 12}><Audio src={staticFile(s.winAudio)} /></Sequence> : null}
 		</AbsoluteFill>
 	);
 };

@@ -1,0 +1,235 @@
+{
+ "id": "a11",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2437,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a11/00_hook_a.mp3",
+   "audioB": "audio/a11/00_hook_b.mp3",
+   "bAt": 61,
+   "speak": 121,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 als Stiefvater",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Karamel19 als Klassenlehrer",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    24,
+    76
+   ],
+   "duration": 256
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a11/01_q_a.mp3",
+   "audioB": "audio/a11/01_q_b.mp3",
+   "bAt": 59,
+   "speak": 115,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Cano030 erste Reihe",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 backstage",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    8,
+    92
+   ],
+   "duration": 250
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a11/02_q_a.mp3",
+   "audioB": "audio/a11/02_q_b.mp3",
+   "bAt": 70,
+   "speak": 110,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Luciano als Lehrer",
+    "img": "img/artists/luciano.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Samra als Fahrlehrer",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "duration": 245
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a11/03_q_a.mp3",
+   "audioB": "audio/a11/03_q_b.mp3",
+   "bAt": 61,
+   "speak": 93,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Mittendrin",
+    "img": "img/albums/album-mittendrin.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Doktor",
+    "img": "img/albums/album-doktor.jpg",
+    "emoji": null
+   },
+   "pct": [
+    3,
+    97
+   ],
+   "duration": 228
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a11/04_q_a.mp3",
+   "audioB": "audio/a11/04_q_b.mp3",
+   "bAt": 41,
+   "speak": 85,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Feature mit Makko",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "pct": [
+    95,
+    5
+   ],
+   "duration": 220
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a11/05_mid_a.mp3",
+   "audioB": "audio/a11/05_mid_b.mp3",
+   "bAt": 57,
+   "speak": 151,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "img": null,
+    "emoji": "🌳"
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "duration": 286
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a11/06_q_a.mp3",
+   "audioB": "audio/a11/06_q_b.mp3",
+   "bAt": 46,
+   "speak": 101,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "FTW löschen",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Hollywoodreif löschen",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "pct": [
+    1,
+    99
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a11/07_q_a.mp3",
+   "audioB": "audio/a11/07_q_b.mp3",
+   "bAt": 77,
+   "speak": 122,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Souly fährt dich",
+    "img": "img/artists/souly.jpg",
+    "emoji": null
+   },
+   "pct": [
+    22,
+    78
+   ],
+   "duration": 257
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a11/08_q_a.mp3",
+   "audioB": "audio/a11/08_q_b.mp3",
+   "bAt": 57,
+   "speak": 111,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Sommergewitter auf Repeat",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    3,
+    97
+   ],
+   "duration": 246
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a11/09_outro.mp3",
+   "speak": 168,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+   "duration": 213
+  }
+ ]
+}

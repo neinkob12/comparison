@@ -1,0 +1,236 @@
+{
+ "id": "a40",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2511,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a40/00_hook_a.mp3",
+   "audioB": "audio/a40/00_hook_b.mp3",
+   "bAt": 50,
+   "speak": 101,
+   "gap": 90,
+   "hold": 53,
+   "a": {
+    "label": "Haribo als Stiefvater",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Luciano als Klassenlehrer",
+    "img": "img/artists/luciano.jpg",
+    "emoji": null
+   },
+   "pct": [
+    55,
+    45
+   ],
+   "winAudio": "audio/a40/00_hook_win.mp3",
+   "duration": 244
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a40/01_q_a.mp3",
+   "audioB": "audio/a40/01_q_b.mp3",
+   "bAt": 51,
+   "speak": 106,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Hollywoodreif auf Repeat",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "FTW auf Repeat",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "duration": 241
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a40/02_q_a.mp3",
+   "audioB": "audio/a40/02_q_b.mp3",
+   "bAt": 39,
+   "speak": 95,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Caney030",
+    "img": "img/artists/caney030.jpg",
+    "emoji": null
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 230
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a40/03_q_a.mp3",
+   "audioB": "audio/a40/03_q_b.mp3",
+   "bAt": 84,
+   "speak": 110,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Insel: Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: Doktor",
+    "img": "img/albums/album-doktor.jpg",
+    "emoji": null
+   },
+   "pct": [
+    49,
+    51
+   ],
+   "duration": 245
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a40/04_q_a.mp3",
+   "audioB": "audio/a40/04_q_b.mp3",
+   "bAt": 71,
+   "speak": 127,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim kocht",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Zackavelli fährt dich",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 262
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a40/05_mid_a.mp3",
+   "audioB": "audio/a40/05_mid_b.mp3",
+   "bAt": 59,
+   "speak": 154,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "duration": 289
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a40/06_q_a.mp3",
+   "audioB": "audio/a40/06_q_b.mp3",
+   "bAt": 43,
+   "speak": 101,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Makko als Bruder",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Doktor19 als Mitbewohner",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    93,
+    7
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a40/07_q_a.mp3",
+   "audioB": "audio/a40/07_q_b.mp3",
+   "bAt": 45,
+   "speak": 99,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Airwaves auf Repeat",
+    "img": "img/songs/song-airwaves.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Wittenbergplatz auf Repeat",
+    "img": "img/songs/song-wittenbergplatz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "duration": 234
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a40/08_q_a.mp3",
+   "audioB": "audio/a40/08_q_b.mp3",
+   "bAt": 110,
+   "speak": 191,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nur Karamel19",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "duration": 326
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a40/09_outro.mp3",
+   "speak": 159,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "duration": 204
+  }
+ ]
+}

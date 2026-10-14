@@ -1,0 +1,236 @@
+{
+ "id": "a23",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2424,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a23/00_hook_a.mp3",
+   "audioB": "audio/a23/00_hook_b.mp3",
+   "bAt": 52,
+   "speak": 97,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Pashanim als Stiefvater",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Makko als Klassenlehrer",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "duration": 232
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/01_q_a.mp3",
+   "audioB": "audio/a23/01_q_b.mp3",
+   "bAt": 49,
+   "speak": 101,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Hollywoodreif auf Repeat",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Sommergewitter auf Repeat",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "pct": [
+    51,
+    49
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/02_q_a.mp3",
+   "audioB": "audio/a23/02_q_b.mp3",
+   "bAt": 38,
+   "speak": 96,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 fährt dich",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    92,
+    8
+   ],
+   "duration": 231
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/03_q_a.mp3",
+   "audioB": "audio/a23/03_q_b.mp3",
+   "bAt": 50,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "FTW auf Repeat",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Hier auf Repeat",
+    "img": "img/songs/song-hier.jpg",
+    "emoji": null
+   },
+   "pct": [
+    19,
+    81
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/04_q_a.mp3",
+   "audioB": "audio/a23/04_q_b.mp3",
+   "bAt": 63,
+   "speak": 124,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 als Bruder",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Mucco als Mitbewohner",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "duration": 259
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a23/05_mid_a.mp3",
+   "audioB": "audio/a23/05_mid_b.mp3",
+   "bAt": 54,
+   "speak": 149,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    7,
+    93
+   ],
+   "duration": 284
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/06_q_a.mp3",
+   "audioB": "audio/a23/06_q_b.mp3",
+   "bAt": 63,
+   "speak": 117,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Akh & Krach",
+    "img": "img/albums/album-akh-krach.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch 1019",
+    "img": "img/albums/album-1019.jpg",
+    "emoji": null
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "duration": 252
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/07_q_a.mp3",
+   "audioB": "audio/a23/07_q_b.mp3",
+   "bAt": 50,
+   "speak": 119,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 kocht",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Ufo187 fährt dich",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 254
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/08_q_a.mp3",
+   "audioB": "audio/a23/08_q_b.mp3",
+   "bAt": 82,
+   "speak": 120,
+   "gap": 90,
+   "hold": 53,
+   "a": {
+    "label": "Lucio erste Reihe",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Haribo backstage",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "winAudio": "audio/a23/08_q_win.mp3",
+   "duration": 263
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a23/09_outro.mp3",
+   "speak": 142,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Teile das Video mit deinen Akhs",
+   "duration": 187
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "id": "a31",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Lucio liest deine Chats, oder Nizi19 sieht deinen Suchverlauf?",
+  "a": {
+   "label": "Lucio liest deine Chats",
+   "img": "artists/lucio101.jpg"
+  },
+  "b": {
+   "label": "Nizi19 sieht deinen Verlauf",
+   "img": "artists/nizi19.jpg"
+  },
+  "pct": [
+   53,
+   47
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Ein Tag mit [[Luuuuuussssiiiiiooooo]], oder ein Tag mit Makko?",
+   "a": {
+    "label": "1 Tag mit Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Makko",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    48,
+    52
+   ]
+  },
+  {
+   "say": "Nie wieder Pashanim hören, oder nie wieder Kakko hören?",
+   "a": {
+    "label": "Nie wieder Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Kakko",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    9,
+    91
+   ]
+  },
+  {
+   "say": "Lacazette als großer Bruder, oder Ufo361 als Mitbewohner?",
+   "a": {
+    "label": "Lacazette als Bruder",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Ufo361 als Mitbewohner",
+    "img": "artists/ufo361.jpg"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "Nur noch das Album Mittendrin hören, oder nur noch Doktor?",
+   "a": {
+    "label": "Nur noch Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
+   },
+   "b": {
+    "label": "Nur noch Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
+   },
+   "pct": [
+    9,
+    91
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur [[Luuuuuussssiiiiiooooo]] hören, oder ein Jahr nur Haribo?",
+   "a": {
+    "label": "1 Jahr nur Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Haribo",
+    "img": "artists/yuyu19.jpg"
+   },
+   "pct": [
+    20,
+    80
+   ],
+   "winSay": "Ohne Finger, Akh!"
+  },
+  {
+   "say": "Kleiner Prinz für immer löschen, oder Superkraft für immer löschen?",
+   "a": {
+    "label": "Kleiner Prinz löschen",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "b": {
+    "label": "Superkraft löschen",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "pct": [
+    75,
+    25
+   ]
+  },
+  {
+   "say": "CUP auf Dauerschleife, oder Hollywoodreif auf Dauerschleife?",
+   "a": {
+    "label": "CUP auf Repeat",
+    "img": "songs/song-cup.jpg"
+   },
+   "b": {
+    "label": "Hollywoodreif auf Repeat",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "pct": [
+    7,
+    93
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Gooner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
+ }
+}

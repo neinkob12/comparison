@@ -1,0 +1,151 @@
+{
+ "id": "a43",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "24 Stunden mit Ufo361 im Fahrstuhl, oder mit Kalim im Bällebad?",
+  "a": {
+   "label": "Ufo361 im Fahrstuhl",
+   "img": "artists/ufo361.jpg"
+  },
+  "b": {
+   "label": "Kalim im Bällebad",
+   "img": "artists/kalim.jpg"
+  },
+  "pct": [
+   77,
+   23
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Ein Tag mit Kakazette, oder ein Tag mit [[Lussiaaaaaaaaanoooooo]]?",
+   "a": {
+    "label": "1 Tag mit Kakazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Luciano",
+    "img": "artists/luciano.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  },
+  {
+   "say": "Nur noch das Album LID hören, oder nur noch Mittendrin?",
+   "a": {
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "b": {
+    "label": "Nur noch Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
+   },
+   "pct": [
+    51,
+    49
+   ]
+  },
+  {
+   "say": "[[Niiiiiiiisssssiiiii]] kocht für dich, oder Karamel19 fährt dich nach Hause?",
+   "a": {
+    "label": "Nizi19 kocht",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Karamel19 fährt dich",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    98,
+    2
+   ]
+  },
+  {
+   "say": "Hollywoodreif für immer löschen, oder 16 für immer löschen?",
+   "a": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "16 löschen",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    23,
+    77
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
+   },
+   "pct": [
+    91,
+    9
+   ]
+  },
+  {
+   "say": "Karamel19 als großer Bruder, oder Makko als Mitbewohner?",
+   "a": {
+    "label": "Karamel19 als Bruder",
+    "img": "artists/karamel19.jpg"
+   },
+   "b": {
+    "label": "Makko als Mitbewohner",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur [[Lussssssiiiiiiiooooooooo]] hören, oder ein Jahr nur Zackavelli?",
+   "a": {
+    "label": "1 Jahr nur Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Zackavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    26,
+    74
+   ]
+  },
+  {
+   "say": "Nur noch Hier hören, oder nur noch Superkraft?",
+   "a": {
+    "label": "Nur noch Hier",
+    "img": "songs/song-hier.jpg"
+   },
+   "b": {
+    "label": "Nur noch Superkraft",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "pct": [
+    8,
+    92
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+ }
+}

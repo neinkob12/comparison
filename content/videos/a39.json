@@ -1,0 +1,151 @@
+{
+ "id": "a39",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Eine Nacht mit Kalim, oder nie wieder Pashanim hören?",
+  "a": {
+   "label": "1 Nacht mit Kalim",
+   "img": "artists/kalim.jpg"
+  },
+  "b": {
+   "label": "Nie wieder Pashanim",
+   "img": "artists/pashanim.jpg"
+  },
+  "pct": [
+   96,
+   4
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Ein Tag mit [[Lussssssiiiiiiiooooooooo]], oder ein Tag mit Nizi19?",
+   "a": {
+    "label": "1 Tag mit Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "pct": [
+    15,
+    85
+   ]
+  },
+  {
+   "say": "Lacazette als großer Bruder, oder Samra als Mitbewohner?",
+   "a": {
+    "label": "Lacazette als Bruder",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Samra als Mitbewohner",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    49,
+    51
+   ]
+  },
+  {
+   "say": "16 auf Dauerschleife, oder FTW auf Dauerschleife?",
+   "a": {
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "FTW auf Repeat",
+    "img": "songs/song-ftw.jpg"
+   },
+   "pct": [
+    23,
+    77
+   ]
+  },
+  {
+   "say": "Nur noch das Album Free Game hören, oder nur noch LID?",
+   "a": {
+    "label": "Nur noch Free Game",
+    "img": "albums/album-free-game.jpg"
+   },
+   "b": {
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  },
+  {
+   "say": "Ein Feature mit Kakanim, oder ein Feature mit Zackavelli?",
+   "a": {
+    "label": "Feature mit Kakanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Feature mit Zackavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    96,
+    4
+   ]
+  },
+  {
+   "say": "Sommergewitter auf Dauerschleife, oder +49 auf Dauerschleife?",
+   "a": {
+    "label": "Sommergewitter auf Repeat",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "b": {
+    "label": "+49 auf Repeat",
+    "img": "songs/song-plus49.jpg"
+   },
+   "pct": [
+    49,
+    51
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Lacazette hören, oder ein Jahr nur [[Uuuuuuuufoooooo Drei Sechs Eins]]?",
+   "a": {
+    "label": "1 Jahr nur Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Ufo361",
+    "img": "artists/ufo361.jpg"
+   },
+   "pct": [
+    28,
+    72
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Gooner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
+ }
+}

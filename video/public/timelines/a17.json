@@ -1,0 +1,236 @@
+{
+ "id": "a17",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2430,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a17/00_hook_a.mp3",
+   "audioB": "audio/a17/00_hook_b.mp3",
+   "bAt": 48,
+   "speak": 106,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim als Stiefvater",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Karamel19 als Klassenlehrer",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "duration": 241
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/01_q_a.mp3",
+   "audioB": "audio/a17/01_q_b.mp3",
+   "bAt": 54,
+   "speak": 110,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "FTW auf Repeat",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Sommergewitter auf Repeat",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "pct": [
+    51,
+    49
+   ],
+   "duration": 245
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/02_q_a.mp3",
+   "audioB": "audio/a17/02_q_b.mp3",
+   "bAt": 52,
+   "speak": 103,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "+49 auf Repeat",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    2,
+    98
+   ],
+   "duration": 238
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/03_q_a.mp3",
+   "audioB": "audio/a17/03_q_b.mp3",
+   "bAt": 60,
+   "speak": 150,
+   "gap": 90,
+   "hold": 53,
+   "a": {
+    "label": "Feature mit Ufo187",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Haribo",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    8,
+    92
+   ],
+   "winAudio": "audio/a17/03_q_win.mp3",
+   "duration": 293
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/04_q_a.mp3",
+   "audioB": "audio/a17/04_q_b.mp3",
+   "bAt": 38,
+   "speak": 97,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Samra als Lehrer",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Mucco als Fahrlehrer",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "duration": 232
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a17/05_mid_a.mp3",
+   "audioB": "audio/a17/05_mid_b.mp3",
+   "bAt": 55,
+   "speak": 145,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "img": null,
+    "emoji": "🌳"
+   },
+   "pct": [
+    18,
+    82
+   ],
+   "duration": 280
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/06_q_a.mp3",
+   "audioB": "audio/a17/06_q_b.mp3",
+   "bAt": 57,
+   "speak": 88,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Mittendrin",
+    "img": "img/albums/album-mittendrin.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Doktor",
+    "img": "img/albums/album-doktor.jpg",
+    "emoji": null
+   },
+   "pct": [
+    75,
+    25
+   ],
+   "duration": 223
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/07_q_a.mp3",
+   "audioB": "audio/a17/07_q_b.mp3",
+   "bAt": 38,
+   "speak": 77,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette als Lehrer",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Mucco als Fahrlehrer",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "pct": [
+    34,
+    66
+   ],
+   "duration": 212
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/08_q_a.mp3",
+   "audioB": "audio/a17/08_q_b.mp3",
+   "bAt": 66,
+   "speak": 122,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 als Bruder",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Ufo361 als Mitbewohner",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 257
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a17/09_outro.mp3",
+   "speak": 164,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+   "duration": 209
+  }
+ ]
+}

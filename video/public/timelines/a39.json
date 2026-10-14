@@ -1,0 +1,235 @@
+{
+ "id": "a39",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2446,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a39/00_hook_a.mp3",
+   "audioB": "audio/a39/00_hook_b.mp3",
+   "bAt": 40,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Nacht mit Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    96,
+    4
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a39/01_q_a.mp3",
+   "audioB": "audio/a39/01_q_b.mp3",
+   "bAt": 59,
+   "speak": 113,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Lucio",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Nizi19",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    15,
+    85
+   ],
+   "duration": 248
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a39/02_q_a.mp3",
+   "audioB": "audio/a39/02_q_b.mp3",
+   "bAt": 49,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette als Bruder",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Samra als Mitbewohner",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "pct": [
+    49,
+    51
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a39/03_q_a.mp3",
+   "audioB": "audio/a39/03_q_b.mp3",
+   "bAt": 43,
+   "speak": 99,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "16 auf Repeat",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "FTW auf Repeat",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "pct": [
+    23,
+    77
+   ],
+   "duration": 234
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a39/04_q_a.mp3",
+   "audioB": "audio/a39/04_q_b.mp3",
+   "bAt": 57,
+   "speak": 95,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Free Game",
+    "img": "img/albums/album-free-game.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch LID",
+    "img": "img/albums/album-lid.jpg",
+    "emoji": null
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "duration": 230
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a39/05_mid_a.mp3",
+   "audioB": "audio/a39/05_mid_b.mp3",
+   "bAt": 55,
+   "speak": 177,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "img": null,
+    "emoji": "💘"
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "duration": 312
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a39/06_q_a.mp3",
+   "audioB": "audio/a39/06_q_b.mp3",
+   "bAt": 48,
+   "speak": 99,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Feature mit Kakanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Zackavelli",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    96,
+    4
+   ],
+   "duration": 234
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a39/07_q_a.mp3",
+   "audioB": "audio/a39/07_q_b.mp3",
+   "bAt": 53,
+   "speak": 108,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Sommergewitter auf Repeat",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "+49 auf Repeat",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "pct": [
+    49,
+    51
+   ],
+   "duration": 243
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a39/08_q_a.mp3",
+   "audioB": "audio/a39/08_q_b.mp3",
+   "bAt": 65,
+   "speak": 144,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nur Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Ufo361",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    28,
+    72
+   ],
+   "duration": 279
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a39/09_outro.mp3",
+   "speak": 169,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "duration": 214
+  }
+ ]
+}

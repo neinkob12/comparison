@@ -1,0 +1,235 @@
+{
+ "id": "a07",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2403,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a07/00_hook_a.mp3",
+   "audioB": "audio/a07/00_hook_b.mp3",
+   "bAt": 43,
+   "speak": 99,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kalim liest deine Chats",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Zackavelli sieht deinen Verlauf",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    96,
+    4
+   ],
+   "duration": 234
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a07/01_q_a.mp3",
+   "audioB": "audio/a07/01_q_b.mp3",
+   "bAt": 49,
+   "speak": 101,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Luciano als Bruder",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Zackavelli als Mitbewohner",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    80,
+    20
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a07/02_q_a.mp3",
+   "audioB": "audio/a07/02_q_b.mp3",
+   "bAt": 47,
+   "speak": 85,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Wittenbergplatz",
+    "img": "img/songs/song-wittenbergplatz.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Kleiner Prinz",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "duration": 220
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a07/03_q_a.mp3",
+   "audioB": "audio/a07/03_q_b.mp3",
+   "bAt": 71,
+   "speak": 123,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 erste Reihe",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Karamel19 backstage",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "duration": 258
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a07/04_q_a.mp3",
+   "audioB": "audio/a07/04_q_b.mp3",
+   "bAt": 40,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "16 löschen",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Hollywoodreif löschen",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a07/05_mid_a.mp3",
+   "audioB": "audio/a07/05_mid_b.mp3",
+   "bAt": 54,
+   "speak": 143,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "img": null,
+    "emoji": "🌳"
+   },
+   "pct": [
+    8,
+    92
+   ],
+   "duration": 278
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a07/06_q_a.mp3",
+   "audioB": "audio/a07/06_q_b.mp3",
+   "bAt": 84,
+   "speak": 112,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Insel: LID",
+    "img": "img/albums/album-lid.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: Mittendrin",
+    "img": "img/albums/album-mittendrin.jpg",
+    "emoji": null
+   },
+   "pct": [
+    73,
+    27
+   ],
+   "duration": 247
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a07/07_q_a.mp3",
+   "audioB": "audio/a07/07_q_b.mp3",
+   "bAt": 39,
+   "speak": 95,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Haribo als Lehrer",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nizi19 als Fahrlehrer",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    32,
+    68
+   ],
+   "duration": 230
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a07/08_q_a.mp3",
+   "audioB": "audio/a07/08_q_b.mp3",
+   "bAt": 105,
+   "speak": 152,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nur Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Pashanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    5,
+    95
+   ],
+   "duration": 287
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a07/09_outro.mp3",
+   "speak": 142,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Teile das Video mit deinen Akhs",
+   "duration": 187
+  }
+ ]
+}

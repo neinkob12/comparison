@@ -1,0 +1,151 @@
+{
+ "id": "a09",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Pashanim kommt zu deinem Abiball, oder Lucio zu deiner Hochzeit?",
+  "a": {
+   "label": "Pashanim am Abiball",
+   "img": "artists/pashanim.jpg"
+  },
+  "b": {
+   "label": "Lucio auf der Hochzeit",
+   "img": "artists/lucio101.jpg"
+  },
+  "pct": [
+   94,
+   6
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nizi19 als Lehrer, oder Ufo361 als Fahrlehrer?",
+   "a": {
+    "label": "Nizi19 als Lehrer",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Ufo361 als Fahrlehrer",
+    "img": "artists/ufo361.jpg"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "16 auf Dauerschleife, oder Superkraft auf Dauerschleife?",
+   "a": {
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Superkraft auf Repeat",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "pct": [
+    17,
+    83
+   ]
+  },
+  {
+   "say": "Nur noch Sommergewitter hören, oder nur noch CUP?",
+   "a": {
+    "label": "Nur noch Sommergewitter",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "b": {
+    "label": "Nur noch CUP",
+    "img": "songs/song-cup.jpg"
+   },
+   "pct": [
+    78,
+    22
+   ]
+  },
+  {
+   "say": "[[Lussssssiiiiiiiooooooooo]] in der ersten Reihe, oder Mucco backstage?",
+   "a": {
+    "label": "Lucio erste Reihe",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Mucco backstage",
+    "img": "artists/mucco.jpg"
+   },
+   "pct": [
+    48,
+    52
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
+   },
+   "pct": [
+    3,
+    97
+   ]
+  },
+  {
+   "say": "Nie wieder Kalim hören, oder nie wieder [[Luuuuuussssiiiiiooooo]] hören?",
+   "a": {
+    "label": "Nie wieder Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Lucio",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    48,
+    52
+   ]
+  },
+  {
+   "say": "Nizi19 in der ersten Reihe, oder Luciano backstage?",
+   "a": {
+    "label": "Nizi19 erste Reihe",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Luciano backstage",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    49,
+    51
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du Mittendrin mit, oder 101%?",
+   "a": {
+    "label": "Insel: Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
+   },
+   "b": {
+    "label": "Insel: 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "pct": [
+    9,
+    91
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+ }
+}

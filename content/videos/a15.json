@@ -1,0 +1,151 @@
+{
+ "id": "a15",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "24 Stunden mit Kakazette im Fahrstuhl, oder mit Zackavelli im Bällebad?",
+  "a": {
+   "label": "Kakazette im Fahrstuhl",
+   "img": "artists/lacazette.jpg"
+  },
+  "b": {
+   "label": "Zackavelli im Bällebad",
+   "img": "artists/zackavelli.jpg"
+  },
+  "pct": [
+   75,
+   25
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Nur noch Sommergewitter hören, oder nur noch Hollywoodreif?",
+   "a": {
+    "label": "Nur noch Sommergewitter",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "b": {
+    "label": "Nur noch Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "pct": [
+    7,
+    93
+   ]
+  },
+  {
+   "say": "Nur noch 16 hören, oder nur noch Hier?",
+   "a": {
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Nur noch Hier",
+    "img": "songs/song-hier.jpg"
+   },
+   "pct": [
+    4,
+    96
+   ]
+  },
+  {
+   "say": "Nur noch das Album 1019 hören, oder nur noch Akh & Krach?",
+   "a": {
+    "label": "Nur noch 1019",
+    "img": "albums/album-1019.jpg"
+   },
+   "b": {
+    "label": "Nur noch Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "pct": [
+    70,
+    30
+   ]
+  },
+  {
+   "say": "[[Kaaaaaaaaa-liiiiim]] kocht für dich, oder [[Luuuuuussssiiiiiooooo]] fährt dich nach Hause?",
+   "a": {
+    "label": "Kalim kocht",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Lucio fährt dich",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    4,
+    96
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    91,
+    9
+   ]
+  },
+  {
+   "say": "Kalim als großer Bruder, oder Souly als Mitbewohner?",
+   "a": {
+    "label": "Kalim als Bruder",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Souly als Mitbewohner",
+    "img": "artists/souly.jpg"
+   },
+   "pct": [
+    6,
+    94
+   ]
+  },
+  {
+   "say": "Kalim als großer Bruder, oder Karamel19 als Mitbewohner?",
+   "a": {
+    "label": "Kalim als Bruder",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Karamel19 als Mitbewohner",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    69,
+    31
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Haribo hören, oder ein Jahr nur Samra?",
+   "a": {
+    "label": "1 Jahr nur Haribo",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Samra",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Talahons, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+ }
+}

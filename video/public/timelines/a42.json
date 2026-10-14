@@ -1,0 +1,235 @@
+{
+ "id": "a42",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2491,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a42/00_hook_a.mp3",
+   "audioB": "audio/a42/00_hook_b.mp3",
+   "bAt": 45,
+   "speak": 105,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette liest deine Chats",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nizi19 sieht deinen Verlauf",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    93,
+    7
+   ],
+   "duration": 240
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a42/01_q_a.mp3",
+   "audioB": "audio/a42/01_q_b.mp3",
+   "bAt": 41,
+   "speak": 97,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Kakavelli",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Karamel19",
+    "img": "img/artists/karamel19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    79,
+    21
+   ],
+   "duration": 232
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a42/02_q_a.mp3",
+   "audioB": "audio/a42/02_q_b.mp3",
+   "bAt": 68,
+   "speak": 103,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch LID",
+    "img": "img/albums/album-lid.jpg",
+    "emoji": null
+   },
+   "pct": [
+    95,
+    5
+   ],
+   "duration": 238
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a42/03_q_a.mp3",
+   "audioB": "audio/a42/03_q_b.mp3",
+   "bAt": 42,
+   "speak": 90,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Airwaves löschen",
+    "img": "img/songs/song-airwaves.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Superkraft löschen",
+    "img": "img/songs/song-superkraft.jpg",
+    "emoji": null
+   },
+   "pct": [
+    4,
+    96
+   ],
+   "duration": 225
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a42/04_q_a.mp3",
+   "audioB": "audio/a42/04_q_b.mp3",
+   "bAt": 86,
+   "speak": 146,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nizi19 als Bruder",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 als Mitbewohner",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    20,
+    80
+   ],
+   "duration": 281
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a42/05_mid_a.mp3",
+   "audioB": "audio/a42/05_mid_b.mp3",
+   "bAt": 53,
+   "speak": 152,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "img": null,
+    "emoji": "💘"
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "duration": 287
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a42/06_q_a.mp3",
+   "audioB": "audio/a42/06_q_b.mp3",
+   "bAt": 46,
+   "speak": 100,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Hollywoodreif löschen",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kleiner Prinz löschen",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    20,
+    80
+   ],
+   "duration": 235
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a42/07_q_a.mp3",
+   "audioB": "audio/a42/07_q_b.mp3",
+   "bAt": 66,
+   "speak": 164,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Lucio als Lehrer",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Luciano als Fahrlehrer",
+    "img": "img/artists/luciano.jpg",
+    "emoji": null
+   },
+   "pct": [
+    92,
+    8
+   ],
+   "duration": 299
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a42/08_q_a.mp3",
+   "audioB": "audio/a42/08_q_b.mp3",
+   "bAt": 47,
+   "speak": 118,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Zackavelli als Bruder",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 als Mitbewohner",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "duration": 253
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a42/09_outro.mp3",
+   "speak": 156,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Talahons, die du kennst",
+   "duration": 201
+  }
+ ]
+}
