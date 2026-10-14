@@ -4,9 +4,9 @@
  "handle": "@akhmachtkrach19",
  "hook": {
   "type": "hook",
-  "say": "Eine Nacht mit Nizi19, oder nie wieder Lucio hören?",
+  "say": "Eine Nacht mit Nils Zimmermann, oder nie wieder Lucio hören?",
   "a": {
-   "label": "1 Nacht mit Nizi19",
+   "label": "1 Nacht mit Nils Zimmermann",
    "img": "artists/nizi19.jpg"
   },
   "b": {
@@ -50,7 +50,7 @@
    ]
   },
   {
-   "say": "Ein Feature mit Nizi19, oder ein Feature mit Kalim?",
+   "say": "Ein Feature mit [[Nisssssssiiiiiiiijaaaaaaaaa]] Eins Neun, oder ein Feature mit Kalim?",
    "a": {
     "label": "Feature mit Nizi19",
     "img": "artists/nizi19.jpg"
@@ -96,7 +96,7 @@
    ]
   },
   {
-   "say": "Ein Tag mit Pashanim, oder ein Tag mit Lucio?",
+   "say": "Ein Tag mit Pashanim, oder ein Tag mit [[Luuuuuuussssssiiiiioooooo]]?",
    "a": {
     "label": "1 Tag mit Pashanim",
     "img": "artists/pashanim.jpg"
@@ -144,6 +144,8 @@
  "outro": {
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
-  "sub": "Schreibs in die Kommentare"
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Talahons, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
  }
 }

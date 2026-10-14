@@ -7,7 +7,8 @@ import {
 type Side = {label: string; img: string | null; emoji?: string | null};
 type Segment = {
 	kind: 'intro' | 'q' | 'hook' | 'mid' | 'outro';
-	audio: string; speak: number; gap?: number; hold: number; duration: number; voiceAt?: number;
+	audio: string; audioB?: string; bAt?: number; speak: number; gap?: number; hold: number; duration: number; voiceAt?: number;
+	share?: string;
 	title?: string; sub?: string; a?: Side; b?: Side; pct?: [number, number];
 };
 export type Timeline = {
@@ -36,10 +37,14 @@ const stroke = (px: number) => ({
 
 const COUNT = 90; // 3-2-1 in Frames
 
-const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revealAt: number; mid: boolean}> = ({side, top, pct, win, revealAt, mid}) => {
+const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revealAt: number; mid: boolean; enterAt: number}> = ({side, top, pct, win, revealAt, mid, enterAt}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
-	const enter = spring({frame, fps, config: {damping: 12, stiffness: 320, mass: 0.5}, delay: top ? 0 : 2});
+	// Reinfliegen: oben von links, unten von rechts, mit Bewegungsunschaerfe
+	const fly = spring({frame: frame - enterAt, fps, config: {damping: 16, stiffness: 260, mass: 0.6}});
+	const flyX = (1 - fly) * (top ? -1150 : 1150);
+	const blur = Math.min(18, Math.abs(flyX) / 40);
+	const enter = 1;
 	const rev = spring({frame: frame - revealAt, fps, config: {damping: 9, mass: 0.7}});
 	const shown = frame >= revealAt;
 	const count = Math.round(interpolate(frame - revealAt, [0, 14], [0, pct], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}));
@@ -75,6 +80,8 @@ const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revea
 			<div style={{
 				position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center',
 				justifyContent: top ? 'flex-end' : 'flex-start', paddingTop: top ? 0 : 150, paddingBottom: top ? 150 : 0, gap: 30,
+				transform: `translateX(${flyX}px) skewX(${(top ? 1 : -1) * blur * 0.6}deg)`, filter: blur > 0.5 ? `blur(${blur}px)` : 'none',
+				opacity: frame < enterAt ? 0 : 1,
 			}}>
 				{top ? null : <Label text={side.label} enter={enter} state={shown ? (win ? 'win' : 'lose') : null} />}
 				<div style={{position: 'relative', transform: `scale(${(0.6 + 0.4 * enter) * pulse * loseScale})`}}>
@@ -168,6 +175,7 @@ const Center: React.FC<{speakEnd: number}> = ({speakEnd}) => {
 
 const Question: React.FC<{s: Segment}> = ({s}) => {
 	const revealAt = s.speak + (s.gap ?? 0);
+	const bAt = s.bAt ?? 4;
 	const [pa, pb] = s.pct!;
 	const mid = s.kind === 'mid';
 	const frame = useCurrentFrame();
@@ -178,15 +186,16 @@ const Question: React.FC<{s: Segment}> = ({s}) => {
 	const panic = ct >= 60 && ct < COUNT ? 0.25 * (0.5 + 0.5 * Math.sin(ct * 1.2)) : 0;
 	return (
 		<AbsoluteFill style={{transform: `scale(${punch}) translate(${shake}px, ${-shake * 0.5}px)`}}>
-			<Half side={s.a!} top pct={pa} win={pa >= pb} revealAt={revealAt} mid={mid} />
-			<Half side={s.b!} top={false} pct={pb} win={pb > pa} revealAt={revealAt} mid={mid} />
+			<Half side={s.a!} top pct={pa} win={pa >= pb} revealAt={revealAt} mid={mid} enterAt={0} />
+			<Half side={s.b!} top={false} pct={pb} win={pb > pa} revealAt={revealAt} mid={mid} enterAt={bAt} />
 			<Center speakEnd={s.speak} />
 			<AbsoluteFill style={{boxShadow: `inset 0 0 220px 60px rgba(255,0,0,${panic})`, pointerEvents: 'none'}} />
 			<Audio src={staticFile(s.audio)} />
-			<Sequence from={s.speak} durationInFrames={COUNT}><Audio src={staticFile('sfx/countdown.mp3')} volume={0.85} /></Sequence>
-			<Audio src={staticFile('sfx/whoosh.mp3')} volume={0.5} />
-			<Sequence from={revealAt}><Audio src={staticFile('sfx/ring.mp3')} volume={0.45} /></Sequence>
-			<Sequence from={revealAt}><Audio src={staticFile('sfx/bling.mp3')} volume={0.6} /></Sequence>
+			{s.audioB ? <Sequence from={bAt}><Audio src={staticFile(s.audioB)} /></Sequence> : null}
+			<Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} />
+			<Sequence from={bAt}><Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} /></Sequence>
+			<Sequence from={s.speak} durationInFrames={COUNT}><Audio src={staticFile('sfx/countdown.mp3')} volume={0.9} /></Sequence>
+			<Sequence from={revealAt}><Audio src={staticFile('sfx/check.mp3')} volume={0.8} /></Sequence>
 		</AbsoluteFill>
 	);
 };
@@ -238,6 +247,7 @@ const Outro: React.FC<{s: Segment; handle: string | null}> = ({s, handle}) => {
 				{s.title ?? 'WIE OFT LAGST DU RICHTIG, AKH?'}
 			</div>
 			<div style={{fontFamily: HEAVY, fontSize: 50, whiteSpace: 'nowrap', color: C.ink, background: C.yellow, padding: '14px 34px', borderRadius: 18}}>⬇ {s.sub ?? 'Schreibs in die Kommentare'}</div>
+			{s.share ? <div style={{fontFamily: HEAVY, fontSize: 46, color: C.white, textAlign: 'center', maxWidth: 920}}>📲 {s.share}</div> : null}
 			<FollowPill handle={handle} still />
 			<Audio src={staticFile(s.audio)} />
 		</AbsoluteFill>

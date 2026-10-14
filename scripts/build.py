@@ -21,9 +21,16 @@ keys = sorted(pron, key=len, reverse=True)
 
 
 def spoken(text):
-    for k in keys:
-        text = re.sub(r"(?<![\w])" + re.escape(k) + r"(?![\w])", pron[k], text)
-    return text
+    # [[...]] bleibt roh (Slop-Aussprache), alles andere bekommt die Lautschrift
+    parts = re.split(r"(\[\[.*?\]\])", text)
+    out = []
+    for p in parts:
+        if p.startswith("[["):
+            out.append(p[2:-2]); continue
+        for k in keys:
+            p = re.sub(r"(?<![\w])" + re.escape(k) + r"(?![\w])", pron[k], p)
+        out.append(p)
+    return "".join(out)
 
 
 def speed_for(text):
@@ -93,10 +100,24 @@ def build(vid):
         if kind == "q":
             num += 1
         side = lambda s: {"label": s["label"], "img": copy_img(s.get("img")), "emoji": s.get("emoji")}
-        add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"], "num": num,
-                      "total": sum(1 for x in v["questions"] if x.get("type", "q") == "q")},
-            q["say"], {"gap": GAP, "hold": REVEAL}); n += 1
-    add("outro", n, {"title": v["outro"].get("title"), "sub": v["outro"].get("sub")}, v["outro"]["say"], {"hold": TAIL + 30})
+        # Frage in zwei Teile: erst Option A, dann ab "oder" Option B (fliegt dann rein)
+        say = q["say"]
+        m = re.search(r",?\s+oder\s+", say)
+        fa = adir / f"{n:02d}_{kind}_a.mp3"
+        fb = adir / f"{n:02d}_{kind}_b.mp3"
+        if m:
+            tts(say[:m.start()] + ",", fa); tts("oder " + say[m.end():], fb)
+            ba = frames(fa) + 2
+            sp = ba + frames(fb)
+            segs.append({"kind": kind, "audio": f"audio/{vid}/{fa.name}", "audioB": f"audio/{vid}/{fb.name}",
+                         "bAt": ba, "speak": sp, "gap": GAP, "hold": REVEAL,
+                         "a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]})
+        else:
+            add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": GAP, "hold": REVEAL})
+        n += 1
+    o = v["outro"]
+    add("outro", n, {"title": o.get("title"), "sub": o.get("sub"), "share": o.get("share")},
+        o["say"] + (" " + o["shareSay"] if o.get("shareSay") else ""), {"hold": TAIL + 30})
 
     for s in segs:
         s["duration"] = s["speak"] + s.get("gap", 0) + s["hold"]

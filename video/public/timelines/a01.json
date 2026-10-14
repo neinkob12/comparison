@@ -3,16 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2229,
+ "durationInFrames": 2444,
  "segments": [
   {
    "kind": "hook",
-   "audio": "audio/a01/00_hook.mp3",
-   "speak": 73,
+   "audio": "audio/a01/00_hook_a.mp3",
+   "audioB": "audio/a01/00_hook_b.mp3",
+   "bAt": 51,
+   "speak": 95,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Nacht mit Nizi",
+    "label": "1 Nacht mit Nils Zimmermann",
     "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
@@ -25,13 +27,13 @@
     8,
     92
    ],
-   "num": 0,
-   "total": 7,
-   "duration": 208
+   "duration": 230
   },
   {
    "kind": "q",
-   "audio": "audio/a01/01_q.mp3",
+   "audio": "audio/a01/01_q_a.mp3",
+   "audioB": "audio/a01/01_q_b.mp3",
+   "bAt": 71,
    "speak": 113,
    "gap": 90,
    "hold": 45,
@@ -49,14 +51,14 @@
     12,
     88
    ],
-   "num": 1,
-   "total": 7,
    "duration": 248
   },
   {
    "kind": "q",
-   "audio": "audio/a01/02_q.mp3",
-   "speak": 80,
+   "audio": "audio/a01/02_q_a.mp3",
+   "audioB": "audio/a01/02_q_b.mp3",
+   "bAt": 35,
+   "speak": 87,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -73,18 +75,18 @@
     97,
     3
    ],
-   "num": 2,
-   "total": 7,
-   "duration": 215
+   "duration": 222
   },
   {
    "kind": "q",
-   "audio": "audio/a01/03_q.mp3",
-   "speak": 77,
+   "audio": "audio/a01/03_q_a.mp3",
+   "audioB": "audio/a01/03_q_b.mp3",
+   "bAt": 89,
+   "speak": 129,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Feature mit Nizi",
+    "label": "Feature mit Nizi19",
     "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
@@ -97,14 +99,14 @@
     73,
     27
    ],
-   "num": 3,
-   "total": 7,
-   "duration": 212
+   "duration": 264
   },
   {
    "kind": "q",
-   "audio": "audio/a01/04_q.mp3",
-   "speak": 131,
+   "audio": "audio/a01/04_q_a.mp3",
+   "audioB": "audio/a01/04_q_b.mp3",
+   "bAt": 67,
+   "speak": 120,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -121,14 +123,14 @@
     49,
     51
    ],
-   "num": 4,
-   "total": 7,
-   "duration": 266
+   "duration": 255
   },
   {
    "kind": "mid",
-   "audio": "audio/a01/05_mid.mp3",
-   "speak": 167,
+   "audio": "audio/a01/05_mid_a.mp3",
+   "audioB": "audio/a01/05_mid_b.mp3",
+   "bAt": 51,
+   "speak": 157,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -145,14 +147,14 @@
     37,
     63
    ],
-   "num": 4,
-   "total": 7,
-   "duration": 302
+   "duration": 292
   },
   {
    "kind": "q",
-   "audio": "audio/a01/06_q.mp3",
-   "speak": 77,
+   "audio": "audio/a01/06_q_a.mp3",
+   "audioB": "audio/a01/06_q_b.mp3",
+   "bAt": 41,
+   "speak": 121,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -169,14 +171,14 @@
     44,
     56
    ],
-   "num": 5,
-   "total": 7,
-   "duration": 212
+   "duration": 256
   },
   {
    "kind": "q",
-   "audio": "audio/a01/07_q.mp3",
-   "speak": 73,
+   "audio": "audio/a01/07_q_a.mp3",
+   "audioB": "audio/a01/07_q_b.mp3",
+   "bAt": 51,
+   "speak": 87,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -193,14 +195,14 @@
     1,
     99
    ],
-   "num": 6,
-   "total": 7,
-   "duration": 208
+   "duration": 222
   },
   {
    "kind": "q",
-   "audio": "audio/a01/08_q.mp3",
-   "speak": 98,
+   "audio": "audio/a01/08_q_a.mp3",
+   "audioB": "audio/a01/08_q_b.mp3",
+   "bAt": 51,
+   "speak": 103,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -217,18 +219,17 @@
     83,
     17
    ],
-   "num": 7,
-   "total": 7,
-   "duration": 233
+   "duration": 238
   },
   {
    "kind": "outro",
    "audio": "audio/a01/09_outro.mp3",
-   "speak": 80,
+   "speak": 172,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "duration": 125
+   "share": "Schick das an die 3 größten Talahons, die du kennst",
+   "duration": 217
   }
  ]
 }
