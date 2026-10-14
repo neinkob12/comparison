@@ -1,118 +1,103 @@
-# Deutschrap "Würdest du eher" Content Haus: Konzept (Entwurf zur Freigabe)
+# Deutschrap "Würdest du eher" Content Haus: Konzept (Entwurf v2 zur Freigabe)
 
-Status: **Wartet auf Freigabe.** Nichts davon wird gerendert, bevor Jakob die Listen abgenickt hat.
+Status: **Wartet auf Freigabe.** Nichts wird gerendert, bevor Jakob die Listen abgenickt hat.
 
 ## Entscheidungen bisher
 
 | Thema | Entscheidung |
 |---|---|
 | Render | Remotion (React), 1 JSON pro Video, Batch-Render zu MP4 (1080x1920, 30fps) |
-| Stimme | ElevenLabs (deutsch), Key kommt als Env-Variable `ELEVENLABS_API_KEY` |
+| Stimme | ElevenLabs (deutsch), Key liegt als `ELEVENLABS_API_KEY` in der Umgebung |
 | Look | Split-Screen oben rot / unten blau, Bild + Name, Prozent ploppt auf |
 | Musik | Keine eingebrannt, Trend-Sound beim Upload in TikTok |
 | Upload | Erst manuell / Scheduler, später API |
-| Kanäle | 2 Kanäle, gleiche Nische (New Gen), 25 Videos je Kanal, A/B-Test |
-| Fokus | New Gen Deutschrap |
+| Kanäle | 2 Kanäle, gleiche Nische, 25 Videos je Kanal, A/B-Test |
+| Fokus | **Nur New School**, Berliner 1019-Umfeld + nahe Artists. Keine Old School, kein Generationen-Vergleich |
 | Prozente | Bewusst provokant (knappe oder überraschende Ergebnisse) |
-| Ton | Locker + Meme, keine Beleidigungen oder falschen Behauptungen |
+| Ton | Locker, keine Beleidigungen oder falschen Behauptungen |
 
 ## Videoaufbau (ca. 65 bis 75 Sekunden)
 
 | Abschnitt | Dauer | Inhalt |
 |---|---|---|
-| Hook + Follow | 4 s | "Folg mir, wenn du bei mindestens 4 gleich gewählt hast!" + Follow-Button-Animation |
-| Frage 1 bis 3 | je ca. 10 s | TTS liest Frage, 3-Sek-Countdown-Balken, Prozente ploppen auf, Gewinner pulsiert |
-| Chaos-Frage (Mitte) | 9 s | Absurde Off-Topic-Frage im gleichen Layout, andere Farbe |
+| Intro + Follow | 4 s | "Folg für Teil 2" + Follow-Button-Animation |
+| Frage 1 bis 3 | je ca. 10 s | TTS liest Frage, 3-Sek-Countdown, Prozente ploppen auf |
+| Zwischenfrage | 9 s | Off-Topic-Frage ("Nie wieder duschen oder nie wieder Maka") |
 | Frage 4 bis 6 | je ca. 10 s | wie oben |
-| Outro + Follow | 4 s | "Schreib in die Kommentare, wie oft du mit der Mehrheit warst. Folgen für Teil 2!" |
+| Outro + Follow | 4 s | Kommentar-Aufruf + Follow |
 
-Standard: **6 Vergleiche + 1 Chaos-Frage**. Kanal A und Kanal B bekommen leicht unterschiedliche Farben und Stimmen (A/B-Test).
+## Rapper-Pool
 
-## Rapper-Pool (New Gen + ein paar Crossover-Namen)
+**Kern (von Jakob gesetzt):** Nizi19, Lucio101, Lacazette, Pashanim, Symba, Yuyu19, Kalim
 
-**New Gen Kern:** Ski Aggu, Pashanim, Nina Chuba, Luciano, Apache 207, Makko, Symba, Badmomzjay, Zartmann, Paula Hartmann, Ayliva, Jazeek, Domiziana, Kasimir1441, Berq, 1986zig, t-low, Sira, Lune, Haiyti, Montez, Nimo
+**Nah dran (gleiche Crew / häufige Features):** Omar101, Karamel19 (beide 1019), Makko (Feature mit Symba), Mucco (oft mit Lacazette), Caney030 (auf Akh & Krach), Luciano (Feature mit Kalim), Pajel (16 mit Kalim), Ufo361 (Hier mit Lucio101)
 
-**Crossover (für Kontrast, sorgt für Kommentare):** Shirin David, Sido, Capital Bra, Cro, Yung Hurn, Ufo361, RAF Camora, Bonez MC, Haftbefehl, Shindy, Peter Fox
+**Newcomer (optional, kleinere Reichweite):** Soyhan (Wedding), Gangsta Ralph
 
-**Gruppen / Crews:** 187 Strassenbande, K.I.Z, BHZ, Kitschkrieg, Genetikk, SXTN (Nostalgie)
+## Song- und Album-Pool (recherchiert)
 
-**Szenen:** Berlin, Frankfurt, Hamburg, Wien, Ruhrpott, Stuttgart
+| Artist | Songs | Alben |
+|---|---|---|
+| Lacazette | LID, CUP, FTW, H&K, +49 (mit Lucio101, Nizi19, Yuyu19) | LID |
+| Lucio101 | Superkraft, Wittenbergplatz, Hier (mit Ufo361), 6 Nullen, Schuhkarton | 101%, Mittendrin, 1019 (mit Nizi19) |
+| Nizi19 | Feuermelder (mit Lucio101), Hollywoodreif, Million (1019) | Doktor, Akh & Krach (mit Yuyu19) |
+| Yuyu19 | Hollywoodreif, Hajar, Schoko und Keks, Schein trügt | Akh & Krach |
+| Pashanim | Sommergewitter, Airwaves, Kleiner Prinz, Bagchaser Can, Ms. Jackson, Hauseingang | |
+| Symba | Angels Sippen, Mario Run, Memos (feat. Makko) | Teamboys undso |
+| Kalim | 16 (mit Pajel), SKRR, bis um 3, Bleib über Nacht (feat. Luciano) | Free Game, Nur für meine Augen |
 
-## Song-Pool (vor Rendern per Spotify verifiziert)
+## Formate
 
-| Artist | Songs |
+| Format | Beispiel |
 |---|---|
-| Ski Aggu | Friesenjung, Party Sahne |
-| Pashanim | Sommergewitter, Airwaves |
-| Nina Chuba | Wildberry Lillet, Fame, Mangos mit Chili |
-| Luciano | Bamba |
-| Apache 207 | Roller, Komet, Fühlst du das nicht auch |
-| Zartmann | Tau mich auf |
-| Ayliva | Sie weiß |
-| Shirin David | Bauch Beine Po, Ich darf das, Gib ihm |
-| Sido | Mein Block, Bilder im Kopf, ISSA |
-| Capital Bra | Cherry Lady, Berlin lebt |
-| Cro | Easy, Einmal um die Welt |
-| Yung Hurn | Ok cool, Bianco |
-| Bonez MC & RAF Camora | Palmen aus Plastik, 500 PS |
-| Haftbefehl | Chabos wissen wer der Babo ist |
-| Peter Fox | Haus am See, Zukunft Pink |
+| Rapper vs Rapper | Ein Jahr nur Lacazette oder ein Jahr nur Pashanim? |
+| Song vs Song | CUP oder Sommergewitter für immer löschen? |
+| Konzert | Lucio101 erste Reihe oder Kalim backstage? |
+| Album | Nur noch LID oder nur noch 101%? |
+| Feature | Feature mit Nizi19 oder mit Symba? |
+| Crew | Einen Tag mit 1019 abhängen oder einen Tag mit Lacazette? |
 
-Weitere Songs (Makko, Symba, Badmomzjay, Jazeek usw.) ziehe ich per Spotify-Suche nach, damit nichts falsch zugeordnet wird.
+## Zwischenfragen (Pool zum Rotieren)
 
-## Frageformate (Würdest du eher ...)
-
-1. **Nur noch hören:** "... ein Jahr nur noch Ski Aggu oder nur noch Pashanim hören?"
-2. **Song verbannen:** "... Friesenjung oder Wildberry Lillet für immer aus Spotify löschen?"
-3. **Konzert:** "... erste Reihe bei Apache 207 oder Backstage bei Nina Chuba?"
-4. **Album auf einsamer Insel:** "... nur Album X oder nur Album Y mitnehmen?"
-5. **Feature:** "... ein Feature mit Luciano oder mit Shirin David bekommen?"
-6. **Alltag mit Rapper:** "... mit Makko WG teilen oder mit Symba Roadtrip machen?"
-7. **Crew/Gruppe:** "... Teil von 187 oder Teil von K.I.Z sein?"
-8. **Szene:** "... nur noch Berlin-Rap oder nur noch Wien-Rap?"
-9. **Generationen-Clash:** "... Cro 2012 live oder Ski Aggu 2026 live?"
-10. **Lyrics-Fail:** "... auf der Hochzeit Mein Block oder Bauch Beine Po performen müssen?"
-
-## Chaos-Fragen (Mitte, Pool zum Rotieren)
-
-- Nie wieder duschen ODER nie wieder Maka
-- Triff dich im Park mit der 3. Person unter "Teilen" ODER schick deinen letzten Screenshot in die Familiengruppe
-- Deine Mutter liest deinen kompletten Chatverlauf ODER dein Ex sieht deinen Suchverlauf
-- Ein Jahr kein Döner ODER ein Jahr kein WLAN
-- Ruf die 5. Person in deinen Kontakten an und sag "Ich liebe dich" ODER poste das 1. Foto in deiner Galerie in die Story
-- Für immer nasse Socken ODER für immer Sand im Schuh
-- Nur noch Schlager hören ODER nur noch Crocs tragen
-- Dein Lehrer/Chef sieht dein Spotify Wrapped ODER deine Screentime
+- Nie wieder duschen oder nie wieder Maka
+- Im Park mit der 3. Person unter "Teilen" treffen oder deinen letzten Screenshot in die Familiengruppe schicken
+- Deine Mutter liest deine Chats oder dein Ex sieht deinen Suchverlauf
+- Ein Jahr kein Döner oder ein Jahr kein WLAN
+- Die 5. Person in deinen Kontakten anrufen und "Ich liebe dich" sagen oder das 1. Foto in deiner Galerie in die Story posten
+- Für immer nasse Socken oder für immer Sand im Schuh
+- Dein Chef sieht dein Spotify Wrapped oder deine Bildschirmzeit
 
 ## Verteilung der 50 Videos
 
 | Format | Anzahl |
 |---|---|
-| Nur noch hören (Rapper vs Rapper) | 10 |
-| Songs (verbannen / Hochzeit / Dauerschleife) | 9 |
-| Konzerte | 8 |
-| Alben | 6 |
-| Feature / Alltag mit Rapper | 7 |
-| Crews + Szenen | 5 |
-| Generationen-Clash (New Gen vs OG) | 5 |
+| Rapper vs Rapper | 12 |
+| Song vs Song | 12 |
+| Konzert | 8 |
+| Album | 7 |
+| Feature | 6 |
+| Crew | 5 |
+
+Meist gemischt pro Video (6 Fragen aus 2 bis 3 Formaten), damit es nicht eintönig wird.
 
 ## Beispielskript (Video 1, Kanal A)
 
-> Hook: "Folg mir, wenn du bei mindestens 4 gleich gewählt hast wie die Mehrheit!"
+> Intro: "Folg für Teil 2, wir fangen direkt an."
 >
-> 1. Ein Jahr nur Ski Aggu ODER ein Jahr nur Pashanim? (41 / 59)
-> 2. Erste Reihe bei Apache 207 ODER Backstage bei Nina Chuba? (63 / 37)
-> 3. Friesenjung für immer löschen ODER Sommergewitter für immer löschen? (52 / 48)
-> 4. **Chaos:** Nie wieder duschen ODER nie wieder Maka? (18 / 82)
-> 5. Feature mit Luciano ODER Feature mit Shirin David? (47 / 53)
-> 6. Mit Makko in eine WG ODER mit Zartmann auf Tour? (35 / 65)
-> 7. Cro 2012 live ODER Ski Aggu 2026 live? (71 / 29)
+> 1. Ein Jahr nur Lacazette oder ein Jahr nur Pashanim? (54 / 46)
+> 2. CUP oder Sommergewitter für immer löschen? (61 / 39)
+> 3. Feature mit Nizi19 oder mit Symba? (73 / 27)
+> 4. **Zwischenfrage:** Nie wieder duschen oder nie wieder Maka? (18 / 82)
+> 5. Nur noch LID oder nur noch 101%? (49 / 51)
+> 6. Lucio101 erste Reihe oder Kalim backstage? (44 / 56)
+> 7. Einen Tag mit 1019 oder einen Tag mit Lacazette? (66 / 34)
 >
-> Outro: "Wie oft warst du bei der Mehrheit? Ab in die Kommentare und folgen für Teil 2!"
+> Outro: "Wie oft lagst du bei der Mehrheit? Schreibs in die Kommentare und folg für Teil 2."
 
-## Offene Punkte / Blocker
+## Bilder
 
-- **Netzwerk:** `api.elevenlabs.io` und Bildquellen (z.B. `commons.wikimedia.org`, `upload.wikimedia.org`) sind in der Cloud-Umgebung gerade gesperrt. Muss in den Environment-Settings freigegeben werden.
-- **ElevenLabs Key:** als Env-Variable `ELEVENLABS_API_KEY` in der Umgebung hinterlegen (nicht im Chat posten). Wird erst in einer neuen Session sichtbar.
-- **Bilder:** Plan ist Wikimedia Commons (CC-lizenziert, deutlich sicherer als Spotify-Bilder). Fehlende Bilder liefert ihr nach.
-- **Kanalnamen:** noch offen, Vorschläge siehe Chat.
+Wikimedia Commons hat für diese Szene fast nichts (Stand Check heute): kein Foto von Pashanim, Yuyu19, Karamel19; bei Lacazette nur der Fußballer; Lucio101 und Makko je ein Foto. **Bilder müssen von euch kommen.**
+
+Ablage: `assets/artists/<slug>.jpg` (Hochformat oder quadratisch, mind. 800 px), z.B. `lacazette.jpg`, `lucio101.jpg`, `nizi19.jpg`, `yuyu19.jpg`, `pashanim.jpg`, `symba.jpg`, `kalim.jpg`. Album-Cover analog unter `assets/albums/<slug>.jpg`.
+
+Fehlt ein Bild, rendert das Template automatisch eine Namens-Karte (großer Name auf Farbverlauf), damit nichts blockiert.
