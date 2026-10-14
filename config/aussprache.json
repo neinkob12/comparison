@@ -17,9 +17,16 @@
   "Akh & Krach": "Ach und Krach",
   "Free Game": "Free Game",
   "Samra": "Sammra",
-  "_offen": "Kalim, Zackavelli, LID, FTW: Runde 3 auf der Aussprache-Seite. Hinweis: Mucco mit speed 1.1 sprechen.",
   "Caney030": "Tschani Null Drei Null",
   "Mucco": "Mutscho",
   "Makko": "Makko",
-  "Lacazette": "Lakasett"
+  "Lacazette": "Lakasett",
+  "Kalim": "Kallim",
+  "Zackavelli": "Tsackawelli",
+  "LID": "Ell Ih Deh",
+  "FTW": "Eff Teh Weh",
+  "_speed": {
+    "Kalim": 1.1,
+    "Mucco": 1.1
+  }
 }
