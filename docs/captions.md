@@ -1,6 +1,6 @@
 # Upload-Captions Kanal A (@akhmachtkrach19)
 
-Pro Video: Datei `out/aNN.mp4`, Caption unten kopieren. Trend-Sound beim Upload leise (ca. 5-10 %) drunterlegen.
+a01-a14: alter Stil (evtl. schon geplant). Ab a15 neue, abwechslungsreiche Captions.
 
 ## a01
 
@@ -60,144 +60,144 @@ Kalim am Abiball oder Samra auf der Hochzeit? 😭 Wie oft lagst du richtig? �
 
 ## a15
 
-Lacazette im Fahrstuhl oder Masi im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #caney030 #kalim #yuyu19 #fyp
+bin raus, das ist zu schwer 😭 #deutschrap #caney030 #samra #fürdich #rapdeutschland
 
 ## a16
 
-Souly am Abiball oder Zackavelli auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #zackavelli #kalim #yuyu19 #lucio101 #fyp
+Feature mit Makko oder Feature mit Kakavelli? und keiner sagt beides 👇 #deutschrap #zackavelli #makko #deutschrapmemes
 
 ## a17
 
-Kalim als Stiefvater oder Karamel19 als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lacazette #kalim #mucco #nizi19 #fyp
+jeder hat diesen einen freund, der Nizi19 als großen Bruder will #deutschrap #nizi19 #karamel19 #fyp
 
 ## a18
 
-Nils Zimmermann am Abiball oder Karamel19 auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lucio101 #pashanim #karamel19 #mucco #fyp
+nur noch CUP oder nur noch 16? ehrlich? 👇 #deutschrap #nizi19 #samra #1019
 
 ## a19
 
-Lucio als Stiefvater oder Lacazette als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #omar101 #pashanim #souly #fyp
+eine frage hier ist eigentlich geschenkt #deutschrap #ufo361 #lucio101 #fyp #1019
 
 ## a20
 
-Kalim im Fahrstuhl oder Ufo361 im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #nizi19 #karamel19 #kalim #fyp
+nur noch Doktor oder nur noch Mittendrin? und keiner sagt beides 👇 #deutschrap #samra #ufo361 #deutschrapmemes #rapdeutschland
 
 ## a21
 
-Lucio als Stiefvater oder Caney030 als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #yuyu19 #caney030 #zackavelli #fyp
+ich lag bei keiner einzigen richtig 💀 #deutschrap #pashanim #zackavelli #deutschrapmemes
 
 ## a22
 
-1 Nacht mit Yuyu oder Nie wieder Pashanim? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #souly #nizi19 #lacazette #fyp
+Feature mit Souly oder Feature mit Lacazette? schwerste frage im video 💀 #deutschrap #lacazette #souly #rapdeutschland #berlinrap
 
 ## a23
 
-1 Nacht mit Pashanim oder Nie wieder Nizi19? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #pashanim #zackavelli #luciano #nizi19 #fyp
+markier den, der Zackavelli als großen Bruder will 👀 #deutschrap #zackavelli #nizi19 #würdestdueher
 
 ## a24
 
-Masi im Fahrstuhl oder Samra im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #ufo361 #caney030 #omar101 #fyp
+nur echte berliner haben hier alles richtig 😭 #deutschrap #omar101 #zackavelli #rapdeutschland #tiktokdeutschland
 
 ## a25
 
-Nizi19 liest deine Chats oder Haribo sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lacazette #karamel19 #caney030 #ufo361 #fyp
+schick das dem einen akh, der Lacazette als großen Bruder will 💀 #deutschrap #lacazette #karamel19 #rapdeutschland
 
 ## a26
 
-Pashanim im Fahrstuhl oder Kalim im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #pashanim #omar101 #nizi19 #fyp
+nur noch LID oder nur noch Doktor? ohne nachdenken 👇 #deutschrap #souly #kalim #würdestdueher #deutschrapmemes
 
 ## a27
 
-Makko als Stiefvater oder Haribo als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #souly #zackavelli #yuyu19 #fyp
+jeder hat diesen einen freund, der unbedingt ein Feature mit Zackavelli will #deutschrap #zackavelli #yuyu19 #würdestdueher
 
 ## a28
 
-Pashanim liest deine Chats oder Souly sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #souly #pashanim #luciano #nizi19 #fyp
+ich hab 3 mal zurückgespult 😭 #deutschrap #omar101 #caney030 #1019 #deutschrapmemes
 
 ## a29
 
-Kalim am Abiball oder Luciano auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lucio101 #pashanim #mucco #kalim #fyp
+schick das dem einen akh, der unbedingt ein Feature mit Lucio will 💀 #deutschrap #lucio101 #makko #rapdeutschland
 
 ## a30
 
-Zackavelli am Abiball oder Luciano auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #souly #lacazette #caney030 #fyp
+diese prozente sind nicht real 😭 #deutschrap #souly #zackavelli #rapdeutschland #würdestdueher
 
 ## a31
 
-Souly am Abiball oder Mucco auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #souly #zackavelli #kalim #nizi19 #fyp
+jeder hat diesen einen freund, der 1 Jahr nur Ufo361 hören würde #deutschrap #ufo361 #makko #fürdich #1019
 
 ## a32
 
-Pashanim im Fahrstuhl oder Samra im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #kalim #yuyu19 #lacazette #fyp
+nur 1019 fans schaffen das ohne fehler #deutschrap #samra #kalim #tiktokdeutschland
 
 ## a33
 
-Kalim am Abiball oder Ufo361 auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #zackavelli #ufo361 #omar101 #samra #fyp
+wallah diesmal unmöglich 😭 #deutschrap #souly #pashanim #deutschrapmemes #1019
 
 ## a34
 
-1 Nacht mit Samra oder Nie wieder Omar101? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #kalim #makko #zackavelli #fyp
+1 Jahr nur Kalim oder 1 Jahr nur Samra? ehrlich? 👇 #deutschrap #kalim #samra #deutschrapmemes #berlinrap
 
 ## a35
 
-Nizi19 als Stiefvater oder Mucco als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #makko #nizi19 #lacazette #fyp
+markier den, der 1 Jahr nur Souly hören würde 👀 #deutschrap #souly #mucco #fyp #rapdeutschland
 
 ## a36
 
-Cano030 am Abiball oder Lucio auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #luciano #lucio101 #yuyu19 #fyp
+wenn du hier alles richtig hast bist du safe aus 030 💀 #deutschrap #ufo361 #kalim #fyp #berlinrap
 
 ## a37
 
-1 Nacht mit Lucio oder Nie wieder Karmahel19? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #samra #lucio101 #makko #fyp
+jeder hat diesen einen freund, der unbedingt ein Feature mit Kalim will #deutschrap #kalim #omar101 #rapdeutschland
 
 ## a38
 
-Lacazette am Abiball oder Luciano auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #souly #makko #ufo361 #luciano #fyp
+nur noch Kleiner Prinz oder nur noch Hollywoodreif? ich weiß es selbst nicht 😭 #deutschrap #yuyu19 #souly #rapdeutschland #1019
 
 ## a39
 
-Yuyu als Stiefvater oder Mucco als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi19 #karamel19 #caney030 #samra #fyp
+jeder hat diesen einen freund, der bei Samra in die erste Reihe will #deutschrap #samra #mucco #fürdich
 
 ## a40
 
-Makko liest deine Chats oder Nizi19 sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #lucio101 #mucco #yuyu19 #fyp
+die zwischenfrage hat mich komplett zerstört 😭 #deutschrap #samra #makko #fyp #berlinrap
 
 ## a41
 
-Makko im Fahrstuhl oder Souly im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #yuyu19 #makko #lacazette #fyp
+Zackavelli kocht oder Luciano fährt dich? ehrlich? 👇 #deutschrap #luciano #zackavelli #würdestdueher #deutschrapmemes
 
 ## a42
 
-1 Nacht mit Zackavelli oder Nie wieder Caney030? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi19 #omar101 #zackavelli #yuyu19 #fyp
+kein normaler mensch hat hier alles richtig 😭 #deutschrap #yuyu19 #zackavelli #würdestdueher
 
 ## a43
 
-Karamel19 als Stiefvater oder Haribo als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #nizi19 #karamel19 #zackavelli #fyp
+wer hier alles richtig hat lügt 💀 #deutschrap #yuyu19 #nizi19 #tiktokdeutschland #fyp
 
 ## a44
 
-Luciano am Abiball oder Souly auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi19 #luciano #zackavelli #yuyu19 #fyp
+CUP löschen oder FTW löschen? ohne nachdenken 👇 #deutschrap #nizi19 #souly #berlinrap
 
 ## a45
 
-1 Nacht mit Doktor19 oder Nie wieder Luciano? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #makko #caney030 #omar101 #fyp
+bei der letzten frage hab ich kurz überlegt zu blockieren 😭 #deutschrap #makko #nizi19 #würdestdueher #fürdich
 
 ## a46
 
-Karmahel19 am Abiball oder Haribo auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #makko #ufo361 #yuyu19 #nizi19 #fyp
+Kalim kocht oder Omar101 fährt dich? ich weiß es selbst nicht 😭 #deutschrap #kalim #omar101 #fürdich #würdestdueher
 
 ## a47
 
-1 Nacht mit Samra oder Nie wieder Luciano? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #makko #nizi19 #yuyu19 #fyp
+diesmal waren alle fragen gemein 💀 #deutschrap #makko #yuyu19 #tiktokdeutschland
 
 ## a48
 
-Luciano am Abiball oder Makko auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #caney030 #lucio101 #yuyu19 #luciano #fyp
+Caney030 erste Reihe oder Souly backstage? und keiner sagt beides 👇 #deutschrap #caney030 #souly #fyp
 
 ## a49
 
-1 Nacht mit Souly oder Nie wieder Luciano? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #souly #luciano #ufo361 #fyp
+normale menschen nehmen hier immer die erste option, oder? #deutschrap #ufo361 #yuyu19 #1019 #würdestdueher
 
 ## a50
 
-Samra im Fahrstuhl oder Souly im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #ufo361 #omar101 #caney030 #fyp
+Luciano als Bruder oder Karamel19 als Mitbewohner? und keiner sagt beides 👇 #deutschrap #karamel19 #luciano #würdestdueher #fürdich
