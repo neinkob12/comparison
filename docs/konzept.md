@@ -30,9 +30,9 @@ Status: **Wartet auf Freigabe.** Nichts wird gerendert, bevor Jakob die Listen a
 
 **Kern (von Jakob gesetzt):** Nizi19, Lucio101, Lacazette, Pashanim, Yuyu19, Kalim (Symba gestrichen)
 
-**1019 & Umfeld:** Omar101, Karamel19 (beide 1019), Makko, Mucco (oft mit Lacazette), Caney030 (auf Akh & Krach), Pajel (16 mit Kalim)
+**1019 & Umfeld:** Omar101, Karamel19 (beide 1019), Makko, Mucco (oft mit Lacazette), Caney030 (auf Akh & Krach)
 
-**Berliner Trap:** Ufo361 (Hier mit Lucio101), Luciano (Feature mit Kalim), Jazeek, Samra, Souly, Zackavelli (Beyazz von Jakob gestrichen)
+**Berliner Trap:** Ufo361 (Hier mit Lucio101), Luciano (Feature mit Kalim), Samra, Souly, Zackavelli (Beyazz von Jakob gestrichen)
 
 Fotos werden über die Upload-Seite gesammelt: https://claude.ai/artifact/TtAw226hCZAuFdRQFgSY3d
 
@@ -45,7 +45,7 @@ Fotos werden über die Upload-Seite gesammelt: https://claude.ai/artifact/TtAw22
 | Nizi19 | Hollywoodreif, Million (1019) | Doktor, Akh & Krach (mit Yuyu19) |
 | Yuyu19 | Hollywoodreif, Hajar, Schoko und Keks, Schein trügt | Akh & Krach |
 | Pashanim | Sommergewitter, Airwaves, Kleiner Prinz, Bagchaser Can, Ms. Jackson, Hauseingang | |
-| Kalim | 16 (mit Pajel), SKRR, bis um 3, Bleib über Nacht (feat. Luciano) | Free Game, Nur für meine Augen |
+| Kalim | 16, SKRR, bis um 3, Bleib über Nacht (feat. Luciano) | Free Game, Nur für meine Augen |
 
 ## Formate
 
