@@ -1,0 +1,109 @@
+"""Vertont ein Video (ElevenLabs) und schreibt die Timeline fuer Remotion.
+
+Aufruf: python3 scripts/build.py a01 [b01 ...]
+Liest content/videos/<id>.json, schreibt video/public/audio/<id>/*.mp3 und video/public/timelines/<id>.json.
+"""
+import json, os, re, shutil, subprocess, sys, urllib.request
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+PUB = ROOT / "video" / "public"
+FPS = 30
+VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam
+GAP = 10          # Frames Pause nach der Frage
+REVEAL = 66       # Frames, in denen die Prozente stehen
+TAIL = 15         # Frames Luft am Ende von Intro/Outro
+
+pron = json.loads((ROOT / "config" / "aussprache.json").read_text())
+speeds = pron.pop("_speed", {})
+pron = {k: v for k, v in pron.items() if not k.startswith("_")}
+keys = sorted(pron, key=len, reverse=True)
+
+
+def spoken(text):
+    for k in keys:
+        text = re.sub(r"(?<![\w])" + re.escape(k) + r"(?![\w])", pron[k], text)
+    return text
+
+
+def speed_for(text):
+    return max([speeds[n] for n in speeds if n in text] + [1.05])
+
+
+def tts(text, out):
+    if out.exists():
+        return
+    body = {"text": spoken(text), "model_id": "eleven_multilingual_v2", "language_code": "de",
+            "voice_settings": {"stability": 0.7, "similarity_boost": 0.8, "style": 0, "speed": speed_for(text)}}
+    req = urllib.request.Request(
+        f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_128",
+        data=json.dumps(body).encode(),
+        headers={"xi-api-key": os.environ["ELEVENLABS_API_KEY"], "Content-Type": "application/json"})
+    raw = out.with_suffix(".raw.mp3")
+    raw.write_bytes(urllib.request.urlopen(req, timeout=90).read())
+    # Stille vorne/hinten weg, Atempausen im Satz auf max. 0.25 s kuerzen
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-af",
+                    "silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=-1:stop_threshold=-45dB:stop_duration=0.25",
+                    "-b:a", "128k", str(out)], check=True)
+    raw.unlink()
+
+
+def frames(path):
+    d = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                       "-of", "csv=p=0", str(path)]).decode())
+    return int(d * FPS) + 1
+
+
+def copy_img(rel):
+    if not rel:
+        return None
+    src = ROOT / "assets" / rel
+    if not src.exists():
+        print("  fehlt:", rel)
+        return None
+    dst = PUB / "img" / rel
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(src, dst)
+    return "img/" + rel
+
+
+def build(vid):
+    v = json.loads((ROOT / "content" / "videos" / f"{vid}.json").read_text())
+    adir = PUB / "audio" / vid
+    adir.mkdir(parents=True, exist_ok=True)
+    segs = []
+
+    def add(kind, n, data, say, extra):
+        f = adir / f"{n:02d}_{kind}.mp3"
+        tts(say, f)
+        segs.append({"kind": kind, "audio": f"audio/{vid}/{f.name}", "speak": frames(f), **extra, **data})
+
+    n = 0
+    if v.get("intro"):
+        i = v["intro"]
+        add("intro", n, {"title": i["title"], "sub": i["sub"]}, i["say"], {"hold": TAIL + 20}); n += 1
+    qs = ([v["hook"]] if v.get("hook") else []) + v["questions"]
+    num = 0
+    for q in qs:
+        kind = q.get("type", "q")
+        if kind == "q":
+            num += 1
+        side = lambda s: {"label": s["label"], "img": copy_img(s.get("img"))}
+        add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"], "num": num,
+                      "total": sum(1 for x in v["questions"] if x.get("type", "q") == "q")},
+            q["say"], {"gap": GAP, "hold": REVEAL}); n += 1
+    add("outro", n, {}, v["outro"]["say"], {"hold": TAIL + 30})
+
+    for s in segs:
+        s["duration"] = s["speak"] + s.get("gap", 0) + s["hold"]
+    total = sum(s["duration"] for s in segs)
+    tl = {"id": vid, "channel": v["channel"], "handle": v.get("handle"), "fps": FPS,
+          "durationInFrames": total, "segments": segs}
+    (PUB / "timelines").mkdir(parents=True, exist_ok=True)
+    (PUB / "timelines" / f"{vid}.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1))
+    print(f"{vid}: {total / FPS:.1f} s, {len(segs)} Abschnitte")
+
+
+if __name__ == "__main__":
+    for vid in sys.argv[1:]:
+        build(vid)

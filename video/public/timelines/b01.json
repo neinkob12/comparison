@@ -1,0 +1,201 @@
+{
+ "id": "b01",
+ "channel": "B",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 1832,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/b01/00_intro.mp3",
+   "speak": 117,
+   "hold": 35,
+   "title": "RAPPER-DUELL",
+   "sub": "Berlin Edition",
+   "duration": 152
+  },
+  {
+   "kind": "q",
+   "audio": "audio/b01/01_q.mp3",
+   "speak": 125,
+   "gap": 10,
+   "hold": 66,
+   "a": {
+    "label": "1 Jahr nur Lacazette",
+    "img": "img/artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Pashanim",
+    "img": "img/artists/pashanim.jpg"
+   },
+   "pct": [
+    54,
+    46
+   ],
+   "num": 1,
+   "total": 7,
+   "duration": 201
+  },
+  {
+   "kind": "q",
+   "audio": "audio/b01/02_q.mp3",
+   "speak": 97,
+   "gap": 10,
+   "hold": 66,
+   "a": {
+    "label": "CUP löschen",
+    "img": "img/songs/song-cup.jpg"
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "img/songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    61,
+    39
+   ],
+   "num": 2,
+   "total": 7,
+   "duration": 173
+  },
+  {
+   "kind": "q",
+   "audio": "audio/b01/03_q.mp3",
+   "speak": 101,
+   "gap": 10,
+   "hold": 66,
+   "a": {
+    "label": "Feature mit Nizi19",
+    "img": "img/artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Feature mit Kalim",
+    "img": "img/artists/kalim.jpg"
+   },
+   "pct": [
+    73,
+    27
+   ],
+   "num": 3,
+   "total": 7,
+   "duration": 177
+  },
+  {
+   "kind": "q",
+   "audio": "audio/b01/04_q.mp3",
+   "speak": 129,
+   "gap": 10,
+   "hold": 66,
+   "a": {
+    "label": "Nur noch LID",
+    "img": "img/albums/album-lid.jpg"
+   },
+   "b": {
+    "label": "Nur noch 101%",
+    "img": "img/albums/album-101.jpg"
+   },
+   "pct": [
+    49,
+    51
+   ],
+   "num": 4,
+   "total": 7,
+   "duration": 205
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/b01/05_mid.mp3",
+   "speak": 92,
+   "gap": 10,
+   "hold": 66,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null
+   },
+   "b": {
+    "label": "Nie wieder Maka",
+    "img": null
+   },
+   "pct": [
+    18,
+    82
+   ],
+   "num": 4,
+   "total": 7,
+   "duration": 168
+  },
+  {
+   "kind": "q",
+   "audio": "audio/b01/06_q.mp3",
+   "speak": 106,
+   "gap": 10,
+   "hold": 66,
+   "a": {
+    "label": "1 Tag mit Pashanim",
+    "img": "img/artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Lucio101",
+    "img": "img/artists/lucio101.jpg"
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "num": 5,
+   "total": 7,
+   "duration": 182
+  },
+  {
+   "kind": "q",
+   "audio": "audio/b01/07_q.mp3",
+   "speak": 126,
+   "gap": 10,
+   "hold": 66,
+   "a": {
+    "label": "Lucio101 erste Reihe",
+    "img": "img/artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Kalim backstage",
+    "img": "img/artists/kalim.jpg"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "num": 6,
+   "total": 7,
+   "duration": 202
+  },
+  {
+   "kind": "q",
+   "audio": "audio/b01/08_q.mp3",
+   "speak": 103,
+   "gap": 10,
+   "hold": 66,
+   "a": {
+    "label": "Hollywoodreif",
+    "img": "img/songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Airwaves",
+    "img": "img/songs/song-airwaves.jpg"
+   },
+   "pct": [
+    57,
+    43
+   ],
+   "num": 7,
+   "total": 7,
+   "duration": 179
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/b01/09_outro.mp3",
+   "speak": 148,
+   "hold": 45,
+   "duration": 193
+  }
+ ]
+}

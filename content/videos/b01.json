@@ -1,0 +1,134 @@
+{
+ "id": "b01",
+ "channel": "B",
+ "handle": null,
+ "intro": {
+  "title": "RAPPER-DUELL",
+  "sub": "Berlin Edition",
+  "say": "Rapper-Duell. Heute: Berlin. Du hast immer nur eine Wahl."
+ },
+ "questions": [
+  {
+   "say": "Würdest du eher ein Jahr nur Lacazette hören, oder ein Jahr nur Pashanim?",
+   "a": {
+    "label": "1 Jahr nur Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "pct": [
+    54,
+    46
+   ]
+  },
+  {
+   "say": "CUP für immer löschen, oder Sommergewitter für immer löschen?",
+   "a": {
+    "label": "CUP löschen",
+    "img": "songs/song-cup.jpg"
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    61,
+    39
+   ]
+  },
+  {
+   "say": "Ein Feature mit Nizi19, oder ein Feature mit Kalim?",
+   "a": {
+    "label": "Feature mit Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Feature mit Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    73,
+    27
+   ]
+  },
+  {
+   "say": "Nur noch das Album LID hören, oder nur noch 101%?",
+   "a": {
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "b": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "pct": [
+    49,
+    51
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder nie wieder Maka?",
+   "a": {
+    "label": "Nie wieder duschen"
+   },
+   "b": {
+    "label": "Nie wieder Maka"
+   },
+   "pct": [
+    18,
+    82
+   ]
+  },
+  {
+   "say": "Ein Tag mit Pashanim, oder ein Tag mit Lucio101?",
+   "a": {
+    "label": "1 Tag mit Pashanim",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Lucio101",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "Lucio101 in der ersten Reihe, oder Kalim backstage?",
+   "a": {
+    "label": "Lucio101 erste Reihe",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Kalim backstage",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    38,
+    62
+   ]
+  },
+  {
+   "say": "Hollywoodreif auf Dauerschleife, oder Airwaves auf Dauerschleife?",
+   "a": {
+    "label": "Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Airwaves",
+    "img": "songs/song-airwaves.jpg"
+   },
+   "pct": [
+    57,
+    43
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du bei der Mehrheit? Schreibs in die Kommentare, und folg für Teil zwei!"
+ }
+}

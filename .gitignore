@@ -1,2 +1,6 @@
 assets/**/*.jpg
 assets/**/*.png
+video/node_modules/
+out/
+video/public/img/
+video/public/audio/
