@@ -83,10 +83,12 @@
    "type": "mid",
    "say": "Kurze Pause. Nie wieder duschen, oder nie wieder Maka?",
    "a": {
-    "label": "Nie wieder duschen"
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
    },
    "b": {
-    "label": "Nie wieder Maka"
+    "label": "Nie wieder Maka",
+    "emoji": "🍃"
    },
    "pct": [
     18,

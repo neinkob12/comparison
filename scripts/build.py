@@ -10,8 +10,8 @@ ROOT = Path(__file__).resolve().parent.parent
 PUB = ROOT / "video" / "public"
 FPS = 30
 VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam
-GAP = 10          # Frames Pause nach der Frage
-REVEAL = 66       # Frames, in denen die Prozente stehen
+GAP = 90          # Frames 3-2-1-Timer nach der Frage
+REVEAL = 54       # Frames, in denen die Prozente stehen
 TAIL = 15         # Frames Luft am Ende von Intro/Outro
 
 pron = json.loads((ROOT / "config" / "aussprache.json").read_text())
@@ -80,15 +80,19 @@ def build(vid):
 
     n = 0
     if v.get("intro"):
+        # Fertige epische Ansage (eleven_v3, mit Hall), Intro max. 2 s
         i = v["intro"]
-        add("intro", n, {"title": i["title"], "sub": i["sub"]}, i["say"], {"hold": TAIL + 20}); n += 1
+        f = PUB / "sfx" / "intro_rapper_duell.mp3"
+        sp = frames(f)
+        segs.append({"kind": "intro", "audio": "sfx/intro_rapper_duell.mp3", "speak": sp, "voiceAt": 6,
+                     "title": i["title"], "sub": i["sub"], "hold": max(54, sp + 10) - sp}); n += 1
     qs = ([v["hook"]] if v.get("hook") else []) + v["questions"]
     num = 0
     for q in qs:
         kind = q.get("type", "q")
         if kind == "q":
             num += 1
-        side = lambda s: {"label": s["label"], "img": copy_img(s.get("img"))}
+        side = lambda s: {"label": s["label"], "img": copy_img(s.get("img")), "emoji": s.get("emoji")}
         add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"], "num": num,
                       "total": sum(1 for x in v["questions"] if x.get("type", "q") == "q")},
             q["say"], {"gap": GAP, "hold": REVEAL}); n += 1

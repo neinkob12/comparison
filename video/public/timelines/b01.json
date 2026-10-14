@@ -3,30 +3,33 @@
  "channel": "B",
  "handle": null,
  "fps": 30,
- "durationInFrames": 1832,
+ "durationInFrames": 2278,
  "segments": [
   {
    "kind": "intro",
-   "audio": "audio/b01/00_intro.mp3",
-   "speak": 117,
-   "hold": 35,
-   "title": "RAPPER-DUELL",
-   "sub": "Berlin Edition",
-   "duration": 152
+   "audio": "sfx/intro_rapper_duell.mp3",
+   "speak": 43,
+   "voiceAt": 6,
+   "title": "RAPPER",
+   "sub": "DUELL",
+   "hold": 11,
+   "duration": 54
   },
   {
    "kind": "q",
    "audio": "audio/b01/01_q.mp3",
    "speak": 125,
-   "gap": 10,
-   "hold": 66,
+   "gap": 90,
+   "hold": 54,
    "a": {
     "label": "1 Jahr nur Lacazette",
-    "img": "img/artists/lacazette.jpg"
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
    },
    "b": {
     "label": "1 Jahr nur Pashanim",
-    "img": "img/artists/pashanim.jpg"
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
    },
    "pct": [
     54,
@@ -34,21 +37,23 @@
    ],
    "num": 1,
    "total": 7,
-   "duration": 201
+   "duration": 269
   },
   {
    "kind": "q",
    "audio": "audio/b01/02_q.mp3",
    "speak": 97,
-   "gap": 10,
-   "hold": 66,
+   "gap": 90,
+   "hold": 54,
    "a": {
     "label": "CUP löschen",
-    "img": "img/songs/song-cup.jpg"
+    "img": "img/songs/song-cup.jpg",
+    "emoji": null
    },
    "b": {
     "label": "Sommergewitter löschen",
-    "img": "img/songs/song-sommergewitter.jpg"
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
    },
    "pct": [
     61,
@@ -56,21 +61,23 @@
    ],
    "num": 2,
    "total": 7,
-   "duration": 173
+   "duration": 241
   },
   {
    "kind": "q",
    "audio": "audio/b01/03_q.mp3",
    "speak": 101,
-   "gap": 10,
-   "hold": 66,
+   "gap": 90,
+   "hold": 54,
    "a": {
     "label": "Feature mit Nizi19",
-    "img": "img/artists/nizi19.jpg"
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
    },
    "b": {
     "label": "Feature mit Kalim",
-    "img": "img/artists/kalim.jpg"
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
    },
    "pct": [
     73,
@@ -78,21 +85,23 @@
    ],
    "num": 3,
    "total": 7,
-   "duration": 177
+   "duration": 245
   },
   {
    "kind": "q",
    "audio": "audio/b01/04_q.mp3",
    "speak": 129,
-   "gap": 10,
-   "hold": 66,
+   "gap": 90,
+   "hold": 54,
    "a": {
     "label": "Nur noch LID",
-    "img": "img/albums/album-lid.jpg"
+    "img": "img/albums/album-lid.jpg",
+    "emoji": null
    },
    "b": {
     "label": "Nur noch 101%",
-    "img": "img/albums/album-101.jpg"
+    "img": "img/albums/album-101.jpg",
+    "emoji": null
    },
    "pct": [
     49,
@@ -100,21 +109,23 @@
    ],
    "num": 4,
    "total": 7,
-   "duration": 205
+   "duration": 273
   },
   {
    "kind": "mid",
    "audio": "audio/b01/05_mid.mp3",
    "speak": 92,
-   "gap": 10,
-   "hold": 66,
+   "gap": 90,
+   "hold": 54,
    "a": {
     "label": "Nie wieder duschen",
-    "img": null
+    "img": null,
+    "emoji": "🚿"
    },
    "b": {
     "label": "Nie wieder Maka",
-    "img": null
+    "img": null,
+    "emoji": "🍃"
    },
    "pct": [
     18,
@@ -122,21 +133,23 @@
    ],
    "num": 4,
    "total": 7,
-   "duration": 168
+   "duration": 236
   },
   {
    "kind": "q",
    "audio": "audio/b01/06_q.mp3",
    "speak": 106,
-   "gap": 10,
-   "hold": 66,
+   "gap": 90,
+   "hold": 54,
    "a": {
     "label": "1 Tag mit Pashanim",
-    "img": "img/artists/pashanim.jpg"
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
    },
    "b": {
     "label": "1 Tag mit Lucio101",
-    "img": "img/artists/lucio101.jpg"
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
    },
    "pct": [
     44,
@@ -144,21 +157,23 @@
    ],
    "num": 5,
    "total": 7,
-   "duration": 182
+   "duration": 250
   },
   {
    "kind": "q",
    "audio": "audio/b01/07_q.mp3",
    "speak": 126,
-   "gap": 10,
-   "hold": 66,
+   "gap": 90,
+   "hold": 54,
    "a": {
     "label": "Lucio101 erste Reihe",
-    "img": "img/artists/lucio101.jpg"
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
    },
    "b": {
     "label": "Kalim backstage",
-    "img": "img/artists/kalim.jpg"
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
    },
    "pct": [
     38,
@@ -166,21 +181,23 @@
    ],
    "num": 6,
    "total": 7,
-   "duration": 202
+   "duration": 270
   },
   {
    "kind": "q",
    "audio": "audio/b01/08_q.mp3",
    "speak": 103,
-   "gap": 10,
-   "hold": 66,
+   "gap": 90,
+   "hold": 54,
    "a": {
     "label": "Hollywoodreif",
-    "img": "img/songs/song-hollywoodreif.jpg"
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
    },
    "b": {
     "label": "Airwaves",
-    "img": "img/songs/song-airwaves.jpg"
+    "img": "img/songs/song-airwaves.jpg",
+    "emoji": null
    },
    "pct": [
     57,
@@ -188,7 +205,7 @@
    ],
    "num": 7,
    "total": 7,
-   "duration": 179
+   "duration": 247
   },
   {
    "kind": "outro",
