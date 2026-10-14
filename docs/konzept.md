@@ -21,7 +21,7 @@ Status: **Wartet auf Freigabe.** Nichts wird gerendert, bevor Jakob die Listen a
 | Abschnitt | Dauer | Inhalt |
 |---|---|---|
 | Intro + Follow | 4 s | "Folg für Teil 2" + Follow-Button-Animation |
-| Frage 1 bis 3 | je ca. 10 s | TTS liest Frage, 3-Sek-Countdown, Prozente ploppen auf |
+| Frage 1 bis 3 | je ca. 10 s | TTS liest Frage, kurze Pause (kein gesprochener Countdown), Prozente ploppen auf |
 | Zwischenfrage | 9 s | Off-Topic-Frage ("Nie wieder duschen oder nie wieder Maka") |
 | Frage 4 bis 6 | je ca. 10 s | wie oben |
 | Outro + Follow | 4 s | Kommentar-Aufruf + Follow |
@@ -57,7 +57,7 @@ Fotos werden über die Upload-Seite gesammelt: https://claude.ai/artifact/TtAw22
 | Konzert | Lucio101 erste Reihe oder Kalim backstage? |
 | Album | Nur noch LID oder nur noch 101%? |
 | Feature | Feature mit Nizi19 oder mit Symba? |
-| Crew | Einen Tag mit 1019 abhängen oder einen Tag mit Lacazette? |
+| Crew | Ein Tag mit 1019 oder ein Tag mit Lacazette? |
 
 ## Zwischenfragen (Pool zum Rotieren)
 
@@ -92,7 +92,7 @@ Meist gemischt pro Video (6 Fragen aus 2 bis 3 Formaten), damit es nicht eintön
 > 4. **Zwischenfrage:** Nie wieder duschen oder nie wieder Maka? (18 / 82)
 > 5. Nur noch LID oder nur noch 101%? (49 / 51)
 > 6. Lucio101 erste Reihe oder Kalim backstage? (44 / 56)
-> 7. Einen Tag mit 1019 oder einen Tag mit Lacazette? (66 / 34)
+> 7. Ein Tag mit 1019 oder ein Tag mit Lacazette? (66 / 34)
 >
 > Outro: "Wie oft lagst du bei der Mehrheit? Schreibs in die Kommentare und folg für Teil 2."
 
@@ -103,3 +103,9 @@ Wikimedia Commons hat für diese Szene fast nichts (Stand Check heute): kein Fot
 Ablage: `assets/artists/<slug>.jpg` (Hochformat oder quadratisch, mind. 800 px), z.B. `lacazette.jpg`, `lucio101.jpg`, `nizi19.jpg`, `yuyu19.jpg`, `pashanim.jpg`, `symba.jpg`, `kalim.jpg`. Album-Cover analog unter `assets/albums/<slug>.jpg`.
 
 Fehlt ein Bild, rendert das Template automatisch eine Namens-Karte (großer Name auf Farbverlauf), damit nichts blockiert.
+
+## Sprache / Formulierung
+
+- Kurz und direkt: "Ein Tag mit Pashanim oder ein Tag mit Lucio101?" Keine Füllwörter wie "abhängen".
+- Kein gesprochener Countdown vor der Auflösung.
+- Aussprache aller Namen steht in `config/aussprache.json` und wird vor jedem TTS-Aufruf ersetzt.
