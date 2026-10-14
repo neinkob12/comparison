@@ -30,9 +30,11 @@ Status: **Wartet auf Freigabe.** Nichts wird gerendert, bevor Jakob die Listen a
 
 **Kern (von Jakob gesetzt):** Nizi19, Lucio101, Lacazette, Pashanim, Symba, Yuyu19, Kalim
 
-**Nah dran (gleiche Crew / häufige Features):** Omar101, Karamel19 (beide 1019), Makko (Feature mit Symba), Mucco (oft mit Lacazette), Caney030 (auf Akh & Krach), Luciano (Feature mit Kalim), Pajel (16 mit Kalim), Ufo361 (Hier mit Lucio101)
+**1019 & Umfeld:** Omar101, Karamel19 (beide 1019), Makko (Feature mit Symba), Mucco (oft mit Lacazette), Caney030 (auf Akh & Krach), Pajel (16 mit Kalim)
 
-**Newcomer (optional, kleinere Reichweite):** Soyhan (Wedding), Gangsta Ralph
+**Berliner Trap:** Ufo361 (Hier mit Lucio101), Luciano (Feature mit Kalim), Jazeek, Samra, Beyazz, Souly, Zackavelli
+
+Fotos werden über die Upload-Seite gesammelt: https://claude.ai/artifact/TtAw226hCZAuFdRQFgSY3d
 
 ## Song- und Album-Pool (recherchiert)
 
