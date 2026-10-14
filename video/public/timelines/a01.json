@@ -3,21 +3,21 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2343,
+ "durationInFrames": 2229,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a01/00_hook.mp3",
-   "speak": 113,
+   "speak": 73,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Nacht mit Nizi19",
+    "label": "1 Nacht mit Nizi",
     "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nie wieder Lucio101",
+    "label": "Nie wieder Lucio",
     "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
@@ -27,12 +27,12 @@
    ],
    "num": 0,
    "total": 7,
-   "duration": 248
+   "duration": 208
   },
   {
    "kind": "q",
    "audio": "audio/a01/01_q.mp3",
-   "speak": 100,
+   "speak": 113,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -51,12 +51,12 @@
    ],
    "num": 1,
    "total": 7,
-   "duration": 235
+   "duration": 248
   },
   {
    "kind": "q",
    "audio": "audio/a01/02_q.mp3",
-   "speak": 78,
+   "speak": 80,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -75,16 +75,16 @@
    ],
    "num": 2,
    "total": 7,
-   "duration": 213
+   "duration": 215
   },
   {
    "kind": "q",
    "audio": "audio/a01/03_q.mp3",
-   "speak": 81,
+   "speak": 77,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Feature mit Nizi19",
+    "label": "Feature mit Nizi",
     "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
@@ -99,12 +99,12 @@
    ],
    "num": 3,
    "total": 7,
-   "duration": 216
+   "duration": 212
   },
   {
    "kind": "q",
    "audio": "audio/a01/04_q.mp3",
-   "speak": 113,
+   "speak": 131,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -123,12 +123,12 @@
    ],
    "num": 4,
    "total": 7,
-   "duration": 248
+   "duration": 266
   },
   {
    "kind": "mid",
    "audio": "audio/a01/05_mid.mp3",
-   "speak": 166,
+   "speak": 167,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -147,12 +147,12 @@
    ],
    "num": 4,
    "total": 7,
-   "duration": 301
+   "duration": 302
   },
   {
    "kind": "q",
    "audio": "audio/a01/06_q.mp3",
-   "speak": 98,
+   "speak": 77,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -161,7 +161,7 @@
     "emoji": null
    },
    "b": {
-    "label": "1 Tag mit Lucio101",
+    "label": "1 Tag mit Lucio",
     "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
@@ -171,16 +171,16 @@
    ],
    "num": 5,
    "total": 7,
-   "duration": 233
+   "duration": 212
   },
   {
    "kind": "q",
    "audio": "audio/a01/07_q.mp3",
-   "speak": 113,
+   "speak": 73,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lucio101 erste Reihe",
+    "label": "Lucio erste Reihe",
     "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
@@ -195,7 +195,7 @@
    ],
    "num": 6,
    "total": 7,
-   "duration": 248
+   "duration": 208
   },
   {
    "kind": "q",
@@ -224,9 +224,11 @@
   {
    "kind": "outro",
    "audio": "audio/a01/09_outro.mp3",
-   "speak": 123,
+   "speak": 80,
    "hold": 45,
-   "duration": 168
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "duration": 125
   }
  ]
 }

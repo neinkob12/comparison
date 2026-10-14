@@ -185,7 +185,8 @@ const Question: React.FC<{s: Segment}> = ({s}) => {
 			<Audio src={staticFile(s.audio)} />
 			<Sequence from={s.speak} durationInFrames={COUNT}><Audio src={staticFile('sfx/countdown.mp3')} volume={0.85} /></Sequence>
 			<Audio src={staticFile('sfx/whoosh.mp3')} volume={0.5} />
-			<Sequence from={revealAt}><Audio src={staticFile('sfx/bling.mp3')} volume={0.7} /></Sequence>
+			<Sequence from={revealAt}><Audio src={staticFile('sfx/ring.mp3')} volume={0.45} /></Sequence>
+			<Sequence from={revealAt}><Audio src={staticFile('sfx/bling.mp3')} volume={0.6} /></Sequence>
 		</AbsoluteFill>
 	);
 };
@@ -234,9 +235,9 @@ const Outro: React.FC<{s: Segment; handle: string | null}> = ({s, handle}) => {
 	return (
 		<AbsoluteFill style={{background: C.ink, alignItems: 'center', justifyContent: 'center', gap: 50, padding: 80}}>
 			<div style={{fontFamily: DISPLAY, fontSize: 120, lineHeight: 1.05, color: C.white, textAlign: 'center', transform: `scale(${a})`}}>
-				WIE OFT WARST DU BEI DER <span style={{color: C.yellow}}>MEHRHEIT?</span>
+				{s.title ?? 'WIE OFT LAGST DU RICHTIG, AKH?'}
 			</div>
-			<div style={{fontFamily: HEAVY, fontSize: 56, color: C.white, opacity: 0.85}}>⬇ Ab in die Kommentare</div>
+			<div style={{fontFamily: HEAVY, fontSize: 50, whiteSpace: 'nowrap', color: C.ink, background: C.yellow, padding: '14px 34px', borderRadius: 18}}>⬇ {s.sub ?? 'Schreibs in die Kommentare'}</div>
 			<FollowPill handle={handle} still />
 			<Audio src={staticFile(s.audio)} />
 		</AbsoluteFill>

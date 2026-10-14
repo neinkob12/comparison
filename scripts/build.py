@@ -96,7 +96,7 @@ def build(vid):
         add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"], "num": num,
                       "total": sum(1 for x in v["questions"] if x.get("type", "q") == "q")},
             q["say"], {"gap": GAP, "hold": REVEAL}); n += 1
-    add("outro", n, {}, v["outro"]["say"], {"hold": TAIL + 30})
+    add("outro", n, {"title": v["outro"].get("title"), "sub": v["outro"].get("sub")}, v["outro"]["say"], {"hold": TAIL + 30})
 
     for s in segs:
         s["duration"] = s["speak"] + s.get("gap", 0) + s["hold"]

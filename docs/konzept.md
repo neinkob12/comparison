@@ -122,3 +122,10 @@ Beide Kanäle bekommen die gleichen Fragen, nur der Einstieg unterscheidet sich.
 | Follow-Aufruf | Nach Frage 1 kurz eingeblendet | Direkt nach der Titelkarte |
 
 Messung nach 7 Tagen: durchschnittliche Wiedergabezeit, Anteil nach 3 Sekunden noch dabei, Kommentare pro 1000 Views, neue Follower.
+
+## Update: nur Kanal A
+
+Kanal B ("Rapper-Duell") ist vorerst gestrichen. Wir machen nur Kanal A (@akhmachtkrach19, hart rein mit Hook-Frage).
+Nizi19 und Lucio101 heißen in Kanal A nur "Nizi" und "Lucio" (Text und Stimme).
+Ende: "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!"
+Countdown: heller Uhr-Tick, 5 pro Sekunde, nachgebaut nach Jakobs Referenzvideo.
