@@ -28,43 +28,43 @@ Pashanim im Fahrstuhl oder Mucco im Bällebad? 😭 Wie oft lagst du richtig? �
 
 ## a07
 
-Kalim liest deine Chats oder Zackavelli sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #karamel19 #pashanim #nizi19 #kalim #fyp
+Lucio im Fahrstuhl oder Pashanim im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #caney030 #nizi19 #samra #lucio101 #fyp
 
 ## a08
 
-1 Nacht mit Pashanim oder Nie wieder Omar101? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #pashanim #omar101 #caney030 #yuyu19 #fyp
+Kakanim als Stiefvater oder Lacazette als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #pashanim #karamel19 #zackavelli #souly #fyp
 
 ## a09
 
-Pashanim am Abiball oder Lucio auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lucio101 #ufo361 #nizi19 #luciano #fyp
+Nizi19 liest deine Chats oder Souly sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #souly #nizi19 #luciano #lacazette #fyp
 
 ## a10
 
-1 Nacht mit Karmahel19 oder Nie wieder Mucco? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #zackavelli #kalim #karamel19 #fyp
+1 Nacht mit Karamel19 oder Nie wieder Mucco? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #makko #karamel19 #ufo361 #fyp
 
 ## a11
 
-Nizi19 als Stiefvater oder Karamel19 als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lacazette #makko #souly #luciano #fyp
+Haribo im Fahrstuhl oder Souly im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #lucio101 #souly #nizi19 #fyp
 
 ## a12
 
-Lucio als Stiefvater oder Karamel19 als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #karamel19 #mucco #luciano #ufo361 #fyp
+Lucio als Stiefvater oder Karamel19 als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #ufo361 #mucco #zackavelli #fyp
 
 ## a13
 
-Makko als Stiefvater oder Lucio als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #pashanim #ufo361 #nizi19 #kalim #fyp
+Nizi19 im Fahrstuhl oder Souly im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #karamel19 #caney030 #nizi19 #luciano #fyp
 
 ## a14
 
-1 Nacht mit Luciano oder Nie wieder Kalim? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #samra #lucio101 #makko #fyp
+Kalim am Abiball oder Samra auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #luciano #nizi19 #lacazette #fyp
 
 ## a15
 
-Kakazette im Fahrstuhl oder Zackavelli im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #karamel19 #zackavelli #yuyu19 #lacazette #fyp
+Lacazette im Fahrstuhl oder Masi im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #caney030 #kalim #yuyu19 #fyp
 
 ## a16
 
-Pashanim liest deine Chats oder Mucco sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #makko #kalim #yuyu19 #nizi19 #fyp
+Souly am Abiball oder Zackavelli auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #zackavelli #kalim #yuyu19 #lucio101 #fyp
 
 ## a17
 
@@ -72,132 +72,132 @@ Kalim als Stiefvater oder Karamel19 als Klassenlehrer? 😭 Wie oft lagst du ric
 
 ## a18
 
-1 Nacht mit Cano030 oder Nie wieder Luciano? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #samra #pashanim #caney030 #fyp
+Nils Zimmermann am Abiball oder Karamel19 auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lucio101 #pashanim #karamel19 #mucco #fyp
 
 ## a19
 
-Lucio als Stiefvater oder Lacazette als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #omar101 #yuyu19 #mucco #fyp
+Lucio als Stiefvater oder Lacazette als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #omar101 #pashanim #souly #fyp
 
 ## a20
 
-Pashanim im Fahrstuhl oder Samra im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #nizi19 #samra #lacazette #fyp
+Kalim im Fahrstuhl oder Ufo361 im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #nizi19 #karamel19 #kalim #fyp
 
 ## a21
 
-Luciano als Stiefvater oder Caney030 als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #caney030 #ufo361 #luciano #fyp
+Lucio als Stiefvater oder Caney030 als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #yuyu19 #caney030 #zackavelli #fyp
 
 ## a22
 
-1 Nacht mit Yuyu oder Nie wieder Omar101? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #karamel19 #souly #nizi19 #lucio101 #fyp
+1 Nacht mit Yuyu oder Nie wieder Pashanim? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #souly #nizi19 #lacazette #fyp
 
 ## a23
 
-Pashanim als Stiefvater oder Makko als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #lacazette #mucco #pashanim #fyp
+1 Nacht mit Pashanim oder Nie wieder Nizi19? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #pashanim #zackavelli #luciano #nizi19 #fyp
 
 ## a24
 
-Zackavelli im Fahrstuhl oder Samra im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #karamel19 #zackavelli #kalim #fyp
+Masi im Fahrstuhl oder Samra im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #ufo361 #caney030 #omar101 #fyp
 
 ## a25
 
-Nizi19 liest deine Chats oder Haribo sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #nizi19 #omar101 #yuyu19 #fyp
+Nizi19 liest deine Chats oder Haribo sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lacazette #karamel19 #caney030 #ufo361 #fyp
 
 ## a26
 
-Pashanim im Fahrstuhl oder Kalim im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lucio101 #pashanim #karamel19 #yuyu19 #fyp
+Pashanim im Fahrstuhl oder Kalim im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #pashanim #omar101 #nizi19 #fyp
 
 ## a27
 
-Nizi19 im Fahrstuhl oder Mucco im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #kalim #makko #yuyu19 #fyp
+Makko als Stiefvater oder Haribo als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #souly #zackavelli #yuyu19 #fyp
 
 ## a28
 
-Pashanim liest deine Chats oder Souly sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #souly #lucio101 #ufo361 #nizi19 #fyp
+Pashanim liest deine Chats oder Souly sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #souly #pashanim #luciano #nizi19 #fyp
 
 ## a29
 
-Kalim am Abiball oder Caney030 auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #kalim #mucco #caney030 #fyp
+Kalim am Abiball oder Luciano auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lucio101 #pashanim #mucco #kalim #fyp
 
 ## a30
 
-Samra am Abiball oder Luciano auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #makko #souly #nizi19 #caney030 #fyp
+Zackavelli am Abiball oder Luciano auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #souly #lacazette #caney030 #fyp
 
 ## a31
 
-Lucio liest deine Chats oder Nizi19 sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #makko #yuyu19 #nizi19 #pashanim #fyp
+Souly am Abiball oder Mucco auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #souly #zackavelli #kalim #nizi19 #fyp
 
 ## a32
 
-Haribo als Stiefvater oder Karamel19 als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #kalim #yuyu19 #pashanim #nizi19 #fyp
+Pashanim im Fahrstuhl oder Samra im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #kalim #yuyu19 #lacazette #fyp
 
 ## a33
 
-Omar101 liest deine Chats oder Luciano sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #karamel19 #omar101 #ufo361 #fyp
+Kalim am Abiball oder Ufo361 auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #zackavelli #ufo361 #omar101 #samra #fyp
 
 ## a34
 
-1 Nacht mit Lacazette oder Nie wieder Lucio? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #kalim #lacazette #karamel19 #pashanim #fyp
+1 Nacht mit Samra oder Nie wieder Omar101? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #kalim #makko #zackavelli #fyp
 
 ## a35
 
-Souly liest deine Chats oder Lacazette sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lucio101 #lacazette #nizi19 #souly #fyp
+Nizi19 als Stiefvater oder Mucco als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #makko #nizi19 #lacazette #fyp
 
 ## a36
 
-1 Nacht mit Kalim oder Nie wieder Ufo187? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #zackavelli #nizi19 #lacazette #fyp
+Cano030 am Abiball oder Lucio auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #luciano #lucio101 #yuyu19 #fyp
 
 ## a37
 
-1 Nacht mit Kalim oder Nie wieder Makko? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #makko #zackavelli #yuyu19 #kalim #fyp
+1 Nacht mit Lucio oder Nie wieder Karmahel19? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #samra #lucio101 #makko #fyp
 
 ## a38
 
-1 Nacht mit Kakazette oder Nie wieder Pashanim? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lacazette #kalim #makko #pashanim #fyp
+Lacazette am Abiball oder Luciano auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #souly #makko #ufo361 #luciano #fyp
 
 ## a39
 
-1 Nacht mit Kalim oder Nie wieder Pashanim? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #lucio101 #pashanim #kalim #fyp
+Yuyu als Stiefvater oder Mucco als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi19 #karamel19 #caney030 #samra #fyp
 
 ## a40
 
-Haribo als Stiefvater oder Luciano als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #kalim #caney030 #lacazette #luciano #fyp
+Makko liest deine Chats oder Nizi19 sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #lucio101 #mucco #yuyu19 #fyp
 
 ## a41
 
-1 Nacht mit Cano030 oder Nie wieder Karamel19? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lucio101 #omar101 #pashanim #yuyu19 #fyp
+Makko im Fahrstuhl oder Souly im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #yuyu19 #makko #lacazette #fyp
 
 ## a42
 
-Lacazette liest deine Chats oder Nizi19 sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi19 #omar101 #karamel19 #lacazette #fyp
+1 Nacht mit Zackavelli oder Nie wieder Caney030? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi19 #omar101 #zackavelli #yuyu19 #fyp
 
 ## a43
 
-Ufo361 im Fahrstuhl oder Kalim im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lucio101 #nizi19 #karamel19 #makko #fyp
+Karamel19 als Stiefvater oder Haribo als Klassenlehrer? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #nizi19 #karamel19 #zackavelli #fyp
 
 ## a44
 
-Ufo361 im Fahrstuhl oder Karamel19 im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi19 #karamel19 #ufo361 #kalim #fyp
+Luciano am Abiball oder Souly auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi19 #luciano #zackavelli #yuyu19 #fyp
 
 ## a45
 
-Lucio im Fahrstuhl oder Luciano im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #kalim #makko #caney030 #yuyu19 #fyp
+1 Nacht mit Doktor19 oder Nie wieder Luciano? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #luciano #makko #caney030 #omar101 #fyp
 
 ## a46
 
-Pashanim liest deine Chats oder Lucio sieht deinen Verlauf? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #caney030 #lucio101 #mucco #fyp
+Karmahel19 am Abiball oder Haribo auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #makko #ufo361 #yuyu19 #nizi19 #fyp
 
 ## a47
 
-Pashanim im Fahrstuhl oder Kalim im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #omar101 #lucio101 #nizi19 #ufo361 #fyp
+1 Nacht mit Samra oder Nie wieder Luciano? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #makko #nizi19 #yuyu19 #fyp
 
 ## a48
 
-1 Nacht mit Luciano oder Nie wieder Haribo? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #makko #nizi19 #yuyu19 #omar101 #fyp
+Luciano am Abiball oder Makko auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #caney030 #lucio101 #yuyu19 #luciano #fyp
 
 ## a49
 
-1 Nacht mit Souly oder Nie wieder Luciano? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #omar101 #lucio101 #lacazette #nizi19 #fyp
+1 Nacht mit Souly oder Nie wieder Luciano? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #souly #luciano #ufo361 #fyp
 
 ## a50
 
-Haribo im Fahrstuhl oder Karamel19 im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #zackavelli #karamel19 #lacazette #caney030 #fyp
+Samra im Fahrstuhl oder Souly im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #samra #ufo361 #omar101 #caney030 #fyp
