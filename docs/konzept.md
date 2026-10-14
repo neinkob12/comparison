@@ -11,7 +11,7 @@ Status: **Wartet auf Freigabe.** Nichts wird gerendert, bevor Jakob die Listen a
 | Look | Split-Screen oben rot / unten blau, Bild + Name, Prozent ploppt auf |
 | Musik | Keine eingebrannt, Trend-Sound beim Upload in TikTok |
 | Upload | Erst manuell / Scheduler, später API |
-| Kanäle | 2 Kanäle, gleiche Nische, 25 Videos je Kanal, A/B-Test |
+| Kanäle | 2 Kanäle, 25 Videos je Kanal, A/B-Test. Kanal A: https://www.tiktok.com/@akhmachtkrach19 |
 | Fokus | **Nur New School**, Berliner 1019-Umfeld + nahe Artists. Keine Old School, kein Generationen-Vergleich |
 | Prozente | Bewusst provokant (knappe oder überraschende Ergebnisse) |
 | Ton | Locker, keine Beleidigungen oder falschen Behauptungen |
@@ -28,9 +28,9 @@ Status: **Wartet auf Freigabe.** Nichts wird gerendert, bevor Jakob die Listen a
 
 ## Rapper-Pool
 
-**Kern (von Jakob gesetzt):** Nizi19, Lucio101, Lacazette, Pashanim, Symba, Yuyu19, Kalim
+**Kern (von Jakob gesetzt):** Nizi19, Lucio101, Lacazette, Pashanim, Yuyu19, Kalim (Symba gestrichen)
 
-**1019 & Umfeld:** Omar101, Karamel19 (beide 1019), Makko (Feature mit Symba), Mucco (oft mit Lacazette), Caney030 (auf Akh & Krach), Pajel (16 mit Kalim)
+**1019 & Umfeld:** Omar101, Karamel19 (beide 1019), Makko, Mucco (oft mit Lacazette), Caney030 (auf Akh & Krach), Pajel (16 mit Kalim)
 
 **Berliner Trap:** Ufo361 (Hier mit Lucio101), Luciano (Feature mit Kalim), Jazeek, Samra, Souly, Zackavelli (Beyazz von Jakob gestrichen)
 
@@ -42,10 +42,9 @@ Fotos werden über die Upload-Seite gesammelt: https://claude.ai/artifact/TtAw22
 |---|---|---|
 | Lacazette | LID, CUP, FTW, H&K, +49 (mit Lucio101, Nizi19, Yuyu19) | LID |
 | Lucio101 | Superkraft, Wittenbergplatz, Hier (mit Ufo361), 6 Nullen, Schuhkarton | 101%, Mittendrin, 1019 (mit Nizi19) |
-| Nizi19 | Feuermelder (mit Lucio101), Hollywoodreif, Million (1019) | Doktor, Akh & Krach (mit Yuyu19) |
+| Nizi19 | Hollywoodreif, Million (1019) | Doktor, Akh & Krach (mit Yuyu19) |
 | Yuyu19 | Hollywoodreif, Hajar, Schoko und Keks, Schein trügt | Akh & Krach |
 | Pashanim | Sommergewitter, Airwaves, Kleiner Prinz, Bagchaser Can, Ms. Jackson, Hauseingang | |
-| Symba | Angels Sippen, Mario Run, Memos (feat. Makko) | Teamboys undso |
 | Kalim | 16 (mit Pajel), SKRR, bis um 3, Bleib über Nacht (feat. Luciano) | Free Game, Nur für meine Augen |
 
 ## Formate
@@ -56,7 +55,7 @@ Fotos werden über die Upload-Seite gesammelt: https://claude.ai/artifact/TtAw22
 | Song vs Song | CUP oder Sommergewitter für immer löschen? |
 | Konzert | Lucio101 erste Reihe oder Kalim backstage? |
 | Album | Nur noch LID oder nur noch 101%? |
-| Feature | Feature mit Nizi19 oder mit Symba? |
+| Feature | Feature mit Nizi19 oder mit Kalim? |
 
 ## Zwischenfragen (Pool zum Rotieren)
 
@@ -86,7 +85,7 @@ Meist gemischt pro Video (6 Fragen aus 2 bis 3 Formaten), damit es nicht eintön
 >
 > 1. Ein Jahr nur Lacazette oder ein Jahr nur Pashanim? (54 / 46)
 > 2. CUP oder Sommergewitter für immer löschen? (61 / 39)
-> 3. Feature mit Nizi19 oder mit Symba? (73 / 27)
+> 3. Feature mit Nizi19 oder mit Kalim? (73 / 27)
 > 4. **Zwischenfrage:** Nie wieder duschen oder nie wieder Maka? (18 / 82)
 > 5. Nur noch LID oder nur noch 101%? (49 / 51)
 > 6. Lucio101 erste Reihe oder Kalim backstage? (44 / 56)
@@ -98,10 +97,7 @@ Meist gemischt pro Video (6 Fragen aus 2 bis 3 Formaten), damit es nicht eintön
 Von Spotify geholt (offizielle Artist-Bilder und Cover), liegen lokal unter `assets/` (nicht im Git, Rechte liegen bei Spotify/Labels) und auf der Upload-Seite.
 
 Fehlen noch:
-- **Symba:** Spotify hat für ihn kein Artist-Bild (der Treffer war ein anderer Symba)
-- **Pashanim-Songs** (Sommergewitter, Airwaves, Kleiner Prinz): seine Musik ist auf Spotify gerade gesperrt, nur sein Profilbild ist noch da
-- **Feuermelder:** nicht gefunden
-- **Ufo361:** sein Spotify-Bild ist eine Lego-Ninja-Figur, besser austauschen
+- Nichts. Pashanim-Cover kommen von Apple Music, Ufo361 ist aus dem Cover von "Emotions 2.0" ausgeschnitten.
 
 Fehlt ein Bild, rendert das Template eine Namens-Karte (großer Name auf Farbe).
 
@@ -112,6 +108,8 @@ Fehlt ein Bild, rendert das Template eine Namens-Karte (großer Name auf Farbe).
 - Aussprache aller Namen steht in `config/aussprache.json` und wird vor jedem TTS-Aufruf ersetzt.
 - Zahlen in Namen immer als einzelne Ziffern: Nizi19 = "Nizi Eins Neun", Lucio101 = "Lussio Eins Null Eins".
 - LID und FTW buchstabiert, CUP als Wort.
+- Aussprache wird als Lautschrift im Text übergeben. Echte Lautschrift-Tags (IPA) unterstützt ElevenLabs nur bei den englischen Modellen, nicht bei Adam auf Deutsch.
+- Gegen komische Atempausen: jede Zeile einzeln vertonen, Stabilität 0.7, keine "..." und keine Kommas in Namen, Stille am Anfang/Ende automatisch abschneiden, lange Pausen im Satz auf max. 0.3 s kürzen.
 
 ## Kanäle und A/B-Test (Hook)
 

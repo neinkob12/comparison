@@ -1,5 +1,5 @@
 {
-  "_info": "Wird vor jedem TTS-Aufruf angewendet (Stimme: Adam, eleven_multilingual_v2). Schreibweise links wird durch Sprechweise rechts ersetzt, laengere Eintraege zuerst. Zahlen in Namen immer als einzelne Ziffern.",
+  "_info": "Wird vor jedem TTS-Aufruf angewendet (Stimme: Adam, eleven_multilingual_v2). Schreibweise links wird durch Sprechweise rechts ersetzt, laengere Eintraege zuerst. Zahlen in Namen immer als einzelne Ziffern. Offene Namen werden ueber die Aussprache-Seite entschieden: https://claude.ai/artifact/EEmLhVdxMBdQTH3n6fPtbz",
   "Lucio101": "Lussio Eins Null Eins",
   "Omar101": "Omar Eins Null Eins",
   "Nizi19": "Nisi Eins Neun",
@@ -10,8 +10,7 @@
   "1019": "Eins Null Eins Neun",
   "Lacazette": "Lakasett",
   "Pashanim": "Pascha-Nim",
-  "Symba": "Simba",
-  "Kalim": "Kaliem",
+  "Kalim": "Kalim",
   "Luciano": "Lutschiano",
   "Jazeek": "Dschasiek",
   "Souly": "Souli",
@@ -19,9 +18,9 @@
   "Mucco": "Mucko",
   "+49": "Plus Neunundvierzig",
   "101%": "Eins Null Eins Prozent",
-  "LID": "Ell, Ih, Deh",
+  "LID": "Ell-Ih-Deh",
   "CUP": "Kapp",
-  "FTW": "Eff, Teh, Weh",
+  "FTW": "Eff-Teh-Weh",
   "H&K": "Hah und Kah",
   "Akh & Krach": "Ach und Krach"
 }
