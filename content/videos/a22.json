@@ -3,80 +3,81 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Yuyu, oder nie wieder Omar101 hören?",
+  "say": "Eine Nacht mit Yuyu, oder nie wieder Pashanim hören?",
   "a": {
    "label": "1 Nacht mit Yuyu",
    "img": "artists/yuyu19.jpg"
   },
   "b": {
-   "label": "Nie wieder Omar101",
-   "img": "artists/omar101.jpg"
+   "label": "Nie wieder Pashanim",
+   "img": "artists/pashanim.jpg"
   },
   "pct": [
-   9,
-   91
+   95,
+   5
   ],
+  "winSay": "Ohne Finger, Akh!",
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nizi19 als großer Bruder, oder Samra als Mitbewohner?",
+   "say": "Ein Tag mit [[Nisssssiiiiiijaaaaaaa]], oder ein Tag mit Omar101?",
+   "a": {
+    "label": "1 Tag mit Nizi19",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Omar101",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du Free Game mit, oder Nur für meine Augen?",
+   "a": {
+    "label": "Insel: Free Game",
+    "img": "albums/album-free-game.jpg"
+   },
+   "b": {
+    "label": "Insel: Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "say": "Nizi19 als großer Bruder, oder Caney030 als Mitbewohner?",
    "a": {
     "label": "Nizi19 als Bruder",
     "img": "artists/nizi19.jpg"
    },
    "b": {
-    "label": "Samra als Mitbewohner",
-    "img": "artists/samra.jpg"
+    "label": "Caney030 als Mitbewohner",
+    "img": "artists/caney030.jpg"
    },
    "pct": [
-    97,
-    3
+    54,
+    46
    ]
   },
   {
-   "say": "Nie wieder Lacazette hören, oder nie wieder [[BOBOBOBOBOBOOOOOOOOO]] hören?",
-   "a": {
-    "label": "Nie wieder Lacazette",
-    "img": "artists/lacazette.jpg"
-   },
-   "b": {
-    "label": "Nie wieder Luciano",
-    "img": "artists/luciano.jpg"
-   },
-   "pct": [
-    4,
-    96
-   ]
-  },
-  {
-   "say": "Wittenbergplatz auf Dauerschleife, oder FTW auf Dauerschleife?",
+   "say": "Wittenbergplatz auf Dauerschleife, oder +49 auf Dauerschleife?",
    "a": {
     "label": "Wittenbergplatz auf Repeat",
     "img": "songs/song-wittenbergplatz.jpg"
-   },
-   "b": {
-    "label": "FTW auf Repeat",
-    "img": "songs/song-ftw.jpg"
-   },
-   "pct": [
-    52,
-    48
-   ]
-  },
-  {
-   "say": "CUP auf Dauerschleife, oder +49 auf Dauerschleife?",
-   "a": {
-    "label": "CUP auf Repeat",
-    "img": "songs/song-cup.jpg"
    },
    "b": {
     "label": "+49 auf Repeat",
     "img": "songs/song-plus49.jpg"
    },
    "pct": [
-    1,
-    99
+    45,
+    55
    ]
   },
   {
@@ -91,19 +92,34 @@
     "emoji": "💌"
    },
    "pct": [
-    6,
-    94
+    52,
+    48
    ]
   },
   {
-   "say": "Auf die einsame Insel nimmst du Mittendrin mit, oder Akh & Krach?",
+   "say": "Hier auf Dauerschleife, oder Kleiner Prinz auf Dauerschleife?",
    "a": {
-    "label": "Insel: Mittendrin",
-    "img": "albums/album-mittendrin.jpg"
+    "label": "Hier auf Repeat",
+    "img": "songs/song-hier.jpg"
    },
    "b": {
-    "label": "Insel: Akh & Krach",
-    "img": "albums/album-akh-krach.jpg"
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "pct": [
+    54,
+    46
+   ]
+  },
+  {
+   "say": "Ein Feature mit [[Uuuuuuuufoooooo Drei Sechs Eins]], oder ein Feature mit Samra?",
+   "a": {
+    "label": "Feature mit Ufo361",
+    "img": "artists/ufo361.jpg"
+   },
+   "b": {
+    "label": "Feature mit Samra",
+    "img": "artists/samra.jpg"
    },
    "pct": [
     52,
@@ -111,33 +127,18 @@
    ]
   },
   {
-   "say": "Lacazette kocht für dich, oder Souly fährt dich nach Hause?",
+   "say": "Ein Feature mit Souly, oder ein Feature mit [[Lakaaaaaaasetttttttt]]?",
    "a": {
-    "label": "Lacazette kocht",
-    "img": "artists/lacazette.jpg"
-   },
-   "b": {
-    "label": "Souly fährt dich",
+    "label": "Feature mit Souly",
     "img": "artists/souly.jpg"
    },
-   "pct": [
-    35,
-    65
-   ]
-  },
-  {
-   "say": "[[Lussssssiiiiiiiooooooooo]] als Lehrer, oder Karamel19 als Fahrlehrer?",
-   "a": {
-    "label": "Lucio als Lehrer",
-    "img": "artists/lucio101.jpg"
-   },
    "b": {
-    "label": "Karamel19 als Fahrlehrer",
-    "img": "artists/karamel19.jpg"
+    "label": "Feature mit Lacazette",
+    "img": "artists/lacazette.jpg"
    },
    "pct": [
-    47,
-    53
+    94,
+    6
    ]
   }
  ],
@@ -145,7 +146,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
  }
 }

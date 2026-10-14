@@ -3,141 +3,141 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Lacazette, oder nie wieder Lucio hören?",
+  "say": "Eine Nacht mit Samra, oder nie wieder Omar101 hören?",
   "a": {
-   "label": "1 Nacht mit Lacazette",
-   "img": "artists/lacazette.jpg"
+   "label": "1 Nacht mit Samra",
+   "img": "artists/samra.jpg"
   },
   "b": {
-   "label": "Nie wieder Lucio",
-   "img": "artists/lucio101.jpg"
+   "label": "Nie wieder Omar101",
+   "img": "artists/omar101.jpg"
   },
   "pct": [
-   48,
-   52
+   51,
+   49
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Sommergewitter für immer löschen, oder +49 für immer löschen?",
+   "say": "Nur noch das Album 1019 hören, oder nur noch LID?",
    "a": {
-    "label": "Sommergewitter löschen",
-    "img": "songs/song-sommergewitter.jpg"
+    "label": "Nur noch 1019",
+    "img": "albums/album-1019.jpg"
    },
    "b": {
-    "label": "+49 löschen",
-    "img": "songs/song-plus49.jpg"
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
    },
    "pct": [
-    96,
-    4
+    16,
+    84
    ]
   },
   {
-   "say": "Nie wieder Karamel19 hören, oder nie wieder Kakazette hören?",
+   "say": "Mucco kocht für dich, oder Zackavelli fährt dich nach Hause?",
    "a": {
-    "label": "Nie wieder Karamel19",
-    "img": "artists/karamel19.jpg"
+    "label": "Mucco kocht",
+    "img": "artists/mucco.jpg"
    },
    "b": {
-    "label": "Nie wieder Kakazette",
-    "img": "artists/lacazette.jpg"
+    "label": "Zackavelli fährt dich",
+    "img": "artists/zackavelli.jpg"
    },
    "pct": [
-    93,
-    7
+    92,
+    8
    ]
   },
   {
-   "say": "Auf die einsame Insel nimmst du 101% mit, oder Doktor?",
+   "say": "Würdest du eher ein Jahr nur [[Kaaaaaaaaa-liiiiim]] hören, oder ein Jahr nur Samra?",
    "a": {
-    "label": "Insel: 101%",
-    "img": "albums/album-101.jpg"
+    "label": "1 Jahr nur Kalim",
+    "img": "artists/kalim.jpg"
    },
    "b": {
-    "label": "Insel: Doktor",
-    "img": "albums/album-doktor.jpg"
-   },
-   "pct": [
-    9,
-    91
-   ]
-  },
-  {
-   "say": "[[Luuuuuussssiiiiiooooo]] kocht für dich, oder Samra fährt dich nach Hause?",
-   "a": {
-    "label": "Lucio kocht",
-    "img": "artists/lucio101.jpg"
-   },
-   "b": {
-    "label": "Samra fährt dich",
+    "label": "1 Jahr nur Samra",
     "img": "artists/samra.jpg"
    },
    "pct": [
-    19,
-    81
+    5,
+    95
+   ]
+  },
+  {
+   "say": "Kleiner Prinz auf Dauerschleife, oder Airwaves auf Dauerschleife?",
+   "a": {
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "b": {
+    "label": "Airwaves auf Repeat",
+    "img": "songs/song-airwaves.jpg"
+   },
+   "pct": [
+    56,
+    44
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
    "a": {
     "label": "Nie wieder Maka",
     "emoji": "🧪"
    },
    "b": {
-    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
-    "emoji": "💌"
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
    },
    "pct": [
-    27,
-    73
+    77,
+    23
    ]
   },
   {
-   "say": "[[Luuuuuussssiiiiiooooo]] als großer Bruder, oder Nizi19 als Mitbewohner?",
+   "say": "Hier auf Dauerschleife, oder +49 auf Dauerschleife?",
    "a": {
-    "label": "Lucio als Bruder",
-    "img": "artists/lucio101.jpg"
+    "label": "Hier auf Repeat",
+    "img": "songs/song-hier.jpg"
    },
    "b": {
-    "label": "Nizi19 als Mitbewohner",
-    "img": "artists/nizi19.jpg"
+    "label": "+49 auf Repeat",
+    "img": "songs/song-plus49.jpg"
    },
    "pct": [
-    27,
-    73
+    1,
+    99
    ]
   },
   {
-   "say": "Nur noch FTW hören, oder nur noch Wittenbergplatz?",
+   "say": "Nie wieder Yuyu hören, oder nie wieder [[Kaaaaaaaaa-liiiiim]] hören?",
    "a": {
-    "label": "Nur noch FTW",
-    "img": "songs/song-ftw.jpg"
+    "label": "Nie wieder Yuyu",
+    "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Nur noch Wittenbergplatz",
-    "img": "songs/song-wittenbergplatz.jpg"
-   },
-   "pct": [
-    46,
-    54
-   ]
-  },
-  {
-   "say": "[[Kaaaaaaaaa-liiiiim]] als Lehrer, oder Pashanim als Fahrlehrer?",
-   "a": {
-    "label": "Kalim als Lehrer",
+    "label": "Nie wieder Kalim",
     "img": "artists/kalim.jpg"
    },
+   "pct": [
+    92,
+    8
+   ]
+  },
+  {
+   "say": "Karamel19 kocht für dich, oder Makko fährt dich nach Hause?",
+   "a": {
+    "label": "Karamel19 kocht",
+    "img": "artists/karamel19.jpg"
+   },
    "b": {
-    "label": "Pashanim als Fahrlehrer",
-    "img": "artists/pashanim.jpg"
+    "label": "Makko fährt dich",
+    "img": "artists/makko.jpg"
    },
    "pct": [
-    98,
-    2
+    72,
+    28
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Ottos, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
  }
 }

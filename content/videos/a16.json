@@ -3,14 +3,14 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Pashanim liest deine Chats, oder Mucco sieht deinen Suchverlauf?",
+  "say": "Souly kommt zu deinem Abiball, oder Zackavelli zu deiner Hochzeit?",
   "a": {
-   "label": "Pashanim liest deine Chats",
-   "img": "artists/pashanim.jpg"
+   "label": "Souly am Abiball",
+   "img": "artists/souly.jpg"
   },
   "b": {
-   "label": "Mucco sieht deinen Verlauf",
-   "img": "artists/mucco.jpg"
+   "label": "Zackavelli auf der Hochzeit",
+   "img": "artists/zackavelli.jpg"
   },
   "pct": [
    51,
@@ -20,14 +20,29 @@
  },
  "questions": [
   {
-   "say": "Ein Tag mit [[Haaaaarrrriiiiibooooooo]], oder ein Tag mit Makko?",
+   "say": "CUP für immer löschen, oder Hollywoodreif für immer löschen?",
    "a": {
-    "label": "1 Tag mit Haribo",
-    "img": "artists/yuyu19.jpg"
+    "label": "CUP löschen",
+    "img": "songs/song-cup.jpg"
    },
    "b": {
-    "label": "1 Tag mit Makko",
-    "img": "artists/makko.jpg"
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Nur noch das Album Akh & Krach hören, oder nur noch Free Game?",
+   "a": {
+    "label": "Nur noch Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "b": {
+    "label": "Nur noch Free Game",
+    "img": "albums/album-free-game.jpg"
    },
    "pct": [
     92,
@@ -35,48 +50,33 @@
    ]
   },
   {
-   "say": "Ein Feature mit Kalim, oder ein Feature mit [[Uuuuuuuufoooooo Drei Sechs Eins]]?",
+   "say": "[[Haaaaarrrriiiiibooooooo]] als Lehrer, oder [[Luuuuuussssiiiiiooooo]] als Fahrlehrer?",
    "a": {
-    "label": "Feature mit Kalim",
-    "img": "artists/kalim.jpg"
+    "label": "Haribo als Lehrer",
+    "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Feature mit Ufo361",
-    "img": "artists/ufo361.jpg"
+    "label": "Lucio als Fahrlehrer",
+    "img": "artists/lucio101.jpg"
    },
    "pct": [
-    5,
-    95
+    16,
+    84
    ]
   },
   {
-   "say": "FTW auf Dauerschleife, oder Kleiner Prinz auf Dauerschleife?",
+   "say": "Nur noch +49 hören, oder nur noch Airwaves?",
    "a": {
-    "label": "FTW auf Repeat",
-    "img": "songs/song-ftw.jpg"
+    "label": "Nur noch +49",
+    "img": "songs/song-plus49.jpg"
    },
    "b": {
-    "label": "Kleiner Prinz auf Repeat",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "Nur noch Airwaves",
+    "img": "songs/song-airwaves.jpg"
    },
    "pct": [
-    7,
-    93
-   ]
-  },
-  {
-   "say": "Hier auf Dauerschleife, oder Hollywoodreif auf Dauerschleife?",
-   "a": {
-    "label": "Hier auf Repeat",
-    "img": "songs/song-hier.jpg"
-   },
-   "b": {
-    "label": "Hollywoodreif auf Repeat",
-    "img": "songs/song-hollywoodreif.jpg"
-   },
-   "pct": [
-    47,
-    53
+    49,
+    51
    ]
   },
   {
@@ -91,53 +91,53 @@
     "emoji": "💌"
    },
    "pct": [
-    7,
-    93
+    92,
+    8
    ]
   },
   {
-   "say": "[[Paschaaaaaaaaa-Niiiiiim]] als Lehrer, oder Doktor19 als Fahrlehrer?",
+   "say": "[[Luuuuuussssiiiiiooooo]] in der ersten Reihe, oder Omar101 backstage?",
    "a": {
-    "label": "Pashanim als Lehrer",
+    "label": "Lucio erste Reihe",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Omar101 backstage",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    99,
+    1
+   ]
+  },
+  {
+   "say": "Ein Feature mit Makko, oder ein Feature mit Kakavelli?",
+   "a": {
+    "label": "Feature mit Makko",
+    "img": "artists/makko.jpg"
+   },
+   "b": {
+    "label": "Feature mit Kakavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    73,
+    27
+   ]
+  },
+  {
+   "say": "Ein Tag mit Pashanim, oder ein Tag mit Kalim?",
+   "a": {
+    "label": "1 Tag mit Pashanim",
     "img": "artists/pashanim.jpg"
    },
    "b": {
-    "label": "Doktor19 als Fahrlehrer",
-    "img": "artists/nizi19.jpg"
+    "label": "1 Tag mit Kalim",
+    "img": "artists/kalim.jpg"
    },
    "pct": [
-    97,
-    3
-   ]
-  },
-  {
-   "say": "Auf die einsame Insel nimmst du Akh & Krach mit, oder Free Game?",
-   "a": {
-    "label": "Insel: Akh & Krach",
-    "img": "albums/album-akh-krach.jpg"
-   },
-   "b": {
-    "label": "Insel: Free Game",
-    "img": "albums/album-free-game.jpg"
-   },
-   "pct": [
-    7,
-    93
-   ]
-  },
-  {
-   "say": "Pashanim kocht für dich, oder Caney030 fährt dich nach Hause?",
-   "a": {
-    "label": "Pashanim kocht",
-    "img": "artists/pashanim.jpg"
-   },
-   "b": {
-    "label": "Caney030 fährt dich",
-    "img": "artists/caney030.jpg"
-   },
-   "pct": [
-    1,
-    99
+    5,
+    95
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Talahons, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+  "share": "Teile das Video mit deinen Akhs",
+  "shareSay": "Und teile das Video mit deinen Akhs!"
  }
 }

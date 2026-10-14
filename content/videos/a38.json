@@ -3,107 +3,61 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Kakazette, oder nie wieder Pashanim hören?",
+  "say": "Lacazette kommt zu deinem Abiball, oder Luciano zu deiner Hochzeit?",
   "a": {
-   "label": "1 Nacht mit Kakazette",
+   "label": "Lacazette am Abiball",
    "img": "artists/lacazette.jpg"
   },
   "b": {
-   "label": "Nie wieder Pashanim",
-   "img": "artists/pashanim.jpg"
+   "label": "Luciano auf der Hochzeit",
+   "img": "artists/luciano.jpg"
   },
   "pct": [
-   70,
-   30
+   85,
+   15
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nizi19 als Lehrer, oder Makko als Fahrlehrer?",
+   "say": "Ein Feature mit Haribo, oder ein Feature mit [[Kaaaaaaaaa-liiiiim]]?",
    "a": {
-    "label": "Nizi19 als Lehrer",
-    "img": "artists/nizi19.jpg"
+    "label": "Feature mit Haribo",
+    "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Makko als Fahrlehrer",
-    "img": "artists/makko.jpg"
-   },
-   "pct": [
-    19,
-    81
-   ]
-  },
-  {
-   "say": "Hier für immer löschen, oder Hollywoodreif für immer löschen?",
-   "a": {
-    "label": "Hier löschen",
-    "img": "songs/song-hier.jpg"
-   },
-   "b": {
-    "label": "Hollywoodreif löschen",
-    "img": "songs/song-hollywoodreif.jpg"
-   },
-   "pct": [
-    80,
-    20
-   ]
-  },
-  {
-   "say": "Ein Feature mit Nizi19, oder ein Feature mit Souly?",
-   "a": {
-    "label": "Feature mit Nizi19",
-    "img": "artists/nizi19.jpg"
-   },
-   "b": {
-    "label": "Feature mit Souly",
-    "img": "artists/souly.jpg"
-   },
-   "pct": [
-    49,
-    51
-   ]
-  },
-  {
-   "say": "Kalim als Lehrer, oder Mucco als Fahrlehrer?",
-   "a": {
-    "label": "Kalim als Lehrer",
+    "label": "Feature mit Kalim",
     "img": "artists/kalim.jpg"
    },
-   "b": {
-    "label": "Mucco als Fahrlehrer",
-    "img": "artists/mucco.jpg"
-   },
    "pct": [
-    46,
-    54
+    47,
+    53
    ]
   },
   {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "say": "Nur noch Kleiner Prinz hören, oder nur noch +49?",
    "a": {
-    "label": "Nie wieder duschen",
-    "emoji": "🚿"
+    "label": "Nur noch Kleiner Prinz",
+    "img": "songs/song-kleiner-prinz.jpg"
    },
    "b": {
-    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
-    "emoji": "💌"
+    "label": "Nur noch +49",
+    "img": "songs/song-plus49.jpg"
    },
    "pct": [
-    8,
-    92
+    56,
+    44
    ]
   },
   {
-   "say": "Nur noch das Album Nur für meine Augen hören, oder nur noch 101%?",
+   "say": "Auf die einsame Insel nimmst du 1019 mit, oder Free Game?",
    "a": {
-    "label": "Nur noch Nur für meine Augen",
-    "img": "albums/album-nur-fuer-meine-augen.jpg"
+    "label": "Insel: 1019",
+    "img": "albums/album-1019.jpg"
    },
    "b": {
-    "label": "Nur noch 101%",
-    "img": "albums/album-101.jpg"
+    "label": "Insel: Free Game",
+    "img": "albums/album-free-game.jpg"
    },
    "pct": [
     1,
@@ -111,33 +65,79 @@
    ]
   },
   {
-   "say": "[[Lussssssiiiiiiiooooooooo]] als großer Bruder, oder [[Nisssssiiiiiijaaaaaaa]] als Mitbewohner?",
+   "say": "[[Muuuuuutschoooooo]] als Lehrer, oder Omar101 als Fahrlehrer?",
    "a": {
-    "label": "Lucio als Bruder",
-    "img": "artists/lucio101.jpg"
+    "label": "Mucco als Lehrer",
+    "img": "artists/mucco.jpg"
    },
    "b": {
-    "label": "Nizi19 als Mitbewohner",
-    "img": "artists/nizi19.jpg"
+    "label": "Omar101 als Fahrlehrer",
+    "img": "artists/omar101.jpg"
    },
    "pct": [
-    52,
-    48
+    95,
+    5
    ]
   },
   {
-   "say": "Kleiner Prinz für immer löschen, oder Sommergewitter für immer löschen?",
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
    "a": {
-    "label": "Kleiner Prinz löschen",
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Souly hören, oder ein Jahr nur Makko?",
+   "a": {
+    "label": "1 Jahr nur Souly",
+    "img": "artists/souly.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Makko",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    82,
+    18
+   ]
+  },
+  {
+   "say": "Ufo361 als großer Bruder, oder Luciano als Mitbewohner?",
+   "a": {
+    "label": "Ufo361 als Bruder",
+    "img": "artists/ufo361.jpg"
+   },
+   "b": {
+    "label": "Luciano als Mitbewohner",
+    "img": "artists/lucio101.jpg"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "Nur noch Kleiner Prinz hören, oder nur noch Hollywoodreif?",
+   "a": {
+    "label": "Nur noch Kleiner Prinz",
     "img": "songs/song-kleiner-prinz.jpg"
    },
    "b": {
-    "label": "Sommergewitter löschen",
-    "img": "songs/song-sommergewitter.jpg"
+    "label": "Nur noch Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
    },
    "pct": [
-    69,
-    31
+    93,
+    7
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Ottos, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+  "share": "Schick das an die 3 größten Gooner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
  }
 }

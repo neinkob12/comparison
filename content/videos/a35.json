@@ -3,141 +3,142 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Souly liest deine Chats, oder Lacazette sieht deinen Suchverlauf?",
+  "say": "Nizi19 wird dein Stiefvater, oder Mucco dein Klassenlehrer?",
   "a": {
-   "label": "Souly liest deine Chats",
-   "img": "artists/souly.jpg"
+   "label": "Nizi19 als Stiefvater",
+   "img": "artists/nizi19.jpg"
   },
   "b": {
-   "label": "Lacazette sieht deinen Verlauf",
-   "img": "artists/lacazette.jpg"
+   "label": "Mucco als Klassenlehrer",
+   "img": "artists/mucco.jpg"
   },
   "pct": [
-   15,
-   85
+   69,
+   31
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nur noch das Album LID hören, oder nur noch 101%?",
+   "say": "CUP auf Dauerschleife, oder 16 auf Dauerschleife?",
    "a": {
-    "label": "Nur noch LID",
-    "img": "albums/album-lid.jpg"
+    "label": "CUP auf Repeat",
+    "img": "songs/song-cup.jpg"
    },
    "b": {
-    "label": "Nur noch 101%",
-    "img": "albums/album-101.jpg"
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
    },
    "pct": [
-    97,
-    3
+    46,
+    54
    ]
   },
   {
-   "say": "[[Luuuuuussssiiiiiooooo]] in der ersten Reihe, oder Kalim backstage?",
+   "say": "[[Lakaaaaaaasetttttttt]] in der ersten Reihe, oder Kalim backstage?",
    "a": {
-    "label": "Lucio erste Reihe",
-    "img": "artists/lucio101.jpg"
+    "label": "Lacazette erste Reihe",
+    "img": "artists/lacazette.jpg"
    },
    "b": {
     "label": "Kalim backstage",
     "img": "artists/kalim.jpg"
    },
    "pct": [
-    4,
-    96
+    92,
+    8
    ]
   },
   {
-   "say": "Würdest du eher ein Jahr nur Nils Zimmermann hören, oder ein Jahr nur Karamel19?",
+   "say": "Nur noch Airwaves hören, oder nur noch Sommergewitter?",
    "a": {
-    "label": "1 Jahr nur Nils Zimmermann",
+    "label": "Nur noch Airwaves",
+    "img": "songs/song-airwaves.jpg"
+   },
+   "b": {
+    "label": "Nur noch Sommergewitter",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    94,
+    6
+   ]
+  },
+  {
+   "say": "Nie wieder [[Niiiiiiiisssssiiiii]] hören, oder nie wieder Caney030 hören?",
+   "a": {
+    "label": "Nie wieder Nizi19",
     "img": "artists/nizi19.jpg"
    },
    "b": {
-    "label": "1 Jahr nur Karamel19",
-    "img": "artists/karamel19.jpg"
+    "label": "Nie wieder Caney030",
+    "img": "artists/caney030.jpg"
    },
    "pct": [
-    95,
-    5
-   ]
-  },
-  {
-   "say": "[[Lussssssiiiiiiiooooooooo]] kocht für dich, oder Karamel19 fährt dich nach Hause?",
-   "a": {
-    "label": "Lucio kocht",
-    "img": "artists/lucio101.jpg"
-   },
-   "b": {
-    "label": "Karamel19 fährt dich",
-    "img": "artists/karamel19.jpg"
-   },
-   "pct": [
-    66,
-    34
+    92,
+    8
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
    "a": {
     "label": "Nie wieder Maka",
     "emoji": "🧪"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
-    "emoji": "✈️"
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
    },
    "pct": [
-    35,
-    65
+    56,
+    44
    ]
   },
   {
-   "say": "Nie wieder Pashanim hören, oder nie wieder Kalim hören?",
+   "say": "Nie wieder Yuyu hören, oder nie wieder Makko hören?",
    "a": {
-    "label": "Nie wieder Pashanim",
-    "img": "artists/pashanim.jpg"
+    "label": "Nie wieder Yuyu",
+    "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Nie wieder Kalim",
-    "img": "artists/kalim.jpg"
+    "label": "Nie wieder Makko",
+    "img": "artists/makko.jpg"
    },
    "pct": [
-    51,
-    49
+    83,
+    17
+   ],
+   "winSay": "Ohne Finger, Akh!"
+  },
+  {
+   "say": "Nur noch das Album Mittendrin hören, oder nur noch 101%?",
+   "a": {
+    "label": "Nur noch Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
+   },
+   "b": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "pct": [
+    2,
+    98
    ]
   },
   {
-   "say": "Superkraft für immer löschen, oder Hier für immer löschen?",
+   "say": "Würdest du eher ein Jahr nur [[Haaaaarrrriiiiibooooooo]] hören, oder ein Jahr nur Souly?",
    "a": {
-    "label": "Superkraft löschen",
-    "img": "songs/song-superkraft.jpg"
+    "label": "1 Jahr nur Haribo",
+    "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Hier löschen",
-    "img": "songs/song-hier.jpg"
+    "label": "1 Jahr nur Souly",
+    "img": "artists/souly.jpg"
    },
    "pct": [
-    72,
-    28
-   ]
-  },
-  {
-   "say": "Sommergewitter für immer löschen, oder CUP für immer löschen?",
-   "a": {
-    "label": "Sommergewitter löschen",
-    "img": "songs/song-sommergewitter.jpg"
-   },
-   "b": {
-    "label": "CUP löschen",
-    "img": "songs/song-cup.jpg"
-   },
-   "pct": [
-    53,
-    47
+    91,
+    9
    ]
   }
  ],
@@ -145,7 +146,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
  }
 }

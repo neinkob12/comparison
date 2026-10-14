@@ -3,122 +3,46 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Luciano, oder nie wieder Haribo hören?",
+  "say": "Luciano kommt zu deinem Abiball, oder Makko zu deiner Hochzeit?",
   "a": {
-   "label": "1 Nacht mit Luciano",
-   "img": "artists/lucio101.jpg"
+   "label": "Luciano am Abiball",
+   "img": "artists/luciano.jpg"
   },
   "b": {
-   "label": "Nie wieder Haribo",
-   "img": "artists/yuyu19.jpg"
+   "label": "Makko auf der Hochzeit",
+   "img": "artists/makko.jpg"
   },
   "pct": [
-   54,
-   46
+   71,
+   29
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nur noch das Album 101% hören, oder nur noch 1019?",
+   "say": "Lacazette kocht für dich, oder Samra fährt dich nach Hause?",
    "a": {
-    "label": "Nur noch 101%",
-    "img": "albums/album-101.jpg"
+    "label": "Lacazette kocht",
+    "img": "artists/lacazette.jpg"
    },
    "b": {
-    "label": "Nur noch 1019",
-    "img": "albums/album-1019.jpg"
+    "label": "Samra fährt dich",
+    "img": "artists/samra.jpg"
    },
    "pct": [
-    1,
-    99
+    49,
+    51
    ]
   },
   {
-   "say": "Nur noch Wittenbergplatz hören, oder nur noch CUP?",
+   "say": "Superkraft auf Dauerschleife, oder Airwaves auf Dauerschleife?",
    "a": {
-    "label": "Nur noch Wittenbergplatz",
-    "img": "songs/song-wittenbergplatz.jpg"
+    "label": "Superkraft auf Repeat",
+    "img": "songs/song-superkraft.jpg"
    },
    "b": {
-    "label": "Nur noch CUP",
-    "img": "songs/song-cup.jpg"
-   },
-   "pct": [
-    6,
-    94
-   ]
-  },
-  {
-   "say": "+49 auf Dauerschleife, oder FTW auf Dauerschleife?",
-   "a": {
-    "label": "+49 auf Repeat",
-    "img": "songs/song-plus49.jpg"
-   },
-   "b": {
-    "label": "FTW auf Repeat",
-    "img": "songs/song-ftw.jpg"
-   },
-   "pct": [
-    2,
-    98
-   ]
-  },
-  {
-   "say": "Mucco kocht für dich, oder [[Paschaaaaaaaaa-Niiiiiim]] fährt dich nach Hause?",
-   "a": {
-    "label": "Mucco kocht",
-    "img": "artists/mucco.jpg"
-   },
-   "b": {
-    "label": "Pashanim fährt dich",
-    "img": "artists/pashanim.jpg"
-   },
-   "pct": [
-    45,
-    55
-   ]
-  },
-  {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
-   "a": {
-    "label": "Nie wieder Maka",
-    "emoji": "🧪"
-   },
-   "b": {
-    "label": "Date mit der 3. Person bei „Teilen“",
-    "emoji": "💘"
-   },
-   "pct": [
-    96,
-    4
-   ]
-  },
-  {
-   "say": "Ein Tag mit [[Nisssssiiiiiijaaaaaaa]], oder ein Tag mit [[Karaaaaaameeeeeel Eins Neun]]?",
-   "a": {
-    "label": "1 Tag mit Nizi19",
-    "img": "artists/nizi19.jpg"
-   },
-   "b": {
-    "label": "1 Tag mit Karamel19",
-    "img": "artists/karamel19.jpg"
-   },
-   "pct": [
-    72,
-    28
-   ]
-  },
-  {
-   "say": "Souly in der ersten Reihe, oder Omar101 backstage?",
-   "a": {
-    "label": "Souly erste Reihe",
-    "img": "artists/souly.jpg"
-   },
-   "b": {
-    "label": "Omar101 backstage",
-    "img": "artists/omar101.jpg"
+    "label": "Airwaves auf Repeat",
+    "img": "songs/song-airwaves.jpg"
    },
    "pct": [
     98,
@@ -126,18 +50,95 @@
    ]
   },
   {
-   "say": "Haribo in der ersten Reihe, oder Makko backstage?",
+   "say": "Nur noch das Album Doktor hören, oder nur noch 1019?",
    "a": {
-    "label": "Haribo erste Reihe",
+    "label": "Nur noch Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "b": {
+    "label": "Nur noch 1019",
+    "img": "albums/album-1019.jpg"
+   },
+   "pct": [
+    98,
+    2
+   ]
+  },
+  {
+   "say": "[[Haaaaarrrriiiiibooooooo]] kocht für dich, oder Caney030 fährt dich nach Hause?",
+   "a": {
+    "label": "Haribo kocht",
     "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Makko backstage",
-    "img": "artists/makko.jpg"
+    "label": "Caney030 fährt dich",
+    "img": "artists/caney030.jpg"
    },
    "pct": [
-    56,
-    44
+    95,
+    5
+   ],
+   "winSay": "Ohne Finger, Akh!"
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Nur noch Sommergewitter hören, oder nur noch 16?",
+   "a": {
+    "label": "Nur noch Sommergewitter",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "b": {
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "Nie wieder Lucio hören, oder nie wieder [[Lakaaaaaaasetttttttt]] hören?",
+   "a": {
+    "label": "Nie wieder Lucio",
+    "img": "artists/luciano.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Lacazette",
+    "img": "artists/lacazette.jpg"
+   },
+   "pct": [
+    30,
+    70
+   ]
+  },
+  {
+   "say": "Caney030 in der ersten Reihe, oder Souly backstage?",
+   "a": {
+    "label": "Caney030 erste Reihe",
+    "img": "artists/caney030.jpg"
+   },
+   "b": {
+    "label": "Souly backstage",
+    "img": "artists/souly.jpg"
+   },
+   "pct": [
+    45,
+    55
    ]
   }
  ],
@@ -145,7 +146,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Ottos, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+  "share": "Schick das an die 3 größten Stoner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Stoner, die du kennst!"
  }
 }

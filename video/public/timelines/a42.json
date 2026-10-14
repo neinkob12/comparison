@@ -3,53 +3,53 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2491,
+ "durationInFrames": 2484,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a42/00_hook_a.mp3",
    "audioB": "audio/a42/00_hook_b.mp3",
-   "bAt": 45,
-   "speak": 105,
+   "bAt": 46,
+   "speak": 108,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lacazette liest deine Chats",
-    "img": "img/artists/lacazette.jpg",
+    "label": "1 Nacht mit Zackavelli",
+    "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nizi19 sieht deinen Verlauf",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Nie wieder Caney030",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "pct": [
-    93,
-    7
+    71,
+    29
    ],
-   "duration": 240
+   "duration": 243
   },
   {
    "kind": "q",
    "audio": "audio/a42/01_q_a.mp3",
    "audioB": "audio/a42/01_q_b.mp3",
-   "bAt": 41,
+   "bAt": 40,
    "speak": 97,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Tag mit Kakavelli",
-    "img": "img/artists/zackavelli.jpg",
+    "label": "16 löschen",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Tag mit Karamel19",
-    "img": "img/artists/karamel19.jpg",
+    "label": "FTW löschen",
+    "img": "img/songs/song-ftw.jpg",
     "emoji": null
    },
    "pct": [
-    79,
-    21
+    17,
+    83
    ],
    "duration": 232
   },
@@ -57,37 +57,61 @@
    "kind": "q",
    "audio": "audio/a42/02_q_a.mp3",
    "audioB": "audio/a42/02_q_b.mp3",
-   "bAt": 68,
-   "speak": 103,
+   "bAt": 78,
+   "speak": 127,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch Nur für meine Augen",
-    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "label": "Nie wieder Haribo",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch LID",
-    "img": "img/albums/album-lid.jpg",
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "pct": [
-    95,
-    5
+    34,
+    66
    ],
-   "duration": 238
+   "duration": 262
   },
   {
    "kind": "q",
    "audio": "audio/a42/03_q_a.mp3",
    "audioB": "audio/a42/03_q_b.mp3",
-   "bAt": 42,
-   "speak": 90,
+   "bAt": 43,
+   "speak": 101,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Airwaves löschen",
-    "img": "img/songs/song-airwaves.jpg",
+    "label": "Souly als Bruder",
+    "img": "img/artists/souly.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 als Mitbewohner",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    22,
+    78
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a42/04_q_a.mp3",
+   "audioB": "audio/a42/04_q_b.mp3",
+   "bAt": 45,
+   "speak": 94,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "FTW löschen",
+    "img": "img/songs/song-ftw.jpg",
     "emoji": null
    },
    "b": {
@@ -96,140 +120,116 @@
     "emoji": null
    },
    "pct": [
-    4,
-    96
+    45,
+    55
    ],
-   "duration": 225
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a42/04_q_a.mp3",
-   "audioB": "audio/a42/04_q_b.mp3",
-   "bAt": 86,
-   "speak": 146,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nizi19 als Bruder",
-    "img": "img/artists/nizi19.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Omar101 als Mitbewohner",
-    "img": "img/artists/omar101.jpg",
-    "emoji": null
-   },
-   "pct": [
-    20,
-    80
-   ],
-   "duration": 281
+   "duration": 229
   },
   {
    "kind": "mid",
    "audio": "audio/a42/05_mid_a.mp3",
    "audioB": "audio/a42/05_mid_b.mp3",
-   "bAt": 53,
-   "speak": 152,
+   "bAt": 63,
+   "speak": 169,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nie wieder duschen",
+    "label": "Nie wieder Maka",
     "img": null,
-    "emoji": "🚿"
+    "emoji": "🧪"
    },
    "b": {
-    "label": "Date mit der 3. Person bei „Teilen“",
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
     "img": null,
-    "emoji": "💘"
+    "emoji": "💌"
    },
    "pct": [
-    47,
-    53
+    51,
+    49
    ],
-   "duration": 287
+   "duration": 304
   },
   {
    "kind": "q",
    "audio": "audio/a42/06_q_a.mp3",
    "audioB": "audio/a42/06_q_b.mp3",
-   "bAt": 46,
-   "speak": 100,
+   "bAt": 67,
+   "speak": 107,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Hollywoodreif löschen",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "Feature mit Nizi19",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Kleiner Prinz löschen",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Feature mit Masi",
+    "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
    "pct": [
-    20,
-    80
+    24,
+    76
    ],
-   "duration": 235
+   "duration": 242
   },
   {
    "kind": "q",
    "audio": "audio/a42/07_q_a.mp3",
    "audioB": "audio/a42/07_q_b.mp3",
-   "bAt": 66,
-   "speak": 164,
+   "bAt": 72,
+   "speak": 109,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lucio als Lehrer",
-    "img": "img/artists/lucio101.jpg",
+    "label": "Insel: Mittendrin",
+    "img": "img/albums/album-mittendrin.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Luciano als Fahrlehrer",
-    "img": "img/artists/luciano.jpg",
+    "label": "Insel: Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
     "emoji": null
    },
    "pct": [
-    92,
-    8
+    5,
+    95
    ],
-   "duration": 299
+   "duration": 244
   },
   {
    "kind": "q",
    "audio": "audio/a42/08_q_a.mp3",
    "audioB": "audio/a42/08_q_b.mp3",
-   "bAt": 47,
-   "speak": 118,
+   "bAt": 93,
+   "speak": 154,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Zackavelli als Bruder",
-    "img": "img/artists/zackavelli.jpg",
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Omar101 als Mitbewohner",
-    "img": "img/artists/omar101.jpg",
+    "label": "Nie wieder Caney030",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "pct": [
-    56,
-    44
+    51,
+    49
    ],
-   "duration": 253
+   "duration": 289
   },
   {
    "kind": "outro",
    "audio": "audio/a42/09_outro.mp3",
-   "speak": 156,
+   "speak": 158,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Talahons, die du kennst",
-   "duration": 201
+   "share": "Schick das an die 3 größten Stoner, die du kennst",
+   "duration": 203
   }
  ]
 }

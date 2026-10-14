@@ -3,142 +3,141 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Omar101 liest deine Chats, oder Luciano sieht deinen Suchverlauf?",
+  "say": "Kalim kommt zu deinem Abiball, oder Ufo361 zu deiner Hochzeit?",
   "a": {
-   "label": "Omar101 liest deine Chats",
-   "img": "artists/omar101.jpg"
+   "label": "Kalim am Abiball",
+   "img": "artists/kalim.jpg"
   },
   "b": {
-   "label": "Luciano sieht deinen Verlauf",
-   "img": "artists/luciano.jpg"
+   "label": "Ufo361 auf der Hochzeit",
+   "img": "artists/ufo361.jpg"
   },
   "pct": [
-   97,
-   3
+   1,
+   99
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "CUP für immer löschen, oder +49 für immer löschen?",
+   "say": "Würdest du eher ein Jahr nur [[Paschaaaaaaaaa-Niiiiiim]] hören, oder ein Jahr nur Zackavelli?",
    "a": {
-    "label": "CUP löschen",
-    "img": "songs/song-cup.jpg"
+    "label": "1 Jahr nur Pashanim",
+    "img": "artists/pashanim.jpg"
    },
    "b": {
-    "label": "+49 löschen",
+    "label": "1 Jahr nur Zackavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    75,
+    25
+   ]
+  },
+  {
+   "say": "Nur noch das Album 101% hören, oder nur noch Akh & Krach?",
+   "a": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "b": {
+    "label": "Nur noch Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "pct": [
+    98,
+    2
+   ]
+  },
+  {
+   "say": "Nur noch Hollywoodreif hören, oder nur noch +49?",
+   "a": {
+    "label": "Nur noch Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Nur noch +49",
     "img": "songs/song-plus49.jpg"
    },
    "pct": [
-    94,
-    6
+    75,
+    25
    ]
   },
   {
-   "say": "Auf die einsame Insel nimmst du Nur für meine Augen mit, oder Doktor?",
+   "say": "Samra als großer Bruder, oder Souly als Mitbewohner?",
    "a": {
-    "label": "Insel: Nur für meine Augen",
-    "img": "albums/album-nur-fuer-meine-augen.jpg"
-   },
-   "b": {
-    "label": "Insel: Doktor",
-    "img": "albums/album-doktor.jpg"
-   },
-   "pct": [
-    6,
-    94
-   ]
-  },
-  {
-   "say": "[[Karaaaaaameeeeeel Eins Neun]] kocht für dich, oder Nizi19 fährt dich nach Hause?",
-   "a": {
-    "label": "Karamel19 kocht",
-    "img": "artists/karamel19.jpg"
-   },
-   "b": {
-    "label": "Nizi19 fährt dich",
-    "img": "artists/nizi19.jpg"
-   },
-   "pct": [
-    51,
-    49
-   ]
-  },
-  {
-   "say": "Ein Tag mit Haribo, oder ein Tag mit Samra?",
-   "a": {
-    "label": "1 Tag mit Haribo",
-    "img": "artists/yuyu19.jpg"
-   },
-   "b": {
-    "label": "1 Tag mit Samra",
+    "label": "Samra als Bruder",
     "img": "artists/samra.jpg"
    },
+   "b": {
+    "label": "Souly als Mitbewohner",
+    "img": "artists/souly.jpg"
+   },
    "pct": [
-    52,
-    48
-   ],
-   "winSay": "Ohne Finger, Akh!"
+    97,
+    3
+   ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
    "a": {
     "label": "Nie wieder Maka",
     "emoji": "🧪"
    },
    "b": {
-    "label": "Date mit der 3. Person bei „Teilen“",
-    "emoji": "💘"
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
    },
    "pct": [
-    32,
-    68
+    8,
+    92
    ]
   },
   {
-   "say": "[[Luuuuuussssiiiiiooooo]] kocht für dich, oder Ufo187 fährt dich nach Hause?",
+   "say": "Ein Feature mit Omar101, oder ein Feature mit Kakavelli?",
    "a": {
-    "label": "Lucio kocht",
-    "img": "artists/lucio101.jpg"
+    "label": "Feature mit Omar101",
+    "img": "artists/omar101.jpg"
    },
    "b": {
-    "label": "Ufo187 fährt dich",
-    "img": "artists/ufo361.jpg"
+    "label": "Feature mit Kakavelli",
+    "img": "artists/zackavelli.jpg"
    },
    "pct": [
-    20,
-    80
+    28,
+    72
    ]
   },
   {
-   "say": "Ein Feature mit Nizi19, oder ein Feature mit Ufo361?",
+   "say": "Nur noch Hier hören, oder nur noch Airwaves?",
    "a": {
-    "label": "Feature mit Nizi19",
-    "img": "artists/nizi19.jpg"
-   },
-   "b": {
-    "label": "Feature mit Ufo361",
-    "img": "artists/ufo361.jpg"
-   },
-   "pct": [
-    55,
-    45
-   ]
-  },
-  {
-   "say": "Nur noch Kleiner Prinz hören, oder nur noch Airwaves?",
-   "a": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "Nur noch Hier",
+    "img": "songs/song-hier.jpg"
    },
    "b": {
     "label": "Nur noch Airwaves",
     "img": "songs/song-airwaves.jpg"
    },
    "pct": [
-    5,
-    95
+    65,
+    35
+   ]
+  },
+  {
+   "say": "[[Lakaaaaaaasetttttttt]] kocht für dich, oder [[Kaaaaaaaaa-liiiiim]] fährt dich nach Hause?",
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Kalim fährt dich",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    67,
+    33
    ]
   }
  ],
@@ -146,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Gooner, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
+  "share": "Teile das Video mit deinen Akhs",
+  "shareSay": "Und teile das Video mit deinen Akhs!"
  }
 }

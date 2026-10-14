@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2363,
+ "durationInFrames": 2429,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a10/00_hook_a.mp3",
    "audioB": "audio/a10/00_hook_b.mp3",
-   "bAt": 57,
-   "speak": 95,
+   "bAt": 52,
+   "speak": 90,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Nacht mit Karmahel19",
+    "label": "1 Nacht mit Karamel19",
     "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
@@ -24,65 +24,65 @@
     "emoji": null
    },
    "pct": [
-    79,
-    21
+    82,
+    18
    ],
-   "duration": 230
+   "duration": 225
   },
   {
    "kind": "q",
    "audio": "audio/a10/01_q_a.mp3",
    "audioB": "audio/a10/01_q_b.mp3",
-   "bAt": 43,
-   "speak": 110,
+   "bAt": 61,
+   "speak": 104,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nie wieder Kalim",
-    "img": "img/artists/kalim.jpg",
+    "label": "Feature mit Ufo187",
+    "img": "img/artists/ufo361.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nie wieder Mucco",
-    "img": "img/artists/mucco.jpg",
+    "label": "Feature mit Makko",
+    "img": "img/artists/makko.jpg",
     "emoji": null
    },
    "pct": [
-    91,
-    9
+    51,
+    49
    ],
-   "duration": 245
+   "duration": 239
   },
   {
    "kind": "q",
    "audio": "audio/a10/02_q_a.mp3",
    "audioB": "audio/a10/02_q_b.mp3",
-   "bAt": 40,
-   "speak": 80,
+   "bAt": 89,
+   "speak": 129,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch 16",
-    "img": "img/songs/song-16.jpg",
+    "label": "Haribo als Bruder",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch FTW",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Mucco als Mitbewohner",
+    "img": "img/artists/mucco.jpg",
     "emoji": null
    },
    "pct": [
-    94,
-    6
+    96,
+    4
    ],
-   "duration": 215
+   "duration": 264
   },
   {
    "kind": "q",
    "audio": "audio/a10/03_q_a.mp3",
    "audioB": "audio/a10/03_q_b.mp3",
-   "bAt": 78,
-   "speak": 184,
+   "bAt": 35,
+   "speak": 94,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -96,41 +96,41 @@
     "emoji": null
    },
    "pct": [
-    8,
-    92
+    15,
+    85
    ],
-   "duration": 319
+   "duration": 229
   },
   {
    "kind": "q",
    "audio": "audio/a10/04_q_a.mp3",
    "audioB": "audio/a10/04_q_b.mp3",
-   "bAt": 39,
-   "speak": 76,
+   "bAt": 64,
+   "speak": 141,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Tag mit Pashanim",
-    "img": "img/artists/pashanim.jpg",
+    "label": "Nie wieder Omar101",
+    "img": "img/artists/omar101.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Tag mit Lacazette",
-    "img": "img/artists/lacazette.jpg",
+    "label": "Nie wieder Lucio",
+    "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
    "pct": [
-    6,
-    94
+    9,
+    91
    ],
-   "duration": 211
+   "duration": 276
   },
   {
    "kind": "mid",
    "audio": "audio/a10/05_mid_a.mp3",
    "audioB": "audio/a10/05_mid_b.mp3",
    "bAt": 55,
-   "speak": 170,
+   "speak": 161,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -139,97 +139,97 @@
     "emoji": "🚿"
    },
    "b": {
-    "label": "Date mit der 3. Person bei „Teilen“",
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
     "img": null,
-    "emoji": "💘"
+    "emoji": "💌"
    },
    "pct": [
-    95,
-    5
+    83,
+    17
    ],
-   "duration": 305
+   "duration": 296
   },
   {
    "kind": "q",
    "audio": "audio/a10/06_q_a.mp3",
    "audioB": "audio/a10/06_q_b.mp3",
-   "bAt": 51,
-   "speak": 93,
+   "bAt": 47,
+   "speak": 85,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch Doktor",
-    "img": "img/albums/album-doktor.jpg",
+    "label": "Nur noch Hollywoodreif",
+    "img": "img/songs/song-hollywoodreif.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Akh & Krach",
-    "img": "img/albums/album-akh-krach.jpg",
+    "label": "Nur noch FTW",
+    "img": "img/songs/song-ftw.jpg",
     "emoji": null
    },
    "pct": [
-    44,
-    56
+    79,
+    21
    ],
-   "duration": 228
+   "duration": 220
   },
   {
    "kind": "q",
    "audio": "audio/a10/07_q_a.mp3",
    "audioB": "audio/a10/07_q_b.mp3",
-   "bAt": 43,
-   "speak": 79,
+   "bAt": 84,
+   "speak": 119,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Kleiner Prinz löschen",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Nur noch 101%",
+    "img": "img/albums/album-101.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Hier löschen",
-    "img": "img/songs/song-hier.jpg",
+    "label": "Nur noch Doktor",
+    "img": "img/albums/album-doktor.jpg",
     "emoji": null
    },
    "pct": [
-    48,
-    52
+    92,
+    8
    ],
-   "duration": 214
+   "duration": 254
   },
   {
    "kind": "q",
    "audio": "audio/a10/08_q_a.mp3",
    "audioB": "audio/a10/08_q_b.mp3",
-   "bAt": 42,
-   "speak": 82,
+   "bAt": 50,
+   "speak": 85,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Kalim erste Reihe",
-    "img": "img/artists/kalim.jpg",
+    "label": "Nur noch +49",
+    "img": "img/songs/song-plus49.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Zackavelli backstage",
-    "img": "img/artists/zackavelli.jpg",
+    "label": "Nur noch 16",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "pct": [
-    9,
-    91
+    26,
+    74
    ],
-   "duration": 217
+   "duration": 220
   },
   {
    "kind": "outro",
    "audio": "audio/a10/09_outro.mp3",
-   "speak": 134,
+   "speak": 161,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Teile das Video mit deinen Akhs",
-   "duration": 179
+   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+   "duration": 206
   }
  ]
 }

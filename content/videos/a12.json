@@ -13,16 +13,46 @@
    "img": "artists/karamel19.jpg"
   },
   "pct": [
-   44,
-   56
+   98,
+   2
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Ein Tag mit Luciano, oder ein Tag mit Ufo361?",
+   "say": "Ufo187 kocht für dich, oder Haribo fährt dich nach Hause?",
    "a": {
-    "label": "1 Tag mit Luciano",
+    "label": "Ufo187 kocht",
+    "img": "artists/ufo361.jpg"
+   },
+   "b": {
+    "label": "Haribo fährt dich",
+    "img": "artists/yuyu19.jpg"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "Nur noch +49 hören, oder nur noch Sommergewitter?",
+   "a": {
+    "label": "Nur noch +49",
+    "img": "songs/song-plus49.jpg"
+   },
+   "b": {
+    "label": "Nur noch Sommergewitter",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    8,
+    92
+   ]
+  },
+  {
+   "say": "Ein Tag mit [[Lussssssiiiiiiiooooooooo]], oder ein Tag mit Ufo361?",
+   "a": {
+    "label": "1 Tag mit Lucio",
     "img": "artists/lucio101.jpg"
    },
    "b": {
@@ -30,42 +60,43 @@
     "img": "artists/ufo361.jpg"
    },
    "pct": [
-    78,
-    22
+    54,
+    46
    ]
   },
   {
-   "say": "Nur noch das Album Free Game hören, oder nur noch Nur für meine Augen?",
+   "say": "Nur noch das Album Free Game hören, oder nur noch LID?",
    "a": {
     "label": "Nur noch Free Game",
     "img": "albums/album-free-game.jpg"
    },
    "b": {
-    "label": "Nur noch Nur für meine Augen",
-    "img": "albums/album-nur-fuer-meine-augen.jpg"
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
    },
    "pct": [
-    68,
-    32
+    48,
+    52
    ]
   },
   {
-   "say": "[[Lakaaaaaaasetttttttt]] kocht für dich, oder Kalim fährt dich nach Hause?",
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
    "a": {
-    "label": "Lacazette kocht",
-    "img": "artists/lacazette.jpg"
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
    },
    "b": {
-    "label": "Kalim fährt dich",
-    "img": "artists/kalim.jpg"
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
    },
    "pct": [
-    68,
-    32
+    54,
+    46
    ]
   },
   {
-   "say": "Nizi19 als Lehrer, oder Karamel19 als Fahrlehrer?",
+   "say": "Nizi19 als Lehrer, oder [[Karaaaaaameeeeeel Eins Neun]] als Fahrlehrer?",
    "a": {
     "label": "Nizi19 als Lehrer",
     "img": "artists/nizi19.jpg"
@@ -75,54 +106,8 @@
     "img": "artists/karamel19.jpg"
    },
    "pct": [
-    45,
-    55
-   ]
-  },
-  {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
-   "a": {
-    "label": "Nie wieder duschen",
-    "emoji": "🚿"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
-    "emoji": "🌳"
-   },
-   "pct": [
-    69,
-    31
-   ]
-  },
-  {
-   "say": "Hollywoodreif für immer löschen, oder Sommergewitter für immer löschen?",
-   "a": {
-    "label": "Hollywoodreif löschen",
-    "img": "songs/song-hollywoodreif.jpg"
-   },
-   "b": {
-    "label": "Sommergewitter löschen",
-    "img": "songs/song-sommergewitter.jpg"
-   },
-   "pct": [
-    53,
-    47
-   ]
-  },
-  {
-   "say": "Nur noch Hier hören, oder nur noch +49?",
-   "a": {
-    "label": "Nur noch Hier",
-    "img": "songs/song-hier.jpg"
-   },
-   "b": {
-    "label": "Nur noch +49",
-    "img": "songs/song-plus49.jpg"
-   },
-   "pct": [
-    20,
-    80
+    94,
+    6
    ]
   },
   {
@@ -136,8 +121,23 @@
     "img": "artists/mucco.jpg"
    },
    "pct": [
-    19,
-    81
+    67,
+    33
+   ]
+  },
+  {
+   "say": "Nur noch Hollywoodreif hören, oder nur noch Sommergewitter?",
+   "a": {
+    "label": "Nur noch Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Nur noch Sommergewitter",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    44,
+    56
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Gooner, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
  }
 }

@@ -3,14 +3,14 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2477,
+ "durationInFrames": 2489,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a28/00_hook_a.mp3",
    "audioB": "audio/a28/00_hook_b.mp3",
-   "bAt": 43,
-   "speak": 97,
+   "bAt": 46,
+   "speak": 94,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -24,17 +24,17 @@
     "emoji": null
    },
    "pct": [
-    28,
-    72
+    25,
+    75
    ],
-   "duration": 232
+   "duration": 229
   },
   {
    "kind": "q",
    "audio": "audio/a28/01_q_a.mp3",
    "audioB": "audio/a28/01_q_b.mp3",
-   "bAt": 62,
-   "speak": 128,
+   "bAt": 68,
+   "speak": 130,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -48,45 +48,69 @@
     "emoji": null
    },
    "pct": [
-    34,
-    66
+    29,
+    71
    ],
-   "duration": 263
+   "duration": 265
   },
   {
    "kind": "q",
    "audio": "audio/a28/02_q_a.mp3",
    "audioB": "audio/a28/02_q_b.mp3",
-   "bAt": 43,
-   "speak": 88,
+   "bAt": 71,
+   "speak": 102,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "FTW löschen",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Insel: Mittendrin",
+    "img": "img/albums/album-mittendrin.jpg",
     "emoji": null
    },
    "b": {
-    "label": "16 löschen",
-    "img": "img/songs/song-16.jpg",
+    "label": "Insel: LID",
+    "img": "img/albums/album-lid.jpg",
     "emoji": null
    },
    "pct": [
-    18,
-    82
+    34,
+    66
    ],
-   "duration": 223
+   "duration": 237
   },
   {
    "kind": "q",
    "audio": "audio/a28/03_q_a.mp3",
    "audioB": "audio/a28/03_q_b.mp3",
-   "bAt": 86,
-   "speak": 161,
+   "bAt": 79,
+   "speak": 138,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Jahr nur Lucio",
+    "label": "Feature mit Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Ufo361",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    92,
+    8
+   ],
+   "duration": 273
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a28/04_q_a.mp3",
+   "audioB": "audio/a28/04_q_b.mp3",
+   "bAt": 68,
+   "speak": 152,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nur Luciano",
     "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
@@ -96,15 +120,39 @@
     "emoji": null
    },
    "pct": [
-    7,
-    93
+    77,
+    23
    ],
-   "duration": 296
+   "duration": 287
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a28/05_mid_a.mp3",
+   "audioB": "audio/a28/05_mid_b.mp3",
+   "bAt": 58,
+   "speak": 166,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "img": null,
+    "emoji": "💌"
+   },
+   "pct": [
+    34,
+    66
+   ],
+   "duration": 301
   },
   {
    "kind": "q",
-   "audio": "audio/a28/04_q_a.mp3",
-   "audioB": "audio/a28/04_q_b.mp3",
+   "audio": "audio/a28/06_q_a.mp3",
+   "audioB": "audio/a28/06_q_b.mp3",
    "bAt": 63,
    "speak": 103,
    "gap": 90,
@@ -120,116 +168,68 @@
     "emoji": null
    },
    "pct": [
-    95,
-    5
+    15,
+    85
    ],
    "duration": 238
-  },
-  {
-   "kind": "mid",
-   "audio": "audio/a28/05_mid_a.mp3",
-   "audioB": "audio/a28/05_mid_b.mp3",
-   "bAt": 58,
-   "speak": 159,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nie wieder duschen",
-    "img": null,
-    "emoji": "🚿"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
-    "img": null,
-    "emoji": "✈️"
-   },
-   "pct": [
-    5,
-    95
-   ],
-   "duration": 294
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a28/06_q_a.mp3",
-   "audioB": "audio/a28/06_q_b.mp3",
-   "bAt": 46,
-   "speak": 105,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Feature mit Kalim",
-    "img": "img/artists/kalim.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Feature mit Ufo187",
-    "img": "img/artists/ufo361.jpg",
-    "emoji": null
-   },
-   "pct": [
-    47,
-    53
-   ],
-   "duration": 240
   },
   {
    "kind": "q",
    "audio": "audio/a28/07_q_a.mp3",
    "audioB": "audio/a28/07_q_b.mp3",
-   "bAt": 56,
-   "speak": 114,
+   "bAt": 45,
+   "speak": 96,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch Free Game",
-    "img": "img/albums/album-free-game.jpg",
+    "label": "Kleiner Prinz löschen",
+    "img": "img/songs/song-kleiner-prinz.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch 101%",
-    "img": "img/albums/album-101.jpg",
+    "label": "Hollywoodreif löschen",
+    "img": "img/songs/song-hollywoodreif.jpg",
     "emoji": null
    },
    "pct": [
-    8,
-    92
+    52,
+    48
    ],
-   "duration": 249
+   "duration": 231
   },
   {
    "kind": "q",
    "audio": "audio/a28/08_q_a.mp3",
    "audioB": "audio/a28/08_q_b.mp3",
    "bAt": 50,
-   "speak": 90,
+   "speak": 94,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Hollywoodreif auf Repeat",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "FTW auf Repeat",
+    "img": "img/songs/song-ftw.jpg",
     "emoji": null
    },
    "b": {
-    "label": "CUP auf Repeat",
-    "img": "img/songs/song-cup.jpg",
+    "label": "16 auf Repeat",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "pct": [
-    46,
-    54
+    45,
+    55
    ],
-   "duration": 225
+   "duration": 229
   },
   {
    "kind": "outro",
    "audio": "audio/a28/09_outro.mp3",
-   "speak": 172,
+   "speak": 154,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Talahons, die du kennst",
-   "duration": 217
+   "share": "Schick das an die 3 größten Ottos, die du kennst",
+   "duration": 199
   }
  ]
 }

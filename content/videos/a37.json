@@ -3,143 +3,142 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Kalim, oder nie wieder Makko hören?",
+  "say": "Eine Nacht mit Lucio, oder nie wieder Karmahel19 hören?",
   "a": {
-   "label": "1 Nacht mit Kalim",
-   "img": "artists/kalim.jpg"
+   "label": "1 Nacht mit Lucio",
+   "img": "artists/lucio101.jpg"
   },
   "b": {
-   "label": "Nie wieder Makko",
-   "img": "artists/makko.jpg"
+   "label": "Nie wieder Karmahel19",
+   "img": "artists/karamel19.jpg"
   },
   "pct": [
-   56,
-   44
+   9,
+   91
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Hollywoodreif auf Dauerschleife, oder FTW auf Dauerschleife?",
+   "say": "Nur noch das Album Mittendrin hören, oder nur noch Akh & Krach?",
    "a": {
-    "label": "Hollywoodreif auf Repeat",
-    "img": "songs/song-hollywoodreif.jpg"
+    "label": "Nur noch Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
    },
    "b": {
-    "label": "FTW auf Repeat",
-    "img": "songs/song-ftw.jpg"
+    "label": "Nur noch Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
    },
    "pct": [
-    66,
-    34
+    94,
+    6
    ]
   },
   {
-   "say": "[[Lakaaaaaaasetttttttt]] kocht für dich, oder Zackavelli fährt dich nach Hause?",
+   "say": "Ein Feature mit Kalim, oder ein Feature mit [[BOBOBOBOBOBOOOOOOOOO]]?",
    "a": {
-    "label": "Lacazette kocht",
-    "img": "artists/lacazette.jpg"
+    "label": "Feature mit Kalim",
+    "img": "artists/kalim.jpg"
    },
    "b": {
-    "label": "Zackavelli fährt dich",
-    "img": "artists/zackavelli.jpg"
+    "label": "Feature mit Luciano",
+    "img": "artists/luciano.jpg"
    },
    "pct": [
-    96,
-    4
+    53,
+    47
    ]
   },
   {
-   "say": "Lacazette als großer Bruder, oder Ufo187 als Mitbewohner?",
+   "say": "Nie wieder [[Niiiiiiiisssssiiiii]] hören, oder nie wieder Omar101 hören?",
    "a": {
-    "label": "Lacazette als Bruder",
-    "img": "artists/lacazette.jpg"
+    "label": "Nie wieder Nizi19",
+    "img": "artists/nizi19.jpg"
    },
    "b": {
-    "label": "Ufo187 als Mitbewohner",
-    "img": "artists/ufo361.jpg"
+    "label": "Nie wieder Omar101",
+    "img": "artists/omar101.jpg"
    },
    "pct": [
-    48,
-    52
+    23,
+    77
    ]
   },
   {
-   "say": "Auf die einsame Insel nimmst du 1019 mit, oder 101%?",
+   "say": "Nur noch Kleiner Prinz hören, oder nur noch 16?",
    "a": {
-    "label": "Insel: 1019",
-    "img": "albums/album-1019.jpg"
+    "label": "Nur noch Kleiner Prinz",
+    "img": "songs/song-kleiner-prinz.jpg"
    },
    "b": {
-    "label": "Insel: 101%",
-    "img": "albums/album-101.jpg"
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
    },
    "pct": [
-    51,
-    49
+    65,
+    35
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
    "a": {
     "label": "Nie wieder Maka",
     "emoji": "🧪"
    },
    "b": {
-    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
-    "emoji": "💌"
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
    },
    "pct": [
-    49,
-    51
+    52,
+    48
    ]
   },
   {
-   "say": "CUP auf Dauerschleife, oder Wittenbergplatz auf Dauerschleife?",
+   "say": "FTW für immer löschen, oder Airwaves für immer löschen?",
    "a": {
-    "label": "CUP auf Repeat",
-    "img": "songs/song-cup.jpg"
+    "label": "FTW löschen",
+    "img": "songs/song-ftw.jpg"
    },
    "b": {
-    "label": "Wittenbergplatz auf Repeat",
-    "img": "songs/song-wittenbergplatz.jpg"
+    "label": "Airwaves löschen",
+    "img": "songs/song-airwaves.jpg"
    },
    "pct": [
-    9,
-    91
+    29,
+    71
    ]
   },
   {
-   "say": "Würdest du eher ein Jahr nur [[Kaaaaaaaaa-liiiiim]] hören, oder ein Jahr nur Lacazette?",
+   "say": "Samra als großer Bruder, oder [[BOBOBOBOBOBOOOOOOOOO]] als Mitbewohner?",
    "a": {
-    "label": "1 Jahr nur Kalim",
-    "img": "artists/kalim.jpg"
+    "label": "Samra als Bruder",
+    "img": "artists/samra.jpg"
    },
    "b": {
-    "label": "1 Jahr nur Lacazette",
-    "img": "artists/lacazette.jpg"
+    "label": "Luciano als Mitbewohner",
+    "img": "artists/luciano.jpg"
    },
    "pct": [
-    51,
-    49
+    53,
+    47
    ]
   },
   {
-   "say": "Würdest du eher ein Jahr nur Kalim hören, oder ein Jahr nur Haribo?",
+   "say": "Mucco kocht für dich, oder Makko fährt dich nach Hause?",
    "a": {
-    "label": "1 Jahr nur Kalim",
-    "img": "artists/kalim.jpg"
+    "label": "Mucco kocht",
+    "img": "artists/mucco.jpg"
    },
    "b": {
-    "label": "1 Jahr nur Haribo",
-    "img": "artists/yuyu19.jpg"
+    "label": "Makko fährt dich",
+    "img": "artists/makko.jpg"
    },
    "pct": [
-    15,
-    85
-   ],
-   "winSay": "Ohne Finger, Akh!"
+    98,
+    2
+   ]
   }
  ],
  "outro": {

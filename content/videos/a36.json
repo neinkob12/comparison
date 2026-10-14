@@ -3,141 +3,141 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Kalim, oder nie wieder Ufo187 hören?",
+  "say": "Cano030 kommt zu deinem Abiball, oder Lucio zu deiner Hochzeit?",
   "a": {
-   "label": "1 Nacht mit Kalim",
-   "img": "artists/kalim.jpg"
+   "label": "Cano030 am Abiball",
+   "img": "artists/pashanim.jpg"
   },
   "b": {
-   "label": "Nie wieder Ufo187",
-   "img": "artists/ufo361.jpg"
+   "label": "Lucio auf der Hochzeit",
+   "img": "artists/lucio101.jpg"
   },
   "pct": [
-   98,
-   2
+   24,
+   76
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "16 für immer löschen, oder Kleiner Prinz für immer löschen?",
+   "say": "Kalim in der ersten Reihe, oder Caney030 backstage?",
    "a": {
-    "label": "16 löschen",
-    "img": "songs/song-16.jpg"
+    "label": "Kalim erste Reihe",
+    "img": "artists/kalim.jpg"
    },
    "b": {
-    "label": "Kleiner Prinz löschen",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "Caney030 backstage",
+    "img": "artists/caney030.jpg"
    },
    "pct": [
-    91,
-    9
+    96,
+    4
    ]
   },
   {
-   "say": "Nie wieder [[Lussssssiiiiiiiooooooooo]] hören, oder nie wieder Lacazette hören?",
+   "say": "Hollywoodreif für immer löschen, oder FTW für immer löschen?",
    "a": {
-    "label": "Nie wieder Lucio",
-    "img": "artists/lucio101.jpg"
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
    },
    "b": {
-    "label": "Nie wieder Lacazette",
-    "img": "artists/lacazette.jpg"
+    "label": "FTW löschen",
+    "img": "songs/song-ftw.jpg"
    },
    "pct": [
-    5,
-    95
+    79,
+    21
    ]
   },
   {
-   "say": "Ein Tag mit Makko, oder ein Tag mit Zackavelli?",
+   "say": "Auf die einsame Insel nimmst du Akh & Krach mit, oder Mittendrin?",
    "a": {
-    "label": "1 Tag mit Makko",
-    "img": "artists/makko.jpg"
-   },
-   "b": {
-    "label": "1 Tag mit Zackavelli",
-    "img": "artists/zackavelli.jpg"
-   },
-   "pct": [
-    1,
-    99
-   ]
-  },
-  {
-   "say": "Auf die einsame Insel nimmst du Doktor mit, oder Akh & Krach?",
-   "a": {
-    "label": "Insel: Doktor",
-    "img": "albums/album-doktor.jpg"
-   },
-   "b": {
     "label": "Insel: Akh & Krach",
     "img": "albums/album-akh-krach.jpg"
    },
+   "b": {
+    "label": "Insel: Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
+   },
    "pct": [
-    91,
-    9
+    7,
+    93
+   ]
+  },
+  {
+   "say": "Pashanim kocht für dich, oder [[Uuuuuuuufoooooo Drei Sechs Eins]] fährt dich nach Hause?",
+   "a": {
+    "label": "Pashanim kocht",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Ufo361 fährt dich",
+    "img": "artists/ufo361.jpg"
+   },
+   "pct": [
+    52,
+    48
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
    "a": {
-    "label": "Nie wieder duschen",
-    "emoji": "🚿"
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
-    "emoji": "✈️"
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
    },
    "pct": [
-    17,
-    83
+    52,
+    48
    ]
   },
   {
-   "say": "+49 für immer löschen, oder CUP für immer löschen?",
+   "say": "Omar101 als Lehrer, oder Makko als Fahrlehrer?",
    "a": {
-    "label": "+49 löschen",
-    "img": "songs/song-plus49.jpg"
-   },
-   "b": {
-    "label": "CUP löschen",
-    "img": "songs/song-cup.jpg"
-   },
-   "pct": [
-    27,
-    73
-   ]
-  },
-  {
-   "say": "Nizi19 als großer Bruder, oder Caney030 als Mitbewohner?",
-   "a": {
-    "label": "Nizi19 als Bruder",
-    "img": "artists/nizi19.jpg"
-   },
-   "b": {
-    "label": "Caney030 als Mitbewohner",
-    "img": "artists/caney030.jpg"
-   },
-   "pct": [
-    99,
-    1
-   ]
-  },
-  {
-   "say": "Nie wieder [[Nisssssiiiiiijaaaaaaa]] hören, oder nie wieder Omar101 hören?",
-   "a": {
-    "label": "Nie wieder Nizi19",
-    "img": "artists/nizi19.jpg"
-   },
-   "b": {
-    "label": "Nie wieder Omar101",
+    "label": "Omar101 als Lehrer",
     "img": "artists/omar101.jpg"
+   },
+   "b": {
+    "label": "Makko als Fahrlehrer",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    48,
+    52
+   ]
+  },
+  {
+   "say": "Nie wieder Haribo hören, oder nie wieder [[BOBOBOBOBOBOOOOOOOOO]] hören?",
+   "a": {
+    "label": "Nie wieder Haribo",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Luciano",
+    "img": "artists/luciano.jpg"
    },
    "pct": [
     44,
     56
+   ]
+  },
+  {
+   "say": "Nur noch 16 hören, oder nur noch FTW?",
+   "a": {
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Nur noch FTW",
+    "img": "songs/song-ftw.jpg"
+   },
+   "pct": [
+    56,
+    44
    ]
   }
  ],

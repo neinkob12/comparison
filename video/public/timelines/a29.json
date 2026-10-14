@@ -3,14 +3,14 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2432,
+ "durationInFrames": 2376,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a29/00_hook_a.mp3",
    "audioB": "audio/a29/00_hook_b.mp3",
-   "bAt": 53,
-   "speak": 123,
+   "bAt": 50,
+   "speak": 102,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -19,217 +19,218 @@
     "emoji": null
    },
    "b": {
-    "label": "Caney030 auf der Hochzeit",
-    "img": "img/artists/caney030.jpg",
+    "label": "Luciano auf der Hochzeit",
+    "img": "img/artists/luciano.jpg",
     "emoji": null
    },
    "pct": [
-    28,
-    72
+    93,
+    7
    ],
-   "duration": 258
+   "duration": 237
   },
   {
    "kind": "q",
    "audio": "audio/a29/01_q_a.mp3",
    "audioB": "audio/a29/01_q_b.mp3",
-   "bAt": 37,
-   "speak": 90,
+   "bAt": 48,
+   "speak": 99,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Kakko kocht",
-    "img": "img/artists/makko.jpg",
+    "label": "Sommergewitter löschen",
+    "img": "img/songs/song-sommergewitter.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Samra fährt dich",
-    "img": "img/artists/samra.jpg",
+    "label": "Hollywoodreif löschen",
+    "img": "img/songs/song-hollywoodreif.jpg",
     "emoji": null
    },
    "pct": [
-    21,
-    79
+    2,
+    98
    ],
-   "duration": 225
+   "duration": 234
   },
   {
    "kind": "q",
    "audio": "audio/a29/02_q_a.mp3",
    "audioB": "audio/a29/02_q_b.mp3",
-   "bAt": 80,
-   "speak": 120,
+   "bAt": 40,
+   "speak": 106,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Kalim als Lehrer",
-    "img": "img/artists/kalim.jpg",
+    "label": "Feature mit Makko",
+    "img": "img/artists/makko.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Mucco als Fahrlehrer",
-    "img": "img/artists/mucco.jpg",
+    "label": "Feature mit Kalim",
+    "img": "img/artists/kalim.jpg",
     "emoji": null
    },
    "pct": [
-    16,
-    84
+    22,
+    78
    ],
-   "duration": 255
+   "duration": 241
   },
   {
    "kind": "q",
    "audio": "audio/a29/03_q_a.mp3",
    "audioB": "audio/a29/03_q_b.mp3",
-   "bAt": 38,
-   "speak": 91,
+   "bAt": 77,
+   "speak": 114,
    "gap": 90,
-   "hold": 45,
+   "hold": 51,
    "a": {
-    "label": "Hier auf Repeat",
-    "img": "img/songs/song-hier.jpg",
+    "label": "Nie wieder Haribo",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Airwaves auf Repeat",
-    "img": "img/songs/song-airwaves.jpg",
+    "label": "Nie wieder Mucco",
+    "img": "img/artists/mucco.jpg",
     "emoji": null
    },
    "pct": [
-    54,
-    46
+    55,
+    45
    ],
-   "duration": 226
+   "winAudio": "audio/a29/03_q_win.mp3",
+   "duration": 255
   },
   {
    "kind": "q",
    "audio": "audio/a29/04_q_a.mp3",
    "audioB": "audio/a29/04_q_b.mp3",
-   "bAt": 53,
-   "speak": 111,
+   "bAt": 45,
+   "speak": 86,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nie wieder Nizi19",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Feature mit Pashanim",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nie wieder Kalim",
-    "img": "img/artists/kalim.jpg",
+    "label": "Feature mit Lucio",
+    "img": "img/artists/luciano.jpg",
     "emoji": null
    },
    "pct": [
-    91,
-    9
+    1,
+    99
    ],
-   "duration": 246
+   "duration": 221
   },
   {
    "kind": "mid",
    "audio": "audio/a29/05_mid_a.mp3",
    "audioB": "audio/a29/05_mid_b.mp3",
-   "bAt": 53,
-   "speak": 163,
+   "bAt": 54,
+   "speak": 149,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nie wieder Maka",
+    "label": "Nie wieder duschen",
     "img": null,
-    "emoji": "🧪"
+    "emoji": "🚿"
    },
    "b": {
-    "label": "Date mit der 3. Person bei „Teilen“",
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
     "img": null,
-    "emoji": "💘"
+    "emoji": "🌳"
    },
    "pct": [
-    67,
-    33
+    47,
+    53
    ],
-   "duration": 298
+   "duration": 284
   },
   {
    "kind": "q",
    "audio": "audio/a29/06_q_a.mp3",
    "audioB": "audio/a29/06_q_b.mp3",
-   "bAt": 74,
-   "speak": 108,
+   "bAt": 45,
+   "speak": 82,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Insel: LID",
-    "img": "img/albums/album-lid.jpg",
+    "label": "Superkraft löschen",
+    "img": "img/songs/song-superkraft.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Insel: Akh & Krach",
-    "img": "img/albums/album-akh-krach.jpg",
+    "label": "Hier löschen",
+    "img": "img/songs/song-hier.jpg",
     "emoji": null
    },
    "pct": [
-    20,
-    80
+    56,
+    44
    ],
-   "duration": 243
+   "duration": 217
   },
   {
    "kind": "q",
    "audio": "audio/a29/07_q_a.mp3",
    "audioB": "audio/a29/07_q_b.mp3",
-   "bAt": 45,
-   "speak": 94,
+   "bAt": 39,
+   "speak": 101,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Kleiner Prinz löschen",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Lacazette als Lehrer",
+    "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "b": {
-    "label": "FTW löschen",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Karamel19 als Fahrlehrer",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "pct": [
-    48,
-    52
+    8,
+    92
    ],
-   "duration": 229
+   "duration": 236
   },
   {
    "kind": "q",
    "audio": "audio/a29/08_q_a.mp3",
    "audioB": "audio/a29/08_q_b.mp3",
-   "bAt": 39,
-   "speak": 108,
+   "bAt": 61,
+   "speak": 90,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Haribo kocht",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "Insel: Doktor",
+    "img": "img/albums/album-doktor.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Mucco fährt dich",
-    "img": "img/artists/mucco.jpg",
+    "label": "Insel: LID",
+    "img": "img/albums/album-lid.jpg",
     "emoji": null
    },
    "pct": [
-    92,
-    8
+    45,
+    55
    ],
-   "duration": 243
+   "duration": 225
   },
   {
    "kind": "outro",
    "audio": "audio/a29/09_outro.mp3",
-   "speak": 164,
+   "speak": 181,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Talahons, die du kennst",
-   "duration": 209
+   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+   "duration": 226
   }
  ]
 }

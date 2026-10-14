@@ -3,13 +3,13 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2430,
+ "durationInFrames": 2427,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a17/00_hook_a.mp3",
    "audioB": "audio/a17/00_hook_b.mp3",
-   "bAt": 48,
+   "bAt": 46,
    "speak": 106,
    "gap": 90,
    "hold": 45,
@@ -33,129 +33,8 @@
    "kind": "q",
    "audio": "audio/a17/01_q_a.mp3",
    "audioB": "audio/a17/01_q_b.mp3",
-   "bAt": 54,
-   "speak": 110,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "FTW auf Repeat",
-    "img": "img/songs/song-ftw.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Sommergewitter auf Repeat",
-    "img": "img/songs/song-sommergewitter.jpg",
-    "emoji": null
-   },
-   "pct": [
-    51,
-    49
-   ],
-   "duration": 245
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a17/02_q_a.mp3",
-   "audioB": "audio/a17/02_q_b.mp3",
-   "bAt": 52,
-   "speak": 103,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "+49 auf Repeat",
-    "img": "img/songs/song-plus49.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Kleiner Prinz auf Repeat",
-    "img": "img/songs/song-kleiner-prinz.jpg",
-    "emoji": null
-   },
-   "pct": [
-    2,
-    98
-   ],
-   "duration": 238
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a17/03_q_a.mp3",
-   "audioB": "audio/a17/03_q_b.mp3",
-   "bAt": 60,
-   "speak": 150,
-   "gap": 90,
-   "hold": 53,
-   "a": {
-    "label": "Feature mit Ufo187",
-    "img": "img/artists/ufo361.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Feature mit Haribo",
-    "img": "img/artists/yuyu19.jpg",
-    "emoji": null
-   },
-   "pct": [
-    8,
-    92
-   ],
-   "winAudio": "audio/a17/03_q_win.mp3",
-   "duration": 293
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a17/04_q_a.mp3",
-   "audioB": "audio/a17/04_q_b.mp3",
-   "bAt": 38,
-   "speak": 97,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Samra als Lehrer",
-    "img": "img/artists/samra.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Mucco als Fahrlehrer",
-    "img": "img/artists/mucco.jpg",
-    "emoji": null
-   },
-   "pct": [
-    56,
-    44
-   ],
-   "duration": 232
-  },
-  {
-   "kind": "mid",
-   "audio": "audio/a17/05_mid_a.mp3",
-   "audioB": "audio/a17/05_mid_b.mp3",
-   "bAt": 55,
-   "speak": 145,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nie wieder duschen",
-    "img": null,
-    "emoji": "🚿"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
-    "img": null,
-    "emoji": "🌳"
-   },
-   "pct": [
-    18,
-    82
-   ],
-   "duration": 280
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a17/06_q_a.mp3",
-   "audioB": "audio/a17/06_q_b.mp3",
-   "bAt": 57,
-   "speak": 88,
+   "bAt": 61,
+   "speak": 122,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -164,22 +43,22 @@
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Doktor",
-    "img": "img/albums/album-doktor.jpg",
+    "label": "Nur noch 1019",
+    "img": "img/albums/album-1019.jpg",
     "emoji": null
    },
    "pct": [
-    75,
-    25
+    1,
+    99
    ],
-   "duration": 223
+   "duration": 257
   },
   {
    "kind": "q",
-   "audio": "audio/a17/07_q_a.mp3",
-   "audioB": "audio/a17/07_q_b.mp3",
-   "bAt": 38,
-   "speak": 77,
+   "audio": "audio/a17/02_q_a.mp3",
+   "audioB": "audio/a17/02_q_b.mp3",
+   "bAt": 36,
+   "speak": 106,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -193,17 +72,113 @@
     "emoji": null
    },
    "pct": [
-    34,
-    66
+    95,
+    5
    ],
-   "duration": 212
+   "duration": 241
   },
   {
    "kind": "q",
-   "audio": "audio/a17/08_q_a.mp3",
-   "audioB": "audio/a17/08_q_b.mp3",
-   "bAt": 66,
-   "speak": 122,
+   "audio": "audio/a17/03_q_a.mp3",
+   "audioB": "audio/a17/03_q_b.mp3",
+   "bAt": 59,
+   "speak": 102,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Feature mit Ufo361",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Yuyu",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "duration": 237
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/04_q_a.mp3",
+   "audioB": "audio/a17/04_q_b.mp3",
+   "bAt": 42,
+   "speak": 98,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "16 auf Repeat",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Sommergewitter auf Repeat",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "duration": 233
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a17/05_mid_a.mp3",
+   "audioB": "audio/a17/05_mid_b.mp3",
+   "bAt": 53,
+   "speak": 168,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "img": null,
+    "emoji": "💘"
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 303
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/06_q_a.mp3",
+   "audioB": "audio/a17/06_q_b.mp3",
+   "bAt": 46,
+   "speak": 95,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "FTW löschen",
+    "img": "img/songs/song-ftw.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "pct": [
+    75,
+    25
+   ],
+   "duration": 230
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/07_q_a.mp3",
+   "audioB": "audio/a17/07_q_b.mp3",
+   "bAt": 75,
+   "speak": 133,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -217,20 +192,44 @@
     "emoji": null
    },
    "pct": [
+    34,
+    66
+   ],
+   "duration": 268
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a17/08_q_a.mp3",
+   "audioB": "audio/a17/08_q_b.mp3",
+   "bAt": 36,
+   "speak": 74,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Samra als Lehrer",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Mucco als Fahrlehrer",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
+   "pct": [
     44,
     56
    ],
-   "duration": 257
+   "duration": 209
   },
   {
    "kind": "outro",
    "audio": "audio/a17/09_outro.mp3",
-   "speak": 164,
+   "speak": 163,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 209
+   "duration": 208
   }
  ]
 }

@@ -3,143 +3,141 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Haribo wird dein Stiefvater, oder Karamel19 dein Klassenlehrer?",
+  "say": "24 Stunden mit Pashanim im Fahrstuhl, oder mit Samra im Bällebad?",
   "a": {
-   "label": "Haribo als Stiefvater",
-   "img": "artists/yuyu19.jpg"
+   "label": "Pashanim im Fahrstuhl",
+   "img": "artists/pashanim.jpg"
   },
   "b": {
-   "label": "Karamel19 als Klassenlehrer",
-   "img": "artists/karamel19.jpg"
+   "label": "Samra im Bällebad",
+   "img": "artists/samra.jpg"
   },
   "pct": [
-   78,
-   22
+   98,
+   2
   ],
-  "winSay": "Ohne Finger, Akh!",
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Hier auf Dauerschleife, oder 16 auf Dauerschleife?",
+   "say": "Auf die einsame Insel nimmst du 101% mit, oder Doktor?",
    "a": {
-    "label": "Hier auf Repeat",
-    "img": "songs/song-hier.jpg"
+    "label": "Insel: 101%",
+    "img": "albums/album-101.jpg"
    },
    "b": {
-    "label": "16 auf Repeat",
-    "img": "songs/song-16.jpg"
+    "label": "Insel: Doktor",
+    "img": "albums/album-doktor.jpg"
    },
    "pct": [
-    2,
-    98
+    83,
+    17
    ]
   },
   {
-   "say": "Nie wieder Pashanim hören, oder nie wieder Lacazette hören?",
+   "say": "Nie wieder Yuyu hören, oder nie wieder Caney030 hören?",
    "a": {
-    "label": "Nie wieder Pashanim",
-    "img": "artists/pashanim.jpg"
+    "label": "Nie wieder Yuyu",
+    "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Nie wieder Lacazette",
-    "img": "artists/lacazette.jpg"
+    "label": "Nie wieder Caney030",
+    "img": "artists/caney030.jpg"
    },
    "pct": [
-    49,
-    51
+    56,
+    44
    ]
   },
   {
-   "say": "Pashanim in der ersten Reihe, oder [[Kaaaaaaaaa-liiiiim]] backstage?",
+   "say": "Kalim als Lehrer, oder Mucco als Fahrlehrer?",
    "a": {
-    "label": "Pashanim erste Reihe",
-    "img": "artists/pashanim.jpg"
-   },
-   "b": {
-    "label": "Kalim backstage",
+    "label": "Kalim als Lehrer",
     "img": "artists/kalim.jpg"
    },
+   "b": {
+    "label": "Mucco als Fahrlehrer",
+    "img": "artists/mucco.jpg"
+   },
    "pct": [
-    7,
-    93
+    65,
+    35
    ]
   },
   {
-   "say": "Nur noch das Album LID hören, oder nur noch 1019?",
+   "say": "Ein Feature mit Mucco, oder ein Feature mit [[Paschaaaaaaaaa-Niiiiiim]]?",
    "a": {
-    "label": "Nur noch LID",
-    "img": "albums/album-lid.jpg"
+    "label": "Feature mit Mucco",
+    "img": "artists/mucco.jpg"
    },
    "b": {
-    "label": "Nur noch 1019",
-    "img": "albums/album-1019.jpg"
+    "label": "Feature mit Pashanim",
+    "img": "artists/pashanim.jpg"
    },
    "pct": [
-    92,
-    8
+    55,
+    45
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "say": "Kurze Pause. Nie wieder Maka, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
    "a": {
-    "label": "Nie wieder duschen",
-    "emoji": "🚿"
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
    },
    "b": {
     "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
     "emoji": "💌"
    },
    "pct": [
-    51,
-    49
+    8,
+    92
    ]
   },
   {
-   "say": "Kleiner Prinz für immer löschen, oder Wittenbergplatz für immer löschen?",
+   "say": "Superkraft für immer löschen, oder CUP für immer löschen?",
    "a": {
-    "label": "Kleiner Prinz löschen",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "Superkraft löschen",
+    "img": "songs/song-superkraft.jpg"
    },
    "b": {
-    "label": "Wittenbergplatz löschen",
-    "img": "songs/song-wittenbergplatz.jpg"
+    "label": "CUP löschen",
+    "img": "songs/song-cup.jpg"
    },
    "pct": [
-    97,
-    3
+    5,
+    95
    ]
   },
   {
-   "say": "Würdest du eher ein Jahr nur Yuyu hören, oder ein Jahr nur Nizi19?",
+   "say": "Nur noch 16 hören, oder nur noch Hollywoodreif?",
    "a": {
-    "label": "1 Jahr nur Yuyu",
-    "img": "artists/yuyu19.jpg"
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
    },
    "b": {
-    "label": "1 Jahr nur Nizi19",
-    "img": "artists/nizi19.jpg"
+    "label": "Nur noch Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
    },
    "pct": [
-    98,
-    2
-   ],
-   "winSay": "Ohne Finger, Akh!"
+    91,
+    9
+   ]
   },
   {
-   "say": "[[Lakaaaaaaasetttttttt]] in der ersten Reihe, oder Nizi19 backstage?",
+   "say": "Nie wieder [[Lakaaaaaaasetttttttt]] hören, oder nie wieder Samra hören?",
    "a": {
-    "label": "Lacazette erste Reihe",
+    "label": "Nie wieder Lacazette",
     "img": "artists/lacazette.jpg"
    },
    "b": {
-    "label": "Nizi19 backstage",
-    "img": "artists/nizi19.jpg"
+    "label": "Nie wieder Samra",
+    "img": "artists/samra.jpg"
    },
    "pct": [
-    96,
-    4
+    1,
+    99
    ]
   }
  ],
@@ -147,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+  "share": "Schick das an die 3 größten Gooner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
  }
 }

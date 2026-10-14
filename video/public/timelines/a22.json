@@ -3,38 +3,87 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2416,
+ "durationInFrames": 2496,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a22/00_hook_a.mp3",
    "audioB": "audio/a22/00_hook_b.mp3",
    "bAt": 38,
-   "speak": 101,
+   "speak": 87,
    "gap": 90,
-   "hold": 45,
+   "hold": 51,
    "a": {
     "label": "1 Nacht mit Yuyu",
     "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nie wieder Omar101",
-    "img": "img/artists/omar101.jpg",
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "pct": [
-    9,
-    91
+    95,
+    5
    ],
-   "duration": 236
+   "winAudio": "audio/a22/00_hook_win.mp3",
+   "duration": 228
   },
   {
    "kind": "q",
    "audio": "audio/a22/01_q_a.mp3",
    "audioB": "audio/a22/01_q_b.mp3",
-   "bAt": 56,
-   "speak": 97,
+   "bAt": 71,
+   "speak": 126,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Nizi19",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Omar101",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "duration": 261
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a22/02_q_a.mp3",
+   "audioB": "audio/a22/02_q_b.mp3",
+   "bAt": 68,
+   "speak": 103,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Insel: Free Game",
+    "img": "img/albums/album-free-game.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "duration": 238
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a22/03_q_a.mp3",
+   "audioB": "audio/a22/03_q_b.mp3",
+   "bAt": 61,
+   "speak": 130,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -43,46 +92,22 @@
     "emoji": null
    },
    "b": {
-    "label": "Samra als Mitbewohner",
-    "img": "img/artists/samra.jpg",
+    "label": "Caney030 als Mitbewohner",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "pct": [
-    97,
-    3
+    54,
+    46
    ],
-   "duration": 232
+   "duration": 265
   },
   {
    "kind": "q",
-   "audio": "audio/a22/02_q_a.mp3",
-   "audioB": "audio/a22/02_q_b.mp3",
-   "bAt": 43,
-   "speak": 113,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nie wieder Lacazette",
-    "img": "img/artists/lacazette.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Nie wieder Luciano",
-    "img": "img/artists/luciano.jpg",
-    "emoji": null
-   },
-   "pct": [
-    4,
-    96
-   ],
-   "duration": 248
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a22/03_q_a.mp3",
-   "audioB": "audio/a22/03_q_b.mp3",
-   "bAt": 52,
-   "speak": 103,
+   "audio": "audio/a22/04_q_a.mp3",
+   "audioB": "audio/a22/04_q_b.mp3",
+   "bAt": 51,
+   "speak": 106,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -91,46 +116,22 @@
     "emoji": null
    },
    "b": {
-    "label": "FTW auf Repeat",
-    "img": "img/songs/song-ftw.jpg",
-    "emoji": null
-   },
-   "pct": [
-    52,
-    48
-   ],
-   "duration": 238
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a22/04_q_a.mp3",
-   "audioB": "audio/a22/04_q_b.mp3",
-   "bAt": 39,
-   "speak": 92,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "CUP auf Repeat",
-    "img": "img/songs/song-cup.jpg",
-    "emoji": null
-   },
-   "b": {
     "label": "+49 auf Repeat",
     "img": "img/songs/song-plus49.jpg",
     "emoji": null
    },
    "pct": [
-    1,
-    99
+    45,
+    55
    ],
-   "duration": 227
+   "duration": 241
   },
   {
    "kind": "mid",
    "audio": "audio/a22/05_mid_a.mp3",
    "audioB": "audio/a22/05_mid_b.mp3",
-   "bAt": 59,
-   "speak": 162,
+   "bAt": 54,
+   "speak": 155,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -144,92 +145,92 @@
     "emoji": "💌"
    },
    "pct": [
-    6,
-    94
+    52,
+    48
    ],
-   "duration": 297
+   "duration": 290
   },
   {
    "kind": "q",
    "audio": "audio/a22/06_q_a.mp3",
    "audioB": "audio/a22/06_q_b.mp3",
-   "bAt": 74,
-   "speak": 106,
+   "bAt": 39,
+   "speak": 93,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Insel: Mittendrin",
-    "img": "img/albums/album-mittendrin.jpg",
+    "label": "Hier auf Repeat",
+    "img": "img/songs/song-hier.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Insel: Akh & Krach",
-    "img": "img/albums/album-akh-krach.jpg",
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    54,
+    46
+   ],
+   "duration": 228
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a22/07_q_a.mp3",
+   "audioB": "audio/a22/07_q_b.mp3",
+   "bAt": 118,
+   "speak": 158,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Feature mit Ufo361",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Samra",
+    "img": "img/artists/samra.jpg",
     "emoji": null
    },
    "pct": [
     52,
     48
    ],
-   "duration": 241
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a22/07_q_a.mp3",
-   "audioB": "audio/a22/07_q_b.mp3",
-   "bAt": 42,
-   "speak": 88,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Lacazette kocht",
-    "img": "img/artists/lacazette.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Souly fährt dich",
-    "img": "img/artists/souly.jpg",
-    "emoji": null
-   },
-   "pct": [
-    35,
-    65
-   ],
-   "duration": 223
+   "duration": 293
   },
   {
    "kind": "q",
    "audio": "audio/a22/08_q_a.mp3",
    "audioB": "audio/a22/08_q_b.mp3",
-   "bAt": 71,
-   "speak": 133,
+   "bAt": 38,
+   "speak": 115,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lucio als Lehrer",
-    "img": "img/artists/lucio101.jpg",
+    "label": "Feature mit Souly",
+    "img": "img/artists/souly.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Karamel19 als Fahrlehrer",
-    "img": "img/artists/karamel19.jpg",
+    "label": "Feature mit Lacazette",
+    "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "pct": [
-    47,
-    53
+    94,
+    6
    ],
-   "duration": 268
+   "duration": 250
   },
   {
    "kind": "outro",
    "audio": "audio/a22/09_outro.mp3",
-   "speak": 161,
+   "speak": 157,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 206
+   "share": "Schick das an die 3 größten Ottos, die du kennst",
+   "duration": 202
   }
  ]
 }

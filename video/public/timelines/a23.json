@@ -3,38 +3,62 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2424,
+ "durationInFrames": 2356,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a23/00_hook_a.mp3",
    "audioB": "audio/a23/00_hook_b.mp3",
-   "bAt": 52,
-   "speak": 97,
+   "bAt": 40,
+   "speak": 93,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Pashanim als Stiefvater",
+    "label": "1 Nacht mit Pashanim",
     "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Makko als Klassenlehrer",
-    "img": "img/artists/makko.jpg",
+    "label": "Nie wieder Nizi19",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "pct": [
-    46,
-    54
+    7,
+    93
    ],
-   "duration": 232
+   "duration": 228
   },
   {
    "kind": "q",
    "audio": "audio/a23/01_q_a.mp3",
    "audioB": "audio/a23/01_q_b.mp3",
-   "bAt": 49,
-   "speak": 101,
+   "bAt": 36,
+   "speak": 117,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Haribo als Lehrer",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Luciano als Fahrlehrer",
+    "img": "img/artists/luciano.jpg",
+    "emoji": null
+   },
+   "pct": [
+    19,
+    81
+   ],
+   "duration": 252
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/02_q_a.mp3",
+   "audioB": "audio/a23/02_q_b.mp3",
+   "bAt": 53,
+   "speak": 93,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -43,194 +67,169 @@
     "emoji": null
    },
    "b": {
-    "label": "Sommergewitter auf Repeat",
-    "img": "img/songs/song-sommergewitter.jpg",
+    "label": "CUP auf Repeat",
+    "img": "img/songs/song-cup.jpg",
     "emoji": null
-   },
-   "pct": [
-    51,
-    49
-   ],
-   "duration": 236
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a23/02_q_a.mp3",
-   "audioB": "audio/a23/02_q_b.mp3",
-   "bAt": 38,
-   "speak": 96,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Lacazette kocht",
-    "img": "img/artists/lacazette.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Omar101 fährt dich",
-    "img": "img/artists/omar101.jpg",
-    "emoji": null
-   },
-   "pct": [
-    92,
-    8
-   ],
-   "duration": 231
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a23/03_q_a.mp3",
-   "audioB": "audio/a23/03_q_b.mp3",
-   "bAt": 50,
-   "speak": 91,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "FTW auf Repeat",
-    "img": "img/songs/song-ftw.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Hier auf Repeat",
-    "img": "img/songs/song-hier.jpg",
-    "emoji": null
-   },
-   "pct": [
-    19,
-    81
-   ],
-   "duration": 226
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a23/04_q_a.mp3",
-   "audioB": "audio/a23/04_q_b.mp3",
-   "bAt": 63,
-   "speak": 124,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nizi19 als Bruder",
-    "img": "img/artists/nizi19.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Mucco als Mitbewohner",
-    "img": "img/artists/mucco.jpg",
-    "emoji": null
-   },
-   "pct": [
-    6,
-    94
-   ],
-   "duration": 259
-  },
-  {
-   "kind": "mid",
-   "audio": "audio/a23/05_mid_a.mp3",
-   "audioB": "audio/a23/05_mid_b.mp3",
-   "bAt": 54,
-   "speak": 149,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nie wieder Maka",
-    "img": null,
-    "emoji": "🧪"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
-    "img": null,
-    "emoji": "✈️"
    },
    "pct": [
     7,
     93
    ],
-   "duration": 284
+   "duration": 228
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/03_q_a.mp3",
+   "audioB": "audio/a23/03_q_b.mp3",
+   "bAt": 42,
+   "speak": 80,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Zackavelli",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Samra",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "pct": [
+    1,
+    99
+   ],
+   "duration": 215
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a23/04_q_a.mp3",
+   "audioB": "audio/a23/04_q_b.mp3",
+   "bAt": 70,
+   "speak": 110,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch LID",
+    "img": "img/albums/album-lid.jpg",
+    "emoji": null
+   },
+   "pct": [
+    31,
+    69
+   ],
+   "duration": 245
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a23/05_mid_a.mp3",
+   "audioB": "audio/a23/05_mid_b.mp3",
+   "bAt": 57,
+   "speak": 145,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "img": null,
+    "emoji": "🌳"
+   },
+   "pct": [
+    97,
+    3
+   ],
+   "duration": 280
   },
   {
    "kind": "q",
    "audio": "audio/a23/06_q_a.mp3",
    "audioB": "audio/a23/06_q_b.mp3",
-   "bAt": 63,
-   "speak": 117,
+   "bAt": 48,
+   "speak": 92,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch Akh & Krach",
-    "img": "img/albums/album-akh-krach.jpg",
+    "label": "Zackavelli als Bruder",
+    "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch 1019",
-    "img": "img/albums/album-1019.jpg",
+    "label": "Makko als Mitbewohner",
+    "img": "img/artists/makko.jpg",
     "emoji": null
    },
    "pct": [
-    56,
-    44
+    78,
+    22
    ],
-   "duration": 252
+   "duration": 227
   },
   {
    "kind": "q",
    "audio": "audio/a23/07_q_a.mp3",
    "audioB": "audio/a23/07_q_b.mp3",
-   "bAt": 50,
-   "speak": 119,
+   "bAt": 66,
+   "speak": 144,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nizi19 kocht",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Cano030 erste Reihe",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Ufo187 fährt dich",
-    "img": "img/artists/ufo361.jpg",
+    "label": "Luciano backstage",
+    "img": "img/artists/luciano.jpg",
     "emoji": null
    },
    "pct": [
-    9,
-    91
+    97,
+    3
    ],
-   "duration": 254
+   "duration": 279
   },
   {
    "kind": "q",
    "audio": "audio/a23/08_q_a.mp3",
    "audioB": "audio/a23/08_q_b.mp3",
-   "bAt": 82,
-   "speak": 120,
+   "bAt": 35,
+   "speak": 73,
    "gap": 90,
-   "hold": 53,
+   "hold": 45,
    "a": {
-    "label": "Lucio erste Reihe",
-    "img": "img/artists/lucio101.jpg",
+    "label": "Nur noch Hier",
+    "img": "img/songs/song-hier.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Haribo backstage",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "Nur noch Superkraft",
+    "img": "img/songs/song-superkraft.jpg",
     "emoji": null
    },
    "pct": [
-    6,
-    94
+    53,
+    47
    ],
-   "winAudio": "audio/a23/08_q_win.mp3",
-   "duration": 263
+   "duration": 208
   },
   {
    "kind": "outro",
    "audio": "audio/a23/09_outro.mp3",
-   "speak": 142,
+   "speak": 149,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Teile das Video mit deinen Akhs",
-   "duration": 187
+   "share": "Schick das an die 3 größten Ottos, die du kennst",
+   "duration": 194
   }
  ]
 }

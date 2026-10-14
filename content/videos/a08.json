@@ -3,141 +3,141 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Pashanim, oder nie wieder Omar101 hören?",
+  "say": "Kakanim wird dein Stiefvater, oder Lacazette dein Klassenlehrer?",
   "a": {
-   "label": "1 Nacht mit Pashanim",
+   "label": "Kakanim als Stiefvater",
    "img": "artists/pashanim.jpg"
   },
   "b": {
-   "label": "Nie wieder Omar101",
-   "img": "artists/omar101.jpg"
+   "label": "Lacazette als Klassenlehrer",
+   "img": "artists/lacazette.jpg"
   },
   "pct": [
-   9,
-   91
+   69,
+   31
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "[[Haaaaarrrriiiiibooooooo]] in der ersten Reihe, oder Doktor19 backstage?",
+   "say": "Lacazette kocht für dich, oder [[Muuuuuutschoooooo]] fährt dich nach Hause?",
    "a": {
-    "label": "Haribo erste Reihe",
-    "img": "artists/yuyu19.jpg"
+    "label": "Lacazette kocht",
+    "img": "artists/lacazette.jpg"
    },
    "b": {
-    "label": "Doktor19 backstage",
-    "img": "artists/nizi19.jpg"
+    "label": "Mucco fährt dich",
+    "img": "artists/mucco.jpg"
    },
    "pct": [
-    3,
-    97
+    6,
+    94
    ]
   },
   {
-   "say": "Nur noch das Album 101% hören, oder nur noch Nur für meine Augen?",
+   "say": "Nur noch Hollywoodreif hören, oder nur noch Wittenbergplatz?",
    "a": {
-    "label": "Nur noch 101%",
-    "img": "albums/album-101.jpg"
+    "label": "Nur noch Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
    },
    "b": {
-    "label": "Nur noch Nur für meine Augen",
-    "img": "albums/album-nur-fuer-meine-augen.jpg"
+    "label": "Nur noch Wittenbergplatz",
+    "img": "songs/song-wittenbergplatz.jpg"
    },
    "pct": [
-    5,
-    95
+    21,
+    79
    ]
   },
   {
-   "say": "+49 auf Dauerschleife, oder FTW auf Dauerschleife?",
+   "say": "Pashanim als Lehrer, oder [[Karaaaaaameeeeeel Eins Neun]] als Fahrlehrer?",
    "a": {
-    "label": "+49 auf Repeat",
-    "img": "songs/song-plus49.jpg"
-   },
-   "b": {
-    "label": "FTW auf Repeat",
-    "img": "songs/song-ftw.jpg"
-   },
-   "pct": [
-    30,
-    70
-   ]
-  },
-  {
-   "say": "Ein Tag mit Pashanim, oder ein Tag mit [[Niiiiiiiisssssiiiii]]?",
-   "a": {
-    "label": "1 Tag mit Pashanim",
+    "label": "Pashanim als Lehrer",
     "img": "artists/pashanim.jpg"
    },
    "b": {
-    "label": "1 Tag mit Nizi19",
-    "img": "artists/nizi19.jpg"
+    "label": "Karamel19 als Fahrlehrer",
+    "img": "artists/karamel19.jpg"
    },
    "pct": [
-    99,
-    1
+    54,
+    46
+   ]
+  },
+  {
+   "say": "Nur noch Hier hören, oder nur noch 16?",
+   "a": {
+    "label": "Nur noch Hier",
+    "img": "songs/song-hier.jpg"
+   },
+   "b": {
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    7,
+    93
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
    "a": {
-    "label": "Nie wieder Maka",
-    "emoji": "🧪"
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
-    "emoji": "✈️"
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
    },
    "pct": [
-    84,
-    16
+    98,
+    2
    ]
   },
   {
-   "say": "Hier für immer löschen, oder Airwaves für immer löschen?",
+   "say": "Würdest du eher ein Jahr nur Omar101 hören, oder ein Jahr nur [[Karaaaaaameeeeeel Eins Neun]]?",
    "a": {
-    "label": "Hier löschen",
-    "img": "songs/song-hier.jpg"
+    "label": "1 Jahr nur Omar101",
+    "img": "artists/omar101.jpg"
    },
    "b": {
-    "label": "Airwaves löschen",
-    "img": "songs/song-airwaves.jpg"
+    "label": "1 Jahr nur Karamel19",
+    "img": "artists/karamel19.jpg"
    },
    "pct": [
-    82,
-    18
+    4,
+    96
    ]
   },
   {
-   "say": "Nie wieder Pashanim hören, oder nie wieder Caney030 hören?",
+   "say": "Auf die einsame Insel nimmst du Free Game mit, oder Doktor?",
    "a": {
-    "label": "Nie wieder Pashanim",
-    "img": "artists/pashanim.jpg"
+    "label": "Insel: Free Game",
+    "img": "albums/album-free-game.jpg"
    },
    "b": {
-    "label": "Nie wieder Caney030",
-    "img": "artists/caney030.jpg"
+    "label": "Insel: Doktor",
+    "img": "albums/album-doktor.jpg"
    },
    "pct": [
-    44,
-    56
+    46,
+    54
    ]
   },
   {
-   "say": "Caney030 in der ersten Reihe, oder [[Haaaaarrrriiiiibooooooo]] backstage?",
+   "say": "Zackavelli in der ersten Reihe, oder Souly backstage?",
    "a": {
-    "label": "Caney030 erste Reihe",
-    "img": "artists/caney030.jpg"
+    "label": "Zackavelli erste Reihe",
+    "img": "artists/zackavelli.jpg"
    },
    "b": {
-    "label": "Haribo backstage",
-    "img": "artists/yuyu19.jpg"
+    "label": "Souly backstage",
+    "img": "artists/souly.jpg"
    },
    "pct": [
-    3,
-    97
+    92,
+    8
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Teile das Video mit deinen Akhs",
-  "shareSay": "Und teile das Video mit deinen Akhs!"
+  "share": "Schick das an die 3 größten Talahons, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
  }
 }

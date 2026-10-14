@@ -3,134 +3,134 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2403,
+ "durationInFrames": 2449,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a07/00_hook_a.mp3",
    "audioB": "audio/a07/00_hook_b.mp3",
-   "bAt": 43,
-   "speak": 99,
+   "bAt": 63,
+   "speak": 119,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Kalim liest deine Chats",
-    "img": "img/artists/kalim.jpg",
+    "label": "Lucio im Fahrstuhl",
+    "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Zackavelli sieht deinen Verlauf",
-    "img": "img/artists/zackavelli.jpg",
+    "label": "Pashanim im Bällebad",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "pct": [
-    96,
-    4
+    95,
+    5
    ],
-   "duration": 234
+   "duration": 254
   },
   {
    "kind": "q",
    "audio": "audio/a07/01_q_a.mp3",
    "audioB": "audio/a07/01_q_b.mp3",
    "bAt": 49,
-   "speak": 101,
+   "speak": 93,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Luciano als Bruder",
-    "img": "img/artists/lucio101.jpg",
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "img/songs/song-kleiner-prinz.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Zackavelli als Mitbewohner",
-    "img": "img/artists/zackavelli.jpg",
+    "label": "16 auf Repeat",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "pct": [
-    80,
-    20
+    3,
+    97
    ],
-   "duration": 236
+   "duration": 228
   },
   {
    "kind": "q",
    "audio": "audio/a07/02_q_a.mp3",
    "audioB": "audio/a07/02_q_b.mp3",
-   "bAt": 47,
-   "speak": 85,
+   "bAt": 84,
+   "speak": 112,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch Wittenbergplatz",
-    "img": "img/songs/song-wittenbergplatz.jpg",
+    "label": "Insel: Akh & Krach",
+    "img": "img/albums/album-akh-krach.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Insel: Free Game",
+    "img": "img/albums/album-free-game.jpg",
     "emoji": null
    },
    "pct": [
-    45,
-    55
+    65,
+    35
    ],
-   "duration": 220
+   "duration": 247
   },
   {
    "kind": "q",
    "audio": "audio/a07/03_q_a.mp3",
    "audioB": "audio/a07/03_q_b.mp3",
-   "bAt": 71,
-   "speak": 123,
+   "bAt": 95,
+   "speak": 135,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nizi19 erste Reihe",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Lucio als Bruder",
+    "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Karamel19 backstage",
-    "img": "img/artists/karamel19.jpg",
+    "label": "Souly als Mitbewohner",
+    "img": "img/artists/souly.jpg",
     "emoji": null
    },
    "pct": [
-    6,
-    94
+    1,
+    99
    ],
-   "duration": 258
+   "duration": 270
   },
   {
    "kind": "q",
    "audio": "audio/a07/04_q_a.mp3",
    "audioB": "audio/a07/04_q_b.mp3",
-   "bAt": 40,
-   "speak": 91,
+   "bAt": 43,
+   "speak": 75,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "16 löschen",
-    "img": "img/songs/song-16.jpg",
+    "label": "Samra erste Reihe",
+    "img": "img/artists/samra.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Hollywoodreif löschen",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "Mucco backstage",
+    "img": "img/artists/mucco.jpg",
     "emoji": null
    },
    "pct": [
-    45,
-    55
+    49,
+    51
    ],
-   "duration": 226
+   "duration": 210
   },
   {
    "kind": "mid",
    "audio": "audio/a07/05_mid_a.mp3",
    "audioB": "audio/a07/05_mid_b.mp3",
-   "bAt": 54,
-   "speak": 143,
+   "bAt": 58,
+   "speak": 158,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -139,97 +139,97 @@
     "emoji": "🚿"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
     "img": null,
-    "emoji": "🌳"
+    "emoji": "✈️"
    },
    "pct": [
-    8,
-    92
+    54,
+    46
    ],
-   "duration": 278
+   "duration": 293
   },
   {
    "kind": "q",
    "audio": "audio/a07/06_q_a.mp3",
    "audioB": "audio/a07/06_q_b.mp3",
-   "bAt": 84,
-   "speak": 112,
+   "bAt": 49,
+   "speak": 81,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Insel: LID",
-    "img": "img/albums/album-lid.jpg",
+    "label": "Nur noch +49",
+    "img": "img/songs/song-plus49.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Insel: Mittendrin",
-    "img": "img/albums/album-mittendrin.jpg",
+    "label": "Nur noch CUP",
+    "img": "img/songs/song-cup.jpg",
     "emoji": null
    },
    "pct": [
-    73,
-    27
+    9,
+    91
    ],
-   "duration": 247
+   "duration": 216
   },
   {
    "kind": "q",
    "audio": "audio/a07/07_q_a.mp3",
    "audioB": "audio/a07/07_q_b.mp3",
-   "bAt": 39,
-   "speak": 95,
+   "bAt": 106,
+   "speak": 146,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Haribo als Lehrer",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "1 Jahr nur Luciano",
+    "img": "img/artists/luciano.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nizi19 als Fahrlehrer",
-    "img": "img/artists/nizi19.jpg",
+    "label": "1 Jahr nur Mello",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "pct": [
-    32,
-    68
+    17,
+    83
    ],
-   "duration": 230
+   "duration": 281
   },
   {
    "kind": "q",
    "audio": "audio/a07/08_q_a.mp3",
    "audioB": "audio/a07/08_q_b.mp3",
-   "bAt": 105,
-   "speak": 152,
+   "bAt": 60,
+   "speak": 119,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Jahr nur Kalim",
-    "img": "img/artists/kalim.jpg",
+    "label": "Nizi19 erste Reihe",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Jahr nur Pashanim",
-    "img": "img/artists/pashanim.jpg",
+    "label": "Caney030 backstage",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "pct": [
-    5,
-    95
+    6,
+    94
    ],
-   "duration": 287
+   "duration": 254
   },
   {
    "kind": "outro",
    "audio": "audio/a07/09_outro.mp3",
-   "speak": 142,
+   "speak": 151,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Teile das Video mit deinen Akhs",
-   "duration": 187
+   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "duration": 196
   }
  ]
 }

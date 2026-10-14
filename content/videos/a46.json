@@ -3,77 +3,92 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Pashanim liest deine Chats, oder Lucio sieht deinen Suchverlauf?",
+  "say": "Karmahel19 kommt zu deinem Abiball, oder Haribo zu deiner Hochzeit?",
   "a": {
-   "label": "Pashanim liest deine Chats",
-   "img": "artists/pashanim.jpg"
+   "label": "Karmahel19 am Abiball",
+   "img": "artists/karamel19.jpg"
   },
   "b": {
-   "label": "Lucio sieht deinen Verlauf",
-   "img": "artists/lucio101.jpg"
+   "label": "Haribo auf der Hochzeit",
+   "img": "artists/yuyu19.jpg"
   },
   "pct": [
-   46,
-   54
+   54,
+   46
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "+49 auf Dauerschleife, oder Airwaves auf Dauerschleife?",
+   "say": "Nur noch das Album Free Game hören, oder nur noch 1019?",
    "a": {
-    "label": "+49 auf Repeat",
-    "img": "songs/song-plus49.jpg"
+    "label": "Nur noch Free Game",
+    "img": "albums/album-free-game.jpg"
    },
    "b": {
-    "label": "Airwaves auf Repeat",
-    "img": "songs/song-airwaves.jpg"
+    "label": "Nur noch 1019",
+    "img": "albums/album-1019.jpg"
    },
    "pct": [
-    92,
-    8
+    1,
+    99
    ]
   },
   {
-   "say": "Ein Tag mit [[Luuuuuussssiiiiiooooo]], oder ein Tag mit Souly?",
+   "say": "Ein Tag mit [[BOBOBOBOBOBOOOOOOOOO]], oder ein Tag mit Samra?",
    "a": {
-    "label": "1 Tag mit Lucio",
-    "img": "artists/lucio101.jpg"
+    "label": "1 Tag mit Luciano",
+    "img": "artists/luciano.jpg"
    },
    "b": {
-    "label": "1 Tag mit Souly",
-    "img": "artists/souly.jpg"
+    "label": "1 Tag mit Samra",
+    "img": "artists/samra.jpg"
    },
    "pct": [
-    46,
-    54
+    23,
+    77
    ]
   },
   {
-   "say": "Pashanim in der ersten Reihe, oder [[Haaaaarrrriiiiibooooooo]] backstage?",
+   "say": "FTW auf Dauerschleife, oder Superkraft auf Dauerschleife?",
    "a": {
-    "label": "Pashanim erste Reihe",
-    "img": "artists/pashanim.jpg"
+    "label": "FTW auf Repeat",
+    "img": "songs/song-ftw.jpg"
    },
    "b": {
-    "label": "Haribo backstage",
-    "img": "artists/yuyu19.jpg"
+    "label": "Superkraft auf Repeat",
+    "img": "songs/song-superkraft.jpg"
    },
    "pct": [
-    9,
-    91
-   ],
-   "winSay": "Ohne Finger, Akh!"
+    20,
+    80
+   ]
   },
   {
-   "say": "Caney030 in der ersten Reihe, oder Mucco backstage?",
+   "say": "Karamel19 als großer Bruder, oder Ufo361 als Mitbewohner?",
    "a": {
-    "label": "Caney030 erste Reihe",
-    "img": "artists/caney030.jpg"
+    "label": "Karamel19 als Bruder",
+    "img": "artists/karamel19.jpg"
    },
    "b": {
-    "label": "Mucco backstage",
-    "img": "artists/mucco.jpg"
+    "label": "Ufo361 als Mitbewohner",
+    "img": "artists/ufo361.jpg"
+   },
+   "pct": [
+    1,
+    99
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
    },
    "pct": [
     56,
@@ -81,64 +96,48 @@
    ]
   },
   {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "say": "Kalim kocht für dich, oder Omar101 fährt dich nach Hause?",
    "a": {
-    "label": "Nie wieder Maka",
-    "emoji": "🧪"
+    "label": "Kalim kocht",
+    "img": "artists/kalim.jpg"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
-    "emoji": "✈️"
+    "label": "Omar101 fährt dich",
+    "img": "artists/omar101.jpg"
    },
    "pct": [
-    97,
-    3
+    25,
+    75
    ]
   },
   {
-   "say": "Auf die einsame Insel nimmst du 101% mit, oder 1019?",
+   "say": "[[Nisssssiiiiiijaaaaaaa]] kocht für dich, oder Makko fährt dich nach Hause?",
    "a": {
-    "label": "Insel: 101%",
-    "img": "albums/album-101.jpg"
+    "label": "Nizi19 kocht",
+    "img": "artists/nizi19.jpg"
    },
    "b": {
-    "label": "Insel: 1019",
-    "img": "albums/album-1019.jpg"
-   },
-   "pct": [
-    92,
-    8
-   ]
-  },
-  {
-   "say": "16 für immer löschen, oder FTW für immer löschen?",
-   "a": {
-    "label": "16 löschen",
-    "img": "songs/song-16.jpg"
-   },
-   "b": {
-    "label": "FTW löschen",
-    "img": "songs/song-ftw.jpg"
-   },
-   "pct": [
-    7,
-    93
-   ]
-  },
-  {
-   "say": "Makko in der ersten Reihe, oder Yuyu backstage?",
-   "a": {
-    "label": "Makko erste Reihe",
+    "label": "Makko fährt dich",
     "img": "artists/makko.jpg"
    },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Airwaves für immer löschen, oder Sommergewitter für immer löschen?",
+   "a": {
+    "label": "Airwaves löschen",
+    "img": "songs/song-airwaves.jpg"
+   },
    "b": {
-    "label": "Yuyu backstage",
-    "img": "artists/yuyu19.jpg"
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
    },
    "pct": [
-    96,
-    4
+    1,
+    99
    ]
   }
  ],
@@ -146,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Ottos, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+  "share": "Schick das an die 3 größten Stoner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Stoner, die du kennst!"
  }
 }

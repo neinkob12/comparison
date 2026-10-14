@@ -13,8 +13,8 @@
    "img": "artists/souly.jpg"
   },
   "pct": [
-   28,
-   72
+   25,
+   75
   ],
   "type": "hook"
  },
@@ -30,29 +30,44 @@
     "img": "artists/caney030.jpg"
    },
    "pct": [
+    29,
+    71
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du Mittendrin mit, oder LID?",
+   "a": {
+    "label": "Insel: Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
+   },
+   "b": {
+    "label": "Insel: LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "pct": [
     34,
     66
    ]
   },
   {
-   "say": "FTW für immer löschen, oder 16 für immer löschen?",
+   "say": "Ein Feature mit [[Kaaaaaaaaa-liiiiim]], oder ein Feature mit Ufo361?",
    "a": {
-    "label": "FTW löschen",
-    "img": "songs/song-ftw.jpg"
+    "label": "Feature mit Kalim",
+    "img": "artists/kalim.jpg"
    },
    "b": {
-    "label": "16 löschen",
-    "img": "songs/song-16.jpg"
+    "label": "Feature mit Ufo361",
+    "img": "artists/ufo361.jpg"
    },
    "pct": [
-    18,
-    82
+    92,
+    8
    ]
   },
   {
-   "say": "Würdest du eher ein Jahr nur [[Luuuuuussssiiiiiooooo]] hören, oder ein Jahr nur [[Niiiiiiiisssssiiiii]]?",
+   "say": "Würdest du eher ein Jahr nur Luciano hören, oder ein Jahr nur [[Niiiiiiiisssssiiiii]]?",
    "a": {
-    "label": "1 Jahr nur Lucio",
+    "label": "1 Jahr nur Luciano",
     "img": "artists/lucio101.jpg"
    },
    "b": {
@@ -60,8 +75,24 @@
     "img": "artists/nizi19.jpg"
    },
    "pct": [
-    7,
-    93
+    77,
+    23
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
+   },
+   "pct": [
+    34,
+    66
    ]
   },
   {
@@ -75,69 +106,38 @@
     "img": "artists/makko.jpg"
    },
    "pct": [
-    95,
-    5
+    15,
+    85
    ]
   },
   {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "say": "Kleiner Prinz für immer löschen, oder Hollywoodreif für immer löschen?",
    "a": {
-    "label": "Nie wieder duschen",
-    "emoji": "🚿"
+    "label": "Kleiner Prinz löschen",
+    "img": "songs/song-kleiner-prinz.jpg"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
-    "emoji": "✈️"
-   },
-   "pct": [
-    5,
-    95
-   ]
-  },
-  {
-   "say": "Ein Feature mit Kalim, oder ein Feature mit Ufo187?",
-   "a": {
-    "label": "Feature mit Kalim",
-    "img": "artists/kalim.jpg"
-   },
-   "b": {
-    "label": "Feature mit Ufo187",
-    "img": "artists/ufo361.jpg"
-   },
-   "pct": [
-    47,
-    53
-   ]
-  },
-  {
-   "say": "Nur noch das Album Free Game hören, oder nur noch 101%?",
-   "a": {
-    "label": "Nur noch Free Game",
-    "img": "albums/album-free-game.jpg"
-   },
-   "b": {
-    "label": "Nur noch 101%",
-    "img": "albums/album-101.jpg"
-   },
-   "pct": [
-    8,
-    92
-   ]
-  },
-  {
-   "say": "Hollywoodreif auf Dauerschleife, oder CUP auf Dauerschleife?",
-   "a": {
-    "label": "Hollywoodreif auf Repeat",
+    "label": "Hollywoodreif löschen",
     "img": "songs/song-hollywoodreif.jpg"
    },
+   "pct": [
+    52,
+    48
+   ]
+  },
+  {
+   "say": "FTW auf Dauerschleife, oder 16 auf Dauerschleife?",
+   "a": {
+    "label": "FTW auf Repeat",
+    "img": "songs/song-ftw.jpg"
+   },
    "b": {
-    "label": "CUP auf Repeat",
-    "img": "songs/song-cup.jpg"
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
    },
    "pct": [
-    46,
-    54
+    45,
+    55
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Talahons, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
  }
 }

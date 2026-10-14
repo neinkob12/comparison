@@ -3,141 +3,142 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Kalim kommt zu deinem Abiball, oder Caney030 zu deiner Hochzeit?",
+  "say": "Kalim kommt zu deinem Abiball, oder Luciano zu deiner Hochzeit?",
   "a": {
    "label": "Kalim am Abiball",
    "img": "artists/kalim.jpg"
   },
   "b": {
-   "label": "Caney030 auf der Hochzeit",
-   "img": "artists/caney030.jpg"
+   "label": "Luciano auf der Hochzeit",
+   "img": "artists/luciano.jpg"
   },
   "pct": [
-   28,
-   72
+   93,
+   7
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Kakko kocht für dich, oder Samra fährt dich nach Hause?",
+   "say": "Sommergewitter für immer löschen, oder Hollywoodreif für immer löschen?",
    "a": {
-    "label": "Kakko kocht",
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "b": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Ein Feature mit Makko, oder ein Feature mit [[Kaaaaaaaaa-liiiiim]]?",
+   "a": {
+    "label": "Feature mit Makko",
     "img": "artists/makko.jpg"
    },
    "b": {
-    "label": "Samra fährt dich",
-    "img": "artists/samra.jpg"
+    "label": "Feature mit Kalim",
+    "img": "artists/kalim.jpg"
    },
    "pct": [
-    21,
-    79
+    22,
+    78
    ]
   },
   {
-   "say": "[[Kaaaaaaaaa-liiiiim]] als Lehrer, oder Mucco als Fahrlehrer?",
+   "say": "Nie wieder [[Haaaaarrrriiiiibooooooo]] hören, oder nie wieder Mucco hören?",
    "a": {
-    "label": "Kalim als Lehrer",
-    "img": "artists/kalim.jpg"
+    "label": "Nie wieder Haribo",
+    "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Mucco als Fahrlehrer",
+    "label": "Nie wieder Mucco",
     "img": "artists/mucco.jpg"
    },
    "pct": [
-    16,
-    84
-   ]
+    55,
+    45
+   ],
+   "winSay": "Ohne Finger, Akh!"
   },
   {
-   "say": "Hier auf Dauerschleife, oder Airwaves auf Dauerschleife?",
+   "say": "Ein Feature mit Pashanim, oder ein Feature mit Lucio?",
    "a": {
-    "label": "Hier auf Repeat",
-    "img": "songs/song-hier.jpg"
+    "label": "Feature mit Pashanim",
+    "img": "artists/pashanim.jpg"
    },
    "b": {
-    "label": "Airwaves auf Repeat",
-    "img": "songs/song-airwaves.jpg"
+    "label": "Feature mit Lucio",
+    "img": "artists/luciano.jpg"
    },
    "pct": [
-    54,
-    46
-   ]
-  },
-  {
-   "say": "Nie wieder Nizi19 hören, oder nie wieder [[Kaaaaaaaaa-liiiiim]] hören?",
-   "a": {
-    "label": "Nie wieder Nizi19",
-    "img": "artists/nizi19.jpg"
-   },
-   "b": {
-    "label": "Nie wieder Kalim",
-    "img": "artists/kalim.jpg"
-   },
-   "pct": [
-    91,
-    9
+    1,
+    99
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
    "a": {
-    "label": "Nie wieder Maka",
-    "emoji": "🧪"
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
    },
    "b": {
-    "label": "Date mit der 3. Person bei „Teilen“",
-    "emoji": "💘"
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
    },
    "pct": [
-    67,
-    33
+    47,
+    53
    ]
   },
   {
-   "say": "Auf die einsame Insel nimmst du LID mit, oder Akh & Krach?",
+   "say": "Superkraft für immer löschen, oder Hier für immer löschen?",
    "a": {
+    "label": "Superkraft löschen",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "b": {
+    "label": "Hier löschen",
+    "img": "songs/song-hier.jpg"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  },
+  {
+   "say": "Lacazette als Lehrer, oder Karamel19 als Fahrlehrer?",
+   "a": {
+    "label": "Lacazette als Lehrer",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Karamel19 als Fahrlehrer",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    8,
+    92
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du Doktor mit, oder LID?",
+   "a": {
+    "label": "Insel: Doktor",
+    "img": "albums/album-doktor.jpg"
+   },
+   "b": {
     "label": "Insel: LID",
     "img": "albums/album-lid.jpg"
    },
-   "b": {
-    "label": "Insel: Akh & Krach",
-    "img": "albums/album-akh-krach.jpg"
-   },
    "pct": [
-    20,
-    80
-   ]
-  },
-  {
-   "say": "Kleiner Prinz für immer löschen, oder FTW für immer löschen?",
-   "a": {
-    "label": "Kleiner Prinz löschen",
-    "img": "songs/song-kleiner-prinz.jpg"
-   },
-   "b": {
-    "label": "FTW löschen",
-    "img": "songs/song-ftw.jpg"
-   },
-   "pct": [
-    48,
-    52
-   ]
-  },
-  {
-   "say": "Haribo kocht für dich, oder [[Muuuuuutschoooooo]] fährt dich nach Hause?",
-   "a": {
-    "label": "Haribo kocht",
-    "img": "artists/yuyu19.jpg"
-   },
-   "b": {
-    "label": "Mucco fährt dich",
-    "img": "artists/mucco.jpg"
-   },
-   "pct": [
-    92,
-    8
+    45,
+    55
    ]
   }
  ],
@@ -145,7 +146,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Talahons, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
  }
 }

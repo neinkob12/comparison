@@ -3,14 +3,14 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2411,
+ "durationInFrames": 2452,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a12/00_hook_a.mp3",
    "audioB": "audio/a12/00_hook_b.mp3",
-   "bAt": 50,
-   "speak": 113,
+   "bAt": 46,
+   "speak": 105,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -24,21 +24,69 @@
     "emoji": null
    },
    "pct": [
-    44,
-    56
+    98,
+    2
    ],
-   "duration": 248
+   "duration": 240
   },
   {
    "kind": "q",
    "audio": "audio/a12/01_q_a.mp3",
    "audioB": "audio/a12/01_q_b.mp3",
-   "bAt": 41,
-   "speak": 96,
+   "bAt": 57,
+   "speak": 112,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Tag mit Luciano",
+    "label": "Ufo187 kocht",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Haribo fährt dich",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "pct": [
+    97,
+    3
+   ],
+   "duration": 247
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/02_q_a.mp3",
+   "audioB": "audio/a12/02_q_b.mp3",
+   "bAt": 50,
+   "speak": 91,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch +49",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Sommergewitter",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "pct": [
+    8,
+    92
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/03_q_a.mp3",
+   "audioB": "audio/a12/03_q_b.mp3",
+   "bAt": 75,
+   "speak": 134,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Lucio",
     "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
@@ -48,17 +96,17 @@
     "emoji": null
    },
    "pct": [
-    78,
-    22
+    54,
+    46
    ],
-   "duration": 231
+   "duration": 269
   },
   {
    "kind": "q",
-   "audio": "audio/a12/02_q_a.mp3",
-   "audioB": "audio/a12/02_q_b.mp3",
-   "bAt": 54,
-   "speak": 105,
+   "audio": "audio/a12/04_q_a.mp3",
+   "audioB": "audio/a12/04_q_b.mp3",
+   "bAt": 57,
+   "speak": 95,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -67,46 +115,46 @@
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Nur für meine Augen",
-    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "label": "Nur noch LID",
+    "img": "img/albums/album-lid.jpg",
     "emoji": null
    },
    "pct": [
-    68,
-    32
+    48,
+    52
    ],
-   "duration": 240
+   "duration": 230
   },
   {
-   "kind": "q",
-   "audio": "audio/a12/03_q_a.mp3",
-   "audioB": "audio/a12/03_q_b.mp3",
-   "bAt": 83,
-   "speak": 137,
+   "kind": "mid",
+   "audio": "audio/a12/05_mid_a.mp3",
+   "audioB": "audio/a12/05_mid_b.mp3",
+   "bAt": 56,
+   "speak": 165,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lacazette kocht",
-    "img": "img/artists/lacazette.jpg",
-    "emoji": null
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
    },
    "b": {
-    "label": "Kalim fährt dich",
-    "img": "img/artists/kalim.jpg",
-    "emoji": null
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "img": null,
+    "emoji": "💘"
    },
    "pct": [
-    68,
-    32
+    54,
+    46
    ],
-   "duration": 272
+   "duration": 300
   },
   {
    "kind": "q",
-   "audio": "audio/a12/04_q_a.mp3",
-   "audioB": "audio/a12/04_q_b.mp3",
-   "bAt": 44,
-   "speak": 104,
+   "audio": "audio/a12/06_q_a.mp3",
+   "audioB": "audio/a12/06_q_b.mp3",
+   "bAt": 52,
+   "speak": 146,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -120,89 +168,17 @@
     "emoji": null
    },
    "pct": [
-    45,
-    55
+    94,
+    6
    ],
-   "duration": 239
-  },
-  {
-   "kind": "mid",
-   "audio": "audio/a12/05_mid_a.mp3",
-   "audioB": "audio/a12/05_mid_b.mp3",
-   "bAt": 53,
-   "speak": 148,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nie wieder duschen",
-    "img": null,
-    "emoji": "🚿"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
-    "img": null,
-    "emoji": "🌳"
-   },
-   "pct": [
-    69,
-    31
-   ],
-   "duration": 283
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a12/06_q_a.mp3",
-   "audioB": "audio/a12/06_q_b.mp3",
-   "bAt": 48,
-   "speak": 102,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Hollywoodreif löschen",
-    "img": "img/songs/song-hollywoodreif.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Sommergewitter löschen",
-    "img": "img/songs/song-sommergewitter.jpg",
-    "emoji": null
-   },
-   "pct": [
-    53,
-    47
-   ],
-   "duration": 237
+   "duration": 281
   },
   {
    "kind": "q",
    "audio": "audio/a12/07_q_a.mp3",
    "audioB": "audio/a12/07_q_b.mp3",
-   "bAt": 38,
-   "speak": 82,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nur noch Hier",
-    "img": "img/songs/song-hier.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Nur noch +49",
-    "img": "img/songs/song-plus49.jpg",
-    "emoji": null
-   },
-   "pct": [
-    20,
-    80
-   ],
-   "duration": 217
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a12/08_q_a.mp3",
-   "audioB": "audio/a12/08_q_b.mp3",
    "bAt": 50,
-   "speak": 100,
+   "speak": 105,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -216,20 +192,44 @@
     "emoji": null
    },
    "pct": [
-    19,
-    81
+    67,
+    33
    ],
-   "duration": 235
+   "duration": 240
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a12/08_q_a.mp3",
+   "audioB": "audio/a12/08_q_b.mp3",
+   "bAt": 49,
+   "speak": 89,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Hollywoodreif",
+    "img": "img/songs/song-hollywoodreif.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Sommergewitter",
+    "img": "img/songs/song-sommergewitter.jpg",
+    "emoji": null
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 224
   },
   {
    "kind": "outro",
    "audio": "audio/a12/09_outro.mp3",
-   "speak": 164,
+   "speak": 150,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Gooner, die du kennst",
-   "duration": 209
+   "share": "Schick das an die 3 größten Ottos, die du kennst",
+   "duration": 195
   }
  ]
 }

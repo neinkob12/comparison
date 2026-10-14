@@ -3,134 +3,134 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2382,
+ "durationInFrames": 2465,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a20/00_hook_a.mp3",
    "audioB": "audio/a20/00_hook_b.mp3",
-   "bAt": 67,
-   "speak": 108,
+   "bAt": 66,
+   "speak": 129,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Pashanim im Fahrstuhl",
-    "img": "img/artists/pashanim.jpg",
+    "label": "Kalim im Fahrstuhl",
+    "img": "img/artists/kalim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Samra im Bällebad",
-    "img": "img/artists/samra.jpg",
+    "label": "Ufo361 im Bällebad",
+    "img": "img/artists/ufo361.jpg",
     "emoji": null
    },
    "pct": [
-    97,
-    3
+    77,
+    23
    ],
-   "duration": 243
+   "duration": 264
   },
   {
    "kind": "q",
    "audio": "audio/a20/01_q_a.mp3",
    "audioB": "audio/a20/01_q_b.mp3",
-   "bAt": 36,
-   "speak": 95,
+   "bAt": 42,
+   "speak": 83,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Samra als Lehrer",
-    "img": "img/artists/samra.jpg",
+    "label": "Nur noch Superkraft",
+    "img": "img/songs/song-superkraft.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Doktor19 als Fahrlehrer",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Nur noch FTW",
+    "img": "img/songs/song-ftw.jpg",
     "emoji": null
    },
    "pct": [
-    7,
-    93
+    18,
+    82
    ],
-   "duration": 230
+   "duration": 218
   },
   {
    "kind": "q",
    "audio": "audio/a20/02_q_a.mp3",
    "audioB": "audio/a20/02_q_b.mp3",
-   "bAt": 49,
-   "speak": 103,
+   "bAt": 43,
+   "speak": 101,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "+49 löschen",
-    "img": "img/songs/song-plus49.jpg",
+    "label": "Samra erste Reihe",
+    "img": "img/artists/samra.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Hollywoodreif löschen",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "Caney030 backstage",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "pct": [
-    79,
-    21
+    22,
+    78
    ],
-   "duration": 238
+   "duration": 236
   },
   {
    "kind": "q",
    "audio": "audio/a20/03_q_a.mp3",
    "audioB": "audio/a20/03_q_b.mp3",
-   "bAt": 47,
-   "speak": 105,
+   "bAt": 42,
+   "speak": 118,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lacazette als Bruder",
-    "img": "img/artists/lacazette.jpg",
+    "label": "Zackavelli kocht",
+    "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Karamel19 als Mitbewohner",
-    "img": "img/artists/karamel19.jpg",
+    "label": "Kalim fährt dich",
+    "img": "img/artists/kalim.jpg",
     "emoji": null
    },
    "pct": [
-    93,
-    7
+    75,
+    25
    ],
-   "duration": 240
+   "duration": 253
   },
   {
    "kind": "q",
    "audio": "audio/a20/04_q_a.mp3",
    "audioB": "audio/a20/04_q_b.mp3",
-   "bAt": 56,
-   "speak": 89,
+   "bAt": 42,
+   "speak": 141,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch Free Game",
-    "img": "img/albums/album-free-game.jpg",
+    "label": "Feature mit Masi",
+    "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Doktor",
-    "img": "img/albums/album-doktor.jpg",
+    "label": "Feature mit Karamel19",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "pct": [
-    5,
-    95
+    6,
+    94
    ],
-   "duration": 224
+   "duration": 276
   },
   {
    "kind": "mid",
    "audio": "audio/a20/05_mid_a.mp3",
    "audioB": "audio/a20/05_mid_b.mp3",
-   "bAt": 54,
-   "speak": 156,
+   "bAt": 53,
+   "speak": 165,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -139,70 +139,70 @@
     "emoji": "🚿"
    },
    "b": {
-    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "label": "Date mit der 3. Person bei „Teilen“",
     "img": null,
-    "emoji": "💌"
+    "emoji": "💘"
    },
    "pct": [
-    2,
-    98
+    78,
+    22
    ],
-   "duration": 291
+   "duration": 300
   },
   {
    "kind": "q",
    "audio": "audio/a20/06_q_a.mp3",
    "audioB": "audio/a20/06_q_b.mp3",
-   "bAt": 73,
-   "speak": 111,
+   "bAt": 53,
+   "speak": 90,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Tag mit Lacazette",
-    "img": "img/artists/lacazette.jpg",
+    "label": "Nur noch Doktor",
+    "img": "img/albums/album-doktor.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Tag mit Samra",
-    "img": "img/artists/samra.jpg",
+    "label": "Nur noch Mittendrin",
+    "img": "img/albums/album-mittendrin.jpg",
     "emoji": null
    },
    "pct": [
-    94,
-    6
+    46,
+    54
    ],
-   "duration": 246
+   "duration": 225
   },
   {
    "kind": "q",
    "audio": "audio/a20/07_q_a.mp3",
    "audioB": "audio/a20/07_q_b.mp3",
-   "bAt": 37,
-   "speak": 107,
+   "bAt": 42,
+   "speak": 108,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Haribo als Lehrer",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "Nie wieder Souly",
+    "img": "img/artists/souly.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Luciano als Fahrlehrer",
-    "img": "img/artists/luciano.jpg",
+    "label": "Nie wieder Nizi19",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "pct": [
-    98,
-    2
+    46,
+    54
    ],
-   "duration": 242
+   "duration": 243
   },
   {
    "kind": "q",
    "audio": "audio/a20/08_q_a.mp3",
    "audioB": "audio/a20/08_q_b.mp3",
-   "bAt": 55,
-   "speak": 99,
+   "bAt": 52,
+   "speak": 107,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -211,25 +211,25 @@
     "emoji": null
    },
    "b": {
-    "label": "16 auf Repeat",
-    "img": "img/songs/song-16.jpg",
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "img/songs/song-kleiner-prinz.jpg",
     "emoji": null
    },
    "pct": [
-    25,
-    75
+    68,
+    32
    ],
-   "duration": 234
+   "duration": 242
   },
   {
    "kind": "outro",
    "audio": "audio/a20/09_outro.mp3",
-   "speak": 149,
+   "speak": 163,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Gooner, die du kennst",
-   "duration": 194
+   "share": "Schick das an die 3 größten Talahons, die du kennst",
+   "duration": 208
   }
  ]
 }

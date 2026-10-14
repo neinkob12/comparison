@@ -3,142 +3,141 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "24 Stunden mit Ufo361 im Fahrstuhl, oder mit Karamel19 im Bällebad?",
+  "say": "Luciano kommt zu deinem Abiball, oder Souly zu deiner Hochzeit?",
   "a": {
-   "label": "Ufo361 im Fahrstuhl",
-   "img": "artists/ufo361.jpg"
+   "label": "Luciano am Abiball",
+   "img": "artists/luciano.jpg"
   },
   "b": {
-   "label": "Karamel19 im Bällebad",
-   "img": "artists/karamel19.jpg"
+   "label": "Souly auf der Hochzeit",
+   "img": "artists/souly.jpg"
   },
   "pct": [
-   1,
-   99
+   3,
+   97
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nie wieder Nils Zimmermann hören, oder nie wieder [[Lussssssiiiiiiiooooooooo]] hören?",
+   "say": "Caney030 als Lehrer, oder Zackavelli als Fahrlehrer?",
    "a": {
-    "label": "Nie wieder Nils Zimmermann",
-    "img": "artists/nizi19.jpg"
+    "label": "Caney030 als Lehrer",
+    "img": "artists/caney030.jpg"
    },
    "b": {
-    "label": "Nie wieder Lucio",
-    "img": "artists/lucio101.jpg"
+    "label": "Zackavelli als Fahrlehrer",
+    "img": "artists/zackavelli.jpg"
    },
    "pct": [
-    3,
-    97
+    98,
+    2
    ]
   },
   {
-   "say": "[[Luuuuuussssiiiiiooooo]] in der ersten Reihe, oder Souly backstage?",
+   "say": "CUP für immer löschen, oder FTW für immer löschen?",
    "a": {
-    "label": "Lucio erste Reihe",
-    "img": "artists/lucio101.jpg"
+    "label": "CUP löschen",
+    "img": "songs/song-cup.jpg"
    },
    "b": {
-    "label": "Souly backstage",
-    "img": "artists/souly.jpg"
+    "label": "FTW löschen",
+    "img": "songs/song-ftw.jpg"
    },
    "pct": [
-    53,
-    47
+    93,
+    7
    ]
   },
   {
-   "say": "Kalim kocht für dich, oder Haribo fährt dich nach Hause?",
+   "say": "Ein Tag mit Yuyu, oder ein Tag mit [[Luuuuuussssiiiiiooooo]]?",
    "a": {
-    "label": "Kalim kocht",
-    "img": "artists/kalim.jpg"
-   },
-   "b": {
-    "label": "Haribo fährt dich",
+    "label": "1 Tag mit Yuyu",
     "img": "artists/yuyu19.jpg"
    },
+   "b": {
+    "label": "1 Tag mit Lucio",
+    "img": "artists/lucio101.jpg"
+   },
    "pct": [
-    5,
-    95
-   ],
-   "winSay": "Ohne Finger, Akh!"
+    4,
+    96
+   ]
   },
   {
-   "say": "Nur noch das Album 1019 hören, oder nur noch 101%?",
+   "say": "Airwaves auf Dauerschleife, oder 16 auf Dauerschleife?",
    "a": {
-    "label": "Nur noch 1019",
-    "img": "albums/album-1019.jpg"
+    "label": "Airwaves auf Repeat",
+    "img": "songs/song-airwaves.jpg"
    },
    "b": {
-    "label": "Nur noch 101%",
-    "img": "albums/album-101.jpg"
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
    },
    "pct": [
-    45,
-    55
+    25,
+    75
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
    "a": {
     "label": "Nie wieder Maka",
     "emoji": "🧪"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
-    "emoji": "🌳"
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
    },
    "pct": [
-    56,
-    44
+    7,
+    93
    ]
   },
   {
-   "say": "Nur noch 16 hören, oder nur noch Wittenbergplatz?",
+   "say": "Ein Feature mit [[Lussiaaaaaaaaanoooooo]], oder ein Feature mit Zackavelli?",
    "a": {
-    "label": "Nur noch 16",
-    "img": "songs/song-16.jpg"
+    "label": "Feature mit Luciano",
+    "img": "artists/luciano.jpg"
    },
    "b": {
-    "label": "Nur noch Wittenbergplatz",
-    "img": "songs/song-wittenbergplatz.jpg"
+    "label": "Feature mit Zackavelli",
+    "img": "artists/zackavelli.jpg"
    },
    "pct": [
-    44,
-    56
+    4,
+    96
    ]
   },
   {
-   "say": "+49 auf Dauerschleife, oder Hier auf Dauerschleife?",
+   "say": "Nie wieder Nizi19 hören, oder nie wieder Pashanim hören?",
    "a": {
-    "label": "+49 auf Repeat",
-    "img": "songs/song-plus49.jpg"
+    "label": "Nie wieder Nizi19",
+    "img": "artists/nizi19.jpg"
    },
    "b": {
-    "label": "Hier auf Repeat",
-    "img": "songs/song-hier.jpg"
+    "label": "Nie wieder Pashanim",
+    "img": "artists/pashanim.jpg"
    },
    "pct": [
-    44,
-    56
+    46,
+    54
    ]
   },
   {
-   "say": "[[Haaaaarrrriiiiibooooooo]] in der ersten Reihe, oder Mucco backstage?",
+   "say": "Auf die einsame Insel nimmst du Akh & Krach mit, oder 101%?",
    "a": {
-    "label": "Haribo erste Reihe",
-    "img": "artists/yuyu19.jpg"
+    "label": "Insel: Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
    },
    "b": {
-    "label": "Mucco backstage",
-    "img": "artists/mucco.jpg"
+    "label": "Insel: 101%",
+    "img": "albums/album-101.jpg"
    },
    "pct": [
-    24,
-    76
+    54,
+    46
    ]
   }
  ],
@@ -146,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Talahons, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+  "share": "Schick das an die 3 größten Stoner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Stoner, die du kennst!"
  }
 }

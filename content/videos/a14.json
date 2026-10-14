@@ -3,142 +3,141 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Luciano, oder nie wieder Kalim hören?",
+  "say": "Kalim kommt zu deinem Abiball, oder Samra zu deiner Hochzeit?",
   "a": {
-   "label": "1 Nacht mit Luciano",
-   "img": "artists/lucio101.jpg"
-  },
-  "b": {
-   "label": "Nie wieder Kalim",
+   "label": "Kalim am Abiball",
    "img": "artists/kalim.jpg"
   },
+  "b": {
+   "label": "Samra auf der Hochzeit",
+   "img": "artists/samra.jpg"
+  },
   "pct": [
-   8,
-   92
+   4,
+   96
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nur noch das Album 1019 hören, oder nur noch 101%?",
+   "say": "Hollywoodreif auf Dauerschleife, oder Kleiner Prinz auf Dauerschleife?",
    "a": {
-    "label": "Nur noch 1019",
-    "img": "albums/album-1019.jpg"
-   },
-   "b": {
-    "label": "Nur noch 101%",
-    "img": "albums/album-101.jpg"
-   },
-   "pct": [
-    70,
-    30
-   ]
-  },
-  {
-   "say": "+49 auf Dauerschleife, oder Hollywoodreif auf Dauerschleife?",
-   "a": {
-    "label": "+49 auf Repeat",
-    "img": "songs/song-plus49.jpg"
-   },
-   "b": {
     "label": "Hollywoodreif auf Repeat",
     "img": "songs/song-hollywoodreif.jpg"
    },
+   "b": {
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
    "pct": [
-    18,
-    82
+    30,
+    70
    ]
   },
   {
-   "say": "[[Haaaaarrrriiiiibooooooo]] als großer Bruder, oder Makko als Mitbewohner?",
+   "say": "[[Kaaaaaaaaa-liiiiim]] kocht für dich, oder Souly fährt dich nach Hause?",
    "a": {
-    "label": "Haribo als Bruder",
-    "img": "artists/yuyu19.jpg"
+    "label": "Kalim kocht",
+    "img": "artists/kalim.jpg"
    },
    "b": {
-    "label": "Makko als Mitbewohner",
-    "img": "artists/makko.jpg"
+    "label": "Souly fährt dich",
+    "img": "artists/souly.jpg"
    },
    "pct": [
-    84,
-    16
-   ],
-   "winSay": "Ohne Finger, Akh!"
+    95,
+    5
+   ]
   },
   {
-   "say": "Nur noch Superkraft hören, oder nur noch Airwaves?",
+   "say": "Nur noch Kleiner Prinz hören, oder nur noch FTW?",
    "a": {
-    "label": "Nur noch Superkraft",
-    "img": "songs/song-superkraft.jpg"
+    "label": "Nur noch Kleiner Prinz",
+    "img": "songs/song-kleiner-prinz.jpg"
    },
    "b": {
-    "label": "Nur noch Airwaves",
-    "img": "songs/song-airwaves.jpg"
+    "label": "Nur noch FTW",
+    "img": "songs/song-ftw.jpg"
    },
    "pct": [
-    53,
-    47
+    93,
+    7
+   ]
+  },
+  {
+   "say": "Lacazette kocht für dich, oder Haribo fährt dich nach Hause?",
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Haribo fährt dich",
+    "img": "artists/yuyu19.jpg"
+   },
+   "pct": [
+    51,
+    49
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
    "a": {
-    "label": "Nie wieder duschen",
-    "emoji": "🚿"
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
-    "emoji": "🌳"
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
    },
    "pct": [
-    98,
-    2
+    7,
+    93
    ]
   },
   {
-   "say": "Ein Tag mit [[Luuuuuussssiiiiiooooo]], oder ein Tag mit Samra?",
+   "say": "Nizi19 als Lehrer, oder Ufo187 als Fahrlehrer?",
    "a": {
-    "label": "1 Tag mit Lucio",
-    "img": "artists/lucio101.jpg"
+    "label": "Nizi19 als Lehrer",
+    "img": "artists/nizi19.jpg"
    },
    "b": {
-    "label": "1 Tag mit Samra",
-    "img": "artists/samra.jpg"
+    "label": "Ufo187 als Fahrlehrer",
+    "img": "artists/ufo361.jpg"
    },
    "pct": [
-    56,
-    44
+    8,
+    92
    ]
   },
   {
-   "say": "Samra als Lehrer, oder Mucco als Fahrlehrer?",
+   "say": "Auf die einsame Insel nimmst du 101% mit, oder Mittendrin?",
    "a": {
-    "label": "Samra als Lehrer",
-    "img": "artists/samra.jpg"
+    "label": "Insel: 101%",
+    "img": "albums/album-101.jpg"
    },
    "b": {
-    "label": "Mucco als Fahrlehrer",
-    "img": "artists/mucco.jpg"
+    "label": "Insel: Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
    },
    "pct": [
-    17,
-    83
+    4,
+    96
    ]
   },
   {
-   "say": "Ein Tag mit [[Kaaaaaaaaa-liiiiim]], oder ein Tag mit Caney030?",
+   "say": "Makko als großer Bruder, oder [[Lussiaaaaaaaaanoooooo]] als Mitbewohner?",
    "a": {
-    "label": "1 Tag mit Kalim",
-    "img": "artists/kalim.jpg"
+    "label": "Makko als Bruder",
+    "img": "artists/makko.jpg"
    },
    "b": {
-    "label": "1 Tag mit Caney030",
-    "img": "artists/caney030.jpg"
+    "label": "Luciano als Mitbewohner",
+    "img": "artists/luciano.jpg"
    },
    "pct": [
-    99,
-    1
+    48,
+    52
    ]
   }
  ],
@@ -146,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Gooner, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
+  "share": "Teile das Video mit deinen Akhs",
+  "shareSay": "Und teile das Video mit deinen Akhs!"
  }
 }

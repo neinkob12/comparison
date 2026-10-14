@@ -13,71 +13,70 @@
    "img": "artists/yuyu19.jpg"
   },
   "pct": [
-   3,
-   97
+   1,
+   99
   ],
-  "winSay": "Ohne Finger, Akh!",
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nie wieder [[Karaaaaaameeeeeel Eins Neun]] hören, oder nie wieder Omar101 hören?",
+   "say": "Auf die einsame Insel nimmst du Nur für meine Augen mit, oder Akh & Krach?",
    "a": {
-    "label": "Nie wieder Karamel19",
-    "img": "artists/karamel19.jpg"
+    "label": "Insel: Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
    },
    "b": {
-    "label": "Nie wieder Omar101",
-    "img": "artists/omar101.jpg"
-   },
-   "pct": [
-    78,
-    22
-   ]
-  },
-  {
-   "say": "Auf die einsame Insel nimmst du Akh & Krach mit, oder 101%?",
-   "a": {
     "label": "Insel: Akh & Krach",
     "img": "albums/album-akh-krach.jpg"
    },
-   "b": {
-    "label": "Insel: 101%",
-    "img": "albums/album-101.jpg"
-   },
    "pct": [
-    75,
-    25
+    98,
+    2
    ]
   },
   {
-   "say": "FTW für immer löschen, oder Airwaves für immer löschen?",
+   "say": "Nie wieder [[Luuuuuussssiiiiiooooo]] hören, oder nie wieder Ufo361 hören?",
    "a": {
-    "label": "FTW löschen",
-    "img": "songs/song-ftw.jpg"
+    "label": "Nie wieder Lucio",
+    "img": "artists/lucio101.jpg"
    },
    "b": {
-    "label": "Airwaves löschen",
-    "img": "songs/song-airwaves.jpg"
+    "label": "Nie wieder Ufo361",
+    "img": "artists/ufo361.jpg"
    },
    "pct": [
-    95,
-    5
+    76,
+    24
    ]
   },
   {
-   "say": "Lacazette als großer Bruder, oder [[Paschaaaaaaaaa-Niiiiiim]] als Mitbewohner?",
+   "say": "[[Lakaaaaaaasetttttttt]] als großer Bruder, oder Cano030 als Mitbewohner?",
    "a": {
     "label": "Lacazette als Bruder",
     "img": "artists/lacazette.jpg"
    },
    "b": {
-    "label": "Pashanim als Mitbewohner",
+    "label": "Cano030 als Mitbewohner",
     "img": "artists/pashanim.jpg"
    },
    "pct": [
-    78,
-    22
+    53,
+    47
+   ]
+  },
+  {
+   "say": "Superkraft für immer löschen, oder 16 für immer löschen?",
+   "a": {
+    "label": "Superkraft löschen",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "b": {
+    "label": "16 löschen",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    5,
+    95
    ]
   },
   {
@@ -92,53 +91,53 @@
     "emoji": "🌳"
    },
    "pct": [
-    25,
-    75
+    46,
+    54
    ]
   },
   {
-   "say": "Kakanim in der ersten Reihe, oder Omar101 backstage?",
+   "say": "Kleiner Prinz auf Dauerschleife, oder CUP auf Dauerschleife?",
    "a": {
-    "label": "Kakanim erste Reihe",
-    "img": "artists/pashanim.jpg"
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "songs/song-kleiner-prinz.jpg"
    },
    "b": {
-    "label": "Omar101 backstage",
-    "img": "artists/omar101.jpg"
-   },
-   "pct": [
-    2,
-    98
-   ]
-  },
-  {
-   "say": "Ein Feature mit Mucco, oder ein Feature mit Samra?",
-   "a": {
-    "label": "Feature mit Mucco",
-    "img": "artists/mucco.jpg"
-   },
-   "b": {
-    "label": "Feature mit Samra",
-    "img": "artists/samra.jpg"
-   },
-   "pct": [
-    93,
-    7
-   ]
-  },
-  {
-   "say": "CUP für immer löschen, oder Hier für immer löschen?",
-   "a": {
-    "label": "CUP löschen",
+    "label": "CUP auf Repeat",
     "img": "songs/song-cup.jpg"
    },
+   "pct": [
+    49,
+    51
+   ]
+  },
+  {
+   "say": "Nie wieder Karamel19 hören, oder nie wieder Omar101 hören?",
+   "a": {
+    "label": "Nie wieder Karamel19",
+    "img": "artists/karamel19.jpg"
+   },
    "b": {
-    "label": "Hier löschen",
-    "img": "songs/song-hier.jpg"
+    "label": "Nie wieder Omar101",
+    "img": "artists/omar101.jpg"
    },
    "pct": [
     52,
     48
+   ]
+  },
+  {
+   "say": "Caney030 in der ersten Reihe, oder Makko backstage?",
+   "a": {
+    "label": "Caney030 erste Reihe",
+    "img": "artists/caney030.jpg"
+   },
+   "b": {
+    "label": "Makko backstage",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    46,
+    54
    ]
   }
  ],
@@ -146,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Talahons, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+  "share": "Schick das an die 3 größten Gooner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
  }
 }

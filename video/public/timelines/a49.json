@@ -3,14 +3,14 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2401,
+ "durationInFrames": 2386,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a49/00_hook_a.mp3",
    "audioB": "audio/a49/00_hook_b.mp3",
-   "bAt": 38,
-   "speak": 86,
+   "bAt": 36,
+   "speak": 83,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -24,113 +24,113 @@
     "emoji": null
    },
    "pct": [
-    9,
-    91
+    51,
+    49
    ],
-   "duration": 221
+   "duration": 218
   },
   {
    "kind": "q",
    "audio": "audio/a49/01_q_a.mp3",
    "audioB": "audio/a49/01_q_b.mp3",
-   "bAt": 38,
-   "speak": 69,
+   "bAt": 45,
+   "speak": 89,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch CUP",
-    "img": "img/songs/song-cup.jpg",
+    "label": "Nur noch Superkraft",
+    "img": "img/songs/song-superkraft.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Hier",
-    "img": "img/songs/song-hier.jpg",
+    "label": "Nur noch +49",
+    "img": "img/songs/song-plus49.jpg",
     "emoji": null
    },
    "pct": [
-    99,
-    1
+    19,
+    81
    ],
-   "duration": 204
+   "duration": 224
   },
   {
    "kind": "q",
    "audio": "audio/a49/02_q_a.mp3",
    "audioB": "audio/a49/02_q_b.mp3",
-   "bAt": 54,
-   "speak": 131,
+   "bAt": 52,
+   "speak": 97,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nizi19 kocht",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Hollywoodreif auf Repeat",
+    "img": "img/songs/song-hollywoodreif.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Omar101 fährt dich",
-    "img": "img/artists/omar101.jpg",
+    "label": "16 auf Repeat",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "pct": [
-    99,
-    1
+    96,
+    4
    ],
-   "duration": 266
+   "duration": 232
   },
   {
    "kind": "q",
    "audio": "audio/a49/03_q_a.mp3",
    "audioB": "audio/a49/03_q_b.mp3",
-   "bAt": 92,
-   "speak": 119,
+   "bAt": 34,
+   "speak": 72,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Insel: 101%",
-    "img": "img/albums/album-101.jpg",
+    "label": "Mello als Lehrer",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Insel: Doktor",
-    "img": "img/albums/album-doktor.jpg",
+    "label": "Mucco als Fahrlehrer",
+    "img": "img/artists/mucco.jpg",
     "emoji": null
    },
    "pct": [
-    68,
-    32
+    52,
+    48
    ],
-   "duration": 254
+   "duration": 207
   },
   {
    "kind": "q",
    "audio": "audio/a49/04_q_a.mp3",
    "audioB": "audio/a49/04_q_b.mp3",
-   "bAt": 38,
-   "speak": 79,
+   "bAt": 45,
+   "speak": 103,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch 16",
-    "img": "img/songs/song-16.jpg",
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Nie wieder Ufo361",
+    "img": "img/artists/ufo361.jpg",
     "emoji": null
    },
    "pct": [
-    54,
-    46
+    7,
+    93
    ],
-   "duration": 214
+   "duration": 238
   },
   {
    "kind": "mid",
    "audio": "audio/a49/05_mid_a.mp3",
    "audioB": "audio/a49/05_mid_b.mp3",
-   "bAt": 57,
-   "speak": 148,
+   "bAt": 58,
+   "speak": 152,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -139,97 +139,97 @@
     "emoji": "🧪"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
     "img": null,
-    "emoji": "🌳"
+    "emoji": "💌"
    },
    "pct": [
-    47,
-    53
+    92,
+    8
    ],
-   "duration": 283
+   "duration": 287
   },
   {
    "kind": "q",
    "audio": "audio/a49/06_q_a.mp3",
    "audioB": "audio/a49/06_q_b.mp3",
-   "bAt": 46,
-   "speak": 109,
+   "bAt": 78,
+   "speak": 116,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lacazette erste Reihe",
-    "img": "img/artists/lacazette.jpg",
+    "label": "Insel: LID",
+    "img": "img/albums/album-lid.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Lucio backstage",
-    "img": "img/artists/lucio101.jpg",
+    "label": "Insel: 1019",
+    "img": "img/albums/album-1019.jpg",
     "emoji": null
    },
    "pct": [
-    70,
-    30
+    51,
+    49
    ],
-   "duration": 244
+   "duration": 251
   },
   {
    "kind": "q",
    "audio": "audio/a49/07_q_a.mp3",
    "audioB": "audio/a49/07_q_b.mp3",
-   "bAt": 46,
-   "speak": 91,
+   "bAt": 74,
+   "speak": 114,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lacazette als Bruder",
-    "img": "img/artists/lacazette.jpg",
+    "label": "Nie wieder Ufo361",
+    "img": "img/artists/ufo361.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Masi als Mitbewohner",
-    "img": "img/artists/zackavelli.jpg",
+    "label": "Nie wieder Mucco",
+    "img": "img/artists/mucco.jpg",
     "emoji": null
    },
    "pct": [
-    98,
-    2
+    31,
+    69
    ],
-   "duration": 226
+   "duration": 249
   },
   {
    "kind": "q",
    "audio": "audio/a49/08_q_a.mp3",
    "audioB": "audio/a49/08_q_b.mp3",
-   "bAt": 73,
-   "speak": 145,
+   "bAt": 86,
+   "speak": 148,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Feature mit Nizi19",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Feature mit Haribo",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Feature mit Lucio",
-    "img": "img/artists/lucio101.jpg",
+    "label": "Feature mit Caney030",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "pct": [
-    91,
-    9
+    4,
+    96
    ],
-   "duration": 280
+   "duration": 283
   },
   {
    "kind": "outro",
    "audio": "audio/a49/09_outro.mp3",
-   "speak": 164,
+   "speak": 152,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Stoner, die du kennst",
-   "duration": 209
+   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "duration": 197
   }
  ]
 }

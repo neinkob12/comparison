@@ -3,9 +3,9 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Karmahel19, oder nie wieder Mucco hören?",
+  "say": "Eine Nacht mit Karamel19, oder nie wieder Mucco hören?",
   "a": {
-   "label": "1 Nacht mit Karmahel19",
+   "label": "1 Nacht mit Karamel19",
    "img": "artists/karamel19.jpg"
   },
   "b": {
@@ -13,44 +13,44 @@
    "img": "artists/mucco.jpg"
   },
   "pct": [
-   79,
-   21
+   82,
+   18
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nie wieder Kalim hören, oder nie wieder [[Muuuuuutschoooooo]] hören?",
+   "say": "Ein Feature mit Ufo187, oder ein Feature mit Makko?",
    "a": {
-    "label": "Nie wieder Kalim",
-    "img": "artists/kalim.jpg"
+    "label": "Feature mit Ufo187",
+    "img": "artists/ufo361.jpg"
    },
    "b": {
-    "label": "Nie wieder Mucco",
+    "label": "Feature mit Makko",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    51,
+    49
+   ]
+  },
+  {
+   "say": "[[Haaaaarrrriiiiibooooooo]] als großer Bruder, oder Mucco als Mitbewohner?",
+   "a": {
+    "label": "Haribo als Bruder",
+    "img": "artists/yuyu19.jpg"
+   },
+   "b": {
+    "label": "Mucco als Mitbewohner",
     "img": "artists/mucco.jpg"
    },
    "pct": [
-    91,
-    9
+    96,
+    4
    ]
   },
   {
-   "say": "Nur noch 16 hören, oder nur noch FTW?",
-   "a": {
-    "label": "Nur noch 16",
-    "img": "songs/song-16.jpg"
-   },
-   "b": {
-    "label": "Nur noch FTW",
-    "img": "songs/song-ftw.jpg"
-   },
-   "pct": [
-    94,
-    6
-   ]
-  },
-  {
-   "say": "[[Haaaaarrrriiiiibooooooo]] als Lehrer, oder [[Karaaaaaameeeeeel Eins Neun]] als Fahrlehrer?",
+   "say": "Haribo als Lehrer, oder Karamel19 als Fahrlehrer?",
    "a": {
     "label": "Haribo als Lehrer",
     "img": "artists/yuyu19.jpg"
@@ -60,84 +60,84 @@
     "img": "artists/karamel19.jpg"
    },
    "pct": [
-    8,
-    92
+    15,
+    85
    ]
   },
   {
-   "say": "Ein Tag mit Pashanim, oder ein Tag mit Lacazette?",
+   "say": "Nie wieder Omar101 hören, oder nie wieder [[Luuuuuussssiiiiiooooo]] hören?",
    "a": {
-    "label": "1 Tag mit Pashanim",
-    "img": "artists/pashanim.jpg"
+    "label": "Nie wieder Omar101",
+    "img": "artists/omar101.jpg"
    },
    "b": {
-    "label": "1 Tag mit Lacazette",
-    "img": "artists/lacazette.jpg"
+    "label": "Nie wieder Lucio",
+    "img": "artists/lucio101.jpg"
    },
    "pct": [
-    6,
-    94
+    9,
+    91
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
    "a": {
     "label": "Nie wieder duschen",
     "emoji": "🚿"
    },
    "b": {
-    "label": "Date mit der 3. Person bei „Teilen“",
-    "emoji": "💘"
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
+    "emoji": "💌"
    },
    "pct": [
-    95,
-    5
+    83,
+    17
    ]
   },
   {
-   "say": "Nur noch das Album Doktor hören, oder nur noch Akh & Krach?",
+   "say": "Nur noch Hollywoodreif hören, oder nur noch FTW?",
    "a": {
+    "label": "Nur noch Hollywoodreif",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Nur noch FTW",
+    "img": "songs/song-ftw.jpg"
+   },
+   "pct": [
+    79,
+    21
+   ]
+  },
+  {
+   "say": "Nur noch das Album 101% hören, oder nur noch Doktor?",
+   "a": {
+    "label": "Nur noch 101%",
+    "img": "albums/album-101.jpg"
+   },
+   "b": {
     "label": "Nur noch Doktor",
     "img": "albums/album-doktor.jpg"
    },
-   "b": {
-    "label": "Nur noch Akh & Krach",
-    "img": "albums/album-akh-krach.jpg"
-   },
    "pct": [
-    44,
-    56
+    92,
+    8
    ]
   },
   {
-   "say": "Kleiner Prinz für immer löschen, oder Hier für immer löschen?",
+   "say": "Nur noch +49 hören, oder nur noch 16?",
    "a": {
-    "label": "Kleiner Prinz löschen",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "Nur noch +49",
+    "img": "songs/song-plus49.jpg"
    },
    "b": {
-    "label": "Hier löschen",
-    "img": "songs/song-hier.jpg"
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
    },
    "pct": [
-    48,
-    52
-   ]
-  },
-  {
-   "say": "Kalim in der ersten Reihe, oder Zackavelli backstage?",
-   "a": {
-    "label": "Kalim erste Reihe",
-    "img": "artists/kalim.jpg"
-   },
-   "b": {
-    "label": "Zackavelli backstage",
-    "img": "artists/zackavelli.jpg"
-   },
-   "pct": [
-    9,
-    91
+    26,
+    74
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Teile das Video mit deinen Akhs",
-  "shareSay": "Und teile das Video mit deinen Akhs!"
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
  }
 }

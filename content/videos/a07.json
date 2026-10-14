@@ -3,141 +3,141 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Kalim liest deine Chats, oder Zackavelli sieht deinen Suchverlauf?",
+  "say": "24 Stunden mit Lucio im Fahrstuhl, oder mit Pashanim im Bällebad?",
   "a": {
-   "label": "Kalim liest deine Chats",
-   "img": "artists/kalim.jpg"
+   "label": "Lucio im Fahrstuhl",
+   "img": "artists/lucio101.jpg"
   },
   "b": {
-   "label": "Zackavelli sieht deinen Verlauf",
-   "img": "artists/zackavelli.jpg"
+   "label": "Pashanim im Bällebad",
+   "img": "artists/pashanim.jpg"
   },
   "pct": [
-   96,
-   4
+   95,
+   5
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Luciano als großer Bruder, oder Zackavelli als Mitbewohner?",
+   "say": "Kleiner Prinz auf Dauerschleife, oder 16 auf Dauerschleife?",
    "a": {
-    "label": "Luciano als Bruder",
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "b": {
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    3,
+    97
+   ]
+  },
+  {
+   "say": "Auf die einsame Insel nimmst du Akh & Krach mit, oder Free Game?",
+   "a": {
+    "label": "Insel: Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "b": {
+    "label": "Insel: Free Game",
+    "img": "albums/album-free-game.jpg"
+   },
+   "pct": [
+    65,
+    35
+   ]
+  },
+  {
+   "say": "[[Luuuuuussssiiiiiooooo]] als großer Bruder, oder Souly als Mitbewohner?",
+   "a": {
+    "label": "Lucio als Bruder",
     "img": "artists/lucio101.jpg"
    },
    "b": {
-    "label": "Zackavelli als Mitbewohner",
-    "img": "artists/zackavelli.jpg"
+    "label": "Souly als Mitbewohner",
+    "img": "artists/souly.jpg"
    },
    "pct": [
-    80,
-    20
+    1,
+    99
    ]
   },
   {
-   "say": "Nur noch Wittenbergplatz hören, oder nur noch Kleiner Prinz?",
+   "say": "Samra in der ersten Reihe, oder Mucco backstage?",
    "a": {
-    "label": "Nur noch Wittenbergplatz",
-    "img": "songs/song-wittenbergplatz.jpg"
+    "label": "Samra erste Reihe",
+    "img": "artists/samra.jpg"
    },
    "b": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "Mucco backstage",
+    "img": "artists/mucco.jpg"
    },
    "pct": [
-    45,
-    55
-   ]
-  },
-  {
-   "say": "[[Niiiiiiiisssssiiiii]] in der ersten Reihe, oder Karamel19 backstage?",
-   "a": {
-    "label": "Nizi19 erste Reihe",
-    "img": "artists/nizi19.jpg"
-   },
-   "b": {
-    "label": "Karamel19 backstage",
-    "img": "artists/karamel19.jpg"
-   },
-   "pct": [
-    6,
-    94
-   ]
-  },
-  {
-   "say": "16 für immer löschen, oder Hollywoodreif für immer löschen?",
-   "a": {
-    "label": "16 löschen",
-    "img": "songs/song-16.jpg"
-   },
-   "b": {
-    "label": "Hollywoodreif löschen",
-    "img": "songs/song-hollywoodreif.jpg"
-   },
-   "pct": [
-    45,
-    55
+    49,
+    51
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
    "a": {
     "label": "Nie wieder duschen",
     "emoji": "🚿"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
-    "emoji": "🌳"
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
    },
    "pct": [
-    8,
-    92
+    54,
+    46
    ]
   },
   {
-   "say": "Auf die einsame Insel nimmst du LID mit, oder Mittendrin?",
+   "say": "Nur noch +49 hören, oder nur noch CUP?",
    "a": {
-    "label": "Insel: LID",
-    "img": "albums/album-lid.jpg"
+    "label": "Nur noch +49",
+    "img": "songs/song-plus49.jpg"
    },
    "b": {
-    "label": "Insel: Mittendrin",
-    "img": "albums/album-mittendrin.jpg"
+    "label": "Nur noch CUP",
+    "img": "songs/song-cup.jpg"
    },
    "pct": [
-    73,
-    27
+    9,
+    91
    ]
   },
   {
-   "say": "Haribo als Lehrer, oder Nizi19 als Fahrlehrer?",
+   "say": "Würdest du eher ein Jahr nur [[BOBOBOBOBOBOOOOOOOOO]] hören, oder ein Jahr nur Mello?",
    "a": {
-    "label": "Haribo als Lehrer",
-    "img": "artists/yuyu19.jpg"
+    "label": "1 Jahr nur Luciano",
+    "img": "artists/luciano.jpg"
    },
    "b": {
-    "label": "Nizi19 als Fahrlehrer",
+    "label": "1 Jahr nur Mello",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    17,
+    83
+   ]
+  },
+  {
+   "say": "Nizi19 in der ersten Reihe, oder Caney030 backstage?",
+   "a": {
+    "label": "Nizi19 erste Reihe",
     "img": "artists/nizi19.jpg"
    },
-   "pct": [
-    32,
-    68
-   ]
-  },
-  {
-   "say": "Würdest du eher ein Jahr nur [[Kaaaaaaaaa-liiiiim]] hören, oder ein Jahr nur Pashanim?",
-   "a": {
-    "label": "1 Jahr nur Kalim",
-    "img": "artists/kalim.jpg"
-   },
    "b": {
-    "label": "1 Jahr nur Pashanim",
-    "img": "artists/pashanim.jpg"
+    "label": "Caney030 backstage",
+    "img": "artists/caney030.jpg"
    },
    "pct": [
-    5,
-    95
+    6,
+    94
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Teile das Video mit deinen Akhs",
-  "shareSay": "Und teile das Video mit deinen Akhs!"
+  "share": "Schick das an die 3 größten Gooner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
  }
 }

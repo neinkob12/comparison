@@ -3,46 +3,31 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "24 Stunden mit Haribo im Fahrstuhl, oder mit Karamel19 im Bällebad?",
+  "say": "24 Stunden mit Samra im Fahrstuhl, oder mit Souly im Bällebad?",
   "a": {
-   "label": "Haribo im Fahrstuhl",
-   "img": "artists/yuyu19.jpg"
+   "label": "Samra im Fahrstuhl",
+   "img": "artists/samra.jpg"
   },
   "b": {
-   "label": "Karamel19 im Bällebad",
-   "img": "artists/karamel19.jpg"
+   "label": "Souly im Bällebad",
+   "img": "artists/souly.jpg"
   },
   "pct": [
-   45,
-   55
+   96,
+   4
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Würdest du eher ein Jahr nur [[Lakaaaaaaasetttttttt]] hören, oder ein Jahr nur Zackavelli?",
+   "say": "Sommergewitter auf Dauerschleife, oder Hollywoodreif auf Dauerschleife?",
    "a": {
-    "label": "1 Jahr nur Lacazette",
-    "img": "artists/lacazette.jpg"
+    "label": "Sommergewitter auf Repeat",
+    "img": "songs/song-sommergewitter.jpg"
    },
    "b": {
-    "label": "1 Jahr nur Zackavelli",
-    "img": "artists/zackavelli.jpg"
-   },
-   "pct": [
-    55,
-    45
-   ]
-  },
-  {
-   "say": "Airwaves auf Dauerschleife, oder Hier auf Dauerschleife?",
-   "a": {
-    "label": "Airwaves auf Repeat",
-    "img": "songs/song-airwaves.jpg"
-   },
-   "b": {
-    "label": "Hier auf Repeat",
-    "img": "songs/song-hier.jpg"
+    "label": "Hollywoodreif auf Repeat",
+    "img": "songs/song-hollywoodreif.jpg"
    },
    "pct": [
     9,
@@ -50,75 +35,44 @@
    ]
   },
   {
-   "say": "Hollywoodreif auf Dauerschleife, oder Sommergewitter auf Dauerschleife?",
+   "say": "[[Kaaaaaaaaa-liiiiim]] als Lehrer, oder Omar101 als Fahrlehrer?",
    "a": {
-    "label": "Hollywoodreif auf Repeat",
-    "img": "songs/song-hollywoodreif.jpg"
+    "label": "Kalim als Lehrer",
+    "img": "artists/kalim.jpg"
    },
    "b": {
-    "label": "Sommergewitter auf Repeat",
-    "img": "songs/song-sommergewitter.jpg"
+    "label": "Omar101 als Fahrlehrer",
+    "img": "artists/omar101.jpg"
    },
    "pct": [
-    67,
-    33
+    98,
+    2
    ]
   },
   {
-   "say": "[[Niiiiiiiisssssiiiii]] kocht für dich, oder Souly fährt dich nach Hause?",
+   "say": "CUP für immer löschen, oder Airwaves für immer löschen?",
    "a": {
-    "label": "Nizi19 kocht",
-    "img": "artists/nizi19.jpg"
+    "label": "CUP löschen",
+    "img": "songs/song-cup.jpg"
    },
    "b": {
-    "label": "Souly fährt dich",
-    "img": "artists/souly.jpg"
+    "label": "Airwaves löschen",
+    "img": "songs/song-airwaves.jpg"
    },
    "pct": [
-    92,
-    8
+    46,
+    54
    ]
   },
   {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "say": "Auf die einsame Insel nimmst du Nur für meine Augen mit, oder 1019?",
    "a": {
-    "label": "Nie wieder Maka",
-    "emoji": "🧪"
+    "label": "Insel: Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
    },
    "b": {
-    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
-    "emoji": "💌"
-   },
-   "pct": [
-    25,
-    75
-   ]
-  },
-  {
-   "say": "Auf die einsame Insel nimmst du 1019 mit, oder Mittendrin?",
-   "a": {
     "label": "Insel: 1019",
     "img": "albums/album-1019.jpg"
-   },
-   "b": {
-    "label": "Insel: Mittendrin",
-    "img": "albums/album-mittendrin.jpg"
-   },
-   "pct": [
-    17,
-    83
-   ]
-  },
-  {
-   "say": "Kakazette kocht für dich, oder Caney030 fährt dich nach Hause?",
-   "a": {
-    "label": "Kakazette kocht",
-    "img": "artists/lacazette.jpg"
-   },
-   "b": {
-    "label": "Caney030 fährt dich",
-    "img": "artists/caney030.jpg"
    },
    "pct": [
     55,
@@ -126,18 +80,64 @@
    ]
   },
   {
-   "say": "Nizi19 als Lehrer, oder Ufo361 als Fahrlehrer?",
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
    "a": {
-    "label": "Nizi19 als Lehrer",
-    "img": "artists/nizi19.jpg"
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
    },
    "b": {
-    "label": "Ufo361 als Fahrlehrer",
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Caney030 hören, oder ein Jahr nur [[Uuuuuuuufoooooo Drei Sechs Eins]]?",
+   "a": {
+    "label": "1 Jahr nur Caney030",
+    "img": "artists/caney030.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Ufo361",
     "img": "artists/ufo361.jpg"
    },
    "pct": [
-    53,
-    47
+    56,
+    44
+   ]
+  },
+  {
+   "say": "Ein Tag mit Omar101, oder ein Tag mit Samra?",
+   "a": {
+    "label": "1 Tag mit Omar101",
+    "img": "artists/omar101.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Samra",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  },
+  {
+   "say": "Luciano als großer Bruder, oder [[Karaaaaaameeeeeel Eins Neun]] als Mitbewohner?",
+   "a": {
+    "label": "Luciano als Bruder",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Karamel19 als Mitbewohner",
+    "img": "artists/karamel19.jpg"
+   },
+   "pct": [
+    8,
+    92
    ]
   }
  ],

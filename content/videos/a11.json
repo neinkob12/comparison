@@ -3,107 +3,47 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Nizi19 wird dein Stiefvater, oder Karamel19 dein Klassenlehrer?",
+  "say": "24 Stunden mit Haribo im Fahrstuhl, oder mit Souly im Bällebad?",
   "a": {
-   "label": "Nizi19 als Stiefvater",
-   "img": "artists/nizi19.jpg"
+   "label": "Haribo im Fahrstuhl",
+   "img": "artists/yuyu19.jpg"
   },
   "b": {
-   "label": "Karamel19 als Klassenlehrer",
-   "img": "artists/karamel19.jpg"
+   "label": "Souly im Bällebad",
+   "img": "artists/souly.jpg"
   },
   "pct": [
-   24,
-   76
+   96,
+   4
   ],
+  "winSay": "Ohne Finger, Akh!",
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Cano030 in der ersten Reihe, oder Omar101 backstage?",
+   "say": "CUP auf Dauerschleife, oder Sommergewitter auf Dauerschleife?",
    "a": {
-    "label": "Cano030 erste Reihe",
-    "img": "artists/pashanim.jpg"
+    "label": "CUP auf Repeat",
+    "img": "songs/song-cup.jpg"
    },
    "b": {
-    "label": "Omar101 backstage",
-    "img": "artists/omar101.jpg"
+    "label": "Sommergewitter auf Repeat",
+    "img": "songs/song-sommergewitter.jpg"
    },
    "pct": [
-    8,
-    92
+    27,
+    73
    ]
   },
   {
-   "say": "[[BOBOBOBOBOBOOOOOOOOO]] als Lehrer, oder Samra als Fahrlehrer?",
+   "say": "Nur noch das Album Nur für meine Augen hören, oder nur noch Doktor?",
    "a": {
-    "label": "Luciano als Lehrer",
-    "img": "artists/luciano.jpg"
-   },
-   "b": {
-    "label": "Samra als Fahrlehrer",
-    "img": "artists/samra.jpg"
-   },
-   "pct": [
-    6,
-    94
-   ]
-  },
-  {
-   "say": "Nur noch das Album Mittendrin hören, oder nur noch Doktor?",
-   "a": {
-    "label": "Nur noch Mittendrin",
-    "img": "albums/album-mittendrin.jpg"
+    "label": "Nur noch Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
    },
    "b": {
     "label": "Nur noch Doktor",
     "img": "albums/album-doktor.jpg"
-   },
-   "pct": [
-    3,
-    97
-   ]
-  },
-  {
-   "say": "Ein Feature mit Makko, oder ein Feature mit Lacazette?",
-   "a": {
-    "label": "Feature mit Makko",
-    "img": "artists/makko.jpg"
-   },
-   "b": {
-    "label": "Feature mit Lacazette",
-    "img": "artists/lacazette.jpg"
-   },
-   "pct": [
-    95,
-    5
-   ]
-  },
-  {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
-   "a": {
-    "label": "Nie wieder duschen",
-    "emoji": "🚿"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
-    "emoji": "🌳"
-   },
-   "pct": [
-    48,
-    52
-   ]
-  },
-  {
-   "say": "FTW für immer löschen, oder Hollywoodreif für immer löschen?",
-   "a": {
-    "label": "FTW löschen",
-    "img": "songs/song-ftw.jpg"
-   },
-   "b": {
-    "label": "Hollywoodreif löschen",
-    "img": "songs/song-hollywoodreif.jpg"
    },
    "pct": [
     1,
@@ -111,33 +51,94 @@
    ]
   },
   {
-   "say": "[[Lakaaaaaaasetttttttt]] kocht für dich, oder Souly fährt dich nach Hause?",
+   "say": "Ein Tag mit [[Haaaaarrrriiiiibooooooo]], oder ein Tag mit [[Paschaaaaaaaaa-Niiiiiim]]?",
    "a": {
-    "label": "Lacazette kocht",
-    "img": "artists/lacazette.jpg"
+    "label": "1 Tag mit Haribo",
+    "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Souly fährt dich",
-    "img": "artists/souly.jpg"
+    "label": "1 Tag mit Pashanim",
+    "img": "artists/pashanim.jpg"
    },
    "pct": [
-    22,
-    78
+    16,
+    84
    ]
   },
   {
-   "say": "Sommergewitter auf Dauerschleife, oder Kleiner Prinz auf Dauerschleife?",
+   "say": "Würdest du eher ein Jahr nur Kakazette hören, oder ein Jahr nur Nizi19?",
    "a": {
-    "label": "Sommergewitter auf Repeat",
-    "img": "songs/song-sommergewitter.jpg"
+    "label": "1 Jahr nur Kakazette",
+    "img": "artists/lacazette.jpg"
    },
    "b": {
-    "label": "Kleiner Prinz auf Repeat",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "1 Jahr nur Nizi19",
+    "img": "artists/nizi19.jpg"
    },
    "pct": [
-    3,
-    97
+    27,
+    73
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "[[Lussssssiiiiiiiooooooooo]] kocht für dich, oder Caney030 fährt dich nach Hause?",
+   "a": {
+    "label": "Lucio kocht",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Caney030 fährt dich",
+    "img": "artists/caney030.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  },
+  {
+   "say": "Ein Tag mit Zackavelli, oder ein Tag mit Caney030?",
+   "a": {
+    "label": "1 Tag mit Zackavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Caney030",
+    "img": "artists/caney030.jpg"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Nur noch Superkraft hören, oder nur noch 16?",
+   "a": {
+    "label": "Nur noch Superkraft",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "b": {
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
+   },
+   "pct": [
+    93,
+    7
    ]
   }
  ],
@@ -145,7 +146,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
+  "share": "Schick das an die 3 größten Stoner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Stoner, die du kennst!"
  }
 }

@@ -3,107 +3,46 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "24 Stunden mit Nizi19 im Fahrstuhl, oder mit Mucco im Bällebad?",
+  "say": "Makko wird dein Stiefvater, oder Haribo dein Klassenlehrer?",
   "a": {
-   "label": "Nizi19 im Fahrstuhl",
-   "img": "artists/nizi19.jpg"
+   "label": "Makko als Stiefvater",
+   "img": "artists/makko.jpg"
   },
   "b": {
-   "label": "Mucco im Bällebad",
-   "img": "artists/mucco.jpg"
+   "label": "Haribo als Klassenlehrer",
+   "img": "artists/yuyu19.jpg"
   },
   "pct": [
-   5,
-   95
+   94,
+   6
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nur noch +49 hören, oder nur noch Hier?",
+   "say": "[[Lussiaaaaaaaaanoooooo]] in der ersten Reihe, oder Lacazette backstage?",
    "a": {
-    "label": "Nur noch +49",
-    "img": "songs/song-plus49.jpg"
+    "label": "Luciano erste Reihe",
+    "img": "artists/luciano.jpg"
+   },
+   "b": {
+    "label": "Lacazette backstage",
+    "img": "artists/lacazette.jpg"
+   },
+   "pct": [
+    17,
+    83
+   ]
+  },
+  {
+   "say": "Nur noch Kleiner Prinz hören, oder nur noch Hier?",
+   "a": {
+    "label": "Nur noch Kleiner Prinz",
+    "img": "songs/song-kleiner-prinz.jpg"
    },
    "b": {
     "label": "Nur noch Hier",
     "img": "songs/song-hier.jpg"
-   },
-   "pct": [
-    27,
-    73
-   ]
-  },
-  {
-   "say": "Würdest du eher ein Jahr nur [[Luuuuuussssiiiiiooooo]] hören, oder ein Jahr nur Mucco?",
-   "a": {
-    "label": "1 Jahr nur Lucio",
-    "img": "artists/lucio101.jpg"
-   },
-   "b": {
-    "label": "1 Jahr nur Mucco",
-    "img": "artists/mucco.jpg"
-   },
-   "pct": [
-    97,
-    3
-   ]
-  },
-  {
-   "say": "[[Haaaaarrrriiiiibooooooo]] kocht für dich, oder Samra fährt dich nach Hause?",
-   "a": {
-    "label": "Haribo kocht",
-    "img": "artists/yuyu19.jpg"
-   },
-   "b": {
-    "label": "Samra fährt dich",
-    "img": "artists/samra.jpg"
-   },
-   "pct": [
-    44,
-    56
-   ]
-  },
-  {
-   "say": "Auf die einsame Insel nimmst du Doktor mit, oder LID?",
-   "a": {
-    "label": "Insel: Doktor",
-    "img": "albums/album-doktor.jpg"
-   },
-   "b": {
-    "label": "Insel: LID",
-    "img": "albums/album-lid.jpg"
-   },
-   "pct": [
-    3,
-    97
-   ]
-  },
-  {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
-   "a": {
-    "label": "Nie wieder Maka",
-    "emoji": "🧪"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
-    "emoji": "✈️"
-   },
-   "pct": [
-    75,
-    25
-   ]
-  },
-  {
-   "say": "Ein Feature mit Luciano, oder ein Feature mit Karamel19?",
-   "a": {
-    "label": "Feature mit Luciano",
-    "img": "artists/lucio101.jpg"
-   },
-   "b": {
-    "label": "Feature mit Karamel19",
-    "img": "artists/karamel19.jpg"
    },
    "pct": [
     53,
@@ -111,14 +50,45 @@
    ]
   },
   {
-   "say": "Makko als großer Bruder, oder Kalim als Mitbewohner?",
+   "say": "Ein Tag mit Masi, oder ein Tag mit [[Haaaaarrrriiiiibooooooo]]?",
    "a": {
-    "label": "Makko als Bruder",
-    "img": "artists/makko.jpg"
+    "label": "1 Tag mit Masi",
+    "img": "artists/zackavelli.jpg"
    },
    "b": {
-    "label": "Kalim als Mitbewohner",
-    "img": "artists/kalim.jpg"
+    "label": "1 Tag mit Haribo",
+    "img": "artists/yuyu19.jpg"
+   },
+   "pct": [
+    5,
+    95
+   ]
+  },
+  {
+   "say": "Airwaves für immer löschen, oder +49 für immer löschen?",
+   "a": {
+    "label": "Airwaves löschen",
+    "img": "songs/song-airwaves.jpg"
+   },
+   "b": {
+    "label": "+49 löschen",
+    "img": "songs/song-plus49.jpg"
+   },
+   "pct": [
+    55,
+    45
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Maka, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder Maka",
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
    },
    "pct": [
     2,
@@ -126,18 +96,48 @@
    ]
   },
   {
-   "say": "Nur noch Kleiner Prinz hören, oder nur noch FTW?",
+   "say": "Nur noch das Album Nur für meine Augen hören, oder nur noch Mittendrin?",
    "a": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "Nur noch Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
    },
    "b": {
-    "label": "Nur noch FTW",
-    "img": "songs/song-ftw.jpg"
+    "label": "Nur noch Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
    },
    "pct": [
-    15,
-    85
+    51,
+    49
+   ]
+  },
+  {
+   "say": "Ein Feature mit Zackavelli, oder ein Feature mit Samra?",
+   "a": {
+    "label": "Feature mit Zackavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "b": {
+    "label": "Feature mit Samra",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur Souly hören, oder ein Jahr nur [[Kaaaaaaaaa-liiiiim]]?",
+   "a": {
+    "label": "1 Jahr nur Souly",
+    "img": "artists/souly.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "pct": [
+    56,
+    44
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Talahons, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
  }
 }

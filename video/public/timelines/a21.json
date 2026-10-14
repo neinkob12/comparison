@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2493,
+ "durationInFrames": 2419,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a21/00_hook_a.mp3",
    "audioB": "audio/a21/00_hook_b.mp3",
-   "bAt": 50,
-   "speak": 120,
+   "bAt": 49,
+   "speak": 121,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Luciano als Stiefvater",
+    "label": "Lucio als Stiefvater",
     "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
@@ -24,119 +24,119 @@
     "emoji": null
    },
    "pct": [
-    30,
-    70
+    92,
+    8
    ],
-   "duration": 255
+   "duration": 256
   },
   {
    "kind": "q",
    "audio": "audio/a21/01_q_a.mp3",
    "audioB": "audio/a21/01_q_b.mp3",
-   "bAt": 108,
-   "speak": 167,
+   "bAt": 63,
+   "speak": 111,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Jahr nur Kalim",
-    "img": "img/artists/kalim.jpg",
+    "label": "Pashanim als Lehrer",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Jahr nur Ufo361",
-    "img": "img/artists/ufo361.jpg",
+    "label": "Zackavelli als Fahrlehrer",
+    "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
    "pct": [
-    2,
-    98
+    19,
+    81
    ],
-   "duration": 302
+   "duration": 246
   },
   {
    "kind": "q",
    "audio": "audio/a21/02_q_a.mp3",
    "audioB": "audio/a21/02_q_b.mp3",
-   "bAt": 39,
-   "speak": 94,
+   "bAt": 48,
+   "speak": 100,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Hier auf Repeat",
-    "img": "img/songs/song-hier.jpg",
+    "label": "Airwaves auf Repeat",
+    "img": "img/songs/song-airwaves.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Sommergewitter auf Repeat",
-    "img": "img/songs/song-sommergewitter.jpg",
+    "label": "Wittenbergplatz auf Repeat",
+    "img": "img/songs/song-wittenbergplatz.jpg",
     "emoji": null
    },
    "pct": [
-    4,
-    96
+    49,
+    51
    ],
-   "duration": 229
+   "duration": 235
   },
   {
    "kind": "q",
    "audio": "audio/a21/03_q_a.mp3",
    "audioB": "audio/a21/03_q_b.mp3",
-   "bAt": 72,
-   "speak": 113,
+   "bAt": 49,
+   "speak": 90,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Insel: Free Game",
-    "img": "img/albums/album-free-game.jpg",
+    "label": "Nizi19 als Lehrer",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Insel: 1019",
-    "img": "img/albums/album-1019.jpg",
+    "label": "Samra als Fahrlehrer",
+    "img": "img/artists/samra.jpg",
     "emoji": null
    },
    "pct": [
-    48,
-    52
+    23,
+    77
    ],
-   "duration": 248
+   "duration": 225
   },
   {
    "kind": "q",
    "audio": "audio/a21/04_q_a.mp3",
    "audioB": "audio/a21/04_q_b.mp3",
-   "bAt": 43,
-   "speak": 134,
+   "bAt": 39,
+   "speak": 93,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Tag mit Pashanim",
-    "img": "img/artists/pashanim.jpg",
+    "label": "CUP auf Repeat",
+    "img": "img/songs/song-cup.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Tag mit Kalim",
-    "img": "img/artists/kalim.jpg",
+    "label": "FTW auf Repeat",
+    "img": "img/songs/song-ftw.jpg",
     "emoji": null
    },
    "pct": [
-    82,
-    18
+    9,
+    91
    ],
-   "duration": 269
+   "duration": 228
   },
   {
    "kind": "mid",
    "audio": "audio/a21/05_mid_a.mp3",
    "audioB": "audio/a21/05_mid_b.mp3",
-   "bAt": 53,
-   "speak": 162,
+   "bAt": 59,
+   "speak": 176,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nie wieder Maka",
+    "label": "Nie wieder duschen",
     "img": null,
-    "emoji": "🧪"
+    "emoji": "🚿"
    },
    "b": {
     "label": "Date mit der 3. Person bei „Teilen“",
@@ -144,41 +144,65 @@
     "emoji": "💘"
    },
    "pct": [
-    46,
-    54
+    55,
+    45
    ],
-   "duration": 297
+   "duration": 311
   },
   {
    "kind": "q",
    "audio": "audio/a21/06_q_a.mp3",
    "audioB": "audio/a21/06_q_b.mp3",
-   "bAt": 50,
-   "speak": 106,
+   "bAt": 73,
+   "speak": 113,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "FTW auf Repeat",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Nizi19 als Lehrer",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Superkraft auf Repeat",
-    "img": "img/songs/song-superkraft.jpg",
+    "label": "Yuyu als Fahrlehrer",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "pct": [
     93,
     7
    ],
-   "duration": 241
+   "duration": 248
   },
   {
    "kind": "q",
    "audio": "audio/a21/07_q_a.mp3",
    "audioB": "audio/a21/07_q_b.mp3",
-   "bAt": 38,
-   "speak": 85,
+   "bAt": 72,
+   "speak": 109,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nur noch Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nur noch Free Game",
+    "img": "img/albums/album-free-game.jpg",
+    "emoji": null
+   },
+   "pct": [
+    67,
+    33
+   ],
+   "duration": 244
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a21/08_q_a.mp3",
+   "audioB": "audio/a21/08_q_b.mp3",
+   "bAt": 42,
+   "speak": 87,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -192,44 +216,20 @@
     "emoji": null
    },
    "pct": [
-    97,
-    3
+    2,
+    98
    ],
-   "duration": 220
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a21/08_q_a.mp3",
-   "audioB": "audio/a21/08_q_b.mp3",
-   "bAt": 47,
-   "speak": 94,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nizi19 als Lehrer",
-    "img": "img/artists/nizi19.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Haribo als Fahrlehrer",
-    "img": "img/artists/yuyu19.jpg",
-    "emoji": null
-   },
-   "pct": [
-    9,
-    91
-   ],
-   "duration": 229
+   "duration": 222
   },
   {
    "kind": "outro",
    "audio": "audio/a21/09_outro.mp3",
-   "speak": 158,
+   "speak": 159,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 größten Ottos, die du kennst",
-   "duration": 203
+   "duration": 204
   }
  ]
 }

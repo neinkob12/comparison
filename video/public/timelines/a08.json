@@ -3,233 +3,233 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2474,
+ "durationInFrames": 2427,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a08/00_hook_a.mp3",
    "audioB": "audio/a08/00_hook_b.mp3",
-   "bAt": 45,
-   "speak": 104,
+   "bAt": 50,
+   "speak": 101,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Nacht mit Pashanim",
+    "label": "Kakanim als Stiefvater",
     "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nie wieder Omar101",
-    "img": "img/artists/omar101.jpg",
+    "label": "Lacazette als Klassenlehrer",
+    "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "pct": [
-    9,
-    91
+    69,
+    31
    ],
-   "duration": 239
+   "duration": 236
   },
   {
    "kind": "q",
    "audio": "audio/a08/01_q_a.mp3",
    "audioB": "audio/a08/01_q_b.mp3",
-   "bAt": 74,
-   "speak": 122,
+   "bAt": 43,
+   "speak": 113,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Haribo erste Reihe",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "Lacazette kocht",
+    "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Doktor19 backstage",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Mucco fährt dich",
+    "img": "img/artists/mucco.jpg",
     "emoji": null
    },
    "pct": [
-    3,
-    97
+    6,
+    94
    ],
-   "duration": 257
+   "duration": 248
   },
   {
    "kind": "q",
    "audio": "audio/a08/02_q_a.mp3",
    "audioB": "audio/a08/02_q_b.mp3",
-   "bAt": 84,
-   "speak": 130,
+   "bAt": 49,
+   "speak": 91,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch 101%",
-    "img": "img/albums/album-101.jpg",
+    "label": "Nur noch Hollywoodreif",
+    "img": "img/songs/song-hollywoodreif.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Nur für meine Augen",
-    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "label": "Nur noch Wittenbergplatz",
+    "img": "img/songs/song-wittenbergplatz.jpg",
     "emoji": null
    },
    "pct": [
-    5,
-    95
+    21,
+    79
    ],
-   "duration": 265
+   "duration": 226
   },
   {
    "kind": "q",
    "audio": "audio/a08/03_q_a.mp3",
    "audioB": "audio/a08/03_q_b.mp3",
-   "bAt": 56,
-   "speak": 110,
+   "bAt": 41,
+   "speak": 143,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "+49 auf Repeat",
-    "img": "img/songs/song-plus49.jpg",
+    "label": "Pashanim als Lehrer",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "FTW auf Repeat",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Karamel19 als Fahrlehrer",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "pct": [
-    30,
-    70
+    54,
+    46
    ],
-   "duration": 245
+   "duration": 278
   },
   {
    "kind": "q",
    "audio": "audio/a08/04_q_a.mp3",
    "audioB": "audio/a08/04_q_b.mp3",
-   "bAt": 41,
-   "speak": 113,
+   "bAt": 39,
+   "speak": 74,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Tag mit Pashanim",
-    "img": "img/artists/pashanim.jpg",
+    "label": "Nur noch Hier",
+    "img": "img/songs/song-hier.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Tag mit Nizi19",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Nur noch 16",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "pct": [
-    99,
-    1
+    7,
+    93
    ],
-   "duration": 248
+   "duration": 209
   },
   {
    "kind": "mid",
    "audio": "audio/a08/05_mid_a.mp3",
    "audioB": "audio/a08/05_mid_b.mp3",
-   "bAt": 57,
-   "speak": 154,
+   "bAt": 53,
+   "speak": 139,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nie wieder Maka",
+    "label": "Nie wieder duschen",
     "img": null,
-    "emoji": "🧪"
+    "emoji": "🚿"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
     "img": null,
-    "emoji": "✈️"
+    "emoji": "🌳"
    },
    "pct": [
-    84,
-    16
+    98,
+    2
    ],
-   "duration": 289
+   "duration": 274
   },
   {
    "kind": "q",
    "audio": "audio/a08/06_q_a.mp3",
    "audioB": "audio/a08/06_q_b.mp3",
-   "bAt": 36,
-   "speak": 88,
+   "bAt": 81,
+   "speak": 165,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Hier löschen",
-    "img": "img/songs/song-hier.jpg",
+    "label": "1 Jahr nur Omar101",
+    "img": "img/artists/omar101.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Airwaves löschen",
-    "img": "img/songs/song-airwaves.jpg",
+    "label": "1 Jahr nur Karamel19",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "pct": [
-    82,
-    18
+    4,
+    96
    ],
-   "duration": 223
+   "duration": 300
   },
   {
    "kind": "q",
    "audio": "audio/a08/07_q_a.mp3",
    "audioB": "audio/a08/07_q_b.mp3",
-   "bAt": 47,
-   "speak": 113,
+   "bAt": 71,
+   "speak": 97,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nie wieder Pashanim",
-    "img": "img/artists/pashanim.jpg",
+    "label": "Insel: Free Game",
+    "img": "img/albums/album-free-game.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nie wieder Caney030",
-    "img": "img/artists/caney030.jpg",
+    "label": "Insel: Doktor",
+    "img": "img/albums/album-doktor.jpg",
     "emoji": null
    },
    "pct": [
-    44,
-    56
+    46,
+    54
    ],
-   "duration": 248
+   "duration": 232
   },
   {
    "kind": "q",
    "audio": "audio/a08/08_q_a.mp3",
    "audioB": "audio/a08/08_q_b.mp3",
-   "bAt": 72,
-   "speak": 138,
+   "bAt": 54,
+   "speak": 88,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Caney030 erste Reihe",
-    "img": "img/artists/caney030.jpg",
+    "label": "Zackavelli erste Reihe",
+    "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Haribo backstage",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "Souly backstage",
+    "img": "img/artists/souly.jpg",
     "emoji": null
    },
    "pct": [
-    3,
-    97
+    92,
+    8
    ],
-   "duration": 273
+   "duration": 223
   },
   {
    "kind": "outro",
    "audio": "audio/a08/09_outro.mp3",
-   "speak": 142,
+   "speak": 156,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Teile das Video mit deinen Akhs",
-   "duration": 187
+   "share": "Schick das an die 3 größten Talahons, die du kennst",
+   "duration": 201
   }
  ]
 }

@@ -3,16 +3,16 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2459,
+ "durationInFrames": 2446,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a25/00_hook_a.mp3",
    "audioB": "audio/a25/00_hook_b.mp3",
-   "bAt": 54,
+   "bAt": 61,
    "speak": 113,
    "gap": 90,
-   "hold": 49,
+   "hold": 45,
    "a": {
     "label": "Nizi19 liest deine Chats",
     "img": "img/artists/nizi19.jpg",
@@ -24,90 +24,65 @@
     "emoji": null
    },
    "pct": [
-    3,
-    97
-   ],
-   "winAudio": "audio/a25/00_hook_win.mp3",
-   "duration": 252
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a25/01_q_a.mp3",
-   "audioB": "audio/a25/01_q_b.mp3",
-   "bAt": 79,
-   "speak": 141,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nie wieder Karamel19",
-    "img": "img/artists/karamel19.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Nie wieder Omar101",
-    "img": "img/artists/omar101.jpg",
-    "emoji": null
-   },
-   "pct": [
-    78,
-    22
-   ],
-   "duration": 276
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a25/02_q_a.mp3",
-   "audioB": "audio/a25/02_q_b.mp3",
-   "bAt": 71,
-   "speak": 113,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Insel: Akh & Krach",
-    "img": "img/albums/album-akh-krach.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Insel: 101%",
-    "img": "img/albums/album-101.jpg",
-    "emoji": null
-   },
-   "pct": [
-    75,
-    25
+    1,
+    99
    ],
    "duration": 248
   },
   {
    "kind": "q",
-   "audio": "audio/a25/03_q_a.mp3",
-   "audioB": "audio/a25/03_q_b.mp3",
-   "bAt": 46,
-   "speak": 96,
+   "audio": "audio/a25/01_q_a.mp3",
+   "audioB": "audio/a25/01_q_b.mp3",
+   "bAt": 75,
+   "speak": 115,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "FTW löschen",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Insel: Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Airwaves löschen",
-    "img": "img/songs/song-airwaves.jpg",
+    "label": "Insel: Akh & Krach",
+    "img": "img/albums/album-akh-krach.jpg",
     "emoji": null
    },
    "pct": [
-    95,
-    5
+    98,
+    2
    ],
-   "duration": 231
+   "duration": 250
   },
   {
    "kind": "q",
-   "audio": "audio/a25/04_q_a.mp3",
-   "audioB": "audio/a25/04_q_b.mp3",
-   "bAt": 46,
-   "speak": 156,
+   "audio": "audio/a25/02_q_a.mp3",
+   "audioB": "audio/a25/02_q_b.mp3",
+   "bAt": 78,
+   "speak": 134,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Lucio",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Ufo361",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "pct": [
+    76,
+    24
+   ],
+   "duration": 269
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a25/03_q_a.mp3",
+   "audioB": "audio/a25/03_q_b.mp3",
+   "bAt": 71,
+   "speak": 131,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -116,22 +91,46 @@
     "emoji": null
    },
    "b": {
-    "label": "Pashanim als Mitbewohner",
+    "label": "Cano030 als Mitbewohner",
     "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "pct": [
-    78,
-    22
+    53,
+    47
    ],
-   "duration": 291
+   "duration": 266
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a25/04_q_a.mp3",
+   "audioB": "audio/a25/04_q_b.mp3",
+   "bAt": 46,
+   "speak": 86,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Superkraft löschen",
+    "img": "img/songs/song-superkraft.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "16 löschen",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "pct": [
+    5,
+    95
+   ],
+   "duration": 221
   },
   {
    "kind": "mid",
    "audio": "audio/a25/05_mid_a.mp3",
    "audioB": "audio/a25/05_mid_b.mp3",
-   "bAt": 56,
-   "speak": 151,
+   "bAt": 54,
+   "speak": 147,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -145,92 +144,92 @@
     "emoji": "🌳"
    },
    "pct": [
-    25,
-    75
+    46,
+    54
    ],
-   "duration": 286
+   "duration": 282
   },
   {
    "kind": "q",
    "audio": "audio/a25/06_q_a.mp3",
    "audioB": "audio/a25/06_q_b.mp3",
-   "bAt": 46,
-   "speak": 105,
+   "bAt": 47,
+   "speak": 89,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Kakanim erste Reihe",
-    "img": "img/artists/pashanim.jpg",
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "img/songs/song-kleiner-prinz.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Omar101 backstage",
-    "img": "img/artists/omar101.jpg",
+    "label": "CUP auf Repeat",
+    "img": "img/songs/song-cup.jpg",
     "emoji": null
    },
    "pct": [
-    2,
-    98
+    49,
+    51
    ],
-   "duration": 240
+   "duration": 224
   },
   {
    "kind": "q",
    "audio": "audio/a25/07_q_a.mp3",
    "audioB": "audio/a25/07_q_b.mp3",
-   "bAt": 39,
-   "speak": 79,
+   "bAt": 54,
+   "speak": 117,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Feature mit Mucco",
-    "img": "img/artists/mucco.jpg",
+    "label": "Nie wieder Karamel19",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Feature mit Samra",
-    "img": "img/artists/samra.jpg",
-    "emoji": null
-   },
-   "pct": [
-    93,
-    7
-   ],
-   "duration": 214
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a25/08_q_a.mp3",
-   "audioB": "audio/a25/08_q_b.mp3",
-   "bAt": 37,
-   "speak": 75,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "CUP löschen",
-    "img": "img/songs/song-cup.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Hier löschen",
-    "img": "img/songs/song-hier.jpg",
+    "label": "Nie wieder Omar101",
+    "img": "img/artists/omar101.jpg",
     "emoji": null
    },
    "pct": [
     52,
     48
    ],
-   "duration": 210
+   "duration": 252
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a25/08_q_a.mp3",
+   "audioB": "audio/a25/08_q_b.mp3",
+   "bAt": 66,
+   "speak": 103,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Caney030 erste Reihe",
+    "img": "img/artists/caney030.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Makko backstage",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "duration": 238
   },
   {
    "kind": "outro",
    "audio": "audio/a25/09_outro.mp3",
-   "speak": 166,
+   "speak": 151,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Talahons, die du kennst",
-   "duration": 211
+   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "duration": 196
   }
  ]
 }

@@ -47,7 +47,14 @@ def tts(text, out):
         data=json.dumps(body).encode(),
         headers={"xi-api-key": os.environ["ELEVENLABS_API_KEY"], "Content-Type": "application/json"})
     raw = out.with_suffix(".raw.mp3")
-    raw.write_bytes(urllib.request.urlopen(req, timeout=90).read())
+    for i in range(4):
+        try:
+            raw.write_bytes(urllib.request.urlopen(req, timeout=90).read())
+            break
+        except Exception:
+            if i == 3:
+                raise
+            __import__("time").sleep(2 ** (i + 1))
     # Stille vorne/hinten weg, Atempausen im Satz auf max. 0.25 s kuerzen
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-af",
                     "silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=-1:stop_threshold=-45dB:stop_duration=0.25",

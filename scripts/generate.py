@@ -8,6 +8,7 @@ Regeln (von Jakob):
 Aufruf: python3 scripts/generate.py 2 50
 """
 import json, random, sys
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -100,50 +101,124 @@ def pct(rng):
     return [x, 100 - x] if rng.random() < 0.5 else [100 - x, x]
 
 
-def make(n):
-    rng = random.Random(1000 + n)
-    used_pairs = set()
-    qs = []
+ALBUM_ARTISTS = {"LID": ["laca"], "101%": ["lucio"], "Mittendrin": ["lucio"], "1019": ["lucio", "nizi"], "Doktor": ["nizi"],
+                 "Akh & Krach": ["nizi", "haribo"], "Free Game": ["kalim"], "Nur für meine Augen": ["kalim"]}
+SONG_ARTIST = {t: k for t, _, k in SONGS}
+IMG = {v[1]: ("a", k) for k, v in ARTISTS.items()}
+IMG.update({img: ("s", t) for t, img, _ in SONGS})
+IMG.update({img: ("al", t) for t, img in ALBUMS})
+MAX_PAIR = 4      # gleiche Paarung hoechstens 4x ueber alle Videos
+MAX_PER_VIDEO = 2  # jeder Rapper hoechstens 2x pro Video
 
-    def artist_pair():
-        while True:
-            a = rng.choice(CORE) if rng.random() < 0.65 else rng.choice(list(ARTISTS))
-            b = rng.choice([k for k in ARTISTS if k != a])
-            if frozenset((a, b)) not in used_pairs:
-                used_pairs.add(frozenset((a, b)))
-                return a, b
 
-    def artist_q(tpls):
-        a, b = artist_pair()
-        say, la, lb = rng.choice(tpls)
-        return {"kind": "artist", "keys": [a, b], "say": say, "la": la, "lb": lb,
-                "a": {"img": ARTISTS[a][1]}, "b": {"img": ARTISTS[b][1]}}
+def label_pattern(label):
+    names = sorted({n for v in ARTISTS.values() for n in [v[0]] + v[2]} | {t for t, _, _ in SONGS} | {t for t, _ in ALBUMS},
+                   key=len, reverse=True)
+    for n in names:
+        if n in label:
+            return label.replace(n, "{}", 1)
+    return label
 
-    hook = artist_q(HOOK_Q)
-    for _ in range(4):
-        qs.append(artist_q(ARTIST_Q))
-    s1, s2 = rng.sample(SONGS, 2)
-    s3, s4 = rng.sample([s for s in SONGS if s not in (s1, s2)], 2)
-    for x, y in ((s1, s2), (s3, s4)):
-        say, la, lb = rng.choice(SONG_Q)
-        qs.append({"kind": "song", "names": [x[0], y[0]], "say": say, "la": la, "lb": lb, "a": {"img": x[1]}, "b": {"img": y[1]}})
-    x, y = rng.sample(ALBUMS, 2)
-    say, la, lb = rng.choice(ALBUM_Q)
-    qs.append({"kind": "album", "names": [x[0], y[0]], "say": say, "la": la, "lb": lb, "a": {"img": x[1]}, "b": {"img": y[1]}})
+
+class State:
+    def __init__(self):
+        self.pairs = Counter()
+        self.exact = set()
+
+    def key(self, kind, x, y):
+        return (kind,) + tuple(sorted((x, y)))
+
+    def add_existing(self, v):
+        for q in [v.get("hook")] + v["questions"]:
+            if not q or q.get("type") == "mid":
+                continue
+            a, b = IMG.get(q["a"].get("img")), IMG.get(q["b"].get("img"))
+            if not a or not b:
+                continue
+            k = self.key(a[0], a[1], b[1])
+            self.pairs[k] += 1
+            self.exact.add((k, label_pattern(q["a"]["label"])))
+
+
+def make(n, st):
+    for attempt in range(400):
+        v = try_make(n, st, random.Random(1000 * attempt + n))
+        if v:
+            return v
+    return None
+
+
+def try_make(n, st, rng):
+    per = Counter()
+    used = []  # (key, pattern) die dieses Video belegt
+
+    def ok_people(keys):
+        c = Counter(keys)
+        return all(per[k] + c[k] <= MAX_PER_VIDEO for k in c)
+
+    def take(kind, x, y, tpl_a, people):
+        k = st.key(kind, x, y)
+        pat = tpl_a.replace("{A}", "{}").replace("{B}", "{}")
+        if st.pairs[k] + sum(1 for u in used if u[0] == k) >= MAX_PAIR:
+            return False
+        if (k, pat) in st.exact or any(u == (k, pat) for u in used) or any(u[0] == k for u in used):
+            return False
+        if not ok_people(people):
+            return False
+        for p in people:
+            per[p] += 1
+        used.append((k, pat))
+        return True
+
+    def pick_artist(tpls):
+        keys = list(ARTISTS)
+        for _ in range(200):
+            a = rng.choice(CORE) if rng.random() < 0.6 else rng.choice(keys)
+            b = rng.choice([k for k in keys if k != a])
+            say, la, lb = rng.choice(tpls)
+            # seltene Paarungen bevorzugen
+            if st.pairs[st.key("a", a, b)] >= 2 and rng.random() < 0.6:
+                continue
+            if take("a", a, b, la, [a, b]):
+                return {"kind": "artist", "keys": [a, b], "say": say, "la": la, "lb": lb,
+                        "a": {"img": ARTISTS[a][1]}, "b": {"img": ARTISTS[b][1]}}
+        return None
+
+    def pick_song():
+        for _ in range(200):
+            x, y = rng.sample(SONGS, 2)
+            say, la, lb = rng.choice(SONG_Q)
+            ppl = [x[2], y[2]]
+            if take("s", x[0], y[0], la, ppl):
+                return {"kind": "song", "names": [x[0], y[0]], "say": say, "la": la, "lb": lb, "a": {"img": x[1]}, "b": {"img": y[1]}}
+        return None
+
+    def pick_album():
+        for _ in range(200):
+            x, y = rng.sample(ALBUMS, 2)
+            say, la, lb = rng.choice(ALBUM_Q)
+            ppl = ALBUM_ARTISTS[x[0]] + ALBUM_ARTISTS[y[0]]
+            if take("al", x[0], y[0], la, ppl):
+                return {"kind": "album", "names": [x[0], y[0]], "say": say, "la": la, "lb": lb, "a": {"img": x[1]}, "b": {"img": y[1]}}
+        return None
+
+    hook = pick_artist(HOOK_Q)
+    qs = [pick_artist(ARTIST_Q) for _ in range(4)] + [pick_song(), pick_song(), pick_album()]
+    if not hook or not all(qs):
+        return None
     rng.shuffle(qs)
 
-    # 1 Spitzname pro Video
     cands = [(q, i) for q in [hook] + qs if q["kind"] == "artist" for i in (0, 1) if ARTISTS[q["keys"][i]][2]]
+    if not cands:
+        return None
     nick_q, nick_i = rng.choice(cands)
     nick_q["nick"] = (nick_i, rng.choice(ARTISTS[nick_q["keys"][nick_i]][2]))
 
-    # mind. 2 TTS-Effekte: bevorzugt Namen mit Slop (Lucio oft), sonst Fueller
     slop_slots = [(q, i) for q in qs if q["kind"] == "artist" for i in (0, 1)
                   if ARTISTS[q["keys"][i]][3] and not (q.get("nick") and q["nick"][0] == i)]
     rng.shuffle(slop_slots)
     slop_slots.sort(key=lambda s: 0 if s[0]["keys"][s[1]] in ("lucio", "luciano") else 1)
-    want = rng.choice([2, 2, 3])
-    for q, i in slop_slots[:want]:
+    for q, i in slop_slots[:rng.choice([2, 2, 3])]:
         q.setdefault("slop", {})[i] = rng.choice(ARTISTS[q["keys"][i]][3])
     have = sum(len(q.get("slop", {})) for q in qs)
     for q in rng.sample(qs, max(0, 2 - have)):
@@ -158,8 +233,8 @@ def make(n):
         else:
             names = spoken = q["names"]
         say = q["say"].format(A=spoken[0], B=spoken[1])
-        if q.get("filler"):
-            say = f"[[{q['filler']}]], " + say[0].lower() + say[1:] if not say.startswith("[[") else say
+        if q.get("filler") and not say.startswith("[["):
+            say = f"[[{q['filler']}]], " + say[0].lower() + say[1:]
         p = pct(rng)
         out = {"say": say, "a": {"label": q["la"].format(A=names[0], B=names[1]), "img": q["a"]["img"]},
                "b": {"label": q["lb"].format(A=names[0], B=names[1]), "img": q["b"]["img"]}, "pct": p}
@@ -177,6 +252,9 @@ def make(n):
     h = render(hook)
     h["type"] = "hook"
     share = rng.choice(SHARE)
+    for k, pat in used:
+        st.pairs[k] += 1
+        st.exact.add((k, pat))
     return {
         "id": f"a{n:02d}", "channel": "A", "handle": "@akhmachtkrach19", "hook": h, "questions": questions,
         "outro": {"say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!", "title": "WIE OFT LAGST DU RICHTIG, AKH?",
@@ -185,8 +263,21 @@ def make(n):
 
 
 if __name__ == "__main__":
+    # python3 scripts/generate.py <erstes neues> <letztes>  (alle Videos davor bleiben fest und zaehlen mit)
     a, b = int(sys.argv[1]), int(sys.argv[2])
+    st = State()
+    for f in sorted(OUT.glob("a*.json")):
+        if int(f.stem[1:]) < a:
+            st.add_existing(json.loads(f.read_text()))
+    made = 0
     for n in range(a, b + 1):
-        v = make(n)
+        v = make(n, st)
+        if not v:
+            print(f"a{n:02d}: keine Kombination mehr moeglich, stoppe")
+            break
         (OUT / f"{v['id']}.json").write_text(json.dumps(v, ensure_ascii=False, indent=1))
-    print(f"{b - a + 1} Skripte geschrieben")
+        made += 1
+    for f in OUT.glob("a*.json"):
+        if int(f.stem[1:]) >= a + made:
+            f.unlink()
+    print(f"{made} Skripte geschrieben")

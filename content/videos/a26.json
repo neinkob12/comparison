@@ -13,29 +13,29 @@
    "img": "artists/kalim.jpg"
   },
   "pct": [
-   6,
-   94
+   7,
+   93
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "[[Kaaaaaaaaa-liiiiim]] als großer Bruder, oder Omar101 als Mitbewohner?",
+   "say": "Ein Tag mit Souly, oder ein Tag mit [[Kaaaaaaaaa-liiiiim]]?",
    "a": {
-    "label": "Kalim als Bruder",
-    "img": "artists/kalim.jpg"
+    "label": "1 Tag mit Souly",
+    "img": "artists/souly.jpg"
    },
    "b": {
-    "label": "Omar101 als Mitbewohner",
-    "img": "artists/omar101.jpg"
+    "label": "1 Tag mit Kalim",
+    "img": "artists/kalim.jpg"
    },
    "pct": [
-    54,
-    46
+    97,
+    3
    ]
   },
   {
-   "say": "Karamel19 kocht für dich, oder Caney030 fährt dich nach Hause?",
+   "say": "[[Karaaaaaameeeeeel Eins Neun]] kocht für dich, oder Caney030 fährt dich nach Hause?",
    "a": {
     "label": "Karamel19 kocht",
     "img": "artists/karamel19.jpg"
@@ -45,38 +45,38 @@
     "img": "artists/caney030.jpg"
    },
    "pct": [
-    9,
-    91
+    5,
+    95
    ]
   },
   {
-   "say": "Wittenbergplatz auf Dauerschleife, oder CUP auf Dauerschleife?",
+   "say": "Wittenbergplatz auf Dauerschleife, oder Superkraft auf Dauerschleife?",
    "a": {
     "label": "Wittenbergplatz auf Repeat",
     "img": "songs/song-wittenbergplatz.jpg"
    },
    "b": {
-    "label": "CUP auf Repeat",
-    "img": "songs/song-cup.jpg"
+    "label": "Superkraft auf Repeat",
+    "img": "songs/song-superkraft.jpg"
    },
    "pct": [
-    16,
-    84
+    47,
+    53
    ]
   },
   {
-   "say": "[[Lussssssiiiiiiiooooooooo]] als großer Bruder, oder Lucio als Mitbewohner?",
+   "say": "Nie wieder Caney030 hören, oder nie wieder Omar101 hören?",
    "a": {
-    "label": "Lucio als Bruder",
-    "img": "artists/lucio101.jpg"
+    "label": "Nie wieder Caney030",
+    "img": "artists/caney030.jpg"
    },
    "b": {
-    "label": "Lucio als Mitbewohner",
-    "img": "artists/luciano.jpg"
+    "label": "Nie wieder Omar101",
+    "img": "artists/omar101.jpg"
    },
    "pct": [
-    3,
-    97
+    2,
+    98
    ]
   },
   {
@@ -91,53 +91,53 @@
     "emoji": "🌳"
    },
    "pct": [
+    2,
+    98
+   ]
+  },
+  {
+   "say": "+49 für immer löschen, oder Sommergewitter für immer löschen?",
+   "a": {
+    "label": "+49 löschen",
+    "img": "songs/song-plus49.jpg"
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
     8,
     92
    ]
   },
   {
-   "say": "Nur noch FTW hören, oder nur noch Kleiner Prinz?",
+   "say": "Würdest du eher ein Jahr nur [[Muuuuuutschoooooo]] hören, oder ein Jahr nur Nils Zimmermann?",
    "a": {
-    "label": "Nur noch FTW",
-    "img": "songs/song-ftw.jpg"
+    "label": "1 Jahr nur Mucco",
+    "img": "artists/mucco.jpg"
    },
    "b": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "1 Jahr nur Nils Zimmermann",
+    "img": "artists/nizi19.jpg"
    },
    "pct": [
-    55,
-    45
+    8,
+    92
    ]
   },
   {
-   "say": "Auf die einsame Insel nimmst du Mittendrin mit, oder Akh & Krach?",
+   "say": "Nur noch das Album LID hören, oder nur noch Doktor?",
    "a": {
-    "label": "Insel: Mittendrin",
-    "img": "albums/album-mittendrin.jpg"
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
    },
    "b": {
-    "label": "Insel: Akh & Krach",
-    "img": "albums/album-akh-krach.jpg"
+    "label": "Nur noch Doktor",
+    "img": "albums/album-doktor.jpg"
    },
    "pct": [
-    84,
-    16
-   ]
-  },
-  {
-   "say": "Ein Feature mit Haribo, oder ein Feature mit Omar101?",
-   "a": {
-    "label": "Feature mit Haribo",
-    "img": "artists/yuyu19.jpg"
-   },
-   "b": {
-    "label": "Feature mit Omar101",
-    "img": "artists/omar101.jpg"
-   },
-   "pct": [
-    52,
-    48
+    77,
+    23
    ]
   }
  ],
@@ -145,7 +145,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Talahons, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Talahons, die du kennst!"
+  "share": "Schick das an die 3 größten Stoner, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Stoner, die du kennst!"
  }
 }

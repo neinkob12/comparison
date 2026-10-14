@@ -3,135 +3,134 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2511,
+ "durationInFrames": 2415,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a40/00_hook_a.mp3",
    "audioB": "audio/a40/00_hook_b.mp3",
-   "bAt": 50,
-   "speak": 101,
+   "bAt": 40,
+   "speak": 109,
    "gap": 90,
-   "hold": 53,
+   "hold": 45,
    "a": {
-    "label": "Haribo als Stiefvater",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "Makko liest deine Chats",
+    "img": "img/artists/makko.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Luciano als Klassenlehrer",
-    "img": "img/artists/luciano.jpg",
+    "label": "Nizi19 sieht deinen Verlauf",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "pct": [
-    55,
-    45
+    93,
+    7
    ],
-   "winAudio": "audio/a40/00_hook_win.mp3",
    "duration": 244
   },
   {
    "kind": "q",
    "audio": "audio/a40/01_q_a.mp3",
    "audioB": "audio/a40/01_q_b.mp3",
-   "bAt": 51,
-   "speak": 106,
+   "bAt": 75,
+   "speak": 103,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Hollywoodreif auf Repeat",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "Insel: Mittendrin",
+    "img": "img/albums/album-mittendrin.jpg",
     "emoji": null
    },
    "b": {
-    "label": "FTW auf Repeat",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Insel: Free Game",
+    "img": "img/albums/album-free-game.jpg",
     "emoji": null
    },
    "pct": [
-    6,
-    94
+    76,
+    24
    ],
-   "duration": 241
+   "duration": 238
   },
   {
    "kind": "q",
    "audio": "audio/a40/02_q_a.mp3",
    "audioB": "audio/a40/02_q_b.mp3",
    "bAt": 39,
-   "speak": 95,
+   "speak": 80,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Tag mit Lacazette",
-    "img": "img/artists/lacazette.jpg",
+    "label": "Nur noch CUP",
+    "img": "img/songs/song-cup.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Tag mit Caney030",
-    "img": "img/artists/caney030.jpg",
+    "label": "Nur noch Wittenbergplatz",
+    "img": "img/songs/song-wittenbergplatz.jpg",
     "emoji": null
    },
    "pct": [
-    9,
-    91
+    96,
+    4
    ],
-   "duration": 230
+   "duration": 215
   },
   {
    "kind": "q",
    "audio": "audio/a40/03_q_a.mp3",
    "audioB": "audio/a40/03_q_b.mp3",
-   "bAt": 84,
-   "speak": 110,
+   "bAt": 82,
+   "speak": 133,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Insel: Nur für meine Augen",
-    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
+    "label": "Nizi19 als Bruder",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Insel: Doktor",
-    "img": "img/albums/album-doktor.jpg",
+    "label": "Samra als Mitbewohner",
+    "img": "img/artists/samra.jpg",
     "emoji": null
    },
    "pct": [
-    49,
-    51
+    73,
+    27
    ],
-   "duration": 245
+   "duration": 268
   },
   {
    "kind": "q",
    "audio": "audio/a40/04_q_a.mp3",
    "audioB": "audio/a40/04_q_b.mp3",
-   "bAt": 71,
-   "speak": 127,
+   "bAt": 39,
+   "speak": 96,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Kalim kocht",
-    "img": "img/artists/kalim.jpg",
+    "label": "Haribo kocht",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Zackavelli fährt dich",
-    "img": "img/artists/zackavelli.jpg",
+    "label": "Makko fährt dich",
+    "img": "img/artists/makko.jpg",
     "emoji": null
    },
    "pct": [
-    9,
-    91
+    46,
+    54
    ],
-   "duration": 262
+   "duration": 231
   },
   {
    "kind": "mid",
    "audio": "audio/a40/05_mid_a.mp3",
    "audioB": "audio/a40/05_mid_b.mp3",
-   "bAt": 59,
-   "speak": 154,
+   "bAt": 60,
+   "speak": 168,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -145,82 +144,82 @@
     "emoji": "✈️"
    },
    "pct": [
-    48,
-    52
+    95,
+    5
    ],
-   "duration": 289
+   "duration": 303
   },
   {
    "kind": "q",
    "audio": "audio/a40/06_q_a.mp3",
    "audioB": "audio/a40/06_q_b.mp3",
-   "bAt": 43,
-   "speak": 101,
+   "bAt": 46,
+   "speak": 133,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Makko als Bruder",
-    "img": "img/artists/makko.jpg",
+    "label": "Lucio erste Reihe",
+    "img": "img/artists/luciano.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Doktor19 als Mitbewohner",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Ufo361 backstage",
+    "img": "img/artists/ufo361.jpg",
     "emoji": null
    },
    "pct": [
-    93,
-    7
+    54,
+    46
    ],
-   "duration": 236
+   "duration": 268
   },
   {
    "kind": "q",
    "audio": "audio/a40/07_q_a.mp3",
    "audioB": "audio/a40/07_q_b.mp3",
-   "bAt": 45,
-   "speak": 99,
+   "bAt": 47,
+   "speak": 78,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Airwaves auf Repeat",
-    "img": "img/songs/song-airwaves.jpg",
+    "label": "Nur noch Sommergewitter",
+    "img": "img/songs/song-sommergewitter.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Wittenbergplatz auf Repeat",
-    "img": "img/songs/song-wittenbergplatz.jpg",
+    "label": "Nur noch CUP",
+    "img": "img/songs/song-cup.jpg",
     "emoji": null
    },
    "pct": [
-    53,
-    47
+    69,
+    31
    ],
-   "duration": 234
+   "duration": 213
   },
   {
    "kind": "q",
    "audio": "audio/a40/08_q_a.mp3",
    "audioB": "audio/a40/08_q_b.mp3",
-   "bAt": 110,
-   "speak": 191,
+   "bAt": 34,
+   "speak": 96,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Jahr nur Karamel19",
-    "img": "img/artists/karamel19.jpg",
+    "label": "1 Tag mit Mucco",
+    "img": "img/artists/mucco.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Jahr nur Kalim",
-    "img": "img/artists/kalim.jpg",
+    "label": "1 Tag mit Caney030",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "pct": [
-    56,
-    44
+    34,
+    66
    ],
-   "duration": 326
+   "duration": 231
   },
   {
    "kind": "outro",
@@ -229,7 +228,7 @@
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "share": "Schick das an die 3 größten Talahons, die du kennst",
    "duration": 204
   }
  ]

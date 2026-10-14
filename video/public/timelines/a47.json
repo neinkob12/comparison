@@ -3,134 +3,134 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2425,
+ "durationInFrames": 2448,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a47/00_hook_a.mp3",
    "audioB": "audio/a47/00_hook_b.mp3",
-   "bAt": 64,
-   "speak": 112,
+   "bAt": 38,
+   "speak": 87,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Pashanim im Fahrstuhl",
-    "img": "img/artists/pashanim.jpg",
+    "label": "1 Nacht mit Samra",
+    "img": "img/artists/samra.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Kalim im Bällebad",
-    "img": "img/artists/kalim.jpg",
+    "label": "Nie wieder Luciano",
+    "img": "img/artists/luciano.jpg",
     "emoji": null
    },
    "pct": [
-    1,
-    99
+    23,
+    77
    ],
-   "duration": 247
+   "duration": 222
   },
   {
    "kind": "q",
    "audio": "audio/a47/01_q_a.mp3",
    "audioB": "audio/a47/01_q_b.mp3",
-   "bAt": 36,
-   "speak": 73,
+   "bAt": 79,
+   "speak": 135,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch Hier",
-    "img": "img/songs/song-hier.jpg",
+    "label": "Nur noch 1019",
+    "img": "img/albums/album-1019.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch FTW",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Nur noch Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
     "emoji": null
    },
    "pct": [
-    54,
-    46
+    95,
+    5
    ],
-   "duration": 208
+   "duration": 270
   },
   {
    "kind": "q",
    "audio": "audio/a47/02_q_a.mp3",
    "audioB": "audio/a47/02_q_b.mp3",
-   "bAt": 42,
-   "speak": 80,
+   "bAt": 53,
+   "speak": 104,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch Superkraft",
-    "img": "img/songs/song-superkraft.jpg",
+    "label": "Sommergewitter auf Repeat",
+    "img": "img/songs/song-sommergewitter.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Airwaves auf Repeat",
+    "img": "img/songs/song-airwaves.jpg",
     "emoji": null
    },
    "pct": [
-    34,
-    66
+    47,
+    53
    ],
-   "duration": 215
+   "duration": 239
   },
   {
    "kind": "q",
    "audio": "audio/a47/03_q_a.mp3",
    "audioB": "audio/a47/03_q_b.mp3",
-   "bAt": 68,
-   "speak": 124,
+   "bAt": 44,
+   "speak": 84,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lucio erste Reihe",
-    "img": "img/artists/lucio101.jpg",
+    "label": "16 auf Repeat",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Omar101 backstage",
-    "img": "img/artists/omar101.jpg",
+    "label": "Hier auf Repeat",
+    "img": "img/songs/song-hier.jpg",
     "emoji": null
    },
    "pct": [
-    99,
-    1
+    48,
+    52
    ],
-   "duration": 259
+   "duration": 219
   },
   {
    "kind": "q",
    "audio": "audio/a47/04_q_a.mp3",
    "audioB": "audio/a47/04_q_b.mp3",
-   "bAt": 71,
-   "speak": 118,
+   "bAt": 75,
+   "speak": 136,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Feature mit Nizi19",
-    "img": "img/artists/nizi19.jpg",
+    "label": "1 Tag mit Karamel19",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Feature mit Kakazette",
+    "label": "1 Tag mit Lacazette",
     "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "pct": [
-    77,
-    23
+    4,
+    96
    ],
-   "duration": 253
+   "duration": 271
   },
   {
    "kind": "mid",
    "audio": "audio/a47/05_mid_a.mp3",
    "audioB": "audio/a47/05_mid_b.mp3",
-   "bAt": 55,
-   "speak": 157,
+   "bAt": 54,
+   "speak": 160,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -139,97 +139,97 @@
     "emoji": "🧪"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
     "img": null,
-    "emoji": "🌳"
+    "emoji": "💌"
    },
    "pct": [
-    48,
-    52
+    66,
+    34
    ],
-   "duration": 292
+   "duration": 295
   },
   {
    "kind": "q",
    "audio": "audio/a47/06_q_a.mp3",
    "audioB": "audio/a47/06_q_b.mp3",
-   "bAt": 66,
-   "speak": 94,
+   "bAt": 43,
+   "speak": 86,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Insel: Doktor",
-    "img": "img/albums/album-doktor.jpg",
+    "label": "Kakko als Bruder",
+    "img": "img/artists/makko.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Insel: Mittendrin",
-    "img": "img/albums/album-mittendrin.jpg",
+    "label": "Haribo als Mitbewohner",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "pct": [
-    92,
-    8
+    97,
+    3
    ],
-   "duration": 229
+   "duration": 221
   },
   {
    "kind": "q",
    "audio": "audio/a47/07_q_a.mp3",
    "audioB": "audio/a47/07_q_b.mp3",
-   "bAt": 42,
-   "speak": 140,
+   "bAt": 56,
+   "speak": 112,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Feature mit Kalim",
-    "img": "img/artists/kalim.jpg",
+    "label": "Nizi19 kocht",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Feature mit Haribo",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "Lacazette fährt dich",
+    "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "pct": [
     84,
     16
    ],
-   "duration": 275
+   "duration": 247
   },
   {
    "kind": "q",
    "audio": "audio/a47/08_q_a.mp3",
    "audioB": "audio/a47/08_q_b.mp3",
-   "bAt": 50,
-   "speak": 107,
+   "bAt": 92,
+   "speak": 136,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nie wieder Nizi19",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Karamel19 als Bruder",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nie wieder Ufo361",
-    "img": "img/artists/ufo361.jpg",
+    "label": "Makko als Mitbewohner",
+    "img": "img/artists/makko.jpg",
     "emoji": null
    },
    "pct": [
-    55,
-    45
+    22,
+    78
    ],
-   "duration": 242
+   "duration": 271
   },
   {
    "kind": "outro",
    "audio": "audio/a47/09_outro.mp3",
-   "speak": 160,
+   "speak": 148,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Stoner, die du kennst",
-   "duration": 205
+   "share": "Schick das an die 3 größten Ottos, die du kennst",
+   "duration": 193
   }
  ]
 }

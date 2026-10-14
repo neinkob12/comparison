@@ -3,91 +3,68 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2437,
+ "durationInFrames": 2554,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a11/00_hook_a.mp3",
    "audioB": "audio/a11/00_hook_b.mp3",
-   "bAt": 61,
-   "speak": 121,
+   "bAt": 73,
+   "speak": 116,
    "gap": 90,
-   "hold": 45,
+   "hold": 50,
    "a": {
-    "label": "Nizi19 als Stiefvater",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Haribo im Fahrstuhl",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Karamel19 als Klassenlehrer",
-    "img": "img/artists/karamel19.jpg",
+    "label": "Souly im Bällebad",
+    "img": "img/artists/souly.jpg",
     "emoji": null
    },
    "pct": [
-    24,
-    76
+    96,
+    4
    ],
+   "winAudio": "audio/a11/00_hook_win.mp3",
    "duration": 256
   },
   {
    "kind": "q",
    "audio": "audio/a11/01_q_a.mp3",
    "audioB": "audio/a11/01_q_b.mp3",
-   "bAt": 59,
-   "speak": 115,
+   "bAt": 42,
+   "speak": 96,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Cano030 erste Reihe",
-    "img": "img/artists/pashanim.jpg",
+    "label": "CUP auf Repeat",
+    "img": "img/songs/song-cup.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Omar101 backstage",
-    "img": "img/artists/omar101.jpg",
+    "label": "Sommergewitter auf Repeat",
+    "img": "img/songs/song-sommergewitter.jpg",
     "emoji": null
    },
    "pct": [
-    8,
-    92
+    27,
+    73
    ],
-   "duration": 250
+   "duration": 231
   },
   {
    "kind": "q",
    "audio": "audio/a11/02_q_a.mp3",
    "audioB": "audio/a11/02_q_b.mp3",
-   "bAt": 70,
-   "speak": 110,
+   "bAt": 68,
+   "speak": 102,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Luciano als Lehrer",
-    "img": "img/artists/luciano.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Samra als Fahrlehrer",
-    "img": "img/artists/samra.jpg",
-    "emoji": null
-   },
-   "pct": [
-    6,
-    94
-   ],
-   "duration": 245
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a11/03_q_a.mp3",
-   "audioB": "audio/a11/03_q_b.mp3",
-   "bAt": 61,
-   "speak": 93,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nur noch Mittendrin",
-    "img": "img/albums/album-mittendrin.jpg",
+    "label": "Nur noch Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
     "emoji": null
    },
    "b": {
@@ -96,140 +73,164 @@
     "emoji": null
    },
    "pct": [
-    3,
-    97
+    1,
+    99
    ],
-   "duration": 228
+   "duration": 237
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a11/03_q_a.mp3",
+   "audioB": "audio/a11/03_q_b.mp3",
+   "bAt": 96,
+   "speak": 161,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Haribo",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Pashanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
+   "pct": [
+    16,
+    84
+   ],
+   "duration": 296
   },
   {
    "kind": "q",
    "audio": "audio/a11/04_q_a.mp3",
    "audioB": "audio/a11/04_q_b.mp3",
-   "bAt": 41,
-   "speak": 85,
+   "bAt": 67,
+   "speak": 122,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Feature mit Makko",
-    "img": "img/artists/makko.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Feature mit Lacazette",
+    "label": "1 Jahr nur Kakazette",
     "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
+   "b": {
+    "label": "1 Jahr nur Nizi19",
+    "img": "img/artists/nizi19.jpg",
+    "emoji": null
+   },
    "pct": [
-    95,
-    5
+    27,
+    73
    ],
-   "duration": 220
+   "duration": 257
   },
   {
    "kind": "mid",
    "audio": "audio/a11/05_mid_a.mp3",
    "audioB": "audio/a11/05_mid_b.mp3",
-   "bAt": 57,
-   "speak": 151,
+   "bAt": 59,
+   "speak": 175,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nie wieder duschen",
+    "label": "Nie wieder Maka",
     "img": null,
-    "emoji": "🚿"
+    "emoji": "🧪"
    },
    "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "label": "Date mit der 3. Person bei „Teilen“",
     "img": null,
-    "emoji": "🌳"
+    "emoji": "💘"
    },
    "pct": [
-    48,
-    52
+    2,
+    98
    ],
-   "duration": 286
+   "duration": 310
   },
   {
    "kind": "q",
    "audio": "audio/a11/06_q_a.mp3",
    "audioB": "audio/a11/06_q_b.mp3",
-   "bAt": 46,
-   "speak": 101,
+   "bAt": 93,
+   "speak": 173,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "FTW löschen",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Lucio kocht",
+    "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Hollywoodreif löschen",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "Caney030 fährt dich",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "pct": [
-    1,
-    99
+    53,
+    47
    ],
-   "duration": 236
+   "duration": 308
   },
   {
    "kind": "q",
    "audio": "audio/a11/07_q_a.mp3",
    "audioB": "audio/a11/07_q_b.mp3",
-   "bAt": 77,
-   "speak": 122,
+   "bAt": 42,
+   "speak": 104,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lacazette kocht",
-    "img": "img/artists/lacazette.jpg",
+    "label": "1 Tag mit Zackavelli",
+    "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Souly fährt dich",
-    "img": "img/artists/souly.jpg",
+    "label": "1 Tag mit Caney030",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "pct": [
-    22,
-    78
+    2,
+    98
    ],
-   "duration": 257
+   "duration": 239
   },
   {
    "kind": "q",
    "audio": "audio/a11/08_q_a.mp3",
    "audioB": "audio/a11/08_q_b.mp3",
-   "bAt": 57,
-   "speak": 111,
+   "bAt": 42,
+   "speak": 77,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Sommergewitter auf Repeat",
-    "img": "img/songs/song-sommergewitter.jpg",
+    "label": "Nur noch Superkraft",
+    "img": "img/songs/song-superkraft.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Kleiner Prinz auf Repeat",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Nur noch 16",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "pct": [
-    3,
-    97
+    93,
+    7
    ],
-   "duration": 246
+   "duration": 212
   },
   {
    "kind": "outro",
    "audio": "audio/a11/09_outro.mp3",
-   "speak": 168,
+   "speak": 163,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 213
+   "share": "Schick das an die 3 größten Stoner, die du kennst",
+   "duration": 208
   }
  ]
 }

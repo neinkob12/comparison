@@ -20,99 +20,22 @@
  },
  "questions": [
   {
-   "say": "FTW auf Dauerschleife, oder Sommergewitter auf Dauerschleife?",
-   "a": {
-    "label": "FTW auf Repeat",
-    "img": "songs/song-ftw.jpg"
-   },
-   "b": {
-    "label": "Sommergewitter auf Repeat",
-    "img": "songs/song-sommergewitter.jpg"
-   },
-   "pct": [
-    51,
-    49
-   ]
-  },
-  {
-   "say": "+49 auf Dauerschleife, oder Kleiner Prinz auf Dauerschleife?",
-   "a": {
-    "label": "+49 auf Repeat",
-    "img": "songs/song-plus49.jpg"
-   },
-   "b": {
-    "label": "Kleiner Prinz auf Repeat",
-    "img": "songs/song-kleiner-prinz.jpg"
-   },
-   "pct": [
-    2,
-    98
-   ]
-  },
-  {
-   "say": "Ein Feature mit Ufo187, oder ein Feature mit [[Haaaaarrrriiiiibooooooo]]?",
-   "a": {
-    "label": "Feature mit Ufo187",
-    "img": "artists/ufo361.jpg"
-   },
-   "b": {
-    "label": "Feature mit Haribo",
-    "img": "artists/yuyu19.jpg"
-   },
-   "pct": [
-    8,
-    92
-   ],
-   "winSay": "Ohne Finger, Akh!"
-  },
-  {
-   "say": "Samra als Lehrer, oder [[Muuuuuutschoooooo]] als Fahrlehrer?",
-   "a": {
-    "label": "Samra als Lehrer",
-    "img": "artists/samra.jpg"
-   },
-   "b": {
-    "label": "Mucco als Fahrlehrer",
-    "img": "artists/mucco.jpg"
-   },
-   "pct": [
-    56,
-    44
-   ]
-  },
-  {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
-   "a": {
-    "label": "Nie wieder duschen",
-    "emoji": "🚿"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
-    "emoji": "🌳"
-   },
-   "pct": [
-    18,
-    82
-   ]
-  },
-  {
-   "say": "Nur noch das Album Mittendrin hören, oder nur noch Doktor?",
+   "say": "Nur noch das Album Mittendrin hören, oder nur noch 1019?",
    "a": {
     "label": "Nur noch Mittendrin",
     "img": "albums/album-mittendrin.jpg"
    },
    "b": {
-    "label": "Nur noch Doktor",
-    "img": "albums/album-doktor.jpg"
+    "label": "Nur noch 1019",
+    "img": "albums/album-1019.jpg"
    },
    "pct": [
-    75,
-    25
+    1,
+    99
    ]
   },
   {
-   "say": "Lacazette als Lehrer, oder Mucco als Fahrlehrer?",
+   "say": "Lacazette als Lehrer, oder [[Muuuuuutschoooooo]] als Fahrlehrer?",
    "a": {
     "label": "Lacazette als Lehrer",
     "img": "artists/lacazette.jpg"
@@ -122,12 +45,73 @@
     "img": "artists/mucco.jpg"
    },
    "pct": [
-    34,
-    66
+    95,
+    5
    ]
   },
   {
-   "say": "[[Niiiiiiiisssssiiiii]] als großer Bruder, oder Ufo361 als Mitbewohner?",
+   "say": "Ein Feature mit Ufo361, oder ein Feature mit Yuyu?",
+   "a": {
+    "label": "Feature mit Ufo361",
+    "img": "artists/ufo361.jpg"
+   },
+   "b": {
+    "label": "Feature mit Yuyu",
+    "img": "artists/yuyu19.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  },
+  {
+   "say": "16 auf Dauerschleife, oder Sommergewitter auf Dauerschleife?",
+   "a": {
+    "label": "16 auf Repeat",
+    "img": "songs/song-16.jpg"
+   },
+   "b": {
+    "label": "Sommergewitter auf Repeat",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
+   },
+   "pct": [
+    9,
+    91
+   ]
+  },
+  {
+   "say": "FTW für immer löschen, oder Sommergewitter für immer löschen?",
+   "a": {
+    "label": "FTW löschen",
+    "img": "songs/song-ftw.jpg"
+   },
+   "b": {
+    "label": "Sommergewitter löschen",
+    "img": "songs/song-sommergewitter.jpg"
+   },
+   "pct": [
+    75,
+    25
+   ]
+  },
+  {
+   "say": "[[Nisssssiiiiiijaaaaaaa]] als großer Bruder, oder Ufo361 als Mitbewohner?",
    "a": {
     "label": "Nizi19 als Bruder",
     "img": "artists/nizi19.jpg"
@@ -135,6 +119,21 @@
    "b": {
     "label": "Ufo361 als Mitbewohner",
     "img": "artists/ufo361.jpg"
+   },
+   "pct": [
+    34,
+    66
+   ]
+  },
+  {
+   "say": "Samra als Lehrer, oder Mucco als Fahrlehrer?",
+   "a": {
+    "label": "Samra als Lehrer",
+    "img": "artists/samra.jpg"
+   },
+   "b": {
+    "label": "Mucco als Fahrlehrer",
+    "img": "artists/mucco.jpg"
    },
    "pct": [
     44,

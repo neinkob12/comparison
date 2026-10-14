@@ -3,80 +3,80 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Samra kommt zu deinem Abiball, oder Luciano zu deiner Hochzeit?",
+  "say": "Zackavelli kommt zu deinem Abiball, oder Luciano zu deiner Hochzeit?",
   "a": {
-   "label": "Samra am Abiball",
-   "img": "artists/samra.jpg"
+   "label": "Zackavelli am Abiball",
+   "img": "artists/zackavelli.jpg"
   },
   "b": {
    "label": "Luciano auf der Hochzeit",
    "img": "artists/luciano.jpg"
   },
   "pct": [
-   33,
-   67
+   48,
+   52
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Nur noch das Album Free Game hören, oder nur noch Nur für meine Augen?",
+   "say": "Ein Tag mit Karamel19, oder ein Tag mit Souly?",
    "a": {
-    "label": "Nur noch Free Game",
-    "img": "albums/album-free-game.jpg"
+    "label": "1 Tag mit Karamel19",
+    "img": "artists/karamel19.jpg"
    },
    "b": {
-    "label": "Nur noch Nur für meine Augen",
-    "img": "albums/album-nur-fuer-meine-augen.jpg"
-   },
-   "pct": [
-    46,
-    54
-   ]
-  },
-  {
-   "say": "Ein Tag mit [[Nisssssiiiiiijaaaaaaa]], oder ein Tag mit Zackavelli?",
-   "a": {
-    "label": "1 Tag mit Nizi19",
-    "img": "artists/nizi19.jpg"
-   },
-   "b": {
-    "label": "1 Tag mit Zackavelli",
-    "img": "artists/zackavelli.jpg"
-   },
-   "pct": [
-    1,
-    99
-   ]
-  },
-  {
-   "say": "Nur noch Hollywoodreif hören, oder nur noch Wittenbergplatz?",
-   "a": {
-    "label": "Nur noch Hollywoodreif",
-    "img": "songs/song-hollywoodreif.jpg"
-   },
-   "b": {
-    "label": "Nur noch Wittenbergplatz",
-    "img": "songs/song-wittenbergplatz.jpg"
-   },
-   "pct": [
-    52,
-    48
-   ]
-  },
-  {
-   "say": "Nie wieder Kakazette hören, oder nie wieder Souly hören?",
-   "a": {
-    "label": "Nie wieder Kakazette",
-    "img": "artists/lacazette.jpg"
-   },
-   "b": {
-    "label": "Nie wieder Souly",
+    "label": "1 Tag mit Souly",
     "img": "artists/souly.jpg"
    },
    "pct": [
-    55,
-    45
+    3,
+    97
+   ]
+  },
+  {
+   "say": "Hollywoodreif auf Dauerschleife, oder Airwaves auf Dauerschleife?",
+   "a": {
+    "label": "Hollywoodreif auf Repeat",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "Airwaves auf Repeat",
+    "img": "songs/song-airwaves.jpg"
+   },
+   "pct": [
+    8,
+    92
+   ]
+  },
+  {
+   "say": "Luciano in der ersten Reihe, oder Samra backstage?",
+   "a": {
+    "label": "Luciano erste Reihe",
+    "img": "artists/lucio101.jpg"
+   },
+   "b": {
+    "label": "Samra backstage",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "say": "Nur noch das Album Akh & Krach hören, oder nur noch LID?",
+   "a": {
+    "label": "Nur noch Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "b": {
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
+   },
+   "pct": [
+    17,
+    83
    ]
   },
   {
@@ -91,53 +91,53 @@
     "emoji": "🌳"
    },
    "pct": [
-    26,
-    74
+    52,
+    48
    ]
   },
   {
-   "say": "Airwaves auf Dauerschleife, oder CUP auf Dauerschleife?",
+   "say": "Würdest du eher ein Jahr nur [[Lakaaaaaaasetttttttt]] hören, oder ein Jahr nur Caney030?",
    "a": {
-    "label": "Airwaves auf Repeat",
-    "img": "songs/song-airwaves.jpg"
+    "label": "1 Jahr nur Lacazette",
+    "img": "artists/lacazette.jpg"
    },
    "b": {
-    "label": "CUP auf Repeat",
-    "img": "songs/song-cup.jpg"
-   },
-   "pct": [
-    9,
-    91
-   ]
-  },
-  {
-   "say": "Ein Tag mit Souly, oder ein Tag mit Caney030?",
-   "a": {
-    "label": "1 Tag mit Souly",
-    "img": "artists/souly.jpg"
-   },
-   "b": {
-    "label": "1 Tag mit Caney030",
+    "label": "1 Jahr nur Caney030",
     "img": "artists/caney030.jpg"
    },
    "pct": [
-    96,
-    4
+    4,
+    96
    ]
   },
   {
-   "say": "[[Luuuuuussssiiiiiooooo]] kocht für dich, oder Makko fährt dich nach Hause?",
+   "say": "Airwaves für immer löschen, oder Wittenbergplatz für immer löschen?",
    "a": {
-    "label": "Lucio kocht",
-    "img": "artists/lucio101.jpg"
+    "label": "Airwaves löschen",
+    "img": "songs/song-airwaves.jpg"
    },
    "b": {
-    "label": "Makko fährt dich",
-    "img": "artists/makko.jpg"
+    "label": "Wittenbergplatz löschen",
+    "img": "songs/song-wittenbergplatz.jpg"
    },
    "pct": [
-    1,
-    99
+    8,
+    92
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur [[Kaaaaaaaaa-liiiiim]] hören, oder ein Jahr nur Mucco?",
+   "a": {
+    "label": "1 Jahr nur Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Mucco",
+    "img": "artists/mucco.jpg"
+   },
+   "pct": [
+    31,
+    69
    ]
   }
  ],

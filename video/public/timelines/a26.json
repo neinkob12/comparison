@@ -3,14 +3,14 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2435,
+ "durationInFrames": 2568,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a26/00_hook_a.mp3",
    "audioB": "audio/a26/00_hook_b.mp3",
    "bAt": 68,
-   "speak": 115,
+   "speak": 113,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -24,41 +24,41 @@
     "emoji": null
    },
    "pct": [
-    6,
-    94
+    7,
+    93
    ],
-   "duration": 250
+   "duration": 248
   },
   {
    "kind": "q",
    "audio": "audio/a26/01_q_a.mp3",
    "audioB": "audio/a26/01_q_b.mp3",
-   "bAt": 63,
-   "speak": 124,
+   "bAt": 38,
+   "speak": 112,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Kalim als Bruder",
-    "img": "img/artists/kalim.jpg",
+    "label": "1 Tag mit Souly",
+    "img": "img/artists/souly.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Omar101 als Mitbewohner",
-    "img": "img/artists/omar101.jpg",
+    "label": "1 Tag mit Kalim",
+    "img": "img/artists/kalim.jpg",
     "emoji": null
    },
    "pct": [
-    54,
-    46
+    97,
+    3
    ],
-   "duration": 259
+   "duration": 247
   },
   {
    "kind": "q",
    "audio": "audio/a26/02_q_a.mp3",
    "audioB": "audio/a26/02_q_b.mp3",
-   "bAt": 56,
-   "speak": 129,
+   "bAt": 100,
+   "speak": 178,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -72,17 +72,17 @@
     "emoji": null
    },
    "pct": [
-    9,
-    91
+    5,
+    95
    ],
-   "duration": 264
+   "duration": 313
   },
   {
    "kind": "q",
    "audio": "audio/a26/03_q_a.mp3",
    "audioB": "audio/a26/03_q_b.mp3",
-   "bAt": 51,
-   "speak": 91,
+   "bAt": 53,
+   "speak": 102,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -91,46 +91,46 @@
     "emoji": null
    },
    "b": {
-    "label": "CUP auf Repeat",
-    "img": "img/songs/song-cup.jpg",
+    "label": "Superkraft auf Repeat",
+    "img": "img/songs/song-superkraft.jpg",
     "emoji": null
    },
    "pct": [
-    16,
-    84
+    47,
+    53
    ],
-   "duration": 226
+   "duration": 237
   },
   {
    "kind": "q",
    "audio": "audio/a26/04_q_a.mp3",
    "audioB": "audio/a26/04_q_b.mp3",
-   "bAt": 71,
-   "speak": 116,
+   "bAt": 73,
+   "speak": 136,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Lucio als Bruder",
-    "img": "img/artists/lucio101.jpg",
+    "label": "Nie wieder Caney030",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Lucio als Mitbewohner",
-    "img": "img/artists/luciano.jpg",
+    "label": "Nie wieder Omar101",
+    "img": "img/artists/omar101.jpg",
     "emoji": null
    },
    "pct": [
-    3,
-    97
+    2,
+    98
    ],
-   "duration": 251
+   "duration": 271
   },
   {
    "kind": "mid",
    "audio": "audio/a26/05_mid_a.mp3",
    "audioB": "audio/a26/05_mid_b.mp3",
-   "bAt": 57,
-   "speak": 154,
+   "bAt": 56,
+   "speak": 157,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -144,92 +144,92 @@
     "emoji": "🌳"
    },
    "pct": [
-    8,
-    92
+    2,
+    98
    ],
-   "duration": 289
+   "duration": 292
   },
   {
    "kind": "q",
    "audio": "audio/a26/06_q_a.mp3",
    "audioB": "audio/a26/06_q_b.mp3",
-   "bAt": 47,
-   "speak": 85,
+   "bAt": 50,
+   "speak": 102,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch FTW",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "+49 löschen",
+    "img": "img/songs/song-plus49.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Sommergewitter löschen",
+    "img": "img/songs/song-sommergewitter.jpg",
     "emoji": null
    },
    "pct": [
-    55,
-    45
+    8,
+    92
    ],
-   "duration": 220
+   "duration": 237
   },
   {
    "kind": "q",
    "audio": "audio/a26/07_q_a.mp3",
    "audioB": "audio/a26/07_q_b.mp3",
-   "bAt": 72,
-   "speak": 105,
+   "bAt": 92,
+   "speak": 148,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Insel: Mittendrin",
-    "img": "img/albums/album-mittendrin.jpg",
+    "label": "1 Jahr nur Mucco",
+    "img": "img/artists/mucco.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Insel: Akh & Krach",
-    "img": "img/albums/album-akh-krach.jpg",
+    "label": "1 Jahr nur Nils Zimmermann",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "pct": [
-    84,
-    16
+    8,
+    92
    ],
-   "duration": 240
+   "duration": 283
   },
   {
    "kind": "q",
    "audio": "audio/a26/08_q_a.mp3",
    "audioB": "audio/a26/08_q_b.mp3",
-   "bAt": 41,
-   "speak": 98,
+   "bAt": 64,
+   "speak": 97,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Feature mit Haribo",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "Nur noch LID",
+    "img": "img/albums/album-lid.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Feature mit Omar101",
-    "img": "img/artists/omar101.jpg",
+    "label": "Nur noch Doktor",
+    "img": "img/albums/album-doktor.jpg",
     "emoji": null
    },
    "pct": [
-    52,
-    48
+    77,
+    23
    ],
-   "duration": 233
+   "duration": 232
   },
   {
    "kind": "outro",
    "audio": "audio/a26/09_outro.mp3",
-   "speak": 158,
+   "speak": 163,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 größten Talahons, die du kennst",
-   "duration": 203
+   "share": "Schick das an die 3 größten Stoner, die du kennst",
+   "duration": 208
   }
  ]
 }

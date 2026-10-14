@@ -3,61 +3,31 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Pashanim wird dein Stiefvater, oder Makko dein Klassenlehrer?",
+  "say": "Eine Nacht mit Pashanim, oder nie wieder Nizi19 hören?",
   "a": {
-   "label": "Pashanim als Stiefvater",
+   "label": "1 Nacht mit Pashanim",
    "img": "artists/pashanim.jpg"
   },
   "b": {
-   "label": "Makko als Klassenlehrer",
-   "img": "artists/makko.jpg"
+   "label": "Nie wieder Nizi19",
+   "img": "artists/nizi19.jpg"
   },
   "pct": [
-   46,
-   54
+   7,
+   93
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Hollywoodreif auf Dauerschleife, oder Sommergewitter auf Dauerschleife?",
+   "say": "Haribo als Lehrer, oder [[BOBOBOBOBOBOOOOOOOOO]] als Fahrlehrer?",
    "a": {
-    "label": "Hollywoodreif auf Repeat",
-    "img": "songs/song-hollywoodreif.jpg"
+    "label": "Haribo als Lehrer",
+    "img": "artists/yuyu19.jpg"
    },
    "b": {
-    "label": "Sommergewitter auf Repeat",
-    "img": "songs/song-sommergewitter.jpg"
-   },
-   "pct": [
-    51,
-    49
-   ]
-  },
-  {
-   "say": "Lacazette kocht für dich, oder Omar101 fährt dich nach Hause?",
-   "a": {
-    "label": "Lacazette kocht",
-    "img": "artists/lacazette.jpg"
-   },
-   "b": {
-    "label": "Omar101 fährt dich",
-    "img": "artists/omar101.jpg"
-   },
-   "pct": [
-    92,
-    8
-   ]
-  },
-  {
-   "say": "FTW auf Dauerschleife, oder Hier auf Dauerschleife?",
-   "a": {
-    "label": "FTW auf Repeat",
-    "img": "songs/song-ftw.jpg"
-   },
-   "b": {
-    "label": "Hier auf Repeat",
-    "img": "songs/song-hier.jpg"
+    "label": "Luciano als Fahrlehrer",
+    "img": "artists/luciano.jpg"
    },
    "pct": [
     19,
@@ -65,30 +35,14 @@
    ]
   },
   {
-   "say": "Nizi19 als großer Bruder, oder [[Muuuuuutschoooooo]] als Mitbewohner?",
+   "say": "Hollywoodreif auf Dauerschleife, oder CUP auf Dauerschleife?",
    "a": {
-    "label": "Nizi19 als Bruder",
-    "img": "artists/nizi19.jpg"
+    "label": "Hollywoodreif auf Repeat",
+    "img": "songs/song-hollywoodreif.jpg"
    },
    "b": {
-    "label": "Mucco als Mitbewohner",
-    "img": "artists/mucco.jpg"
-   },
-   "pct": [
-    6,
-    94
-   ]
-  },
-  {
-   "type": "mid",
-   "say": "Kurze Pause. Nie wieder Maka, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
-   "a": {
-    "label": "Nie wieder Maka",
-    "emoji": "🧪"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
-    "emoji": "✈️"
+    "label": "CUP auf Repeat",
+    "img": "songs/song-cup.jpg"
    },
    "pct": [
     7,
@@ -96,57 +50,102 @@
    ]
   },
   {
-   "say": "Nur noch das Album Akh & Krach hören, oder nur noch 1019?",
+   "say": "Ein Tag mit Zackavelli, oder ein Tag mit Samra?",
    "a": {
-    "label": "Nur noch Akh & Krach",
-    "img": "albums/album-akh-krach.jpg"
+    "label": "1 Tag mit Zackavelli",
+    "img": "artists/zackavelli.jpg"
    },
    "b": {
-    "label": "Nur noch 1019",
-    "img": "albums/album-1019.jpg"
+    "label": "1 Tag mit Samra",
+    "img": "artists/samra.jpg"
    },
    "pct": [
-    56,
-    44
+    1,
+    99
    ]
   },
   {
-   "say": "Nizi19 kocht für dich, oder Ufo187 fährt dich nach Hause?",
+   "say": "Nur noch das Album Nur für meine Augen hören, oder nur noch LID?",
    "a": {
-    "label": "Nizi19 kocht",
-    "img": "artists/nizi19.jpg"
+    "label": "Nur noch Nur für meine Augen",
+    "img": "albums/album-nur-fuer-meine-augen.jpg"
    },
    "b": {
-    "label": "Ufo187 fährt dich",
-    "img": "artists/ufo361.jpg"
+    "label": "Nur noch LID",
+    "img": "albums/album-lid.jpg"
    },
    "pct": [
-    9,
-    91
+    31,
+    69
    ]
   },
   {
-   "say": "[[Luuuuuussssiiiiiooooo]] in der ersten Reihe, oder Haribo backstage?",
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Park gehen?",
    "a": {
-    "label": "Lucio erste Reihe",
-    "img": "artists/lucio101.jpg"
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
    },
    "b": {
-    "label": "Haribo backstage",
-    "img": "artists/yuyu19.jpg"
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "emoji": "🌳"
    },
    "pct": [
-    6,
-    94
-   ],
-   "winSay": "Ohne Finger, Akh!"
+    97,
+    3
+   ]
+  },
+  {
+   "say": "Zackavelli als großer Bruder, oder Makko als Mitbewohner?",
+   "a": {
+    "label": "Zackavelli als Bruder",
+    "img": "artists/zackavelli.jpg"
+   },
+   "b": {
+    "label": "Makko als Mitbewohner",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    78,
+    22
+   ]
+  },
+  {
+   "say": "Cano030 in der ersten Reihe, oder [[Lussiaaaaaaaaanoooooo]] backstage?",
+   "a": {
+    "label": "Cano030 erste Reihe",
+    "img": "artists/pashanim.jpg"
+   },
+   "b": {
+    "label": "Luciano backstage",
+    "img": "artists/luciano.jpg"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "Nur noch Hier hören, oder nur noch Superkraft?",
+   "a": {
+    "label": "Nur noch Hier",
+    "img": "songs/song-hier.jpg"
+   },
+   "b": {
+    "label": "Nur noch Superkraft",
+    "img": "songs/song-superkraft.jpg"
+   },
+   "pct": [
+    53,
+    47
+   ]
   }
  ],
  "outro": {
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Teile das Video mit deinen Akhs",
-  "shareSay": "Und teile das Video mit deinen Akhs!"
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
  }
 }

@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2371,
+ "durationInFrames": 2501,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a24/00_hook_a.mp3",
    "audioB": "audio/a24/00_hook_b.mp3",
-   "bAt": 67,
-   "speak": 109,
+   "bAt": 62,
+   "speak": 104,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Zackavelli im Fahrstuhl",
+    "label": "Masi im Fahrstuhl",
     "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
@@ -24,137 +24,17 @@
     "emoji": null
    },
    "pct": [
-    27,
-    73
+    49,
+    51
    ],
-   "duration": 244
+   "duration": 239
   },
   {
    "kind": "q",
    "audio": "audio/a24/01_q_a.mp3",
    "audioB": "audio/a24/01_q_b.mp3",
-   "bAt": 46,
-   "speak": 84,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nur noch Hollywoodreif",
-    "img": "img/songs/song-hollywoodreif.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Nur noch Sommergewitter",
-    "img": "img/songs/song-sommergewitter.jpg",
-    "emoji": null
-   },
-   "pct": [
-    85,
-    15
-   ],
-   "duration": 219
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a24/02_q_a.mp3",
-   "audioB": "audio/a24/02_q_b.mp3",
-   "bAt": 45,
-   "speak": 85,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nie wieder Kalim",
-    "img": "img/artists/kalim.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Nie wieder Samra",
-    "img": "img/artists/samra.jpg",
-    "emoji": null
-   },
-   "pct": [
-    56,
-    44
-   ],
-   "duration": 220
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a24/03_q_a.mp3",
-   "audioB": "audio/a24/03_q_b.mp3",
-   "bAt": 41,
-   "speak": 94,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "1 Tag mit Pashanim",
-    "img": "img/artists/pashanim.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "1 Tag mit Karamel19",
-    "img": "img/artists/karamel19.jpg",
-    "emoji": null
-   },
-   "pct": [
-    96,
-    4
-   ],
-   "duration": 229
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a24/04_q_a.mp3",
-   "audioB": "audio/a24/04_q_b.mp3",
-   "bAt": 64,
-   "speak": 129,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "1 Tag mit Nizi19",
-    "img": "img/artists/nizi19.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "1 Tag mit Luciano",
-    "img": "img/artists/luciano.jpg",
-    "emoji": null
-   },
-   "pct": [
-    25,
-    75
-   ],
-   "duration": 264
-  },
-  {
-   "kind": "mid",
-   "audio": "audio/a24/05_mid_a.mp3",
-   "audioB": "audio/a24/05_mid_b.mp3",
-   "bAt": 53,
-   "speak": 146,
-   "gap": 90,
-   "hold": 45,
-   "a": {
-    "label": "Nie wieder duschen",
-    "img": null,
-    "emoji": "🚿"
-   },
-   "b": {
-    "label": "Mit der 3. Person bei „Teilen“ in den Park",
-    "img": null,
-    "emoji": "🌳"
-   },
-   "pct": [
-    18,
-    82
-   ],
-   "duration": 281
-  },
-  {
-   "kind": "q",
-   "audio": "audio/a24/06_q_a.mp3",
-   "audioB": "audio/a24/06_q_b.mp3",
-   "bAt": 83,
-   "speak": 121,
+   "bAt": 76,
+   "speak": 128,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -163,73 +43,193 @@
     "emoji": null
    },
    "b": {
-    "label": "Nur noch LID",
-    "img": "img/albums/album-lid.jpg",
+    "label": "Nur noch Nur für meine Augen",
+    "img": "img/albums/album-nur-fuer-meine-augen.jpg",
     "emoji": null
    },
    "pct": [
-    80,
-    20
+    27,
+    73
    ],
-   "duration": 256
+   "duration": 263
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a24/02_q_a.mp3",
+   "audioB": "audio/a24/02_q_b.mp3",
+   "bAt": 41,
+   "speak": 90,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Haribo kocht",
+    "img": "img/artists/yuyu19.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Samra fährt dich",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "pct": [
+    1,
+    99
+   ],
+   "duration": 225
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a24/03_q_a.mp3",
+   "audioB": "audio/a24/03_q_b.mp3",
+   "bAt": 42,
+   "speak": 102,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Feature mit Lacazette",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Caney030",
+    "img": "img/artists/caney030.jpg",
+    "emoji": null
+   },
+   "pct": [
+    25,
+    75
+   ],
+   "duration": 237
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a24/04_q_a.mp3",
+   "audioB": "audio/a24/04_q_b.mp3",
+   "bAt": 83,
+   "speak": 144,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Feature mit Ufo361",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Feature mit Omar101",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "duration": 279
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a24/05_mid_a.mp3",
+   "audioB": "audio/a24/05_mid_b.mp3",
+   "bAt": 56,
+   "speak": 168,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Maka",
+    "img": null,
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "img": null,
+    "emoji": "💘"
+   },
+   "pct": [
+    73,
+    27
+   ],
+   "duration": 303
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a24/06_q_a.mp3",
+   "audioB": "audio/a24/06_q_b.mp3",
+   "bAt": 48,
+   "speak": 89,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "+49 löschen",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "16 löschen",
+    "img": "img/songs/song-16.jpg",
+    "emoji": null
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "duration": 224
   },
   {
    "kind": "q",
    "audio": "audio/a24/07_q_a.mp3",
    "audioB": "audio/a24/07_q_b.mp3",
-   "bAt": 38,
-   "speak": 85,
+   "bAt": 47,
+   "speak": 99,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Haribo als Lehrer",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "Hollywoodreif löschen",
+    "img": "img/songs/song-hollywoodreif.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Luciano als Fahrlehrer",
-    "img": "img/artists/lucio101.jpg",
+    "label": "Wittenbergplatz löschen",
+    "img": "img/songs/song-wittenbergplatz.jpg",
     "emoji": null
    },
    "pct": [
-    28,
-    72
+    83,
+    17
    ],
-   "duration": 220
+   "duration": 234
   },
   {
    "kind": "q",
    "audio": "audio/a24/08_q_a.mp3",
    "audioB": "audio/a24/08_q_b.mp3",
-   "bAt": 46,
-   "speak": 80,
+   "bAt": 102,
+   "speak": 164,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Nizi19 als Bruder",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Hier",
-    "img": "img/songs/song-hier.jpg",
+    "label": "Omar101 als Mitbewohner",
+    "img": "img/artists/omar101.jpg",
     "emoji": null
    },
    "pct": [
-    93,
-    7
+    20,
+    80
    ],
-   "duration": 215
+   "duration": 299
   },
   {
    "kind": "outro",
    "audio": "audio/a24/09_outro.mp3",
-   "speak": 178,
+   "speak": 153,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 223
+   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "duration": 198
   }
  ]
 }

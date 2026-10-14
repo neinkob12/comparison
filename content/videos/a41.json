@@ -3,142 +3,142 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Cano030, oder nie wieder Karamel19 hören?",
+  "say": "24 Stunden mit Makko im Fahrstuhl, oder mit Souly im Bällebad?",
   "a": {
-   "label": "1 Nacht mit Cano030",
-   "img": "artists/pashanim.jpg"
+   "label": "Makko im Fahrstuhl",
+   "img": "artists/makko.jpg"
   },
   "b": {
-   "label": "Nie wieder Karamel19",
-   "img": "artists/karamel19.jpg"
+   "label": "Souly im Bällebad",
+   "img": "artists/souly.jpg"
   },
   "pct": [
-   48,
-   52
+   55,
+   45
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Auf die einsame Insel nimmst du Free Game mit, oder 101%?",
+   "say": "Nur noch 16 hören, oder nur noch Airwaves?",
    "a": {
-    "label": "Insel: Free Game",
-    "img": "albums/album-free-game.jpg"
+    "label": "Nur noch 16",
+    "img": "songs/song-16.jpg"
    },
    "b": {
-    "label": "Insel: 101%",
-    "img": "albums/album-101.jpg"
+    "label": "Nur noch Airwaves",
+    "img": "songs/song-airwaves.jpg"
    },
    "pct": [
-    51,
-    49
+    28,
+    72
    ]
   },
   {
-   "say": "Ein Feature mit Nizi19, oder ein Feature mit Haribo?",
+   "say": "Pashanim als großer Bruder, oder Souly als Mitbewohner?",
    "a": {
-    "label": "Feature mit Nizi19",
-    "img": "artists/nizi19.jpg"
+    "label": "Pashanim als Bruder",
+    "img": "artists/pashanim.jpg"
    },
    "b": {
-    "label": "Feature mit Haribo",
-    "img": "artists/yuyu19.jpg"
+    "label": "Souly als Mitbewohner",
+    "img": "artists/souly.jpg"
    },
    "pct": [
-    7,
-    93
-   ],
-   "winSay": "Ohne Finger, Akh!"
-  },
-  {
-   "say": "Nur noch Wittenbergplatz hören, oder nur noch CUP?",
-   "a": {
-    "label": "Nur noch Wittenbergplatz",
-    "img": "songs/song-wittenbergplatz.jpg"
-   },
-   "b": {
-    "label": "Nur noch CUP",
-    "img": "songs/song-cup.jpg"
-   },
-   "pct": [
-    47,
-    53
+    20,
+    80
    ]
   },
   {
-   "say": "Haribo kocht für dich, oder [[Luuuuuussssiiiiiooooo]] fährt dich nach Hause?",
+   "say": "Zackavelli kocht für dich, oder [[Lussiaaaaaaaaanoooooo]] fährt dich nach Hause?",
    "a": {
-    "label": "Haribo kocht",
-    "img": "artists/yuyu19.jpg"
+    "label": "Zackavelli kocht",
+    "img": "artists/zackavelli.jpg"
    },
    "b": {
-    "label": "Lucio fährt dich",
-    "img": "artists/lucio101.jpg"
+    "label": "Luciano fährt dich",
+    "img": "artists/luciano.jpg"
    },
    "pct": [
-    48,
-    52
+    84,
+    16
+   ]
+  },
+  {
+   "say": "Hollywoodreif für immer löschen, oder +49 für immer löschen?",
+   "a": {
+    "label": "Hollywoodreif löschen",
+    "img": "songs/song-hollywoodreif.jpg"
+   },
+   "b": {
+    "label": "+49 löschen",
+    "img": "songs/song-plus49.jpg"
+   },
+   "pct": [
+    71,
+    29
    ]
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder der dritten Person aus Teilen und mehr Ich liebe dich schreiben?",
+   "say": "Kurze Pause. Nie wieder duschen, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
    "a": {
     "label": "Nie wieder duschen",
     "emoji": "🚿"
    },
    "b": {
-    "label": "Der 3. Person bei „Teilen“ „Ich liebe dich“ schreiben",
-    "emoji": "💌"
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
    },
    "pct": [
-    74,
-    26
+    52,
+    48
    ]
   },
   {
-   "say": "Ein Tag mit Omar101, oder ein Tag mit Samra?",
+   "say": "[[Lakaaaaaaasetttttttt]] als großer Bruder, oder Haribo als Mitbewohner?",
    "a": {
-    "label": "1 Tag mit Omar101",
-    "img": "artists/omar101.jpg"
-   },
-   "b": {
-    "label": "1 Tag mit Samra",
-    "img": "artists/samra.jpg"
-   },
-   "pct": [
-    73,
-    27
-   ]
-  },
-  {
-   "say": "[[Lussssssiiiiiiiooooooooo]] als Lehrer, oder Lacazette als Fahrlehrer?",
-   "a": {
-    "label": "Lucio als Lehrer",
-    "img": "artists/lucio101.jpg"
-   },
-   "b": {
-    "label": "Lacazette als Fahrlehrer",
+    "label": "Lacazette als Bruder",
     "img": "artists/lacazette.jpg"
    },
+   "b": {
+    "label": "Haribo als Mitbewohner",
+    "img": "artists/yuyu19.jpg"
+   },
    "pct": [
-    98,
-    2
+    48,
+    52
+   ],
+   "winSay": "Ohne Finger, Akh!"
+  },
+  {
+   "say": "Doktor19 kocht für dich, oder Omar101 fährt dich nach Hause?",
+   "a": {
+    "label": "Doktor19 kocht",
+    "img": "artists/nizi19.jpg"
+   },
+   "b": {
+    "label": "Omar101 fährt dich",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    17,
+    83
    ]
   },
   {
-   "say": "Airwaves auf Dauerschleife, oder +49 auf Dauerschleife?",
+   "say": "Nur noch das Album Mittendrin hören, oder nur noch Free Game?",
    "a": {
-    "label": "Airwaves auf Repeat",
-    "img": "songs/song-airwaves.jpg"
+    "label": "Nur noch Mittendrin",
+    "img": "albums/album-mittendrin.jpg"
    },
    "b": {
-    "label": "+49 auf Repeat",
-    "img": "songs/song-plus49.jpg"
+    "label": "Nur noch Free Game",
+    "img": "albums/album-free-game.jpg"
    },
    "pct": [
-    81,
-    19
+    49,
+    51
    ]
   }
  ],
@@ -146,7 +146,7 @@
   "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
   "sub": "Schreibs in die Kommentare",
-  "share": "Schick das an die 3 größten Gooner, die du kennst",
-  "shareSay": "Und schick das an die 3 größten Gooner, die du kennst!"
+  "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
+  "shareSay": "Und schick das an die 3 sharaflosesten Binnits, die du kennst!"
  }
 }

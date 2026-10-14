@@ -3,134 +3,134 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2417,
+ "durationInFrames": 2453,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a18/00_hook_a.mp3",
    "audioB": "audio/a18/00_hook_b.mp3",
-   "bAt": 54,
-   "speak": 101,
+   "bAt": 67,
+   "speak": 129,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Nacht mit Cano030",
-    "img": "img/artists/pashanim.jpg",
+    "label": "Nils Zimmermann am Abiball",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nie wieder Luciano",
-    "img": "img/artists/luciano.jpg",
+    "label": "Karamel19 auf der Hochzeit",
+    "img": "img/artists/karamel19.jpg",
     "emoji": null
    },
    "pct": [
-    49,
-    51
+    95,
+    5
    ],
-   "duration": 236
+   "duration": 264
   },
   {
    "kind": "q",
    "audio": "audio/a18/01_q_a.mp3",
    "audioB": "audio/a18/01_q_b.mp3",
-   "bAt": 48,
-   "speak": 99,
+   "bAt": 74,
+   "speak": 107,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "+49 löschen",
-    "img": "img/songs/song-plus49.jpg",
+    "label": "Insel: Akh & Krach",
+    "img": "img/albums/album-akh-krach.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Kleiner Prinz löschen",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Insel: LID",
+    "img": "img/albums/album-lid.jpg",
     "emoji": null
    },
    "pct": [
-    46,
-    54
+    47,
+    53
    ],
-   "duration": 234
+   "duration": 242
   },
   {
    "kind": "q",
    "audio": "audio/a18/02_q_a.mp3",
    "audioB": "audio/a18/02_q_b.mp3",
-   "bAt": 50,
-   "speak": 102,
+   "bAt": 38,
+   "speak": 75,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Sommergewitter löschen",
-    "img": "img/songs/song-sommergewitter.jpg",
+    "label": "Nur noch CUP",
+    "img": "img/songs/song-cup.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Hollywoodreif löschen",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "Nur noch 16",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "pct": [
-    96,
-    4
+    98,
+    2
    ],
-   "duration": 237
+   "duration": 210
   },
   {
    "kind": "q",
    "audio": "audio/a18/03_q_a.mp3",
    "audioB": "audio/a18/03_q_b.mp3",
-   "bAt": 37,
-   "speak": 82,
+   "bAt": 52,
+   "speak": 85,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Feature mit Samra",
-    "img": "img/artists/samra.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Feature mit Pashanim",
+    "label": "Pashanim erste Reihe",
     "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
+   "b": {
+    "label": "Mucco backstage",
+    "img": "img/artists/mucco.jpg",
+    "emoji": null
+   },
    "pct": [
-    48,
-    52
+    93,
+    7
    ],
-   "duration": 217
+   "duration": 220
   },
   {
    "kind": "q",
    "audio": "audio/a18/04_q_a.mp3",
    "audioB": "audio/a18/04_q_b.mp3",
-   "bAt": 57,
-   "speak": 97,
+   "bAt": 74,
+   "speak": 112,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Tag mit Caney030",
-    "img": "img/artists/caney030.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "1 Tag mit Pashanim",
+    "label": "1 Jahr nur Pashanim",
     "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
+   "b": {
+    "label": "1 Jahr nur Samra",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
    "pct": [
-    8,
-    92
+    92,
+    8
    ],
-   "duration": 232
+   "duration": 247
   },
   {
    "kind": "mid",
    "audio": "audio/a18/05_mid_a.mp3",
    "audioB": "audio/a18/05_mid_b.mp3",
-   "bAt": 53,
-   "speak": 145,
+   "bAt": 59,
+   "speak": 152,
    "gap": 90,
    "hold": 45,
    "a": {
@@ -144,92 +144,93 @@
     "emoji": "🌳"
    },
    "pct": [
-    44,
-    56
+    96,
+    4
    ],
-   "duration": 280
+   "duration": 287
   },
   {
    "kind": "q",
    "audio": "audio/a18/06_q_a.mp3",
    "audioB": "audio/a18/06_q_b.mp3",
-   "bAt": 63,
-   "speak": 103,
+   "bAt": 50,
+   "speak": 92,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "1 Tag mit Luciano",
-    "img": "img/artists/luciano.jpg",
+    "label": "Wittenbergplatz löschen",
+    "img": "img/songs/song-wittenbergplatz.jpg",
     "emoji": null
    },
    "b": {
-    "label": "1 Tag mit Samra",
-    "img": "img/artists/samra.jpg",
+    "label": "16 löschen",
+    "img": "img/songs/song-16.jpg",
     "emoji": null
    },
    "pct": [
-    8,
-    92
+    95,
+    5
    ],
-   "duration": 238
+   "duration": 227
   },
   {
    "kind": "q",
    "audio": "audio/a18/07_q_a.mp3",
    "audioB": "audio/a18/07_q_b.mp3",
-   "bAt": 71,
-   "speak": 101,
+   "bAt": 73,
+   "speak": 106,
    "gap": 90,
    "hold": 45,
    "a": {
-    "label": "Insel: LID",
-    "img": "img/albums/album-lid.jpg",
+    "label": "Caney030 erste Reihe",
+    "img": "img/artists/caney030.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Insel: Mittendrin",
-    "img": "img/albums/album-mittendrin.jpg",
+    "label": "Mucco backstage",
+    "img": "img/artists/mucco.jpg",
     "emoji": null
    },
    "pct": [
-    32,
-    68
+    51,
+    49
    ],
-   "duration": 236
+   "duration": 241
   },
   {
    "kind": "q",
    "audio": "audio/a18/08_q_a.mp3",
    "audioB": "audio/a18/08_q_b.mp3",
-   "bAt": 113,
-   "speak": 192,
+   "bAt": 96,
+   "speak": 168,
    "gap": 90,
-   "hold": 45,
+   "hold": 52,
    "a": {
-    "label": "Pashanim kocht",
-    "img": "img/artists/pashanim.jpg",
+    "label": "Lucio erste Reihe",
+    "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nizi19 fährt dich",
-    "img": "img/artists/nizi19.jpg",
+    "label": "Haribo backstage",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "pct": [
-    53,
-    47
+    46,
+    54
    ],
-   "duration": 327
+   "winAudio": "audio/a18/08_q_win.mp3",
+   "duration": 310
   },
   {
    "kind": "outro",
    "audio": "audio/a18/09_outro.mp3",
-   "speak": 135,
+   "speak": 160,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
-   "share": "Teile das Video mit deinen Akhs",
-   "duration": 180
+   "share": "Schick das an die 3 größten Gooner, die du kennst",
+   "duration": 205
   }
  ]
 }
