@@ -4,9 +4,9 @@
  "handle": "@akhmachtkrach19",
  "hook": {
   "type": "hook",
-  "say": "Eine Nacht mit Nizi, oder nie wieder Lucio hören?",
+  "say": "Eine Nacht mit Nizi19, oder nie wieder Lucio hören?",
   "a": {
-   "label": "1 Nacht mit Nizi",
+   "label": "1 Nacht mit Nizi19",
    "img": "artists/nizi19.jpg"
   },
   "b": {
@@ -50,9 +50,9 @@
    ]
   },
   {
-   "say": "Ein Feature mit Nizi, oder ein Feature mit Kalim?",
+   "say": "Ein Feature mit Nizi19, oder ein Feature mit Kalim?",
    "a": {
-    "label": "Feature mit Nizi",
+    "label": "Feature mit Nizi19",
     "img": "artists/nizi19.jpg"
    },
    "b": {

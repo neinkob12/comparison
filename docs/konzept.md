@@ -126,6 +126,6 @@ Messung nach 7 Tagen: durchschnittliche Wiedergabezeit, Anteil nach 3 Sekunden n
 ## Update: nur Kanal A
 
 Kanal B ("Rapper-Duell") ist vorerst gestrichen. Wir machen nur Kanal A (@akhmachtkrach19, hart rein mit Hook-Frage).
-Nizi19 und Lucio101 heißen in Kanal A nur "Nizi" und "Lucio" (Text und Stimme).
+Lucio101 heißt in Kanal A nur "Lucio". Nizi19 bleibt mit 19. Yuyu19 heißt in jedem Video "Haribo".
 Ende: "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!"
 Countdown: heller Uhr-Tick, 5 pro Sekunde, nachgebaut nach Jakobs Referenzvideo.

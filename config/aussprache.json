@@ -3,7 +3,6 @@
   "Lucio101": "Lussio Eins Null Eins",
   "Omar101": "Omar Eins Null Eins",
   "Nizi19": "Nisi Eins Neun",
-  "Yuyu19": "Juju Eins Neun",
   "Karamel19": "Karamel Eins Neun",
   "Ufo361": "Ufo Drei Sechs Eins",
   "1019": "Eins Null Eins Neun",
@@ -21,15 +20,13 @@
   "Mucco": "Mutscho",
   "Makko": "Makko",
   "Lacazette": "Lakasett",
-  "Kalim": "Kallim",
+  "Kalim": "Kaa-lim",
   "Zackavelli": "Tsackawelli",
   "LID": "Ell Ih Deh",
   "FTW": "Eff Teh Weh",
   "_speed": {
-    "Kalim": 1.2,
     "Mucco": 1.2
   },
-  "Nizi": "Nisi",
   "Lucio": "Lussio",
   "Akh": "Ach"
 }
