@@ -7,7 +7,7 @@ Status: **Wartet auf Freigabe.** Nichts wird gerendert, bevor Jakob die Listen a
 | Thema | Entscheidung |
 |---|---|
 | Render | Remotion (React), 1 JSON pro Video, Batch-Render zu MP4 (1080x1920, 30fps) |
-| Stimme | ElevenLabs (deutsch), Key liegt als `ELEVENLABS_API_KEY` in der Umgebung |
+| Stimme | ElevenLabs "Adam" (pNInz6obpgDQGcFmaJgB), Modell eleven_multilingual_v2, Key als `ELEVENLABS_API_KEY` |
 | Look | Split-Screen oben rot / unten blau, Bild + Name, Prozent ploppt auf |
 | Musik | Keine eingebrannt, Trend-Sound beim Upload in TikTok |
 | Upload | Erst manuell / Scheduler, später API |
@@ -32,7 +32,7 @@ Status: **Wartet auf Freigabe.** Nichts wird gerendert, bevor Jakob die Listen a
 
 **1019 & Umfeld:** Omar101, Karamel19 (beide 1019), Makko (Feature mit Symba), Mucco (oft mit Lacazette), Caney030 (auf Akh & Krach), Pajel (16 mit Kalim)
 
-**Berliner Trap:** Ufo361 (Hier mit Lucio101), Luciano (Feature mit Kalim), Jazeek, Samra, Beyazz, Souly, Zackavelli
+**Berliner Trap:** Ufo361 (Hier mit Lucio101), Luciano (Feature mit Kalim), Jazeek, Samra, Souly, Zackavelli (Beyazz von Jakob gestrichen)
 
 Fotos werden über die Upload-Seite gesammelt: https://claude.ai/artifact/TtAw226hCZAuFdRQFgSY3d
 
@@ -57,7 +57,6 @@ Fotos werden über die Upload-Seite gesammelt: https://claude.ai/artifact/TtAw22
 | Konzert | Lucio101 erste Reihe oder Kalim backstage? |
 | Album | Nur noch LID oder nur noch 101%? |
 | Feature | Feature mit Nizi19 oder mit Symba? |
-| Crew | Ein Tag mit 1019 oder ein Tag mit Lacazette? |
 
 ## Zwischenfragen (Pool zum Rotieren)
 
@@ -73,12 +72,11 @@ Fotos werden über die Upload-Seite gesammelt: https://claude.ai/artifact/TtAw22
 
 | Format | Anzahl |
 |---|---|
-| Rapper vs Rapper | 12 |
-| Song vs Song | 12 |
+| Rapper vs Rapper | 14 |
+| Song vs Song | 13 |
 | Konzert | 8 |
 | Album | 7 |
-| Feature | 6 |
-| Crew | 5 |
+| Feature | 8 |
 
 Meist gemischt pro Video (6 Fragen aus 2 bis 3 Formaten), damit es nicht eintönig wird.
 
@@ -92,20 +90,37 @@ Meist gemischt pro Video (6 Fragen aus 2 bis 3 Formaten), damit es nicht eintön
 > 4. **Zwischenfrage:** Nie wieder duschen oder nie wieder Maka? (18 / 82)
 > 5. Nur noch LID oder nur noch 101%? (49 / 51)
 > 6. Lucio101 erste Reihe oder Kalim backstage? (44 / 56)
-> 7. Ein Tag mit 1019 oder ein Tag mit Lacazette? (66 / 34)
 >
 > Outro: "Wie oft lagst du bei der Mehrheit? Schreibs in die Kommentare und folg für Teil 2."
 
 ## Bilder
 
-Wikimedia Commons hat für diese Szene fast nichts (Stand Check heute): kein Foto von Pashanim, Yuyu19, Karamel19; bei Lacazette nur der Fußballer; Lucio101 und Makko je ein Foto. **Bilder müssen von euch kommen.**
+Von Spotify geholt (offizielle Artist-Bilder und Cover), liegen lokal unter `assets/` (nicht im Git, Rechte liegen bei Spotify/Labels) und auf der Upload-Seite.
 
-Ablage: `assets/artists/<slug>.jpg` (Hochformat oder quadratisch, mind. 800 px), z.B. `lacazette.jpg`, `lucio101.jpg`, `nizi19.jpg`, `yuyu19.jpg`, `pashanim.jpg`, `symba.jpg`, `kalim.jpg`. Album-Cover analog unter `assets/albums/<slug>.jpg`.
+Fehlen noch:
+- **Symba:** Spotify hat für ihn kein Artist-Bild (der Treffer war ein anderer Symba)
+- **Pashanim-Songs** (Sommergewitter, Airwaves, Kleiner Prinz): seine Musik ist auf Spotify gerade gesperrt, nur sein Profilbild ist noch da
+- **Feuermelder:** nicht gefunden
+- **Ufo361:** sein Spotify-Bild ist eine Lego-Ninja-Figur, besser austauschen
 
-Fehlt ein Bild, rendert das Template automatisch eine Namens-Karte (großer Name auf Farbverlauf), damit nichts blockiert.
+Fehlt ein Bild, rendert das Template eine Namens-Karte (großer Name auf Farbe).
 
 ## Sprache / Formulierung
 
 - Kurz und direkt: "Ein Tag mit Pashanim oder ein Tag mit Lucio101?" Keine Füllwörter wie "abhängen".
 - Kein gesprochener Countdown vor der Auflösung.
 - Aussprache aller Namen steht in `config/aussprache.json` und wird vor jedem TTS-Aufruf ersetzt.
+- Zahlen in Namen immer als einzelne Ziffern: Nizi19 = "Nizi Eins Neun", Lucio101 = "Lussio Eins Null Eins".
+- LID und FTW buchstabiert, CUP als Wort.
+
+## Kanäle und A/B-Test (Hook)
+
+Beide Kanäle bekommen die gleichen Fragen, nur der Einstieg unterscheidet sich.
+
+| | Kanal A: "Hart rein" | Kanal B: "Rapper-Duell" |
+|---|---|---|
+| Sekunde 0 | Sofort eine provokante Frage als Riesentext + Stimme, z.B. "Eine Nacht mit Nizi19 oder nie wieder Lucio101 hören?" | Titelkarte "RAPPER-DUELL" + Stimme: "Rapper-Duell. Heute: 1019 gegen den Rest." (2 bis 3 Sekunden) |
+| Danach | Auflösung dieser Frage, dann normal weiter | Erste Frage |
+| Follow-Aufruf | Nach Frage 1 kurz eingeblendet | Direkt nach der Titelkarte |
+
+Messung nach 7 Tagen: durchschnittliche Wiedergabezeit, Anteil nach 3 Sekunden noch dabei, Kommentare pro 1000 Views, neue Follower.
