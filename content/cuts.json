@@ -74,7 +74,7 @@
    1,
    6
   ],
-  "seconds": 65.4
+  "seconds": 64.5
  },
  "a12": {
   "removed_questions": [
@@ -264,5 +264,89 @@
    5
   ],
   "seconds": 63.7
+ },
+ "a39": {
+  "removed_questions": [
+   6,
+   7
+  ],
+  "seconds": 63.7
+ },
+ "a40": {
+  "removed_questions": [
+   3,
+   7
+  ],
+  "seconds": 64.5
+ },
+ "a41": {
+  "removed_questions": [
+   3,
+   7
+  ],
+  "seconds": 64.5
+ },
+ "a42": {
+  "removed_questions": [
+   2,
+   6
+  ],
+  "seconds": 64.5
+ },
+ "a43": {
+  "removed_questions": [
+   1,
+   2
+  ],
+  "seconds": 64.5
+ },
+ "a44": {
+  "removed_questions": [
+   6,
+   7
+  ],
+  "seconds": 64.1
+ },
+ "a45": {
+  "removed_questions": [
+   1,
+   5
+  ],
+  "seconds": 64.5
+ },
+ "a46": {
+  "removed_questions": [
+   2,
+   3
+  ],
+  "seconds": 64.5
+ },
+ "a47": {
+  "removed_questions": [
+   1,
+   6
+  ],
+  "seconds": 64.5
+ },
+ "a48": {
+  "removed_questions": [
+   1,
+   2
+  ],
+  "seconds": 64.5
+ },
+ "a49": {
+  "removed_questions": [
+   3,
+   5
+  ],
+  "seconds": 63.2
+ },
+ "a50": {
+  "removed_questions": [
+   3,
+   6
+  ],
+  "seconds": 64.8
  }
 }

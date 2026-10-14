@@ -65,10 +65,10 @@ def cut(vid, counts):
     # Zu lang? Erst stilles Outro-Ende kuerzen, dann Standzeit nach der Aufloesung (gleichmaessig)
     excess = max(0, round((t - (MAX_S - 0.5)) * fps))
     trim = {i: 0 for i in range(len(segs))}
-    out_room = min(25, segs[-1]["hold"] - 15)
+    out_room = min(40, segs[-1]["hold"] - 10)
     trim[len(segs) - 1] = min(excess, out_room)
     excess -= trim[len(segs) - 1]
-    room = {i: (6 if segs[i].get("winAudio") else 15) for i in range(1, len(segs) - 1) if i not in drop}
+    room = {i: (6 if segs[i].get("winAudio") else 22) for i in range(1, len(segs) - 1) if i not in drop}
     while excess > 0 and any(room[i] > trim[i] for i in room):
         for i in room:
             if excess > 0 and trim[i] < room[i]:
