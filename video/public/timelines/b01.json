@@ -3,7 +3,7 @@
  "channel": "B",
  "handle": null,
  "fps": 30,
- "durationInFrames": 2278,
+ "durationInFrames": 2098,
  "segments": [
   {
    "kind": "intro",
@@ -18,9 +18,9 @@
   {
    "kind": "q",
    "audio": "audio/b01/01_q.mp3",
-   "speak": 125,
+   "speak": 118,
    "gap": 90,
-   "hold": 54,
+   "hold": 45,
    "a": {
     "label": "1 Jahr nur Lacazette",
     "img": "img/artists/lacazette.jpg",
@@ -32,19 +32,19 @@
     "emoji": null
    },
    "pct": [
-    54,
-    46
+    12,
+    88
    ],
    "num": 1,
    "total": 7,
-   "duration": 269
+   "duration": 253
   },
   {
    "kind": "q",
    "audio": "audio/b01/02_q.mp3",
-   "speak": 97,
+   "speak": 82,
    "gap": 90,
-   "hold": 54,
+   "hold": 45,
    "a": {
     "label": "CUP löschen",
     "img": "img/songs/song-cup.jpg",
@@ -56,19 +56,19 @@
     "emoji": null
    },
    "pct": [
-    61,
-    39
+    97,
+    3
    ],
    "num": 2,
    "total": 7,
-   "duration": 241
+   "duration": 217
   },
   {
    "kind": "q",
    "audio": "audio/b01/03_q.mp3",
-   "speak": 101,
+   "speak": 79,
    "gap": 90,
-   "hold": 54,
+   "hold": 45,
    "a": {
     "label": "Feature mit Nizi19",
     "img": "img/artists/nizi19.jpg",
@@ -85,14 +85,14 @@
    ],
    "num": 3,
    "total": 7,
-   "duration": 245
+   "duration": 214
   },
   {
    "kind": "q",
    "audio": "audio/b01/04_q.mp3",
-   "speak": 129,
+   "speak": 116,
    "gap": 90,
-   "hold": 54,
+   "hold": 45,
    "a": {
     "label": "Nur noch LID",
     "img": "img/albums/album-lid.jpg",
@@ -109,38 +109,38 @@
    ],
    "num": 4,
    "total": 7,
-   "duration": 273
+   "duration": 251
   },
   {
    "kind": "mid",
    "audio": "audio/b01/05_mid.mp3",
-   "speak": 92,
+   "speak": 143,
    "gap": 90,
-   "hold": 54,
+   "hold": 45,
    "a": {
-    "label": "Nie wieder duschen",
-    "img": null,
-    "emoji": "🚿"
-   },
-   "b": {
     "label": "Nie wieder Maka",
     "img": null,
-    "emoji": "🍃"
+    "emoji": "🧪"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Park",
+    "img": null,
+    "emoji": "🌳"
    },
    "pct": [
-    18,
-    82
+    71,
+    29
    ],
    "num": 4,
    "total": 7,
-   "duration": 236
+   "duration": 278
   },
   {
    "kind": "q",
    "audio": "audio/b01/06_q.mp3",
-   "speak": 106,
+   "speak": 85,
    "gap": 90,
-   "hold": 54,
+   "hold": 45,
    "a": {
     "label": "1 Tag mit Pashanim",
     "img": "img/artists/pashanim.jpg",
@@ -157,14 +157,14 @@
    ],
    "num": 5,
    "total": 7,
-   "duration": 250
+   "duration": 220
   },
   {
    "kind": "q",
    "audio": "audio/b01/07_q.mp3",
-   "speak": 126,
+   "speak": 88,
    "gap": 90,
-   "hold": 54,
+   "hold": 45,
    "a": {
     "label": "Lucio101 erste Reihe",
     "img": "img/artists/lucio101.jpg",
@@ -176,19 +176,19 @@
     "emoji": null
    },
    "pct": [
-    38,
-    62
+    1,
+    99
    ],
    "num": 6,
    "total": 7,
-   "duration": 270
+   "duration": 223
   },
   {
    "kind": "q",
    "audio": "audio/b01/08_q.mp3",
-   "speak": 103,
+   "speak": 95,
    "gap": 90,
-   "hold": 54,
+   "hold": 45,
    "a": {
     "label": "Hollywoodreif",
     "img": "img/songs/song-hollywoodreif.jpg",
@@ -200,19 +200,19 @@
     "emoji": null
    },
    "pct": [
-    57,
-    43
+    83,
+    17
    ],
    "num": 7,
    "total": 7,
-   "duration": 247
+   "duration": 230
   },
   {
    "kind": "outro",
    "audio": "audio/b01/09_outro.mp3",
-   "speak": 148,
+   "speak": 113,
    "hold": 45,
-   "duration": 193
+   "duration": 158
   }
  ]
 }

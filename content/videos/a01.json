@@ -14,8 +14,8 @@
    "img": "artists/lucio101.jpg"
   },
   "pct": [
-   41,
-   59
+   8,
+   92
   ]
  },
  "questions": [
@@ -30,8 +30,8 @@
     "img": "artists/pashanim.jpg"
    },
    "pct": [
-    54,
-    46
+    12,
+    88
    ]
   },
   {
@@ -45,8 +45,8 @@
     "img": "songs/song-sommergewitter.jpg"
    },
    "pct": [
-    61,
-    39
+    97,
+    3
    ]
   },
   {
@@ -81,18 +81,18 @@
   },
   {
    "type": "mid",
-   "say": "Kurze Pause. Nie wieder duschen, oder nie wieder Maka?",
+   "say": "Kurze Pause. Nie wieder duschen, oder ein Date mit der dritten Person, die kommt, wenn du auf Teilen und mehr klickst?",
    "a": {
     "label": "Nie wieder duschen",
     "emoji": "🚿"
    },
    "b": {
-    "label": "Nie wieder Maka",
-    "emoji": "🍃"
+    "label": "Date mit der 3. Person bei „Teilen“",
+    "emoji": "💘"
    },
    "pct": [
-    18,
-    82
+    37,
+    63
    ]
   },
   {
@@ -121,8 +121,8 @@
     "img": "artists/kalim.jpg"
    },
    "pct": [
-    38,
-    62
+    1,
+    99
    ]
   },
   {
@@ -136,12 +136,12 @@
     "img": "songs/song-airwaves.jpg"
    },
    "pct": [
-    57,
-    43
+    83,
+    17
    ]
   }
  ],
  "outro": {
-  "say": "Wie oft lagst du bei der Mehrheit? Schreibs in die Kommentare, und folg für Teil zwei!"
+  "say": "Wie oft lagst du bei der Mehrheit? Ab in die Kommentare, und folg für Teil zwei!"
  }
 }

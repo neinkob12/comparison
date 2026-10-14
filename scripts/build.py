@@ -11,7 +11,7 @@ PUB = ROOT / "video" / "public"
 FPS = 30
 VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam
 GAP = 90          # Frames 3-2-1-Timer nach der Frage
-REVEAL = 54       # Frames, in denen die Prozente stehen
+REVEAL = 45       # Frames, in denen die Prozente stehen
 TAIL = 15         # Frames Luft am Ende von Intro/Outro
 
 pron = json.loads((ROOT / "config" / "aussprache.json").read_text())
@@ -27,7 +27,7 @@ def spoken(text):
 
 
 def speed_for(text):
-    return max([speeds[n] for n in speeds if n in text] + [1.05])
+    return min(1.2, max([speeds[n] for n in speeds if n in text] + [1.18]))
 
 
 def tts(text, out):

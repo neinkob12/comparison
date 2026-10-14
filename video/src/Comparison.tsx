@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-	AbsoluteFill, Audio, Img, Sequence, Series, interpolate, spring, staticFile,
+	AbsoluteFill, Audio, Img, Sequence, Series, interpolate, random, spring, staticFile,
 	useCurrentFrame, useVideoConfig,
 } from 'remotion';
 
@@ -39,7 +39,7 @@ const COUNT = 90; // 3-2-1 in Frames
 const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revealAt: number; mid: boolean}> = ({side, top, pct, win, revealAt, mid}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
-	const enter = spring({frame, fps, config: {damping: 14, mass: 0.6}, delay: top ? 0 : 4});
+	const enter = spring({frame, fps, config: {damping: 12, stiffness: 320, mass: 0.5}, delay: top ? 0 : 2});
 	const rev = spring({frame: frame - revealAt, fps, config: {damping: 9, mass: 0.7}});
 	const shown = frame >= revealAt;
 	const count = Math.round(interpolate(frame - revealAt, [0, 14], [0, pct], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}));
@@ -50,10 +50,14 @@ const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revea
 	const flash = shown && win ? interpolate(t, [0, 3, 12], [0, 0.55, 0], {extrapolateRight: 'clamp'}) : 0;
 	const dim = shown && !win ? interpolate(t, [0, 8], [0, 0.5], {extrapolateRight: 'clamp'}) : 0;
 	const pulse = shown && win ? 1 + 0.035 * Math.sin(t / 4) : 1;
+	const lose = shown && !win ? interpolate(t, [0, 8], [0, 1], {extrapolateRight: 'clamp'}) : 0;
+	const loseScale = 1 - 0.15 * lose;
+	const crown = spring({frame: frame - revealAt - 4, fps, config: {damping: 8, mass: 0.6}});
 	const visual = side.img ? (
 		<Img src={staticFile(side.img)} style={{
 			width: 470, height: 470, objectFit: 'cover', borderRadius: 36,
-			border: `10px solid ${greenIn > 0.5 ? C.green : C.white}`, boxShadow: '0 24px 60px rgba(0,0,0,.45)',
+			border: `${greenIn > 0.5 ? 16 : 10}px solid ${greenIn > 0.5 ? C.green : C.white}`, boxShadow: greenIn > 0.5 ? `0 0 90px 20px ${C.green}` : '0 24px 60px rgba(0,0,0,.45)',
+			filter: lose > 0 ? `grayscale(${lose}) brightness(${1 - 0.45 * lose})` : 'none',
 		}} />
 	) : side.emoji ? (
 		<div style={{
@@ -72,9 +76,17 @@ const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revea
 				position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center',
 				justifyContent: top ? 'flex-end' : 'flex-start', paddingTop: top ? 0 : 150, paddingBottom: top ? 150 : 0, gap: 30,
 			}}>
-				{top ? null : <Label text={side.label} enter={enter} />}
-				<div style={{position: 'relative', transform: `scale(${(0.6 + 0.4 * enter) * pulse})`}}>
+				{top ? null : <Label text={side.label} enter={enter} state={shown ? (win ? 'win' : 'lose') : null} />}
+				<div style={{position: 'relative', transform: `scale(${(0.6 + 0.4 * enter) * pulse * loseScale})`}}>
 					{visual}
+					{shown && win ? (
+						<div style={{position: 'absolute', top: -85, right: -85, fontFamily: EMOJI, fontSize: 150, lineHeight: 1,
+							transform: `scale(${crown}) rotate(${22 + 6 * Math.sin(t / 5)}deg)`}}>👑</div>
+					) : null}
+					{shown && !win ? (
+						<div style={{position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center',
+							fontFamily: HEAVY, fontSize: 380, color: 'rgba(255,40,60,.55)', lineHeight: 1}}>✕</div>
+					) : null}
 					{shown ? (
 						<div style={{
 							position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center',
@@ -82,18 +94,38 @@ const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revea
 						}}>{count}%</div>
 					) : null}
 				</div>
-				{top ? <Label text={side.label} enter={enter} /> : null}
+				{top ? <Label text={side.label} enter={enter} state={shown ? (win ? 'win' : 'lose') : null} /> : null}
 			</div>
+			{shown && win ? <Confetti t={t} seed={top ? 'a' : 'b'} /> : null}
 			<AbsoluteFill style={{background: '#000', opacity: dim}} />
 			<AbsoluteFill style={{background: C.white, opacity: flash}} />
 		</div>
 	);
 };
 
-const Label: React.FC<{text: string; enter: number}> = ({text, enter}) => (
+const Confetti: React.FC<{t: number; seed: string}> = ({t, seed}) => {
+	const cols = [C.yellow, C.white, '#7CFFB2', '#ff4fd8', '#4fd8ff'];
+	return (
+		<AbsoluteFill style={{pointerEvents: 'none'}}>
+			{new Array(46).fill(0).map((_, i) => {
+				const ang = random(seed + 'a' + i) * Math.PI * 2;
+				const sp = 18 + random(seed + 's' + i) * 30;
+				const x = 540 + Math.cos(ang) * sp * t;
+				const y = 480 + Math.sin(ang) * sp * t + 0.9 * t * t;
+				const size = 14 + random(seed + 'z' + i) * 18;
+				const op = interpolate(t, [0, 30, 45], [1, 1, 0], {extrapolateRight: 'clamp'});
+				return <div key={i} style={{position: 'absolute', left: x, top: y, width: size, height: size * 0.6,
+					background: cols[i % cols.length], opacity: op, transform: `rotate(${t * 20 + i * 30}deg)`, borderRadius: 3}} />;
+			})}
+		</AbsoluteFill>
+	);
+};
+
+const Label: React.FC<{text: string; enter: number; state: 'win' | 'lose' | null}> = ({text, enter, state}) => (
 	<div style={{
-		fontFamily: DISPLAY, fontSize: 92, lineHeight: 1.02, color: C.white, textAlign: 'center',
-		textTransform: 'uppercase', maxWidth: 940, opacity: enter, transform: `translateY(${(1 - enter) * 40}px)`,
+		fontFamily: DISPLAY, fontSize: 92, lineHeight: 1.02, color: state === 'win' ? C.yellow : C.white, textAlign: 'center',
+		textTransform: 'uppercase', maxWidth: 940, opacity: state === 'lose' ? 0.55 * enter : enter,
+		transform: `translateY(${(1 - enter) * 40}px) scale(${state === 'win' ? 1.12 : state === 'lose' ? 0.88 : 1})`,
 		...stroke(8),
 	}}>{text}</div>
 );
@@ -128,7 +160,7 @@ const Center: React.FC<{speakEnd: number}> = ({speakEnd}) => {
 			</svg>
 			<div style={{
 				position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center',
-				fontFamily: DISPLAY, fontSize: 150, color: C.ink, transform: `scale(${0.4 + 0.6 * s})`,
+				fontFamily: DISPLAY, fontSize: 150, color: n === 1 ? C.red : C.ink, transform: `scale(${0.4 + 0.6 * s + (n === 1 ? 0.08 * Math.sin(local) : 0)})`,
 			}}>{n}</div>
 		</div>
 	);
@@ -138,15 +170,21 @@ const Question: React.FC<{s: Segment}> = ({s}) => {
 	const revealAt = s.speak + (s.gap ?? 0);
 	const [pa, pb] = s.pct!;
 	const mid = s.kind === 'mid';
+	const frame = useCurrentFrame();
+	const punch = interpolate(frame, [0, 7], [1.12, 1], {extrapolateRight: 'clamp'});
+	const rt = frame - revealAt;
+	const shake = rt >= 0 && rt < 10 ? Math.sin(rt * 2.6) * (10 - rt) * 2.5 : 0;
+	const ct = frame - s.speak;
+	const panic = ct >= 60 && ct < COUNT ? 0.25 * (0.5 + 0.5 * Math.sin(ct * 1.2)) : 0;
 	return (
-		<AbsoluteFill>
+		<AbsoluteFill style={{transform: `scale(${punch}) translate(${shake}px, ${-shake * 0.5}px)`}}>
 			<Half side={s.a!} top pct={pa} win={pa >= pb} revealAt={revealAt} mid={mid} />
 			<Half side={s.b!} top={false} pct={pb} win={pb > pa} revealAt={revealAt} mid={mid} />
 			<Center speakEnd={s.speak} />
+			<AbsoluteFill style={{boxShadow: `inset 0 0 220px 60px rgba(255,0,0,${panic})`, pointerEvents: 'none'}} />
 			<Audio src={staticFile(s.audio)} />
-			{[0, 30, 60].map((d) => (
-				<Sequence key={d} from={s.speak + d} durationInFrames={10}><Audio src={staticFile('sfx/tick.mp3')} volume={0.8} /></Sequence>
-			))}
+			<Sequence from={s.speak} durationInFrames={COUNT}><Audio src={staticFile('sfx/countdown.mp3')} volume={0.85} /></Sequence>
+			<Audio src={staticFile('sfx/whoosh.mp3')} volume={0.5} />
 			<Sequence from={revealAt}><Audio src={staticFile('sfx/bling.mp3')} volume={0.7} /></Sequence>
 		</AbsoluteFill>
 	);
