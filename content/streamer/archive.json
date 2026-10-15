@@ -613,6 +613,59 @@
      "with": [
       "papaplatte"
      ]
+    },
+    {
+     "id": "gtime-cutter-enno",
+     "cat": "gag",
+     "label": "Cutter Enno und 4.800 Euro",
+     "quote": "In was für einer Welt lebt ihr eigentlich?",
+     "detail": "Februar 2026: Debatte über Gehalt seines Cutters Enno (4.800 brutto plus Hälfte der YouTube-Einnahmen). gTasty nannte es 'dumm', GTime wies Kritik zurück und verwies auf Papaplatte.",
+     "year": "2026",
+     "image": "GTime Cutter Enno Twitch",
+     "sources": [
+      "https://mein-mmo.de/twitch-gtime-cutter-bezahlung/"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime",
+      "papaplatte"
+     ]
+    },
+    {
+     "id": "marli-eligella-cup",
+     "cat": "moment",
+     "label": "Timgiohs Turnier-Wunsch",
+     "quote": null,
+     "detail": "Januar 2026: Im Stream mit Marli wünscht sich Timgioh ein Mario-Kart-Turnier mit Papaplatte, Eli und 'der ganzen Crew'. Netz lacht, Eli kündigt 'einen Eligella-Cup, auf ernst' an.",
+     "year": "2026",
+     "image": "Eligella-Cup Mario Kart Timgioh Eli",
+     "sources": [
+      "https://www.comicschau.de/news/eliasn97-mario-kart-turnier-705709/"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "timgioh",
+      "eliasn97",
+      "papaplatte"
+     ]
+    },
+    {
+     "id": "marli-grauzone",
+     "cat": "zitat",
+     "label": "Gefühl für die Grauzone",
+     "quote": "Ich würde sagen, ich habe einfach ein gutes Gefühl dafür, was noch Grauzone ist.",
+     "detail": "Aus dem Edeltalk-Podcast mit Papaplatte und Reeze (Frühjahr 2026). Kommentare gemischt, einer fragte, ob man ihm eine Plattform geben sollte.",
+     "year": "2026",
+     "image": "Edeltalk Marli Papaplatte Reeze",
+     "sources": [
+      "https://www.comicschau.de/news/wer-ist-marli-streamer-alter-herkunft-name-706986/"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "papaplatte"
+     ]
     }
    ],
    "vibe": "Laut, chaotisch, Ruhrpott-Humor, Rage-Momente und Nahaufnahme-Memes.",
@@ -1341,6 +1394,44 @@
      ],
      "conf": "low",
      "with": [
+      "timgioh",
+      "montanablack"
+     ]
+    },
+    {
+     "id": "marli-monte-man-yes",
+     "cat": "meme",
+     "label": "Monte man yes",
+     "quote": "Hey Monte… Monte man yess. Was geht? Alles gut bei dir?",
+     "detail": "Im Mario-Kart-Stream von Marli (Twitch, Anfang 2026) begrüßt Timgioh Monte. Monte fragt 'Wer redet denn da?' und 'Zuschauer oder was?'. Wurde auf TikTok Meme, Monte fand ihn später nervig.",
+     "year": "2026",
+     "image": "Monte man yes Timgioh MontanaBlack Meme",
+     "sources": [
+      "https://www.comicschau.de/news/monte-man-yes-meme-tiktok-herkunft-707022/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "montanablack",
+      "timgioh",
+      "eliasn97"
+     ]
+    },
+    {
+     "id": "marli-ganze-truppe",
+     "cat": "zitat",
+     "label": "Die ganze Truppe, dicker",
+     "quote": "Nein, Mann, die ganze Truppe, dicker",
+     "detail": "Marli verteidigt Timgioh gegenüber Monte: Er gehöre dazu. Wortlaut stammt aus einem Zitatfetzen in einer Zusammenfassung, nicht im Clip geprüft.",
+     "year": "2026",
+     "image": "Marli Timgioh Monte Mario Kart Stream",
+     "sources": [
+      "https://www.comicschau.de/news/monte-man-yes-meme-tiktok-herkunft-707022/"
+     ],
+     "conf": "medium",
+     "with": [
+      "marli",
       "timgioh",
       "montanablack"
      ]
@@ -3008,6 +3099,41 @@
      "conf": "high",
      "with": [
       "trymacs"
+     ]
+    },
+    {
+     "id": "gtime-abkoppeln",
+     "cat": "meme",
+     "label": "Einmal abkoppeln, Gtime",
+     "quote": "Einmal abkoppeln, Gtime",
+     "detail": "Soll aus einem Stimmbruch von Trymacs im Landwirtschafts-Simulator stammen; Gtime hat den Spruch nicht erfunden. Nur eine Quelle (Comicschau), Clip nicht selbst gesehen.",
+     "year": "2025",
+     "image": "Trymacs Gtime Landwirtschafts-Simulator Clip",
+     "sources": [
+      "https://www.comicschau.de/news/gamerstime-alter-freundin-wiki-streamer-703369/"
+     ],
+     "conf": "medium",
+     "with": [
+      "gtime",
+      "trymacs"
+     ]
+    },
+    {
+     "id": "gtime-lws-bauern",
+     "cat": "moment",
+     "label": "Als Bauer im Kostüm",
+     "quote": null,
+     "detail": "November 2025: Trymacs, GTime, Rumathra, Zarbex, Nici Stemmler und Sebo spielen fünf Tage Landwirtschaftssimulator in Kostümen. Trymacs verlor die Stimme, GTime spielt den Bauern.",
+     "year": "2025",
+     "image": "Landwirtschaftssimulator Trymacs Gtime Kostüm Stream",
+     "sources": [
+      "https://mein-mmo.de/twitch-trymacs-landwirtschaftssimulator-2025/"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime",
+      "trymacs",
+      "zarbex"
      ]
     }
    ],
@@ -4996,6 +5122,137 @@
      "with": [
       "eliasn97"
      ]
+    },
+    {
+     "id": "niklaswilson-black-goty",
+     "cat": "gag",
+     "label": "Black-GOTY-Kampagne",
+     "quote": "Der erste SCHWARZE BLACK GOTY macht es moeglich.",
+     "detail": "Im Februar 2026 wirbt Willy per TikTok dafür, Eli als Gamer des Jahres der EarlyGame Awards abzulösen. Fans kommentieren 'Meine Stimme geht an Sie, Mr. Summer Nick'. Achtung: Wortspiel mit Hautfarbe, siehe avoid.",
+     "year": "2026",
+     "image": "EarlyGame Awards Gamer of the Year Willy Eli",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/wird-er-der-neue-black-goty-der-kampf-zwischen-willy-und-eliasn97-beginnt"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson",
+      "eliasn97"
+     ]
+    },
+    {
+     "id": "niklaswilson-ere-opening",
+     "cat": "moment",
+     "label": "Shop-Eröffnung eskaliert",
+     "quote": null,
+     "detail": "Bei der Eröffnung seines Ére-Studios-Stores in Nürnberg kamen hunderte Fans, Eli war eingeladen, die Eröffnung wurde abgebrochen. Willy: 'Aber Gesundheit geht vor...'",
+     "year": "2023",
+     "image": "Ere Studios Nürnberg Eröffnung Willy Fans",
+     "sources": [
+      "https://www.leinetal24.de/leben/games/twitch-stars-shop-eroeffnung-nuernberg-niklas-wilson-sommer-fan-ansammlung-eskalation-zr-92127714.html"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson",
+      "eliasn97"
+     ]
+    },
+    {
+     "id": "niklaswilson-vitavate",
+     "cat": "habit",
+     "label": "Vitavate mit Eli und Sidney",
+     "quote": null,
+     "detail": "Willy ist Mitgründer der Getränkemarke Vitavate (2022) zusammen mit Eli und Sidney Friede; die drei kennen sich auch aus dem Fußball.",
+     "year": "2024",
+     "image": "Vitavate Getränk Eli Sidney Willy",
+     "sources": [
+      "https://earlygame.com/de/entertainment/wer-ist-niklas-wilson-sommer-ere-studios-vitavate-youtube-fussball-gehalt",
+      "https://mein-mmo.de/twitch-streamer-hat-geldsorgen/"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson",
+      "eliasn97",
+      "sidneyeweka"
+     ]
+    },
+    {
+     "id": "niklaswilson-craft-attack-14",
+     "cat": "moment",
+     "label": "Craft Attack 14 mit Eli und Sid",
+     "quote": null,
+     "detail": "Craft Attack 14 startete am 10.10.2026. Videotitel nennen 'Eli, Sid, GTime, Willy, Repaz & Co.' sowie eine Gruppe 'Titanen' auf Platz 1 des Servers (Videotitel/Ticker, nicht offiziell bestätigt).",
+     "year": "2026",
+     "image": "Craft Attack 14 Eli Sidney GTime Willy",
+     "sources": [
+      "https://www.youtube.com/watch?v=unzkweSL_TQ",
+      "https://www.comicschau.de/news/craft-attack-14-teilnehmer-start-2026-716616/"
+     ],
+     "conf": "medium",
+     "with": [
+      "niklaswilson",
+      "eliasn97",
+      "sidneyeweka",
+      "gtime"
+     ]
+    },
+    {
+     "id": "gtime-craft-attack-14",
+     "cat": "moment",
+     "label": "Craft Attack 14 bei den Titanen",
+     "quote": null,
+     "detail": "Oktober 2026: GTime ist bei Craft Attack 14 (Start 10.10.) in Videotiteln mit Eli, Sid, Willy und Repaz genannt; Gruppe 'Titanen' wird als Server-Platz 1 betitelt.",
+     "year": "2026",
+     "image": "Craft Attack 14 GTime Titanen",
+     "sources": [
+      "https://www.youtube.com/watch?v=unzkweSL_TQ"
+     ],
+     "conf": "medium",
+     "with": [
+      "gtime",
+      "eliasn97",
+      "sidneyeweka",
+      "niklaswilson"
+     ]
+    },
+    {
+     "id": "marli-monte-man-yes",
+     "cat": "meme",
+     "label": "Monte man yes",
+     "quote": "Hey Monte… Monte man yess. Was geht? Alles gut bei dir?",
+     "detail": "Im Mario-Kart-Stream von Marli (Twitch, Anfang 2026) begrüßt Timgioh Monte. Monte fragt 'Wer redet denn da?' und 'Zuschauer oder was?'. Wurde auf TikTok Meme, Monte fand ihn später nervig.",
+     "year": "2026",
+     "image": "Monte man yes Timgioh MontanaBlack Meme",
+     "sources": [
+      "https://www.comicschau.de/news/monte-man-yes-meme-tiktok-herkunft-707022/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "montanablack",
+      "timgioh",
+      "eliasn97"
+     ]
+    },
+    {
+     "id": "marli-eligella-cup",
+     "cat": "moment",
+     "label": "Timgiohs Turnier-Wunsch",
+     "quote": null,
+     "detail": "Januar 2026: Im Stream mit Marli wünscht sich Timgioh ein Mario-Kart-Turnier mit Papaplatte, Eli und 'der ganzen Crew'. Netz lacht, Eli kündigt 'einen Eligella-Cup, auf ernst' an.",
+     "year": "2026",
+     "image": "Eligella-Cup Mario Kart Timgioh Eli",
+     "sources": [
+      "https://www.comicschau.de/news/eliasn97-mario-kart-turnier-705709/"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "timgioh",
+      "eliasn97",
+      "papaplatte"
+     ]
     }
    ],
    "vibe": "Lauter Rage-Gamer, Memes, Challenge-Streams mit Trymacs.",
@@ -5172,6 +5429,64 @@
      "with": [
       "tanzverbot",
       "sidneyeweka"
+     ]
+    },
+    {
+     "id": "niklaswilson-vitavate",
+     "cat": "habit",
+     "label": "Vitavate mit Eli und Sidney",
+     "quote": null,
+     "detail": "Willy ist Mitgründer der Getränkemarke Vitavate (2022) zusammen mit Eli und Sidney Friede; die drei kennen sich auch aus dem Fußball.",
+     "year": "2024",
+     "image": "Vitavate Getränk Eli Sidney Willy",
+     "sources": [
+      "https://earlygame.com/de/entertainment/wer-ist-niklas-wilson-sommer-ere-studios-vitavate-youtube-fussball-gehalt",
+      "https://mein-mmo.de/twitch-streamer-hat-geldsorgen/"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson",
+      "eliasn97",
+      "sidneyeweka"
+     ]
+    },
+    {
+     "id": "niklaswilson-craft-attack-14",
+     "cat": "moment",
+     "label": "Craft Attack 14 mit Eli und Sid",
+     "quote": null,
+     "detail": "Craft Attack 14 startete am 10.10.2026. Videotitel nennen 'Eli, Sid, GTime, Willy, Repaz & Co.' sowie eine Gruppe 'Titanen' auf Platz 1 des Servers (Videotitel/Ticker, nicht offiziell bestätigt).",
+     "year": "2026",
+     "image": "Craft Attack 14 Eli Sidney GTime Willy",
+     "sources": [
+      "https://www.youtube.com/watch?v=unzkweSL_TQ",
+      "https://www.comicschau.de/news/craft-attack-14-teilnehmer-start-2026-716616/"
+     ],
+     "conf": "medium",
+     "with": [
+      "niklaswilson",
+      "eliasn97",
+      "sidneyeweka",
+      "gtime"
+     ]
+    },
+    {
+     "id": "gtime-craft-attack-14",
+     "cat": "moment",
+     "label": "Craft Attack 14 bei den Titanen",
+     "quote": null,
+     "detail": "Oktober 2026: GTime ist bei Craft Attack 14 (Start 10.10.) in Videotiteln mit Eli, Sid, Willy und Repaz genannt; Gruppe 'Titanen' wird als Server-Platz 1 betitelt.",
+     "year": "2026",
+     "image": "Craft Attack 14 GTime Titanen",
+     "sources": [
+      "https://www.youtube.com/watch?v=unzkweSL_TQ"
+     ],
+     "conf": "medium",
+     "with": [
+      "gtime",
+      "eliasn97",
+      "sidneyeweka",
+      "niklaswilson"
      ]
     }
    ],
@@ -5884,6 +6199,80 @@
      "with": [
       "timgioh"
      ]
+    },
+    {
+     "id": "gtime-tim-gioh-chat",
+     "cat": "moment",
+     "label": "Chat will Tim Gioh",
+     "quote": null,
+     "detail": "April 2026: Im Chat fiel wochenlang der Name Tim Gioh, GTime sagte, Chemie zähle mehr als Hype (sinngemäß, kein O-Ton).",
+     "year": "2026",
+     "image": "GTime Tim Gioh",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/gtime-ueber-seinen-fame-was-sich-wirklich-veraendert-hat-seit-der-hype-da-ist"
+     ],
+     "conf": "medium",
+     "with": [
+      "gtime",
+      "timgioh"
+     ]
+    },
+    {
+     "id": "marli-monte-man-yes",
+     "cat": "meme",
+     "label": "Monte man yes",
+     "quote": "Hey Monte… Monte man yess. Was geht? Alles gut bei dir?",
+     "detail": "Im Mario-Kart-Stream von Marli (Twitch, Anfang 2026) begrüßt Timgioh Monte. Monte fragt 'Wer redet denn da?' und 'Zuschauer oder was?'. Wurde auf TikTok Meme, Monte fand ihn später nervig.",
+     "year": "2026",
+     "image": "Monte man yes Timgioh MontanaBlack Meme",
+     "sources": [
+      "https://www.comicschau.de/news/monte-man-yes-meme-tiktok-herkunft-707022/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "montanablack",
+      "timgioh",
+      "eliasn97"
+     ]
+    },
+    {
+     "id": "marli-ganze-truppe",
+     "cat": "zitat",
+     "label": "Die ganze Truppe, dicker",
+     "quote": "Nein, Mann, die ganze Truppe, dicker",
+     "detail": "Marli verteidigt Timgioh gegenüber Monte: Er gehöre dazu. Wortlaut stammt aus einem Zitatfetzen in einer Zusammenfassung, nicht im Clip geprüft.",
+     "year": "2026",
+     "image": "Marli Timgioh Monte Mario Kart Stream",
+     "sources": [
+      "https://www.comicschau.de/news/monte-man-yes-meme-tiktok-herkunft-707022/"
+     ],
+     "conf": "medium",
+     "with": [
+      "marli",
+      "timgioh",
+      "montanablack"
+     ]
+    },
+    {
+     "id": "marli-eligella-cup",
+     "cat": "moment",
+     "label": "Timgiohs Turnier-Wunsch",
+     "quote": null,
+     "detail": "Januar 2026: Im Stream mit Marli wünscht sich Timgioh ein Mario-Kart-Turnier mit Papaplatte, Eli und 'der ganzen Crew'. Netz lacht, Eli kündigt 'einen Eligella-Cup, auf ernst' an.",
+     "year": "2026",
+     "image": "Eligella-Cup Mario Kart Timgioh Eli",
+     "sources": [
+      "https://www.comicschau.de/news/eliasn97-mario-kart-turnier-705709/"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "timgioh",
+      "eliasn97",
+      "papaplatte"
+     ]
     }
    ],
    "vibe": "Kleiner, junger wirkender Yu-Gi-Oh-Nerd, der durch einen Mario-Kart-Moment mit Monte zum Meme-Streamer wurde.",
@@ -6151,6 +6540,532 @@
    "img": "img/rumathra.jpg"
   },
   {
+   "key": "niklaswilson",
+   "name": "Niklas Wilson (Willy)",
+   "core": true,
+   "items": [
+    {
+     "id": "niklaswilson-cs2-skins",
+     "cat": "moment",
+     "label": "CS2-Skins-Schock",
+     "quote": null,
+     "detail": "Willy lernt live auf Twitch, wie viel Geld im CS2-Skinmarkt steckt (Sticker für 50.000 Euro, Accounts für 3,5 Mio) und fragt, ob das Glücksspiel sei. Ein Mitspieler hatte 150 Euro in Kisten verbrannt.",
+     "year": "2025",
+     "image": "Niklas Wilson Counter-Strike 2 Stream",
+     "sources": [
+      "https://mein-mmo.de/twitch-steam-counter-strike-2-geld-niklaswilson/"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson"
+     ]
+    },
+    {
+     "id": "niklaswilson-arc-raiders-tim",
+     "cat": "moment",
+     "label": "Vom 9-Jährigen besiegt",
+     "quote": "Mir wurde immer beigebracht, vertraue keinen Fremden.",
+     "detail": "In ARC Raiders stichelt Willy gegen einen 9-jährigen Spieler namens Tim, greift ihn an, verliert und bittet ihn dann, ihn wiederzubeleben. Sein Fazit: 'Naja, das ist jetzt schon peinlich.'",
+     "year": "2026",
+     "image": "Willy Niklas Wilson ARC Raiders Twitch",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/vertraue-keinem-fremden-willy-versucht-einen-jungen-im-spiel-auszutricksen-und-verliert-selbst"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson"
+     ]
+    },
+    {
+     "id": "niklaswilson-black-goty",
+     "cat": "gag",
+     "label": "Black-GOTY-Kampagne",
+     "quote": "Der erste SCHWARZE BLACK GOTY macht es moeglich.",
+     "detail": "Im Februar 2026 wirbt Willy per TikTok dafür, Eli als Gamer des Jahres der EarlyGame Awards abzulösen. Fans kommentieren 'Meine Stimme geht an Sie, Mr. Summer Nick'. Achtung: Wortspiel mit Hautfarbe, siehe avoid.",
+     "year": "2026",
+     "image": "EarlyGame Awards Gamer of the Year Willy Eli",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/wird-er-der-neue-black-goty-der-kampf-zwischen-willy-und-eliasn97-beginnt"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson",
+      "eliasn97"
+     ]
+    },
+    {
+     "id": "niklaswilson-ere-opening",
+     "cat": "moment",
+     "label": "Shop-Eröffnung eskaliert",
+     "quote": null,
+     "detail": "Bei der Eröffnung seines Ére-Studios-Stores in Nürnberg kamen hunderte Fans, Eli war eingeladen, die Eröffnung wurde abgebrochen. Willy: 'Aber Gesundheit geht vor...'",
+     "year": "2023",
+     "image": "Ere Studios Nürnberg Eröffnung Willy Fans",
+     "sources": [
+      "https://www.leinetal24.de/leben/games/twitch-stars-shop-eroeffnung-nuernberg-niklas-wilson-sommer-fan-ansammlung-eskalation-zr-92127714.html"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson",
+      "eliasn97"
+     ]
+    },
+    {
+     "id": "niklaswilson-ex-fussballer",
+     "cat": "habit",
+     "label": "Ex-Fußballer im Stream",
+     "quote": null,
+     "detail": "Früher Rechtsverteidiger bei Nürnberg (U23), Mannheim; Vertrag endete Januar 2025. Der Verein schränkte sein Streaming ein, teils durfte er nach Niederlagen nicht streamen. Er sagt, Streaming brachte zeitweise mehr als Fußball.",
+     "year": "2025",
+     "image": "Niklas Wilson Sommer Fußball Nürnberg",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/mehr-geld-mit-gaming-als-mit-fußball-so-machte-willy-den-sprung-auf-twitch"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson"
+     ]
+    },
+    {
+     "id": "niklaswilson-vitavate",
+     "cat": "habit",
+     "label": "Vitavate mit Eli und Sidney",
+     "quote": null,
+     "detail": "Willy ist Mitgründer der Getränkemarke Vitavate (2022) zusammen mit Eli und Sidney Friede; die drei kennen sich auch aus dem Fußball.",
+     "year": "2024",
+     "image": "Vitavate Getränk Eli Sidney Willy",
+     "sources": [
+      "https://earlygame.com/de/entertainment/wer-ist-niklas-wilson-sommer-ere-studios-vitavate-youtube-fussball-gehalt",
+      "https://mein-mmo.de/twitch-streamer-hat-geldsorgen/"
+     ],
+     "conf": "high",
+     "with": [
+      "niklaswilson",
+      "eliasn97",
+      "sidneyeweka"
+     ]
+    },
+    {
+     "id": "niklaswilson-craft-attack-14",
+     "cat": "moment",
+     "label": "Craft Attack 14 mit Eli und Sid",
+     "quote": null,
+     "detail": "Craft Attack 14 startete am 10.10.2026. Videotitel nennen 'Eli, Sid, GTime, Willy, Repaz & Co.' sowie eine Gruppe 'Titanen' auf Platz 1 des Servers (Videotitel/Ticker, nicht offiziell bestätigt).",
+     "year": "2026",
+     "image": "Craft Attack 14 Eli Sidney GTime Willy",
+     "sources": [
+      "https://www.youtube.com/watch?v=unzkweSL_TQ",
+      "https://www.comicschau.de/news/craft-attack-14-teilnehmer-start-2026-716616/"
+     ],
+     "conf": "medium",
+     "with": [
+      "niklaswilson",
+      "eliasn97",
+      "sidneyeweka",
+      "gtime"
+     ]
+    },
+    {
+     "id": "niklaswilson-earlygame-mvp",
+     "cat": "moment",
+     "label": "EarlyGame-Award-MVP 2026",
+     "quote": null,
+     "detail": "EarlyGame führt ihn als MVP-Gewinner der EarlyGame Awards 2026 (nur über Linktext belegt).",
+     "year": "2026",
+     "image": "EarlyGame Awards 2026 MVP Willy",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/mehr-geld-mit-gaming-als-mit-fußball-so-machte-willy-den-sprung-auf-twitch"
+     ],
+     "conf": "low",
+     "with": [
+      "niklaswilson"
+     ]
+    },
+    {
+     "id": "niklaswilson-ea-fc",
+     "cat": "habit",
+     "label": "EA-FC-Streams",
+     "quote": null,
+     "detail": "Sein Kanal streamt laut Twitch-Beschreibung EA Sports FC; dazu NBA 2K und Just Chatting.",
+     "year": "2026",
+     "image": "Niklas Wilson EA FC Stream",
+     "sources": [
+      "https://www.twitch.tv/niklaswilson/videos?filter=all",
+      "https://mein-mmo.de/en/streamer-understands-live-on-twitch-how-much-money-is-really-at-stake-in-the-biggest-game-on-steam-and-it-is-wonderful,1244571/"
+     ],
+     "conf": "medium",
+     "with": [
+      "niklaswilson"
+     ]
+    },
+    {
+     "id": "niklaswilson-schueler-hinten",
+     "cat": "meme",
+     "label": "Liebling in der letzten Reihe",
+     "quote": "Schau Willy so aktiv nicht, aber das ist mein Lieblings-Schüler, der in der letzten Reihe sitzt.",
+     "detail": "Zuschauerkommentar unter dem CS2-Clip (nur ein Kommentar, kein etablierter Running Gag).",
+     "year": "2025",
+     "image": "Willy Niklas Wilson Clip",
+     "sources": [
+      "https://mein-mmo.de/twitch-steam-counter-strike-2-geld-niklaswilson/"
+     ],
+     "conf": "low",
+     "with": [
+      "niklaswilson"
+     ]
+    },
+    {
+     "id": "gtime-craft-attack-14",
+     "cat": "moment",
+     "label": "Craft Attack 14 bei den Titanen",
+     "quote": null,
+     "detail": "Oktober 2026: GTime ist bei Craft Attack 14 (Start 10.10.) in Videotiteln mit Eli, Sid, Willy und Repaz genannt; Gruppe 'Titanen' wird als Server-Platz 1 betitelt.",
+     "year": "2026",
+     "image": "Craft Attack 14 GTime Titanen",
+     "sources": [
+      "https://www.youtube.com/watch?v=unzkweSL_TQ"
+     ],
+     "conf": "medium",
+     "with": [
+      "gtime",
+      "eliasn97",
+      "sidneyeweka",
+      "niklaswilson"
+     ]
+    }
+   ],
+   "vibe": "Ex-Fußballprofi aus Nürnberg, Eli-und-Sidney-Clique, tollpatschig-sympathischer Just-Chatting- und EA-FC-Streamer.",
+   "followers": "Twitch ca. 1,15 Mio (Socialblade, Juli 2026); YouTube ca. 600k (mein-mmo 2024)",
+   "active": "ja, Twitch aktiv 2026, bei Craft Attack 14 (Start 10.10.2026) gelistet",
+   "platforms": [
+    "Twitch",
+    "YouTube",
+    "TikTok",
+    "Instagram"
+   ],
+   "crew": [
+    "eliasn97",
+    "sidneyeweka",
+    "eldos"
+   ],
+   "rivals": [],
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "Kein Beleg gefunden, dass Willy in Hungriger/Satter-Hugo-Clips vorkommt. Nicht gezielt auf Hugo-Clips prüfbar mit Websuche.",
+   "real_name": {
+    "value": "Niklas-Wilson Sommer",
+    "source": "https://earlygame.com/de/news/influencers/mehr-geld-mit-gaming-als-mit-fußball-so-machte-willy-den-sprung-auf-twitch"
+   },
+   "nicknames": [
+    {
+     "name": "Willy",
+     "used_by": "Fans, Medien, Freunde",
+     "source_url": "https://earlygame.com/de/entertainment/wer-ist-niklas-wilson-sommer-ere-studios-vitavate-youtube-fussball-gehalt"
+    },
+    {
+     "name": "Mr. Summer Nick",
+     "used_by": "Zuschauerkommentar (Scherz, einmalig)",
+     "source_url": "https://earlygame.com/de/news/influencers/wird-er-der-neue-black-goty-der-kampf-zwischen-willy-und-eliasn97-beginnt"
+    }
+   ],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Willy = Willi; Niklas Wilson = NIK-las WIL-sen",
+    "tts_spelling": "Willi / Niklas Wilsen",
+    "verified": false,
+    "source_url": null
+   },
+   "cast_sources": [
+    "https://earlygame.com/de/entertainment/wer-ist-niklas-wilson-sommer-ere-studios-vitavate-youtube-fussball-gehalt",
+    "https://mein-mmo.de/twitch-steam-counter-strike-2-geld-niklaswilson/",
+    "https://twitchtracker.com/niklaswilson",
+    "https://socialblade.com/twitch/user/niklaswilson"
+   ],
+   "img": "img/niklaswilson.jpg"
+  },
+  {
+   "key": "gtime",
+   "name": "GTime (Gamerstime, Kevin Lohse)",
+   "core": true,
+   "items": [
+    {
+     "id": "niklaswilson-craft-attack-14",
+     "cat": "moment",
+     "label": "Craft Attack 14 mit Eli und Sid",
+     "quote": null,
+     "detail": "Craft Attack 14 startete am 10.10.2026. Videotitel nennen 'Eli, Sid, GTime, Willy, Repaz & Co.' sowie eine Gruppe 'Titanen' auf Platz 1 des Servers (Videotitel/Ticker, nicht offiziell bestätigt).",
+     "year": "2026",
+     "image": "Craft Attack 14 Eli Sidney GTime Willy",
+     "sources": [
+      "https://www.youtube.com/watch?v=unzkweSL_TQ",
+      "https://www.comicschau.de/news/craft-attack-14-teilnehmer-start-2026-716616/"
+     ],
+     "conf": "medium",
+     "with": [
+      "niklaswilson",
+      "eliasn97",
+      "sidneyeweka",
+      "gtime"
+     ]
+    },
+    {
+     "id": "gtime-koch-ein-jahr",
+     "cat": "moment",
+     "label": "Ein Jahr, sonst Koch",
+     "quote": "Er gab sich noch ein Jahr, um erfolgreich auf Twitch zu sein.",
+     "detail": "Kevin Lohse, gelernter Koch (1.200 Euro netto im alten Job), streamt seit 2014. Im Sommer 2024 setzte er sich ein Jahr Frist, danach explodierten die Zahlen. Titel ist Schlagzeile, kein O-Ton.",
+     "year": "2026",
+     "image": "GTime Twitch Streamer Koch",
+     "sources": [
+      "https://mein-mmo.de/twitch-streamer-gtime/",
+      "https://earlygame.com/de/news/influencers/gtime-vom-koch-zum-twitch-star-warum-er-werbung-lieber-in-massen-schaltet"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime"
+     ]
+    },
+    {
+     "id": "gtime-zuschauer-12x",
+     "cat": "moment",
+     "label": "Zuschauer fast verzwölffacht",
+     "quote": null,
+     "detail": "Laut SullyGnome von ca. 435 (Jan 2025) auf ca. 5.339 Schnitt-Zuschauer (Jan 2026). Auslöser: Kochen, Sportspiele, Craft Attack 13.",
+     "year": "2026",
+     "image": "GTime Twitch Zuschauer Wachstum",
+     "sources": [
+      "https://mein-mmo.de/twitch-streamer-gtime/"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime"
+     ]
+    },
+    {
+     "id": "gtime-werbung",
+     "cat": "gag",
+     "label": "Schalt mehr Werbung, GTime",
+     "quote": "Schalt mehr Werbung, GTime, gönn dir!",
+     "detail": "Chat fordert ständig mehr Ads. Er bleibt bei ca. 3 Minuten pro Stunde, 'fünf Prozent von der Gesamtzeit einer Stunde', und zitiert Two and a Half Men mit der Zitrone.",
+     "year": "2026",
+     "image": "GTime Werbung Twitch Chat",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/gtime-vom-koch-zum-twitch-star-warum-er-werbung-lieber-in-massen-schaltet"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime"
+     ]
+    },
+    {
+     "id": "gtime-abkoppeln",
+     "cat": "meme",
+     "label": "Einmal abkoppeln, Gtime",
+     "quote": "Einmal abkoppeln, Gtime",
+     "detail": "Soll aus einem Stimmbruch von Trymacs im Landwirtschafts-Simulator stammen; Gtime hat den Spruch nicht erfunden. Nur eine Quelle (Comicschau), Clip nicht selbst gesehen.",
+     "year": "2025",
+     "image": "Trymacs Gtime Landwirtschafts-Simulator Clip",
+     "sources": [
+      "https://www.comicschau.de/news/gamerstime-alter-freundin-wiki-streamer-703369/"
+     ],
+     "conf": "medium",
+     "with": [
+      "gtime",
+      "trymacs"
+     ]
+    },
+    {
+     "id": "gtime-lws-bauern",
+     "cat": "moment",
+     "label": "Als Bauer im Kostüm",
+     "quote": null,
+     "detail": "November 2025: Trymacs, GTime, Rumathra, Zarbex, Nici Stemmler und Sebo spielen fünf Tage Landwirtschaftssimulator in Kostümen. Trymacs verlor die Stimme, GTime spielt den Bauern.",
+     "year": "2025",
+     "image": "Landwirtschaftssimulator Trymacs Gtime Kostüm Stream",
+     "sources": [
+      "https://mein-mmo.de/twitch-trymacs-landwirtschaftssimulator-2025/"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime",
+      "trymacs",
+      "zarbex"
+     ]
+    },
+    {
+     "id": "gtime-rosin",
+     "cat": "moment",
+     "label": "Kochen mit Frank Rosin",
+     "quote": null,
+     "detail": "Februar 2026: Über Zarbex wird ein Koch-Crossover mit TV-Koch Frank Rosin angekündigt. Zarbex nennt ihn 'aufgehenden Stern am Streaming-Himmel'. Termin war offen. Er bewertete einen Imbiss, den Rosins Mutter führte, mit 8/10.",
+     "year": "2026",
+     "image": "Gamerstime Frank Rosin Stream",
+     "sources": [
+      "https://www.comicschau.de/news/gamerstime-frank-rosin-gtime-zarbex-705955/"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime",
+      "zarbex"
+     ]
+    },
+    {
+     "id": "gtime-cutter-enno",
+     "cat": "gag",
+     "label": "Cutter Enno und 4.800 Euro",
+     "quote": "In was für einer Welt lebt ihr eigentlich?",
+     "detail": "Februar 2026: Debatte über Gehalt seines Cutters Enno (4.800 brutto plus Hälfte der YouTube-Einnahmen). gTasty nannte es 'dumm', GTime wies Kritik zurück und verwies auf Papaplatte.",
+     "year": "2026",
+     "image": "GTime Cutter Enno Twitch",
+     "sources": [
+      "https://mein-mmo.de/twitch-gtime-cutter-bezahlung/"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime",
+      "papaplatte"
+     ]
+    },
+    {
+     "id": "gtime-hater-trinkgeld",
+     "cat": "zitat",
+     "label": "Trinkgeld-Dilemma",
+     "quote": "Je weniger Skandale jemand hat, desto mehr versuchen sie, die Nadel im Heuhaufen zu finden.",
+     "detail": "Juni 2026: Gibt er Trinkgeld, sei er Gutmensch mit Image-Politur, gibt er keins, sei er geizig. Schluss: 'Am Ende ist es sowieso egal, was du machst.'",
+     "year": "2026",
+     "image": "GTime Twitch IRL Restaurant",
+     "sources": [
+      "https://earlygame.com/de/news/entertainment/gtime-über-hater-und-framing-egal-was-du-machst-es-wird-kritisiert"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime"
+     ]
+    },
+    {
+     "id": "gtime-umsatz",
+     "cat": "zitat",
+     "label": "Das ist geisteskrank",
+     "quote": "Ich hatte noch nie ein Jahr, das so erfolgreich war in Social Media.",
+     "detail": "September 2026: Er schätzt 600.000 bis 700.000 Euro Jahresumsatz (ca. 250k Partnerschaften, ca. 140k Twitch) und nennt die Zahlen 'geisteskrank'. Eigene Schätzung, kein Gewinn.",
+     "year": "2026",
+     "image": "GTime Twitch Umsatz",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/fast-700-000-euro-twitch-streamer-gtime-spricht-ueber-seinen-jahresumsatz"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime"
+     ]
+    },
+    {
+     "id": "gtime-tim-gioh-chat",
+     "cat": "moment",
+     "label": "Chat will Tim Gioh",
+     "quote": null,
+     "detail": "April 2026: Im Chat fiel wochenlang der Name Tim Gioh, GTime sagte, Chemie zähle mehr als Hype (sinngemäß, kein O-Ton).",
+     "year": "2026",
+     "image": "GTime Tim Gioh",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/gtime-ueber-seinen-fame-was-sich-wirklich-veraendert-hat-seit-der-hype-da-ist"
+     ],
+     "conf": "medium",
+     "with": [
+      "gtime",
+      "timgioh"
+     ]
+    },
+    {
+     "id": "gtime-craft-attack-14",
+     "cat": "moment",
+     "label": "Craft Attack 14 bei den Titanen",
+     "quote": null,
+     "detail": "Oktober 2026: GTime ist bei Craft Attack 14 (Start 10.10.) in Videotiteln mit Eli, Sid, Willy und Repaz genannt; Gruppe 'Titanen' wird als Server-Platz 1 betitelt.",
+     "year": "2026",
+     "image": "Craft Attack 14 GTime Titanen",
+     "sources": [
+      "https://www.youtube.com/watch?v=unzkweSL_TQ"
+     ],
+     "conf": "medium",
+     "with": [
+      "gtime",
+      "eliasn97",
+      "sidneyeweka",
+      "niklaswilson"
+     ]
+    },
+    {
+     "id": "gtime-namen",
+     "cat": "habit",
+     "label": "Drei Namen, ein Kevin",
+     "quote": null,
+     "detail": "Er nennt sich Gamerstime, Gtime und GtimeTV und hatte früher den Kochkanal 'Kev's Kitchen'. Zuschauer sagen oft 'Kevin'.",
+     "year": "2026",
+     "image": "GTime Gamerstime Kevin Lohse",
+     "sources": [
+      "https://www.comicschau.de/news/gamerstime-alter-freundin-wiki-streamer-703369/"
+     ],
+     "conf": "medium",
+     "with": [
+      "gtime"
+     ]
+    }
+   ],
+   "vibe": "Gelernter Koch, jahrelang kleiner Streamer, seit 2025 plötzlich Twitch-Star mit Kochen, Sport und Craft Attack.",
+   "followers": "Twitch über 1,07 Mio (earlygame, 30.09.2026)",
+   "active": "ja, Twitch/YouTube aktiv 2026, Craft Attack 14",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "crew": [
+    "trymacs",
+    "eliasn97",
+    "sidneyeweka",
+    "niklaswilson",
+    "zarbex",
+    "handofblood"
+   ],
+   "rivals": [],
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "Kein Beleg gefunden. Nur Randhinweis: In einem Zarbex-Craft-Attack-14-Videotitel taucht ein 'Hugo' auf, unklar ob Hungriger Hugo.",
+   "real_name": {
+    "value": "Kevin Lohse",
+    "source": "https://mein-mmo.de/twitch-streamer-gtime/"
+   },
+   "nicknames": [
+    {
+     "name": "Gamerstime",
+     "used_by": "Eigener YouTube-Kanalname",
+     "source_url": "https://www.comicschau.de/news/gamerstime-alter-freundin-wiki-streamer-703369/"
+    },
+    {
+     "name": "GtimeTV",
+     "used_by": "Twitch-Kanal",
+     "source_url": "https://www.comicschau.de/news/gamerstime-alter-freundin-wiki-streamer-703369/"
+    },
+    {
+     "name": "Kev's Kitchen",
+     "used_by": "frühere Kochkanal-Marke",
+     "source_url": "https://www.comicschau.de/news/gamerstime-alter-freundin-wiki-streamer-703369/"
+    }
+   ],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Dschi-Taim (G-Time, englisch ausgesprochen)",
+    "tts_spelling": "Dschie Taim",
+    "verified": false,
+    "source_url": null
+   },
+   "cast_sources": [
+    "https://mein-mmo.de/twitch-streamer-gtime/",
+    "https://earlygame.com/de/news/influencers/fast-700-000-euro-twitch-streamer-gtime-spricht-ueber-seinen-jahresumsatz",
+    "https://www.comicschau.de/news/gamerstime-alter-freundin-wiki-streamer-703369/",
+    "https://www.youtube.com/@gamerstime",
+    "https://twitchtracker.com/gtimetv"
+   ],
+   "img": "img/gtime.jpg"
+  },
+  {
    "key": "marli",
    "name": "marli",
    "core": true,
@@ -6193,8 +7108,235 @@
       "montanablack",
       "marli"
      ]
+    },
+    {
+     "id": "marli-monte-man-yes",
+     "cat": "meme",
+     "label": "Monte man yes",
+     "quote": "Hey Monte… Monte man yess. Was geht? Alles gut bei dir?",
+     "detail": "Im Mario-Kart-Stream von Marli (Twitch, Anfang 2026) begrüßt Timgioh Monte. Monte fragt 'Wer redet denn da?' und 'Zuschauer oder was?'. Wurde auf TikTok Meme, Monte fand ihn später nervig.",
+     "year": "2026",
+     "image": "Monte man yes Timgioh MontanaBlack Meme",
+     "sources": [
+      "https://www.comicschau.de/news/monte-man-yes-meme-tiktok-herkunft-707022/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "montanablack",
+      "timgioh",
+      "eliasn97"
+     ]
+    },
+    {
+     "id": "marli-ganze-truppe",
+     "cat": "zitat",
+     "label": "Die ganze Truppe, dicker",
+     "quote": "Nein, Mann, die ganze Truppe, dicker",
+     "detail": "Marli verteidigt Timgioh gegenüber Monte: Er gehöre dazu. Wortlaut stammt aus einem Zitatfetzen in einer Zusammenfassung, nicht im Clip geprüft.",
+     "year": "2026",
+     "image": "Marli Timgioh Monte Mario Kart Stream",
+     "sources": [
+      "https://www.comicschau.de/news/monte-man-yes-meme-tiktok-herkunft-707022/"
+     ],
+     "conf": "medium",
+     "with": [
+      "marli",
+      "timgioh",
+      "montanablack"
+     ]
+    },
+    {
+     "id": "marli-eligella-cup",
+     "cat": "moment",
+     "label": "Timgiohs Turnier-Wunsch",
+     "quote": null,
+     "detail": "Januar 2026: Im Stream mit Marli wünscht sich Timgioh ein Mario-Kart-Turnier mit Papaplatte, Eli und 'der ganzen Crew'. Netz lacht, Eli kündigt 'einen Eligella-Cup, auf ernst' an.",
+     "year": "2026",
+     "image": "Eligella-Cup Mario Kart Timgioh Eli",
+     "sources": [
+      "https://www.comicschau.de/news/eliasn97-mario-kart-turnier-705709/"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "timgioh",
+      "eliasn97",
+      "papaplatte"
+     ]
+    },
+    {
+     "id": "marli-arnautovic",
+     "cat": "moment",
+     "label": "Fallrückzieher auf dem Bett",
+     "quote": "Stabilovic",
+     "detail": "Oktober 2026: Marko Arnautovic schießt in Marlis Wohnung einen Fallrückzieher auf dessen Bett ('Ich schwöre, ich haue mir hundert Prozent was an'). Marli: 'Mach dich mal warm.' Danach Arnautovic: 'Alles kaputt.'",
+     "year": "2026",
+     "image": "Marko Arnautovic Marli Fallrückzieher Bett",
+     "sources": [
+      "https://www.weekend.at/sport/marko-arnautovic-fallrueckzieher-twitch-marli"
+     ],
+     "conf": "high",
+     "with": [
+      "marli"
+     ]
+    },
+    {
+     "id": "marli-wasserbomben",
+     "cat": "zitat",
+     "label": "Es ist Wasser und 30 Grad",
+     "quote": "Ey, aber guck mal, es ist Wasser und es sind 30 Grad.",
+     "detail": "August 2025: Beim 'Tour de Berlin' wirft Marli mit Gruppe Wasserbomben auf Ausflugsboote und in eine U-Bahn am Rosenthaler Platz. Ein Passant: 'Ich finde das nicht fair.' Wurde als Spaßbremse abgetan. Medienkritik.",
+     "year": "2025",
+     "image": "Marli Tour de Berlin Wasserbomben",
+     "sources": [
+      "https://www.berlin-live.de/berlin/verkehr/u-bahn-berlin-news-marli-influencer-scherz-id511234.html",
+      "https://www.quotenmeter.de/n/168825/der-streamer-marli-und-die-frage-nach-verantwortung-im-netz"
+     ],
+     "conf": "high",
+     "with": [
+      "marli"
+     ]
+    },
+    {
+     "id": "marli-darling",
+     "cat": "moment",
+     "label": "Chart-Hit Darling",
+     "quote": null,
+     "detail": "2026 Song 'Darling' mit Philemon: Platz 5 der deutschen Spotify-Wochencharts (Kworb), laut Wikipedia über 12 Mio Streams. Chartpositionen unterscheiden sich je nach Quelle (Wiki: Platz 16).",
+     "year": "2026",
+     "image": "Marli Philemon Darling",
+     "sources": [
+      "https://kworb.net/spotify/track/3DHO3GvZhb49NuJRn8AlaP.html",
+      "https://de.wikipedia.org/wiki/Marli"
+     ],
+     "conf": "medium",
+     "with": [
+      "marli"
+     ]
+    },
+    {
+     "id": "marli-clipper",
+     "cat": "habit",
+     "label": "Clipper-Belohnungssystem",
+     "quote": null,
+     "detail": "Laut Wikipedia führte er als erster Streamer ein Bezahlsystem für Fans ein, die Stream-Clips auf Social Media verbreiten.",
+     "year": "2026",
+     "image": "Marli Clipper Twitch",
+     "sources": [
+      "https://de.wikipedia.org/wiki/Marli"
+     ],
+     "conf": "medium",
+     "with": [
+      "marli"
+     ]
+    },
+    {
+     "id": "marli-grauzone",
+     "cat": "zitat",
+     "label": "Gefühl für die Grauzone",
+     "quote": "Ich würde sagen, ich habe einfach ein gutes Gefühl dafür, was noch Grauzone ist.",
+     "detail": "Aus dem Edeltalk-Podcast mit Papaplatte und Reeze (Frühjahr 2026). Kommentare gemischt, einer fragte, ob man ihm eine Plattform geben sollte.",
+     "year": "2026",
+     "image": "Edeltalk Marli Papaplatte Reeze",
+     "sources": [
+      "https://www.comicschau.de/news/wer-ist-marli-streamer-alter-herkunft-name-706986/"
+     ],
+     "conf": "high",
+     "with": [
+      "marli",
+      "papaplatte"
+     ]
+    },
+    {
+     "id": "marli-haende",
+     "cat": "zitat",
+     "label": "Diese Hände haben noch nie gearbeitet",
+     "quote": "Diese Hände haben noch nie gearbeitet",
+     "detail": "Eigene Aussage über Arbeit und Staatsleistungen, von EarlyGame nur als Fragment wiedergegeben (Juli 2026). Kontext nicht geprüft.",
+     "year": "2026",
+     "image": "Marli Streamer",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/schulzeit-und-der-weg-zum-streaming-warum-marli-nie-den-klassischen-berufsweg-einschlug"
+     ],
+     "conf": "medium",
+     "with": [
+      "marli"
+     ]
+    },
+    {
+     "id": "marli-peak",
+     "cat": "moment",
+     "label": "Rekord 47.169 Zuschauer",
+     "quote": null,
+     "detail": "Streamscharts nennt am 18.03.2026 einen Peak von 47.169 Zuschauern (nur aus Suchsnippet, Seite nicht abrufbar).",
+     "year": "2026",
+     "image": "Marli Twitch Peak",
+     "sources": [
+      "https://streamscharts.com/channels/marli"
+     ],
+     "conf": "low",
+     "with": [
+      "marli"
+     ]
+    },
+    {
+     "id": "marli-freedom",
+     "cat": "habit",
+     "label": "Freedom Clothing und Fitnacraft",
+     "quote": null,
+     "detail": "Quotenmeter nennt sein Modelabel Freedom Clothing, das Format Fitnacraft und Deep-Talk-Streams.",
+     "year": "2026",
+     "image": "Marli Freedom Clothing",
+     "sources": [
+      "https://www.quotenmeter.de/n/168825/der-streamer-marli-und-die-frage-nach-verantwortung-im-netz"
+     ],
+     "conf": "medium",
+     "with": [
+      "marli"
+     ]
     }
-   ]
+   ],
+   "vibe": "Berliner Chaos-Streamer, provokant und spontan, Mario-Kart-Runde mit Monte und Eli, Musik mit Philemon.",
+   "followers": "Twitch ca. 401k (Wikipedia, 14.04.2026), Streamscharts 410,5k, Peak 47.169 am 18.03.2026",
+   "active": "ja, Oktober 2026 Arnautovic-Besuch",
+   "platforms": [
+    "Twitch",
+    "YouTube",
+    "TikTok",
+    "Instagram",
+    "Spotify"
+   ],
+   "crew": [
+    "timgioh",
+    "montanablack",
+    "eliasn97",
+    "papaplatte",
+    "handofblood"
+   ],
+   "rivals": [],
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "Kein Beleg gefunden.",
+   "real_name": {
+    "value": "Marlon Kadir Mihm",
+    "source": "https://de.wikipedia.org/wiki/Marli"
+   },
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "MAR-li",
+    "tts_spelling": "Marli",
+    "verified": false,
+    "source_url": null
+   },
+   "cast_sources": [
+    "https://de.wikipedia.org/wiki/Marli",
+    "https://www.comicschau.de/news/monte-man-yes-meme-tiktok-herkunft-707022/",
+    "https://www.weekend.at/sport/marko-arnautovic-fallrueckzieher-twitch-marli",
+    "https://www.comicschau.de/news/wer-ist-marli-streamer-alter-herkunft-name-706986/"
+   ],
+   "img": "img/marli.jpg"
   },
   {
    "key": "zarbex",
@@ -6321,6 +7463,41 @@
      ],
      "conf": "medium",
      "with": [
+      "zarbex"
+     ]
+    },
+    {
+     "id": "gtime-lws-bauern",
+     "cat": "moment",
+     "label": "Als Bauer im Kostüm",
+     "quote": null,
+     "detail": "November 2025: Trymacs, GTime, Rumathra, Zarbex, Nici Stemmler und Sebo spielen fünf Tage Landwirtschaftssimulator in Kostümen. Trymacs verlor die Stimme, GTime spielt den Bauern.",
+     "year": "2025",
+     "image": "Landwirtschaftssimulator Trymacs Gtime Kostüm Stream",
+     "sources": [
+      "https://mein-mmo.de/twitch-trymacs-landwirtschaftssimulator-2025/"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime",
+      "trymacs",
+      "zarbex"
+     ]
+    },
+    {
+     "id": "gtime-rosin",
+     "cat": "moment",
+     "label": "Kochen mit Frank Rosin",
+     "quote": null,
+     "detail": "Februar 2026: Über Zarbex wird ein Koch-Crossover mit TV-Koch Frank Rosin angekündigt. Zarbex nennt ihn 'aufgehenden Stern am Streaming-Himmel'. Termin war offen. Er bewertete einen Imbiss, den Rosins Mutter führte, mit 8/10.",
+     "year": "2026",
+     "image": "Gamerstime Frank Rosin Stream",
+     "sources": [
+      "https://www.comicschau.de/news/gamerstime-frank-rosin-gtime-zarbex-705955/"
+     ],
+     "conf": "high",
+     "with": [
+      "gtime",
       "zarbex"
      ]
     }
@@ -8250,6 +9427,76 @@
    "who": "timgioh",
    "topic": "Familie, Beziehung, Luegenvorwuerfe zu Jobs, Kitschkrieg/Malle I Love You",
    "why": "Privat bzw. unbelegt, er haelt Privates raus."
+  },
+  {
+   "who": "niklaswilson",
+   "topic": "Finanzen, Immobilienstreit Pirna, Pfändung, Elis 1,7-Mio-Angebot, 'DICKES W AN ELI'",
+   "why": "Laufender Rechtsstreit und Geldnot, persönlich und rechtlich heikel."
+  },
+  {
+   "who": "niklaswilson",
+   "topic": "Angriff durch Ultras nach Bayern-Trikot, Panikattacken",
+   "why": "Gewalt und psychische Gesundheit."
+  },
+  {
+   "who": "niklaswilson",
+   "topic": "Verlobte Ola, Polnisch lernen",
+   "why": "Beziehung/Privatleben."
+  },
+  {
+   "who": "niklaswilson",
+   "topic": "PayPal-Betrug (15.000 Euro)",
+   "why": "Opfer eines Betrugs, Geld; nicht gelesen, nur Titel."
+  },
+  {
+   "who": "niklaswilson",
+   "topic": "'Black GOTY' Wortspiel mit Hautfarbe",
+   "why": "Spiel mit Hautfarbe, eigener Scherz von ihm, aber als Fremder riskant."
+  },
+  {
+   "who": "gtime",
+   "topic": "Swatting Februar 2026, Gerichtsverfahren",
+   "why": "Opfer einer Straftat, laufende Ermittlungen, psychische Belastung."
+  },
+  {
+   "who": "gtime",
+   "topic": "Gewicht (ca. 190 auf 140 kg), Körper",
+   "why": "Körper/Gesundheit, Bodyshaming-Gefahr."
+  },
+  {
+   "who": "gtime",
+   "topic": "Partnerin Julia, Verlobung Oktober 2025",
+   "why": "Beziehung."
+  },
+  {
+   "who": "gtime",
+   "topic": "Gehalts- und Umsatzzahlen als Neiddebatte",
+   "why": "Eigene Schätzungen, nicht Gewinn; nur zitieren, nicht zuspitzen."
+  },
+  {
+   "who": "marli",
+   "topic": "Psychische Erkrankung, Klinikaufenthalt, Panikattacken, Depression",
+   "why": "Gesundheit."
+  },
+  {
+   "who": "marli",
+   "topic": "Vater Jan Mihm: Festnahme/Haft, Kandidatur Bezirksbürgermeister",
+   "why": "Familie, Recht, Politik."
+  },
+  {
+   "who": "marli",
+   "topic": "Epstein-Pullover/Kostüm, Honeypuu-Stalker-Meme, Rosemondy-Gartic-Phone",
+   "why": "Vorwürfe der Geschmacklosigkeit, Betroffene Dritte."
+  },
+  {
+   "who": "marli",
+   "topic": "Timgioh Krankheit (Fanconi-Anämie) und Hate",
+   "why": "Behinderung/Krankheit eines Dritten; Hate-Welle gegen Tim."
+  },
+  {
+   "who": "marli",
+   "topic": "Schule/Staatsgeld ('sieben Jahre auf Staats Nacken')",
+   "why": "Persönlich, nur Eigenaussagen, Kontext fehlt."
   },
   {
    "who": "montanablack",

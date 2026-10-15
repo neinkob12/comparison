@@ -40,6 +40,9 @@ CAST = {
     "bastighg": ("@BastiGHG", "bastighg", "basti"),
     "stegi": ("@Stegi", "stegi", "stegi"),
     "shurjoka": ("@Shurjoka", "shurjoka", "shurjoka"),
+    "niklaswilson": ("@NiklasWilson", "niklaswilson", "niklaswilson"),
+    "gtime": ("@gamerstime", "gtimetv", "gamerstime"),
+    "marli": ("@marliyt", None, "marli"),  # Twitch-Avatar ist James Dean
 }
 
 # Avatar ist ein Logo oder Cartoon -> lieber echtes Foto (Commons blockt manche Server mit 429, dann Fallback)
@@ -53,6 +56,7 @@ OVERRIDE = {
 THUMB = {
     "timgioh": ("UwptDm2xDp4", "520:520:760:50"),
     "mckytv": ("lmPOduvIyw4", "560:560:660:60"),
+    "marli": ("cCNewjYPg-I", "380:380:450:30"),  # Edeltalk #393, im Thumbnail als MARLI beschriftet
 }
 TWITCH_FIRST = {"shurjoka"}  # YouTube-Bild ist gezeichnet, Twitch zeigt das Gesicht
 UA_COMMONS = {"User-Agent": "comparison-images/1.0 (privates Videoprojekt)"}
