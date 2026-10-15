@@ -624,8 +624,7 @@
    ],
    "crew": [
     "Trymacs",
-    "EliasN97",
-    "Gewitter im Kopf-Umfeld"
+    "EliasN97"
    ],
    "rivals": [
     "Hungriger Hugo (Clip-Verbot 2021)"
@@ -661,7 +660,8 @@
    "slop": [
     "Paaaapaaaa Plaaaatte",
     "Plaaaaattttteeee"
-   ]
+   ],
+   "img": "img/papaplatte.jpg"
   },
   {
    "key": "montanablack",
@@ -1409,7 +1409,8 @@
    "slop": [
     "Moooontaaaanaaa Blaaaack",
     "Moooonteeeee"
-   ]
+   ],
+   "img": "img/montanablack.jpg"
   },
   {
    "key": "knossi",
@@ -2181,7 +2182,8 @@
    "slop": [
     "Knoooossssiiiii",
     "Kknnnooossssiiii"
-   ]
+   ],
+   "img": "img/knossi.jpg"
   },
   {
    "key": "trymacs",
@@ -3069,7 +3071,8 @@
    "slop": [
     "Traaaaiiimaaaaks",
     "Triiiiimaaaacs"
-   ]
+   ],
+   "img": "img/trymacs.jpg"
   },
   {
    "key": "unge",
@@ -3467,7 +3470,8 @@
    "slop": [
     "Uuuuungeeeee",
     "Ungeeeeeeh"
-   ]
+   ],
+   "img": "img/unge.jpg"
   },
   {
    "key": "rewinside",
@@ -3792,7 +3796,8 @@
    "slop": [
     "Reeeewiiiinsaaaaiiid",
     "Riiiiiwiiiinsaaaid"
-   ]
+   ],
+   "img": "img/rewinside.jpg"
   },
   {
    "key": "handofblood",
@@ -4212,7 +4217,8 @@
    "slop": [
     "Haaaaaandooooofblaaaaad",
     "Händdddofblaaaad"
-   ]
+   ],
+   "img": "img/handofblood.jpg"
   },
   {
    "key": "gronkh",
@@ -4718,11 +4724,12 @@
    "slop": [
     "Groooonkkkkh",
     "Grooooonnnnkkkhhh"
-   ]
+   ],
+   "img": "img/gronkh.jpg"
   },
   {
    "key": "eliasn97",
-   "name": "EliasN97",
+   "name": "EliasN97 (EliGella)",
    "core": true,
    "items": [
     {
@@ -5040,11 +5047,12 @@
    "slop": [
     "Eeeeliiiaaaas Enn Neeeuuun Siiiiebeeen",
     "Eliiiiiiasn"
-   ]
+   ],
+   "img": "img/eliasn97.jpg"
   },
   {
    "key": "sidneyeweka",
-   "name": "Sidneyeweka",
+   "name": "Sidney (Sidneyeweka)",
    "core": true,
    "items": [
     {
@@ -5204,7 +5212,8 @@
    "slop": [
     "Siiiiidneeeey Eeeewekaaaa",
     "Sidnneeeeey"
-   ]
+   ],
+   "img": "img/sidneyeweka.jpg"
   },
   {
    "key": "mckytv",
@@ -5377,7 +5386,8 @@
    "slop": [
     "Meeeeckiiiii Tiiiie Weeee",
     "Määäckyyyy"
-   ]
+   ],
+   "img": "img/mckytv.jpg"
   },
   {
    "key": "reved",
@@ -5601,14 +5611,14 @@
     "source_url": null
    },
    "invented_names": [
-    "Reveeeed Gewitter",
     "Rev Ed Sheeran",
     "Doktor Revi"
    ],
    "slop": [
     "Reeeeveeeed",
     "Riiiiwääääd"
-   ]
+   ],
+   "img": "img/reved.jpg"
   },
   {
    "key": "timgioh",
@@ -5924,12 +5934,13 @@
     "https://www.comicschau.de/news/timgioh-weint-hass-livestream-709308/",
     "https://promis-sciodoo.de/timgioh/",
     "https://www.twitch.tv/timgioh"
-   ]
+   ],
+   "img": "img/timgioh.jpg"
   },
   {
    "key": "rumathra",
    "name": "Rumathra",
-   "core": false,
+   "core": true,
    "items": [
     {
      "id": "ruma-spar",
@@ -6136,6 +6147,53 @@
    "slop": [
     "Ruuuumaaaathraaaa",
     "Rumaaaaatraaaa"
+   ],
+   "img": "img/rumathra.jpg"
+  },
+  {
+   "key": "marli",
+   "name": "marli",
+   "core": true,
+   "items": [
+    {
+     "id": "timgioh-monte-man-yes",
+     "cat": "zitat",
+     "label": "Monte man yes",
+     "quote": "Monte man, yes",
+     "detail": "Begruessung von MontanaBlack im Mario-Kart-Stream mit Marli und Eli. Wurde zum Meme und TikTok-Trend.",
+     "year": "2026",
+     "image": "Timgioh Monte man yes Mario Kart",
+     "sources": [
+      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "marli",
+      "eli"
+     ]
+    },
+    {
+     "id": "timgioh-zuschauer",
+     "cat": "moment",
+     "label": "Bist du Zuschauer?",
+     "quote": null,
+     "detail": "Monte fragt im Stream, ob Tim ein Zuschauer sei. Marli antwortet laut Starzip sinngemaess 'Nein, Mann, die ganze Truppe, dicker'. Ausloeser des Memes.",
+     "year": "2026",
+     "image": "Montanablack Marli Timgioh Zuschauer Mario Kart",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh",
+      "https://earlygame.com/de/news/influencers/wer-ist-eigentlich-timgioh"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "marli"
+     ]
+    }
    ]
   },
   {
@@ -6322,7 +6380,8 @@
    "slop": [
     "Zaaaaarbeeeex",
     "Zaaarbeks"
-   ]
+   ],
+   "img": "img/zarbex.jpg"
   },
   {
    "key": "fritz",
@@ -6526,7 +6585,8 @@
    "avatar_source": "https://www.twitch.tv/letshugo",
    "cast_sources": [
     "https://mein-mmo.de/hungriger-hugo-einnahmen-erfolg/"
-   ]
+   ],
+   "img": "img/letshugo.jpg"
   },
   {
    "key": "noway",
@@ -6654,7 +6714,8 @@
    "slop": [
     "Noooowaaaaay",
     "Nooooweeeey"
-   ]
+   ],
+   "img": "img/noway.jpg"
   },
   {
    "key": "tanzverbot",
@@ -6787,7 +6848,8 @@
    "slop": [
     "Taaaanzverbooooot",
     "Tanzzzzzvaaabooot"
-   ]
+   ],
+   "img": "img/tanzverbot.jpg"
   },
   {
    "key": "reeze",
@@ -6970,7 +7032,8 @@
    "slop": [
     "Reeeeezooooo",
     "Rezzzzooooo"
-   ]
+   ],
+   "img": "img/rezo.jpg"
   },
   {
    "key": "unsympathischtv",
@@ -7059,7 +7122,8 @@
     "tts_spelling": "Unsympathisch Ti Wi",
     "verified": false,
     "source_url": null
-   }
+   },
+   "img": "img/unsympathischtv.jpg"
   },
   {
    "key": "eli",
@@ -7198,7 +7262,8 @@
    "slop": [
     "Iiiinskoooup Einuuuundzwaaaanzig",
     "Iiinsskoooooup"
-   ]
+   ],
+   "img": "img/inscope21.jpg"
   },
   {
    "key": "rohat",
@@ -7330,53 +7395,8 @@
    "slop": [
     "Baaaastiiiii Geee Haaa Geee",
     "Baaastiiiiii"
-   ]
-  },
-  {
-   "key": "marli",
-   "name": "marli",
-   "core": false,
-   "items": [
-    {
-     "id": "timgioh-monte-man-yes",
-     "cat": "zitat",
-     "label": "Monte man yes",
-     "quote": "Monte man, yes",
-     "detail": "Begruessung von MontanaBlack im Mario-Kart-Stream mit Marli und Eli. Wurde zum Meme und TikTok-Trend.",
-     "year": "2026",
-     "image": "Timgioh Monte man yes Mario Kart",
-     "sources": [
-      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/",
-      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
-     ],
-     "conf": "high",
-     "with": [
-      "timgioh",
-      "montanablack",
-      "marli",
-      "eli"
-     ]
-    },
-    {
-     "id": "timgioh-zuschauer",
-     "cat": "moment",
-     "label": "Bist du Zuschauer?",
-     "quote": null,
-     "detail": "Monte fragt im Stream, ob Tim ein Zuschauer sei. Marli antwortet laut Starzip sinngemaess 'Nein, Mann, die ganze Truppe, dicker'. Ausloeser des Memes.",
-     "year": "2026",
-     "image": "Montanablack Marli Timgioh Zuschauer Mario Kart",
-     "sources": [
-      "https://www.starzip.de/wer-ist-timgioh",
-      "https://earlygame.com/de/news/influencers/wer-ist-eigentlich-timgioh"
-     ],
-     "conf": "medium",
-     "with": [
-      "timgioh",
-      "montanablack",
-      "marli"
-     ]
-    }
-   ]
+   ],
+   "img": "img/bastighg.jpg"
   },
   {
    "key": "schradin",
@@ -7694,7 +7714,8 @@
    "slop": [
     "Shuuuurjoookaaaa",
     "Schuuuuuuurjokaaa"
-   ]
+   ],
+   "img": "img/shurjoka.jpg"
   },
   {
    "key": "stegi",
@@ -7749,7 +7770,8 @@
    "slop": [
     "Steeeegiiiii",
     "Sssteeeegiiiiiii"
-   ]
+   ],
+   "img": "img/stegi.jpg"
   },
   {
    "key": "xsolutiontv",

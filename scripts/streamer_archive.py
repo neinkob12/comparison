@@ -15,8 +15,14 @@ RAW = ROOT / "content" / "streamer" / "raw"
 OUT = ROOT / "content" / "streamer" / "archive.json"
 
 CORE = ["papaplatte", "montanablack", "knossi", "trymacs", "unge", "rewinside",
-        "handofblood", "gronkh", "eliasn97", "sidneyeweka", "mckytv", "reved", "timgioh"]
-ALIAS = {"dagi_bee": "dagibee", "julien_bam": "julienbam"}
+        "handofblood", "gronkh", "eliasn97", "sidneyeweka", "mckytv", "reved", "timgioh",
+        "rumathra", "niklaswilson", "gtime", "marli"]
+ALIAS = {"dagi_bee": "dagibee", "julien_bam": "julienbam", "eligella": "eliasn97", "sidney": "sidneyeweka"}
+NAMES = {"eliasn97": "EliasN97 (EliGella)", "sidneyeweka": "Sidney (Sidneyeweka)"}
+BLOCK = ("gewitter",)  # Gewitter im Kopf: komplett raus (Wunsch von Jakob)
+# Nachtraege, schon im Archiv-Format: Datei -> mit Steckbrief(en) oder nur Eintraege
+EXTRA = ["timgioh", "new3", "recent5"]
+IMG = ROOT / "assets" / "streamers"
 SKIP_MEMES = {"Talahon"}  # Stereotyp, steht auf der Avoid-Liste
 SKIP_PEOPLE = {"apored"}  # komplett auf der Avoid-Liste
 
@@ -91,22 +97,37 @@ def main():
                                      "image": e.get("image_hint"), "sources": e.get("source_urls", []),
                                      "conf": e.get("confidence"), "with": e["streamer_link"]})
 
-    tim = load("timgioh")  # Nachtrag: eigene Recherche, schon im Archiv-Format
-    tp = tim["profile"]
-    p = person("timgioh", tp["name"])
-    p.update({kk: tp.get(kk) for kk in ("vibe", "followers", "active", "platforms", "crew", "rivals", "hugo_frequency",
-                                        "hugo_evidence", "real_name", "nicknames", "name_origin", "pronunciation")})
-    p["cast_sources"] = tp.get("source_urls", [])
-    for e in tim["entries"]:
-        add(e["with"], e)
+    avoid = []
+    for f in EXTRA:
+        if not (RAW / f"{f}.json").exists():
+            continue
+        x = load(f)
+        for tp in ([x["profile"]] if "profile" in x else x.get("profiles", [])):
+            p = person(tp["key"], tp["name"])
+            p.update({kk: tp.get(kk) for kk in ("vibe", "followers", "active", "platforms", "crew", "rivals", "hugo_frequency",
+                                                "hugo_evidence", "real_name", "nicknames", "name_origin", "pronunciation")})
+            p["cast_sources"] = tp.get("source_urls", [])
+        for e in x.get("entries", []):
+            e["with"] = [key(k) for k in e.get("with", [])]
+            add(e["with"], e)
+        avoid += [dict(a, who=key(a["who"]) if a.get("who") else None) for a in x.get("avoid", [])]
 
-    avoid = list(tim["avoid"])
     for f in ("gags_1", "gags_2"):
         avoid += [{"who": a.get("streamer"), "topic": a.get("topic"), "why": a.get("why")} for a in load(f)["avoid"]]
     avoid += [{"who": None, "topic": a.get("topic"), "why": a.get("reason")} for a in load("moments")["avoid"]]
     avoid += [{"who": None, "topic": a if isinstance(a, str) else a.get("topic"), "why": None if isinstance(a, str) else a.get("why")}
               for a in load("traits")["avoid"]]
     avoid += [{"who": None, "topic": a.get("title"), "why": a.get("reason")} for a in memes["avoid"]]
+
+    blocked = lambda v: any(b in json.dumps(v, ensure_ascii=False).lower() for b in BLOCK)
+    for p in people.values():
+        p["name"] = NAMES.get(p["key"], p["name"])
+        if (IMG / f"{p['key']}.jpg").exists():
+            p["img"] = f"img/{p['key']}.jpg"
+        for f in ("crew", "slop", "invented_names", "nicknames"):
+            if p.get(f):
+                p[f] = [v for v in p[f] if not blocked(v)]
+        p["items"] = [it for it in p["items"] if not blocked(it)]
 
     order = {k: i for i, k in enumerate(CORE)}
     ppl = sorted(people.values(), key=lambda p: (order.get(p["key"], 99), -len(p["items"]), p["key"]))
