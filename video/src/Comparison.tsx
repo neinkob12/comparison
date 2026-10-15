@@ -8,7 +8,7 @@ type Side = {label: string; img: string | null; emoji?: string | null};
 type Segment = {
 	kind: 'intro' | 'q' | 'hook' | 'mid' | 'outro';
 	audio: string; audioB?: string; bAt?: number; speak: number; gap?: number; hold: number; duration: number; voiceAt?: number;
-	share?: string; winAudio?: string;
+	share?: string; winAudio?: string; banner?: string;
 	title?: string; sub?: string; a?: Side; b?: Side; pct?: [number, number];
 };
 export type Timeline = {
@@ -35,7 +35,7 @@ const stroke = (px: number) => ({
 	textShadow: `0 ${px}px 0 ${C.ink}`,
 });
 
-const COUNT = 90; // 3-2-1 in Frames
+const COUNT = 81; // 3-2-1 in Frames (Standard, sonst s.gap)
 
 const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revealAt: number; mid: boolean; enterAt: number}> = ({side, top, pct, win, revealAt, mid, enterAt}) => {
 	const frame = useCurrentFrame();
@@ -138,7 +138,7 @@ const Label: React.FC<{text: string; enter: number; state: 'win' | 'lose' | null
 );
 
 // Mitte: ODER waehrend der Frage, dann 3-2-1, dann weg
-const Center: React.FC<{speakEnd: number}> = ({speakEnd}) => {
+const Center: React.FC<{speakEnd: number; count: number}> = ({speakEnd, count}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	if (frame < speakEnd) {
@@ -152,11 +152,12 @@ const Center: React.FC<{speakEnd: number}> = ({speakEnd}) => {
 		);
 	}
 	const t = frame - speakEnd;
-	if (t >= COUNT) return null;
-	const n = 3 - Math.floor(t / 30);
-	const local = t % 30;
-	const s = spring({frame: local, fps, config: {damping: 8, mass: 0.5}});
-	const ring = interpolate(t, [0, COUNT], [1, 0]);
+	if (t >= count) return null;
+	const step = count / 3;
+	const n = 3 - Math.floor(t / step);
+	const local = t - (3 - n) * step;
+	const s = spring({frame: local * (30 / step), fps, config: {damping: 8, mass: 0.5}});
+	const ring = interpolate(t, [0, count], [1, 0]);
 	return (
 		<div style={{position: 'absolute', left: 540 - 130, top: 960 - 130, width: 260, height: 260}}>
 			<svg width={260} height={260} style={{position: 'absolute', inset: 0}}>
@@ -173,28 +174,61 @@ const Center: React.FC<{speakEnd: number}> = ({speakEnd}) => {
 	);
 };
 
+// Hook-Sticker: steht ab Frame 0, wackelt leicht, verschwindet zur Aufloesung
+const Banner: React.FC<{text: string; until: number}> = ({text, until}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const out = spring({frame: frame - until + 4, fps, config: {damping: 14}});
+	const pop = interpolate(frame, [0, 3, 8], [1, 1.12, 1], {extrapolateRight: 'clamp'});
+	if (out > 0.98) return null;
+	return (
+		<div style={{
+			position: 'absolute', top: 120, left: 0, right: 0, display: 'flex', justifyContent: 'center',
+			transform: `scale(${pop * (1 - out)}) rotate(${-3 + 1.5 * Math.sin(frame / 4)}deg)`,
+		}}>
+			<div style={{
+				fontFamily: HEAVY, fontSize: 54, color: C.ink, background: C.yellow, padding: '14px 30px', borderRadius: 22,
+				border: `7px solid ${C.ink}`, boxShadow: '0 16px 40px rgba(0,0,0,.45)', whiteSpace: 'nowrap',
+			}}>{text.replace(/\s*\p{Extended_Pictographic}+$/u, '')} <span style={{fontFamily: EMOJI}}>{text.match(/\p{Extended_Pictographic}+$/u)?.[0] ?? ''}</span></div>
+		</div>
+	);
+};
+
 const Question: React.FC<{s: Segment}> = ({s}) => {
 	const revealAt = s.speak + (s.gap ?? 0);
 	const bAt = s.bAt ?? 4;
 	const [pa, pb] = s.pct!;
 	const mid = s.kind === 'mid';
+	const hook = s.kind === 'hook';
+	const count = s.gap ?? COUNT;
 	const frame = useCurrentFrame();
-	const punch = interpolate(frame, [0, 7], [1.12, 1], {extrapolateRight: 'clamp'});
+	const punch = interpolate(frame, [0, 7], [hook ? 1.06 : 1.12, 1], {extrapolateRight: 'clamp'});
 	const rt = frame - revealAt;
 	const shake = rt >= 0 && rt < 10 ? Math.sin(rt * 2.6) * (10 - rt) * 2.5 : 0;
 	const ct = frame - s.speak;
-	const panic = ct >= 60 && ct < COUNT ? 0.25 * (0.5 + 0.5 * Math.sin(ct * 1.2)) : 0;
+	const panic = ct >= (hook ? 0 : count * 2 / 3) && ct < count ? (hook ? 0.35 : 0.25) * (0.5 + 0.5 * Math.sin(ct * (hook ? 2 : 1.2))) : 0;
+	// Hook: beide Seiten stehen ab Frame 0, harter Einschlag + Wackeln + weisser Blitz
+	const hs = hook && frame < 12 ? Math.sin(frame * 2.4) * (12 - frame) * 3 : 0;
+	const hflash = hook ? interpolate(frame, [0, 2, 9], [0, 0.45, 0], {extrapolateRight: 'clamp'}) : 0;
 	return (
-		<AbsoluteFill style={{transform: `scale(${punch}) translate(${shake}px, ${-shake * 0.5}px)`}}>
-			<Half side={s.a!} top pct={pa} win={pa >= pb} revealAt={revealAt} mid={mid} enterAt={0} />
-			<Half side={s.b!} top={false} pct={pb} win={pb > pa} revealAt={revealAt} mid={mid} enterAt={bAt} />
-			<Center speakEnd={s.speak} />
+		<AbsoluteFill style={{transform: `scale(${punch}) translate(${shake + hs}px, ${-(shake + hs) * 0.5}px)`}}>
+			<Half side={s.a!} top pct={pa} win={pa >= pb} revealAt={revealAt} mid={mid} enterAt={hook ? -30 : 0} />
+			<Half side={s.b!} top={false} pct={pb} win={pb > pa} revealAt={revealAt} mid={mid} enterAt={hook ? -30 : bAt} />
+			<Center speakEnd={s.speak} count={count} />
+			{hook && s.banner ? <Banner text={s.banner} until={revealAt} /> : null}
+			<AbsoluteFill style={{background: C.white, opacity: hflash, pointerEvents: 'none'}} />
 			<AbsoluteFill style={{boxShadow: `inset 0 0 220px 60px rgba(255,0,0,${panic})`, pointerEvents: 'none'}} />
 			<Audio src={staticFile(s.audio)} />
 			{s.audioB ? <Sequence from={bAt}><Audio src={staticFile(s.audioB)} /></Sequence> : null}
 			<Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} />
+			{hook ? <>
+				<Audio src={staticFile('sfx/impact.mp3')} volume={1} />
+				<Sequence from={2}><Audio src={staticFile('sfx/ring.mp3')} volume={0.5} /></Sequence>
+				<Sequence from={4}><Audio src={staticFile('sfx/pop.mp3')} volume={0.9} /></Sequence>
+				<Sequence from={bAt}><Audio src={staticFile('sfx/impact.mp3')} volume={0.8} /></Sequence>
+			</> : null}
 			<Sequence from={bAt}><Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} /></Sequence>
-			<Sequence from={s.speak} durationInFrames={COUNT}><Audio src={staticFile('sfx/countdown.mp3')} volume={0.9} /></Sequence>
+			<Sequence from={s.speak} durationInFrames={count}><Audio src={staticFile('sfx/countdown.mp3')} volume={0.9} playbackRate={90 / count} /></Sequence>
 			<Sequence from={revealAt}><Audio src={staticFile('sfx/check.mp3')} volume={0.8} /></Sequence>
 			{s.winAudio ? <Sequence from={revealAt + 12}><Audio src={staticFile(s.winAudio)} /></Sequence> : null}
 		</AbsoluteFill>
@@ -255,11 +289,30 @@ const Outro: React.FC<{s: Segment; handle: string | null}> = ({s, handle}) => {
 	);
 };
 
-const FollowPill: React.FC<{handle: string | null; still?: boolean}> = ({handle, still}) => {
+// Follow-Popup mitten im Bild, Rest wird kurz unscharf (ca. 0.7 s sichtbar)
+const FOLLOW = 27;
+const FollowPopup: React.FC<{handle: string | null}> = ({handle}) => {
+	const frame = useCurrentFrame();
+	const fade = interpolate(frame, [0, 3, FOLLOW - 4, FOLLOW], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+	return (
+		<AbsoluteFill style={{
+			backdropFilter: `blur(${18 * fade}px)`, WebkitBackdropFilter: `blur(${18 * fade}px)`, background: `rgba(0,0,0,${0.35 * fade})`,
+			alignItems: 'center', justifyContent: 'center',
+		}}>
+			<div style={{opacity: fade, transform: `scale(${1.4 - 0.25 * fade})`}}>
+				<FollowPill handle={handle} still tapAt={11} />
+			</div>
+			<Audio src={staticFile('sfx/pop.mp3')} volume={1} />
+			<Sequence from={11}><Audio src={staticFile('sfx/check.mp3')} volume={0.6} /></Sequence>
+		</AbsoluteFill>
+	);
+};
+
+const FollowPill: React.FC<{handle: string | null; still?: boolean; tapAt?: number}> = ({handle, still, tapAt = 22}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	const s = spring({frame, fps, config: {damping: 12}});
-	const tapped = frame > 22;
+	const tapped = frame > tapAt;
 	return (
 		<div style={{
 			display: 'flex', alignItems: 'center', gap: 22, background: C.white, borderRadius: 80,
@@ -290,8 +343,8 @@ export const Comparison: React.FC<{timeline: Timeline}> = ({timeline}) => {
 				))}
 			</Series>
 			{segs.length ? (
-				<Sequence from={followAt} durationInFrames={95}>
-					<FollowPill handle={timeline.handle} />
+				<Sequence from={followAt} durationInFrames={FOLLOW}>
+					<FollowPopup handle={timeline.handle} />
 				</Sequence>
 			) : null}
 		</AbsoluteFill>

@@ -10,7 +10,10 @@ ROOT = Path(__file__).resolve().parent.parent
 PUB = ROOT / "video" / "public"
 FPS = 30
 VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam
-GAP = 90          # Frames 3-2-1-Timer nach der Frage
+GAP = 81          # Frames 3-2-1-Timer nach der Frage (2.7 s)
+HOOK_GAP = 45     # Hook-Timer zeigt 3 s, laeuft aber in 1.5 s ab
+TEMPO = 1.05      # Stimme etwas schneller als ElevenLabs max. 1.2
+HOOK_TEMPO = 1.12 # Hook noch schneller
 REVEAL = 45       # Frames, in denen die Prozente stehen
 TAIL = 15         # Frames Luft am Ende von Intro/Outro
 
@@ -37,7 +40,7 @@ def speed_for(text):
     return min(1.2, max([speeds[n] for n in speeds if n in text] + [1.18]))
 
 
-def tts(text, out):
+def tts(text, out, tempo=TEMPO):
     if out.exists():
         return
     body = {"text": spoken(text), "model_id": "eleven_multilingual_v2", "language_code": "de",
@@ -57,7 +60,8 @@ def tts(text, out):
             __import__("time").sleep(2 ** (i + 1))
     # Stille vorne/hinten weg, Atempausen im Satz auf max. 0.25 s kuerzen
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-af",
-                    "silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=-1:stop_threshold=-45dB:stop_duration=0.25",
+                    "silenceremove=start_periods=1:start_threshold=-45dB:stop_periods=-1:stop_threshold=-45dB:stop_duration=0.25,"
+                    f"atempo={tempo}",
                     "-b:a", "128k", str(out)], check=True)
     raw.unlink()
 
@@ -112,21 +116,25 @@ def build(vid):
         m = re.search(r",?\s+oder\s+", say)
         fa = adir / f"{n:02d}_{kind}_a.mp3"
         fb = adir / f"{n:02d}_{kind}_b.mp3"
+        tempo = HOOK_TEMPO if kind == "hook" else TEMPO
+        gap = HOOK_GAP if kind == "hook" else GAP
         if m:
-            tts(say[:m.start()] + ",", fa); tts("oder " + say[m.end():], fb)
+            tts(say[:m.start()] + ",", fa, tempo); tts("oder " + say[m.end():], fb, tempo)
             ba = frames(fa) + 2
             sp = ba + frames(fb)
             seg = {"kind": kind, "audio": f"audio/{vid}/{fa.name}", "audioB": f"audio/{vid}/{fb.name}",
-                   "bAt": ba, "speak": sp, "gap": GAP, "hold": REVEAL,
+                   "bAt": ba, "speak": sp, "gap": gap, "hold": REVEAL,
                    "a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}
             if q.get("winSay"):
                 fw = adir / f"{n:02d}_{kind}_win.mp3"
                 tts(q["winSay"], fw)
                 seg["winAudio"] = f"audio/{vid}/{fw.name}"
                 seg["hold"] = max(REVEAL, 12 + frames(fw) + 8)
+            if kind == "hook":
+                seg["banner"] = q.get("banner", "WAS WÄHLT DIE MEHRHEIT? 👀")
             segs.append(seg)
         else:
-            add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": GAP, "hold": REVEAL})
+            add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": gap, "hold": REVEAL})
         n += 1
     o = v["outro"]
     add("outro", n, {"title": o.get("title"), "sub": o.get("sub"), "share": o.get("share")},

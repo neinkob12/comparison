@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Kakanim wird dein Stiefvater, oder Lacazette dein Klassenlehrer?",
+  "say": "Eine Nacht mit Kakanim, oder nie wieder Lacazette hören?",
   "a": {
-   "label": "Kakanim als Stiefvater",
+   "label": "1 Nacht mit Kakanim",
    "img": "artists/pashanim.jpg"
   },
   "b": {
-   "label": "Lacazette als Klassenlehrer",
+   "label": "Nie wieder Lacazette",
    "img": "artists/lacazette.jpg"
   },
   "pct": [
-   69,
-   31
+   11,
+   89
   ],
   "type": "hook"
  },

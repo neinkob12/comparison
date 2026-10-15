@@ -3,39 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2436,
+ "durationInFrames": 2233,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a05/00_hook_a.mp3",
    "audioB": "audio/a05/00_hook_b.mp3",
-   "bAt": 72,
-   "speak": 112,
-   "gap": 90,
+   "bAt": 35,
+   "speak": 81,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "Pashanim im Fahrstuhl",
-    "img": "img/artists/pashanim.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Mucco im Bällebad",
+    "label": "1 Nacht mit Mucco",
     "img": "img/artists/mucco.jpg",
     "emoji": null
    },
+   "b": {
+    "label": "Nie wieder Pashanim",
+    "img": "img/artists/pashanim.jpg",
+    "emoji": null
+   },
    "pct": [
-    3,
-    97
+    6,
+    94
    ],
-   "duration": 247
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 171
   },
   {
    "kind": "q",
    "audio": "audio/a05/01_q_a.mp3",
    "audioB": "audio/a05/01_q_b.mp3",
-   "bAt": 102,
-   "speak": 140,
-   "gap": 90,
+   "bAt": 108,
+   "speak": 145,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Jahr nur Lucio",
@@ -51,7 +52,7 @@
     91,
     9
    ],
-   "duration": 275
+   "duration": 271
   },
   {
    "kind": "q",
@@ -59,7 +60,7 @@
    "audioB": "audio/a05/02_q_b.mp3",
    "bAt": 35,
    "speak": 73,
-   "gap": 90,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Tag mit Mucco",
@@ -75,15 +76,15 @@
     79,
     21
    ],
-   "duration": 208
+   "duration": 199
   },
   {
    "kind": "q",
    "audio": "audio/a05/03_q_a.mp3",
    "audioB": "audio/a05/03_q_b.mp3",
-   "bAt": 46,
-   "speak": 100,
-   "gap": 90,
+   "bAt": 43,
+   "speak": 94,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "FTW löschen",
@@ -99,15 +100,15 @@
     45,
     55
    ],
-   "duration": 235
+   "duration": 220
   },
   {
    "kind": "q",
    "audio": "audio/a05/04_q_a.mp3",
    "audioB": "audio/a05/04_q_b.mp3",
-   "bAt": 56,
-   "speak": 96,
-   "gap": 90,
+   "bAt": 50,
+   "speak": 87,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch Doktor",
@@ -123,15 +124,15 @@
     46,
     54
    ],
-   "duration": 231
+   "duration": 213
   },
   {
    "kind": "mid",
    "audio": "audio/a05/05_mid_a.mp3",
    "audioB": "audio/a05/05_mid_b.mp3",
-   "bAt": 52,
-   "speak": 163,
-   "gap": 90,
+   "bAt": 53,
+   "speak": 160,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder Maka",
@@ -147,15 +148,15 @@
     15,
     85
    ],
-   "duration": 298
+   "duration": 286
   },
   {
    "kind": "q",
    "audio": "audio/a05/06_q_a.mp3",
    "audioB": "audio/a05/06_q_b.mp3",
    "bAt": 35,
-   "speak": 86,
-   "gap": 90,
+   "speak": 83,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Hier löschen",
@@ -171,15 +172,15 @@
     1,
     99
    ],
-   "duration": 221
+   "duration": 209
   },
   {
    "kind": "q",
    "audio": "audio/a05/07_q_a.mp3",
    "audioB": "audio/a05/07_q_b.mp3",
-   "bAt": 42,
-   "speak": 93,
-   "gap": 90,
+   "bAt": 39,
+   "speak": 85,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder Yuyu",
@@ -195,15 +196,15 @@
     2,
     98
    ],
-   "duration": 228
+   "duration": 211
   },
   {
    "kind": "q",
    "audio": "audio/a05/08_q_a.mp3",
    "audioB": "audio/a05/08_q_b.mp3",
-   "bAt": 119,
-   "speak": 159,
-   "gap": 90,
+   "bAt": 93,
+   "speak": 135,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Jahr nur Lucio",
@@ -219,17 +220,17 @@
     53,
     47
    ],
-   "duration": 294
+   "duration": 261
   },
   {
    "kind": "outro",
    "audio": "audio/a05/09_outro.mp3",
-   "speak": 154,
+   "speak": 147,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 größten Stoner, die du kennst",
-   "duration": 199
+   "duration": 192
   }
  ]
 }
