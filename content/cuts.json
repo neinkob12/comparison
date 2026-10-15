@@ -37,16 +37,16 @@
  "a06": {
   "removed_questions": [
    2,
-   6
+   3
   ],
-  "seconds": 64.5
+  "seconds": 61.5
  },
  "a07": {
   "removed_questions": [
-   1,
-   7
+   3,
+   5
   ],
-  "seconds": 64.5
+  "seconds": 60.2
  },
  "a08": {
   "removed_questions": [

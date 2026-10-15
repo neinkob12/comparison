@@ -32,7 +32,7 @@ Kalim am Abiball oder Caney030 auf der Hochzeit? 😭 Wie oft lagst du richtig? 
 
 ## a08
 
-1 Nacht mit Kakanim oder Nie wieder Lacazette? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #pashanim #karamel19 #zackavelli #souly #fyp #nizi19 #lucio101 #lacazette #yuyu19 #kalim #omar101 #makko #mucco #caney030 #ufo361 #luciano #samra #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #fürdich #foryou #viral
+1 Nacht mit Pashanim oder Nie wieder Lacazette? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #pashanim #karamel19 #zackavelli #souly #fyp #nizi19 #lucio101 #lacazette #yuyu19 #kalim #omar101 #makko #mucco #caney030 #ufo361 #luciano #samra #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #fürdich #foryou #viral
 
 ## a09
 
@@ -64,7 +64,7 @@ bin raus, das ist zu schwer 😭 #deutschrap #caney030 #samra #fürdich #rapdeut
 
 ## a16
 
-Feature mit Makko oder Feature mit Kakavelli? und keiner sagt beides 👇 #deutschrap #zackavelli #makko #deutschrapmemes #nizi19 #lucio101 #lacazette #pashanim #yuyu19 #kalim #omar101 #karamel19 #mucco #caney030 #ufo361 #luciano #samra #souly #würdestdueher #rapdeutsch #rapdeutschland #berlinrap #1019 #haribo #fyp #fürdich #foryou #viral
+Feature mit Makko oder Feature mit Zackavelli? und keiner sagt beides 👇 #deutschrap #zackavelli #makko #deutschrapmemes #nizi19 #lucio101 #lacazette #pashanim #yuyu19 #kalim #omar101 #karamel19 #mucco #caney030 #ufo361 #luciano #samra #souly #würdestdueher #rapdeutsch #rapdeutschland #berlinrap #1019 #haribo #fyp #fürdich #foryou #viral
 
 ## a17
 
