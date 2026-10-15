@@ -29,10 +29,10 @@
  },
  "a05": {
   "removed_questions": [
-   2,
-   3
+   1,
+   5
   ],
-  "seconds": 64.5
+  "seconds": 60.8
  },
  "a06": {
   "removed_questions": [
