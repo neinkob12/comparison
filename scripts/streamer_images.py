@@ -2,7 +2,7 @@
 
 Quelle 1: YouTube-Kanal (og:image, 900px), nur wenn der Kanaltitel zum Namen passt.
 Quelle 2: Twitch-Avatar ueber decapi.me (300px), Standard-Avatare werden verworfen.
-Quelle 0: OVERRIDE (echte Fotos, z. B. Wikimedia Commons, wenn Avatar nur ein Logo ist).
+Quelle 0: THUMB (Ausschnitt aus Video-Thumbnail) oder OVERRIDE (echte Fotos, z. B. Wikimedia Commons, wenn Avatar nur ein Logo ist).
 Gefundene URLs landen in assets/streamers.tsv, damit man sieht, woher jedes Bild kommt.
 Aufruf: python3 scripts/streamer_images.py [key ...]
 """
@@ -49,6 +49,11 @@ OVERRIDE = {
     "handofblood": "https://upload.wikimedia.org/wikipedia/commons/7/72/HandOfBlood_%2836738811692%29.jpg",
     "gronkh": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gronkh_IMG_7985.jpg",
 }
+# Kein Gesicht auf Avatar/Commons -> Ausschnitt aus einem eigenen YouTube-Thumbnail (Video-ID, ffmpeg-crop)
+THUMB = {
+    "timgioh": ("UwptDm2xDp4", "520:520:760:50"),
+    "mckytv": ("lmPOduvIyw4", "560:560:660:60"),
+}
 TWITCH_FIRST = {"shurjoka"}  # YouTube-Bild ist gezeichnet, Twitch zeigt das Gesicht
 UA_COMMONS = {"User-Agent": "comparison-images/1.0 (privates Videoprojekt)"}
 
@@ -78,6 +83,16 @@ def main(keys):
         rows = {l.split("\t")[0]: l for l in TSV.read_text().splitlines() if l}
     for key in keys:
         yt, tw, must = CAST[key]
+        if key in THUMB:
+            vid, crop = THUMB[key]
+            url = f"https://i.ytimg.com/vi/{vid}/maxresdefault.jpg"
+            raw = DIR / f"{key}.src"
+            raw.write_bytes(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30).read())
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-vf", f"crop={crop}", "-q:v", "2", str(DIR / f"{key}.jpg")], check=True)
+            raw.unlink()
+            rows[key] = f"{key}\tthumbnail\t{url}"
+            print("ok", key, "thumbnail")
+            continue
         url, src, data = None, None, None
         if key in OVERRIDE:
             try:
