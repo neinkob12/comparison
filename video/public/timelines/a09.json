@@ -3,39 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2398,
+ "durationInFrames": 2212,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a09/00_hook_a.mp3",
    "audioB": "audio/a09/00_hook_b.mp3",
-   "bAt": 49,
-   "speak": 100,
-   "gap": 90,
+   "bAt": 46,
+   "speak": 79,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "Nizi19 liest deine Chats",
-    "img": "img/artists/nizi19.jpg",
+    "label": "1 Jahr mit Yuyu Packets pushen",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Souly sieht deinen Verlauf",
-    "img": "img/artists/souly.jpg",
+    "label": "1 Jahr mit Nizi",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "pct": [
-    9,
-    91
+    71,
+    29
    ],
-   "duration": 235
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 169
   },
   {
    "kind": "q",
    "audio": "audio/a09/01_q_a.mp3",
    "audioB": "audio/a09/01_q_b.mp3",
    "bAt": 35,
-   "speak": 86,
-   "gap": 90,
+   "speak": 83,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Hier löschen",
@@ -51,15 +52,15 @@
     96,
     4
    ],
-   "duration": 221
+   "duration": 209
   },
   {
    "kind": "q",
    "audio": "audio/a09/02_q_a.mp3",
    "audioB": "audio/a09/02_q_b.mp3",
-   "bAt": 97,
-   "speak": 141,
-   "gap": 90,
+   "bAt": 89,
+   "speak": 129,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Jahr nur Lacazette",
@@ -75,15 +76,15 @@
     97,
     3
    ],
-   "duration": 276
+   "duration": 255
   },
   {
    "kind": "q",
    "audio": "audio/a09/03_q_a.mp3",
    "audioB": "audio/a09/03_q_b.mp3",
-   "bAt": 42,
-   "speak": 90,
-   "gap": 90,
+   "bAt": 37,
+   "speak": 83,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "16 löschen",
@@ -99,15 +100,15 @@
     97,
     3
    ],
-   "duration": 225
+   "duration": 209
   },
   {
    "kind": "q",
    "audio": "audio/a09/04_q_a.mp3",
    "audioB": "audio/a09/04_q_b.mp3",
-   "bAt": 54,
-   "speak": 91,
-   "gap": 90,
+   "bAt": 50,
+   "speak": 87,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch Doktor",
@@ -123,15 +124,15 @@
     31,
     69
    ],
-   "duration": 226
+   "duration": 213
   },
   {
    "kind": "mid",
    "audio": "audio/a09/05_mid_a.mp3",
    "audioB": "audio/a09/05_mid_b.mp3",
-   "bAt": 56,
-   "speak": 153,
-   "gap": 90,
+   "bAt": 53,
+   "speak": 144,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder duschen",
@@ -147,15 +148,15 @@
     35,
     65
    ],
-   "duration": 288
+   "duration": 270
   },
   {
    "kind": "q",
    "audio": "audio/a09/06_q_a.mp3",
    "audioB": "audio/a09/06_q_b.mp3",
    "bAt": 39,
-   "speak": 100,
-   "gap": 90,
+   "speak": 95,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Tag mit Haribo",
@@ -171,15 +172,15 @@
     8,
     92
    ],
-   "duration": 235
+   "duration": 221
   },
   {
    "kind": "q",
    "audio": "audio/a09/07_q_a.mp3",
    "audioB": "audio/a09/07_q_b.mp3",
-   "bAt": 39,
-   "speak": 104,
-   "gap": 90,
+   "bAt": 41,
+   "speak": 105,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Tag mit Zackavelli",
@@ -195,15 +196,15 @@
     56,
     44
    ],
-   "duration": 239
+   "duration": 231
   },
   {
    "kind": "q",
    "audio": "audio/a09/08_q_a.mp3",
    "audioB": "audio/a09/08_q_b.mp3",
-   "bAt": 41,
-   "speak": 106,
-   "gap": 90,
+   "bAt": 39,
+   "speak": 108,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Kakazette kocht",
@@ -219,17 +220,17 @@
     94,
     6
    ],
-   "duration": 241
+   "duration": 234
   },
   {
    "kind": "outro",
    "audio": "audio/a09/09_outro.mp3",
-   "speak": 167,
+   "speak": 156,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 212
+   "duration": 201
   }
  ]
 }

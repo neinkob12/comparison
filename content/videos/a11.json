@@ -3,20 +3,19 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "24 Stunden mit Haribo im Fahrstuhl, oder mit Souly im Bällebad?",
+  "say": "Einen Tag [[Nissis]] Schuhe sein, oder einen Tag [[Lakasetts]] Sonnenbrille?!",
   "a": {
-   "label": "Haribo im Fahrstuhl",
-   "img": "artists/yuyu19.jpg"
+   "label": "1 Tag Nizis Schuhe sein",
+   "img": "artists/nizi19.jpg"
   },
   "b": {
-   "label": "Souly im Bällebad",
-   "img": "artists/souly.jpg"
+   "label": "1 Tag Lacazettes Sonnenbrille",
+   "img": "artists/lacazette.jpg"
   },
   "pct": [
-   96,
-   4
+   46,
+   54
   ],
-  "winSay": "Ohne Finger, Akh!",
   "type": "hook"
  },
  "questions": [
