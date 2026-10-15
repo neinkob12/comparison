@@ -4,3 +4,5 @@ video/node_modules/
 out/
 video/public/img/
 video/public/audio/
+__pycache__/
+*.pyc
