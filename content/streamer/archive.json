@@ -1235,6 +1235,115 @@
      "with": [
       "montanablack"
      ]
+    },
+    {
+     "id": "timgioh-monte-man-yes",
+     "cat": "zitat",
+     "label": "Monte man yes",
+     "quote": "Monte man, yes",
+     "detail": "Begruessung von MontanaBlack im Mario-Kart-Stream mit Marli und Eli. Wurde zum Meme und TikTok-Trend.",
+     "year": "2026",
+     "image": "Timgioh Monte man yes Mario Kart",
+     "sources": [
+      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "marli",
+      "eli"
+     ]
+    },
+    {
+     "id": "timgioh-zuschauer",
+     "cat": "moment",
+     "label": "Bist du Zuschauer?",
+     "quote": null,
+     "detail": "Monte fragt im Stream, ob Tim ein Zuschauer sei. Marli antwortet laut Starzip sinngemaess 'Nein, Mann, die ganze Truppe, dicker'. Ausloeser des Memes.",
+     "year": "2026",
+     "image": "Montanablack Marli Timgioh Zuschauer Mario Kart",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh",
+      "https://earlygame.com/de/news/influencers/wer-ist-eigentlich-timgioh"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "marli"
+     ]
+    },
+    {
+     "id": "timgioh-20-auf-860",
+     "cat": "moment",
+     "label": "Von 20 auf 860 Zuschauer",
+     "quote": null,
+     "detail": "Im Januar 2026 ca. 20 Zuschauer im Schnitt, Feb 645, Maerz ca. 860 nach dem Mario-Kart-Auftritt.",
+     "year": "2026",
+     "image": "Timgioh Twitch",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/tim-gioh-wie-ein-viraler-moment-ihn-zum-twitch-durchstarter-machte"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh",
+      "montanablack"
+     ]
+    },
+    {
+     "id": "timgioh-honest-kebab",
+     "cat": "moment",
+     "label": "Doener bei Holle",
+     "quote": null,
+     "detail": "Mehrstuendiger Twitch-Stream mit Monte: Doener bei Holles 'Honest Kebab', Nintendo Sports, No-Laugh-Challenge.",
+     "year": "2026",
+     "image": "Honest Kebab Holle Montanablack Timgioh",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "holle"
+     ]
+    },
+    {
+     "id": "timgioh-monte-auto",
+     "cat": "moment",
+     "label": "Clip in Montes Auto",
+     "quote": null,
+     "detail": "Viral-Clip auf TikTok ('hat sich in Montes Auto eingepisst'), Inhalt nur ueber Fan-Clip-Titel belegt, nicht verifiziert.",
+     "year": "2026",
+     "image": "Timgioh Monte Auto",
+     "sources": [
+      "https://www.tiktok.com/@eli_clips05/video/7616455218733026582"
+     ],
+     "conf": "low",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "eli"
+     ]
+    },
+    {
+     "id": "timgioh-mckytv-warnung",
+     "cat": "moment",
+     "label": "MckyTV warnt vor Monte",
+     "quote": null,
+     "detail": "MckyTV sagte, Monte hole gezielt TikTok-Viral-Leute wie Anzeigenhauptmeister, Kony und Tim.",
+     "year": "2026",
+     "image": "MckyTV Montanablack Timgioh",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh"
+     ],
+     "conf": "low",
+     "with": [
+      "timgioh",
+      "montanablack"
+     ]
     }
    ],
    "vibe": "Groesster deutscher Streamer, Ex-Gangster-Image, Ghetto-Humor, Casino und Talk.",
@@ -5502,6 +5611,322 @@
    ]
   },
   {
+   "key": "timgioh",
+   "name": "TimGioh",
+   "core": true,
+   "items": [
+    {
+     "id": "timgioh-monte-man-yes",
+     "cat": "zitat",
+     "label": "Monte man yes",
+     "quote": "Monte man, yes",
+     "detail": "Begruessung von MontanaBlack im Mario-Kart-Stream mit Marli und Eli. Wurde zum Meme und TikTok-Trend.",
+     "year": "2026",
+     "image": "Timgioh Monte man yes Mario Kart",
+     "sources": [
+      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "marli",
+      "eli"
+     ]
+    },
+    {
+     "id": "timgioh-zuschauer",
+     "cat": "moment",
+     "label": "Bist du Zuschauer?",
+     "quote": null,
+     "detail": "Monte fragt im Stream, ob Tim ein Zuschauer sei. Marli antwortet laut Starzip sinngemaess 'Nein, Mann, die ganze Truppe, dicker'. Ausloeser des Memes.",
+     "year": "2026",
+     "image": "Montanablack Marli Timgioh Zuschauer Mario Kart",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh",
+      "https://earlygame.com/de/news/influencers/wer-ist-eigentlich-timgioh"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "marli"
+     ]
+    },
+    {
+     "id": "timgioh-20-auf-860",
+     "cat": "moment",
+     "label": "Von 20 auf 860 Zuschauer",
+     "quote": null,
+     "detail": "Im Januar 2026 ca. 20 Zuschauer im Schnitt, Feb 645, Maerz ca. 860 nach dem Mario-Kart-Auftritt.",
+     "year": "2026",
+     "image": "Timgioh Twitch",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/tim-gioh-wie-ein-viraler-moment-ihn-zum-twitch-durchstarter-machte"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh",
+      "montanablack"
+     ]
+    },
+    {
+     "id": "timgioh-yugioh-seit-sdk",
+     "cat": "habit",
+     "label": "Yu-Gi-Oh seit 2002",
+     "quote": "yugioh spieler seit SDK",
+     "detail": "Stehender TikTok-Bio-Spruch. SDK = Starter Deck Kaiba. Er macht Deckanalysen, Turnier-Talk und nennt sich Yugi-Tuber.",
+     "year": "2002/2026",
+     "image": "Yu-Gi-Oh Starter Deck Kaiba",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh",
+      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh"
+     ]
+    },
+    {
+     "id": "timgioh-yugi-reise",
+     "cat": "zitat",
+     "label": "Mit auf die Yugi-Reise",
+     "quote": null,
+     "detail": "Er will laut Starzip seine Zuschauer 'mit auf seine Yugi-Reise' nehmen.",
+     "year": "2026",
+     "image": "Timgioh Yu-Gi-Oh Stream",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh"
+     ],
+     "conf": "low",
+     "with": [
+      "timgioh"
+     ]
+    },
+    {
+     "id": "timgioh-donkey-kong",
+     "cat": "moment",
+     "label": "Donkey-Kong-Aussage",
+     "quote": null,
+     "detail": "Nannte Sidney Eweka im Stream 'Donkey Kong', Rassismusvorwuerfe. Erst sagte er, der Clip sei geschnitten, spaeter gestand er Fehler ein. Heikel, nur mit Vorsicht nutzen.",
+     "year": "2026",
+     "image": "Timgioh Donkey Kong Sidney Eweka",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh",
+      "https://www.comicschau.de/news/timgioh-weint-hass-livestream-709308/"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh"
+     ]
+    },
+    {
+     "id": "timgioh-blickdispute",
+     "cat": "gag",
+     "label": "Blick ueber die Kamera",
+     "quote": null,
+     "detail": "Chat warf ihm vor, in der Meme-Runde in die Kamera zu schauen. Er sagte, er schaue knapp ueber die Bildschirmmitte.",
+     "year": "2026",
+     "image": "Timgioh Stream Meme Runde",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh"
+     ],
+     "conf": "low",
+     "with": [
+      "timgioh"
+     ]
+    },
+    {
+     "id": "timgioh-honest-kebab",
+     "cat": "moment",
+     "label": "Doener bei Holle",
+     "quote": null,
+     "detail": "Mehrstuendiger Twitch-Stream mit Monte: Doener bei Holles 'Honest Kebab', Nintendo Sports, No-Laugh-Challenge.",
+     "year": "2026",
+     "image": "Honest Kebab Holle Montanablack Timgioh",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "holle"
+     ]
+    },
+    {
+     "id": "timgioh-monte-auto",
+     "cat": "moment",
+     "label": "Clip in Montes Auto",
+     "quote": null,
+     "detail": "Viral-Clip auf TikTok ('hat sich in Montes Auto eingepisst'), Inhalt nur ueber Fan-Clip-Titel belegt, nicht verifiziert.",
+     "year": "2026",
+     "image": "Timgioh Monte Auto",
+     "sources": [
+      "https://www.tiktok.com/@eli_clips05/video/7616455218733026582"
+     ],
+     "conf": "low",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "eli"
+     ]
+    },
+    {
+     "id": "timgioh-tournament-clip",
+     "cat": "moment",
+     "label": "Mario-Kart-Turnier-Clip",
+     "quote": null,
+     "detail": "Clip aus dem Turnier von EliasN97 mit ueber 4 Mio. Views laut Starzip.",
+     "year": "2026",
+     "image": "Eli Mario Kart Turnier Timgioh",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh",
+      "https://www.comicschau.de/news/timgioh-weint-hass-livestream-709308/"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh",
+      "eli"
+     ]
+    },
+    {
+     "id": "timgioh-look-jung",
+     "cat": "look",
+     "label": "Wirkt viel juenger",
+     "quote": "Deswegen sehe ich auch so jung aus und hoere mich so jung an.",
+     "detail": "Ca. 1,63 m, kein Bartwuchs, hohe junge Stimme, Jahrgang 1993. Er spricht selbst darueber, Gesundheitsbezug daher nur sehr vorsichtig.",
+     "year": "2026",
+     "image": "Timgioh Twitch Streamer",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/wer-ist-eigentlich-timgioh",
+      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh"
+     ]
+    },
+    {
+     "id": "timgioh-mckytv-warnung",
+     "cat": "moment",
+     "label": "MckyTV warnt vor Monte",
+     "quote": null,
+     "detail": "MckyTV sagte, Monte hole gezielt TikTok-Viral-Leute wie Anzeigenhauptmeister, Kony und Tim.",
+     "year": "2026",
+     "image": "MckyTV Montanablack Timgioh",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh"
+     ],
+     "conf": "low",
+     "with": [
+      "timgioh",
+      "montanablack"
+     ]
+    },
+    {
+     "id": "timgioh-podcast",
+     "cat": "habit",
+     "label": "Podcast Reden Wir",
+     "quote": null,
+     "detail": "Neben Streams macht er Real-Life-Videos und den Podcast 'Reden Wir'.",
+     "year": "2026",
+     "image": "Reden Wir Podcast Timgioh",
+     "sources": [
+      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh"
+     ]
+    },
+    {
+     "id": "timgioh-verrannt",
+     "cat": "zitat",
+     "label": "Ich habe mich verrannt",
+     "quote": "ich habe mich verrannt, ja, und ich habe Fehler gemacht",
+     "detail": "Tearful Stream im April 2026 nach Hate-Welle und Luegenvorwuerfen. Eher ernst, als Humorquelle riskant.",
+     "year": "2026",
+     "image": "Timgioh weint Stream",
+     "sources": [
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft",
+      "https://www.comicschau.de/news/timgioh-weint-hass-livestream-709308/"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh"
+     ]
+    },
+    {
+     "id": "timgioh-beruf",
+     "cat": "habit",
+     "label": "Kriminologie und Musik",
+     "quote": null,
+     "detail": "Laut Quellen Kriminologie-Masterstudent, Sozialpaedagoge, Musiker/Musiklehrer, Fotograf. Teils von Community als uebertrieben angezweifelt.",
+     "year": "2026",
+     "image": "Timgioh Kriminologie",
+     "sources": [
+      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh"
+     ]
+    }
+   ],
+   "vibe": "Kleiner, junger wirkender Yu-Gi-Oh-Nerd, der durch einen Mario-Kart-Moment mit Monte zum Meme-Streamer wurde.",
+   "followers": "Twitch ca. 385k-471k (je nach Quelle/Zeitpunkt 2026), TikTok ca. 345k, Instagram ca. 81k, YouTube ca. 20k",
+   "active": "Ja, 2026 stark gewachsen (Durchbruch Feb 2026)",
+   "platforms": [
+    "Twitch",
+    "TikTok",
+    "YouTube",
+    "Instagram"
+   ],
+   "crew": [
+    "montanablack",
+    "marli",
+    "eli",
+    "holle"
+   ],
+   "rivals": [],
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "Keine belegte Erwaehnung in Hungriger/Satter-Hugo-Videos gefunden. Nur ein TikTok mit Hashtag #letshugo zu einem TimGioh-Clip (Titel 'Ist er gestorben'), nicht als Hugo-Compilation verifiziert. Er taucht aber haeufig in Streamer-Clip-Compilations auf.",
+   "real_name": {
+    "value": "Tim Olivier Schmidt",
+    "source": "https://earlygame.com/de/news/influencers/tim-gioh-wie-ein-viraler-moment-ihn-zum-twitch-durchstarter-machte"
+   },
+   "nicknames": [
+    {
+     "name": "Yugi-Tuber",
+     "used_by": "er selbst",
+     "source_url": "https://earlygame.com/de/news/influencers/wer-ist-eigentlich-timgioh"
+    }
+   ],
+   "name_origin": {
+    "text": "Tim = Vorname, 'Gioh' vermutlich aus Yu-Gi-Oh (Spielreihe, in der er seit 2002 aktiv ist). Das ist abgeleitet, keine Quelle bestaetigt es ausdruecklich.",
+    "source_url": "https://www.starzip.de/wer-ist-timgioh"
+   },
+   "pronunciation": {
+    "spoken": "Tim-Gi-O (wie Yu-Gi-Oh)",
+    "tts_spelling": "Tim Giioh",
+    "verified": false,
+    "source_url": "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/"
+   },
+   "cast_sources": [
+    "https://earlygame.com/de/news/influencers/tim-gioh-wie-ein-viraler-moment-ihn-zum-twitch-durchstarter-machte",
+    "https://earlygame.com/de/news/influencers/wer-ist-eigentlich-timgioh",
+    "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft",
+    "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/",
+    "https://www.starzip.de/wer-ist-timgioh",
+    "https://www.comicschau.de/news/timgioh-weint-hass-livestream-709308/",
+    "https://promis-sciodoo.de/timgioh/",
+    "https://www.twitch.tv/timgioh"
+   ]
+  },
+  {
    "key": "rumathra",
    "name": "Rumathra",
    "core": false,
@@ -6637,6 +7062,69 @@
    }
   },
   {
+   "key": "eli",
+   "name": "eli",
+   "core": false,
+   "items": [
+    {
+     "id": "timgioh-monte-man-yes",
+     "cat": "zitat",
+     "label": "Monte man yes",
+     "quote": "Monte man, yes",
+     "detail": "Begruessung von MontanaBlack im Mario-Kart-Stream mit Marli und Eli. Wurde zum Meme und TikTok-Trend.",
+     "year": "2026",
+     "image": "Timgioh Monte man yes Mario Kart",
+     "sources": [
+      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "marli",
+      "eli"
+     ]
+    },
+    {
+     "id": "timgioh-monte-auto",
+     "cat": "moment",
+     "label": "Clip in Montes Auto",
+     "quote": null,
+     "detail": "Viral-Clip auf TikTok ('hat sich in Montes Auto eingepisst'), Inhalt nur ueber Fan-Clip-Titel belegt, nicht verifiziert.",
+     "year": "2026",
+     "image": "Timgioh Monte Auto",
+     "sources": [
+      "https://www.tiktok.com/@eli_clips05/video/7616455218733026582"
+     ],
+     "conf": "low",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "eli"
+     ]
+    },
+    {
+     "id": "timgioh-tournament-clip",
+     "cat": "moment",
+     "label": "Mario-Kart-Turnier-Clip",
+     "quote": null,
+     "detail": "Clip aus dem Turnier von EliasN97 mit ueber 4 Mio. Views laut Starzip.",
+     "year": "2026",
+     "image": "Eli Mario Kart Turnier Timgioh",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh",
+      "https://www.comicschau.de/news/timgioh-weint-hass-livestream-709308/"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh",
+      "eli"
+     ]
+    }
+   ]
+  },
+  {
    "key": "inscope21",
    "name": "inscope21",
    "core": false,
@@ -6845,6 +7333,52 @@
    ]
   },
   {
+   "key": "marli",
+   "name": "marli",
+   "core": false,
+   "items": [
+    {
+     "id": "timgioh-monte-man-yes",
+     "cat": "zitat",
+     "label": "Monte man yes",
+     "quote": "Monte man, yes",
+     "detail": "Begruessung von MontanaBlack im Mario-Kart-Stream mit Marli und Eli. Wurde zum Meme und TikTok-Trend.",
+     "year": "2026",
+     "image": "Timgioh Monte man yes Mario Kart",
+     "sources": [
+      "https://www.fragster.de/wer-ist-timgioh-tiktoker-yu-gi-oh-creator-und-streamer-mit-fanconi-anaemie/",
+      "https://earlygame.com/de/news/influencers/vom-meme-zum-meltdown-wie-timgioh-mit-dem-internet-hype-und-massivem-hate-kaempft"
+     ],
+     "conf": "high",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "marli",
+      "eli"
+     ]
+    },
+    {
+     "id": "timgioh-zuschauer",
+     "cat": "moment",
+     "label": "Bist du Zuschauer?",
+     "quote": null,
+     "detail": "Monte fragt im Stream, ob Tim ein Zuschauer sei. Marli antwortet laut Starzip sinngemaess 'Nein, Mann, die ganze Truppe, dicker'. Ausloeser des Memes.",
+     "year": "2026",
+     "image": "Montanablack Marli Timgioh Zuschauer Mario Kart",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh",
+      "https://earlygame.com/de/news/influencers/wer-ist-eigentlich-timgioh"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "marli"
+     ]
+    }
+   ]
+  },
+  {
    "key": "schradin",
    "name": "schradin",
    "core": false,
@@ -6978,6 +7512,31 @@
      "conf": "high",
      "with": [
       "gommehd"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "holle",
+   "name": "holle",
+   "core": false,
+   "items": [
+    {
+     "id": "timgioh-honest-kebab",
+     "cat": "moment",
+     "label": "Doener bei Holle",
+     "quote": null,
+     "detail": "Mehrstuendiger Twitch-Stream mit Monte: Doener bei Holles 'Honest Kebab', Nintendo Sports, No-Laugh-Challenge.",
+     "year": "2026",
+     "image": "Honest Kebab Holle Montanablack Timgioh",
+     "sources": [
+      "https://www.starzip.de/wer-ist-timgioh"
+     ],
+     "conf": "medium",
+     "with": [
+      "timgioh",
+      "montanablack",
+      "holle"
      ]
     }
    ]
@@ -7645,6 +8204,31 @@
   }
  ],
  "avoid": [
+  {
+   "who": "timgioh",
+   "topic": "Fanconi-Anaemie / Gesundheit / Aussehen wegen Krankheit",
+   "why": "Seltene Erkrankung, er wird dafuer von Trollen gemobbt. Keine Witze darueber."
+  },
+  {
+   "who": "timgioh",
+   "topic": "Swatting-Vorfall",
+   "why": "Falscher Polizeieinsatz an seiner Wohnung, gefaehrlich und strafbar."
+  },
+  {
+   "who": "timgioh",
+   "topic": "Weinen im Stream / Hate / psychische Belastung",
+   "why": "Er war ueberfordert, Hasswelle, Mitgefuehl statt Spott."
+  },
+  {
+   "who": "timgioh",
+   "topic": "Donkey-Kong-Aussage gegenueber Sidney Eweka",
+   "why": "Rassismusvorwurf, Wiederholung waere heikel."
+  },
+  {
+   "who": "timgioh",
+   "topic": "Familie, Beziehung, Luegenvorwuerfe zu Jobs, Kitschkrieg/Malle I Love You",
+   "why": "Privat bzw. unbelegt, er haelt Privates raus."
+  },
   {
    "who": "montanablack",
    "topic": "Online-Casino-Werbung, Hausdurchsuchung und Verfahren 2018/19",

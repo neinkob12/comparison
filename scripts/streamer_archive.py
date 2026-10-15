@@ -15,7 +15,7 @@ RAW = ROOT / "content" / "streamer" / "raw"
 OUT = ROOT / "content" / "streamer" / "archive.json"
 
 CORE = ["papaplatte", "montanablack", "knossi", "trymacs", "unge", "rewinside",
-        "handofblood", "gronkh", "eliasn97", "sidneyeweka", "mckytv", "reved"]
+        "handofblood", "gronkh", "eliasn97", "sidneyeweka", "mckytv", "reved", "timgioh"]
 ALIAS = {"dagi_bee": "dagibee", "julien_bam": "julienbam"}
 SKIP_MEMES = {"Talahon"}  # Stereotyp, steht auf der Avoid-Liste
 SKIP_PEOPLE = {"apored"}  # komplett auf der Avoid-Liste
@@ -91,7 +91,16 @@ def main():
                                      "image": e.get("image_hint"), "sources": e.get("source_urls", []),
                                      "conf": e.get("confidence"), "with": e["streamer_link"]})
 
-    avoid = []
+    tim = load("timgioh")  # Nachtrag: eigene Recherche, schon im Archiv-Format
+    tp = tim["profile"]
+    p = person("timgioh", tp["name"])
+    p.update({kk: tp.get(kk) for kk in ("vibe", "followers", "active", "platforms", "crew", "rivals", "hugo_frequency",
+                                        "hugo_evidence", "real_name", "nicknames", "name_origin", "pronunciation")})
+    p["cast_sources"] = tp.get("source_urls", [])
+    for e in tim["entries"]:
+        add(e["with"], e)
+
+    avoid = list(tim["avoid"])
     for f in ("gags_1", "gags_2"):
         avoid += [{"who": a.get("streamer"), "topic": a.get("topic"), "why": a.get("why")} for a in load(f)["avoid"]]
     avoid += [{"who": None, "topic": a.get("topic"), "why": a.get("reason")} for a in load("moments")["avoid"]]
