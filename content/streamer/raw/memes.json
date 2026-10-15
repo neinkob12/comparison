@@ -1,0 +1,2088 @@
+{
+ "entries": [
+  {
+   "id": "ehrenmann",
+   "type": "word",
+   "title": "Ehrenmann / Ehrenfrau",
+   "year": 2018,
+   "peak": "2018",
+   "meaning": "Jemand, der verlässlich ist oder etwas Besonderes für dich getan hat.",
+   "example_line": "Würdest du eher ein Ehrenmann sein, der immer die Rechnung zahlt, oder eine Ehrenfrau, die jeden Streit schlichtet?",
+   "streamer_link": [],
+   "jugendwort": "winner 2018",
+   "image_hint": "goldene Ehren-Medaille mit Daumen hoch",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwoerter/",
+    "https://web.de/magazine/panorama/jugendwort-jahres-2018-ehrenmann-33421206"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "verbuggt",
+   "type": "word",
+   "title": "verbuggt",
+   "year": 2018,
+   "peak": "2018",
+   "meaning": "Voller Fehler, wie ein kaputtes Spiel mit Bugs; auch für Dinge im echten Leben.",
+   "example_line": "Würdest du eher einen verbuggten Tag erleben, an dem alles hakt, oder einen Tag mit Lag in jedem Gespräch?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2018",
+   "image_hint": "Spiele-Screen mit Glitch-Effekt",
+   "source_urls": [
+    "https://web.de/magazine/panorama/jugendwort-jahres-2018-ehrenmann-33421206"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "glucose_haltig",
+   "type": "word",
+   "title": "glucose-haltig",
+   "year": 2018,
+   "peak": "2018",
+   "meaning": "Süß oder zuckerhaltig, auch für etwas Nettes gebraucht.",
+   "example_line": "Würdest du eher nur noch glucose-haltige Getränke trinken oder nur noch bittere?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2018",
+   "image_hint": "Zuckerwürfel mit Warnschild",
+   "source_urls": [
+    "https://web.de/magazine/panorama/jugendwort-jahres-2018-ehrenmann-33421206"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "lauch",
+   "type": "word",
+   "title": "Lauch",
+   "year": 2018,
+   "peak": "2019",
+   "meaning": "Ein Trottel oder schwächlicher Typ, scherzhaft beleidigend.",
+   "example_line": "Würdest du eher als Lauch im Fitnessstudio auffallen oder als Held im Gamingstuhl?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2018",
+   "image_hint": "Lauchstange mit Hantel",
+   "source_urls": [
+    "https://web.de/magazine/panorama/jugendwort-jahres-2018-ehrenmann-33421206"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "auf_dein_nacken",
+   "type": "phrase",
+   "title": "Auf dein Nacken",
+   "year": 2018,
+   "peak": "2018",
+   "meaning": "Du zahlst; die Rechnung geht auf dich.",
+   "example_line": "Würdest du eher bei jedem Essen sagen: auf dein Nacken, oder immer selbst zahlen müssen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2018",
+   "image_hint": "Restaurantrechnung mit Pfeil",
+   "source_urls": [
+    "https://web.de/magazine/panorama/jugendwort-jahres-2018-ehrenmann-33421206"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sheesh",
+   "type": "word",
+   "title": "Sheesh",
+   "year": 2018,
+   "peak": "2021",
+   "meaning": "Ausruf für Staunen, Anerkennung oder Überraschung, oft lang gezogen.",
+   "example_line": "Würdest du eher bei jedem Clip Sheesh sagen oder bei jedem Clip wild?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2018",
+   "image_hint": "Ein Mund, der lang gezogen Sheeesh sagt",
+   "source_urls": [
+    "https://web.de/magazine/panorama/jugendwort-jahres-2018-ehrenmann-33421206",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "kuess_dein_auge",
+   "type": "phrase",
+   "title": "Ich küss dein Auge",
+   "year": 2018,
+   "peak": "2018",
+   "meaning": "Sehr starkes Danke oder Zuneigung unter Freunden.",
+   "example_line": "Würdest du eher jedem Freund sagen: ich küss dein Auge, oder jeden Streamer so begrüßen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2018",
+   "image_hint": "Herz-Augen-Emoji",
+   "source_urls": [
+    "https://web.de/magazine/panorama/jugendwort-jahres-2018-ehrenmann-33421206"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "snackosaurus",
+   "type": "word",
+   "title": "Snackosaurus",
+   "year": 2018,
+   "peak": "2018",
+   "meaning": "Ein verfressener Mensch, der ständig Snacks braucht.",
+   "example_line": "Würdest du eher ein Snackosaurus sein oder ein Mensch, der nie Hunger hat?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2018",
+   "image_hint": "Dino mit Chipstüte",
+   "source_urls": [
+    "https://web.de/magazine/panorama/jugendwort-jahres-2018-ehrenmann-33421206"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "lindnern",
+   "type": "word",
+   "title": "lindnern",
+   "year": 2018,
+   "peak": "2018",
+   "meaning": "Lieber gar nichts machen als etwas schlecht machen, nach dem Zitat von Christian Lindner.",
+   "example_line": "Würdest du eher lindnern oder eine Aufgabe schlecht erledigen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2018",
+   "image_hint": "leere To-do-Liste",
+   "source_urls": [
+    "https://web.de/magazine/panorama/jugendwort-jahres-2018-ehrenmann-33421206",
+    "https://www.thelocal.de/20181119/what-are-the-meanings-behind-germanys-youth-words-of-the-year"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "kek",
+   "type": "word",
+   "title": "kek",
+   "year": 2019,
+   "peak": "2019",
+   "meaning": "Internet-Lachen, wie lol, ursprünglich aus dem Gaming.",
+   "example_line": "Würdest du eher bei jedem Witz kek sagen oder gar nicht lachen dürfen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "lachender Frosch",
+   "source_urls": [
+    "https://www.familie.de/schulkind/jugendsprache-2019-das-bedeutet-cringe-kek-und-co/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "ok_boomer",
+   "type": "phrase",
+   "title": "OK Boomer",
+   "year": 2019,
+   "peak": "2019",
+   "meaning": "Genervte Antwort jüngerer Menschen auf altmodische Ansagen.",
+   "example_line": "Würdest du eher auf alles OK Boomer sagen oder von allen OK Boomer genannt werden?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Rentner-Silhouette mit Fernbedienung",
+   "source_urls": [
+    "https://www.zhaw.ch/de/linguistik/institute-zentren/imk/news-und-events/detailansicht-news/event-news/wort-des-jahres-schweiz-2019-ist-gewaehlt"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "lost",
+   "type": "word",
+   "title": "lost",
+   "year": 2020,
+   "peak": "2020",
+   "meaning": "Ahnungslos, orientierungslos oder unentschlossen.",
+   "example_line": "Würdest du eher in einer fremden Stadt komplett lost sein oder in deinem eigenen Stream lost sein?",
+   "streamer_link": [],
+   "jugendwort": "winner 2020",
+   "image_hint": "Person mit Karte, die sich dreht",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwoerter/",
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/was-ist-das-jugendwort-2020/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "wyld",
+   "type": "word",
+   "title": "wyld",
+   "year": 2020,
+   "peak": "2022",
+   "meaning": "Englisch gesprochenes wild; heftig, krass, verrückt.",
+   "example_line": "Würdest du eher täglich etwas Wyldes erleben oder nie wieder überrascht werden?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2020",
+   "image_hint": "Löwe im Anzug",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/was-ist-das-jugendwort-2020/",
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "schabernack",
+   "type": "word",
+   "title": "Schabernack",
+   "year": 2020,
+   "peak": "2020",
+   "meaning": "Ironisch für einen harmlosen Streich; durch den CDU-Politiker Philipp Amthor zum Netzwort.",
+   "example_line": "Würdest du eher Schabernack mit Freunden treiben oder mit deinem Chef?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2020",
+   "image_hint": "Clown mit Controller",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/was-ist-das-jugendwort-2020/",
+    "https://mein-mmo.de/amthor-controller-lachhaft-werbung/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "mittwoch_frosch",
+   "type": "format",
+   "title": "Es ist Mittwoch, meine Kerle",
+   "year": 2018,
+   "peak": "2021",
+   "meaning": "Frosch-Meme, das jeden Mittwoch mit dem Spruch gepostet wird.",
+   "example_line": "Würdest du eher jeden Mittwoch den Frosch grüßen oder jeden Freitag das Wochenende anbrüllen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2020",
+   "image_hint": "Budgett-Frosch mit Schriftzug Mittwoch",
+   "source_urls": [
+    "https://www.stuttgarter-zeitung.de/wissen/mittwoch-meme-bedeutung-mhsd-78916634.html",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sauftrag",
+   "type": "word",
+   "title": "Sauftrag",
+   "year": 2020,
+   "peak": "2020",
+   "meaning": "Ein geplantes Trinkgelage, Mix aus Saufen und Auftrag.",
+   "example_line": "Würdest du eher einen Sauftrag verteilen oder einen Auftrag zu Hause ausführen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2020",
+   "image_hint": "Bierglas mit Auftragsbrief",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/was-ist-das-jugendwort-2020/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "no_front",
+   "type": "phrase",
+   "title": "No front",
+   "year": 2020,
+   "peak": "2020",
+   "meaning": "Zusatz, um klarzustellen, dass etwas nicht böse gemeint ist.",
+   "example_line": "Würdest du eher jeden Satz mit no front beginnen oder jeden Satz mit ehrlich gesagt?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2020",
+   "image_hint": "Hände abwehrend, Sprechblase",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/was-ist-das-jugendwort-2020/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "koeftespiess",
+   "type": "word",
+   "title": "Köftespieß",
+   "year": 2020,
+   "peak": "2020",
+   "meaning": "Steht für die einfachen Dinge im Leben; geht auf den Rapper Xatar zurück.",
+   "example_line": "Würdest du eher für immer Köftespieß essen oder für immer Pommes?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2020",
+   "image_hint": "Fleischspieß mit Herz",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/was-ist-das-jugendwort-2020/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "mashallah",
+   "type": "word",
+   "title": "Mashallah",
+   "year": 2020,
+   "peak": "2020",
+   "meaning": "Ausdruck von Lob oder Bewunderung.",
+   "example_line": "Würdest du eher jedem ein Mashallah schenken oder von jedem eins bekommen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2020",
+   "image_hint": "Daumen hoch mit Funkeln",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/was-ist-das-jugendwort-2020/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "cringe",
+   "type": "word",
+   "title": "cringe",
+   "year": 2021,
+   "peak": "2021",
+   "meaning": "Fremdscham, etwas Peinliches.",
+   "example_line": "Würdest du eher einen cringen Moment live im Stream erleben oder in einem Video von dir finden?",
+   "streamer_link": [],
+   "jugendwort": "winner 2021",
+   "image_hint": "Gesicht hinter Händen",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwoerter/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "akkurat",
+   "type": "word",
+   "title": "akkurat",
+   "year": 2021,
+   "peak": "2021",
+   "meaning": "Zustimmung: genau so, völlig richtig.",
+   "example_line": "Würdest du eher auf alles akkurat sagen oder gar nicht antworten dürfen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2021",
+   "image_hint": "grüner Haken",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "geringverdiener",
+   "type": "word",
+   "title": "Geringverdiener",
+   "year": 2021,
+   "peak": "2021",
+   "meaning": "Scherzhafte Beleidigung für Verlierer oder Pechvögel.",
+   "example_line": "Würdest du eher als Geringverdiener oder als Möchtegern-Millionär bekannt sein?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2021",
+   "image_hint": "Sparschwein mit Loch",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/",
+    "https://www.stuttgarter-zeitung.de/wissen/jugendwoerter-2021-liste-und-bedeutung-mhsd-78875649.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papatastisch",
+   "type": "word",
+   "title": "papatastisch",
+   "year": 2021,
+   "peak": "2021",
+   "meaning": "Mix aus Papa und fantastisch, begeistert; vom Streamer Papaplatte.",
+   "example_line": "Würdest du eher alles papatastisch finden oder alles akkurat?",
+   "streamer_link": [
+    "papaplatte"
+   ],
+   "jugendwort": "shortlist 2021",
+   "image_hint": "Papa-Daumen mit Sternchen",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/",
+    "https://omr.com/de/jugendwort-2021-papatastisch-akkurat/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "same",
+   "type": "word",
+   "title": "Same",
+   "year": 2021,
+   "peak": "2021",
+   "meaning": "Mir geht es genauso.",
+   "example_line": "Würdest du eher auf alles Same antworten oder nie jemandem zustimmen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2021",
+   "image_hint": "zwei gleiche Gesichter",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sus",
+   "type": "word",
+   "title": "sus",
+   "year": 2021,
+   "peak": "2021",
+   "meaning": "Verdächtig, aus dem Spiel Among Us.",
+   "example_line": "Würdest du eher bei jedem Freund sus sagen oder jedem alles glauben?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2021",
+   "image_hint": "Among-Us-Figur mit Verdacht",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/",
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "digga",
+   "type": "word",
+   "title": "Digga",
+   "year": 2020,
+   "peak": "2026",
+   "meaning": "Anrede für Freunde und Kumpels; mehrfach in den Jugendwort-Shortlists 2020 bis 2026.",
+   "example_line": "Würdest du eher jeden Digga nennen oder jeden Chef nennen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2020",
+   "image_hint": "Handschlag unter Kumpels",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/was-ist-das-jugendwort-2020/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2025/",
+    "https://www.iamexpat.ch/lifestyle/lifestyle-news/mehrzweckeier-macker-and-6-7-the-german-youth-word-year-2026"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "wild",
+   "type": "word",
+   "title": "wild",
+   "year": 2021,
+   "peak": "2022",
+   "meaning": "Verrückt, intensiv, krass, gerne positiv.",
+   "example_line": "Würdest du eher jeden Tag einen wilden Clip sehen oder einen wilden Clip drehen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2021",
+   "image_hint": "Flammen-Emoji",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2021/",
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "smash",
+   "type": "word",
+   "title": "Smash",
+   "year": 2022,
+   "peak": "2022",
+   "meaning": "Mit jemandem etwas anfangen wollen; aus Smash or Pass.",
+   "example_line": "Würdest du eher bei jedem Bild smash sagen oder pass sagen müssen?",
+   "streamer_link": [],
+   "jugendwort": "winner 2022",
+   "image_hint": "Daumen hoch gegen Daumen runter",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwoerter/",
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gommemode",
+   "type": "word",
+   "title": "Gommemode",
+   "year": 2022,
+   "peak": "2022",
+   "meaning": "Unbesiegbar; Abwandlung von Godmode aus der Community von GommeHD.",
+   "example_line": "Würdest du eher Gommemode in jedem Spiel haben oder Godmode im echten Leben?",
+   "streamer_link": [
+    "gommehd"
+   ],
+   "jugendwort": "shortlist 2022",
+   "image_hint": "Minecraft-Figur mit Schild",
+   "source_urls": [
+    "https://www.giga.de/artikel/gommemode-was-bedeutet-das-jugendwort/",
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "siuuu",
+   "type": "word",
+   "title": "Siuuu",
+   "year": 2022,
+   "peak": "2022",
+   "meaning": "Ruf für etwas Grandioses, wird Cristiano Ronaldo zugeschrieben.",
+   "example_line": "Würdest du eher bei jedem Tor Siuuu rufen oder bei jedem Fehler Schere heben?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2022",
+   "image_hint": "Ronaldo-Jubelpose",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "macher",
+   "type": "word",
+   "title": "Macher",
+   "year": 2022,
+   "peak": "2022",
+   "meaning": "Jemand, der Dinge anpackt und erledigt.",
+   "example_line": "Würdest du eher ein Macher sein oder ein Träumer?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2022",
+   "image_hint": "Hammer und Helm",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "bodenlos",
+   "type": "word",
+   "title": "bodenlos",
+   "year": 2022,
+   "peak": "2022",
+   "meaning": "Schlecht, unterirdisch, ohne Boden.",
+   "example_line": "Würdest du eher einen bodenlosen Witz erzählen oder einen bodenlosen Gag ertragen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2022",
+   "image_hint": "Abgrund unter Füßen",
+   "source_urls": [
+    "https://www.giga.de/artikel/bodenlos-bedeutung-des-jugendworts/",
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "slay",
+   "type": "word",
+   "title": "slay",
+   "year": 2022,
+   "peak": "2023",
+   "meaning": "Etwas großartig machen, besonders selbstbewusst auftreten.",
+   "example_line": "Würdest du eher jeden Tag slayen oder jeden Tag im Hintergrund bleiben?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2022",
+   "image_hint": "Glitzer-Krone",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2023/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "bre",
+   "type": "word",
+   "title": "Bre / Bro / Bruder",
+   "year": 2022,
+   "peak": "2022",
+   "meaning": "Anrede unter Freunden, von Bruder abgeleitet.",
+   "example_line": "Würdest du eher jeden Bre nennen oder jeden mit Vornamen ansprechen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2022",
+   "image_hint": "zwei Fäuste im Fistbump",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/",
+    "https://www.giga.de/artikel/bra-und-bre-was-bedeutet-das-in-der-jugendsprache/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "goofy",
+   "type": "word",
+   "title": "goofy",
+   "year": 2023,
+   "peak": "2023",
+   "meaning": "Tollpatschig, albern, liebenswert dumm.",
+   "example_line": "Würdest du eher goofy aussehen oder goofy klingen?",
+   "streamer_link": [],
+   "jugendwort": "winner 2023",
+   "image_hint": "Goofy-Hut und breites Grinsen",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwoerter/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2023/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "npc",
+   "type": "word",
+   "title": "NPC",
+   "year": 2023,
+   "peak": "2023",
+   "meaning": "Mensch, der nur mitläuft, wie eine Spielfigur ohne eigenes Handeln.",
+   "example_line": "Würdest du eher ein NPC sein oder der Endgegner?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2023",
+   "image_hint": "Spielfigur mit leeren Augen",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2023/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "side_eye",
+   "type": "word",
+   "title": "Side Eye",
+   "year": 2023,
+   "peak": "2023",
+   "meaning": "Skeptischer Seitenblick der Verachtung.",
+   "example_line": "Würdest du eher jedem einen Side Eye geben oder von allen einen bekommen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2023",
+   "image_hint": "Augen blicken zur Seite",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2023/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rizz",
+   "type": "word",
+   "title": "Rizz",
+   "year": 2023,
+   "peak": "2023",
+   "meaning": "Charisma beim Flirten.",
+   "example_line": "Würdest du eher unendlich Rizz haben oder unendlich Aura?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2023",
+   "image_hint": "Sonnenbrille mit Funkeln",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2023/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "darf_er_so",
+   "type": "phrase",
+   "title": "Darf er so?",
+   "year": 2023,
+   "peak": "2023",
+   "meaning": "Ironische oder kritische Reaktion auf etwas Dreistes oder Auffälliges.",
+   "example_line": "Würdest du eher bei jedem Satz fragen: darf er so, oder darf sie so?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2023",
+   "image_hint": "hochgezogene Augenbraue",
+   "source_urls": [
+    "https://www.giga.de/artikel/darf-er-so-was-bedeutet-der-begriff-aus-der-jugendsprache/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2023/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "auf_lock",
+   "type": "phrase",
+   "title": "auf Lock",
+   "year": 2023,
+   "peak": "2023",
+   "meaning": "Cool und entspannt auftreten; ohne Stress.",
+   "example_line": "Würdest du eher immer auf Lock sein oder immer auf Stress?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2023",
+   "image_hint": "chillende Sonnenbrille",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2023/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "yolo",
+   "type": "word",
+   "title": "YOLO",
+   "year": 2023,
+   "peak": "2024",
+   "meaning": "You only live once; Rechtfertigung für spontane Entscheidungen.",
+   "example_line": "Würdest du eher jede Woche YOLO rufen und springen oder sicher auf der Couch bleiben?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2023",
+   "image_hint": "Fallschirm mit Text YOLO",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2023/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "aura",
+   "type": "word",
+   "title": "Aura",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Persönliche Ausstrahlung; Aura-Punkte gibt es für coole Aktionen, minus für Peinliches.",
+   "example_line": "Würdest du eher plus tausend Aura bekommen oder minus tausend Aura bei jedem Stolpern?",
+   "streamer_link": [],
+   "jugendwort": "winner 2024",
+   "image_hint": "Leuchtender Kreis um Person",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwoerter/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/",
+    "https://www.giga.de/artikel/aura-was-bedeutet-das-jugendwort/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "talahon",
+   "type": "word",
+   "title": "Talahon",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Stereotyp eines jungen Mannes mit Bauchtasche und Markenoptik; Begriff ist umstritten.",
+   "example_line": "Würdest du eher Talahon-Style tragen oder eine Bauchtasche voll Dubai-Schokolade?",
+   "streamer_link": [
+    "trymacs"
+   ],
+   "jugendwort": "shortlist 2024",
+   "image_hint": "Bauchtasche und Markenjacke",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/",
+    "https://www.hessenschau.de/kultur/buchmesse/aura-ist-jugendwort-des-jahres-2024---talahon-auf-platz-zwei-v1,jugendwort-des-jahres-2024-100.html",
+    "https://mein-mmo.de/was-heisst-talahon-jugendwort-2024-trymacs-twitch/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "schere",
+   "type": "phrase",
+   "title": "Schere heben",
+   "year": 2023,
+   "peak": "2024",
+   "meaning": "Eigenes Fehlverhalten zugeben, Geste und Wort stammen aus dem Gaming; vom Streamer xSolutionTV bekannt.",
+   "example_line": "Würdest du eher bei jedem Fehler die Schere heben oder den Fehler auf die Kamera schieben?",
+   "streamer_link": [
+    "xsolutiontv"
+   ],
+   "jugendwort": "shortlist 2024",
+   "image_hint": "Hand mit Scherengeste",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/schere/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2025/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "nein_pascal",
+   "type": "phrase",
+   "title": "Nein Pascal, ich denke nicht",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Trockene Ablehnung; stammt aus einer RTL2-Scripted-Reality-Szene. Hintergrund der Szene ist problematisch.",
+   "example_line": "Würdest du eher auf jedes Angebot sagen: Nein Pascal, ich denke nicht, oder immer ja sagen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2024",
+   "image_hint": "Daumen runter mit Sprechblase",
+   "source_urls": [
+    "https://www.giga.de/artikel/nein-pascal-ich-denke-nicht-bedeutung-und-original/",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "hoelle_nein",
+   "type": "phrase",
+   "title": "Hölle nein",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Starke Ablehnung nach dem englischen Hell no.",
+   "example_line": "Würdest du eher auf alles Hölle nein sagen oder auf alles Okay?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2024",
+   "image_hint": "Flammen mit Stoppschild",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "akh",
+   "type": "word",
+   "title": "Akh / Akhi",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Arabisch für Bruder, Anrede für Freunde.",
+   "example_line": "Würdest du eher alle Akh nennen oder alle Digga?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2024",
+   "image_hint": "Handschlag",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "yurr",
+   "type": "word",
+   "title": "Yurr",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Begrüßung, die auch eine Frage einleitet.",
+   "example_line": "Würdest du eher jeden Morgen Yurr rufen oder nur nicken?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2024",
+   "image_hint": "Hand winkend",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "das_crazy",
+   "type": "phrase",
+   "title": "das crazy",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Allzweckantwort bei Sprachlosigkeit, Überraschung oder Desinteresse.",
+   "example_line": "Würdest du eher auf alles das crazy sagen oder nur noch Wow rufen dürfen?",
+   "streamer_link": [],
+   "jugendwort": "winner 2025",
+   "image_hint": "Gesicht mit großen Augen",
+   "source_urls": [
+    "https://www.stuttgarter-zeitung.de/wissen/das-crazy-was-bedeutet-das-jugendwort-des-jahres-79038359.html",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2025/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "checkst_du",
+   "type": "phrase",
+   "title": "Checkst du?",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Verstehst du? Rückversicherung am Satzende.",
+   "example_line": "Würdest du eher jeden Satz mit checkst du beenden oder mit weißt du?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2025",
+   "image_hint": "Glühbirne mit Fragezeichen",
+   "source_urls": [
+    "https://www.stuttgarter-zeitung.de/wissen/das-crazy-was-bedeutet-das-jugendwort-des-jahres-79038359.html",
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2025/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "tuff",
+   "type": "word",
+   "title": "tuff",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Stark, cool oder beeindruckend, von englisch tough und tuff als TikTok-Wort.",
+   "example_line": "Würdest du eher alles tuff finden oder alles mid?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2025",
+   "image_hint": "Muskelarm mit Sternchen",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2025/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "lowkey",
+   "type": "word",
+   "title": "lowkey",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Ein bisschen, insgeheim oder dezent.",
+   "example_line": "Würdest du eher lowkey berühmt sein oder highkey blamiert?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2025",
+   "image_hint": "Flüstergesicht",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2025/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rede",
+   "type": "word",
+   "title": "Rede",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Ausruf: Sprich weiter, erzähl mehr, ich höre zu.",
+   "example_line": "Würdest du eher bei jeder Geschichte Rede sagen oder bei jeder Geschichte nichts?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2025",
+   "image_hint": "Sprechblase mit Pfeil",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2025/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "tot",
+   "type": "word",
+   "title": "tot",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Ironisch: etwas ist so lustig oder peinlich, dass man gestorben ist.",
+   "example_line": "Würdest du eher bei jedem Witz tot sein oder immer ernst bleiben?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2025",
+   "image_hint": "Totenkopf-Emoji",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2025/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "ragebait",
+   "type": "word",
+   "title": "Ragebait",
+   "year": 2026,
+   "peak": "2026",
+   "meaning": "Online-Inhalte, die absichtlich Wut und Empörung auslösen, um Reichweite zu bekommen.",
+   "example_line": "Würdest du eher auf Ragebait reinfallen oder selbst Ragebait posten müssen?",
+   "streamer_link": [],
+   "jugendwort": "winner 2026",
+   "image_hint": "Angelhaken mit wütendem Gesicht",
+   "source_urls": [
+    "https://www.zdfheute.de/panorama/jugendwort-des-jahres-2026-gewinner-ragebait-100.html",
+    "https://www.iamexpat.ch/lifestyle/lifestyle-news/mehrzweckeier-macker-and-6-7-the-german-youth-word-year-2026"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "peak",
+   "type": "word",
+   "title": "Peak",
+   "year": 2026,
+   "peak": "2026",
+   "meaning": "Der Höhepunkt, das Beste vom Besten.",
+   "example_line": "Würdest du eher täglich Peak erleben oder nie wieder Mid?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2026",
+   "image_hint": "Berggipfel mit Flagge",
+   "source_urls": [
+    "https://www.zdfheute.de/panorama/jugendwort-des-jahres-2026-gewinner-ragebait-100.html",
+    "https://www.iamexpat.ch/lifestyle/lifestyle-news/mehrzweckeier-macker-and-6-7-the-german-youth-word-year-2026"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "crashout",
+   "type": "word",
+   "title": "Crashout",
+   "year": 2026,
+   "peak": "2026",
+   "meaning": "Totaler Nervenzusammenbruch oder Ausrasten.",
+   "example_line": "Würdest du eher live im Stream einen Crashout haben oder still alles aushalten?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2026",
+   "image_hint": "Auto-Crash in rot",
+   "source_urls": [
+    "https://www.zdfheute.de/panorama/jugendwort-des-jahres-2026-gewinner-ragebait-100.html",
+    "https://www.iamexpat.ch/lifestyle/lifestyle-news/mehrzweckeier-macker-and-6-7-the-german-youth-word-year-2026"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "six_seven",
+   "type": "phrase",
+   "title": "6-7 (Six Seven)",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Sinnfreier Brainrot-Ruf mit Handbewegung, aus dem Song Doot Doot (6 7) von Skrilla; in Schulen Dauergag.",
+   "example_line": "Würdest du eher in jeder Pause six seven rufen oder in jedem Gespräch Rizz zeigen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2026",
+   "image_hint": "zwei wippende Hände mit 6 und 7",
+   "source_urls": [
+    "https://www.giga.de/tech/6-7-was-bedeutet-dieses-six-seven--01KWV3SX78VRRHA98C8HHG1WA8",
+    "https://amp.knowyourmeme.com/memes/67-meme",
+    "https://www.iamexpat.ch/lifestyle/lifestyle-news/mehrzweckeier-macker-and-6-7-the-german-youth-word-year-2026"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "du_bist_gut_genug",
+   "type": "sound",
+   "title": "Du bist gut genug",
+   "year": 2026,
+   "peak": "2026",
+   "meaning": "Hook von Gut genug (Kitschkrieg, Blumengarten, Shirin David); weltweit als Doobie Scoot Canoe parodiert.",
+   "example_line": "Würdest du eher jeden Tag hören: du bist gut genug, oder nie wieder Lob bekommen?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2026",
+   "image_hint": "Falsett-singender Mann mit Notenschlüssel",
+   "source_urls": [
+    "https://www.giga.de/tech/du-bist-gut-genug-als-jugendwort-des-jahres-das-steckt-hinter-dem-meme--01KTY2C584WQHR9V3A37JW6ZWH",
+    "https://knowyourmeme.com/memes/du-bist-gut-genug",
+    "https://www.deutschland.de/en/topic/culture/kitschkrieg-du-bist-gut-genug"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gute_kaese",
+   "type": "phrase",
+   "title": "Gute Käse",
+   "year": 2026,
+   "peak": "2026",
+   "meaning": "Ersatz für sehr gut oder solide, Unsinns-Grammatik.",
+   "example_line": "Würdest du eher alles gute Käse nennen oder alles Süper?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2026",
+   "image_hint": "Käse mit Daumen hoch",
+   "source_urls": [
+    "https://www.iamexpat.ch/lifestyle/lifestyle-news/mehrzweckeier-macker-and-6-7-the-german-youth-word-year-2026"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "macker",
+   "type": "word",
+   "title": "Macker",
+   "year": 2026,
+   "peak": "2026",
+   "meaning": "Freund, Schwarm oder einfach ein Typ.",
+   "example_line": "Würdest du eher dein Macker sein oder dein Digga?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2026",
+   "image_hint": "Typ mit Basecap",
+   "source_urls": [
+    "https://www.iamexpat.ch/lifestyle/lifestyle-news/mehrzweckeier-macker-and-6-7-the-german-youth-word-year-2026"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sueper",
+   "type": "word",
+   "title": "Süper",
+   "year": 2026,
+   "peak": "2026",
+   "meaning": "Türkisch geprägte Aussprache von super.",
+   "example_line": "Würdest du eher alles süper finden oder alles tuff?",
+   "streamer_link": [],
+   "jugendwort": "shortlist 2026",
+   "image_hint": "Daumen mit Sternen",
+   "source_urls": [
+    "https://www.iamexpat.ch/lifestyle/lifestyle-news/mehrzweckeier-macker-and-6-7-the-german-youth-word-year-2026"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "smash_or_pass",
+   "type": "format",
+   "title": "Smash or Pass",
+   "year": 2020,
+   "peak": "2022",
+   "meaning": "Spiel, bei dem man Bilder mit smash oder pass bewertet; Namensgeber des Jugendworts 2022.",
+   "example_line": "Würdest du eher bei Smash or Pass nur Pass sagen dürfen oder nur Smash?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "zwei Buttons Smash und Pass",
+   "source_urls": [
+    "https://quillbot.com/de/blog/haufig-gestellte-fragen/top-10-jugendwoerter-2022/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "hayvan",
+   "type": "word",
+   "title": "Hayvan",
+   "year": 2018,
+   "peak": "2021",
+   "meaning": "Türkisch für Tier; im Slang meist für eine Bestie, durch Rapper KC Rebell bekannt.",
+   "example_line": "Würdest du eher als Hayvan im Spiel gefeiert werden oder als Noob?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Löwe-Emoji",
+   "source_urls": [
+    "https://www.giga.de/artikel/hayvan-bedeutung-des-wortes-auf-deutsch/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "bratan",
+   "type": "word",
+   "title": "Bratan / Bra",
+   "year": 2018,
+   "peak": "2019",
+   "meaning": "Russisch für Bruder; Anrede unter Kumpels, durch Rapper Capital Bra verbreitet.",
+   "example_line": "Würdest du eher alle Bratan nennen oder alle Bre?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "zwei Brüder Silhouetten",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/bratan/",
+    "https://www.giga.de/artikel/bra-und-bre-was-bedeutet-das-in-der-jugendsprache/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "oida",
+   "type": "word",
+   "title": "Oida",
+   "year": 2018,
+   "peak": "2023",
+   "meaning": "Österreichisches Alter, Ausruf des Staunens oder Ärgers.",
+   "example_line": "Würdest du eher jede Nachricht mit Oida beginnen oder mit Digga?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Wiener Kaffeehaus-Tasse",
+   "source_urls": [
+    "https://www.leinetal24.de/welt/jugendwoerter-des-jahres-die-2023-immer-noch-richtig-fly-sind-nicht-zr-92446730.html"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "goenn_dir",
+   "type": "phrase",
+   "title": "Gönn dir",
+   "year": 2015,
+   "peak": "2019",
+   "meaning": "Aufforderung, sich etwas zu gönnen oder zu genießen.",
+   "example_line": "Würdest du eher gönn dir sagen und alles kaufen oder sparen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Hand mit Kreditkarte",
+   "source_urls": [
+    "https://www.leinetal24.de/verbraucher/cringe-gammelfleischparty-und-co-das-waren-die-jugendwoerter-der-letzten-jahre-zr-94417835.html"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "mies",
+   "type": "word",
+   "title": "mies",
+   "year": 2018,
+   "peak": "2020",
+   "meaning": "Verstärkung für sehr, im Sinn von krass gut, im Slang oft: mies gut.",
+   "example_line": "Würdest du eher mies gut oder mies schlecht sein?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Daumen hoch mit Wolke",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwoerter/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "babo",
+   "type": "word",
+   "title": "Babo",
+   "year": 2013,
+   "peak": "2018",
+   "meaning": "Boss, Anführer; Haftbefehl: Chabos wissen wer der Babo ist (Jugendwort 2013).",
+   "example_line": "Würdest du eher der Babo im Raum sein oder der Chabo?",
+   "streamer_link": [],
+   "jugendwort": "winner 2013",
+   "image_hint": "Krone auf Basecap",
+   "source_urls": [
+    "https://www.leinetal24.de/verbraucher/cringe-gammelfleischparty-und-co-das-waren-die-jugendwoerter-der-letzten-jahre-zr-94417835.html"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "laeuft_bei_dir",
+   "type": "phrase",
+   "title": "Läuft bei dir",
+   "year": 2014,
+   "peak": "2018",
+   "meaning": "Lob oder ironischer Kommentar für Erfolg; Jugendwort 2014.",
+   "example_line": "Würdest du eher bei jedem Erfolg sagen: läuft bei dir, oder läuft nicht?",
+   "streamer_link": [],
+   "jugendwort": "winner 2014",
+   "image_hint": "grüner Haken mit Rakete",
+   "source_urls": [
+    "https://www.leinetal24.de/verbraucher/cringe-gammelfleischparty-und-co-das-waren-die-jugendwoerter-der-letzten-jahre-zr-94417835.html"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "wer_hat_gefragt",
+   "type": "phrase",
+   "title": "Wer hat gefragt?",
+   "year": 2019,
+   "peak": "2022",
+   "meaning": "Ironische Abwertung einer unerwünschten Meinung, englisch Who asked.",
+   "example_line": "Würdest du eher auf jede Meinung antworten: wer hat gefragt, oder immer zuhören müssen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Fragezeichen über einer Menschenmenge",
+   "source_urls": [
+    "https://www.netzwelt.de/abkuerzung/226524-bedeutet-who-asked-bedeutung-verwendung.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "habibi",
+   "type": "word",
+   "title": "Habibi",
+   "year": 2018,
+   "peak": "2024",
+   "meaning": "Arabisch für Liebling oder Freund, im Alltagsslang Anrede.",
+   "example_line": "Würdest du eher alle Habibi nennen oder alle Brudi?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Herz mit Wasserpfeife",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/bratan/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "dicka",
+   "type": "word",
+   "title": "Dicka",
+   "year": 2020,
+   "peak": "2023",
+   "meaning": "Variante von Digga, weiblich oder humorvoll genutzt.",
+   "example_line": "Würdest du eher jeden Dicka nennen oder Digga?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "zwei Kumpels, Hand abklatschen",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwoerter/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "lan",
+   "type": "word",
+   "title": "Lan",
+   "year": 2018,
+   "peak": "2022",
+   "meaning": "Türkisch geprägt: Alter, Mann, Ausruf der Anrede.",
+   "example_line": "Würdest du eher jeden Satz mit Lan beenden oder mit Digga?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Sprechblase mit Lan",
+   "source_urls": [
+    "https://www.giga.de/artikel/hayvan-bedeutung-des-wortes-auf-deutsch/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "delulu",
+   "type": "word",
+   "title": "Delulu",
+   "year": 2023,
+   "peak": "2024",
+   "meaning": "Kurzform von delusional; bewusst unrealistische Zuversicht.",
+   "example_line": "Würdest du eher Delulu sein und gewinnen oder realistisch und verlieren?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Regenbogen mit Wolke",
+   "source_urls": [
+    "https://www.leinetal24.de/welt/jugendwoerter-des-jahres-die-2023-immer-noch-richtig-fly-sind-nicht-zr-92446730.html"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "nonchalant",
+   "type": "word",
+   "title": "Nonchalant",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Lässig und gelassen, passend zum Chill-Guy-Mood.",
+   "example_line": "Würdest du eher nonchalant bleiben oder alles ernst nehmen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Typ mit Händen in den Taschen",
+   "source_urls": [
+    "https://www.giga.de/tech/chill-guy-das-bedeutet-das-meme--01KGHYJKBF34S037F68RFZNREW"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "touch_grass",
+   "type": "phrase",
+   "title": "Touch grass",
+   "year": 2022,
+   "peak": "2023",
+   "meaning": "Geh mal raus; Rat an Menschen, die zu viel online sind.",
+   "example_line": "Würdest du eher täglich Touch grass hören oder ewig online bleiben?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Fuß auf Wiese mit Handy",
+   "source_urls": [
+    "https://www.giga.de/artikel/was-ist-ein-meme-erklaerung-und-wortherkunft--p497mx4pjf"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "skibidi",
+   "type": "word",
+   "title": "Skibidi",
+   "year": 2023,
+   "peak": "2024",
+   "meaning": "Sinnfreies Brainrot-Wort aus der Serie Skibidi Toilet.",
+   "example_line": "Würdest du eher Skibidi sagen oder Sigma?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Kopf aus Toilette",
+   "source_urls": [
+    "https://etymology.substack.com/p/when-did-brainrot-begin"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "brainrot",
+   "type": "word",
+   "title": "Brainrot",
+   "year": 2023,
+   "peak": "2024",
+   "meaning": "Sinnlose Internet-Inhalte, die das Gehirn zersetzen; Oxford-Wort des Jahres 2024.",
+   "example_line": "Würdest du eher einen Tag nur Brainrot schauen oder einen Tag nur Doku?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Gehirn mit Handy",
+   "source_urls": [
+    "https://etymology.substack.com/p/when-did-brainrot-begin"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sigma",
+   "type": "word",
+   "title": "Sigma",
+   "year": 2022,
+   "peak": "2024",
+   "meaning": "Einzelgänger-Typ, ironisch für besonders cool; Sigma Male.",
+   "example_line": "Würdest du eher Sigma sein oder Alpha?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Typ mit Sonnenbrille, Rücken",
+   "source_urls": [
+    "https://etymology.substack.com/p/when-did-brainrot-begin"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "italian_brainrot",
+   "type": "format",
+   "title": "Italian Brainrot",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "KI-Fantasiefiguren mit italienischen Namen, Absurdität als Trend.",
+   "example_line": "Würdest du eher Italian Brainrot schauen oder Dubai-Schokolade essen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "KI-Figuren-Collage",
+   "source_urls": [
+    "https://earlygame.com/de/news/entertainment/tralalero-meme-italian-brainrot-erklaert",
+    "https://www.giga.de/entertainment/italian-brainrot-vom-social-media-trend-zum-eigenen-merch--01JZ5C1R7JGZPAZG5P05BT2DQX"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "tralalero",
+   "type": "character",
+   "title": "Tralalero Tralala",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Hai mit Nike-Schuhen, Urfigur des Italian Brainrot.",
+   "example_line": "Würdest du eher mit Tralalero Tralala tanzen oder mit Tung Tung Sahur trommeln?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Hai in Turnschuhen",
+   "source_urls": [
+    "https://earlygame.com/de/news/entertainment/tralalero-meme-italian-brainrot-erklaert"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "tung_tung_sahur",
+   "type": "character",
+   "title": "Tung Tung Tung Sahur",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Holzfigur mit Baseballschläger, benannt nach dem Trommeln vor dem Ramadan-Frühstück.",
+   "example_line": "Würdest du eher Tung Tung Tung Sahur als Maskottchen haben oder Tralalero Tralala?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Holzfigur mit Schläger",
+   "source_urls": [
+    "https://earlygame.com/de/news/entertainment/tralalero-meme-italian-brainrot-erklaert"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "ballerina_cappuccina",
+   "type": "character",
+   "title": "Ballerina Cappuccina",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Ballerina mit Cappuccino-Tasse als Kopf.",
+   "example_line": "Würdest du eher Ballerina Cappuccina treffen oder Brr Brr Patapim?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Tänzerin mit Kaffeetasse",
+   "source_urls": [
+    "https://earlygame.com/de/news/entertainment/tralalero-meme-italian-brainrot-erklaert"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "brr_brr_patapim",
+   "type": "character",
+   "title": "Brr Brr Patapim",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Waldaffe mit riesigen Füßen aus dem Italian Brainrot.",
+   "example_line": "Würdest du eher Brr Brr Patapim Schuhe tragen oder Tralalero Schuhe?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "moosiger Affe mit großen Füßen",
+   "source_urls": [
+    "https://earlygame.com/de/news/entertainment/tralalero-meme-italian-brainrot-erklaert"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "chill_guy",
+   "type": "character",
+   "title": "Chill Guy",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Gelassener Hund im Hoodie mit Händen in den Taschen.",
+   "example_line": "Würdest du eher wie der Chill Guy bleiben oder bei jedem Problem ausrasten?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "brauner Hund mit Hoodie",
+   "source_urls": [
+    "https://www.giga.de/tech/chill-guy-das-bedeutet-das-meme--01KGHYJKBF34S037F68RFZNREW"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gigachad",
+   "type": "character",
+   "title": "Gigachad",
+   "year": 2022,
+   "peak": "2024",
+   "meaning": "Übersteigert männliches Idealbild, meist ironisch.",
+   "example_line": "Würdest du eher Gigachad sein oder Chill Guy?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Schwarz-weißes Kinn-Foto",
+   "source_urls": [
+    "https://www.giga.de/tech/der-kiefer-der-das-internet-spaltet-was-giga-chad-wirklich-bedeutet-und-warum-ihn-so-viele-falsch-verstehen--01J5QRNG2JZ0S8FRG66B2RBNPG"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "moo_deng",
+   "type": "character",
+   "title": "Moo Deng",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Viraler Zwergflusspferd-Nachwuchs aus Thailand.",
+   "example_line": "Würdest du eher Moo Deng streicheln oder Chill Guy treffen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Baby-Zwergflusspferd",
+   "source_urls": [
+    "https://onlinemarketing.de/social-media-marketing/tiktok-rueckblick-2024-trends-hypes-highlights"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sad_hamster",
+   "type": "video",
+   "title": "Trauriger Hamster",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Hamster mit großen Augen und Geigenmusik aus SpongeBob.",
+   "example_line": "Würdest du eher wie der traurige Hamster schauen oder wie Chill Guy grinsen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Hamster mit Tränen",
+   "source_urls": [
+    "https://medien-mittweida.de/socia-media-trends/2025/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "very_demure",
+   "type": "phrase",
+   "title": "Very demure, very mindful",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "TikTok-Trend: sich bescheiden und achtsam geben, auch von Olaf Scholz aufgegriffen.",
+   "example_line": "Würdest du eher very demure bleiben oder very brat?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Frau im Büro, fein",
+   "source_urls": [
+    "https://medien-mittweida.de/socia-media-trends/2025/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "brat_summer",
+   "type": "format",
+   "title": "Brat Summer",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Neon-grüner Sommer-Trend nach Charli XCXs Album Brat.",
+   "example_line": "Würdest du eher Brat Summer feiern oder Demure Autumn?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "neon-grüner Hintergrund",
+   "source_urls": [
+    "https://onlinemarketing.de/social-media-marketing/tiktok-rueckblick-2024-trends-hypes-highlights"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "barbenheimer",
+   "type": "format",
+   "title": "Barbenheimer",
+   "year": 2023,
+   "peak": "2023",
+   "meaning": "Doppelter Kinostart Barbie und Oppenheimer als Doppelfeature.",
+   "example_line": "Würdest du eher Barbenheimer sehen oder zwei Stunden Brainrot?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "rosa Wolke und Pilzwolke",
+   "source_urls": [
+    "https://trends.withgoogle.com/year-in-search/2023/de/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "ohio",
+   "type": "phrase",
+   "title": "Only in Ohio",
+   "year": 2023,
+   "peak": "2023",
+   "meaning": "Ironischer Spruch für etwas Seltsames, Ohio als Synonym für Absurdes.",
+   "example_line": "Würdest du eher in Ohio leben oder in Skibidi-Land?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Ohio-Karte mit Fragezeichen",
+   "source_urls": [
+    "https://trends.withgoogle.com/year-in-search/2023/de/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "lizard",
+   "type": "video",
+   "title": "Lizard Lizard Lizard",
+   "year": 2026,
+   "peak": "2026",
+   "meaning": "Kleine Eidechse schlägt immer wieder mit der Hand auf den Boden; Szene aus Pixar-Film.",
+   "example_line": "Würdest du eher wie die Lizard-Eidechse trommeln oder wie Tung Tung Sahur?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "grüne Eidechse mit Hand",
+   "source_urls": [
+    "https://www.giga.de/tech/meme-hype-um-lizardlizardlizard-bedeutung-und-ursprung-erklaert--01KGJ1W6C3EZJXD6CK8VVYRKRE"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "twitch_emotes",
+   "type": "format",
+   "title": "Twitch-Emotes (KEKW, Pog)",
+   "year": 2019,
+   "peak": "2022",
+   "meaning": "Emote-Wörter aus dem Twitch-Chat wie KEKW, Pog, Sadge und Pepega.",
+   "example_line": "Würdest du eher nur noch in Twitch-Emotes sprechen oder nur in Emojis?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Chat mit Emote-Gesichtern",
+   "source_urls": [
+    "https://www.netzwelt.de/abkuerzung/186500-bedeutet-pepega-bedeutung-verwendung.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "coffin_dance",
+   "type": "video",
+   "title": "Tanzende Sargträger",
+   "year": 2020,
+   "peak": "2020",
+   "meaning": "Ghanaische Sargträger-Tanz mit Astronomia, im Corona-Jahr Fail-Gag.",
+   "example_line": "Würdest du eher den Sargträger-Tanz tanzen oder den Dubai-Tanz?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Sargträger tanzen",
+   "source_urls": [
+    "https://web.de/magazine/unterhaltung/internet/jahresrueckblick-besten-memes-jahr-2020-beschreiben-35377266"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "ich_iel",
+   "type": "format",
+   "title": "r/ich_iel",
+   "year": 2017,
+   "peak": "2020",
+   "meaning": "Deutsches Reddit-Meme-Forum, Ich im echten Leben; englische Wörter werden eingedeutscht.",
+   "example_line": "Würdest du eher nur noch auf ich_iel posten oder nur noch auf TikTok?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Reddit-Alien mit Deutschlandfahne",
+   "source_urls": [
+    "https://www.giga.de/artikel/ich-iel-bedeutung-der-selbsties-der-seele-bei-reddit/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "german_brainrot",
+   "type": "format",
+   "title": "German Brainrot",
+   "year": 2024,
+   "peak": "2025",
+   "meaning": "Deutsch vertonte Brainrot-Videos mit KI-Stimme, etwa Taube im Supermarkt.",
+   "example_line": "Würdest du eher German Brainrot schauen oder Italian Brainrot?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Taube im Supermarkt, KI-Stimme",
+   "source_urls": [
+    "https://knowyourmeme.com/memes/german-brainrot"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "klopapier",
+   "type": "phrase",
+   "title": "Klopapier-Hamsterkäufe",
+   "year": 2020,
+   "peak": "2020",
+   "meaning": "Corona-Meme: leere Regale und Rollen als Währung.",
+   "example_line": "Würdest du eher einen Keller voll Klopapier haben oder eine Dusche ohne Wasser?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "leeres Klopapierregal",
+   "source_urls": [
+    "https://www.horizont.net/marketing/nachrichten/warum-kaufen-alle-klopapier-das-waren-die-google-trends-im-corona-jahr-187870"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "homeoffice_memes",
+   "type": "format",
+   "title": "Homeoffice und Zoom",
+   "year": 2020,
+   "peak": "2021",
+   "meaning": "Memes über Küchentisch-Büro, Kamera-Pannen und Heimunterricht.",
+   "example_line": "Würdest du eher im Homeoffice im Schlafanzug arbeiten oder im Büro im Anzug?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Zoom-Raster mit Pyjama",
+   "source_urls": [
+    "https://web.de/magazine/unterhaltung/internet/jahresrueckblick-besten-memes-jahr-2020-beschreiben-35377266"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rezo_cdu",
+   "type": "video",
+   "title": "Die Zerstörung der CDU",
+   "year": 2019,
+   "peak": "2019",
+   "meaning": "YouTube-Video von Rezo vor der Europawahl, das in Deutschland massiv Memes auslöste.",
+   "example_line": "Würdest du eher ein Zerstörungsvideo wie Rezo drehen oder eine Antwort im Stile von Amthor?",
+   "streamer_link": [
+    "rezo"
+   ],
+   "jugendwort": null,
+   "image_hint": "Rezo mit blauen Haaren",
+   "source_urls": [
+    "https://futurezone.at/digital-life/ein-youtuber-bringt-die-cdu-in-bedraengnis/400503802"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "was_geht_yallah",
+   "type": "phrase",
+   "title": "Was geht, Yallah?",
+   "year": 2021,
+   "peak": "2024",
+   "meaning": "Fortnite-Clip: Kind fragt Trymacs Was geht Yallah und will Wallah hören; Dauer-Kommentar bei TikTok.",
+   "example_line": "Würdest du eher Trymacs Wallah sagen hören oder Yallah rufen?",
+   "streamer_link": [
+    "trymacs"
+   ],
+   "jugendwort": null,
+   "image_hint": "Fortnite-Kind und Streamer",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-alter-clip-was-geht-yallah/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "koenig_des_internets",
+   "type": "phrase",
+   "title": "König des Internets",
+   "year": 2019,
+   "peak": "2023",
+   "meaning": "Knossi nennt sich König des Internets; Clip mit König Thomas als Meme.",
+   "example_line": "Würdest du eher König des Internets sein oder Kaiser von TikTok?",
+   "streamer_link": [
+    "knossi"
+   ],
+   "jugendwort": null,
+   "image_hint": "Krone auf Streamer-Mikro",
+   "source_urls": [
+    "https://omr.com/de/jens-knossalla-knossi-omr-podcast/",
+    "https://www.leinetal24.de/leben/games/knossi-koenig-jens-knossalla-omr-messe-1ng-hamburg-thomas-twitch-streamer-tiktok-zr-92267850.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "dschungelcamp",
+   "type": "format",
+   "title": "Dschungelcamp",
+   "year": 2018,
+   "peak": "2024",
+   "meaning": "Reality-Show Ich bin ein Star, holt mich hier raus; Dschungelprüfungen und Zietlow-Sprüche als Meme-Quelle.",
+   "example_line": "Würdest du eher eine Dschungelprüfung bestehen oder Sonja Zietlows Sprüche ertragen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Dschungel mit Krone",
+   "source_urls": [
+    "https://www.tvmovie.de/news/sonja-zietlow-diese-dschungelcamp-kandidaten-haelt-sie-nicht-aus-145317"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "raab_reloaded",
+   "type": "format",
+   "title": "Raab Reloaded",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Stefan Raabs Instagram-Comeback 2024 mit Millionen Followern.",
+   "example_line": "Würdest du eher bei Raab mitspielen oder bei Knossis Kingdom?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Raab-Silhouette mit Mikro",
+   "source_urls": [
+    "https://medien-mittweida.de/socia-media-trends/2025/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "man_gloeckler",
+   "type": "video",
+   "title": "Man! (Glööckler)",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Genervter Augenroller in Promis unter Palmen, universelle Reaktion.",
+   "example_line": "Würdest du eher bei jedem Ärger Man! sagen oder mit den Augen rollen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Frau, die die Augen rollt",
+   "source_urls": [
+    "https://medien-mittweida.de/socia-media-trends/2025/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "dubai_schokolade",
+   "type": "format",
+   "title": "Dubai-Schokolade",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Schokolade mit Pistazie und Kadayif, TikTok-Hype Ende 2024.",
+   "example_line": "Würdest du eher Dubai-Schokolade ewig essen oder ewig Labubu sammeln?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Schokotafel mit Pistaziencreme",
+   "source_urls": [
+    "https://www.t-online.de/leben/essen-und-trinken/essen/id_100552914/dubai-schokolade-wie-ein-tiktok-video-einen-hype-ausloeste.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "barbaras_rhabarberbar",
+   "type": "sound",
+   "title": "Barbaras Rhabarberbar",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Zungenbrecher-Song von Bodo Wartke und Marti Fischer mit Tanzchoreografie.",
+   "example_line": "Würdest du eher Barbaras Rhabarberbar singen oder den Zungenbrecher tanzen?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Rhabarber und Notenschlüssel",
+   "source_urls": [
+    "https://onlinemarketing.de/social-media-marketing/tiktok-rueckblick-2024-trends-hypes-highlights"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "kartoffel_ranking",
+   "type": "format",
+   "title": "Normale Kartoffeln auf die 1",
+   "year": 2024,
+   "peak": "2024",
+   "meaning": "Nach Wirtz-Aussage ranken alle ihre Lieblingskartoffeln auf Platz 1.",
+   "example_line": "Würdest du eher Pommes auf Platz eins setzen oder normale Kartoffeln?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Kartoffelliste",
+   "source_urls": [
+    "https://privatsprache.substack.com/p/die-besten-schonsten-und-groten-memes",
+    "https://onlinemarketing.de/social-media-marketing/tiktok-rueckblick-2024-trends-hypes-highlights"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "labubu",
+   "type": "format",
+   "title": "Labubu und Lafufu",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Gruselig-niedliche Plüschfigur und gefälschte Lafufus als Hype.",
+   "example_line": "Würdest du eher einen echten Labubu haben oder einen Lafufu für 80 Euro?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Plüschmonster mit Zähnen",
+   "source_urls": [
+    "https://www.zdfheute.de/panorama/labubu-deutschland-hype-china-monster-100.html",
+    "https://www.wochenblatt-reporter.de/c-lokales/von-labubu-bis-schwarzwaldmarie-das-waren-die-internet-trends-2025_a693017"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "pudding_gabel",
+   "type": "format",
+   "title": "Pudding mit der Gabel",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Treffen in Parks, um Pudding mit Gabel zu essen; Start in Karlsruhe im August 2025.",
+   "example_line": "Würdest du eher Pudding mit der Gabel essen oder Suppe mit der Gabel?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Pudding mit Gabel im Park",
+   "source_urls": [
+    "https://www.wochenblatt-reporter.de/c-lokales/von-labubu-bis-schwarzwaldmarie-das-waren-die-internet-trends-2025_a693017"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "schwarzwaldmarie",
+   "type": "character",
+   "title": "Schwarzwaldmarie",
+   "year": 2025,
+   "peak": "2025",
+   "meaning": "Playmobil-Sonderfigur in Schwarzwälder Tracht als Sammelobjekt.",
+   "example_line": "Würdest du eher Schwarzwaldmarie sammeln oder Labubu?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Playmobil in Tracht",
+   "source_urls": [
+    "https://www.wochenblatt-reporter.de/c-lokales/von-labubu-bis-schwarzwaldmarie-das-waren-die-internet-trends-2025_a693017"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "einfach_orangensaft",
+   "type": "phrase",
+   "title": "Einfach Orangensaft",
+   "year": 2018,
+   "peak": "2020",
+   "meaning": "Aus einem Clip über Rapper Moneyboy und verschüttetem Saft; wurde Produkt-Gag.",
+   "example_line": "Würdest du eher einfach Orangensaft bestellen oder Champagner im Ritz?",
+   "streamer_link": [],
+   "jugendwort": null,
+   "image_hint": "Orangensaft-Glas",
+   "source_urls": [
+    "https://earlygame.com/de/guides/entertainment/12-deutsche-memes-und-die-irren-geschichten-dahinter"
+   ],
+   "confidence": "low"
+  }
+ ],
+ "avoid": [
+  {
+   "title": "Drachenlord (Rainer Winkler) allgemein: Meddl, Forza fertig heruntergeladen, Drachengame",
+   "reason": "Jahrelanges Cybermobbing mit Hass-Treffen vor seinem Haus; Memes befeuern reale Belästigung. Nicht verwenden.",
+   "severity": "hoch",
+   "source_urls": [
+    "https://web.de/magazine/panorama/drachenlord-taeter-opfer-cybermobbing-strafbar-36316302",
+    "https://goodinternet.substack.com/p/drachengame-over"
+   ]
+  },
+  {
+   "title": "Uii Memo / MontanaBlack Malta-Aktion",
+   "reason": "Bezieht sich auf Belästigung einer realen Privatperson; MontanaBlack selbst nennt die Aktion Katastrophe.",
+   "severity": "hoch",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-ueber-skandale/"
+   ]
+  },
+  {
+   "title": "Alaaarm! (Feuerwehr-Clip)",
+   "reason": "Stammt aus einem Erwachsenenfilm; sexualisiert und nicht jugendfrei.",
+   "severity": "hoch",
+   "source_urls": [
+    "https://earlygame.com/de/guides/entertainment/12-deutsche-memes-und-die-irren-geschichten-dahinter"
+   ]
+  },
+  {
+   "title": "Jürgen Hurensson",
+   "reason": "Wortspiel mit Beleidigung; Hurensohn als Schimpfwort versteckt.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://earlygame.com/de/guides/entertainment/12-deutsche-memes-und-die-irren-geschichten-dahinter"
+   ]
+  },
+  {
+   "title": "Big Tasty Kritiker (Lars Cloos)",
+   "reason": "Bloßstellung einer realen, kaum prominenten Person durch Dauerverspottung.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://earlygame.com/de/guides/entertainment/12-deutsche-memes-und-die-irren-geschichten-dahinter"
+   ]
+  },
+  {
+   "title": "Beste Deutsche Mountainbikerin (Jauch)",
+   "reason": "Zeigt einen Sturz einer realen Person im TV; Verspottung von Missgeschick.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://earlygame.com/de/guides/entertainment/12-deutsche-memes-und-die-irren-geschichten-dahinter"
+   ]
+  },
+  {
+   "title": "Weil die Treppe ist nicht genormt",
+   "reason": "Echte Privatperson in einem Wutausbruch; Schadenfreude-Format.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://earlygame.com/de/guides/entertainment/12-deutsche-memes-und-die-irren-geschichten-dahinter"
+   ]
+  },
+  {
+   "title": "German Cola Kid / Yippee-Audio",
+   "reason": "Audio eines realen Kindes aus einem Fortnite-Video; Minderjährige nicht als Meme verwenden.",
+   "severity": "hoch",
+   "source_urls": [
+    "https://trending.knowyourmeme.com/editorials/guides/where-did-the-audio-of-the-excited-german-kid-drinking-cola-and-playing-fortnite-come-from-the-yippee-animation-trend-explained"
+   ]
+  },
+  {
+   "title": "Mehrzweckeier",
+   "reason": "Kampagnenwort aus Reddit, Beleidigung gegen eine Person; Langenscheidt hat es aus der Shortlist 2026 gestrichen.",
+   "severity": "hoch",
+   "source_urls": [
+    "https://www.iamexpat.ch/lifestyle/lifestyle-news/mehrzweckeier-macker-and-6-7-the-german-youth-word-year-2026"
+   ]
+  },
+  {
+   "title": "Stolzmonat",
+   "reason": "AfD-nahe Kampagne zur Jugendwort-Wahl 2023; wurde ausgeschlossen. Politisch.",
+   "severity": "hoch",
+   "source_urls": [
+    "https://www.leinetal24.de/leben/games/haseloff-hamburg-jugendwort-2023-wahl-afd-ausgeschlossen-abstimmen-stolzmonat-daniel-zr-92353300.html"
+   ]
+  },
+  {
+   "title": "goonen (Jugendwort 2025, Platz 2)",
+   "reason": "Steht für exzessive Selbstbefriedigung; sexuell, nicht plattformsicher.",
+   "severity": "hoch",
+   "source_urls": [
+    "https://www.stuttgarter-zeitung.de/wissen/das-crazy-was-bedeutet-das-jugendwort-des-jahres-79038359.html"
+   ]
+  },
+  {
+   "title": "sybau (Jugendwort 2025)",
+   "reason": "Akronym für Shut your bitch ass up, vulgär; nur andeuten, nicht ausschreiben.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2025/"
+   ]
+  },
+  {
+   "title": "gyatt",
+   "reason": "Sexualisierende Beschreibung von Körperformen; für Kurzvideos mit jungem Publikum heikel.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://etymology.substack.com/p/when-did-brainrot-begin"
+   ]
+  },
+  {
+   "title": "Talahon (siehe Eintrag talahon)",
+   "reason": "Stereotypisiert junge Männer mit Migrationshintergrund, von rechten Gruppen genutzt; NDR kritisierte ausgrenzende Nutzung. Nur neutral und ohne Gruppenbezug einsetzen.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://medien-mittweida.de/socia-media-trends/2025/",
+    "https://www.hessenschau.de/kultur/buchmesse/aura-ist-jugendwort-des-jahres-2024---talahon-auf-platz-zwei-v1,jugendwort-des-jahres-2024-100.html"
+   ]
+  },
+  {
+   "title": "Hayvan / Opfer als Schimpfwort",
+   "reason": "Hayvan heißt Tier und ist meist eine Beleidigung; Opfer ist abwertend. Nur ironisch-positiv und nie gegen reale Personen.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://www.giga.de/artikel/hayvan-bedeutung-des-wortes-auf-deutsch/"
+   ]
+  },
+  {
+   "title": "Pyrotechnik (Jugendwort 2024)",
+   "reason": "Befürwortung von Pyro im Stadion, rechtlich heikel und von Ultras geprägt; nicht bewerben.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2024/"
+   ]
+  },
+  {
+   "title": "Kerl*in (Jugendwort 2023)",
+   "reason": "Politisch aufgeladene Gender-Satire; Diskussion unnötig für Unterhaltungsvideo.",
+   "severity": "niedrig",
+   "source_urls": [
+    "https://quillbot.com/de/blog/jugendsprache/jugendwort-2023/"
+   ]
+  },
+  {
+   "title": "Schwachkopf-Meme gegen Robert Habeck",
+   "reason": "Führte 2024 zu Hausdurchsuchung, Strafbefehl und Debatte; Politiker-Beleidigung, rechtlich heikel.",
+   "severity": "hoch",
+   "source_urls": [
+    "https://www.lto.de/recht/nachrichten/n/hausdurchsuchung-strafantrag-robert-habeck-beleidigung-schwachkopf",
+    "https://www.zdfheute.de/politik/deutschland/habeck-beleidigung-schwachkopf-geldstrafe-100.html"
+   ]
+  },
+  {
+   "title": "Deutschlands frechster Arbeitsloser (Lindner)",
+   "reason": "Politisches Spott-Meme gegen reale Person; neutrale Unterhaltung vermeiden.",
+   "severity": "niedrig",
+   "source_urls": [
+    "https://privatsprache.substack.com/p/die-besten-schonsten-und-groten-memes"
+   ]
+  },
+  {
+   "title": "Bär vs. Mann",
+   "reason": "Thematisiert sexualisierte Gewalt; für Würdest-du-eher-Humor ungeeignet.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://privatsprache.substack.com/p/die-besten-schonsten-und-groten-memes"
+   ]
+  },
+  {
+   "title": "Bombardiro Crocodilo",
+   "reason": "Italian-Brainrot-Figur mit Text über Bombardierungen in Gaza und Palästina; Kriegsbezug.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://earlygame.com/de/news/entertainment/tralalero-meme-italian-brainrot-erklaert"
+   ]
+  },
+  {
+   "title": "Pepe the Frog / Rare Pepe",
+   "reason": "Teilweise von Rechtsextremen vereinnahmt; nicht mit dem harmlosen Mittwochs-Frosch verwechseln.",
+   "severity": "mittel",
+   "source_urls": [
+    "https://www.giga.de/extra/netzkultur/specials/rare-pepe-meme-erklaerung-herkunft-des-rechtsradikalen-frosches/"
+   ]
+  },
+  {
+   "title": "Corona-Leugner-, Querdenker- oder Drosten-Memes",
+   "reason": "Politisch und gesundheitlich aufgeladen, mit Anfeindung realer Wissenschaftler; Klopapier-Memes sind okay.",
+   "severity": "mittel",
+   "source_urls": []
+  },
+  {
+   "title": "How dare you (Greta-Memes)",
+   "reason": "Verspottung einer minderjährigen Aktivistin zum Zeitpunkt des Memes.",
+   "severity": "hoch",
+   "source_urls": []
+  },
+  {
+   "title": "Is It Over For Germany / Fingerzeig-Memes (angeblich 2022) und Content-Farm-Meldungen",
+   "reason": "Quellen unbelegt oder Content-Farm; nicht als Fakt verwenden.",
+   "severity": "niedrig",
+   "source_urls": [
+    "https://experience.thinkvermont.com/exp/is-it-over-for-germany-the-german-meme-phenomenon-explodes-again-heres-whats-driving-the-laughter"
+   ]
+  },
+  {
+   "title": "Nein Pascal, ich denke nicht: Ursprungsszene",
+   "reason": "Spruch ist ok, die Originalszene zeigt Überredung zu Sex; Szene selbst nicht zeigen.",
+   "severity": "niedrig",
+   "source_urls": [
+    "https://tu-dresden.de/bu/der-bereich/chancengleichheit/fun/news/factfriday-memekultur-oder-verharmlosung"
+   ]
+  }
+ ],
+ "meta": {
+  "generated": "2026-10-15",
+  "notes": [
+   "Nicht verifiziert und deshalb nicht aufgenommen: Er hat Bock, Was ist das für 1 life, Mann mit dem Bierglas, Rummelbums, Knossi Ananas, Kaka, Alexa spiel Despacito (deutsche Verbreitung)",
+   "Jugendwort 2019: keine Wahl (Langenscheidt-Übernahme durch Pons)",
+   "Jugendwort 2026 Sieger Ragebait vor Peak und Crashout"
+  ]
+ }
+}

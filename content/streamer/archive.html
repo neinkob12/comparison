@@ -1,0 +1,349 @@
+<title>Hugo Streamer-Archiv</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: Streamer-Leiste links, Dossier in der Mitte, Joke-Pad rechts. Unter 980px alles untereinander. */
+:root {
+  --bg: #f2f3f7; --surface: #ffffff; --ink: #17161d; --muted: #5d5b6b; --line: #dcdde6;
+  --rec: #d6303a; --rec-soft: #fbe4e5; --violet: #5b3fd1; --violet-soft: #ebe6fd;
+  --ok: #1d7a4c; --warn: #9a6200; --low: #8a8797;
+  --f-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121118; --surface: #1c1b24; --ink: #ecebf3; --muted: #a29fb2; --line: #2f2d3b;
+  --rec: #ff5a63; --rec-soft: #3a1b20; --violet: #a993ff; --violet-soft: #2a2343;
+  --ok: #4fc68a; --warn: #e2a640; --low: #7d7a8c; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121118; --surface: #1c1b24; --ink: #ecebf3; --muted: #a29fb2; --line: #2f2d3b;
+  --rec: #ff5a63; --rec-soft: #3a1b20; --violet: #a993ff; --violet-soft: #2a2343;
+  --ok: #4fc68a; --warn: #e2a640; --low: #7d7a8c; color-scheme: dark }
+
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--f-body); }
+.wrap { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 20px 40px; max-width: 1480px; margin: 0 auto; }
+header.top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 18px; margin-bottom: 18px; }
+h1 { font: 800 clamp(26px, 4vw, 38px)/1.05 var(--f-display); margin: 0; letter-spacing: -0.02em; text-wrap: balance; }
+h1 .dot { display: inline-block; width: .42em; height: .42em; border-radius: 50%; background: var(--rec); margin-right: .25em; vertical-align: .12em; animation: blink 1.6s steps(2) infinite; }
+@media (prefers-reduced-motion: reduce) { h1 .dot { animation: none } }
+@keyframes blink { 50% { opacity: .25 } }
+.sub { color: var(--muted); max-width: 62ch; margin: 0; }
+.search { flex: 1 1 260px; display: flex; justify-content: flex-end; }
+.search input { width: min(100%, 340px); }
+input, textarea, select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+input:focus-visible, textarea:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--violet); outline-offset: 2px; }
+
+.grid { display: grid; grid-template-columns: 220px minmax(0, 1fr) 340px; gap: 20px; align-items: start; }
+@media (max-width: 1180px) { .grid { grid-template-columns: 200px minmax(0, 1fr); } .pad { grid-column: 1 / -1; } }
+@media (max-width: 760px) { .grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* Streamer-Leiste */
+nav.cast { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); max-height: calc(100vh - 40px); overflow-y: auto; display: flex; flex-direction: column; gap: 2px; }
+@media (max-width: 760px) { nav.cast { position: static; max-height: none; flex-direction: row; overflow-x: auto; padding-bottom: 6px; } }
+.cast h2 { font: 600 11px/1 var(--f-mono); text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin: 12px 8px 6px; }
+@media (max-width: 760px) { .cast h2 { display: none } }
+.cast button { all: unset; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; padding: 6px 10px; border-radius: 8px; white-space: nowrap; }
+.cast button:hover { background: var(--surface); }
+.cast button[aria-current="true"] { background: var(--ink); color: var(--bg); }
+.cast button .n { font: 12px var(--f-mono); color: var(--muted); }
+.cast button[aria-current="true"] .n { color: inherit; opacity: .7 }
+.cast button:focus-visible { outline: 2px solid var(--violet); }
+
+/* Dossier */
+.dossier { min-width: 0; display: flex; flex-direction: column; gap: 16px; }
+.head { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; display: grid; gap: 10px; }
+.head h2 { font: 800 clamp(28px, 4.5vw, 44px)/1 var(--f-display); margin: 0; letter-spacing: -0.02em; }
+.head .vibe { margin: 0; max-width: 65ch; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px 18px; }
+.fact { min-width: 0; }
+.fact b { display: block; font: 600 11px/1.4 var(--f-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.fact span { overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 13px; padding: 2px 9px; border-radius: 999px; background: var(--violet-soft); color: var(--violet); }
+.chip.inv { background: transparent; border: 1px dashed var(--low); color: var(--muted); }
+.chip.slop { font-family: var(--f-mono); font-size: 12px; background: var(--rec-soft); color: var(--rec); }
+
+.filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.filters button { font: 600 13px var(--f-body); cursor: pointer; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 5px 12px; border-radius: 999px; }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.filters label { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); margin-left: auto; }
+
+.items { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.item { display: grid; grid-template-columns: 74px minmax(0, 1fr) auto; gap: 4px 14px; padding: 12px 4px; border-bottom: 1px solid var(--line); }
+@media (max-width: 520px) { .item { grid-template-columns: minmax(0, 1fr) auto; } .item .yr { grid-column: 1 / -1; } }
+.yr { font: 600 12px/1.6 var(--f-mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.yr .cat { display: block; font-weight: 400; text-transform: uppercase; letter-spacing: .06em; font-size: 10.5px; }
+.cat-look .yr .cat, .cat-sound .yr .cat { color: var(--rec); }
+.body { min-width: 0; }
+.body .lbl { font-weight: 700; }
+.body .q { font-style: italic; color: var(--violet); }
+.body p { margin: 2px 0 0; color: var(--muted); max-width: 70ch; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 6px; font-size: 12.5px; }
+.meta a { color: var(--violet); text-decoration: none; }
+.meta a:hover { text-decoration: underline; }
+.conf { font: 600 10.5px var(--f-mono); text-transform: uppercase; letter-spacing: .06em; }
+.conf.high { color: var(--ok) } .conf.medium { color: var(--warn) } .conf.low { color: var(--low) }
+.add { align-self: start; cursor: pointer; font: 600 13px var(--f-body); border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 5px 10px; white-space: nowrap; }
+.add:hover { border-color: var(--rec); color: var(--rec); }
+.add[aria-pressed="true"] { background: var(--rec); color: #fff; border-color: var(--rec); }
+.empty { color: var(--muted); padding: 18px 4px; }
+
+details.avoid { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; }
+details.avoid summary { cursor: pointer; font-weight: 700; color: var(--rec); }
+details.avoid ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); }
+
+/* Joke-Pad */
+.pad { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+@media (max-width: 1180px) { .pad { position: static; } }
+.pad h2 { font: 800 22px/1 var(--f-display); margin: 0; }
+.pad .hint { font-size: 13px; color: var(--muted); margin: 0; }
+.pad label { font: 600 11px var(--f-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.vs { display: grid; gap: 6px; }
+.vs .or { text-align: center; font: 800 14px var(--f-display); color: var(--rec); }
+.pad textarea { resize: vertical; min-height: 44px; width: 100%; }
+.refs { display: flex; flex-wrap: wrap; gap: 6px; min-height: 24px; }
+.refs .chip button { all: unset; cursor: pointer; margin-left: 4px; font-weight: 700; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.btn { cursor: pointer; font: 700 14px var(--f-body); border: 0; border-radius: 8px; padding: 9px 14px; background: var(--rec); color: #fff; }
+.btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+.btn:disabled { opacity: .5; cursor: default; }
+.status { font-size: 13px; color: var(--muted); }
+.saved { display: flex; flex-direction: column; gap: 8px; max-height: 46vh; overflow-y: auto; border-top: 1px solid var(--line); padding-top: 10px; }
+.joke { border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; display: grid; gap: 4px; }
+.joke .ab { font-weight: 700; overflow-wrap: anywhere; }
+.joke .ab em { font-style: normal; color: var(--rec); padding: 0 4px; }
+.joke .row { justify-content: space-between; font-size: 12px; color: var(--muted); }
+.joke select { padding: 2px 6px; font-size: 12px; }
+.joke .del { all: unset; cursor: pointer; color: var(--muted); font-size: 12px; }
+.joke .del:hover { color: var(--rec); }
+.joke .del.confirm { color: var(--rec); font-weight: 700; }
+.spark { display: grid; gap: 6px; background: var(--violet-soft); border-radius: 10px; padding: 10px; font-size: 13.5px; }
+.spark b { color: var(--violet); }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1><span class="dot" aria-hidden="true"></span>Hugo Streamer-Archiv</h1>
+      <p class="sub">Rohmaterial für Kanal B: Sprüche, Momente, Looks, Stimmen und alte Eras der Hugo-Streamer. Du schreibst die Witze, das hier liefert Futter.</p>
+    </div>
+    <div class="search"><input id="q" type="search" placeholder="Alles durchsuchen (z. B. Lache, 2016, Pokémon)" aria-label="Suchen"></div>
+  </header>
+
+  <div class="grid">
+    <nav class="cast" id="cast" aria-label="Streamer"><span class="empty">Lade Streamer …</span></nav>
+
+    <main class="dossier" id="dossier">
+      <div class="head"><h2>Archiv lädt …</h2><p class="vibe">Gleich siehst du hier einen Streamer mit allem Material.</p></div>
+    </main>
+
+    <aside class="pad" aria-label="Joke-Pad">
+      <h2>Joke-Pad</h2>
+      <p class="hint">Klick bei einem Eintrag auf „+ Pad“, dann schreib deine zwei Optionen. Gespeicherte Ideen kann Claude später in Video-Skripte verwandeln.</p>
+      <div class="spark" id="spark"></div>
+      <div class="vs">
+        <label for="optA">Option A</label>
+        <textarea id="optA" rows="2" placeholder="Immer wie Monte lachen"></textarea>
+        <div class="or">oder</div>
+        <label for="optB">Option B</label>
+        <textarea id="optB" rows="2" placeholder="Wie UnsympathischTV 2016 aussehen"></textarea>
+      </div>
+      <label for="note">Notiz (Bild, Timing, TTS-Slop)</label>
+      <input id="note" type="text" placeholder="altes Thumbnail von 2016 als Bild B">
+      <div class="refs" id="refs" aria-live="polite"></div>
+      <div class="row">
+        <button class="btn" id="save" type="button">Idee speichern</button>
+        <button class="btn ghost" id="clear" type="button">Leeren</button>
+        <span class="status" id="status"></span>
+      </div>
+      <div class="saved" id="saved"><span class="empty">Noch keine Ideen gespeichert. Deine erste landet hier.</span></div>
+    </aside>
+  </div>
+</div>
+
+<script>
+const CATS = [["alle","Alles"],["zitat","Sprüche"],["gag","Running Gags"],["moment","Momente"],["look","Looks & Eras"],["sound","Stimme & Lache"],["habit","Gewohnheiten"],["meme","Memes"]];
+const CAT_SHORT = {zitat:"Spruch",gag:"Gag",moment:"Moment",look:"Look",sound:"Sound",habit:"Habit",meme:"Meme"};
+const STATUS = [["idee","Idee"],["gut","Gut"],["skript","Ins Skript"],["raus","Raus"]];
+let A = null, cur = null, cat = "alle", onlySure = false, query = "";
+let refs = [];
+let db = null, dbChecked = false, jokes = [];
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const store = { get(k){ try { return localStorage.getItem(k) } catch { return null } }, set(k,v){ try { localStorage.setItem(k,v) } catch {} } };
+const host = u => { try { return new URL(u).hostname.replace(/^www\./,"") } catch { return "Quelle" } };
+const nameOf = k => (A?.streamers.find(p => p.key === k)?.name) || k;
+
+fetch("archive.json").then(r => r.json()).then(d => {
+  A = d;
+  const saved = store.get("cur");
+  cur = A.streamers.find(p => p.key === saved) ? saved : A.streamers[0].key;
+  renderCast(); renderDossier(); renderSpark();
+}).catch(() => { $("#dossier").innerHTML = '<div class="head"><h2>Archiv nicht geladen</h2><p class="vibe">archive.json fehlt. Seite neu laden oder Claude Bescheid sagen.</p></div>'; });
+
+function renderCast() {
+  const core = A.streamers.filter(p => p.core), rest = A.streamers.filter(p => !p.core && p.items.length);
+  const btn = p => `<button type="button" data-k="${p.key}" aria-current="${p.key===cur}"><span>${esc(p.name)}</span><span class="n">${p.items.length}</span></button>`;
+  $("#cast").innerHTML = `<h2>Core-Cast</h2>${core.map(btn).join("")}<h2>Weitere</h2>${rest.map(btn).join("")}`;
+}
+$("#cast").addEventListener("click", e => {
+  const b = e.target.closest("button[data-k]"); if (!b) return;
+  cur = b.dataset.k; store.set("cur", cur); query = ""; $("#q").value = "";
+  renderCast(); renderDossier(); renderSpark();
+  if (innerWidth < 760) $("#dossier").scrollIntoView({behavior:"smooth"});
+});
+$("#q").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); renderDossier(); });
+
+function itemHTML(it, showWho) {
+  const yr = it.year ? esc(String(it.year)) : "?";
+  const src = (it.sources || []).slice(0, 3).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join("");
+  const img = it.image ? `<a href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent((it.cat==="look"||it.cat==="habit") ? it.image : nameOf(it.with?.[0]) + " " + it.label)}" target="_blank" rel="noopener">Bild suchen</a>` : "";
+  const yt = (it.cat==="sound"||it.cat==="moment"||it.cat==="zitat") ? `<a href="https://www.youtube.com/results?search_query=${encodeURIComponent(nameOf(it.with?.[0]) + " " + (it.quote || it.label))}" target="_blank" rel="noopener">Clip suchen</a>` : "";
+  const who = showWho || (it.with && it.with.length > 1) ? `<span>mit ${it.with.filter(k => k !== cur || showWho).map(nameOf).map(esc).join(", ")}</span>` : "";
+  const on = refs.some(r => r.id === it.id);
+  return `<div class="item cat-${it.cat}">
+    <div class="yr">${yr}<span class="cat">${CAT_SHORT[it.cat] || it.cat}</span></div>
+    <div class="body"><span class="lbl">${esc(it.label)}</span>${it.quote && it.quote !== it.label ? ` <span class="q">„${esc(it.quote)}“</span>` : ""}
+      ${it.detail ? `<p>${esc(it.detail)}</p>` : ""}
+      <div class="meta"><span class="conf ${it.conf || "low"}">${esc(it.conf || "?")}</span>${who}${img}${yt}${src}</div></div>
+    <button type="button" class="add" data-id="${esc(it.id)}" aria-pressed="${on}">${on ? "✓ im Pad" : "+ Pad"}</button>
+  </div>`;
+}
+
+function allItems() {
+  const seen = new Set(), out = [];
+  for (const p of A.streamers) for (const it of p.items) if (!seen.has(it.id)) { seen.add(it.id); out.push(it); }
+  return out;
+}
+function findItem(id) { for (const p of A.streamers) for (const it of p.items) if (it.id === id) return it; }
+
+function renderDossier() {
+  if (!A) return;
+  const el = $("#dossier");
+  if (query) {
+    const hits = allItems().filter(it => [it.label, it.quote, it.detail, it.year, ...(it.with || []).map(nameOf)].join(" ").toLowerCase().includes(query))
+      .filter(it => !onlySure || it.conf !== "low");
+    el.innerHTML = `<div class="head"><h2>Suche: ${esc(query)}</h2><p class="vibe">${hits.length} Treffer über alle Streamer.</p></div>
+      <div class="items">${hits.map(it => itemHTML(it, true)).join("") || '<div class="empty">Nichts gefunden. Anderes Wort probieren, z. B. Jahr oder Spitzname.</div>'}</div>`;
+    return;
+  }
+  const p = A.streamers.find(x => x.key === cur);
+  const nick = (p.nicknames || []).map(n => `<span class="chip" title="${esc(n.used_by || "")}">${esc(n.name)}</span>`).join("");
+  const inv = (p.invented_names || []).map(n => `<span class="chip inv" title="Von Claude erfunden, nur Anregung">${esc(n)}</span>`).join("");
+  const slop = (p.slop || []).map(n => `<span class="chip slop">${esc(n)}</span>`).join("");
+  const pr = p.pronunciation;
+  const pairs = A.pairings.filter(x => x.a === p.key || x.b === p.key).map(x => `<span class="chip" title="${esc(x.why)}">vs ${esc(nameOf(x.a === p.key ? x.b : x.a))}</span>`).join("");
+  const avoid = A.avoid.filter(a => a.who === p.key);
+  const counts = Object.fromEntries(CATS.map(([c]) => [c, c === "alle" ? p.items.length : p.items.filter(i => i.cat === c).length]));
+  const items = p.items.filter(i => (cat === "alle" || i.cat === cat) && (!onlySure || i.conf !== "low"))
+    .sort((a, b) => String(a.year || "9999").localeCompare(String(b.year || "9999")));
+  const fact = (t, v) => v ? `<div class="fact"><b>${t}</b><span>${v}</span></div>` : "";
+  el.innerHTML = `
+    <section class="head">
+      <h2>${esc(p.name)}</h2>
+      ${p.vibe ? `<p class="vibe">${esc(p.vibe)}</p>` : ""}
+      <div class="facts">
+        ${fact("Bürgerlich", p.real_name?.value ? esc(p.real_name.value) : "")}
+        ${fact("Aktiv", esc(p.active || ""))}
+        ${fact("Reichweite", esc(p.followers || ""))}
+        ${fact("In Hugo", p.hugo_frequency && p.hugo_frequency !== "unknown" ? esc(p.hugo_frequency) : "")}
+        ${fact("Crew", esc((p.crew || []).join(", ")))}
+        ${fact("Gesprochen", pr?.tts_spelling ? `${esc(pr.tts_spelling)} <span class="conf ${pr.verified ? "high" : "low"}">${pr.verified ? "geprüft" : "geraten"}</span>` : "")}
+        ${fact("Name kommt von", p.name_origin?.text ? esc(p.name_origin.text) : "")}
+      </div>
+      ${nick || inv ? `<div class="fact"><b>Spitznamen</b><div class="chips">${nick}${inv}</div></div>` : ""}
+      ${slop ? `<div class="fact"><b>TTS-Slop</b><div class="chips">${slop}</div></div>` : ""}
+      ${pairs ? `<div class="fact"><b>Gute Paarungen</b><div class="chips">${pairs}</div></div>` : ""}
+    </section>
+    <div class="filters" role="group" aria-label="Kategorie">
+      ${CATS.filter(([c]) => counts[c]).map(([c, l]) => `<button type="button" data-c="${c}" aria-pressed="${cat === c}">${l} ${counts[c]}</button>`).join("")}
+      <label><input type="checkbox" id="sure" ${onlySure ? "checked" : ""}> nur belegte</label>
+    </div>
+    <div class="items">${items.map(it => itemHTML(it, false)).join("") || '<div class="empty">Keine Einträge in dieser Kategorie. Andere Kategorie wählen oder „nur belegte“ ausschalten.</div>'}</div>
+    ${avoid.length ? `<details class="avoid"><summary>Finger weg: ${avoid.length} Themen bei ${esc(p.name)}</summary><ul>${avoid.map(a => `<li><b>${esc(a.topic)}</b>${a.why ? ": " + esc(a.why) : ""}</li>`).join("")}</ul></details>` : ""}`;
+}
+$("#dossier").addEventListener("click", e => {
+  const f = e.target.closest("button[data-c]");
+  if (f) { cat = f.dataset.c; renderDossier(); return; }
+  const a = e.target.closest("button.add");
+  if (a) { toggleRef(a.dataset.id); }
+});
+$("#dossier").addEventListener("change", e => { if (e.target.id === "sure") { onlySure = e.target.checked; renderDossier(); } });
+
+function renderSpark() {
+  if (!A) return;
+  const pool = allItems().filter(i => i.conf !== "low" && ["look","sound","zitat","gag","habit","moment"].includes(i.cat));
+  const pick = () => pool[Math.floor(Math.random() * pool.length)];
+  let x = pick(), y = pick(), n = 0;
+  while (y && x && (y.id === x.id || (y.with || [])[0] === (x.with || [])[0]) && n++ < 20) y = pick();
+  if (!x || !y) { $("#spark").hidden = true; return; }
+  $("#spark").innerHTML = `<span><b>Zufallsfunke:</b> ${esc(nameOf(x.with?.[0]))}: ${esc(x.label)} <em>vs</em> ${esc(nameOf(y.with?.[0]))}: ${esc(y.label)}</span>
+    <div class="row"><button class="btn ghost" type="button" id="reroll">Neu würfeln</button><button class="btn ghost" type="button" id="takeSpark" data-a="${esc(x.id)}" data-b="${esc(y.id)}">Beide ins Pad</button></div>`;
+}
+$("#spark").addEventListener("click", e => {
+  if (e.target.id === "reroll") renderSpark();
+  if (e.target.id === "takeSpark") { [e.target.dataset.a, e.target.dataset.b].forEach(id => { if (!refs.some(r => r.id === id)) toggleRef(id); }); }
+});
+
+function toggleRef(id) {
+  const i = refs.findIndex(r => r.id === id);
+  if (i >= 0) refs.splice(i, 1);
+  else { const it = findItem(id); if (it) refs.push({ id, label: it.label, who: (it.with || [])[0] || "" }); }
+  renderRefs(); renderDossier(); saveDraft();
+}
+function renderRefs() {
+  $("#refs").innerHTML = refs.map(r => `<span class="chip">${esc(nameOf(r.who))}: ${esc(r.label)}<button type="button" data-rm="${esc(r.id)}" aria-label="Entfernen">×</button></span>`).join("");
+}
+$("#refs").addEventListener("click", e => { const b = e.target.closest("[data-rm]"); if (b) toggleRef(b.dataset.rm); });
+
+function saveDraft() { store.set("draft", JSON.stringify({ a: $("#optA").value, b: $("#optB").value, note: $("#note").value, refs })); }
+try { const d = JSON.parse(store.get("draft") || "null"); if (d) { $("#optA").value = d.a || ""; $("#optB").value = d.b || ""; $("#note").value = d.note || ""; refs = d.refs || []; renderRefs(); } } catch {}
+["#optA", "#optB", "#note"].forEach(s => $(s).addEventListener("input", saveDraft));
+$("#clear").addEventListener("click", () => { $("#optA").value = $("#optB").value = $("#note").value = ""; refs = []; renderRefs(); renderDossier(); saveDraft(); });
+
+/* Gespeicherte Ideen im db */
+const setStatus = t => { $("#status").textContent = t; };
+function renderJokes() {
+  const el = $("#saved");
+  if (!db && dbChecked) { el.innerHTML = '<span class="empty">Speichern geht nur angemeldet auf claude.ai. Dein Entwurf bleibt in diesem Browser.</span>'; return; }
+  if (!db || !jokes.length) { el.innerHTML = '<span class="empty">Noch keine Ideen gespeichert. Deine erste landet hier.</span>'; return; }
+  el.innerHTML = jokes.map(j => `<div class="joke" data-id="${esc(j.id)}">
+    <div class="ab">${esc(j.a)}<em>oder</em>${esc(j.b)}</div>
+    ${j.note ? `<div class="status">${esc(j.note)}</div>` : ""}
+    ${(j.refs || []).length ? `<div class="chips">${j.refs.map(r => `<span class="chip">${esc(nameOf(r.who))}: ${esc(r.label)}</span>`).join("")}</div>` : ""}
+    <div class="row"><select aria-label="Status" data-st>${STATUS.map(([v, l]) => `<option value="${v}" ${j.status === v ? "selected" : ""}>${l}</option>`).join("")}</select>
+    <button type="button" class="del" data-del>Löschen</button></div></div>`).join("");
+}
+$("#saved").addEventListener("change", async e => {
+  const s = e.target.closest("[data-st]"); if (!s || !db) return;
+  const id = s.closest(".joke").dataset.id;
+  try { await db.collection("jokes").doc(id).update({ status: s.value }); } catch { setStatus("Status nicht gespeichert. Nochmal versuchen."); }
+});
+$("#saved").addEventListener("click", async e => {
+  const b = e.target.closest("[data-del]"); if (!b || !db) return;
+  if (!b.classList.contains("confirm")) { b.classList.add("confirm"); b.textContent = "Wirklich löschen?"; setTimeout(() => { b.classList.remove("confirm"); b.textContent = "Löschen"; }, 3000); return; }
+  try { await db.collection("jokes").doc(b.closest(".joke").dataset.id).delete(); } catch { setStatus("Löschen hat nicht geklappt."); }
+});
+$("#save").addEventListener("click", async () => {
+  const a = $("#optA").value.trim(), b = $("#optB").value.trim();
+  if (!a || !b) { setStatus("Beide Optionen ausfüllen."); return; }
+  if (!db) { setStatus("Speichern geht nur angemeldet auf claude.ai."); return; }
+  $("#save").disabled = true;
+  try {
+    await db.collection("jokes").add({ a, b, note: $("#note").value.trim(), refs, status: "idee", created: new Date().toISOString() });
+    $("#optA").value = $("#optB").value = $("#note").value = ""; refs = []; renderRefs(); renderDossier(); saveDraft();
+    setStatus("Gespeichert.");
+  } catch (err) { setStatus(err?.code === "quota_exceeded" ? "Speicher voll. Alte Ideen löschen." : "Nicht gespeichert. Bist du angemeldet?"); }
+  $("#save").disabled = false;
+});
+renderJokes();
+(async () => {
+  try { db = await window.claude?.use?.("db"); } catch { db = null; }
+  dbChecked = true;
+  if (!db) { renderJokes(); return; }
+  db.collection("jokes").orderBy("created", "desc").onSnapshot(s => { jokes = s.docs.map(d => ({ id: d.id, ...d.data() })); renderJokes(); },
+    () => { db = null; renderJokes(); });
+})();
+</script>
