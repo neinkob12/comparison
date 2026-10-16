@@ -43,6 +43,8 @@ CAST = {
     "niklaswilson": ("@NiklasWilson", "niklaswilson", "niklaswilson"),
     "gtime": ("@gamerstime", "gtimetv", "gamerstime"),
     "marli": ("@marliyt", None, "marli"),  # Twitch-Avatar ist James Dean
+    "rohat": ("@Rohat", "rohat", "rohat"),
+    "schradin": ("@Schradin", "schradin", "maxschradin"),  # YouTube @Schradin ist Carsten Schradin, also Twitch
 }
 
 # Avatar ist ein Logo oder Cartoon -> lieber echtes Foto (Commons blockt manche Server mit 429, dann Fallback)
@@ -57,6 +59,7 @@ THUMB = {
     "timgioh": ("UwptDm2xDp4", "520:520:760:50"),
     "mckytv": ("lmPOduvIyw4", "560:560:660:60"),
     "marli": ("cCNewjYPg-I", "380:380:450:30"),  # Edeltalk #393, im Thumbnail als MARLI beschriftet
+    "rohat": ("WpbIaeoYOzs", "520:520:760:10"),  # Kanal Rohat Gaming, Twitch-Avatar ist ein Logo
 }
 # Extra-Bilder fuer bestimmte Witze (ganzes Thumbnail, landet in assets/streamers/extra/<name>.jpg)
 EXTRA = {
