@@ -33,6 +33,19 @@ Jedes Format hat beide Stimmen. Vergleichen: durchschnittliche Wiedergabezeit un
 | g05 | Umfrage | Adam | 72 s |
 | g06 | Umfrage | Brian | 79 s |
 
+## Gekürzt auf max. 65 s (ohne Neu-Rendern)
+
+`python3 scripts/cut_geld.py g01 ...` schreibt `out/cut/gNN.mp4`. Bei g01 und g03 wird nur das Intro neu gerendert ("beide" statt "alle drei").
+
+| Video | Raus | Länge |
+|---|---|---|
+| g01 | Ab 20 vs. ab 40 (inkl. Auflösung) | 61,2 s |
+| g02 | Leasing vs. bar (inkl. Auflösung) | 65,0 s |
+| g03 | Dispo vs. ETF (inkl. Auflösung) | 61,0 s |
+| g04 | Gehalt vs. Kontostand öffentlich | 64,1 s |
+| g05 | Chef vs. Angestellter | 63,9 s |
+| g06 | Reich und einsam, Online-Shopping | 62,9 s |
+
 ## Rechnungen (geprüft)
 
 - 1 Cent, 30 Tage verdoppelt: 0,01 × 2^29 = 5.368.709 € (Tag 20: 5.243 €)
@@ -46,11 +59,11 @@ Jedes Format hat beide Stimmen. Vergleichen: durchschnittliche Wiedergabezeit un
 
 ## Captions
 
-**g01:** 1 Million sofort oder 5.000 € im Monat für immer? 💰 Nur 15 % liegen bei allen 3 richtig 👇 #geld #finanzen #sparen #etf #würdestdueher #fyp
+**g01:** 1 Million sofort oder 5.000 € im Monat für immer? 💰 Nur 15 % liegen bei beiden richtig 👇 #geld #finanzen #sparen #etf #würdestdueher #fyp
 
 **g02:** Neuwagen oder Gebrauchter + investieren? 🚗 80 % antworten falsch. Du auch? 👇 #geld #finanzen #auto #leasing #würdestdueher #fyp
 
-**g03:** Steuererklärung oder Netflix? 🧾 Nur 1 von 10 schafft alle 3 👇 #geld #finanzen #steuern #gehalt #würdestdueher #fyp
+**g03:** Steuererklärung oder Netflix? 🧾 Nur 1 von 10 schafft beide 👇 #geld #finanzen #steuern #gehalt #würdestdueher #fyp
 
 **g04:** 4-Tage-Woche mit 80 % Gehalt oder 5 Tage voll? 🗓️ Was hättest du gewählt? 👇 #geld #gehalt #arbeit #würdestdueher #fyp
 

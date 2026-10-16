@@ -348,5 +348,51 @@
    6
   ],
   "seconds": 64.8
+ },
+ "g01": {
+  "removed_segments": [
+   6,
+   7
+  ],
+  "new_claim": true,
+  "seconds": 61.2
+ },
+ "g02": {
+  "removed_segments": [
+   3,
+   4
+  ],
+  "new_claim": false,
+  "seconds": 65.0
+ },
+ "g03": {
+  "removed_segments": [
+   6,
+   7
+  ],
+  "new_claim": true,
+  "seconds": 61.0
+ },
+ "g04": {
+  "removed_segments": [
+   8
+  ],
+  "new_claim": false,
+  "seconds": 64.1
+ },
+ "g05": {
+  "removed_segments": [
+   6
+  ],
+  "new_claim": false,
+  "seconds": 63.9
+ },
+ "g06": {
+  "removed_segments": [
+   2,
+   4
+  ],
+  "new_claim": false,
+  "seconds": 62.9
  }
 }

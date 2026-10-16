@@ -1,0 +1,19 @@
+{
+ "id": "g01_intro",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 82,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g01/claim_cut.mp3",
+   "speak": 64,
+   "voiceAt": 6,
+   "title": "NUR 15%",
+   "sub": "ANTWORTEN RICHTIG",
+   "hold": 18,
+   "duration": 82
+  }
+ ]
+}
