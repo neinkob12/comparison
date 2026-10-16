@@ -44,6 +44,7 @@ CAST = {
     "gtime": ("@gamerstime", "gtimetv", "gamerstime"),
     "marli": ("@marliyt", None, "marli"),  # Twitch-Avatar ist James Dean
     "rohat": ("@Rohat", "rohat", "rohat"),
+    "alibumaye": ("@AliBumaye", "alibumaye", "alibumaye"),
     "schradin": ("@Schradin", "schradin", "maxschradin"),  # YouTube @Schradin ist Carsten Schradin, also Twitch
 }
 
@@ -60,6 +61,7 @@ THUMB = {
     "mckytv": ("lmPOduvIyw4", "560:560:660:60"),
     "marli": ("cCNewjYPg-I", "380:380:450:30"),  # Edeltalk #393, im Thumbnail als MARLI beschriftet
     "rohat": ("WpbIaeoYOzs", "520:520:760:10"),  # Kanal Rohat Gaming, Twitch-Avatar ist ein Logo
+    "alibumaye": ("YCP9NjltLbk", "360:360:380:10"),  # Ali Bumaye Live (Mitte), Twitch-Avatar ist ein Schriftzug
 }
 # Extra-Bilder fuer bestimmte Witze (ganzes Thumbnail, landet in assets/streamers/extra/<name>.jpg)
 EXTRA = {
