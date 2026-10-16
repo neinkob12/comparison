@@ -4,15 +4,15 @@ import {
 	useCurrentFrame, useVideoConfig,
 } from 'remotion';
 
-type Side = {label: string; img: string | null; emoji?: string | null};
+type Side = {label: string; img: string | null; emoji?: string | null; fact?: string};
 type Segment = {
-	kind: 'intro' | 'q' | 'hook' | 'mid' | 'outro';
+	kind: 'intro' | 'q' | 'hook' | 'mid' | 'explain' | 'outro';
 	audio: string; audioB?: string; bAt?: number; speak: number; gap?: number; hold: number; duration: number; voiceAt?: number;
-	share?: string; winAudio?: string;
+	share?: string; winAudio?: string; aAt?: number; winAt?: number; best?: 'a' | 'b'; note?: string;
 	title?: string; sub?: string; a?: Side; b?: Side; pct?: [number, number];
 };
 export type Timeline = {
-	id: string; channel: 'A' | 'B'; handle: string | null; fps: number;
+	id: string; channel: string; handle: string | null; fps: number;
 	durationInFrames: number; segments: Segment[];
 };
 
@@ -213,6 +213,7 @@ const Intro: React.FC<{s: Segment}> = ({s}) => {
 	};
 	const sx = shake(7) + shake(14);
 	const flash = interpolate(frame, [14, 16, 24], [0, 0.6, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+	const fit = (t?: string) => Math.min(290, Math.floor(1900 / Math.max(1, (t ?? '').length)));
 	return (
 		<AbsoluteFill style={{
 			background: `linear-gradient(180deg, ${C.red} 0%, ${C.red} 50%, ${C.blue} 50%, ${C.blue} 100%)`,
@@ -220,11 +221,11 @@ const Intro: React.FC<{s: Segment}> = ({s}) => {
 		}}>
 			<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 0, transform: 'rotate(-4deg)'}}>
 				<div style={{
-					fontFamily: DISPLAY, fontSize: 290, lineHeight: 0.95, color: C.white, whiteSpace: 'nowrap',
+					fontFamily: DISPLAY, fontSize: fit(s.title), lineHeight: 0.95, color: C.white, whiteSpace: 'nowrap',
 					transform: `translateX(${(1 - a) * -1300}px)`, ...stroke(14),
 				}}>{s.title}</div>
 				<div style={{
-					fontFamily: DISPLAY, fontSize: 290, lineHeight: 0.95, color: C.yellow, whiteSpace: 'nowrap',
+					fontFamily: DISPLAY, fontSize: fit(s.sub), lineHeight: 0.95, color: C.yellow, whiteSpace: 'nowrap',
 					transform: `translateX(${(1 - b) * 1300}px)`, ...stroke(14),
 				}}>{s.sub}</div>
 			</div>
@@ -238,6 +239,85 @@ const Intro: React.FC<{s: Segment}> = ({s}) => {
 	);
 };
 
+// Aufloesung: beide Optionen mit Fakt, dann wird die bessere gruen gestempelt
+const ExplainHalf: React.FC<{side: Side; top: boolean; factAt: number; winAt: number; best: boolean}> = ({side, top, factAt, winAt, best}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const f = spring({frame: frame - factAt, fps, config: {damping: 12, mass: 0.6}});
+	const w = frame - winAt;
+	const decided = w >= 0;
+	const greenIn = decided && best ? interpolate(w, [0, 6], [0, 1], {extrapolateRight: 'clamp'}) : 0;
+	const dim = decided && !best ? interpolate(w, [0, 8], [0, 0.55], {extrapolateRight: 'clamp'}) : 0;
+	const stamp = spring({frame: w, fps, config: {damping: 9, mass: 0.6}});
+	const base = top ? C.red : C.blue;
+	const dark = top ? C.redDark : C.blueDark;
+	return (
+		<div style={{
+			position: 'absolute', left: 0, right: 0, height: 960, top: top ? 0 : 960, overflow: 'hidden',
+			background: `radial-gradient(circle at 50% ${top ? 60 : 40}%, ${base} 0%, ${dark} 120%)`,
+		}}>
+			<AbsoluteFill style={{background: `radial-gradient(circle at 50% 50%, ${C.green} 0%, ${C.greenDark} 120%)`, opacity: greenIn}} />
+			<div style={{
+				position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 34,
+				justifyContent: top ? 'flex-end' : 'flex-start', paddingTop: top ? 0 : 140, paddingBottom: top ? 140 : 0, paddingLeft: 60, paddingRight: 60,
+			}}>
+				<div style={{display: 'flex', alignItems: 'center', gap: 26}}>
+					{side.emoji ? <div style={{fontFamily: EMOJI, fontSize: 120, lineHeight: 1}}>{side.emoji}</div> : null}
+					<div style={{fontFamily: DISPLAY, fontSize: 78, lineHeight: 1.02, color: C.white, textTransform: 'uppercase', maxWidth: 760, ...stroke(7)}}>{side.label}</div>
+				</div>
+				<div style={{
+					fontFamily: HEAVY, fontSize: 52, lineHeight: 1.18, color: C.ink, background: C.white, borderRadius: 26,
+					padding: '26px 36px', textAlign: 'center', maxWidth: 940, whiteSpace: 'pre-line', boxShadow: '0 18px 44px rgba(0,0,0,.35)',
+					opacity: frame < factAt ? 0 : 1, transform: `scale(${0.7 + 0.3 * f}) rotate(${top ? -1.5 : 1.5}deg)`,
+				}}>{side.fact}</div>
+			</div>
+			{decided ? (
+				<div style={{
+					position: 'absolute', top: top ? 70 : undefined, bottom: top ? undefined : 110, left: 0, right: 0, display: 'flex', justifyContent: 'center',
+				}}>
+					<div style={{
+						fontFamily: DISPLAY, fontSize: 96, color: best ? C.ink : C.white, background: best ? C.yellow : 'rgba(0,0,0,.55)',
+						border: `8px solid ${C.ink}`, borderRadius: 24, padding: '6px 40px', transform: `scale(${stamp}) rotate(${best ? -6 : 4}deg)`,
+					}}>{best ? '✓ BESSER' : '✕ SCHLECHTER'}</div>
+				</div>
+			) : null}
+			<AbsoluteFill style={{background: '#000', opacity: dim}} />
+		</div>
+	);
+};
+
+const Explain: React.FC<{s: Segment}> = ({s}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const aAt = s.aAt ?? 0;
+	const bAt = s.bAt ?? 0;
+	const winAt = s.winAt ?? 0;
+	const pill = spring({frame, fps, config: {damping: 10}});
+	const wt = frame - winAt;
+	const shake = wt >= 0 && wt < 10 ? Math.sin(wt * 2.6) * (10 - wt) * 2.5 : 0;
+	return (
+		<AbsoluteFill style={{transform: `translate(${shake}px, ${-shake * 0.5}px)`}}>
+			<ExplainHalf side={s.a!} top factAt={aAt} winAt={winAt} best={s.best === 'a'} />
+			<ExplainHalf side={s.b!} top={false} factAt={bAt} winAt={winAt} best={s.best === 'b'} />
+			<div style={{
+				position: 'absolute', left: 540 - 250, top: 960 - 62, width: 500, height: 124, borderRadius: 62,
+				background: C.yellow, border: `8px solid ${C.ink}`, display: 'flex', alignItems: 'center', justifyContent: 'center',
+				fontFamily: HEAVY, fontSize: 58, color: C.ink, transform: `scale(${pill}) rotate(-3deg)`,
+			}}>AUFLÖSUNG</div>
+			{s.note ? (
+				<div style={{position: 'absolute', bottom: 40, left: 0, right: 0, textAlign: 'center', fontFamily: HEAVY, fontSize: 26,
+					color: 'rgba(255,255,255,.75)'}}>{s.note}</div>
+			) : null}
+			<Audio src={staticFile('sfx/whoosh.mp3')} volume={0.6} />
+			<Sequence from={aAt}><Audio src={staticFile(s.audio)} /></Sequence>
+			{s.audioB ? <Sequence from={bAt}><Audio src={staticFile(s.audioB)} /></Sequence> : null}
+			<Sequence from={winAt}><Audio src={staticFile('sfx/check.mp3')} volume={0.8} /></Sequence>
+			<Sequence from={winAt}><Audio src={staticFile('sfx/bling.mp3')} volume={0.6} /></Sequence>
+			{s.winAudio ? <Sequence from={winAt + 6}><Audio src={staticFile(s.winAudio)} /></Sequence> : null}
+		</AbsoluteFill>
+	);
+};
+
 const Outro: React.FC<{s: Segment; handle: string | null}> = ({s, handle}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
@@ -245,7 +325,7 @@ const Outro: React.FC<{s: Segment; handle: string | null}> = ({s, handle}) => {
 	return (
 		<AbsoluteFill style={{background: C.ink, alignItems: 'center', justifyContent: 'center', gap: 50, padding: 80}}>
 			<div style={{fontFamily: DISPLAY, fontSize: 120, lineHeight: 1.05, color: C.white, textAlign: 'center', transform: `scale(${a})`}}>
-				{s.title ?? 'WIE OFT LAGST DU RICHTIG, AKH?'}
+				{s.title ?? 'WIE OFT LAGST DU RICHTIG?'}
 			</div>
 			<div style={{fontFamily: HEAVY, fontSize: 50, whiteSpace: 'nowrap', color: C.ink, background: C.yellow, padding: '14px 34px', borderRadius: 18}}>⬇ {s.sub ?? 'Schreibs in die Kommentare'}</div>
 			{s.share ? <div style={{fontFamily: HEAVY, fontSize: 46, color: C.white, textAlign: 'center', maxWidth: 920}}>📲 {s.share}</div> : null}
@@ -285,7 +365,8 @@ export const Comparison: React.FC<{timeline: Timeline}> = ({timeline}) => {
 			<Series>
 				{segs.map((s, i) => (
 					<Series.Sequence key={i} durationInFrames={s.duration}>
-						{s.kind === 'intro' ? <Intro s={s} /> : s.kind === 'outro' ? <Outro s={s} handle={timeline.handle} /> : <Question s={s} />}
+						{s.kind === 'intro' ? <Intro s={s} /> : s.kind === 'outro' ? <Outro s={s} handle={timeline.handle} />
+							: s.kind === 'explain' ? <Explain s={s} /> : <Question s={s} />}
 					</Series.Sequence>
 				))}
 			</Series>
