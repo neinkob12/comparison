@@ -58,6 +58,10 @@ THUMB = {
     "mckytv": ("lmPOduvIyw4", "560:560:660:60"),
     "marli": ("cCNewjYPg-I", "380:380:450:30"),  # Edeltalk #393, im Thumbnail als MARLI beschriftet
 }
+# Extra-Bilder fuer bestimmte Witze (ganzes Thumbnail, landet in assets/streamers/extra/<name>.jpg)
+EXTRA = {
+    "trymacs_goth": "WziSkpGOB7M",  # Hungriger Hugo: MEINUNG ZU GOTH BADDIES? (Okt 2026)
+}
 TWITCH_FIRST = {"shurjoka"}  # YouTube-Bild ist gezeichnet, Twitch zeigt das Gesicht
 UA_COMMONS = {"User-Agent": "comparison-images/1.0 (privates Videoprojekt)"}
 
@@ -126,6 +130,13 @@ def main(keys):
         rows[key] = f"{key}\t{src}\t{url}"
         print("ok", key, src)
     TSV.write_text("\n".join(rows[k] for k in sorted(rows)) + "\n")
+    for name, vid in EXTRA.items():
+        out = DIR / "extra" / f"{name}.jpg"
+        if not out.exists():
+            out.parent.mkdir(exist_ok=True)
+            url = f"https://i.ytimg.com/vi/{vid}/maxresdefault.jpg"
+            out.write_bytes(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30).read())
+            print("ok extra", name)
 
 
 if __name__ == "__main__":

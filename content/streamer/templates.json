@@ -1,0 +1,17 @@
+{
+ "_info": "Allgemeine Witz-Vorlagen fuer Kanal B (von Jakob). {A} und {B} sind Streamer. say = TTS, a/b = Labels im Bild. Mit * zensierte Woerter stehen so im Label, die TTS-Fassung steht in say.",
+ "templates": [
+  {"id": "woche", "say": "Eine Woche mit {A} leben, oder eine Woche mit {B} leben?", "a": "1 Woche mit {A}", "b": "1 Woche mit {B}"},
+  {"id": "leben", "say": "Das Leben von {A} leben, oder das Leben von {B} leben?", "a": "Leben von {A}", "b": "Leben von {B}"},
+  {"id": "eltern", "say": "{A} als deinen Vater, oder {B} als deine Mutter?", "a": "{A} als Vater", "b": "{B} als Mutter"},
+  {"id": "onkel", "say": "{A} als deinen besoffenen Onkel, oder {B} als deinen besoffenen Onkel?", "a": "{A} als bes*ffener Onkel", "b": "{B} als bes*ffener Onkel"},
+  {"id": "urlaub", "say": "Mit {A} in den Urlaub fahren, oder mit {B} in den Urlaub fahren?", "a": "Urlaub mit {A}", "b": "Urlaub mit {B}"},
+  {"id": "streamen", "say": "Einmal mit {A} streamen, oder einmal mit {B} streamen?", "a": "Stream mit {A}", "b": "Stream mit {B}"},
+  {"id": "date", "say": "Mit {A} auf ein Date gehen, oder mit {B} auf ein Date gehen?", "a": "Date mit {A}", "b": "Date mit {B}"},
+  {"id": "nie_wieder", "say": "Nie wieder {A} schauen, oder nie wieder {B} schauen?", "a": "Nie wieder {A}", "b": "Nie wieder {B}"},
+  {"id": "nur_noch", "say": "Nur noch {A} schauen, oder nur noch {B} schauen?", "a": "Nur noch {A}", "b": "Nur noch {B}"},
+  {"id": "knast", "say": "{A} ins Gefängnis, oder {B} ins Gefängnis?", "a": "{A} in den Knast", "b": "{B} in den Knast"},
+  {"id": "familienessen", "say": "Mit {A} bei deinen Eltern essen, oder mit {B} bei deinen Eltern essen?", "a": "{A} beim Familienessen", "b": "{B} beim Familienessen"},
+  {"id": "feiern", "say": "Mit {A} feiern gehen, oder mit {B} feiern gehen?", "a": "Feiern mit {A}", "b": "Feiern mit {B}"}
+ ]
+}
