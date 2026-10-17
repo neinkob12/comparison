@@ -1,0 +1,221 @@
+{
+ "id": "g06",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 2359,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g06/00_claim.mp3",
+   "speak": 63,
+   "voiceAt": 6,
+   "title": "80%",
+   "sub": "ANTWORTEN FALSCH",
+   "hold": 18,
+   "duration": 81
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g06/01_q_a.mp3",
+   "audioB": "audio/g06/01_q_b.mp3",
+   "bAt": 86,
+   "speak": 163,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Rente mit 30, 2.000 €",
+    "img": null,
+    "emoji": "🏖️"
+   },
+   "b": {
+    "label": "Rente mit 67, 6.000 €",
+    "img": null,
+    "emoji": "👴"
+   },
+   "pct": [
+    77,
+    23
+   ],
+   "duration": 298
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g06/02_q_a.mp3",
+   "audioB": "audio/g06/02_q_b.mp3",
+   "bAt": 39,
+   "speak": 101,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Reich und einsam",
+    "img": null,
+    "emoji": "💎"
+   },
+   "b": {
+    "label": "Pleite mit Freunden",
+    "img": null,
+    "emoji": "🫂"
+   },
+   "pct": [
+    42,
+    58
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g06/03_q_a.mp3",
+   "audioB": "audio/g06/03_q_b.mp3",
+   "bAt": 84,
+   "speak": 161,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Ohne Handy: 50.000 €",
+    "img": null,
+    "emoji": "📵"
+   },
+   "b": {
+    "label": "Ohne Auto: 20.000 €",
+    "img": null,
+    "emoji": "🚗"
+   },
+   "pct": [
+    68,
+    32
+   ],
+   "duration": 296
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g06/04_q_a.mp3",
+   "audioB": "audio/g06/04_q_b.mp3",
+   "bAt": 48,
+   "speak": 102,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Kein Online-Shopping",
+    "img": null,
+    "emoji": "📦"
+   },
+   "b": {
+    "label": "Kein Essen bestellen",
+    "img": null,
+    "emoji": "🛵"
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "duration": 237
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/g06/05_mid_a.mp3",
+   "audioB": "audio/g06/05_mid_b.mp3",
+   "bAt": 60,
+   "speak": 104,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Gym",
+    "img": null,
+    "emoji": "🏋️"
+   },
+   "b": {
+    "label": "Nie wieder Fast Food",
+    "img": null,
+    "emoji": "🍔"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "duration": 239
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g06/06_q_a.mp3",
+   "audioB": "audio/g06/06_q_b.mp3",
+   "bAt": 50,
+   "speak": 99,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "100.000 € jetzt",
+    "img": null,
+    "emoji": "⚡"
+   },
+   "b": {
+    "label": "1 Mio. mit 60",
+    "img": null,
+    "emoji": "⏳"
+   },
+   "pct": [
+    55,
+    45
+   ],
+   "duration": 234
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g06/07_q_a.mp3",
+   "audioB": "audio/g06/07_q_b.mp3",
+   "bAt": 67,
+   "speak": 130,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Selbstständig",
+    "img": null,
+    "emoji": "🚀"
+   },
+   "b": {
+    "label": "Beamter",
+    "img": null,
+    "emoji": "🏛️"
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "duration": 265
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g06/08_q_a.mp3",
+   "audioB": "audio/g06/08_q_b.mp3",
+   "bAt": 71,
+   "speak": 140,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Bei den Eltern",
+    "img": null,
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "Eigene Wohnung",
+    "img": null,
+    "emoji": "🔑"
+   },
+   "pct": [
+    31,
+    69
+   ],
+   "duration": 275
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g06/09_outro.mp3",
+   "speak": 153,
+   "hold": 45,
+   "title": "WAS HÄTTEST DU GEWÄHLT?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an deinen Kumpel mit dem Dispo",
+   "duration": 198
+  }
+ ]
+}

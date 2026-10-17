@@ -3,39 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2452,
+ "durationInFrames": 2339,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a12/00_hook_a.mp3",
    "audioB": "audio/a12/00_hook_b.mp3",
-   "bAt": 46,
-   "speak": 105,
-   "gap": 90,
+   "bAt": 63,
+   "speak": 158,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "Lucio als Stiefvater",
+    "label": "300 km/h mit Lucio",
     "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Karamel19 als Klassenlehrer",
-    "img": "img/artists/karamel19.jpg",
+    "label": "267 km/h mit Ufo361",
+    "img": "img/artists/ufo361.jpg",
     "emoji": null
    },
    "pct": [
-    98,
-    2
+    94,
+    6
    ],
-   "duration": 240
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 248
   },
   {
    "kind": "q",
    "audio": "audio/a12/01_q_a.mp3",
    "audioB": "audio/a12/01_q_b.mp3",
-   "bAt": 57,
-   "speak": 112,
-   "gap": 90,
+   "bAt": 53,
+   "speak": 100,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Ufo187 kocht",
@@ -51,15 +52,15 @@
     97,
     3
    ],
-   "duration": 247
+   "duration": 226
   },
   {
    "kind": "q",
    "audio": "audio/a12/02_q_a.mp3",
    "audioB": "audio/a12/02_q_b.mp3",
-   "bAt": 50,
-   "speak": 91,
-   "gap": 90,
+   "bAt": 46,
+   "speak": 83,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch +49",
@@ -75,15 +76,15 @@
     8,
     92
    ],
-   "duration": 226
+   "duration": 209
   },
   {
    "kind": "q",
    "audio": "audio/a12/03_q_a.mp3",
    "audioB": "audio/a12/03_q_b.mp3",
-   "bAt": 75,
-   "speak": 134,
-   "gap": 90,
+   "bAt": 59,
+   "speak": 113,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Tag mit Lucio",
@@ -99,15 +100,15 @@
     54,
     46
    ],
-   "duration": 269
+   "duration": 239
   },
   {
    "kind": "q",
    "audio": "audio/a12/04_q_a.mp3",
    "audioB": "audio/a12/04_q_b.mp3",
-   "bAt": 57,
-   "speak": 95,
-   "gap": 90,
+   "bAt": 56,
+   "speak": 91,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch Free Game",
@@ -123,15 +124,15 @@
     48,
     52
    ],
-   "duration": 230
+   "duration": 217
   },
   {
    "kind": "mid",
    "audio": "audio/a12/05_mid_a.mp3",
    "audioB": "audio/a12/05_mid_b.mp3",
-   "bAt": 56,
-   "speak": 165,
-   "gap": 90,
+   "bAt": 57,
+   "speak": 167,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder Maka",
@@ -147,15 +148,15 @@
     54,
     46
    ],
-   "duration": 300
+   "duration": 293
   },
   {
    "kind": "q",
    "audio": "audio/a12/06_q_a.mp3",
    "audioB": "audio/a12/06_q_b.mp3",
-   "bAt": 52,
-   "speak": 146,
-   "gap": 90,
+   "bAt": 46,
+   "speak": 144,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nizi19 als Lehrer",
@@ -171,15 +172,15 @@
     94,
     6
    ],
-   "duration": 281
+   "duration": 270
   },
   {
    "kind": "q",
    "audio": "audio/a12/07_q_a.mp3",
    "audioB": "audio/a12/07_q_b.mp3",
-   "bAt": 50,
-   "speak": 105,
-   "gap": 90,
+   "bAt": 53,
+   "speak": 110,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Zackavelli erste Reihe",
@@ -195,15 +196,15 @@
     67,
     33
    ],
-   "duration": 240
+   "duration": 236
   },
   {
    "kind": "q",
    "audio": "audio/a12/08_q_a.mp3",
    "audioB": "audio/a12/08_q_b.mp3",
-   "bAt": 49,
-   "speak": 89,
-   "gap": 90,
+   "bAt": 46,
+   "speak": 84,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch Hollywoodreif",
@@ -219,17 +220,17 @@
     44,
     56
    ],
-   "duration": 224
+   "duration": 210
   },
   {
    "kind": "outro",
    "audio": "audio/a12/09_outro.mp3",
-   "speak": 150,
+   "speak": 146,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 größten Ottos, die du kennst",
-   "duration": 195
+   "duration": 191
   }
  ]
 }

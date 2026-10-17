@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Lucio wird dein Stiefvater, oder Karamel19 dein Klassenlehrer?",
+  "say": "Mit dreihundert Ka Emm Ha mit Lucio fahren, oder mit zweihundertsiebenundsechzig Ka Emm Ha mit Ufo361?",
   "a": {
-   "label": "Lucio als Stiefvater",
+   "label": "300 km/h mit Lucio",
    "img": "artists/lucio101.jpg"
   },
   "b": {
-   "label": "Karamel19 als Klassenlehrer",
-   "img": "artists/karamel19.jpg"
+   "label": "267 km/h mit Ufo361",
+   "img": "artists/ufo361.jpg"
   },
   "pct": [
-   98,
-   2
+   94,
+   6
   ],
   "type": "hook"
  },

@@ -1,0 +1,221 @@
+{
+ "id": "g04",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 2162,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g04/00_claim.mp3",
+   "speak": 51,
+   "voiceAt": 6,
+   "title": "90%",
+   "sub": "WÄHLEN FALSCH",
+   "hold": 18,
+   "duration": 69
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g04/01_q_a.mp3",
+   "audioB": "audio/g04/01_q_b.mp3",
+   "bAt": 42,
+   "speak": 109,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "10.000 € sofort",
+    "img": null,
+    "emoji": "💶"
+   },
+   "b": {
+    "label": "1.000 € × 12 Monate",
+    "img": null,
+    "emoji": "📅"
+   },
+   "pct": [
+    61,
+    39
+   ],
+   "duration": 244
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g04/02_q_a.mp3",
+   "audioB": "audio/g04/02_q_b.mp3",
+   "bAt": 62,
+   "speak": 124,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Doppeltes Gehalt",
+    "img": null,
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "3 Monate Urlaub",
+    "img": null,
+    "emoji": "🏖️"
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 259
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g04/03_q_a.mp3",
+   "audioB": "audio/g04/03_q_b.mp3",
+   "bAt": 64,
+   "speak": 110,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "4 Tage, 80 %",
+    "img": null,
+    "emoji": "🗓️"
+   },
+   "b": {
+    "label": "5 Tage, 100 %",
+    "img": null,
+    "emoji": "💼"
+   },
+   "pct": [
+    73,
+    27
+   ],
+   "duration": 245
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g04/04_q_a.mp3",
+   "audioB": "audio/g04/04_q_b.mp3",
+   "bAt": 48,
+   "speak": 89,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Eigentum Leipzig",
+    "img": null,
+    "emoji": "🏠"
+   },
+   "b": {
+    "label": "Miete München",
+    "img": null,
+    "emoji": "🏙️"
+   },
+   "pct": [
+    66,
+    34
+   ],
+   "duration": 224
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/g04/05_mid_a.mp3",
+   "audioB": "audio/g04/05_mid_b.mp3",
+   "bAt": 58,
+   "speak": 92,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Döner",
+    "img": null,
+    "emoji": "🥙"
+   },
+   "b": {
+    "label": "Nie wieder Pizza",
+    "img": null,
+    "emoji": "🍕"
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "duration": 227
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g04/06_q_a.mp3",
+   "audioB": "audio/g04/06_q_b.mp3",
+   "bAt": 43,
+   "speak": 84,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Steuern",
+    "img": null,
+    "emoji": "🧾"
+   },
+   "b": {
+    "label": "Nie wieder Miete",
+    "img": null,
+    "emoji": "🔑"
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "duration": 219
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g04/07_q_a.mp3",
+   "audioB": "audio/g04/07_q_b.mp3",
+   "bAt": 46,
+   "speak": 119,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Schuldenfrei mit 25",
+    "img": null,
+    "emoji": "✅"
+   },
+   "b": {
+    "label": "Weltreise auf Kredit",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    81,
+    19
+   ],
+   "duration": 254
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g04/08_q_a.mp3",
+   "audioB": "audio/g04/08_q_b.mp3",
+   "bAt": 50,
+   "speak": 105,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Gehalt öffentlich",
+    "img": null,
+    "emoji": "📄"
+   },
+   "b": {
+    "label": "Kontostand öffentlich",
+    "img": null,
+    "emoji": "🏦"
+   },
+   "pct": [
+    57,
+    43
+   ],
+   "duration": 240
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g04/09_outro.mp3",
+   "speak": 136,
+   "hold": 45,
+   "title": "WAS HÄTTEST DU GEWÄHLT?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an deinen Kumpel mit dem Dispo",
+   "duration": 181
+  }
+ ]
+}

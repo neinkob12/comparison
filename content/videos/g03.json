@@ -1,0 +1,124 @@
+{
+ "id": "g03",
+ "channel": "G",
+ "handle": null,
+ "format": "quiz",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "claim": {
+  "title": "NUR 1 VON 10",
+  "sub": "SCHAFFT ALLE 3",
+  "say": "Nur einer von zehn schafft alle drei!"
+ },
+ "questions": [
+  {
+   "say": "Einen Abend die Steuererklärung machen, oder einen Abend Netflix?",
+   "a": {
+    "label": "Steuererklärung",
+    "emoji": "🧾"
+   },
+   "b": {
+    "label": "Netflix-Abend",
+    "emoji": "🍿"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "explain": {
+    "a": {
+     "fact": "Im Schnitt rund 1.000 € Erstattung",
+     "say": "Wer die Steuererklärung macht, bekommt im Schnitt rund 1.000 Euro zurück."
+    },
+    "b": {
+     "fact": "Kostet dich Geld, bringt dir keins",
+     "say": "Netflix kostet dich Geld, statt dir welches zu bringen."
+    },
+    "best": "a",
+    "winSay": "Steuererklärung gewinnt. Danach kannst du ja Netflix schauen."
+   }
+  },
+  {
+   "say": "200 Euro mehr Gehalt im Monat, oder einmalig 2.000 Euro Bonus?",
+   "a": {
+    "label": "+200 € Gehalt / Monat",
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "2.000 € Bonus",
+    "emoji": "🎁"
+   },
+   "pct": [
+    34,
+    66
+   ],
+   "explain": {
+    "a": {
+     "fact": "2.400 € im Jahr. Jedes Jahr.",
+     "say": "200 Euro mehr im Monat sind 2.400 Euro im Jahr. Jedes Jahr. Und jede Gehaltserhöhung baut darauf auf."
+    },
+    "b": {
+     "fact": "Einmal 2.000 €, dann vorbei",
+     "say": "Der Bonus kommt genau einmal. Dann ist er weg."
+    },
+    "best": "a",
+    "winSay": "Mehr Gehalt gewinnt. Schon nach einem Jahr."
+   }
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Kino, oder nie wieder Konzerte?",
+   "a": {
+    "label": "Nie wieder Kino",
+    "emoji": "🎬"
+   },
+   "b": {
+    "label": "Nie wieder Konzerte",
+    "emoji": "🎤"
+   },
+   "pct": [
+    64,
+    36
+   ]
+  },
+  {
+   "say": "5.000 Euro Dispo abbezahlen, oder die 5.000 Euro in einen ETF stecken?",
+   "a": {
+    "label": "Dispo abbezahlen",
+    "emoji": "🏦"
+   },
+   "b": {
+    "label": "5.000 € in ETF",
+    "emoji": "📊"
+   },
+   "pct": [
+    37,
+    63
+   ],
+   "explain": {
+    "a": {
+     "fact": "Dispo kostet oft über 10 % Zinsen. Garantiert.",
+     "say": "Der Dispo kostet dich oft über 10 Prozent Zinsen. Und zwar garantiert."
+    },
+    "b": {
+     "fact": "ETF: im Schnitt ~7 %, ohne Garantie",
+     "say": "Der ETF bringt im Schnitt vielleicht 7 Prozent. Aber ohne Garantie."
+    },
+    "best": "a",
+    "winSay": "Schulden zuerst. Immer."
+   }
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an jemanden, der jeden Monat pleite ist",
+  "shareSay": "Und schick das an jemanden, der jeden Monat pleite ist!"
+ }
+}

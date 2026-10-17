@@ -29,59 +29,59 @@
  },
  "a05": {
   "removed_questions": [
-   2,
-   3
+   1,
+   5
   ],
-  "seconds": 64.5
+  "seconds": 60.8
  },
  "a06": {
   "removed_questions": [
    2,
-   6
+   3
   ],
-  "seconds": 64.5
+  "seconds": 61.5
  },
  "a07": {
-  "removed_questions": [
-   1,
-   7
-  ],
-  "seconds": 64.5
- },
- "a08": {
-  "removed_questions": [
-   1,
-   6
-  ],
-  "seconds": 64.5
- },
- "a09": {
   "removed_questions": [
    3,
    5
   ],
-  "seconds": 64.5
+  "seconds": 60.2
+ },
+ "a08": {
+  "removed_questions": [
+   3,
+   7
+  ],
+  "seconds": 61.2
+ },
+ "a09": {
+  "removed_questions": [
+   2,
+   3
+  ],
+  "seconds": 59.7
  },
  "a10": {
   "removed_questions": [
-   2,
-   6
+   5,
+   7
   ],
-  "seconds": 64.5
+  "seconds": 61.0
  },
  "a11": {
   "removed_questions": [
    1,
    6
   ],
-  "seconds": 64.5
+  "seconds": 62.4
  },
  "a12": {
   "removed_questions": [
-   1,
-   3
+   3,
+   7
   ],
-  "seconds": 64.5
+  "seconds": 63.7
  },
  "a13": {
   "removed_questions": [
@@ -348,5 +348,51 @@
    6
   ],
   "seconds": 64.8
+ },
+ "g01": {
+  "removed_segments": [
+   6,
+   7
+  ],
+  "new_claim": true,
+  "seconds": 61.2
+ },
+ "g02": {
+  "removed_segments": [
+   3,
+   4
+  ],
+  "new_claim": false,
+  "seconds": 65.0
+ },
+ "g03": {
+  "removed_segments": [
+   6,
+   7
+  ],
+  "new_claim": true,
+  "seconds": 61.0
+ },
+ "g04": {
+  "removed_segments": [
+   8
+  ],
+  "new_claim": false,
+  "seconds": 64.1
+ },
+ "g05": {
+  "removed_segments": [
+   6
+  ],
+  "new_claim": false,
+  "seconds": 63.9
+ },
+ "g06": {
+  "removed_segments": [
+   2,
+   4
+  ],
+  "new_claim": false,
+  "seconds": 62.9
  }
 }

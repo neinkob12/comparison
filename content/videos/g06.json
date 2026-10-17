@@ -1,0 +1,148 @@
+{
+ "id": "g06",
+ "channel": "G",
+ "handle": null,
+ "format": "poll",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "claim": {
+  "title": "80%",
+  "sub": "ANTWORTEN FALSCH",
+  "say": "80 Prozent antworten hier falsch!"
+ },
+ "questions": [
+  {
+   "say": "Mit 30 in Rente mit 2.000 Euro im Monat, oder mit 67 mit 6.000 Euro?",
+   "a": {
+    "label": "Rente mit 30, 2.000 €",
+    "emoji": "🏖️"
+   },
+   "b": {
+    "label": "Rente mit 67, 6.000 €",
+    "emoji": "👴"
+   },
+   "pct": [
+    77,
+    23
+   ]
+  },
+  {
+   "say": "Reich und einsam, oder pleite mit den besten Freunden?",
+   "a": {
+    "label": "Reich und einsam",
+    "emoji": "💎"
+   },
+   "b": {
+    "label": "Pleite mit Freunden",
+    "emoji": "🫂"
+   },
+   "pct": [
+    42,
+    58
+   ]
+  },
+  {
+   "say": "Ein Jahr ohne Handy für 50.000 Euro, oder ein Jahr ohne Auto für 20.000 Euro?",
+   "a": {
+    "label": "Ohne Handy: 50.000 €",
+    "emoji": "📵"
+   },
+   "b": {
+    "label": "Ohne Auto: 20.000 €",
+    "emoji": "🚗"
+   },
+   "pct": [
+    68,
+    32
+   ]
+  },
+  {
+   "say": "Nie wieder Online-Shopping, oder nie wieder Essen bestellen?",
+   "a": {
+    "label": "Kein Online-Shopping",
+    "emoji": "📦"
+   },
+   "b": {
+    "label": "Kein Essen bestellen",
+    "emoji": "🛵"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Gym, oder nie wieder Fast Food?",
+   "a": {
+    "label": "Nie wieder Gym",
+    "emoji": "🏋️"
+   },
+   "b": {
+    "label": "Nie wieder Fast Food",
+    "emoji": "🍔"
+   },
+   "pct": [
+    38,
+    62
+   ]
+  },
+  {
+   "say": "100.000 Euro jetzt, oder 1 Million mit 60?",
+   "a": {
+    "label": "100.000 € jetzt",
+    "emoji": "⚡"
+   },
+   "b": {
+    "label": "1 Mio. mit 60",
+    "emoji": "⏳"
+   },
+   "pct": [
+    55,
+    45
+   ]
+  },
+  {
+   "say": "Selbstständig mit unsicherem Einkommen, oder Beamter mit sicherem Gehalt?",
+   "a": {
+    "label": "Selbstständig",
+    "emoji": "🚀"
+   },
+   "b": {
+    "label": "Beamter",
+    "emoji": "🏛️"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "Bei den Eltern wohnen und keine Miete, oder eigene Wohnung und alles selbst zahlen?",
+   "a": {
+    "label": "Bei den Eltern",
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "Eigene Wohnung",
+    "emoji": "🔑"
+   },
+   "pct": [
+    31,
+    69
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Was hättest du gewählt? Schreibs in die Kommentare!",
+  "title": "WAS HÄTTEST DU GEWÄHLT?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an deinen Kumpel mit dem Dispo",
+  "shareSay": "Und schick das an deinen Kumpel mit dem Dispo!"
+ }
+}

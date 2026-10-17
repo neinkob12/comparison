@@ -3,39 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2427,
+ "durationInFrames": 2237,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a08/00_hook_a.mp3",
    "audioB": "audio/a08/00_hook_b.mp3",
-   "bAt": 50,
-   "speak": 101,
-   "gap": 90,
+   "bAt": 37,
+   "speak": 78,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "Kakanim als Stiefvater",
+    "label": "1 Nacht mit Kakanim",
     "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Lacazette als Klassenlehrer",
+    "label": "Nie wieder Lacazette",
     "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "pct": [
-    69,
-    31
+    11,
+    89
    ],
-   "duration": 236
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 168
   },
   {
    "kind": "q",
    "audio": "audio/a08/01_q_a.mp3",
    "audioB": "audio/a08/01_q_b.mp3",
-   "bAt": 43,
-   "speak": 113,
-   "gap": 90,
+   "bAt": 39,
+   "speak": 102,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Lacazette kocht",
@@ -51,15 +52,15 @@
     6,
     94
    ],
-   "duration": 248
+   "duration": 228
   },
   {
    "kind": "q",
    "audio": "audio/a08/02_q_a.mp3",
    "audioB": "audio/a08/02_q_b.mp3",
-   "bAt": 49,
-   "speak": 91,
-   "gap": 90,
+   "bAt": 44,
+   "speak": 83,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch Hollywoodreif",
@@ -75,15 +76,15 @@
     21,
     79
    ],
-   "duration": 226
+   "duration": 209
   },
   {
    "kind": "q",
    "audio": "audio/a08/03_q_a.mp3",
    "audioB": "audio/a08/03_q_b.mp3",
-   "bAt": 41,
-   "speak": 143,
-   "gap": 90,
+   "bAt": 35,
+   "speak": 110,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Pashanim als Lehrer",
@@ -99,15 +100,15 @@
     54,
     46
    ],
-   "duration": 278
+   "duration": 236
   },
   {
    "kind": "q",
    "audio": "audio/a08/04_q_a.mp3",
    "audioB": "audio/a08/04_q_b.mp3",
-   "bAt": 39,
-   "speak": 74,
-   "gap": 90,
+   "bAt": 35,
+   "speak": 69,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch Hier",
@@ -123,15 +124,15 @@
     7,
     93
    ],
-   "duration": 209
+   "duration": 195
   },
   {
    "kind": "mid",
    "audio": "audio/a08/05_mid_a.mp3",
    "audioB": "audio/a08/05_mid_b.mp3",
-   "bAt": 53,
-   "speak": 139,
-   "gap": 90,
+   "bAt": 56,
+   "speak": 150,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder duschen",
@@ -147,15 +148,15 @@
     98,
     2
    ],
-   "duration": 274
+   "duration": 276
   },
   {
    "kind": "q",
    "audio": "audio/a08/06_q_a.mp3",
    "audioB": "audio/a08/06_q_b.mp3",
-   "bAt": 81,
-   "speak": 165,
-   "gap": 90,
+   "bAt": 79,
+   "speak": 185,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Jahr nur Omar101",
@@ -171,15 +172,15 @@
     4,
     96
    ],
-   "duration": 300
+   "duration": 311
   },
   {
    "kind": "q",
    "audio": "audio/a08/07_q_a.mp3",
    "audioB": "audio/a08/07_q_b.mp3",
-   "bAt": 71,
-   "speak": 97,
-   "gap": 90,
+   "bAt": 69,
+   "speak": 91,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Insel: Free Game",
@@ -195,15 +196,15 @@
     46,
     54
    ],
-   "duration": 232
+   "duration": 217
   },
   {
    "kind": "q",
    "audio": "audio/a08/08_q_a.mp3",
    "audioB": "audio/a08/08_q_b.mp3",
-   "bAt": 54,
-   "speak": 88,
-   "gap": 90,
+   "bAt": 47,
+   "speak": 79,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Zackavelli erste Reihe",
@@ -219,17 +220,17 @@
     92,
     8
    ],
-   "duration": 223
+   "duration": 205
   },
   {
    "kind": "outro",
    "audio": "audio/a08/09_outro.mp3",
-   "speak": 156,
+   "speak": 147,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 größten Talahons, die du kennst",
-   "duration": 201
+   "duration": 192
   }
  ]
 }

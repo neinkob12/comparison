@@ -3,39 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2449,
+ "durationInFrames": 2211,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a07/00_hook_a.mp3",
    "audioB": "audio/a07/00_hook_b.mp3",
-   "bAt": 63,
-   "speak": 119,
-   "gap": 90,
+   "bAt": 37,
+   "speak": 75,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "Lucio im Fahrstuhl",
-    "img": "img/artists/lucio101.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Pashanim im Bällebad",
+    "label": "1 Nacht mit Pashanim",
     "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
+   "b": {
+    "label": "Nie wieder Lucio",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
    "pct": [
-    95,
-    5
+    9,
+    91
    ],
-   "duration": 254
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 165
   },
   {
    "kind": "q",
    "audio": "audio/a07/01_q_a.mp3",
    "audioB": "audio/a07/01_q_b.mp3",
-   "bAt": 49,
-   "speak": 93,
-   "gap": 90,
+   "bAt": 47,
+   "speak": 89,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Kleiner Prinz auf Repeat",
@@ -51,15 +52,15 @@
     3,
     97
    ],
-   "duration": 228
+   "duration": 215
   },
   {
    "kind": "q",
    "audio": "audio/a07/02_q_a.mp3",
    "audioB": "audio/a07/02_q_b.mp3",
-   "bAt": 84,
-   "speak": 112,
-   "gap": 90,
+   "bAt": 71,
+   "speak": 97,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Insel: Akh & Krach",
@@ -75,15 +76,15 @@
     65,
     35
    ],
-   "duration": 247
+   "duration": 223
   },
   {
    "kind": "q",
    "audio": "audio/a07/03_q_a.mp3",
    "audioB": "audio/a07/03_q_b.mp3",
-   "bAt": 95,
-   "speak": 135,
-   "gap": 90,
+   "bAt": 87,
+   "speak": 124,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Lucio als Bruder",
@@ -99,15 +100,15 @@
     1,
     99
    ],
-   "duration": 270
+   "duration": 250
   },
   {
    "kind": "q",
    "audio": "audio/a07/04_q_a.mp3",
    "audioB": "audio/a07/04_q_b.mp3",
-   "bAt": 43,
+   "bAt": 45,
    "speak": 75,
-   "gap": 90,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Samra erste Reihe",
@@ -123,15 +124,15 @@
     49,
     51
    ],
-   "duration": 210
+   "duration": 201
   },
   {
    "kind": "mid",
    "audio": "audio/a07/05_mid_a.mp3",
    "audioB": "audio/a07/05_mid_b.mp3",
-   "bAt": 58,
-   "speak": 158,
-   "gap": 90,
+   "bAt": 55,
+   "speak": 146,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder duschen",
@@ -147,15 +148,15 @@
     54,
     46
    ],
-   "duration": 293
+   "duration": 272
   },
   {
    "kind": "q",
    "audio": "audio/a07/06_q_a.mp3",
    "audioB": "audio/a07/06_q_b.mp3",
-   "bAt": 49,
-   "speak": 81,
-   "gap": 90,
+   "bAt": 48,
+   "speak": 78,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch +49",
@@ -171,15 +172,15 @@
     9,
     91
    ],
-   "duration": 216
+   "duration": 204
   },
   {
    "kind": "q",
    "audio": "audio/a07/07_q_a.mp3",
    "audioB": "audio/a07/07_q_b.mp3",
-   "bAt": 106,
-   "speak": 146,
-   "gap": 90,
+   "bAt": 101,
+   "speak": 136,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Jahr nur Luciano",
@@ -195,15 +196,15 @@
     17,
     83
    ],
-   "duration": 281
+   "duration": 262
   },
   {
    "kind": "q",
    "audio": "audio/a07/08_q_a.mp3",
    "audioB": "audio/a07/08_q_b.mp3",
-   "bAt": 60,
-   "speak": 119,
-   "gap": 90,
+   "bAt": 52,
+   "speak": 106,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nizi19 erste Reihe",
@@ -219,17 +220,17 @@
     6,
     94
    ],
-   "duration": 254
+   "duration": 232
   },
   {
    "kind": "outro",
    "audio": "audio/a07/09_outro.mp3",
-   "speak": 151,
+   "speak": 142,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 größten Gooner, die du kennst",
-   "duration": 196
+   "duration": 187
   }
  ]
 }

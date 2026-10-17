@@ -1,0 +1,141 @@
+{
+ "id": "g05",
+ "channel": "G",
+ "handle": null,
+ "format": "poll",
+ "claim": {
+  "title": "NUR 12%",
+  "sub": "LIEGEN RICHTIG",
+  "say": "Nur 12 Prozent liegen hier richtig!"
+ },
+ "questions": [
+  {
+   "say": "500.000 Euro sofort, oder 1 Euro, der sich 20 Tage lang jeden Tag verdoppelt?",
+   "a": {
+    "label": "500.000 € sofort",
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "1 € × 2, 20 Tage",
+    "emoji": "🪙"
+   },
+   "pct": [
+    38,
+    62
+   ]
+  },
+  {
+   "say": "Traumjob mit 2.500 netto, oder Hassjob mit 6.000 netto?",
+   "a": {
+    "label": "Traumjob 2.500 €",
+    "emoji": "😍"
+   },
+   "b": {
+    "label": "Hassjob 6.000 €",
+    "emoji": "😩"
+   },
+   "pct": [
+    52,
+    48
+   ]
+  },
+  {
+   "say": "Lotto-Jackpot mit 70, oder 1 Million mit 25?",
+   "a": {
+    "label": "Jackpot mit 70",
+    "emoji": "👴"
+   },
+   "b": {
+    "label": "1 Mio. mit 25",
+    "emoji": "🧑"
+   },
+   "pct": [
+    9,
+    91
+   ]
+  },
+  {
+   "say": "Ein Haus in der Pampa erben, oder 200.000 Euro bar?",
+   "a": {
+    "label": "Haus in der Pampa",
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "200.000 € bar",
+    "emoji": "💵"
+   },
+   "pct": [
+    35,
+    65
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Ein Jahr kein Handy, oder ein Jahr kein Urlaub?",
+   "a": {
+    "label": "1 Jahr kein Handy",
+    "emoji": "📱"
+   },
+   "b": {
+    "label": "1 Jahr kein Urlaub",
+    "emoji": "🏝️"
+   },
+   "pct": [
+    39,
+    61
+   ]
+  },
+  {
+   "say": "Chef mit 60 Stunden pro Woche, oder Angestellter mit 35 Stunden?",
+   "a": {
+    "label": "Chef, 60 h",
+    "emoji": "👔"
+   },
+   "b": {
+    "label": "Angestellter, 35 h",
+    "emoji": "🧑‍💻"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Für immer kostenlos Bahn fahren, oder für immer kostenlos tanken?",
+   "a": {
+    "label": "Gratis Bahn",
+    "emoji": "🚆"
+   },
+   "b": {
+    "label": "Gratis tanken",
+    "emoji": "⛽"
+   },
+   "pct": [
+    29,
+    71
+   ]
+  },
+  {
+   "say": "Ein Jahr lang alles bezahlt bekommen, oder 50.000 Euro bar?",
+   "a": {
+    "label": "1 Jahr alles bezahlt",
+    "emoji": "🎁"
+   },
+   "b": {
+    "label": "50.000 € bar",
+    "emoji": "💶"
+   },
+   "pct": [
+    64,
+    36
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Was hättest du gewählt? Schreibs in die Kommentare!",
+  "title": "WAS HÄTTEST DU GEWÄHLT?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an deinen Kumpel mit dem Dispo",
+  "shareSay": "Und schick das an deinen Kumpel mit dem Dispo!"
+ }
+}

@@ -1,0 +1,567 @@
+{
+ "streamers": {
+  "papaplatte": {
+   "display": "Papaplatte",
+   "real_name": {
+    "value": "Kevin Andreas Teller",
+    "source": "https://de.wikipedia.org/wiki/Papaplatte"
+   },
+   "nicknames": [],
+   "name_origin": {
+    "text": "Entstand in World of Warcraft: Ein aelteres Gildenmitglied hiess 'Papa Leon' (andere Quelle: Papaleone). Kevin wollte einen Krieger in Plattenruestung spielen und kombinierte 'Papa' mit 'Platte'. Laut Wikipedia nicht erklaert; stammt aus Steckbriefen.",
+    "source_url": "https://www.nextg.tv/promis/papaplatte-steckbrief-alles-zu-alter-echter-name-freundin-barcelona-herkunft-93760762.html"
+   },
+   "pronunciation": {
+    "spoken": "PAPA-PLATTE (Betonung auf jeweils erster Silbe, Platte laut Wiktionary [ˈplatə])",
+    "tts_spelling": "Papa Platte",
+    "verified": false,
+    "source_url": "https://de.wiktionary.org/wiki/Platte"
+   }
+  },
+  "montanablack": {
+   "display": "MontanaBlack",
+   "real_name": {
+    "value": "Marcel Thomas Andreas Eris",
+    "source": "https://de.wikipedia.org/wiki/MontanaBlack"
+   },
+   "nicknames": [
+    {
+     "name": "Monte",
+     "used_by": "Community, Fans, Presse (Wikipedia: 'kurz auch Monte'); Hugo-Titel 'OH TUT MIT LEID MONTE'",
+     "source_url": "https://de.wikipedia.org/wiki/MontanaBlack"
+    },
+    {
+     "name": "Monte (Twitter-Hashtag #Monte 2020)",
+     "used_by": "Twitter-Nutzer",
+     "source_url": "https://www.severint.net/2020/09/24/warum-trendet-ende-september-2020-monte-auf-twitter/"
+    },
+    {
+     "name": "Onkel Monte",
+     "used_by": "Erwaehnt in mein-mmo-Artikel ueber Trymacs; Verwendung durch wen nicht naeher belegt",
+     "source_url": "https://mein-mmo.de/en/from-pizza-delivery-person-to-one-of-the-largest-german-twitch-streamers-the-career-of-trymacs,1105672/"
+    }
+   ],
+   "name_origin": {
+    "text": "Laut Profilen aus Montana (Graffiti-Spraydosen-Marke, Lieblingsdose) plus 88 fuer Geburtsjahr 1988; Wikipedia bestaetigt nur, dass 88 das Geburtsjahr ist.",
+    "source_url": "https://www.fragster.de/montanablack-twitch-streamer-vorgestellt/"
+   },
+   "pronunciation": {
+    "spoken": "Montana Black (englisch 'Bläck' ist ueblich, nicht belegt)",
+    "tts_spelling": "Montana Black",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "knossi": {
+   "display": "Knossi",
+   "real_name": {
+    "value": "Jens Heinz Richard Knossalla",
+    "source": "https://de.wikipedia.org/wiki/Knossi"
+   },
+   "nicknames": [
+    {
+     "name": "König des Internets",
+     "used_by": "Selbsttitel; Buchtitel 2020; tritt mit Krone auf",
+     "source_url": "https://en.wikipedia.org/wiki/Jens_Knossalla"
+    },
+    {
+     "name": "TheRealKnossi",
+     "used_by": "Twitch-Kanalname",
+     "source_url": "https://de.wikipedia.org/wiki/Knossi"
+    }
+   ],
+   "name_origin": {
+    "text": "Widerspruechlich: Fragster nennt eine Abwandlung des Nachnamens Knossalla; Tegernseerstimme verweist auf den Poker-Nick (PokerStars). Keine Aussage von ihm gefunden.",
+    "source_url": "https://www.fragster.de/therealknossi-twitch-streamer-vorgestellt/"
+   },
+   "pronunciation": {
+    "spoken": "Knossi, mit gesprochenem K, wie geschrieben (nicht belegt)",
+    "tts_spelling": "Knossi",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "trymacs": {
+   "display": "Trymacs",
+   "real_name": {
+    "value": "Maximilian Alexander Curt Stemmler",
+    "source": "https://de.wikipedia.org/wiki/Trymacs"
+   },
+   "nicknames": [
+    {
+     "name": "Max",
+     "used_by": "Freunde",
+     "source_url": "https://streamfollower.de/guides/twitch-deutschland-trymacs/"
+    },
+    {
+     "name": "Streamer ohne Skill",
+     "used_by": "Selbsttitel (selbstironisch)",
+     "source_url": "https://mein-mmo.de/en/from-pizza-delivery-person-to-one-of-the-largest-german-twitch-streamers-the-career-of-trymacs,1105672/"
+    },
+    {
+     "name": "Pay2Win-Streamer",
+     "used_by": "Selbsttitel und Kritiker",
+     "source_url": "https://mein-mmo.de/en/from-pizza-delivery-person-to-one-of-the-largest-german-twitch-streamers-the-career-of-trymacs,1105672/"
+    }
+   ],
+   "name_origin": {
+    "text": "Frueher Gamertag 'xmacs'. Um 2011 im Browsergame 'Die Staemme' im Clan 'try', dessen Mitglieder 'Try' vor den Namen setzten, daraus TryMacs. Er erzaehlte das selbst im Stream.",
+    "source_url": "https://www.nextg.tv/promis/streamer-trymacs-erklaert-entstehung-seines-namens-bedeutung-und-herkunft-echter-name-93492566.html"
+   },
+   "pronunciation": {
+    "spoken": "Trai-Mäks (englisch Try plus Macs, nicht belegt)",
+    "tts_spelling": "Trai Mäks",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "unge": {
+   "display": "Unge",
+   "real_name": {
+    "value": "Simon Wiefels",
+    "source": "https://de.wikipedia.org/wiki/Ungespielt"
+   },
+   "nicknames": [
+    {
+     "name": "Ungespielt",
+     "used_by": "Kanalname/Pseudonym laut Wikipedia",
+     "source_url": "https://de.wikipedia.org/wiki/Ungespielt"
+    },
+    {
+     "name": "Unschwer",
+     "used_by": "fruehes Pseudonym/Kanal laut Wikipedia",
+     "source_url": "https://de.wikipedia.org/wiki/Ungespielt"
+    }
+   ],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Unge (wie 'Unge' in ungefaehr, nicht belegt)",
+    "tts_spelling": "Unge",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "rewinside": {
+   "display": "Rewinside",
+   "real_name": {
+    "value": "Sebastian Meyer",
+    "source": "https://de.wikipedia.org/wiki/Rewinside"
+   },
+   "nicknames": [
+    {
+     "name": "Rewi",
+     "used_by": "Kurzform/Spitzname laut Wikipedia",
+     "source_url": "https://de.wikipedia.org/wiki/Rewinside"
+    },
+    {
+     "name": "Rewilz",
+     "used_by": "Fan-Wortspiel (Rewi plus Rotpilz), nur ueber Fandom-Wiki-Zusammenfassung belegt",
+     "source_url": "https://youtube.fandom.com/de/wiki/Rewinside"
+    }
+   ],
+   "name_origin": {
+    "text": "Kanal 'rewinside' gegruendet 5. Juli 2013 nach dem frueheren Kanal TwoRewinds; Bedeutung des Namens nicht belegt.",
+    "source_url": "https://de.wikipedia.org/wiki/Rewinside"
+   },
+   "pronunciation": {
+    "spoken": "Rewi (Reh-wi); Rewinside vermutlich Ri-win-said (nicht belegt)",
+    "tts_spelling": "Rewi",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "handofblood": {
+   "display": "HandOfBlood",
+   "real_name": {
+    "value": "Maximilian Paul Karl-Heinz Knabe",
+    "source": "https://de.wikipedia.org/wiki/HandOfBlood"
+   },
+   "nicknames": [
+    {
+     "name": "Hänno",
+     "used_by": "Community und Presse ('kurz Hänno'); Format 'Hänno unterwegs'",
+     "source_url": "https://de.wikipedia.org/wiki/HandOfBlood"
+    },
+    {
+     "name": "Max",
+     "used_by": "Spitzname laut Wikipedia-Personendaten",
+     "source_url": "https://de.wikipedia.org/wiki/HandOfBlood"
+    }
+   ],
+   "name_origin": {
+    "text": "Laut Wikipedia nach dem gleichnamigen Lied der Band Bullet for My Valentine.",
+    "source_url": "https://de.wikipedia.org/wiki/HandOfBlood"
+   },
+   "pronunciation": {
+    "spoken": "Hänno; HandOfBlood englisch: Händ of Blad (nicht belegt)",
+    "tts_spelling": "Hänno",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "gronkh": {
+   "display": "Gronkh",
+   "real_name": {
+    "value": "Erik Range",
+    "source": "https://de.wikipedia.org/wiki/Gronkh"
+   },
+   "nicknames": [
+    {
+     "name": "Gronkhstradamus",
+     "used_by": "Selbstname bei X-Factor: Das Unfassbare (2021)",
+     "source_url": "https://de.wikipedia.org/wiki/Gronkh"
+    },
+    {
+     "name": "Das E",
+     "used_by": "Buehnenname in der Braunschweiger HipHop-Szene (Jugend)",
+     "source_url": "https://de.wikipedia.org/wiki/Gronkh"
+    },
+    {
+     "name": "Gregor Onkh",
+     "used_by": "Scherzhafte eigene Erklaerung des Namens als Kofferwort",
+     "source_url": "https://www.bedeutungonline.de/woher-haben-gronkh-sarazar-pandorya-tobinator-herr-currywurst-mafuyux-ihre-namen-namensherkunft-bedeutung/"
+    }
+   ],
+   "name_origin": {
+    "text": "Aus dem MMORPG Meridian 59, wo er als Gamemaster einen Steintroll spielte; der raue Klang passte zur Figur (stark, grob, nicht sehr intelligent). Scherzhaft: Kurzform von 'Gregor Onkh'.",
+    "source_url": "https://www.bedeutungonline.de/woher-haben-gronkh-sarazar-pandorya-tobinator-herr-currywurst-mafuyux-ihre-namen-namensherkunft-bedeutung/"
+   },
+   "pronunciation": {
+    "spoken": "Gronk (nicht belegt)",
+    "tts_spelling": "Gronk",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "eliasn97": {
+   "display": "EliasN97",
+   "real_name": {
+    "value": "Elias Nerlich",
+    "source": "https://de.wikipedia.org/wiki/EliasN97"
+   },
+   "nicknames": [
+    {
+     "name": "Eli",
+     "used_by": "Spitzname laut Wikipedia",
+     "source_url": "https://de.wikipedia.org/wiki/EliasN97"
+    },
+    {
+     "name": "Eligella",
+     "used_by": "frueherer Kanalname (2017)",
+     "source_url": "https://de.wikipedia.org/wiki/EliasN97"
+    }
+   ],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Elias N Siebenundneunzig; im Alltag Eli (nicht belegt)",
+    "tts_spelling": "Elias N Siebenundneunzig",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "sidneyeweka": {
+   "display": "SidneyEweka",
+   "real_name": {
+    "value": "Sidney Friede (nur Regionalpresse, kein Wikipedia-Artikel gefunden)",
+    "source": "https://www.heidelberg24.de/ratgeber/sidney-friede-ueberbezahlte-berufe-influencer-umfrage-twitter-berlin-umfrage-fussballer-1ng-zr-92224051.html"
+   },
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Sidni Eweka (nicht belegt)",
+    "tts_spelling": "Sidney Eweka",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "mckytv": {
+   "display": "MckyTV",
+   "real_name": {
+    "value": "Michael Kevin Christian Doleys (Promiflash, mein-mmo)",
+    "source": "https://www.promiflash.de/news/2025/08/24/sein-comeback-twitch-star-mckytv-tritt-bei-fame-fighting-an.html"
+   },
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Micky TV (Aussprache nicht belegt, Vermutung)",
+    "tts_spelling": "Micky Ti Wi",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "reved": {
+   "display": "Reved",
+   "real_name": {
+    "value": "Antonia Staab",
+    "source": "https://de.wikipedia.org/wiki/Reved"
+   },
+   "nicknames": [
+    {
+     "name": "Ruffy",
+     "used_by": "erster Kanalname (2014, '_Ruffy_')",
+     "source_url": "https://de.wikipedia.org/wiki/Reved"
+    }
+   ],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Reved (nicht belegt)",
+    "tts_spelling": "Reved",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "unsympathischtv": {
+   "display": "unsympathischTV",
+   "real_name": {
+    "value": "Jan-Sascha Hellinger",
+    "source": "https://de.wikipedia.org/wiki/UnsympathischTV"
+   },
+   "nicknames": [
+    {
+     "name": "Sascha",
+     "used_by": "Twitch-Name 'sascha', Rufname Sascha Hellinger",
+     "source_url": "https://de.wikipedia.org/wiki/UnsympathischTV"
+    }
+   ],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Unsympathisch TV (wie geschrieben)",
+    "tts_spelling": "Unsympathisch Ti Wi",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "tanzverbot": {
+   "display": "Tanzverbot",
+   "real_name": {
+    "value": "Kilian Roberto Heinrich (Presse: earlygame, leinetal24)",
+    "source": "https://www.leinetal24.de/leben/games/tanzverbot-verhaeltnis-vater-kontaktabbruch-twitter-fans-kilian-roberto-heinrich-hamburg-1ng-zr-92152267.html"
+   },
+   "nicknames": [],
+   "name_origin": {
+    "text": "Beim Lesen zufaelliger Wikipedia-Artikel stiess er auf Tanzverbote an stillen Feiertagen und nutzte den Begriff jahrelang als Gamertag.",
+    "source_url": "https://earlygame.com/de/entertainment/tanzverbot-twitch-youtube-freundin-vermoegen"
+   },
+   "pronunciation": {
+    "spoken": "Tanzverbot (deutsches Wort)",
+    "tts_spelling": "Tanzverbot",
+    "verified": true,
+    "source_url": "https://earlygame.com/de/entertainment/tanzverbot-twitch-youtube-freundin-vermoegen"
+   }
+  },
+  "zarbex": {
+   "display": "Zarbex",
+   "real_name": {
+    "value": "Maik (Nachname nicht oeffentlich angegeben)",
+    "source": "https://de.wikipedia.org/wiki/Zarbex"
+   },
+   "nicknames": [
+    {
+     "name": "Schrabex",
+     "used_by": "Community-Kofferwort fuer das Duo Zarbex plus Max Schradin",
+     "source_url": "https://de.wikipedia.org/wiki/Zarbex"
+    },
+    {
+     "name": "Sidekick",
+     "used_by": "Rolle bei KuchenTV",
+     "source_url": "https://de.wikipedia.org/wiki/Zarbex"
+    },
+    {
+     "name": "Der fette Zarbex",
+     "used_by": "Name eines Kaeses bei einer Winterberg-Tour",
+     "source_url": "https://de.wikipedia.org/wiki/Zarbex"
+    }
+   ],
+   "name_origin": {
+    "text": "Kuenstlername seit 2012; Bedeutung nicht erklaert.",
+    "source_url": "https://de.wikipedia.org/wiki/Zarbex"
+   },
+   "pronunciation": {
+    "spoken": "Zarbex (nicht belegt)",
+    "tts_spelling": "Zarbex",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "stegi": {
+   "display": "Stegi",
+   "real_name": null,
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Stegi (Stegi, Vermutung)",
+    "tts_spelling": "Stegi",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "rumathra": {
+   "display": "Rumathra",
+   "real_name": {
+    "value": "Wieland Welte (earlygame, mein-mmo)",
+    "source": "https://earlygame.com/de/news/influencers/streamer-streich-von-papaplatte-an-rumathra-post-geht-viral"
+   },
+   "nicknames": [
+    {
+     "name": "Ruru",
+     "used_by": "nur in einem Fandom-Wiki-Eintrag gefunden, schwach belegt",
+     "source_url": "https://youtube.fandom.com/de/wiki/Rumathra"
+    }
+   ],
+   "name_origin": {
+    "text": "Laut einem Steckbrief aus der Fantasy-Buchreihe 'Bartimaeus' entlehnt; nur eine Quelle, unsicher.",
+    "source_url": "https://www.bedeutungonline.de/wer-ist-rumathra-lebenslauf-steckbrief-biografie/"
+   },
+   "pronunciation": {
+    "spoken": "Ru-ma-tra (nicht belegt)",
+    "tts_spelling": "Rumathra",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "noway": {
+   "display": "NoWay4u_Sir",
+   "real_name": {
+    "value": "Frederik Hinteregger (mein-mmo)",
+    "source": "https://mein-mmo.de/noway4u-grosster-deutschen-lol-twitch-streamer/"
+   },
+   "nicknames": [
+    {
+     "name": "NoWay",
+     "used_by": "gaengige Kurzform in der Presse",
+     "source_url": "https://mein-mmo.de/noway-erzaehlt-von-peinlichen-begegnung-mit-seinem-idol-gronkh/"
+    }
+   ],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "No Way (englisch, wie geschrieben, nicht belegt)",
+    "tts_spelling": "No Wäi",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "inscope21": {
+   "display": "inscope21",
+   "real_name": {
+    "value": "Nicolas Lazaridis (Promiflash; leinetal24 schreibt Nico)",
+    "source": "https://www.promiflash.de/thema/inscope21/"
+   },
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "In Skoup einundzwanzig (nicht belegt)",
+    "tts_spelling": "In Skoup einundzwanzig",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "rezo": {
+   "display": "Rezo",
+   "real_name": null,
+   "nicknames": [],
+   "name_origin": {
+    "text": "Laut Wikipedia hat 'Rezo' keine Bedeutung; er waehlte ihn, weil er bei Freunden gut ankam. Buergerlicher Name wird bewusst nicht genannt.",
+    "source_url": "https://de.wikipedia.org/wiki/Rezo"
+   },
+   "pronunciation": {
+    "spoken": "Wikipedia-IPA [ˈɹiːzo], also 'Riso' mit langem i",
+    "tts_spelling": "Riesso",
+    "verified": true,
+    "source_url": "https://de.wikipedia.org/wiki/Rezo"
+   }
+  },
+  "bastighg": {
+   "display": "BastiGHG",
+   "real_name": null,
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Basti G H G (nicht belegt)",
+    "tts_spelling": "Basti Gee Ha Gee",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "shurjoka": {
+   "display": "Shurjoka",
+   "real_name": {
+    "value": "Pia Anna Scholz",
+    "source": "https://de.wikipedia.org/wiki/Shurjoka"
+   },
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Schurjoka (nicht belegt)",
+    "tts_spelling": "Schurjoka",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "dhalucard": {
+   "display": "Dhalucard",
+   "real_name": null,
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Dalu-card (nicht belegt)",
+    "tts_spelling": "Dalukard",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "amar": {
+   "display": "Amar",
+   "real_name": null,
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Amar (Vermutung)",
+    "tts_spelling": "Amar",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "filow": {
+   "display": "Filow",
+   "real_name": {
+    "value": "Felix Nier",
+    "source": "https://de.wikipedia.org/wiki/Filow"
+   },
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Filo (nicht belegt)",
+    "tts_spelling": "Filo",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "apored": {
+   "display": "Apored",
+   "real_name": null,
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Apored (nicht belegt)",
+    "tts_spelling": "Apored",
+    "verified": false,
+    "source_url": null
+   }
+  },
+  "sascha": {
+   "display": "Sascha (Knossis Freund)",
+   "real_name": {
+    "value": "Sascha Huber (Fitness-Influencer, 7 vs. Wild mit Knossi); Zuordnung unsicher, koennte auch unsympathischTV (Sascha Hellinger) sein",
+    "source": "https://www.tvmovie.de/news/7-vs-wild-sascha-huber-krank-knossi-uebelkeit-fieber-folgen-wer-ist-raus-alter-youtube-137867"
+   },
+   "nicknames": [],
+   "name_origin": null,
+   "pronunciation": {
+    "spoken": "Sascha (deutscher Vorname)",
+    "tts_spelling": "Sascha",
+    "verified": true,
+    "source_url": null
+   }
+  }
+ }
+}

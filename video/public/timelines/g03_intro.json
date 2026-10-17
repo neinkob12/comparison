@@ -1,0 +1,19 @@
+{
+ "id": "g03_intro",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 73,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g03/claim_cut.mp3",
+   "speak": 55,
+   "voiceAt": 6,
+   "title": "NUR 1 VON 10",
+   "sub": "SCHAFFT BEIDE",
+   "hold": 18,
+   "duration": 73
+  }
+ ]
+}

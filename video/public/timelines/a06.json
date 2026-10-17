@@ -3,15 +3,15 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2438,
+ "durationInFrames": 2264,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a06/00_hook_a.mp3",
    "audioB": "audio/a06/00_hook_b.mp3",
-   "bAt": 37,
-   "speak": 77,
-   "gap": 90,
+   "bAt": 35,
+   "speak": 72,
+   "gap": 45,
    "hold": 45,
    "a": {
     "label": "1 Nacht mit Lucio",
@@ -27,15 +27,16 @@
     7,
     93
    ],
-   "duration": 212
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 162
   },
   {
    "kind": "q",
    "audio": "audio/a06/01_q_a.mp3",
    "audioB": "audio/a06/01_q_b.mp3",
    "bAt": 35,
-   "speak": 85,
-   "gap": 90,
+   "speak": 86,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Hier löschen",
@@ -51,15 +52,15 @@
     98,
     2
    ],
-   "duration": 220
+   "duration": 212
   },
   {
    "kind": "q",
    "audio": "audio/a06/02_q_a.mp3",
    "audioB": "audio/a06/02_q_b.mp3",
-   "bAt": 100,
-   "speak": 163,
-   "gap": 90,
+   "bAt": 96,
+   "speak": 156,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Jahr nur Haribo",
@@ -75,15 +76,15 @@
     15,
     85
    ],
-   "duration": 298
+   "duration": 282
   },
   {
    "kind": "q",
    "audio": "audio/a06/03_q_a.mp3",
    "audioB": "audio/a06/03_q_b.mp3",
-   "bAt": 37,
-   "speak": 93,
-   "gap": 90,
+   "bAt": 33,
+   "speak": 92,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Tag mit Mucco",
@@ -99,15 +100,15 @@
     92,
     8
    ],
-   "duration": 228
+   "duration": 218
   },
   {
    "kind": "q",
    "audio": "audio/a06/04_q_a.mp3",
    "audioB": "audio/a06/04_q_b.mp3",
-   "bAt": 39,
-   "speak": 81,
-   "gap": 90,
+   "bAt": 35,
+   "speak": 74,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "CUP löschen",
@@ -123,15 +124,15 @@
     6,
     94
    ],
-   "duration": 216
+   "duration": 200
   },
   {
    "kind": "mid",
    "audio": "audio/a06/05_mid_a.mp3",
    "audioB": "audio/a06/05_mid_b.mp3",
-   "bAt": 61,
-   "speak": 180,
-   "gap": 90,
+   "bAt": 53,
+   "speak": 165,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder duschen",
@@ -147,15 +148,15 @@
     51,
     49
    ],
-   "duration": 315
+   "duration": 291
   },
   {
    "kind": "q",
    "audio": "audio/a06/06_q_a.mp3",
    "audioB": "audio/a06/06_q_b.mp3",
-   "bAt": 91,
-   "speak": 130,
-   "gap": 90,
+   "bAt": 81,
+   "speak": 118,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Jahr nur Cano030",
@@ -171,15 +172,15 @@
     27,
     73
    ],
-   "duration": 265
+   "duration": 244
   },
   {
    "kind": "q",
    "audio": "audio/a06/07_q_a.mp3",
    "audioB": "audio/a06/07_q_b.mp3",
-   "bAt": 71,
-   "speak": 105,
-   "gap": 90,
+   "bAt": 68,
+   "speak": 101,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Insel: Free Game",
@@ -195,15 +196,15 @@
     48,
     52
    ],
-   "duration": 240
+   "duration": 227
   },
   {
    "kind": "q",
    "audio": "audio/a06/08_q_a.mp3",
    "audioB": "audio/a06/08_q_b.mp3",
-   "bAt": 76,
-   "speak": 132,
-   "gap": 90,
+   "bAt": 65,
+   "speak": 119,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Lacazette als Bruder",
@@ -219,17 +220,17 @@
     1,
     99
    ],
-   "duration": 267
+   "duration": 245
   },
   {
    "kind": "outro",
    "audio": "audio/a06/09_outro.mp3",
-   "speak": 132,
+   "speak": 138,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Teile das Video mit deinen Akhs",
-   "duration": 177
+   "duration": 183
   }
  ]
 }

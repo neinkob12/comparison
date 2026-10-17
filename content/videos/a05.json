@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "24 Stunden mit Pashanim im Fahrstuhl, oder mit Mucco im Bällebad?",
+  "say": "Eine Nacht mit Mucco, oder nie wieder Pashanim hören?",
   "a": {
-   "label": "Pashanim im Fahrstuhl",
-   "img": "artists/pashanim.jpg"
-  },
-  "b": {
-   "label": "Mucco im Bällebad",
+   "label": "1 Nacht mit Mucco",
    "img": "artists/mucco.jpg"
   },
+  "b": {
+   "label": "Nie wieder Pashanim",
+   "img": "artists/pashanim.jpg"
+  },
   "pct": [
-   3,
-   97
+   6,
+   94
   ],
   "type": "hook"
  },

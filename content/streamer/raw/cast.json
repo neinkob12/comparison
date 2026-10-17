@@ -1,0 +1,850 @@
+{
+ "streamers": [
+  {
+   "key": "montanablack",
+   "name": "MontanaBlack",
+   "real_name": "Marcel Eris",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "ca. 6-7 Mio Twitch (Naeherung)",
+   "active": "2012-heute",
+   "vibe": "Groesster deutscher Streamer, Ex-Gangster-Image, Ghetto-Humor, Casino und Talk.",
+   "hugo_frequency": "high",
+   "hugo_evidence": "Walulis Story nennt ihn als Hugo-Quelle; mein-mmo: MontanaBlack reagiert live auf Satter-Hugo-Videos 'Ihr seid alle Bots' und Tanzverbot-Video, fuehlt sich falsch dargestellt.",
+   "crew": [
+    "Monte-Crew",
+    "HandOfBlood",
+    "Knossi (lose)"
+   ],
+   "rivals": [
+    "Tanzverbot (Hugo-Video-Zoff, Luxus-Kritik)",
+    "Satter-Hugo-Cutter (laut Monte)"
+   ],
+   "tts_spelling": "Montana Bläck (Monte: 'Monte')",
+   "avatar_source": "https://www.twitch.tv/montanablack88",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-fuehlt-sich-ungerecht-dargestellt/",
+    "https://mein-mmo.de/montanablack-reagiert-auf-satter-hugo-zu-tanzverbot/",
+    "https://thetvdb.com/series/walulis-story/episodes/9286453"
+   ],
+   "confidence": "high"
+  },
+  {
+   "key": "papaplatte",
+   "name": "Papaplatte",
+   "real_name": "Kevin Teller",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "ca. 2,5 Mio Twitch (Naeherung)",
+   "active": "2016-heute",
+   "vibe": "Laut, chaotisch, Ruhrpott-Humor, Rage-Momente und Nahaufnahme-Memes.",
+   "hugo_frequency": "high",
+   "hugo_evidence": "mein-mmo: Papaplatte verbot Hugo 2021 die Nutzung seiner Aufnahmen; instream: kritisierte Clip-Kanaele, Hugo antwortete mit Spott-Video.",
+   "crew": [
+    "Trymacs",
+    "EliasN97",
+    "Gewitter im Kopf-Umfeld"
+   ],
+   "rivals": [
+    "Hungriger Hugo (Clip-Verbot 2021)"
+   ],
+   "tts_spelling": "Papa Platte",
+   "avatar_source": "https://www.twitch.tv/papaplatte",
+   "source_urls": [
+    "https://mein-mmo.de/hungriger-hugo-einnahmen-erfolg/",
+    "https://instream.de/hungriger-hugo-kenn-den-streamer",
+    "https://thetvdb.com/series/walulis-story/episodes/9286453"
+   ],
+   "confidence": "high"
+  },
+  {
+   "key": "knossi",
+   "name": "Knossi",
+   "real_name": "Jens Knossalla",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "ca. 3 Mio Twitch (Naeherung)",
+   "active": "2013-heute",
+   "vibe": "Kölscher Entertainer, Freund aller, Pizza-Business, Oberhaus des Chaos.",
+   "hugo_frequency": "high",
+   "hugo_evidence": "Walulis Story nennt Knossi als Hugo-Quelle; mein-mmo: in den ersten Sekunden eines Satter-Hugo-Videos zu sehen.",
+   "crew": [
+    "Sascha (Unsympathisch TV)",
+    "Trymacs (Happy Slice)",
+    "Monte"
+   ],
+   "rivals": [],
+   "tts_spelling": "Knossi (Kno-ssi, wie geschrieben)",
+   "avatar_source": "https://www.twitch.tv/knossi",
+   "source_urls": [
+    "https://thetvdb.com/series/walulis-story/episodes/9286453",
+    "https://mein-mmo.de/montanablack-fuehlt-sich-ungerecht-dargestellt/",
+    "https://mein-mmo.de/trymacs-knossi-pizza-chaos/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "key": "trymacs",
+   "name": "Trymacs",
+   "real_name": "Marc Trymacs",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "ca. 2,5 Mio Twitch (Naeherung)",
+   "active": "2012-heute",
+   "vibe": "Hyperaktiver Sprueche-Klopfer, Gaming und Challenges, Happy-Slice-Gruender.",
+   "hugo_frequency": "high",
+   "hugo_evidence": "Walulis Story nennt Trymacs als Hugo-Quelle; mein-mmo: in den ersten Sekunden eines Satter-Hugo-Videos; Trymacs-Reaktion auf '2 Jahre Satter Hugo Best of' (last.fm Listing).",
+   "crew": [
+    "Knossi",
+    "EliasN97",
+    "Papaplatte"
+   ],
+   "rivals": [],
+   "tts_spelling": "Trai Max",
+   "avatar_source": "https://www.twitch.tv/trymacs",
+   "source_urls": [
+    "https://thetvdb.com/series/walulis-story/episodes/9286453",
+    "https://mein-mmo.de/montanablack-fuehlt-sich-ungerecht-dargestellt/",
+    "https://mein-mmo.de/trymacs-knossi-pizza-chaos/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "key": "unge",
+   "name": "Unge",
+   "real_name": "Ungespielt, Simon Unge",
+   "platforms": [
+    "YouTube",
+    "Twitch"
+   ],
+   "followers": "ca. 4+ Mio YouTube (Naeherung)",
+   "active": "2012-heute",
+   "vibe": "Familienfreundlicher Comedy-Gamer, Parodien, Ungespielt-Marke.",
+   "hugo_frequency": "medium",
+   "hugo_evidence": "instream erwaehnt Unge im Hugo-Umfeld (nicht als Videoteilnehmer bestaetigt).",
+   "crew": [
+    "Rewinside (Minecraft-Ära)",
+    "Gronkh-Umfeld"
+   ],
+   "rivals": [],
+   "tts_spelling": "Unge (Unnge)",
+   "avatar_source": "https://www.youtube.com/@Unge",
+   "source_urls": [
+    "https://instream.de/hungriger-hugo-kenn-den-streamer"
+   ],
+   "confidence": "low"
+  },
+  {
+   "key": "rewinside",
+   "name": "Rewinside",
+   "real_name": "Rewi",
+   "platforms": [
+    "YouTube",
+    "Twitch"
+   ],
+   "followers": "ca. 3 Mio YouTube (Naeherung)",
+   "active": "2012-heute",
+   "vibe": "Laessiger Minecraft/GTA-Entertainer, reagiert selbst auf Hungriger Hugo.",
+   "hugo_frequency": "medium",
+   "hugo_evidence": "Mehrere YouTube-Reaktionsvideos 'Rewi reagiert auf Hungriger Hugo'.",
+   "crew": [
+    "Unge",
+    "Emily (Emily & Rewi)"
+   ],
+   "rivals": [],
+   "tts_spelling": "Ree-wie-seid",
+   "avatar_source": "https://www.youtube.com/@Rewinside",
+   "source_urls": [
+    "https://www.youtube.com/watch?v=aTH7cU9Cchs"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "key": "handofblood",
+   "name": "HandOfBlood",
+   "real_name": "Leon, Twitch-Hand",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "ca. 1,3 Mio Twitch (Naeherung)",
+   "active": "2016-heute",
+   "vibe": "Monte-Kumpel, Gaming und Just Chatting, ruhig und trocken.",
+   "hugo_frequency": "medium",
+   "hugo_evidence": "mein-mmo Satter-Hugo-Artikel erwaehnt HandofBlood im MontanaBlack-Kontext.",
+   "crew": [
+    "MontanaBlack"
+   ],
+   "rivals": [],
+   "tts_spelling": "Hand of Blood (Haend of Bladd)",
+   "avatar_source": "https://www.twitch.tv/handofblood",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-fuehlt-sich-ungerecht-dargestellt/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "key": "gronkh",
+   "name": "Gronkh",
+   "real_name": "Erik Range",
+   "platforms": [
+    "YouTube",
+    "Twitch"
+   ],
+   "followers": "ca. 5 Mio YouTube (Naeherung)",
+   "active": "2006-heute",
+   "vibe": "Let's-Play-Legende, ruhige Bassstimme, 'Pantoffel-Kino'.",
+   "hugo_frequency": "low",
+   "hugo_evidence": "Keine direkte Hugo-Quelle gefunden. Kerncast-Wunsch, nicht verifiziert.",
+   "crew": [
+    "Sarazar",
+    "Pandorya"
+   ],
+   "rivals": [],
+   "tts_spelling": "Grong-k",
+   "avatar_source": "https://www.twitch.tv/gronkh",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "eliasn97",
+   "name": "EliasN97",
+   "real_name": "Elias Nerlich",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "ca. 2 Mio Twitch (Naeherung)",
+   "active": "2016-heute",
+   "vibe": "Lauter Rage-Gamer, Memes, Challenge-Streams mit Trymacs.",
+   "hugo_frequency": "high",
+   "hugo_evidence": "StreamAwards-Nominierung (Wikipedia); Hugo-Haeufigkeit aus Allgemeinwissen.",
+   "crew": [
+    "Trymacs",
+    "Papaplatte"
+   ],
+   "rivals": [],
+   "tts_spelling": "Elias N Neun Sieben",
+   "avatar_source": "https://www.twitch.tv/eliasn97",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/StreamAwards"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "key": "sidneyeweka",
+   "name": "Sidneyeweka",
+   "real_name": "Sidney Eweka",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "ca. 1,5 Mio (Naeherung)",
+   "active": "2018-heute",
+   "vibe": "Entertainer, Just Chatting, Reaction-Humor.",
+   "hugo_frequency": "medium",
+   "hugo_evidence": "Monte-Reaktion auf Hugo-Video mit dem Titel-Zitat 'Sidney ist drin bei Corinna Kopf'.",
+   "crew": [
+    "Monte-Umfeld"
+   ],
+   "rivals": [],
+   "tts_spelling": "Sidney Eweka",
+   "avatar_source": "https://www.twitch.tv/sidneyeweka",
+   "source_urls": [
+    "https://www.youtube.com/watch?v=HfTPGod8_jA"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "key": "mckytv",
+   "name": "Mckytv",
+   "real_name": "Mecki",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "ca. 1 Mio Twitch (Naeherung)",
+   "active": "2019-heute",
+   "vibe": "Chaotischer Just-Chatting-Streamer mit eigenen Catchphrases.",
+   "hugo_frequency": "medium",
+   "hugo_evidence": "Kerncast-Wunsch, keine Quelle gefunden.",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Mecki Tie Wie",
+   "avatar_source": "https://www.twitch.tv/mckytv",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "reved",
+   "name": "Reved",
+   "real_name": "Marvin Reved",
+   "platforms": [
+    "YouTube",
+    "Twitch"
+   ],
+   "followers": "ca. 500k-1 Mio YouTube (Naeherung)",
+   "active": "2016-heute",
+   "vibe": "Reaktionen auf Memes und Hungriger-Hugo-Videos.",
+   "hugo_frequency": "high",
+   "hugo_evidence": "Zahlreiche YouTube-Reaktionen 'Reved REAGIERT auf ... von Hungriger Hugo'.",
+   "crew": [
+    "Reaction-Szene",
+    "Zarbex"
+   ],
+   "rivals": [],
+   "tts_spelling": "Ree-wed",
+   "avatar_source": "https://www.youtube.com/@Reved",
+   "source_urls": [
+    "https://www.youtube.com/watch?v=Hvnd4Y59mZQ"
+   ],
+   "confidence": "high"
+  },
+  {
+   "key": "tanzverbot",
+   "name": "Tanzverbot",
+   "real_name": "Kilian Heinrich",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "ca. 700k Twitch",
+   "active": "2014-heute",
+   "vibe": "Shopping-Streamer, Dramen, Musik-Projekte, Pleite-Ankuendigung.",
+   "hugo_frequency": "high",
+   "hugo_evidence": "Satter-Hugo-Video mit Pleite-Ankuendigung plus Shopping-Clips; Wikipedia: Tanzverbots Gesang ist Outro-Endcard der Hugo-Videos.",
+   "crew": [
+    "Monte (Zoff)"
+   ],
+   "rivals": [
+    "MontanaBlack"
+   ],
+   "tts_spelling": "Tanz-Ver-Bot",
+   "avatar_source": "https://www.twitch.tv/tanzverbot",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-reagiert-auf-satter-hugo-zu-tanzverbot/",
+    "https://de.wikipedia.org/wiki/Tanzverbot_(Webvideoproduzent)"
+   ],
+   "confidence": "high"
+  },
+  {
+   "key": "letshugo",
+   "name": "LetsHugo",
+   "real_name": "Hugo Goedert",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "ca. 1 Mio",
+   "active": "2020-heute",
+   "vibe": "Luxemburger Streamer, Wortspiel mit Namen Hugo, Food-Challenges.",
+   "hugo_frequency": "medium",
+   "hugo_evidence": "mein-mmo: nicht Teil von Hugos Netzwerk, Namensverwechslung, Aufstieg auch durch Hugo-Auftritte.",
+   "crew": [
+    "Trymacs"
+   ],
+   "rivals": [],
+   "tts_spelling": "Lets Hugo",
+   "avatar_source": "https://www.twitch.tv/letshugo",
+   "source_urls": [
+    "https://mein-mmo.de/hungriger-hugo-einnahmen-erfolg/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "key": "kein_konzept",
+   "name": "Kein Konzept",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Besuchte Hugo IRL im Stream.",
+   "hugo_frequency": "low",
+   "hugo_evidence": "instream: Besuch bei Hugo im Stream.",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Kein Konzept",
+   "avatar_source": "https://www.twitch.tv/keinkonzept",
+   "source_urls": [
+    "https://instream.de/hungriger-hugo-kenn-den-streamer"
+   ],
+   "confidence": "low"
+  },
+  {
+   "key": "sascha",
+   "name": "Sascha (Unsympathisch TV)",
+   "real_name": "Sascha",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Knossi-Kumpel, trocken-sarkastisch.",
+   "hugo_frequency": "medium",
+   "hugo_evidence": "instream: sichtbar im Hugo-Kontext, lacht ueber Hugo-Witz.",
+   "crew": [
+    "Knossi"
+   ],
+   "rivals": [],
+   "tts_spelling": "Sascha",
+   "avatar_source": "https://www.twitch.tv/unsympathischtv",
+   "source_urls": [
+    "https://instream.de/hungriger-hugo-kenn-den-streamer"
+   ],
+   "confidence": "low"
+  },
+  {
+   "key": "zarbex",
+   "name": "Zarbex",
+   "real_name": "",
+   "platforms": [
+    "YouTube"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Reaktions-YouTuber auf jedes neue Hungriger-Hugo-Video.",
+   "hugo_frequency": "medium",
+   "hugo_evidence": "Mehrere Zarbex-Reaktionen auf Hungriger-Hugo-Videos 2025/2026 (u. a. Best of 2025).",
+   "crew": [
+    "Reaction-Szene"
+   ],
+   "rivals": [],
+   "tts_spelling": "Zarbäx",
+   "avatar_source": "https://www.youtube.com/results?search_query=Zarbex",
+   "source_urls": [
+    "https://www.youtube.com/watch?v=AaO7_LDxi-Y"
+   ],
+   "confidence": "high"
+  },
+  {
+   "key": "stegi",
+   "name": "Stegi",
+   "real_name": "Stegi Stegi",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "Streamer",
+   "vibe": "Humor-Streamer",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste (StreamAwards-Liste: https://de.wikipedia.org/wiki/StreamAwards)",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Stegi",
+   "avatar_source": "https://www.twitch.tv/stegi",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/StreamAwards"
+   ],
+   "confidence": "low"
+  },
+  {
+   "key": "rumathra",
+   "name": "Rumathra",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Chaotischer Gaming-Streamer",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste (StreamAwards-Liste: https://de.wikipedia.org/wiki/StreamAwards)",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Rumathra",
+   "avatar_source": "https://www.twitch.tv/rumathra",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/StreamAwards"
+   ],
+   "confidence": "low"
+  },
+  {
+   "key": "noway",
+   "name": "NoWay",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Streamer mit eigener Crew",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "NoWay",
+   "avatar_source": "https://www.twitch.tv/noway4u_sir",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "filow",
+   "name": "Filow",
+   "real_name": "",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Musik-Streamer, StreamAwards 2024 Bester musikalischer Act",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste (StreamAwards-Liste: https://de.wikipedia.org/wiki/StreamAwards)",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Filow",
+   "avatar_source": "https://www.twitch.tv/filow",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/StreamAwards"
+   ],
+   "confidence": "low"
+  },
+  {
+   "key": "bastighg",
+   "name": "BastiGHG",
+   "real_name": "Sebastian Schauer",
+   "platforms": [
+    "YouTube",
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Sketch- und Gaming-Entertainer",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste (StreamAwards-Liste: https://de.wikipedia.org/wiki/StreamAwards)",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "BastiGHG",
+   "avatar_source": "https://www.twitch.tv/bastighg",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/StreamAwards"
+   ],
+   "confidence": "low"
+  },
+  {
+   "key": "dhalucard",
+   "name": "Dhalucard",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Skill-Streamer (StreamAwards 2025 Nominierung)",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste (StreamAwards-Liste: https://de.wikipedia.org/wiki/StreamAwards)",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Dhalucard",
+   "avatar_source": "https://www.twitch.tv/dhalucard",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/StreamAwards"
+   ],
+   "confidence": "low"
+  },
+  {
+   "key": "tisischubech",
+   "name": "Tisi Schubech",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Entertainerin im Papaplatte-Umfeld",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Tisi Schubech",
+   "avatar_source": "https://www.twitch.tv/tisischubech",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "niekbeats",
+   "name": "Niekbeats",
+   "real_name": "",
+   "platforms": [
+    "Twitch",
+    "YouTube"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Comedy-Beats",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Niekbeats",
+   "avatar_source": "https://www.twitch.tv/niekbeats",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "sterzik",
+   "name": "Sterzik",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Komiker-Streamer",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Sterzik",
+   "avatar_source": "https://www.twitch.tv/sterzik",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "apored",
+   "name": "ApoRed",
+   "real_name": "Apo",
+   "platforms": [
+    "YouTube",
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Kontroverser YouTuber",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "ApoRed",
+   "avatar_source": "https://www.youtube.com/@ApoRed",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "rezo",
+   "name": "Rezo",
+   "real_name": "Rezo",
+   "platforms": [
+    "YouTube"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Politik-YouTuber, remixte Hugo-Outro (instream)",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Rezo",
+   "avatar_source": "https://www.youtube.com/@rezo",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "amar",
+   "name": "Amar",
+   "real_name": "Amar",
+   "platforms": [
+    "YouTube",
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Entertainer",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Amar",
+   "avatar_source": "https://www.twitch.tv/amar",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "shurjoka",
+   "name": "Shurjoka",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Streamerin",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Shurjoka",
+   "avatar_source": "https://www.twitch.tv/shurjoka",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "mahluna",
+   "name": "Mahluna",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Streamerin",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Mahluna",
+   "avatar_source": "https://www.twitch.tv/mahluna",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "kalle",
+   "name": "Kalle",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Streamer",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Kalle",
+   "avatar_source": "https://www.twitch.tv/kalle",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "simex",
+   "name": "Simex",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Streamer",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Simex",
+   "avatar_source": "https://www.twitch.tv/simex",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "willy",
+   "name": "Willy",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Streamer",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Willy",
+   "avatar_source": "https://www.twitch.tv/willy",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "key": "laraloft",
+   "name": "Lara Loft",
+   "real_name": "",
+   "platforms": [
+    "Twitch"
+   ],
+   "followers": "unbekannt",
+   "active": "",
+   "vibe": "Streamerin",
+   "hugo_frequency": "unknown",
+   "hugo_evidence": "KEINE Hugo-Quelle gefunden; nur Kandidat aus Auftragsliste",
+   "crew": [],
+   "rivals": [],
+   "tts_spelling": "Lara Loft",
+   "avatar_source": "https://www.twitch.tv/laraloft",
+   "source_urls": [],
+   "confidence": "low"
+  }
+ ],
+ "pairings": [
+  {
+   "a": "papaplatte",
+   "b": "knossi",
+   "why": "Papaplatte verbot Hugo 2021 die Clips, Knossi reagierte locker darauf (instream)"
+  },
+  {
+   "a": "montanablack",
+   "b": "tanzverbot",
+   "why": "Zoff um Luxus-Kritik und Satter-Hugo-Video"
+  },
+  {
+   "a": "knossi",
+   "b": "trymacs",
+   "why": "Business-Buddies, Happy Slice Pizza"
+  },
+  {
+   "a": "trymacs",
+   "b": "eliasn97",
+   "why": "Chaos-Duo, laute Challenges"
+  },
+  {
+   "a": "papaplatte",
+   "b": "trymacs",
+   "why": "Kumpel-Paar, kontrastierende Lautstaerke"
+  },
+  {
+   "a": "unge",
+   "b": "rewinside",
+   "why": "Minecraft-Aera-Freunde, Familien-Comedy"
+  },
+  {
+   "a": "montanablack",
+   "b": "knossi",
+   "why": "Zwei Giganten der deutschen Szene, Gangster gegen Kölner Entertainer"
+  },
+  {
+   "a": "montanablack",
+   "b": "papaplatte",
+   "why": "Alter Hase gegen Newcomer-Rage"
+  },
+  {
+   "a": "gronkh",
+   "b": "montanablack",
+   "why": "Chill-Legende gegen Ghetto-Entertainer"
+  },
+  {
+   "a": "reved",
+   "b": "rewinside",
+   "why": "Zwei Reaktions-Typen auf Hugo-Videos"
+  },
+  {
+   "a": "handofblood",
+   "b": "montanablack",
+   "why": "Monte-Kumpel, Sidekick gegen Boss"
+  },
+  {
+   "a": "knossi",
+   "b": "sascha",
+   "why": "Knossi-Kumpel, trocken gegen laut"
+  }
+ ],
+ "notes": "Social Blade, YouTube-Kanalseite und Wikipedia (Hugo) waren per Fetch nicht erreichbar (403/404). Evidenz stammt aus mein-mmo, instream, TVDB und YouTube-Reaktionsvideo-Titeln. Follower sind Naeherungen aus Allgemeinwissen. Hauptkanal Hungriger Hugo (Dez 2019, ca. 885k Abos laut mein-mmo, Betreiber Sean aus Frankfurt), Satter Hugo (Dez 2020, ca. 611k Abos, betrieben von ItsLoru), Reaktions Hugo dritter Kanal. Verifizierungsrunde per Videotitel-Liste empfohlen."
+}

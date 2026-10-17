@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Eine Nacht mit Karamel19, oder nie wieder Mucco hören?",
+  "say": "Einen Monat Lacazette in deinen Alpträumen begegnen, oder nie wieder [[Nissi]] hören?",
   "a": {
-   "label": "1 Nacht mit Karamel19",
-   "img": "artists/karamel19.jpg"
+   "label": "1 Monat Lacazette in deinen Alpträumen",
+   "img": "artists/lacazette.jpg"
   },
   "b": {
-   "label": "Nie wieder Mucco",
-   "img": "artists/mucco.jpg"
+   "label": "Nie wieder Nizi hören",
+   "img": "artists/nizi19.jpg"
   },
   "pct": [
-   82,
-   18
+   12,
+   88
   ],
   "type": "hook"
  },
