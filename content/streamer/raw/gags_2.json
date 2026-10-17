@@ -1,0 +1,1587 @@
+{
+ "entries": [
+  {
+   "id": "gronkh-stuhltv",
+   "type": "emote",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "StuhlTV",
+   "quote": "StuhlTV",
+   "year": "2022-2024",
+   "context": "Wenn Gronkh aufsteht und nur sein leerer Stuhl im Bild bleibt, spammt der Chat das StuhlTV-Emote. Twitch sperrte neue Versionen 2024, Gronkh meinte nur \"Ok, Twitch\" und der Stuhl sei \"zu heiß für Twitch\".",
+   "question_ideas": [
+    "Würdest du eher 8 Stunden einen leeren Stuhl als Stream schauen oder Gronkh beim Husten ohne Mauswackeln zusehen?",
+    "Würdest du eher dein Gesicht als Emote auf Twitch gesperrt bekommen oder dein Stuhl?"
+   ],
+   "image_hint": "Leerer Gaming-Stuhl mit Twitch-Verbotsschild",
+   "source_urls": [
+    "https://mein-mmo.de/gronkh-emotes-auf-twitch-gesperrt/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh-gegronkht",
+   "type": "insider",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Gegronkht",
+   "quote": "gegronkht",
+   "year": "unbekannt (Stream zu Potentia)",
+   "context": "Das Wort \"gegronkht\" stammt aus einem Stream, in dem Gronkh im Spiel Potentia eine kleine Katze erschoss, weil er einen Erfolg vermutete. Heute steht es für Missgeschick oder Chaos.",
+   "question_ideas": [
+    "Würdest du eher für den Rest deines Lebens \"gegronkht\" sein oder jeden Tag ein Achievement verpassen?",
+    "Würdest du eher ein Wort im Duden nach dir benannt haben oder 1 Mio. Abos?"
+   ],
+   "image_hint": "Pixel-Katze mit Fadenkreuz, Gronkh-Gesicht erschrocken",
+   "source_urls": [
+    "https://www.giga.de/tech/gegronkht-was-bedeutet-das-jugendwort--01JXMGTP9RKJWJGG8Y5S7CPDT4"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh-hypetrain",
+   "type": "running_gag",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Goldener Hype Train",
+   "quote": "Es ist alles broken!",
+   "year": "2023",
+   "context": "Im August 2023 löste Gronkh einen goldenen Hype Train aus, rund 7.000 Subs wurden verschenkt. Er las 33 Minuten lang Namen vor, der Abspann dauerte 14 statt 8 bis 10 Minuten.",
+   "question_ideas": [
+    "Würdest du eher 33 Minuten lang 1.926 Namen vorlesen oder 33 Minuten lang in Stille anstarren?",
+    "Würdest du eher 7.000 Subs auf einmal bekommen oder dass Twitch dafür nie wieder funktioniert?"
+   ],
+   "image_hint": "Goldener Zug mit Kappa-Gesicht auf Schienen, Namensliste",
+   "source_urls": [
+    "https://mein-mmo.de/gronkh-bekommt-auf-twitch-7-000-abos-zerstoert-alle-funktionen-damit/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh-fast12",
+   "type": "catchphrase",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Fast 12",
+   "quote": "fast 12™",
+   "year": "2010er",
+   "context": "Auf Fragen nach seinem Alter antwortet Gronkh gern mit \"fast 12™\", ein alter Fan-Insider.",
+   "question_ideas": [
+    "Würdest du eher für immer \"fast 12\" sein oder für immer Let's Plays ohne Ende schauen müssen?"
+   ],
+   "image_hint": "Geburtstagstorte mit Zahl 12 und Trademark-Zeichen",
+   "source_urls": [
+    "https://www.gronkh-wiki.de/wiki/Gronkh"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gronkh-stuckenborstel",
+   "type": "running_gag",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Stuckenborstel",
+   "quote": "Das gab es in Stuckenborstel auch",
+   "year": "2010er",
+   "context": "Seit einer Banished-Runde, in der er seine Siedlung nach dem Dorf Stuckenborstel benannte, behauptet Gronkh gern, alles Gebaute existiere auch im echten Stuckenborstel.",
+   "question_ideas": [
+    "Würdest du eher in Stuckenborstel leben oder auf einer Minecraft-Insel von Gronkh?",
+    "Würdest du eher alles in Stuckenborstel nachbauen oder alles in Minecraft?"
+   ],
+   "image_hint": "Ortsschild Stuckenborstel mit Minecraft-Blöcken",
+   "source_urls": [
+    "https://www.gronkh-wiki.de/wiki/Gronkh"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gronkh-dosenwurst",
+   "type": "catchphrase",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Dosenwurst, macht doof",
+   "quote": "#DOSENWURST 24/7 Dauerbeschallung. Macht doof!",
+   "year": "2015",
+   "context": "Der Twitch-Slogan seines Kanals GronkhTV ab Mitte 2015. Er gehört zum Fan-Kanon.",
+   "question_ideas": [
+    "Würdest du eher nur noch Dosenwurst essen oder 24/7 Dauerbeschallung hören?"
+   ],
+   "image_hint": "Dosenwurst mit Gronkh-Logo",
+   "source_urls": [
+    "https://www.gronkh-wiki.de/wiki/Gronkh"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gronkh-gruss",
+   "type": "catchphrase",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Hallöchen Popöchen",
+   "quote": "Hallöchen Popöchen / Tschüssikowski!",
+   "year": "2010-2014",
+   "context": "Aus dem Minecraft-Let's-Play: Begrüßung \"Hallöchen Popöchen\" und Verabschiedung \"Tschüssikowski\". Laut Fan-Wiki gehören dazu auch \"Da so? Nich' so.\" beim Bauen.",
+   "question_ideas": [
+    "Würdest du eher jeden mit \"Hallöchen Popöchen\" begrüßen oder dich nur mit \"Tschüssikowski\" verabschieden?"
+   ],
+   "image_hint": "Gronkh-Avatar winkt, Sprechblase Hallöchen Popöchen",
+   "source_urls": [
+    "https://www.gronkh-wiki.de/wiki/Let%27s_Play_Minecraft/Running_Gags_und_Insider"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gronkh-grawehl",
+   "type": "insider",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Grawehl und Silber",
+   "quote": "Grawehl / Silber statt Eisen",
+   "year": "2011-2012",
+   "context": "Im Minecraft-Let's-Play nennt er Kies ab Folge 183 \"Grawehl\" und Eisen \"Silber\". Dazu gehören \"Hundiiiiis\" beim Wölfe zähmen und das Zungengeräusch beim Netherportal.",
+   "question_ideas": [
+    "Würdest du eher Eisen \"Silber\" nennen oder Kies \"Grawehl\", für immer?",
+    "Würdest du eher Hunde nur noch mit Hundiiiis rufen oder durch jedes Portal Lululu machen?"
+   ],
+   "image_hint": "Minecraft Kiesblock mit Schild Grawehl",
+   "source_urls": [
+    "https://www.gronkh-wiki.de/wiki/Let%27s_Play_Minecraft/Running_Gags_und_Insider"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh-milch",
+   "type": "running_gag",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Alkohol heißt Milch",
+   "quote": "Vollmilch, noch vollere Milch",
+   "year": "2010-2013",
+   "context": "Gronkh ersetzt das Wort Alkohol gern durch Milch und steigert es zu \"Vollmilch\" und \"noch vollerer Milch\". Zugleich hustet er fast nie in Aufnahmen.",
+   "question_ideas": [
+    "Würdest du eher nur noch Vollmilch bestellen oder noch vollere Milch?",
+    "Würdest du eher nie wieder husten oder absichtlich beim Husten die Maus wackeln?"
+   ],
+   "image_hint": "Bierglas gefüllt mit Milch, Gronkh zwinkert",
+   "source_urls": [
+    "https://www.gronkh-wiki.de/wiki/Let%27s_Play_Minecraft/Running_Gags_und_Insider"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gronkh-zukunft",
+   "type": "running_gag",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Zukunfts-Gronkh",
+   "quote": "Das macht Zukunfts-Gronkh",
+   "year": "2010-2013",
+   "context": "Aufgaben schiebt er auf \"Zukunfts-Gronkh\" und schimpft dann über den faulen \"Vergangenheits-Gronkh\".",
+   "question_ideas": [
+    "Würdest du eher ein Leben lang Vergangenheits-Gronkh sein oder Zukunfts-Gronkh?"
+   ],
+   "image_hint": "Zwei Gronkh-Figuren, eine mit Wecker",
+   "source_urls": [
+    "https://www.gronkh-wiki.de/wiki/Let%27s_Play_Minecraft/Running_Gags_und_Insider"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gronkh-elsholz",
+   "type": "insider",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Andreas Elsholz",
+   "quote": "Andreas-Elsholz-Gedächtnisstrand",
+   "year": "2011",
+   "context": "Wegen des Songs Summertime in Folge 46 wurde Andreas Elsholz zum Dauer-Insider, samt Autogrammkarte (Folge 117) und Gedenkstrand (Folge 323).",
+   "question_ideas": [
+    "Würdest du eher einen Gedächtnisstrand nach dir benannt haben oder eine Autogrammkarte von Gronkh?"
+   ],
+   "image_hint": "Minecraft-Strand mit Gedenktafel",
+   "source_urls": [
+    "https://www.gronkh-wiki.de/wiki/Let%27s_Play_Minecraft/Running_Gags_und_Insider"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gronkh-wildekerle",
+   "type": "running_gag",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Wilde Kerle Stream",
+   "quote": "Ich bin überhaupt nicht in der Zielgruppe",
+   "year": "2024",
+   "context": "Der Chat überredete Gronkh im Juni 2024, Die Wilden Kerle zu schauen. Er bereute es schnell und litt hörbar bei den Musicalnummern.",
+   "question_ideas": [
+    "Würdest du eher alle Wilden Kerle Filme mit Gronkh schauen oder ein Jahr nur KI-Songs hören?"
+   ],
+   "image_hint": "Kinderfußballtrikot, Gronkh mit Fremdscham-Gesicht",
+   "source_urls": [
+    "https://mein-mmo.de/gronkh-ueber-die-wilden-kerle/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh-mcky-sim",
+   "type": "running_gag",
+   "streamers": [
+    "gronkh",
+    "mckytv"
+   ],
+   "title": "Gronkh trollt Mcky",
+   "quote": "Damit mache ich mich beliebt",
+   "year": "2025",
+   "context": "Im Streamer Life Simulator 2 nannte Gronkh das Spiel einen Arbeitslosen-Simulator und parodierte Mckys Abschieds-Subathon samt Nestlé-Placement. Der Clip landete in Satter Hugos Best-of.",
+   "question_ideas": [
+    "Würdest du eher einen Abschieds-Subathon starten oder von Gronkh im Spiel parodiert werden?",
+    "Würdest du eher einen Nestlé-Deal annehmen oder deinen Kanal für immer löschen?"
+   ],
+   "image_hint": "Gronkh im Sim-Spiel, Mcky-Karikatur, Kaffeetasse",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-mckytv-fehltritt-gronkh/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh-friendlyfire",
+   "type": "format",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Friendly Fire",
+   "quote": "Friendly Fire",
+   "year": "2015-2020",
+   "context": "Jährlicher Charity-Stream von Gronkh: 2015 über 123.000 Euro, 2018 über 887.000 Euro, 2020 über 1,19 Mio. Euro.",
+   "question_ideas": [
+    "Würdest du eher eine Million für Charity sammeln oder eine Million selbst behalten?"
+   ],
+   "image_hint": "Spendenbalken mit Herz und Gronkh-Pixelfigur",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Gronkh"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh-elektrotitte",
+   "type": "format",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Elektrotitte",
+   "quote": "Elektrotitte (5.000 Volt)",
+   "year": "2013",
+   "context": "Gronkh und Sarazar veröffentlichten 2013 den Song \"Elektrotitte (5.000 Volt)\", der in Deutschland und Österreich in die Charts kam.",
+   "question_ideas": [
+    "Würdest du eher einen Charthit mit Gronkh haben oder einen Kanal mit 1 Mio. Abos?"
+   ],
+   "image_hint": "Schallplatte mit Blitz, zwei Let's-Play-Gesichter",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Gronkh"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh-atombombe",
+   "type": "insider",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Folge 1000 Atombombe",
+   "quote": "Atombombe in Minecraft",
+   "year": "2013",
+   "context": "Die 1000. Minecraft-Folge, in der er große Teile der Welt per Atombombe zerstörte, gewann 2014 einen Deutschen Webvideopreis.",
+   "question_ideas": [
+    "Würdest du eher 1.278 Folgen Minecraft gucken oder eine Atombombe auf deine Heimatstadt?"
+   ],
+   "image_hint": "Minecraft-Pilz aus TNT",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Gronkh"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh-hesse",
+   "type": "trait",
+   "streamers": [
+    "gronkh",
+    "handofblood"
+   ],
+   "title": "Gronkh als Mitbewohner",
+   "quote": "Der hockt halt nur im Keller und zockt den ganzen Tag",
+   "year": "2025",
+   "context": "Im 1Live Fragenhagel nannte HandOfBlood Gronkh als idealen Mitbewohner: Beide würden sich in Ruhe lassen. Dazu sagte er \"Ich hasse halt Influencer\" und relativierte, Hass sei ein starkes Wort.",
+   "question_ideas": [
+    "Würdest du eher mit Gronkh oder mit HandOfBlood in eine WG ziehen?",
+    "Würdest du eher mit Gronkh im Keller zocken oder mit Hänno auf dem Techno-Rave sein?"
+   ],
+   "image_hint": "Zwei Zimmertüren, Gamingkeller und Techno",
+   "source_urls": [
+    "https://mein-mmo.de/handofblood-1live-fragenhagel-interview/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gronkh-noway-idol",
+   "type": "insider",
+   "streamers": [
+    "gronkh",
+    "noway"
+   ],
+   "title": "NoWay grüßt auf Englisch",
+   "quote": "Ich habe ihn auf Englisch angesprochen",
+   "year": "2015",
+   "context": "NoWay erzählte, er habe Gronkh bei der TwitchCon in San Francisco vor Nervosität auf Englisch angesprochen. Gronkh sei sein Vorbild und habe sein Studium \"gecarried\".",
+   "question_ideas": [
+    "Würdest du eher Gronkh auf Englisch ansprechen oder NoWay auf Latein?"
+   ],
+   "image_hint": "Zwei Männer, Sprechblase Hello Gronkh",
+   "source_urls": [
+    "https://mein-mmo.de/noway-erzaehlt-von-peinlichen-begegnung-mit-seinem-idol-gronkh/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-knabe",
+   "type": "trait",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Präsident Knabe",
+   "quote": "Präsident Knabe",
+   "year": "2024",
+   "context": "Als Präsident von Eintracht Spandau in der Baller League spielt Hänno die Rolle seines Lebens: Karnevalskapelle zum Einlauf, Fans in Knabe-Kostümen als Knabe-Army, Bierdusche für den Bezirksbürgermeister.",
+   "question_ideas": [
+    "Würdest du eher Präsident Knabe sein oder Hans Sarpei als Trainer haben?",
+    "Würdest du eher eine Knabe-Army hinter dir haben oder ein Maskottchen, das dich umhaut?"
+   ],
+   "image_hint": "Hänno mit Präsidentenschärpe, Brille, Karnevalskapelle",
+   "source_urls": [
+    "https://mein-mmo.de/baller-league-handofblood-alias-praesident-knabe-highlights/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-kontrak",
+   "type": "running_gag",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Maskottchen gegen Hänno",
+   "quote": "Das ist doch Kontra K drunter oder so",
+   "year": "2024",
+   "context": "Vom Spandau-Maskottchen umgehauen, flog seine Brille, und er vermutete live Kontra K im Kostüm.",
+   "question_ideas": [
+    "Würdest du eher vom Maskottchen umgehauen werden oder Kontra K im Kostüm erwischen?"
+   ],
+   "image_hint": "Turm-Maskottchen schubst Mann mit fliegender Brille",
+   "source_urls": [
+    "https://mein-mmo.de/baller-league-handofblood-alias-praesident-knabe-highlights/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-drdonk",
+   "type": "running_gag",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Dr Donk Zwilling",
+   "quote": "Das ist nicht mein Zwilling",
+   "year": "2025",
+   "context": "Dr Donk sieht Hänno ähnlich, die Community machte daraus einen Gag. Fremde fragten Hänno auf dem Rad \"Ey bist du Dr Donk?\", am 8. August 2025 war Dr Donk dann beim Techno Freitag zu Gast.",
+   "question_ideas": [
+    "Würdest du eher mit Dr Donk verwechselt werden oder mit Hänno?",
+    "Würdest du eher mit Dr Donk auflegen oder mit Hänno zocken?"
+   ],
+   "image_hint": "Zwei ähnliche Gesichter nebeneinander mit Brille",
+   "source_urls": [
+    "https://mein-mmo.de/handofblood-zwilling-dj-techno-freitag/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-technofreitag",
+   "type": "format",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Techno Freitag",
+   "quote": "Wann Techno Friday?",
+   "year": "2024-2026",
+   "context": "Wiederkehrender Stream: DJs legen Techno auf, Hänno zockt im passenden Tempo. Club Edition in Berlin 2025 und 2026, Arena Edition für 2027 angekündigt.",
+   "question_ideas": [
+    "Würdest du eher 24 Stunden Techno Freitag durchhalten oder 24 Stunden Reactions?"
+   ],
+   "image_hint": "Rave-Lichter, Hänno hinter DJ-Pult",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/HandOfBlood"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-kizwilling",
+   "type": "running_gag",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Böser KI-Zwilling",
+   "quote": "Flitzpiepe, Techno-Hippies, Knalltüte",
+   "year": "2025",
+   "context": "Hänno stellte 2025 einen 3D-KI-Klon vor, der Zuschauer beschimpft, wenn sie Subs verschenken. Als jemand ihn \"Herr Knabe\" nannte, sagte der Klon, er sei nicht er, sondern \"der Schmutz da drüben\".",
+   "question_ideas": [
+    "Würdest du eher von Hännos KI-Klon beleidigt werden oder ihn dafür bezahlen?"
+   ],
+   "image_hint": "Hologramm-Hänno mit roten Augen",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-handofblood-ki-zwilling-test/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-unterwegs",
+   "type": "format",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Hänno unterwegs",
+   "quote": "Hänno unterwegs",
+   "year": "2020-2022",
+   "context": "Euro-Truck-Simulator-Format mit Promi-Beifahrern: Helge Schneider (Pilot, über 1,6 Mio. Aufrufe) und Kurt Krömer. Running Gag ist das kaputte Navi, Hänno verfährt sich und landet etwa in Bremen statt Berlin.",
+   "question_ideas": [
+    "Würdest du eher mit Hänno im Truck verfahren oder Kurt Krömer beim Rascheln zuhören?"
+   ],
+   "image_hint": "Truck-Cockpit, Navi-Fehler, zwei Männer",
+   "source_urls": [
+    "https://mein-mmo.de/handofblood-kurt-kromer-haenno-unterwegs-format/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-klaas",
+   "type": "insider",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "High Elo Rentner",
+   "quote": "High Elo Rentner",
+   "year": "2014",
+   "context": "Sein Durchbruch: Rentner werden mit Karten Fachfragen zu League of Legends gestellt. Das Format erinnert an Klaas, der Hänno 2026 auf Twitch besuchte.",
+   "question_ideas": [
+    "Würdest du eher als Rentner Burst und Ragequit erklären oder Klaas ein Format klauen?"
+   ],
+   "image_hint": "Rentner mit Gamertag-Schild und Zettel",
+   "source_urls": [
+    "https://mein-mmo.de/klaas-auf-twitch-bei-handofblood/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-hobbyhorsing",
+   "type": "catchphrase",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Hobby Horsing Respekt",
+   "quote": "Digga, das ist so hoch, wie sie selber ist",
+   "year": "2024",
+   "context": "Hänno entdeckte Hobby Horsing im Stream und zeigte Respekt, bevor er merkte, dass Nicht-Gamer Esports vermutlich genauso sehen.",
+   "question_ideas": [
+    "Würdest du eher Hobby-Horsing-Weltmeister werden oder LoL-Weltmeister?"
+   ],
+   "image_hint": "Steckenpferd über Hürde, Hänno mit großen Augen",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-handofblood-hobby-horsing/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-maurice",
+   "type": "running_gag",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Wette gegen Maurice",
+   "quote": "Watch me",
+   "year": "2026",
+   "context": "Auf der gamescom wettete Hänno mit dem Chat, ein bestimmtes Wort fiele nicht. Moderator Maurice Weber hörte mit und baute die ganze Show lang Fallen. Hänno ging in jede.",
+   "question_ideas": [
+    "Würdest du eher jede Falle von Maurice mitnehmen oder gegen ihn wetten?"
+   ],
+   "image_hint": "Moderator mit Mikro, Hänno mit Fehlerbalken",
+   "source_urls": [
+    "https://mein-mmo.de/handofblood-wird-mit-schwanz-gebaitet-fyng-show-gamescom/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "hob-alphastein",
+   "type": "running_gag",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Alphastein Besuch",
+   "quote": "Chef, Bro, das ist Cringe",
+   "year": "2026",
+   "context": "In Craft Attack 14 wollte Hänno nur seine Wollfarm bauen, dann kam Alphastein vorbei, weil sich jemand über Hännos Aufgabenverteilung beschwert hatte.",
+   "question_ideas": [
+    "Würdest du eher Alphastein als Nachbar haben oder eine Wollfarm für immer bauen?"
+   ],
+   "image_hint": "Minecraft-Wollfarm, TNT-Duper",
+   "source_urls": [
+    "https://mein-mmo.de/handofblood-craft-attack-alphastein-drama/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "hob-crew",
+   "type": "insider",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "INSTINCT3 Crew",
+   "quote": "INSTINCT3",
+   "year": "2018",
+   "context": "Mit Henning Semrau und Hendrik Ruhe gründete Hänno 2018 INSTINCT3. Zur Crew gehörten Gnu, Sterzik, Broeki, Kalle und David Hain. Sein LoL-Team Eintracht Spandau holte 2024 die EMEA Masters.",
+   "question_ideas": [
+    "Würdest du eher in der INSTINCT3-Crew sein oder im Team Eintracht Spandau?"
+   ],
+   "image_hint": "Crew-Foto mit Wappen",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/HandOfBlood"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-tierheim",
+   "type": "trait",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Preisgeld fürs Tierheim",
+   "quote": "Preisgeld gespendet",
+   "year": "2019",
+   "context": "Nach dem Fortnite World Cup 2019 spendete Hänno seinen Anteil von über 50.000 Euro ans Tierheim Berlin. Sein Hund Falco stammt von dort.",
+   "question_ideas": [
+    "Würdest du eher 250.000 Dollar gewinnen oder die Hälfte spenden?"
+   ],
+   "image_hint": "Hund mit Pokal",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/HandOfBlood",
+    "https://streamrant.net/wiki/handofblood/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hob-fredrik",
+   "type": "insider",
+   "streamers": [
+    "handofblood",
+    "gronkh"
+   ],
+   "title": "Fredrik aus Cyberpunk",
+   "quote": "Fredrik",
+   "year": "2020",
+   "context": "In Cyberpunk 2077 spricht HandOfBlood den NPC Fredrik, Gronkh spricht Fredriks Vater.",
+   "question_ideas": [
+    "Würdest du eher Gronkh als Vater haben oder Hänno als Sohn?"
+   ],
+   "image_hint": "Cyberpunk-Neonbild, zwei Sprecher-Mikros",
+   "source_urls": [
+    "https://streamrant.net/wiki/handofblood/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "hob-schlussdamit",
+   "type": "format",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Schluss damit?",
+   "quote": "Schluss damit?",
+   "year": "2016",
+   "context": "Im Juli 2016 kündigte er an, den Kanal neu auszurichten, weg von täglichen Videos hin zu aufwendigen Produktionen mit Kostümen. Der Titel kam 2024 als Serie zurück.",
+   "question_ideas": [
+    "Würdest du eher täglich Videos machen oder alle drei Monate einen Kurzfilm?"
+   ],
+   "image_hint": "Kalender mit durchgestrichenen Tagen",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/HandOfBlood"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "reved-uff",
+   "type": "catchphrase",
+   "streamers": [
+    "reved"
+   ],
+   "title": "Uff 100.000 Mal",
+   "quote": "Uff",
+   "year": "2019",
+   "context": "Nach einer verlorenen Wette musste Reved in einem etwa zehnstündigen Stream 100.000 Mal \"Uff\" sagen. Das Video wurde viral und ist eines ihrer meistgesehenen.",
+   "question_ideas": [
+    "Würdest du eher 100.000 Mal Uff sagen oder 100.000 Mal Eligella?",
+    "Würdest du eher eine Wette gegen Reved verlieren oder gegen Papaplatte?"
+   ],
+   "image_hint": "Zählerstand 100000 mit Uff-Sprechblase",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Reved",
+    "https://mein-mmo.de/revedtv-erfolgsgeschichte-vorstellung/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "reved-socki",
+   "type": "trait",
+   "streamers": [
+    "reved"
+   ],
+   "title": "Socki",
+   "quote": "Socki",
+   "year": "2019",
+   "context": "Reveds Maskottchen ist eine weiße Socke mit Smiley, ursprünglich als Poppschutz über dem Mikro, später Emote und Sub-Badge.",
+   "question_ideas": [
+    "Würdest du eher Socki als Mikro-Filter nutzen oder als Haustier haben?"
+   ],
+   "image_hint": "Weiße Socke mit Smiley auf Mikro",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Reved"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "reved-duemmste",
+   "type": "format",
+   "streamers": [
+    "reved"
+   ],
+   "title": "Der Dümmste fliegt",
+   "quote": "Der Dümmste fliegt",
+   "year": "2021",
+   "context": "Reveds erfolgreichste Quizshow nach dem Prinzip von Der Schwächste fliegt. Sieben bis acht Kandidaten, bis zwei übrig sind.",
+   "question_ideas": [
+    "Würdest du eher als Dümmster fliegen oder in der ersten Runde gewinnen und nichts wissen?"
+   ],
+   "image_hint": "Quiz-Podest, Socki als Moderator",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Reved"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "reved-ruffy",
+   "type": "insider",
+   "streamers": [
+    "reved"
+   ],
+   "title": "Ruffy",
+   "quote": "Ruffy",
+   "year": "2014-2015",
+   "context": "Ihre ersten Minecraft-Videos veröffentlichte Reved unter dem Namen Ruffy.",
+   "question_ideas": [
+    "Würdest du eher Ruffy heißen oder Socki?"
+   ],
+   "image_hint": "Minecraft-Skin mit Strohhut",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Reved"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "reved-diss",
+   "type": "running_gag",
+   "streamers": [
+    "reved"
+   ],
+   "title": "Diss-Tracks auf Reved",
+   "quote": "Diss-Tracks über Fiverr",
+   "year": "2021",
+   "context": "Über Fiverr ließ Reved sich Diss-Tracks über sich schreiben, einer bekam sogar eine Strophe von Papaplatte.",
+   "question_ideas": [
+    "Würdest du eher einen Diss-Track über dich kaufen oder einen Song mit Papaplatte aufnehmen?"
+   ],
+   "image_hint": "Mikro, Fiverr-Logo-Verbotsschild",
+   "source_urls": [
+    "https://streamrant.net/wiki/reved/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "reved-7day",
+   "type": "format",
+   "streamers": [
+    "reved"
+   ],
+   "title": "7-Day-Stream",
+   "quote": "7-Day Stream mit Subathon",
+   "year": "2021",
+   "context": "Jährlicher Marathon-Stream, 2021 war sie 14 Tage am Stück live.",
+   "question_ideas": [
+    "Würdest du eher 14 Tage am Stück streamen oder 14 Tage ohne Handy?"
+   ],
+   "image_hint": "Kalender mit 14 Tagen, Schlafmaske",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Reved"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "reved-streamawards",
+   "type": "format",
+   "streamers": [
+    "reved"
+   ],
+   "title": "Streamawards",
+   "quote": "Streamawards",
+   "year": "2023",
+   "context": "Von Reved gegründete Preisverleihung für deutsche Streamer. Im Dezember 2025 kehrte sie nach langer Pause auf die Bühne zurück.",
+   "question_ideas": [
+    "Würdest du eher einen Streamaward gewinnen oder die Show hosten?"
+   ],
+   "image_hint": "Goldene Trophäe mit Twitch-Logo",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Reved",
+    "https://mein-mmo.de/reved-moegliches-comeback-2026/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "reved-madeira",
+   "type": "insider",
+   "streamers": [
+    "reved"
+   ],
+   "title": "Schwinsel-Gang Madeira",
+   "quote": "Schwinsel-Gang",
+   "year": "2020-2022",
+   "context": "In Craft Attack lernte sie die Jungs kennen, die später die Schwinsel-Gang auf Madeira bildeten. Fans witzeln über den Umzug als Steuer-Gag.",
+   "question_ideas": [
+    "Würdest du eher nach Madeira ziehen oder bei Reveds Craft Attack mitspielen?"
+   ],
+   "image_hint": "Madeira-Küste mit Minecraft-Würfeln",
+   "source_urls": [
+    "https://mein-mmo.de/revedtv-erfolgsgeschichte-vorstellung/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "reved-zugzwang",
+   "type": "format",
+   "streamers": [
+    "reved"
+   ],
+   "title": "Schach mit Carlsen",
+   "quote": "Zugzwang",
+   "year": "2021",
+   "context": "Reved belegte beim Zugzwang-Turnier nach Coaching von Magnus Carlsen den zweiten Platz.",
+   "question_ideas": [
+    "Würdest du eher von Magnus Carlsen gecoacht werden oder von Gronkh?"
+   ],
+   "image_hint": "Schachbrett, Socki als König",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Reved"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "reved-million",
+   "type": "trait",
+   "streamers": [
+    "reved"
+   ],
+   "title": "Erste mit 1 Mio",
+   "quote": "1 Million Follower",
+   "year": "2023",
+   "context": "Im Mai 2023 war Reved die erste Frau im deutschsprachigen Raum mit einer Million Twitch-Followern.",
+   "question_ideas": [
+    "Würdest du eher eine Million Follower haben oder 100.000 Mal Uff gesagt haben?"
+   ],
+   "image_hint": "Zähler 1.000.000 mit Krone",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Reved"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "elias-eligella",
+   "type": "trait",
+   "streamers": [
+    "eliasn97"
+   ],
+   "title": "Eligella",
+   "quote": "Eligella",
+   "year": "2017",
+   "context": "Sein Name Eligella kommt laut Streamrant von Mentalist Uri Geller, dessen Show er bewundert. Der Kanal startete im August 2017.",
+   "question_ideas": [
+    "Würdest du eher Eligella heißen oder Elias N97?"
+   ],
+   "image_hint": "Löffelbiegen mit Fußball",
+   "source_urls": [
+    "https://streamrant.net/wiki/eliasn97/",
+    "https://de.wikipedia.org/wiki/EliasN97"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "elias-macher",
+   "type": "catchphrase",
+   "streamers": [
+    "eliasn97"
+   ],
+   "title": "Macher",
+   "quote": "Macher",
+   "year": "2022",
+   "context": "Das Wort \"Macher\" benutzte er so oft, dass es 2022 Platz 3 bei der Wahl zum Jugendwort belegte.",
+   "question_ideas": [
+    "Würdest du eher Jugendwort des Jahres prägen oder 100.000 Mal Eligella sagen?"
+   ],
+   "image_hint": "Jugendwort-Urkunde, Macher-Schild",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/EliasN97"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "elias-100k",
+   "type": "running_gag",
+   "streamers": [
+    "eliasn97"
+   ],
+   "title": "100.000 Mal Eligella",
+   "quote": "Da krachts ja komplett",
+   "year": "2023",
+   "context": "Streamer manufktur sagte am 7. Februar 2023 über 21 Stunden lang 100.000 Mal \"Eligella\". Elias schaltete nach etwa 14 Stunden rein und staunte: \"Da krachts ja komplett.\"",
+   "question_ideas": [
+    "Würdest du eher 100.000 Mal Eligella sagen oder 100.000 Mal Uff?"
+   ],
+   "image_hint": "Zähler Eligella 100000",
+   "source_urls": [
+    "https://www.heidelberg24.de/ratgeber/eliasn97-fan-sagt-100000-mal-eligella-twitch-streamer-manufktur-elias-nerlich-berlin-zr-92071479.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "elias-cup",
+   "type": "format",
+   "streamers": [
+    "eliasn97"
+   ],
+   "title": "Eligella Cup",
+   "quote": "Real Life Eligella Cup",
+   "year": "2022",
+   "context": "Fußballturnier mit Streamern am 11. September 2022 im ausverkauften Audi Dome (7.000 Zuschauer), RTL+ und Adidas dabei. MontanaBlack stand im Tor.",
+   "question_ideas": [
+    "Würdest du eher im Eligella Cup mitspielen oder ihn kommentieren?",
+    "Würdest du eher im Tor stehen wie Montana oder Elfmeter schießen?"
+   ],
+   "image_hint": "Hallenfußballplatz, Pokal",
+   "source_urls": [
+    "https://www.heidelberg24.de/ratgeber/rtl-plus-eliasn97-elias-nerlich-fussball-eligella-cup-audi-dome-muenchen-zr-91783915.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "elias-delay",
+   "type": "running_gag",
+   "streamers": [
+    "eliasn97",
+    "sidneyeweka"
+   ],
+   "title": "Delay Sports 18 von 18",
+   "quote": "18 Spiele, 18 Siege",
+   "year": "2023",
+   "context": "Elias' und Sidneys Amateurklub Delay Sports gewann am 12. März 2023 mit 3:2 sein 18. Spiel in 18 Spielen. 2.000 Zuschauer sahen ein Kreisliga-C-Spiel.",
+   "question_ideas": [
+    "Würdest du eher 18 von 18 in der Kreisliga C gewinnen oder Bundesliga-Abstiegskampf?"
+   ],
+   "image_hint": "Kreisligaplatz mit Stadionmasse",
+   "source_urls": [
+    "https://www.sport1.de/news/boulevard/2023/03/historische-kulisse-elias-eligella-nerlich-feiert-aufstieg-von-delay-sports"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "elias-hochzeit",
+   "type": "running_gag",
+   "streamers": [
+    "eliasn97"
+   ],
+   "title": "Der Jahrestag",
+   "quote": "Es heiraten nicht so viele mit 25",
+   "year": "2023",
+   "context": "Im September 2023 wich Elias im Stream dem Hochzeitsthema aus. Freundin Melina konterte, er könne sich nicht mal den Jahrestag merken. Die Verlobung gaben beide im Juni 2024 bekannt.",
+   "question_ideas": [
+    "Würdest du eher den Jahrestag vergessen oder dich vor dem Antrag drücken?"
+   ],
+   "image_hint": "Kalender mit Ringen",
+   "source_urls": [
+    "https://www.heidelberg24.de/ratgeber/eliasn97-heiratsantrag-streamer-bekommt-ansage-melina-hochzeit-freunde-elias-nierlich-berlin-zr-92518081.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "elias-adidas",
+   "type": "trait",
+   "streamers": [
+    "eliasn97"
+   ],
+   "title": "Adidas Botschafter",
+   "quote": "Erster Nicht-Athlet bei Adidas",
+   "year": "2022",
+   "context": "Seit August 2022 Adidas-Markenbotschafter, laut Streamrant der erste Nicht-Athlet. 2022 lag er bei Twitch-Subs mehr als 60 Prozent vor MontanaBlack.",
+   "question_ideas": [
+    "Würdest du eher Adidas-Botschafter sein oder RTL-Kommentator?"
+   ],
+   "image_hint": "Drei Streifen und Gamepad",
+   "source_urls": [
+    "https://streamrant.net/wiki/eliasn97/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "elias-ragetisch",
+   "type": "running_gag",
+   "streamers": [
+    "eliasn97"
+   ],
+   "title": "Weekend League Tisch",
+   "quote": "Hand auf den Tisch",
+   "year": "2024",
+   "context": "Bei der EA-FC-25-Weekend League schlug Elias im Oktober 2024 aus Frust auf den Tisch, kurz fiel das Licht aus.",
+   "question_ideas": [
+    "Würdest du eher Weekend League ohne Lag spielen oder mit perfektem Pack Luck?"
+   ],
+   "image_hint": "Controller, Tisch, Licht aus",
+   "source_urls": [
+    "https://mein-mmo.de/en/twitch-streamers-and-professionals-are-struggling-in-ea-fc-25-with-the-weekend-league-even-though-they-are-using-expensive-top-players,1189471/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "elias-vitavate",
+   "type": "insider",
+   "streamers": [
+    "eliasn97",
+    "sidneyeweka"
+   ],
+   "title": "Vitavate und Elevate",
+   "quote": "Vitavate",
+   "year": "2022",
+   "context": "Elias, Sidney und Niklas-Wilson Sommer verkaufen das Funktionsgetränk Vitavate. Das Modelabel Elevate wurde im Juni 2024 abgewickelt.",
+   "question_ideas": [
+    "Würdest du eher ein Getränk mit Elias verkaufen oder Mode mit Sidney?"
+   ],
+   "image_hint": "Wasserflasche mit E-Logo",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/EliasN97",
+    "https://earlygame.com/de/entertainment/sidneyeweka-vermoegen-gehalt-youtube-twitch-einnahmen"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sid-hertha",
+   "type": "trait",
+   "streamers": [
+    "sidneyeweka"
+   ],
+   "title": "Ex-Profi von Hertha",
+   "quote": "Ex-Hertha-Profi",
+   "year": "2018-2021",
+   "context": "Sidney Friede kam aus der Hertha-Jugend, spielte Profi in Belgien, Wiesbaden und der Slowakei und beendete 2021 wegen eines Knies die Karriere.",
+   "question_ideas": [
+    "Würdest du eher Profi bleiben oder Streamer werden?"
+   ],
+   "image_hint": "Trikot, Twitch-Logo",
+   "source_urls": [
+    "https://earlygame.com/de/entertainment/sidneyeweka-vermoegen-gehalt-youtube-twitch-einnahmen",
+    "https://en.wikipedia.org/wiki/Sidney_Friede"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sid-umfrage",
+   "type": "running_gag",
+   "streamers": [
+    "sidneyeweka",
+    "tanzverbot"
+   ],
+   "title": "Überbezahlte Berufe",
+   "quote": "Mit Fußballer und Influencer komme ich bestimmt gut davon",
+   "year": "2023",
+   "context": "Sidneys Umfrage nach überbezahlten Jobs ging nach hinten los, die Community nannte Fußballer und Influencer. Tanzverbot sagte: \"Influencer sind schon dreist überbezahlt.\"",
+   "question_ideas": [
+    "Würdest du eher Fußballer oder Influencer sein, wenn alle dich für überbezahlt halten?"
+   ],
+   "image_hint": "Umfrage, Geldscheine",
+   "source_urls": [
+    "https://www.heidelberg24.de/ratgeber/sidney-friede-ueberbezahlte-berufe-influencer-umfrage-twitter-berlin-umfrage-fussballer-1ng-zr-92224051.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "sid-trio",
+   "type": "insider",
+   "streamers": [
+    "sidneyeweka",
+    "eliasn97"
+   ],
+   "title": "Elias, Sidney, Niklas",
+   "quote": "Das Trio",
+   "year": "2020-2025",
+   "context": "Sidney, Elias und Niklas-Wilson Sommer streamen oft zusammen. Sidney trat Elias zuliebe dem Esports-Team Fokus bei, investiert aber wenig Zeit.",
+   "question_ideas": [
+    "Würdest du eher mit Sidney oder mit Elias in einem Team spielen?"
+   ],
+   "image_hint": "Drei Männer, Fußball",
+   "source_urls": [
+    "https://earlygame.com/de/entertainment/sidneyeweka-vermoegen-gehalt-youtube-twitch-einnahmen"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sid-delay",
+   "type": "trait",
+   "streamers": [
+    "sidneyeweka"
+   ],
+   "title": "Spielt nur zum Spaß",
+   "quote": "Delay Sports",
+   "year": "2022",
+   "context": "Bei Delay Sports spielt Sidney laut Earlygame nur zum Spaß.",
+   "question_ideas": [
+    "Würdest du eher in der Kreisliga zum Spaß spielen oder in der Bundesliga auf der Bank sitzen?"
+   ],
+   "image_hint": "Rasenplatz mit Plastikbecher",
+   "source_urls": [
+    "https://earlygame.com/de/entertainment/sidneyeweka-vermoegen-gehalt-youtube-twitch-einnahmen"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "mcky-ackern",
+   "type": "catchphrase",
+   "streamers": [
+    "mckytv"
+   ],
+   "title": "Viel Spaß beim Ackern",
+   "quote": "viel Spaß beim Ackern",
+   "year": "2023",
+   "context": "Als ein Zuschauer ihm riet, \"vernünftig zu arbeiten\", wünschte Mcky ihm viel Spaß beim Ackern. Die Community überschüttete ihn daraufhin mit Gift-Subs.",
+   "question_ideas": [
+    "Würdest du eher vernünftig arbeiten oder Gift-Subs bekommen?",
+    "Würdest du eher von Mcky \"viel Spaß beim Ackern\" wünschen lassen oder von Gronkh?"
+   ],
+   "image_hint": "Gaming-Setup, Hacke",
+   "source_urls": [
+    "https://mein-mmo.de/mcky-zuschauer-vernuenftig-arbeiten/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "mcky-valorant",
+   "type": "running_gag",
+   "streamers": [
+    "mckytv",
+    "eliasn97"
+   ],
+   "title": "Valorant-Rage",
+   "quote": "Normalerweise bin ich lieb und freundlich",
+   "year": "2024",
+   "context": "Beim Valorant-Turnier von Elias im März 2024 entschuldigte sich Mcky vorab für Ausraster und beschuldigte die französischen Mitspieler im Voice-Chat.",
+   "question_ideas": [
+    "Würdest du eher bei Valorant ausrasten oder lieb und freundlich bleiben?"
+   ],
+   "image_hint": "Valorant-Logo, roter Kopf",
+   "source_urls": [
+    "https://mein-mmo.de/mcky-erklaert-bei-welchem-spiel-er-einfach-immer-ausrastet/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "mcky-abschied",
+   "type": "running_gag",
+   "streamers": [
+    "mckytv"
+   ],
+   "title": "Abschied mit Subathon",
+   "quote": "Subathon",
+   "year": "2024",
+   "context": "Am 31. März 2024 kündigte Mcky das Karriere-Ende an, mit einem Subathon als letztem Knall. Die Community nannte es emotionale Erpressung, Gronkh sprach von \"widerlich\".",
+   "question_ideas": [
+    "Würdest du eher einen Abschieds-Subathon machen oder ohne Abschied verschwinden?"
+   ],
+   "image_hint": "Countdown mit Sub-Zähler",
+   "source_urls": [
+    "https://mein-mmo.de/gronkh-kritisiert-mcky-abschied/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "mcky-kick",
+   "type": "running_gag",
+   "streamers": [
+    "mckytv"
+   ],
+   "title": "Die 8-Millionen-Story",
+   "quote": "etwas aus der Luft gegriffen",
+   "year": "2023",
+   "context": "Mcky behauptete 2023, er habe ein 8-Millionen-Dollar-Angebot von Kick abgelehnt, gab später aber zu, die Zahl sei \"etwas aus der Luft gegriffen\".",
+   "question_ideas": [
+    "Würdest du eher 8 Millionen ablehnen oder 8 Millionen erfinden?"
+   ],
+   "image_hint": "Geldsack mit Fragezeichen",
+   "source_urls": [
+    "https://mein-mmo.de/gronkh-kritisiert-mcky-abschied/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "mcky-nescafe",
+   "type": "running_gag",
+   "streamers": [
+    "mckytv",
+    "gronkh"
+   ],
+   "title": "Nescafé Placement",
+   "quote": "Nescafé",
+   "year": "2024",
+   "context": "Kurz vor dem Abschied bewarb Mcky Nescafé, die Community war wegen Nestlé genervt. Gronkh bastelte daraus im Sim-Spiel einen Gag.",
+   "question_ideas": [
+    "Würdest du eher Nescafé bewerben oder Nestlé boykottieren?"
+   ],
+   "image_hint": "Kaffeetasse mit Nein-Zeichen",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-mckytv-fehltritt-gronkh/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "mcky-games",
+   "type": "trait",
+   "streamers": [
+    "mckytv"
+   ],
+   "title": "WoW, Clash Royale, PUBG",
+   "quote": "Hamburg",
+   "year": "2016-2024",
+   "context": "Mcky streamt seit Oktober 2016 aus Hamburg: erst World of Warcraft und Clash Royale, später PUBG und Fortnite. Rund 1,3 Mio. Follower.",
+   "question_ideas": [
+    "Würdest du eher Fortnite oder PUBG mit Mcky zocken?"
+   ],
+   "image_hint": "Hamburger Hafen, Shooter",
+   "source_urls": [
+    "https://mein-mmo.de/mcky-erklaert-bei-welchem-spiel-er-einfach-immer-ausrastet/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "tanz-400",
+   "type": "catchphrase",
+   "streamers": [
+    "tanzverbot"
+   ],
+   "title": "400 Euro sind 400 Euro",
+   "quote": "400 € sind 400 €",
+   "year": "2020er",
+   "context": "Als MontanaBlack fragte, was 400 Euro wert sind, antwortete Tanzverbot: \"400 € sind 400 €.\" Der Clip landete bei Satter Hugo.",
+   "question_ideas": [
+    "Würdest du eher 400 € für eine Dior-Jacke ausgeben oder für 400 Euro Pizza essen?"
+   ],
+   "image_hint": "Preisschild 400 Euro",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-reagiert-auf-satter-hugo-zu-tanzverbot/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "tanz-rant",
+   "type": "running_gag",
+   "streamers": [
+    "tanzverbot"
+   ],
+   "title": "Telekom-Rant",
+   "quote": "Das kann doch einfach nicht sein!",
+   "year": "2026",
+   "context": "Im April 2026 meckerte Tanzverbot auf YouTube über langsames Internet der Telekom.",
+   "question_ideas": [
+    "Würdest du eher täglich bei der Telekom anrufen oder 10 Stunden mit 1 Mbit streamen?"
+   ],
+   "image_hint": "Router mit Qualm",
+   "source_urls": [
+    "https://mein-mmo.de/tanzverbot-youtube-ansage-telekom-twitch/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "tanz-influencer",
+   "type": "catchphrase",
+   "streamers": [
+    "tanzverbot",
+    "sidneyeweka"
+   ],
+   "title": "Dreist überbezahlt",
+   "quote": "Influencer sind schon dreist überbezahlt",
+   "year": "2023",
+   "context": "Tanzverbot antwortete auf Sidneys Umfrage zu überbezahlten Berufen.",
+   "question_ideas": [
+    "Würdest du eher überbezahlt sein oder unterbezahlt, aber glücklich?"
+   ],
+   "image_hint": "Geld auf Waage",
+   "source_urls": [
+    "https://www.heidelberg24.de/ratgeber/sidney-friede-ueberbezahlte-berufe-influencer-umfrage-twitter-berlin-umfrage-fussballer-1ng-zr-92224051.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "basti-streak",
+   "type": "trait",
+   "streamers": [
+    "bastighg"
+   ],
+   "title": "Täglich seit 2016",
+   "quote": "Ich streame wirklich jeden Tag",
+   "year": "2016-2026",
+   "context": "BastiGHG streamt nach eigener Aussage seit 2016 jeden Tag und will den Streak nach 10 Jahren beenden. Im Januar 2026 war das Jubiläum.",
+   "question_ideas": [
+    "Würdest du eher 10 Jahre täglich streamen oder 10 Jahre nie streamen?"
+   ],
+   "image_hint": "Kalender mit 3.650 Haken",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-streamer-streamt-seit-8-jahren-jeden-tag-jetzt-verraet-er-wann-schluss-ist/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "basti-hands",
+   "type": "trait",
+   "streamers": [
+    "bastighg"
+   ],
+   "title": "Nur Hände im Bild",
+   "quote": "GermanHungerGamesHD",
+   "year": "2012",
+   "context": "Die Kamera zeigt oft nur seine Hände, viele kennen sein Gesicht nicht. Der Kanal hieß ursprünglich GermanHungerGamesHD.",
+   "question_ideas": [
+    "Würdest du eher nur Hände zeigen oder nur dein Gesicht?"
+   ],
+   "image_hint": "Hände auf Tastatur",
+   "source_urls": [
+    "https://earlygame.com/de/news/hero-stories/bastighg-so-wurde-aus-einem-minecraft-spieler-eine-streaming-legende-gesponsert"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "noway-rage",
+   "type": "running_gag",
+   "streamers": [
+    "noway"
+   ],
+   "title": "Bester Rage Moment",
+   "quote": "Dann verpiss dich doch",
+   "year": "2024",
+   "context": "NoWay, sonst ruhig, gewann bei den Streamer Awards am 5. Dezember 2024 den Preis \"Bester Rage Moment\". In der Rede: \"Das war ein sehr schlechter Moment von mir.\"",
+   "question_ideas": [
+    "Würdest du eher für Ruhe oder für den besten Rage Moment ausgezeichnet werden?"
+   ],
+   "image_hint": "Trophäe mit rotem Gesicht",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-streamer-zu-lol-rastet-so-aus-dass-er-einen-preis-bekommt/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "noway-lol",
+   "type": "trait",
+   "streamers": [
+    "noway"
+   ],
+   "title": "Größter LoL-Streamer",
+   "quote": "über 18.000 Stunden LoL",
+   "year": "2012-2024",
+   "context": "NoWay ist der größte deutsche LoL-Streamer, ehemaliger Profi, mit über 18.000 Stunden im Spiel.",
+   "question_ideas": [
+    "Würdest du eher 18.000 Stunden LoL spielen oder 18.000 Stunden Minecraft?"
+   ],
+   "image_hint": "LoL-Beschwörer",
+   "source_urls": [
+    "https://mein-mmo.de/noway-erzaehlt-von-peinlichen-begegnung-mit-seinem-idol-gronkh/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "noway-werbung",
+   "type": "trait",
+   "streamers": [
+    "noway"
+   ],
+   "title": "60.000 Euro abgelehnt",
+   "quote": "3 Minuten Werbung",
+   "year": "2023",
+   "context": "NoWay lehnte nach eigener Aussage 60.000 Euro monatlich für 3 Minuten Werbung pro Stunde ab.",
+   "question_ideas": [
+    "Würdest du eher 60.000 Euro im Monat nehmen oder 3 Minuten Werbung ablehnen?"
+   ],
+   "image_hint": "Geldschein, Werbeblock-Verbot",
+   "source_urls": [
+    "https://mein-mmo.de/noway-lehnt-60k-fuer-werbung-ab/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "ruma-spar",
+   "type": "running_gag",
+   "streamers": [
+    "rumathra",
+    "trymacs"
+   ],
+   "title": "Der größte Sparfuchs",
+   "quote": "der größte Sparfuchs auf diesem Planeten",
+   "year": "2024",
+   "context": "Laut Trymacs fuhr Rumathra für 18 Euro nach Hamburg (BlaBlaCar, Couch) und kaufte dann eine 35.000-Euro-Uhr, was Trymacs \"geisteskrank\" nannte. Die Geschichte stammt nur aus Trymacs' Erzählung.",
+   "question_ideas": [
+    "Würdest du eher für 18 Euro nach Hamburg oder 35.000 für eine Uhr?"
+   ],
+   "image_hint": "Couch, Uhr, Preisschilder",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-streamer-wollte-fuer-ausflug-18-euro-zahlen-am-ende-rechnung-ueber-35-000-euro/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "ruma-grillz",
+   "type": "running_gag",
+   "streamers": [
+    "rumathra"
+   ],
+   "title": "Papaplatte postet Grillz",
+   "quote": "wie findet ihr meine grillz",
+   "year": "2025",
+   "context": "Am 15. September 2025 war Rumathra bei Papaplatte noch in Instagram eingeloggt. Papaplatte postete ein unvorteilhaftes Foto mit dieser Caption, es wurde einer seiner meistgeklickten Posts.",
+   "question_ideas": [
+    "Würdest du eher bei Papaplatte eingeloggt bleiben oder ein Grillz-Foto posten lassen?"
+   ],
+   "image_hint": "Handy mit Instagram-Post",
+   "source_urls": [
+    "https://earlygame.com/de/news/influencers/streamer-streich-von-papaplatte-an-rumathra-post-geht-viral"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "ruma-trymacs",
+   "type": "trait",
+   "streamers": [
+    "rumathra",
+    "trymacs"
+   ],
+   "title": "Trymacs will Minecraft",
+   "quote": "Wir sind Streamer geworden, um Minecraft zu spielen",
+   "year": "2024",
+   "context": "Trymacs war genervt, dass Rumathra durch Reactions kaum Zeit zum Zocken hatte.",
+   "question_ideas": [
+    "Würdest du eher Reactions machen oder Minecraft zocken?"
+   ],
+   "image_hint": "Minecraft-Haus, Reaktionsfenster",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-ist-sauer-weil-er-nur-mit-rumathra-zocken-will/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "insc-dolphin",
+   "type": "running_gag",
+   "streamers": [
+    "inscope21"
+   ],
+   "title": "Baby-Delfin Rezept",
+   "quote": "Baby-Delfin",
+   "year": "2019",
+   "context": "Ein Instagram-Video mit einem Delfin-Rezept war eine Werbeaktion von followfish und wurde von Dasding als Fake gemeldet.",
+   "question_ideas": [
+    "Würdest du eher Fisch aus Werbung essen oder echte Delfine retten?"
+   ],
+   "image_hint": "Fischdose mit Delfin",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Inscope21"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "insc-schedule",
+   "type": "trait",
+   "streamers": [
+    "inscope21"
+   ],
+   "title": "Mittwoch und Sonntag",
+   "quote": "18 Uhr",
+   "year": "2010-2020",
+   "context": "Comedy-Videos kommen mittwochs und sonntags um 18 Uhr, auf Twitch ist er seit 2020 aktiv.",
+   "question_ideas": [
+    "Würdest du eher Mittwoch oder Sonntag um 18 Uhr ein Video machen?"
+   ],
+   "image_hint": "Uhr 18:00",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Inscope21"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "shur-dcp",
+   "type": "trait",
+   "streamers": [
+    "shurjoka"
+   ],
+   "title": "Spielerin des Jahres",
+   "quote": "Spielerin des Jahres",
+   "year": "2023",
+   "context": "Shurjoka wurde im Mai 2023 beim Deutschen Computerspielpreis Spielerin des Jahres. Zuvor verlor sie 2022 gegen HandOfBlood.",
+   "question_ideas": [
+    "Würdest du eher Spielerin des Jahres sein oder Streamer des Jahres?"
+   ],
+   "image_hint": "Trophäe",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Shurjoka"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "stegi-role",
+   "type": "trait",
+   "streamers": [
+    "stegi"
+   ],
+   "title": "Unterhaltungsrolle",
+   "quote": "Unterhaltungsrolle",
+   "year": "2023",
+   "context": "Fans sprechen von Stegis Unterhaltungsrolle, im Gespräch mit Rohat wirkte er ernster.",
+   "question_ideas": [
+    "Würdest du eher immer Unterhaltungsrolle spielen oder immer ernst sein?"
+   ],
+   "image_hint": "Zwei Masken",
+   "source_urls": [
+    "https://www.giga.de/news/rohat-und-stegi-das-sind-die-groessten-sorgen-der-erfolgreichen-twitch-streamer/"
+   ],
+   "confidence": "low"
+  }
+ ],
+ "avoid": [
+  {
+   "streamer": "reved",
+   "topic": "Gesundheit, Twitch-Pause, Rückzug aus Social Media 2023/2024",
+   "why": "Gesundheitsthemen und mentale Belastung, nicht zum Roasten geeignet."
+  },
+  {
+   "streamer": "reved",
+   "topic": "Trennung von Anni The Duck 2022",
+   "why": "Privates Beziehungsende."
+  },
+  {
+   "streamer": "mckytv",
+   "topic": "Frühere Spielsucht und Schulden",
+   "why": "Mentale Gesundheit und Sucht."
+  },
+  {
+   "streamer": "mckytv",
+   "topic": "Schatzsuche nach dem Tod (One Piece, Erbe)",
+   "why": "Tod und Erbe, auch wenn als PR gemeint."
+  },
+  {
+   "streamer": "mckytv",
+   "topic": "Glücksspiel-Sponsoring und Casino-Deals",
+   "why": "Glücksspiel-Themen können Videos entmonetarisieren."
+  },
+  {
+   "streamer": "tanzverbot",
+   "topic": "Pleite-Ankündigung November 2023",
+   "why": "Finanzielle Notlage, Satter-Hugo-Clip, nicht verspotten."
+  },
+  {
+   "streamer": "tanzverbot",
+   "topic": "Trennung von quiteLola, lange Pause, Twitch-Rückkehr",
+   "why": "Mentale Gesundheit, Privates."
+  },
+  {
+   "streamer": "eliasn97",
+   "topic": "Spitch-Werbung (Glücksspiel) November 2022",
+   "why": "Glücksspiel-Vorwurf."
+  },
+  {
+   "streamer": "eliasn97",
+   "topic": "Hurigkeit-Kommentar Mai 2023",
+   "why": "Sexualisierende Kontroverse."
+  },
+  {
+   "streamer": "eliasn97",
+   "topic": "Kind von Elias und Melina",
+   "why": "Private Familie."
+  },
+  {
+   "streamer": "eliasn97",
+   "topic": "Unfall von Trymacs auf dem Weg zu den Eligella Winter Games",
+   "why": "Unfall."
+  },
+  {
+   "streamer": "sidneyeweka",
+   "topic": "Pool-Stream mit Corinna Kopf und Twitch-Bann-Spekulation",
+   "why": "Möglicherweise sexualisiert, Gerüchte."
+  },
+  {
+   "streamer": "sidneyeweka",
+   "topic": "Verletzungen und Karriereende, Familie",
+   "why": "Privates."
+  },
+  {
+   "streamer": "handofblood",
+   "topic": "Habeck-Stream und Bot-Spekulation Januar 2025",
+   "why": "Politik und Hasskommentare."
+  },
+  {
+   "streamer": "handofblood",
+   "topic": "Spricht über Vergangenheit und Besserung",
+   "why": "Persönliches."
+  },
+  {
+   "streamer": "gronkh",
+   "topic": "Hogwarts Legacy Shitstorm, Rechts-Vorwurf",
+   "why": "Politische Vorwürfe."
+  },
+  {
+   "streamer": "gronkh",
+   "topic": "Privatleben mit Pandorya",
+   "why": "Private Beziehung, besser vermeiden."
+  },
+  {
+   "streamer": "shurjoka",
+   "topic": "Streit mit KuchenTV, Scurrows, Tobias Huch, Gerichtsverfahren",
+   "why": "Rechtsstreit."
+  },
+  {
+   "streamer": "shurjoka",
+   "topic": "Gewalterfahrung im Elternhaus",
+   "why": "Sensibel."
+  },
+  {
+   "streamer": "stegi",
+   "topic": "Familie und Eltern",
+   "why": "Private Familie."
+  },
+  {
+   "streamer": "dhalucard",
+   "topic": "Keine belastbaren Quellen gefunden",
+   "why": "Nicht verifiziert, deshalb kein Eintrag."
+  }
+ ]
+}

@@ -1,0 +1,1462 @@
+{
+ "entries": [
+  {
+   "id": "7vw-s1",
+   "type": "event",
+   "streamers": [
+    "fritz"
+   ],
+   "title": "7 vs. Wild Staffel 1",
+   "year": 2021,
+   "context": "Erste Staffel in Schweden mit Fritz Meinecke, Survival Mattin und Co. Fritz gewann und spendete sein Preisgeld. Streamer wie Unge und Knossi machten Reaction-Videos.",
+   "question_ideas": [
+    "Würdest du eher sieben Tage allein in Schwedens Wildnis überleben oder sieben Tage Reaction-Videos zu 7 vs. Wild drehen?",
+    "Würdest du eher wie Fritz gewinnen und das Preisgeld spenden oder behalten und dafür Ärger in den Kommentaren kassieren?"
+   ],
+   "image_hint": "Wildnis-Insel in Schweden, Zelt und Lagerfeuer",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "7vw-s2",
+   "type": "event",
+   "streamers": [
+    "knossi",
+    "fritz"
+   ],
+   "title": "7 vs. Wild Staffel 2",
+   "year": 2022,
+   "context": "Zweite Staffel auf der Isla de San José in Panama. Knossi war als Teilnehmer dabei, Otto gewann.",
+   "question_ideas": [
+    "Würdest du eher wie Knossi eine Woche auf einer Insel in Panama überleben oder eine Woche ohne Handy und Twitch zu Hause bleiben?",
+    "Würdest du eher Kokosnüsse selbst knacken oder Fisch roh essen müssen?"
+   ],
+   "image_hint": "Tropeninsel, Knossi mit Survival-Ausrüstung",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "7vw-s3",
+   "type": "event",
+   "streamers": [
+    "knossi",
+    "papaplatte",
+    "trymacs",
+    "fritz",
+    "rumathra",
+    "reeze"
+   ],
+   "title": "7 vs. Wild Staffel 3 Kanada",
+   "year": 2023,
+   "context": "Sieben Zweierteams in Kanada, erste Staffel bei Freevee. Knossi und Papaplatte hielten 14 Tage durch, Fritz schied an Tag 3 aus, Trymacs und Rumathra an Tag 10.",
+   "question_ideas": [
+    "Würdest du eher wie Knossi 14 Tage in Kanada durchhalten oder wie Trymacs an Tag 10 aufgeben und dafür nie wieder Durst haben?",
+    "Würdest du eher zwei Wochen mit Papaplatte oder zwei Wochen mit Trymacs im Team überleben?"
+   ],
+   "image_hint": "Kanadische Küste, Zweierteams",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild",
+    "https://mein-mmo.de/twitch-seven-vs-wild-trailer-staffel/",
+    "https://www.kino.de/serie/7-vs.-wild/news/7-vs.-wild-gewinner-2023-2024-wer-hat-volle-14-tage-in-kanada-durchgehalten/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "7vw-s3-fritz",
+   "type": "clip",
+   "streamers": [
+    "fritz"
+   ],
+   "title": "Fritz gibt an Tag 3 auf",
+   "year": 2023,
+   "context": "Der Erfinder der Show musste in Staffel 3 wegen Wassermangel und Dehydration schon an Tag 3 abbrechen. Ein Schock für viele Fans.",
+   "question_ideas": [
+    "Würdest du eher als Erfinder der Show nach drei Tagen aufgeben oder als Gast ohne Chance gewinnen?",
+    "Würdest du eher drei Tage ohne Wasser in Kanada sein oder drei Tage ohne Internet?"
+   ],
+   "image_hint": "Fritz erschöpft am Strand",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild",
+    "https://www.kino.de/serie/7-vs.-wild/news/7-vs.-wild-gewinner-2023-2024-wer-hat-volle-14-tage-in-kanada-durchgehalten/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "7vw-trymacs-wasser",
+   "type": "clip",
+   "streamers": [
+    "trymacs",
+    "rumathra"
+   ],
+   "title": "Trymacs sucht Trinkwasser",
+   "year": 2023,
+   "context": "Trymacs und Rumathra liefen auf der Suche nach Trinkwasser zu weit und wurden vom Rettungsteam erst spät gefunden. An Tag 10 war Schluss.",
+   "question_ideas": [
+    "Würdest du eher wie Trymacs meilenweit nach Wasser laufen oder an einer Stelle warten, bis die Rettung kommt?",
+    "Würdest du eher mit Rumathra verloren gehen oder mit Trymacs?"
+   ],
+   "image_hint": "Trymacs und Rumathra im Wald",
+   "source_urls": [
+    "https://mein-mmo.de/7-vs-wild-rettungs-team-findet-teilnehmer-nicht/",
+    "https://de.wikipedia.org/wiki/7_vs._Wild"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "7vw-papaplatte-kritik",
+   "type": "drama",
+   "streamers": [
+    "papaplatte",
+    "reeze"
+   ],
+   "title": "Papaplatte kritisiert 7vW Orga",
+   "year": 2023,
+   "context": "Papaplatte und Reeze sagten im Interview, die Orga vor Ort sei der eigentliche Survival-Teil gewesen und sie würden nicht nochmal mitmachen.",
+   "question_ideas": [
+    "Würdest du eher bei 7 vs. Wild mitmachen und die Orga loben oder wie Papaplatte nie wieder zusagen?",
+    "Würdest du eher Bärenspray erst kurz vor dem Absetzen bekommen oder ganz ohne Briefing starten?"
+   ],
+   "image_hint": "Papaplatte und Reeze im Interview",
+   "source_urls": [
+    "https://mein-mmo.de/7-vs-wild-papaplatte-reeze-kritik-an-produktion-im-interview/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "7vw-flut",
+   "type": "clip",
+   "streamers": [
+    "papaplatte",
+    "reeze"
+   ],
+   "title": "Flut reißt das Netz weg",
+   "year": 2023,
+   "context": "Papaplatte und Reeze wurden nachts von der Flut überrascht, ihr Netz wurde weggerissen.",
+   "question_ideas": [
+    "Würdest du eher nachts von der Flut geweckt werden oder von Bauchschmerzen?",
+    "Würdest du eher mit Reeze im Zelt schlafen oder allein in einer Hängematte?"
+   ],
+   "image_hint": "Strand bei Flut, Nacht",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-streamer-papaplatte-7vswild-parkhaus/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "7vw-s4",
+   "type": "event",
+   "streamers": [
+    "letshugo"
+   ],
+   "title": "7 vs. Wild Staffel 4 Crashed",
+   "year": 2024,
+   "context": "Flugzeugabsturz-Szenario in Neuseeland mit Joe Vogel, Julia Beautx, Joey Kelly, LetsHugo und anderen. Ein Dauerstreit zwischen Joe und Stefan spaltete das Publikum.",
+   "question_ideas": [
+    "Würdest du eher in Neuseeland abstürzen oder in Kanada ausgesetzt werden?",
+    "Würdest du eher mit Joe Vogel im Team sein oder mit Joey Kelly?"
+   ],
+   "image_hint": "Wrack im neuseeländischen Tal",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "7vw-s5",
+   "type": "event",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "7 vs. Wild Staffel 5 Amazonas",
+   "year": 2025,
+   "context": "Erste Staffel ohne Fritz Meinecke, gedreht in Kolumbien mit Joe Vogel, Avive, Fibi und Co. Papaplatte kommentierte die geringeren Aufrufzahlen mitleidig.",
+   "question_ideas": [
+    "Würdest du eher im Amazonas oder in Kanada überleben?",
+    "Würdest du eher bei der neuen Staffel ohne Fritz mitmachen oder bei der alten mit Fritz zuschauen?"
+   ],
+   "image_hint": "Amazonas-Dschungel",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild",
+    "https://www.promiflash.de/news/2025/11/16/papaplatte-tun-schlechte-aufrufzahlen-von-7-vs-wild-leid.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "angelcamp",
+   "type": "event",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Knossi x Sido Angelcamp",
+   "year": 2020,
+   "context": "72-Stunden-Event mit Sido und Knossi, rund 310.000 gleichzeitige Zuschauer, neuer deutscher Twitch-Rekord.",
+   "question_ideas": [
+    "Würdest du eher 72 Stunden mit Sido angeln oder 72 Stunden mit Knossi zelten?",
+    "Würdest du eher den Fisch deines Lebens fangen oder einen Zuschauerrekord aufstellen?"
+   ],
+   "image_hint": "Angelsee, Zelt, Knossi und Sido",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-deutscher-zuschauerrekord-sido-angeln/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "horrorcamp",
+   "type": "event",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Horrorcamp mit Sido",
+   "year": 2020,
+   "context": "Folgeevent im Oktober 2020 mit bis zu 328.945 Zuschauern im Peak, neuer Rekord auf Twitch.",
+   "question_ideas": [
+    "Würdest du eher bei Knossis Horrorcamp im Dunkeln übernachten oder im Angelcamp bei Regen?",
+    "Würdest du eher Sidos Gruselgast sein oder Knossis Schreckhahn?"
+   ],
+   "image_hint": "Waldcamp bei Nacht, Zelte",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-rekord-horrorcamp-mit-knossi-sido/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-rekord",
+   "type": "clip",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Monte Rekord 181.600",
+   "year": 2019,
+   "context": "Im September 2019 stellte MontanaBlack mit einem Slots-Stream den deutschen Twitch-Rekord von rund 181.600 Zuschauern auf.",
+   "question_ideas": [
+    "Würdest du eher einen Rekord wie Monte aufstellen oder jede Woche ein Event wie Knossi hosten?",
+    "Würdest du eher 180.000 Zuschauer haben oder 180.000 Euro auf dem Konto?"
+   ],
+   "image_hint": "Zuschauerzahl-Anzeige bei Monte",
+   "source_urls": [
+    "https://mein-mmo.de/deutscher-zuschauer-rekord-twitch/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-twitch-vertrag",
+   "type": "event",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Monte kündigt Twitch-Vertrag",
+   "year": 2019,
+   "context": "Ende 2019 kündigte MontanaBlack seinen Twitch-Vertrag an und kehrte später mit über 100.000 Zuschauern zurück.",
+   "question_ideas": [
+    "Würdest du eher wie Monte Twitch den Rücken kehren oder für immer exklusiv bleiben?",
+    "Würdest du eher mit 100.000 Zuschauern zurückkehren oder mit gar keinem Comeback?"
+   ],
+   "image_hint": "Monte vor Twitch-Logo",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-kuendigt-twitch-am-meisten-lieb/",
+    "https://mein-mmo.de/montanablack-zurueck-twitch-stream-ueber-100-000-zuschauern/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "monte-fortnite",
+   "type": "project",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Monte Fortnite-Hype",
+   "year": 2018,
+   "context": "Mit Fortnite wuchs der Kanal von MontanaBlack ab 2018 stark und machte ihn zum größten deutschen Streamer.",
+   "question_ideas": [
+    "Würdest du eher Fortnite wie Monte 12 Stunden zocken oder ein Jahr nur Slots schauen?",
+    "Würdest du eher im Fortnite-Hype 2018 streamen oder heute?"
+   ],
+   "image_hint": "Fortnite-Kulisse mit Monte",
+   "source_urls": [
+    "https://www.own3d.tv/en/blog/streamer/montanablack/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "pokemon-356k",
+   "type": "event",
+   "streamers": [
+    "trymacs",
+    "papaplatte"
+   ],
+   "title": "Pokémon Base Set 356.000",
+   "year": 2021,
+   "context": "Trymacs und Papaplatte öffneten im Februar 2021 ein altes Base-Set für 40.000 Euro mit zusammen 356.000 Zuschauern.",
+   "question_ideas": [
+    "Würdest du eher 40.000 Euro in alte Pokémon-Karten stecken oder in ein gebrauchtes Auto?",
+    "Würdest du eher ein Glurak ziehen oder den Zuschauerrekord brechen?"
+   ],
+   "image_hint": "Pokémon Base Set Display, Glurak-Karte",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-trymacs-papaplatte-zuschauerrekord/",
+    "https://winfuture.de/news,120949.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "pokemon-teamrocket",
+   "type": "event",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Team Rocket Display",
+   "year": 2021,
+   "context": "Am Folgetag öffnete Trymacs ein Team-Rocket-Display für 12.000 Euro vor über 260.000 Zuschauern im Peak.",
+   "question_ideas": [
+    "Würdest du eher 12.000 Euro in Pokémon-Booster oder in einen Urlaub stecken?",
+    "Würdest du eher drei Glurak ziehen oder lauter Wasser-Energie?"
+   ],
+   "image_hint": "Team Rocket Booster, Trymacs staunt",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-trymacs-pokemon-karten-200000-fans/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "pokemon-500k",
+   "type": "object",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "500.000 Euro Pokémon-Karten",
+   "year": 2024,
+   "context": "Trymacs hat nach eigenen Angaben in sechs Jahren rund 500.000 Euro für Pokémon-Karten ausgegeben.",
+   "question_ideas": [
+    "Würdest du eher Trymacs' Kartensammlung besitzen oder ein Eigenheim?",
+    "Würdest du eher jede Karte gradet bekommen oder jede Karte ungeöffnet lassen?"
+   ],
+   "image_hint": "Binder voller Pokémon-Karten",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-zeigt-bulk-karten/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "pokemon-1st-glurak",
+   "type": "clip",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "1. Edition Glurak gezogen",
+   "year": 2022,
+   "context": "Bei einem 1st-Edition-Display für rund 35.000 Euro zog Trymacs ein Glurak, eine der begehrtesten Karten.",
+   "question_ideas": [
+    "Würdest du eher ein Glurak aus dem 1st-Edition-Display ziehen oder 35.000 Euro zurückbekommen?"
+   ],
+   "image_hint": "Glurak Holo-Karte",
+   "source_urls": [
+    "https://www.leinetal24.de/boulevard/streamer-legt-35-000-euro-auf-den-tisch-um-alte-pokemon-karten-zu-oeffnen-bekommt-den-hauptpreis-zr-93644933.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "trymacs-subs",
+   "type": "object",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Meiste Subs weltweit",
+   "year": 2022,
+   "context": "Trymacs hatte zeitweise weltweit die meisten Subs auf Twitch.",
+   "question_ideas": [
+    "Würdest du eher die meisten Subs der Welt haben oder die meisten Follower?"
+   ],
+   "image_hint": "Sub-Zähler Trymacs",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-weltweit-meisten-subs-twitch/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "trymacs-box",
+   "type": "event",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Trymacs Boxkampf",
+   "year": 2022,
+   "context": "Trymacs boxte bei 'The Great Fight Night' gegen MckyTV, ein Mega-Event mit hunderttausenden Zuschauern.",
+   "question_ideas": [
+    "Würdest du eher gegen MckyTV boxen oder gegen Knossi im Wok-Rennen antreten?",
+    "Würdest du eher Trymacs' Trainer sein oder sein Ringrichter?"
+   ],
+   "image_hint": "Boxring, Handschuhe Trymacs",
+   "source_urls": [
+    "https://mein-mmo.de/boxkaempfe-auf-twitch/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "trymacs-hand",
+   "type": "clip",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "8 Wochen kein Zocken",
+   "year": 2022,
+   "context": "Nach dem Box-Event meldete Trymacs, er könne wegen der kaputten Hand 8 Wochen nicht zocken.",
+   "question_ideas": [
+    "Würdest du eher 8 Wochen nicht zocken oder 8 Wochen nicht streamen?",
+    "Würdest du eher boxen und Verletzung riskieren oder auf der Couch zuschauen?"
+   ],
+   "image_hint": "Trymacs mit Gipsverband",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-trymacs-hand-kaputt/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "knossi-trymacs-beef",
+   "type": "drama",
+   "streamers": [
+    "knossi",
+    "trymacs"
+   ],
+   "title": "Ich ruf deinen Vater an",
+   "year": 2022,
+   "context": "Nach Trymacs' Analyse des Boxkampfs reagierte Knossi mit dem Spruch 'Ich ruf deinen Vater an'. Ein kurzer, humorvoller Streit zwischen den Geschäftspartnern.",
+   "question_ideas": [
+    "Würdest du eher Knossis Familie anrufen oder Trymacs' Papa anrufen?",
+    "Würdest du eher wie Knossi den Ton am Telefon angeben oder wie Trymacs die Box-Analyse machen?"
+   ],
+   "image_hint": "Handy mit Anruf, zwei Streamer",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-streamer-knossi-trymacs-ansage/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "happy-slice",
+   "type": "object",
+   "streamers": [
+    "knossi",
+    "trymacs"
+   ],
+   "title": "Happy Slice Pizza",
+   "year": 2023,
+   "context": "Knossi und Trymacs starteten die Pizzamarke Happy Slice im Ghost-Kitchen-Modell mit rund 70 Standorten. Später kam sie sogar an Aral-Tankstellen.",
+   "question_ideas": [
+    "Würdest du eher Happy-Slice-Pizza essen oder Happy-Chips knabbern?",
+    "Würdest du eher eine Pizza mit Knossi teilen oder mit Trymacs?",
+    "Würdest du eher Pizza an der Tankstelle holen oder bestellen?"
+   ],
+   "image_hint": "Pizzakarton Happy Slice",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-knossi-pizza-chaos/",
+    "https://www.yumda.com/de/news/1187213/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "pizza-hosen",
+   "type": "clip",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Knossi lässt die Hosen fallen",
+   "year": 2023,
+   "context": "Zum Start der Pizzakette ließ Knossi laut Bericht die Hosen fallen, eine Promo-Aktion.",
+   "question_ideas": [
+    "Würdest du eher für eine Pizza die Hosen fallen lassen oder vom Fallschirm springen?"
+   ],
+   "image_hint": "Knossi lachend mit Pizza",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-knossi-pizza-chaos/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "pizza-fallschirm",
+   "type": "event",
+   "streamers": [
+    "knossi",
+    "trymacs"
+   ],
+   "title": "Fallschirm-Pizza",
+   "year": 2023,
+   "context": "Zur Happy-Slice-Promo sprangen Knossi und Trymacs für eine Pizza mit dem Fallschirm ab.",
+   "question_ideas": [
+    "Würdest du eher für eine Pizza aus dem Flugzeug springen oder eine Pizza auf dem Gipfel essen?"
+   ],
+   "image_hint": "Fallschirmsprung mit Pizza",
+   "source_urls": [
+    "https://www.wuv.de/themen/marke/wieso-knossi-und-trymacs-fuer-eine-pizza-mit-dem-fallschirm-abspringen"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "pizza-schulhof",
+   "type": "clip",
+   "streamers": [
+    "knossi",
+    "trymacs"
+   ],
+   "title": "Pizza-Promo auf dem Schulhof",
+   "year": 2023,
+   "context": "Die Happy-Slice-Promo in Köln eskalierte, als Fans den Schulhof stürmten und Lehrer sauer waren.",
+   "question_ideas": [
+    "Würdest du eher vom Schulhof Fans empfangen werden oder von Lehrern?"
+   ],
+   "image_hint": "Schulhof voller Fans",
+   "source_urls": [
+    "https://www.heidelberg24.de/ratgeber/knossalla-fans-koeln-trymacs-knossi-twitch-pizza-promo-happy-slice-schueler-schule-jens-zr-92304510.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "happy-chips",
+   "type": "object",
+   "streamers": [
+    "knossi",
+    "trymacs"
+   ],
+   "title": "Happy Chips",
+   "year": 2024,
+   "context": "Knossi und Trymacs stiegen ins Chips-Geschäft ein. Das Produkt wurde nach Ernteausfällen und hohen Kartoffelpreisen eingestellt.",
+   "question_ideas": [
+    "Würdest du eher Happy Chips mit Paprika oder Happy-Slice-Pizza?",
+    "Würdest du eher eine Chipsmarke gründen oder eine Pizzakette?"
+   ],
+   "image_hint": "Chipstüten Happy Chips",
+   "source_urls": [
+    "https://earlygame.com/de/news/influencers/einzigartige-geschmaecker-knossi-trymacs-steigen-ins-chips-geschaeft-ein"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "wok-wm",
+   "type": "event",
+   "streamers": [
+    "trymacs",
+    "knossi"
+   ],
+   "title": "TV total Wok-WM",
+   "year": 2023,
+   "context": "Trymacs und Knossi traten in der Wok-WM an. Trymacs verletzte sich am Knie, Knossi stürzte im Finale, am Ende gab es Platz 8 von 10.",
+   "question_ideas": [
+    "Würdest du eher im Wok-Rennen stürzen oder eine Medaille knapp verpassen?",
+    "Würdest du eher mit Knossi im Wok sitzen oder mit Trymacs?"
+   ],
+   "image_hint": "Wok-Bob-Bahn, Knossi im Wok",
+   "source_urls": [
+    "https://mein-mmo.de/wok-wm-trymacs-verletzt-treppchen-verpasst/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "mission-unknown",
+   "type": "project",
+   "streamers": [
+    "knossi",
+    "trymacs"
+   ],
+   "title": "Mission Unknown Atlantik",
+   "year": 2024,
+   "context": "Knossi initiierte eine Atlantiküberquerung per Segelboot mit zehn Creators. Trymacs kommentierte, würde aber selbst nie mitmachen.",
+   "question_ideas": [
+    "Würdest du eher den Atlantik per Segelboot überqueren oder zu Fuß durch Kanada?",
+    "Würdest du eher bei Knossis Mission mitsegeln oder wie Trymacs lieber zu Hause bleiben?"
+   ],
+   "image_hint": "Segelboot auf dem Atlantik",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-knossi-mission-unknown-atlantik/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "pbb-knossi",
+   "type": "event",
+   "streamers": [
+    "knossi",
+    "trymacs",
+    "rohat",
+    "zarbex"
+   ],
+   "title": "Promi Big Brother Knossi",
+   "year": 2025,
+   "context": "Im Oktober 2025 lief über 57 Stunden die Knossi-Version von Promi Big Brother mit Rohat, Zarbex und Aria Addams, Trymacs war Tagesgast.",
+   "question_ideas": [
+    "Würdest du eher bei Knossis Promi Big Brother einziehen oder Gast im Container sein?",
+    "Würdest du eher mit Rohat oder mit Zarbex im Container wohnen?"
+   ],
+   "image_hint": "Big-Brother-Container, Knossi mit Mikro",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-events-in-2025/4/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "craft-attack-9",
+   "type": "project",
+   "streamers": [
+    "unge"
+   ],
+   "title": "Craft Attack 9",
+   "year": 2019,
+   "context": "Craft Attack ist seit 2014 das große deutschsprachige Minecraft-Projekt, seit 2018 organisiert von SparkofPhoenix und Earliboy.",
+   "question_ideas": [
+    "Würdest du eher bei Craft Attack mitbauen oder ein eigenes Varo starten?"
+   ],
+   "image_hint": "Minecraft-Server Skyline",
+   "source_urls": [
+    "https://mein-mmo.de/video/craft-attack-9-video/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "craft-attack-13",
+   "type": "project",
+   "streamers": [
+    "trymacs",
+    "rumathra",
+    "handofblood",
+    "montanablack",
+    "letshugo"
+   ],
+   "title": "Craft Attack 13",
+   "year": 2025,
+   "context": "Rund 100 deutschsprachige Creator bauten ab Oktober 2025 auf einem Minecraft-Server, im Schnitt über 43.500 Zuschauer.",
+   "question_ideas": [
+    "Würdest du eher bei Craft Attack 13 riesige Bauwerke planen oder alleine ein Hafenstädtchen nachbauen?",
+    "Würdest du eher in einer Gruppe bauen oder wie Varion allein?"
+   ],
+   "image_hint": "Minecraft-Großbaustelle",
+   "source_urls": [
+    "https://mein-mmo.de/deutsches-twitch-craftattack-13/",
+    "https://mein-mmo.de/varion-alleine-in-craft-attack-13/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "ca13-drachenei",
+   "type": "clip",
+   "streamers": [
+    "rumathra"
+   ],
+   "title": "Rumathra Drachenei",
+   "year": 2025,
+   "context": "Rumathra erbeutete in Craft Attack 13 das Drachenei, die Schnitzeljagd danach wurde aber abgebrochen.",
+   "question_ideas": [
+    "Würdest du eher das Drachenei besitzen oder ein Diamantenhaus?",
+    "Würdest du eher Rumathras Ei verteidigen oder jagen?"
+   ],
+   "image_hint": "Drachenei in Minecraft",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-events-in-2025/4/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "ca13-trymacs",
+   "type": "clip",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Trymacs spielt anderes Spiel",
+   "year": 2025,
+   "context": "Trymacs tat in Craft Attack 13 so, als spiele er im Minecraft ein ganz anderes Spiel.",
+   "question_ideas": [
+    "Würdest du eher in Minecraft ein anderes Spiel vortäuschen oder ein Konzert für alle geben?"
+   ],
+   "image_hint": "Trymacs verkleidet in Minecraft",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-craft-attack-13-trymacs/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "ca13-letshugo-bann",
+   "type": "drama",
+   "streamers": [
+    "letshugo"
+   ],
+   "title": "LetsHugo vorab gebannt",
+   "year": 2025,
+   "context": "LetsHugo wurde vor dem Start von Craft Attack 13 für einen Tag gesperrt, weil er Abstimmungsergebnisse vorab gezeigt hatte.",
+   "question_ideas": [
+    "Würdest du eher vor dem Start gebannt werden oder als Letzter dazustoßen?"
+   ],
+   "image_hint": "Bann-Hammer, LetsHugo",
+   "source_urls": [
+    "https://mein-mmo.de/deutsches-twitch-craftattack-13/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "ca13-monte-pietsmiet",
+   "type": "clip",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Monte x Pietsmiet Crossover",
+   "year": 2025,
+   "context": "In Craft Attack 13 gab es ein Crossover von Monte und Pietsmiet.",
+   "question_ideas": [
+    "Würdest du eher Monte oder Pietsmiet als Nachbar in Minecraft haben?"
+   ],
+   "image_hint": "Monte und Pietsmiet in Minecraft",
+   "source_urls": [
+    "https://earlygame.com/de/news/influencers/wir-bekommen-ein-monte-x-pietsmiet-crossover-in-craft-attack-vor-gta-6"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "infinity-castle",
+   "type": "project",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Infinity Castle",
+   "year": 2025,
+   "context": "HandOfBlood, Eligella und weitere Creator bauten das Infinity Castle in Minecraft.",
+   "question_ideas": [
+    "Würdest du eher ein Schloss in Minecraft bauen oder eine Unterwelt-Stadt?"
+   ],
+   "image_hint": "Riesiges Minecraft-Schloss",
+   "source_urls": [
+    "https://earlygame.com/de/news/influencers/handofblood-eligella-und-co.-bauen-das-infinity-castle-in-minecraft"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "techno-freitag",
+   "type": "event",
+   "streamers": [
+    "handofblood"
+   ],
+   "title": "Techno-Freitag Club Edition",
+   "year": 2025,
+   "context": "HandOfBlood streamte 24 Stunden in einem Berliner Techno-Club mit DJs.",
+   "question_ideas": [
+    "Würdest du eher 24 Stunden im Techno-Club zocken oder im Büro?",
+    "Würdest du eher Techno-DJ oder Streamer sein?"
+   ],
+   "image_hint": "Gaming-PC im Club, DJ-Pult",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-events-in-2025/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "varo",
+   "type": "project",
+   "streamers": [
+    "unge"
+   ],
+   "title": "Varo Minecraft-Event",
+   "year": 2020,
+   "context": "Varo ist ein Minecraft-Überlebensformat mit Teams und Grenze, das mehrfach mit bekannten Creators lief. Teilnehmer bitte vor Nutzung prüfen.",
+   "question_ideas": [
+    "Würdest du eher bei Varo bis zum Schluss überleben oder im ersten Tag ausscheiden?"
+   ],
+   "image_hint": "Minecraft-Grenze, Teams",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "id": "laufband-tour",
+   "type": "event",
+   "streamers": [
+    "trymacs",
+    "zarbex",
+    "schradin"
+   ],
+   "title": "Trymacs Laufband Tour",
+   "year": 2025,
+   "context": "Im April 2025 fuhr eine Gruppe auf einem laufbandbetriebenen Fahrrad von Amsterdam nach Hamburg und wurde am ersten Tag wegen der Straße gestoppt.",
+   "question_ideas": [
+    "Würdest du eher mit dem Laufband-Rad nach Hamburg fahren oder mit dem Wohnmobil?",
+    "Würdest du eher von der Polizei gestoppt werden oder von Fans umringt?"
+   ],
+   "image_hint": "Fahrrad mit Laufband",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-events-in-2025/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rentnertour",
+   "type": "event",
+   "streamers": [
+    "schradin",
+    "montanablack",
+    "trymacs",
+    "zarbex"
+   ],
+   "title": "Rentnertour in Polen",
+   "year": 2025,
+   "context": "Schradin organisierte die Rentnertour in Wohnmobilen durch Polen mit Monte, Trymacs, Zarbex und anderen. Das Finale kam zu spät zum Schiff.",
+   "question_ideas": [
+    "Würdest du eher in einem Wohnmobil durch Polen touren oder ein Boot mieten?",
+    "Würdest du eher mit Monte oder mit Trymacs im Wohnmobil sitzen?"
+   ],
+   "image_hint": "Wohnmobil-Karawane",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-events-in-2025/3/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "edeltour",
+   "type": "event",
+   "streamers": [
+    "papaplatte",
+    "reeze"
+   ],
+   "title": "Edeltour 4.0",
+   "year": 2025,
+   "context": "Papaplatte und Reeze tourten zum vierten Mal im Wohnmobil, diesmal durch das Vereinigte Königreich, mit rund 60.000 Zuschauern im Schnitt.",
+   "question_ideas": [
+    "Würdest du eher mit Papaplatte durchs Vereinigte Königreich touren oder mit Reeze?",
+    "Würdest du eher Dudelsack spielen oder Schiffskapitän sein?"
+   ],
+   "image_hint": "Wohnmobil, Papaplatte und Reeze",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-events-in-2025/2/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "summer-games",
+   "type": "event",
+   "streamers": [
+    "eliasn97",
+    "rohat"
+   ],
+   "title": "Eligella Summer Games",
+   "year": 2025,
+   "context": "Villa in Kroatien, Pool-Wettbewerbe und viele deutsche Creator mit im Schnitt über 94.000 Zuschauern. Siegerteam Mickey, Sydney, Kuba und Rohat.",
+   "question_ideas": [
+    "Würdest du eher in einer Villa in Kroatien Wettkämpfe gewinnen oder im Pool verlieren?",
+    "Würdest du eher bei Eli im Team sein oder bei Rohat?"
+   ],
+   "image_hint": "Villa mit Pool in Kroatien",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-events-in-2025/3/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-weihnachten",
+   "type": "event",
+   "streamers": [
+    "montanablack",
+    "zarbex"
+   ],
+   "title": "Monte Weihnachtsevent",
+   "year": 2024,
+   "context": "Zum zweiten Mal lud MontanaBlack mit Zarbex zum Weihnachtsevent mit Wichteln und Skifahren, durchschnittlich über 183.000 Zuschauer.",
+   "question_ideas": [
+    "Würdest du eher bei Monte wichteln oder Ski fahren?",
+    "Würdest du eher das beste Geschenk ziehen oder das lustigste?"
+   ],
+   "image_hint": "Geschenke, Schnee, Monte",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-events-in-2025/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "stream-awards-23",
+   "type": "event",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Stream Awards: 10 Preise",
+   "year": 2024,
+   "context": "Papaplatte räumte bei den Stream Awards (Zeremonie Februar 2024) zehn Preise ab.",
+   "question_ideas": [
+    "Würdest du eher 10 Awards wie Papaplatte gewinnen oder gar nicht nominiert sein?"
+   ],
+   "image_hint": "Pokal-Regal Papaplatte",
+   "source_urls": [
+    "https://mein-mmo.de/papaplatte-ist-der-gewinner-der-stream-awards/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "stream-awards-25",
+   "type": "event",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Stream Awards 2025",
+   "year": 2025,
+   "context": "Die Stream Awards am 4. Dezember 2025 lief auf RevedTV mit Rezo, NoWay und Rewi als Moderatoren. Gronkh gewann Best Gaming Moment.",
+   "question_ideas": [
+    "Würdest du eher bei den Stream Awards moderieren oder gewinnen?"
+   ],
+   "image_hint": "Award-Bühne",
+   "source_urls": [
+    "https://streamer.guide/blog/stream-awards-dach-2025-results",
+    "https://mein-mmo.de/twitch-events-in-2025/4/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gamescom-2020",
+   "type": "event",
+   "streamers": [
+    "gronkh"
+   ],
+   "title": "Gronkh bester Streamer 2020",
+   "year": 2020,
+   "context": "Gronkh wurde zum besten Streamer 2020 gewählt und fragte selbst: 'Wie ist das denn passiert?'",
+   "question_ideas": [
+    "Würdest du eher bester Streamer des Jahres sein oder bester Clip des Jahres?"
+   ],
+   "image_hint": "Gamescom-Award Gronkh",
+   "source_urls": [
+    "https://mein-mmo.de/gronkh-bester-streamer-2020-wie-ist-das-passiert/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "funk-song",
+   "type": "event",
+   "streamers": [
+    "knossi",
+    "papaplatte"
+   ],
+   "title": "Erkennst DU den Song? live",
+   "year": 2020,
+   "context": "Im Oktober 2020 spielten Knossi und Papaplatte mit unsympathischTV und Pati Valpati bei funk die Live-Show 'Erkennst DU den Song?'.",
+   "question_ideas": [
+    "Würdest du eher Songs in zwei Sekunden erkennen oder Songs in zwei Sekunden vergessen?"
+   ],
+   "image_hint": "Musik-Quiz-Studio",
+   "source_urls": [
+    "https://www.zdf.de/video/shows/funk-collection-funk-1045-5076/funk-erkennst-du-den-song---live-mit-knossi-unsympathischtv-papaplatte--pati-valpati-100"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "wer-weiss-alles",
+   "type": "event",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Wer weiß ALLES? mit Nici",
+   "year": 2023,
+   "context": "Trymacs moderierte bei funk die Quizshow 'Wer weiß ALLES?' mit seinem Bruder Nici.",
+   "question_ideas": [
+    "Würdest du eher gegen Trymacs oder gegen seinen Bruder im Quiz antreten?"
+   ],
+   "image_hint": "Quiz-Studio, zwei Brüder",
+   "source_urls": [
+    "https://www.zdf.de/funk-wer-weiss-alles-mit-trymacs--bruder-nici-102.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "buch",
+   "type": "object",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Knossi König des Internets",
+   "year": 2021,
+   "context": "Knossis Buch beziehungsweise Hörbuch 'Knossi: König des Internets'.",
+   "question_ideas": [
+    "Würdest du eher Knossis Hörbuch hören oder sein Buch lesen?"
+   ],
+   "image_hint": "Buchcover Knossi",
+   "source_urls": [
+    "https://www.exlibris.ch/de/buecher-buch/hoerbuch/knossi/knossi-koenig-des-internets/id/9783967750492/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "knossi-casino-ende",
+   "type": "event",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Knossi beendet Casino-Streams",
+   "year": 2020,
+   "context": "Ende 2020 kündigte Knossi an, keine Casino-Streams mehr zu zeigen und sich als Vorbild zu positionieren.",
+   "question_ideas": [
+    "Würdest du eher Casino-Streams aufgeben oder Event-Streams aufgeben?"
+   ],
+   "image_hint": "Knossi, Casino-Chips durchgestrichen",
+   "source_urls": [
+    "https://mein-mmo.de/knossi-vorbild-keine-casino-streams/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-top",
+   "type": "clip",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Größter Streamer der Welt",
+   "year": 2020,
+   "context": "Im Herbst 2020 war Knossi kurzzeitig der größte Streamer der Welt.",
+   "question_ideas": [
+    "Würdest du eher kurz der größte Streamer der Welt sein oder dauerhaft Nummer 5?"
+   ],
+   "image_hint": "Twitch Top-Liste Knossi",
+   "source_urls": [
+    "https://mein-mmo.de/knossi-twitch-top-5/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "knossi-bann",
+   "type": "drama",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Knossi Twitch-Bann",
+   "year": 2021,
+   "context": "Knossi wurde für knapp 24 Stunden gesperrt, es war laut Artikel schon sein vierter Bann.",
+   "question_ideas": [
+    "Würdest du eher einen Tag gebannt sein oder eine Woche ohne Chat streamen?"
+   ],
+   "image_hint": "Twitch-Bannschild",
+   "source_urls": [
+    "https://mein-mmo.de/en/twitch-bans-the-largest-german-streamer-knossi-what-happened,628595"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papaplatte-bann",
+   "type": "drama",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Papaplatte sechster Bann",
+   "year": 2021,
+   "context": "Twitch bannte Papaplatte innerhalb eines Jahres sechs Mal, er gestand selbst einige dumme Aktionen ein.",
+   "question_ideas": [
+    "Würdest du eher sechs Mal gebannt werden oder sechs Mal Streamer des Monats sein?"
+   ],
+   "image_hint": "Twitch-Bann Papaplatte",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-bannt-papaplatte/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "hugo-papaplatte-ban",
+   "type": "drama",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Papaplatte sperrt Hugo",
+   "year": 2021,
+   "context": "Papaplatte untersagte Hungriger Hugo 2021 zunächst die Nutzung seiner Aufnahmen, später profitierten alle von den Videos.",
+   "question_ideas": [
+    "Würdest du eher wie Papaplatte Clips verbieten oder von den Compilations profitieren?"
+   ],
+   "image_hint": "Hugo-Thumbnail, Verbotsschild",
+   "source_urls": [
+    "https://mein-mmo.de/hungriger-hugo-einnahmen-erfolg/",
+    "https://www.thetvdb.com/series/walulis-wie-schwer-kanns-schon-sein/episodes/10010624"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "hugo-start",
+   "type": "event",
+   "streamers": [
+    "knossi",
+    "trymacs",
+    "papaplatte",
+    "montanablack"
+   ],
+   "title": "Hungriger Hugo startet",
+   "year": 2019,
+   "context": "Der Kanal Hungriger Hugo entstand am 4. Dezember 2019, zeigt Clips deutscher Streamer mit rotem Faden und hat knapp 1 Mio Abos.",
+   "question_ideas": [
+    "Würdest du eher in Hugos Videos zur Pointe werden oder gar nicht vorkommen?",
+    "Würdest du eher Hungriger Hugo oder Satter Hugo schauen?"
+   ],
+   "image_hint": "Hugo-Logo, Clips-Collage",
+   "source_urls": [
+    "https://mein-mmo.de/hungriger-hugo-einnahmen-erfolg/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "satter-hugo",
+   "type": "project",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Satter Hugo Kanal",
+   "year": 2022,
+   "context": "Satter Hugo ist der Zweitkanal mit klassischeren Compilations, heute von ItsLoru betrieben.",
+   "question_ideas": [
+    "Würdest du eher in Satter Hugo vorkommen oder in Reaktions Hugo?"
+   ],
+   "image_hint": "Satter-Hugo-Thumbnail",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-fuehlt-sich-ungerecht-dargestellt/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "monte-bots",
+   "type": "drama",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Ihr seid alle Bots",
+   "year": 2022,
+   "context": "Monte fühlte sich vom Satter-Hugo-Video 'Ihr seid alle Bots' falsch dargestellt, weil nur negative Clips gezeigt wurden.",
+   "question_ideas": [
+    "Würdest du eher in jedem Clip böse dargestellt werden oder gar nicht?",
+    "Würdest du eher ein Video über dich schneiden oder löschen lassen?"
+   ],
+   "image_hint": "Monte genervt, Hugo-Video",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-fuehlt-sich-ungerecht-dargestellt/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "chefstrobel",
+   "type": "drama",
+   "streamers": [
+    "chefstrobel"
+   ],
+   "title": "Depp vom Dienst",
+   "year": 2023,
+   "context": "Chefstrobel sagte im August 2023, er wolle nicht länger der Depp vom Dienst in den Clips sein.",
+   "question_ideas": [
+    "Würdest du eher der Depp vom Dienst sein oder nie in Clips vorkommen?"
+   ],
+   "image_hint": "Chefstrobel, Clip-Collage",
+   "source_urls": [
+    "https://mein-mmo.de/hungriger-hugo-einnahmen-erfolg/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-wildpark",
+   "type": "drama",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Streit um Sekunden Wildpark",
+   "year": 2021,
+   "context": "MontanaBlack wollte wegen weniger Sekunden eines Streams per einstweiliger Verfügung vorgehen.",
+   "question_ideas": [
+    "Würdest du eher wegen Sekunden vor Gericht ziehen oder die Sekunden löschen?"
+   ],
+   "image_hint": "Gericht und Wildpark",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-einstweilige-verfuegung-wildpark/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "monte-bann7",
+   "type": "drama",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Monte 7 Tage gebannt",
+   "year": 2020,
+   "context": "Twitch sperrte MontanaBlack einmal für 7 Tage, er äußerte sich später dazu.",
+   "question_ideas": [
+    "Würdest du eher 7 Tage gebannt sein oder 7 Tage nur zocken ohne zu streamen?"
+   ],
+   "image_hint": "Bann-Schild Monte",
+   "source_urls": [
+    "https://mein-mmo.de/streamer-montanablack-auf-twitch-gesperrt/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "7vw-gewinnspiel",
+   "type": "drama",
+   "streamers": [
+    "fritz"
+   ],
+   "title": "Kieling-Ausschluss",
+   "year": 2023,
+   "context": "Andreas Kieling wurde vor Dreh von 7 vs. Wild ausgeschlossen, was die Staffel 3 begleitete.",
+   "question_ideas": [
+    "Würdest du eher kurzfristig ersetzt werden oder selbst einspringen?"
+   ],
+   "image_hint": "Besetzungs-Tafel",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "joe-hinkelmann",
+   "type": "drama",
+   "streamers": [
+    "letshugo"
+   ],
+   "title": "Joe vs. Stefan",
+   "year": 2024,
+   "context": "Ein Konflikt zwischen Joe Vogel und Stefan Hinkelmann prägte die frühen Folgen von Staffel 4.",
+   "question_ideas": [
+    "Würdest du eher mit Joe im Team schlafen oder mit Stefan?"
+   ],
+   "image_hint": "Zwei Teilnehmer im Streit",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "letshugo-s4-exit",
+   "type": "clip",
+   "streamers": [
+    "letshugo"
+   ],
+   "title": "LetsHugo steigt aus",
+   "year": 2024,
+   "context": "LetsHugo verließ 7 vs. Wild Staffel 4 an Tag 7.",
+   "question_ideas": [
+    "Würdest du eher bei Tag 7 aussteigen oder bis Tag 8 durchhalten?"
+   ],
+   "image_hint": "Hugo im Rettungsboot",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "avive-s5",
+   "type": "clip",
+   "streamers": [
+    "avive"
+   ],
+   "title": "Avive im Amazonas",
+   "year": 2025,
+   "context": "Avive nahm 2025 an der fünften Staffel von 7 vs. Wild teil.",
+   "question_ideas": [
+    "Würdest du eher mit Avive im Dschungel oder im Studio?"
+   ],
+   "image_hint": "Avive im Dschungel",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "aral-slice",
+   "type": "object",
+   "streamers": [
+    "knossi",
+    "trymacs"
+   ],
+   "title": "Pizza bei Aral",
+   "year": 2024,
+   "context": "Aral nahm zwei Happy-Slice-Sorten, Margherita und Salami, in sein Sortiment auf.",
+   "question_ideas": [
+    "Würdest du eher an der Tankstelle Happy Slice kaufen oder frische Pizza bestellen?"
+   ],
+   "image_hint": "Aral-Tankstelle",
+   "source_urls": [
+    "https://www.yumda.com/de/news/1187213/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-slots",
+   "type": "object",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Monte Slots-Stream",
+   "year": 2019,
+   "context": "Slots-Streams brachten Monte 2019 den Rekord, heute als Glücksspiel kritisch gesehen.",
+   "question_ideas": [
+    "Würdest du eher nie wieder Slots schauen oder nie wieder FIFA?"
+   ],
+   "image_hint": "Slot-Symbole",
+   "source_urls": [
+    "https://mein-mmo.de/deutscher-zuschauer-rekord-twitch/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "reved-comeback",
+   "type": "event",
+   "streamers": [
+    "rezo"
+   ],
+   "title": "Reved kehrt zurück",
+   "year": 2026,
+   "context": "Reved kündigte bei den Stream Awards an, 2026 auf Twitch zurückzukehren.",
+   "question_ideas": [
+    "Würdest du eher wie Reved zurückkehren oder nie wieder streamen?"
+   ],
+   "image_hint": "Reved Logo",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-events-in-2025/4/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rohat-eli-ca",
+   "type": "drama",
+   "streamers": [
+    "rohat",
+    "eliasn97"
+   ],
+   "title": "Craft Attack ausgeschlossen",
+   "year": 2025,
+   "context": "Rohat und Eli fühlten sich vom großen Minecraft-Event zeitweise ausgeschlossen.",
+   "question_ideas": [
+    "Würdest du eher bei Craft Attack ausgeladen werden oder nicht dabei sein dürfen?"
+   ],
+   "image_hint": "Zwei Streamer, Tür zu",
+   "source_urls": [
+    "https://mein-mmo.de/craft-attack-ohne-rohat-und-eliasn97/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "trymacs-grading",
+   "type": "clip",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Karten-Grading Absage",
+   "year": 2025,
+   "context": "Eine Grading-Firma wollte Trymacs nicht helfen, seine Pokémon-Karten bewerten zu lassen.",
+   "question_ideas": [
+    "Würdest du eher Karten graden lassen oder ungeöffnet verkaufen?"
+   ],
+   "image_hint": "Karten-Slab",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-grading-pokemon-karten/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papaplatte-parkhaus",
+   "type": "clip",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Parkhaus Köln Fail",
+   "year": 2023,
+   "context": "Papaplatte bezwang Kanada in 7 vs. Wild, scheiterte aber später an einem Kölner Parkhaus.",
+   "question_ideas": [
+    "Würdest du eher Kanada bezwingen oder das Parkhaus meistern?"
+   ],
+   "image_hint": "Parkhaus-Schranke",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-streamer-papaplatte-7vswild-parkhaus/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papaplatte-spot",
+   "type": "drama",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Spot geleakt",
+   "year": 2023,
+   "context": "Papaplatte sagte, der Spot seines Teams sei kurz nach der Aussetzung geleakt worden.",
+   "question_ideas": [
+    "Würdest du eher deinen Spot geheim halten oder bewusst veröffentlichen?"
+   ],
+   "image_hint": "Karte mit Kreuz",
+   "source_urls": [
+    "https://mein-mmo.de/papaplatte-ist-enttaeuscht-von-7-vs-wild-da-spot-geleakt/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-tipp",
+   "type": "clip",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Aufgeben ist keine Schande",
+   "year": 2023,
+   "context": "Knossi sagte vor 7 vs. Wild, Aufzugeben sei keine Schande, und bewertete die Chancen der Teams.",
+   "question_ideas": [
+    "Würdest du eher aufgeben oder durchhalten wie Knossi?"
+   ],
+   "image_hint": "Knossi mit erhobenem Finger",
+   "source_urls": [
+    "https://mein-mmo.de/knossi-bewertet-teams-bei-7vswild/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-reaction",
+   "type": "clip",
+   "streamers": [
+    "unge",
+    "knossi"
+   ],
+   "title": "Reactions zu 7 vs. Wild",
+   "year": 2021,
+   "context": "Streamer wie Unge und Knossi machten Reaction-Videos zur ersten Staffel.",
+   "question_ideas": [
+    "Würdest du eher Reaction-Videos drehen oder selbst mitmachen?"
+   ],
+   "image_hint": "Reaction-Setup",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/7_vs._Wild"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "avoid": [
+  {
+   "topic": "Vorwürfe und Strafverfahren gegen einzelne Streamer",
+   "reason": "Unbewiesene Vorwürfe, rechtliche Risiken, nicht für humorvolle Vergleiche geeignet."
+  },
+  {
+   "topic": "MontanaBlack Sexismus-Vorwurf und Malta-Balkon-Vorfall",
+   "reason": "Sensible Themen, potenziell verletzend, keine Fragen daraus."
+  },
+  {
+   "topic": "Montes Hunde-Vergleich Frauen",
+   "reason": "Sexistische Aussage, nicht als Witzbasis nutzen."
+  },
+  {
+   "topic": "Glücksspiel- und Casino-Werbung",
+   "reason": "Plattformrisiko und Jugendschutz, nur sachlich kurz erwähnen."
+  },
+  {
+   "topic": "LetsHugo Auszeit und Schulabbruch",
+   "reason": "Psychische Gesundheit, privat, nicht thematisieren."
+  },
+  {
+   "topic": "Tanzverbot Insolvenz",
+   "reason": "Finanzielle Notlage einer Einzelperson, nicht zum Spaß nutzen."
+  },
+  {
+   "topic": "Gesundheitsbedingte Ausstiege bei 7 vs. Wild",
+   "reason": "Gesundheit, nur neutral erwähnen, keine Witze über Dehydration oder Erschöpfung."
+  },
+  {
+   "topic": "Tote Tiere und Fallen in Staffeln 2 und 4",
+   "reason": "Tierleid-Kritik, nicht als Spaßfrage nutzen."
+  },
+  {
+   "topic": "Beziehungs- und Trennungsthemen",
+   "reason": "Privatleben, ausgeschlossen."
+  },
+  {
+   "topic": "Todesfälle in der Szene",
+   "reason": "Pietät, keine Unterhaltungsformate."
+  }
+ ]
+}

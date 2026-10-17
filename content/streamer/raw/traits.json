@@ -1,0 +1,927 @@
+{
+ "entries": [
+  {
+   "id": "dagi_bee_01",
+   "streamer": "dagi_bee",
+   "kind": "look_now",
+   "label": "Platinblond",
+   "detail": "2026: schwarzes Minikleid und platinblonde offene Wellen (Urlaubsfotos). 2017 war sie blond bei den KCA (zum dritten Mal nominiert, 22 Jahre).",
+   "years": "2017-2026",
+   "image_lookup": "Dagi Bee früher heute",
+   "source_urls": [
+    "https://www.promiflash.de/news/2026/07/21/fans-feiern-es-dagi-bee-teilt-urlaubsfotos-in-knappem-kleid.html",
+    "https://www.promiflash.de/news/2017/03/11/ohne-outfit-zu-den-kcas-kleiderchaos-bei-dagi-bee.html"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "eliasn97_01",
+   "streamer": "eliasn97",
+   "kind": "era",
+   "label": "FIFA-Pro zu Twitch",
+   "detail": "Kanal Eligella Ende Aug 2017, EliasN97 Juli 2018 mit Hertha BSC eSports (FIFA), FUT Champions Cup Qualifikant mit FIFA 18, seit 2020 Twitch, danach groesster deutscher Streamer.",
+   "years": "2017-2020",
+   "image_lookup": "Eligella FIFA 2017",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/EliasN97"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "eliasn97_02",
+   "streamer": "eliasn97",
+   "kind": "prop",
+   "label": "Streamzimmer mit Pokalen",
+   "detail": "Streamt aus einem Gaestezimmer vor Wirrwarr aus Trophaeen und bunten Lichtern; Berichte ueber seine Berliner Wohnung.",
+   "years": "2024-2025",
+   "image_lookup": "EliasN97 Streamzimmer Trophäen",
+   "source_urls": [
+    "https://www.leinetal24.de/leben/games/berlin-eliasn97-wohnung-streaming-zimmer-twitch-elias-nerlich-8000-3-zimmer-groesse-toilette-zr-92586442.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "eliasn97_03",
+   "streamer": "eliasn97",
+   "kind": "habit",
+   "label": "Marathon-Streams",
+   "detail": "35-Stunden-Stream mit ueber 3 Mio Aufrufen; streamte auch Minecraft, bei dem er laut mein-mmo nichts checkt.",
+   "years": "2022-2025",
+   "image_lookup": "EliasN97 35 Stunden Stream",
+   "source_urls": [
+    "https://mein-mmo.de/eliasn97-35-stunden-stream/",
+    "https://mein-mmo.de/eliasn97-zockt-minecraft/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "gronkh_01",
+   "streamer": "gronkh",
+   "kind": "sound",
+   "label": "Tiefe Stimme",
+   "detail": "Tiefe Stimme und trockener Humor, ruhig und charismatisch; seine Stimme wurde zum Soundtrack unzaehliger Jugendzimmer. Auch Synchron: Heat in Just Cause 3, Joker in The LEGO Batman Movie, Fisk in Spider-Man: A New Universe.",
+   "years": "2010-2025",
+   "image_lookup": "Gronkh der Mann mit der Stimme",
+   "source_urls": [
+    "https://earlygame.com/de/guides/influencers/gronkh-der-mann-der-deutschland-das-lets-playen-beibrachte",
+    "https://mein-mmo.de/die-karriere-von-gronkh/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh_02",
+   "streamer": "gronkh",
+   "kind": "era",
+   "label": "1278 Minecraft-Folgen",
+   "detail": "Erster Upload 2010 (Allods Online), Durchbruch mit Minecraft: 1278 Folgen (2010-2014), ueber 21.000 Minuten. 2012 drei Webvideopreise, 2013 Gold Play Button. Frueher Entwickler/Webdesigner, Alter Ego Gronkh seit Meridian 59 (2000). Heute Twitch, Just Chatting, Reactions.",
+   "years": "2010-2014",
+   "image_lookup": "Gronkh Minecraft Let's Play Folge 1",
+   "source_urls": [
+    "https://mein-mmo.de/die-karriere-von-gronkh/",
+    "https://de.wikipedia.org/wiki/Gronkh",
+    "https://earlygame.com/de/guides/influencers/gronkh-der-mann-der-deutschland-das-lets-playen-beibrachte"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh_03",
+   "streamer": "gronkh",
+   "kind": "habit",
+   "label": "Friendly Fire und H.O.R.D.E.",
+   "detail": "Charity-Event Friendly Fire seit 2015, Pen-and-Paper H.O.R.D.E. seit 2021, Twitch freitags (seit Maerz 2018) und sonntags Reactions.",
+   "years": "2015-2025",
+   "image_lookup": "Gronkh Friendly Fire",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Gronkh",
+    "https://earlygame.com/de/guides/influencers/gronkh-der-mann-der-deutschland-das-lets-playen-beibrachte"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "gronkh_04",
+   "streamer": "gronkh",
+   "kind": "prop",
+   "label": "Sammlerhalle",
+   "detail": "Hat laut mein-mmo eine Halle gemietet (Games, Blu-rays, Mangas, Figuren, GTA-Sammlerstuecke), Vitrinen und Arcade-Automaten geplant, Einrichtung ab 1.8.2026. Paradies fuer Gaming-Nerds.",
+   "years": "2026",
+   "image_lookup": "Gronkh Halle Sammlung",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-gronkh-halle-wie-montanablack/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "gronkh_05",
+   "streamer": "gronkh",
+   "kind": "look_now",
+   "label": "Bartträger",
+   "detail": "Wird in einem Spieletipps-Text als sympathischer Bartträger bezeichnet; ob frueher/heute anders, nicht belegt. Kostüm sexy Bär im BG3-Kurzfilm (Aug 2023).",
+   "years": "2012-2023",
+   "image_lookup": "Gronkh Bart",
+   "source_urls": [
+    "https://www.spieletipps.de/artikel/6013/1/",
+    "https://mein-mmo.de/gronkh-und-phunkroyal-haben-einen-kurzfilm-fuer-baldurs-gate-3-gedreht/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "handofblood_01",
+   "streamer": "handofblood",
+   "kind": "era",
+   "label": "High Elo Rentner",
+   "detail": "Kanal 10.11.2010 (Name nach Bullet for My Valentine), LotRO und League-Guides, NfS Most Wanted, Horror-Phase (Amnesia). Maerz 2014 erstes virales Video mit Strassenumfragen High Elo Rentner. 2015 Zweitkanal HandOfUncut, 2016 Webvideopreis Gaming.",
+   "years": "2010-2016",
+   "image_lookup": "HandOfBlood High Elo Rentner 2014",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/HandOfBlood"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "handofblood_02",
+   "streamer": "handofblood",
+   "kind": "look_now",
+   "label": "Aufwendige Kostueme",
+   "detail": "Aufwendiger Schnitt und Inszenierung, Kostueme passend zum gespielten Spiel (Wikipedia). Konkretes Aussehen nicht beschrieben.",
+   "years": "2014-2025",
+   "image_lookup": "HandOfBlood Kostüm Video",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/HandOfBlood"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "handofblood_03",
+   "streamer": "handofblood",
+   "kind": "habit",
+   "label": "Reactions, Techno Freitag",
+   "detail": "Formate: Reactions, Hänno unterwegs (Truck-Simulator mit Gaesten), Techno Freitag (DJs, Zocken im Takt), Drei schaebige Spiele, Schluss Damit (2016, 2024). Twitch Di/Do bis Sept 2020, Rueckkehr Jan 2024.",
+   "years": "2014-2025",
+   "image_lookup": "Hänno unterwegs HandOfBlood",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/HandOfBlood"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "handofblood_04",
+   "streamer": "handofblood",
+   "kind": "prop",
+   "label": "Hänno und Präsident Knabe",
+   "detail": "Spitzname Hänno, in Baller League und Getraenkemarke als Praesident Knabe bekannt. Sprecher u.a. in Cyberpunk 2077 (schwaecher belegt).",
+   "years": "2023-2025",
+   "image_lookup": "Präsident Knabe HandOfBlood",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/HandOfBlood",
+    "https://streamingequip.de/streamer/handofblood/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "inscope21_01",
+   "streamer": "inscope21",
+   "kind": "era",
+   "label": "Comedy und Fitness",
+   "detail": "YouTube-Kanal 9.6.2010, InscopeLifestyle 6.7.2014 (Vlogs, Realtalks), 1 Mio Abos Herbst 2015, Comedy mittwochs und sonntags 18 Uhr, Fitness-Label OLA KALA, 2016 deutsche Stimme von Lance in Sing, Twitch seit 2020.",
+   "years": "2010-2020",
+   "image_lookup": "Inscope21 2015 Video",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Inscope21"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "julien_bam_01",
+   "streamer": "julien_bam",
+   "kind": "era",
+   "label": "Dance und Longboard",
+   "detail": "Seit 2013 auf YouTube (Musikvideos, Dance, Grossprojekte), Haarstyling mit got2b Sprühkleber (eigene Edition 2018), 2014 bei Unges Longboard-Tour, 2018 Jury bei Masters of Dance, Rueckzug 2025.",
+   "years": "2013-2025",
+   "image_lookup": "Julien Bam got2b Sprühkleber",
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Julien_Bam",
+    "https://www.henkel.com/resource/blob/833040/4b52f92abf315d3daa50fe3c1d921f9d/data/2018-03-01-presseinformation-fuer-alle-dancer-und-angehenden-influencer-got2b-spruehkleber-designed-by-julien-bam.pdf"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "knossi_01",
+   "streamer": "knossi",
+   "kind": "look_now",
+   "label": "Goldene Krone",
+   "detail": "Nennt sich Koenig des Internets und tritt heute meist mit einer Krone auf. Auch Buchtitel (2020) und Joyn-Show Knossis Kingdom (Schloss, Krone gewinnen).",
+   "years": "2019-2025",
+   "image_lookup": "Knossi Krone König des Internets",
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Jens_Knossalla",
+    "https://omr.com/de/jens-knossalla-knossi-omr-podcast/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi_02",
+   "streamer": "knossi",
+   "kind": "look_now",
+   "label": "Markanter Bart",
+   "detail": "Beschreibung als Mann mit unverkennbarem Bart (nur Stream-Beschreibung, keine Detailquelle).",
+   "years": "2019-2025",
+   "image_lookup": "Knossi Bart",
+   "source_urls": [
+    "https://www.casinotest.com/streamer/knossi/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "knossi_03",
+   "streamer": "knossi",
+   "kind": "sound",
+   "label": "Synchronstimme Maxime Le Mal",
+   "detail": "Spricht den Superschurken Maxime Le Mal in Ich einfach unverbesserlich 4 (Kino ab 11. Juli 2024).",
+   "years": "2024",
+   "image_lookup": "Knossi Maxime Le Mal Ich einfach unverbesserlich 4",
+   "source_urls": [
+    "https://www.tiktok.com/@universalpicturesde/video/7365794258948771104"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi_04",
+   "streamer": "knossi",
+   "kind": "era",
+   "label": "Reality-TV und Poker",
+   "detail": "2008/2009 TV-Debuet bei WipeOut, 2010 Kreuzfahrtkoenig, 2011 Sieg bei PokerStars sucht das PokerAss und 17 Meter, 2012 WSOP-Live-Reporter, kleine Rollen u.a. in GZSZ. YouTube-Kanal seit 18.1.2008. Spaeter Twitch-Koenig, 2020 Taeglich frisch geroestet, Angelcamp 2020.",
+   "years": "2008-2013",
+   "image_lookup": "Knossi WipeOut ProSieben",
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Jens_Knossalla",
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi_05",
+   "streamer": "knossi",
+   "kind": "prop",
+   "label": "ALGE Likör",
+   "detail": "Eigene Marke ALGE: Likoer 2021 (Kaufland), Gluehwein Winter 2021, koffeinhaltiger alkoholfreier Softdrink Mai 2024.",
+   "years": "2021-2024",
+   "image_lookup": "ALGE Knossi Likör Kaufland",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi_06",
+   "streamer": "knossi",
+   "kind": "era",
+   "label": "Angelcamp Rekord",
+   "detail": "Angelcamp Juli 2020 (72 Stunden, mit Sido, Manny Marc, unsympathischTV) ueber 300.000 Zuschauer gleichzeitig, Horrorcamp Herbst 2020 ueber 330.000, Song Keine Angst Platz 73 der Charts.",
+   "years": "2020",
+   "image_lookup": "Knossi Angelcamp 2020",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/UnsympathischTV"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "mckytv_01",
+   "streamer": "mckytv",
+   "kind": "habit",
+   "label": "Ausraster bei Valorant",
+   "detail": "Beschreibt sich als lieb, rastet aber bei Valorant immer aus (mein-mmo-Titel) und entschuldigt sich vorab bei Fans. One-Piece-Fan, will Vermoegen als Schatz verstecken.",
+   "years": "2023-2025",
+   "image_lookup": "MckyTV Valorant Rage",
+   "source_urls": [
+    "https://mein-mmo.de/mcky-erklaert-bei-welchem-spiel-er-einfach-immer-ausrastet/",
+    "https://earlygame.com/de/entertainment/mckytv-ruft-zu-schatzsuche-nach-seinem-tod-auf-wenn-meine-zeit-endet-geht-die-reise-weiter"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "montanablack_01",
+   "streamer": "montanablack",
+   "kind": "look_now",
+   "label": "Gesichtstattoos",
+   "detail": "Tattoos im Gesicht: Rolex-Krone unter dem rechten Auge, Rift an der Schlaefe, 21614 (Postleitzahl Buxtehude), Love vor dem Ohr, Doomed to Life auf der Stirn. Er will sie seit 2024 per Laser entfernen lassen, erster Termin Juni 2025.",
+   "years": "2018-2025",
+   "image_lookup": "MontanaBlack Gesichtstattoo Rolex Krone Rift",
+   "source_urls": [
+    "https://automatenspieler.net/montanablack-tattoo/",
+    "https://www.promiflash.de/news/2025/06/05/er-macht-ernst-montanablack-hat-termin-fuer-tattooentfernung.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "montanablack_02",
+   "streamer": "montanablack",
+   "kind": "look_now",
+   "label": "Kappe im Stream",
+   "detail": "Traegt im Stream meist eine Kappe, deshalb sieht man die Stirn selten.",
+   "years": "2018-2025",
+   "image_lookup": "MontanaBlack Stream Kappe",
+   "source_urls": [
+    "https://automatenspieler.net/montanablack-tattoo/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "montanablack_03",
+   "streamer": "montanablack",
+   "kind": "look_now",
+   "label": "Koerper-Tattoos Breaking Bad",
+   "detail": "Breaking-Bad-Arm (Heisenberg am Oberarm, Jesse am Unterarm, Wohnwagen, Geldfass auf dem Handruecken), Lil-Peep-Portraet auf der Brust, Lorbeerkranz um den Hals, 88 auf der Hand.",
+   "years": "2018-2025",
+   "image_lookup": "MontanaBlack Breaking Bad Tattoo Arm",
+   "source_urls": [
+    "https://automatenspieler.net/montanablack-tattoo/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "montanablack_04",
+   "streamer": "montanablack",
+   "kind": "prop",
+   "label": "Get On My Lvl Setup",
+   "detail": "Gaming-PC mit Glasfront und Schriftzug Get On My Lvl, vier 27-Zoll-Eizo-Monitore, Noblechairs-Hero-Stuhl, Shure-MV7-Mikro, Stream Deck, RGB ueberall (Stand ca. 2020/21).",
+   "years": "2020-2021",
+   "image_lookup": "MontanaBlack Gaming Setup Get On My Lvl",
+   "source_urls": [
+    "https://www.pcwelt.de/article/1203431/gaming-setup-von-montanablack.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "montanablack_05",
+   "streamer": "montanablack",
+   "kind": "prop",
+   "label": "Halle mit Autos",
+   "detail": "Nutzt laut mein-mmo eine Halle als Streaming-Studio und stellt dort Gaming-Schmuckstuecke und seine Autos aus, Gronkh nennt den ausgestellten Lamborghini als Beispiel.",
+   "years": "2025-2026",
+   "image_lookup": "MontanaBlack Halle Studio Lamborghini",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-gronkh-halle-wie-montanablack/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "montanablack_06",
+   "streamer": "montanablack",
+   "kind": "prop",
+   "label": "Gönrgy Energydrink",
+   "detail": "Eigener Energydrink Gönrgy seit Juli 2023, dazu Co-Manager des Teams Gönrgy Allstars in der Baller League seit 2024 (zusammen mit unsympathischTV).",
+   "years": "2023-2025",
+   "image_lookup": "Gönrgy MontanaBlack Dose",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/MontanaBlack",
+    "https://de.wikipedia.org/wiki/UnsympathischTV"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "montanablack_07",
+   "streamer": "montanablack",
+   "kind": "era",
+   "label": "Call of Duty zu IRL",
+   "detail": "YouTube-Kanal seit 5.8.2009, Zweitkanal SpontanaBlack seit 5.10.2013 (FIFA, Mario Kart, Fortnite). Frueher Gaming/CoD, heute IRL, Realtalk und Twitch-Grossstreamer. Fan-Meetups Hamburg und Gütersloh 2015 mit ueber 1000 Fans.",
+   "years": "2009-2015",
+   "image_lookup": "MontanaBlack 2014 Call of Duty Video Thumbnail",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/MontanaBlack"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "montanablack_08",
+   "streamer": "montanablack",
+   "kind": "look_old",
+   "label": "Alte CoD-Facecam-Aera",
+   "detail": "Aus eigenem Wissen: frueher Gaming-Videos mit einfacher Facecam. Konkretes Aussehen (Haare, Bart) per Suche NICHT belegt, Bild selbst pruefen.",
+   "years": "2012-2015",
+   "image_lookup": "MontanaBlack 2013 Facecam Call of Duty",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "id": "noway_01",
+   "streamer": "noway",
+   "kind": "sound",
+   "label": "Ich bin frei",
+   "detail": "Streamt fast nur League of Legends, 11 Mal Challenger auf verschiedenen Servern, rief bei einem Sieg emotional Ich bin frei. Angeblich 6,5 Mio Euro Angebot zum Twitch-Wechsel (laut mein-mmo-Schlagzeile).",
+   "years": "2022-2025",
+   "image_lookup": "NoWay Ich bin frei LoL",
+   "source_urls": [
+    "https://mein-mmo.de/twitch-streamer-noway-11-servern-hoechsten-rang-lol/",
+    "https://mein-mmo.de/noway-lol-twitch-angebot-zu-wechsel/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "paluten_01",
+   "streamer": "paluten",
+   "kind": "era",
+   "label": "Minecraft-Welt",
+   "detail": "Patrick Mayer aus Hamburg, erster Kanal 2012, durch Minecraft bekannt, baute eigene Figuren und Geschichten ueber Medien hinweg.",
+   "years": "2012-2021",
+   "image_lookup": "Paluten Minecraft 2013",
+   "source_urls": [
+    "https://www.elternguide.online/en/youtuber-lets-player-novelist-who-is-paluten/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papaplatte_01",
+   "streamer": "papaplatte",
+   "kind": "look_now",
+   "label": "Platinblonde Matte",
+   "detail": "Platinblonde Haare gelten als sein Erkennungszeichen, seine Twitch-Bio spielt darauf an. Fuer ein Karnevalskostuem faerbte er sie kurz blau, wollte aber schnell zurueck zum Blond.",
+   "years": "2020-2025",
+   "image_lookup": "Papaplatte platinblond Haare",
+   "source_urls": [
+    "https://earlygame.com/de/news/influencers/streamer-opfert-fuer-kostuem-seine-frisur-seine-partnerin-nimmt-einfach-eine-peruecke"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papaplatte_02",
+   "streamer": "papaplatte",
+   "kind": "prop",
+   "label": "Red-Bull-Pilotenmütze",
+   "detail": "Markante Red-Bull-Pilotenmuetze, dazu lockerer Look mit spontanen Outfits und ironischen Posen.",
+   "years": "2021-2025",
+   "image_lookup": "Papaplatte Red Bull Pilotenmütze",
+   "source_urls": [
+    "https://www.nextg.tv/promis/papaplatte-steckbrief-alles-zu-alter-echter-name-freundin-barcelona-herkunft-93760762.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papaplatte_03",
+   "streamer": "papaplatte",
+   "kind": "habit",
+   "label": "Kommentare per Text-to-Speech",
+   "detail": "Laesst Zuschauerkommentare per Text-to-Speech vorlesen und reagiert darauf, dazu IRL-Streams und Comedy.",
+   "years": "2018-2025",
+   "image_lookup": "Papaplatte Text to Speech Stream",
+   "source_urls": [
+    "https://www.nextg.tv/promis/papaplatte-steckbrief-alles-zu-alter-echter-name-freundin-barcelona-herkunft-93760762.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papaplatte_04",
+   "streamer": "papaplatte",
+   "kind": "habit",
+   "label": "Edeltour Wohnmobil",
+   "detail": "Jaehrliche Edeltour-Streams seit 2021: Wohnmobil-Reisen durch Europa mit Freunden live auf Twitch. Dazu Podcast Edeltalk seit Ende 2018.",
+   "years": "2021-2025",
+   "image_lookup": "Papaplatte Edeltour Wohnmobil",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Papaplatte",
+    "https://www.nextg.tv/promis/papaplatte-steckbrief-alles-zu-alter-echter-name-freundin-barcelona-herkunft-93760762.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papaplatte_05",
+   "streamer": "papaplatte",
+   "kind": "era",
+   "label": "SchnitzelTV und WoW-Name",
+   "detail": "Startete in der 7. Klasse mit zwei Freunden den Comedy-Kanal SchnitzelTV, Twitch-Kanal November 2013, Partner Februar 2014, YouTube-Kanal Papaplatte Januar 2014. Name aus WoW: Papa (Gildenmitglied Papa Leon) plus Platte (Plattenruestung seines Kriegers). Tanzte ab ca. 11 in Wettbewerben.",
+   "years": "2013-2014",
+   "image_lookup": "SchnitzelTV Papaplatte",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Papaplatte",
+    "https://en.wikipedia.org/wiki/Papaplatte",
+    "https://www.nextg.tv/promis/papaplatte-steckbrief-alles-zu-alter-echter-name-freundin-barcelona-herkunft-93760762.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papaplatte_06",
+   "streamer": "papaplatte",
+   "kind": "sound",
+   "label": "Dolmetscher bei Pro7",
+   "detail": "Pro7 engagierte laut mein-mmo einen Dolmetscher, damit man ihn bei Joko und Klaas versteht (Anspielung auf schnelles, nuscheliges Sprechen). Nur die Schlagzeile geprueft.",
+   "years": "2024",
+   "image_lookup": "Papaplatte Joko Klaas Dolmetscher",
+   "source_urls": [
+    "https://mein-mmo.de/pro7-twitch-papaplatte-dolmetscher/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "papaplatte_07",
+   "streamer": "papaplatte",
+   "kind": "look_old",
+   "label": "Frueherer Look unbekannt",
+   "detail": "Per Suche kein belegtes Foto oder Beschreibung der Haare 2013-2016 gefunden. Bild selbst ueber Suche auf SchnitzelTV-Videos oder alte Twitch-Clips pruefen.",
+   "years": "2013-2016",
+   "image_lookup": "Papaplatte 2014 SchnitzelTV alt Foto",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "id": "reved_01",
+   "streamer": "reved",
+   "kind": "era",
+   "label": "Groesste Streamerin",
+   "detail": "Antonia Staab, seit 2015 auf Twitch, regelmaessig ab 2019, in 3 Jahren groesste deutsche Streamerin, organisiert die Streamer Awards. Comeback 2025/26 angedeutet.",
+   "years": "2019-2026",
+   "image_lookup": "Reved Twitch Streamer Awards",
+   "source_urls": [
+    "https://mein-mmo.de/revedtv-erfolgsgeschichte-vorstellung/",
+    "https://mein-mmo.de/reved-moegliches-comeback-2026/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rewinside_01",
+   "streamer": "rewinside",
+   "kind": "sound",
+   "label": "Schreihals",
+   "detail": "Gilt als Schreihals von YouTube und Twitch; laute Wutausbrueche waren zu Twitch-Hype-Zeiten ein regelrechtes Markenzeichen, heute deutlich ruhiger. Frueher auch vulgaere Ausdrucksweise und ironische Beleidigungen.",
+   "years": "2013-2018",
+   "image_lookup": "Rewinside Rage Moment",
+   "source_urls": [
+    "https://www.quotenmeter.de/n/128156/rewinside-der-schreihals-von-twitch-und-youtube",
+    "https://craftcontrol.de/influencer/steckbrief/wer-ist-rewinside-vom-youtube-pionier-zum-minecraft-film-sprecher/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rewinside_02",
+   "streamer": "rewinside",
+   "kind": "era",
+   "label": "TwoRewinds und Craft Attack",
+   "detail": "Kanal TwoRewinds 28.11.2011 mit TZimon und Clym (Minecraft), Hauptkanal 5.7.2013, Craft Attack 2014 mit earliboy, BrokenThumbs, Zander (Regel Sei kein Arsch), YouTube-Haus 2014-2016, CREADERS im UFO Koeln Okt 2016. Heute Vlogs, Reactions, Minecraft/Just Chatting.",
+   "years": "2011-2016",
+   "image_lookup": "Rewinside TwoRewinds Craft Attack",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside",
+    "https://craftcontrol.de/influencer/steckbrief/wer-ist-rewinside-vom-youtube-pionier-zum-minecraft-film-sprecher/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rewinside_03",
+   "streamer": "rewinside",
+   "kind": "habit",
+   "label": "24h-Charity-Stream",
+   "detail": "Jaehrlicher 24-Stunden-Charity-Stream, teils ueber 80.000 Euro. Machte frueher heimlich Videos neben der Ausbildung zum Immobilienkaufmann. Musikprojekt notsocool, Label space music records (2020).",
+   "years": "2016-2025",
+   "image_lookup": "Rewinside 24 Stunden Charity Stream",
+   "source_urls": [
+    "https://www.quotenmeter.de/n/128156/rewinside-der-schreihals-von-twitch-und-youtube"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rezo_01",
+   "streamer": "rezo",
+   "kind": "look_now",
+   "label": "Blaue Haare",
+   "detail": "Blau gefaerbte Haare als Markenzeichen, dreht seit 2015 Musik- und Comedyvideos auf zwei Kanaelen. Mai 2019 Die Zerstoerung der CDU, ca. 10 Mio Views in 6 Tagen (Rezo-Effekt).",
+   "years": "2015-2019",
+   "image_lookup": "Rezo Zerstörung der CDU Thumbnail",
+   "source_urls": [
+    "https://orf.at/stories/3124325/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rezo_02",
+   "streamer": "rezo",
+   "kind": "look_old",
+   "label": "Frueherer Look unbekannt",
+   "detail": "Per Suche kein Beleg, wann die blauen Haare begannen oder wie er davor aussah. Musikvideo-Aera 2015-2018 selbst pruefen.",
+   "years": "2015-2018",
+   "image_lookup": "Rezo 2016 Musikvideo",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "id": "rumathra_01",
+   "streamer": "rumathra",
+   "kind": "look_now",
+   "label": "Schnurrbart und Brille",
+   "detail": "Schwarze Haare, schwarz umrandete Brille, schwarzer Schnurrbart; Community findet staendig Lookalikes (Reddit-Gag). Enger Freund von Trymacs.",
+   "years": "2022-2025",
+   "image_lookup": "Rumathra Lookalike Reddit",
+   "source_urls": [
+    "https://earlygame.com/de/news/influencers/streamer-streich-von-papaplatte-an-rumathra-post-geht-viral",
+    "https://mein-mmo.de/twitch-deutschland-insider-witze/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rumathra_02",
+   "streamer": "rumathra",
+   "kind": "habit",
+   "label": "Kings-League-Torjubel",
+   "detail": "Uebertriebener Torjubel samt Teabagging-Pose bei der Baller/Kings League trotz 7 Punkte Rueckstand.",
+   "years": "2024",
+   "image_lookup": "Rumathra Baller League Torjubel",
+   "source_urls": [
+    "https://mein-mmo.de/rumathra-ballerleague-tor-teabagging/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "sascha_01",
+   "streamer": "sascha",
+   "kind": "era",
+   "label": "Sascha Huber bei 7 vs. Wild",
+   "detail": "ACHTUNG: In Wikipedia ist Sascha Huber (Partner von Knossi bei 7 vs. Wild Staffel 3, 2023) eine andere Person als Sascha Hellinger (unsympathischTV). Vor Verwendung klaeren, welcher Sascha gemeint ist.",
+   "years": "2023",
+   "image_lookup": "Knossi Sascha 7 vs Wild",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "tanzverbot_01",
+   "streamer": "tanzverbot",
+   "kind": "habit",
+   "label": "Trockener Humor",
+   "detail": "Trockener, sarkastischer Stil, Fans schaetzen Authentizitaet. Kein Look/Sound-Detail gefunden.",
+   "years": "2020-2025",
+   "image_lookup": "Tanzverbot Twitch Clip",
+   "source_urls": [
+    "https://mein-mmo.de/tanzverbot-wohnung-soll-verkauft-werden/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "trymacs_01",
+   "streamer": "trymacs",
+   "kind": "look_now",
+   "label": "Gebleichte Kurzhaare 2025",
+   "detail": "Oktober 2025: Haare extrem kurz und gebleicht, Bart ab, Vergleich mit Eminem aus den 2000ern (Vorbereitung auf Podcast-Tour mit Varion und unsympathischTV). In Hamburg erkannte ihn niemand, er nennt es Voelliger Tarnumhang.",
+   "years": "2025",
+   "image_lookup": "Trymacs neue Frisur Eminem Oktober 2025",
+   "source_urls": [
+    "https://www.promiflash.de/news/2025/10/09/radikale-typveraenderung-trymacs-wird-von-fans-nicht-erkannt.html",
+    "https://mein-mmo.de/twitch-trymacs-neue-frisur-unsichtbar/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "trymacs_02",
+   "streamer": "trymacs",
+   "kind": "look_old",
+   "label": "Vorher: Bart und laengere Haar",
+   "detail": "Aus der Typveraenderung abgeleitet: bis Oktober 2025 mit Bart und laengeren Haaren. Keine Quelle beschreibt den Look genauer, Foto selbst suchen.",
+   "years": "2016-2025",
+   "image_lookup": "Trymacs Bart Twitch Stream",
+   "source_urls": [
+    "https://www.promiflash.de/news/2025/10/09/radikale-typveraenderung-trymacs-wird-von-fans-nicht-erkannt.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "trymacs_03",
+   "streamer": "trymacs",
+   "kind": "era",
+   "label": "Clash Royale und Pizza-Job",
+   "detail": "YouTube-Gaming-Kanal 14.3.2016, Einstieg ueber Clash Royale (Tipps und Tricks). Vorher Pizza-Lieferant (ca. 250 Euro im Monat), hatte bis 20 keinen PC. 2017 Fortnite, 2021 Pokemon-Openings mit bis zu 187.000 Zuschauern.",
+   "years": "2016-2021",
+   "image_lookup": "Trymacs Clash Royale 2016",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Trymacs",
+    "https://mein-mmo.de/die-karriere-von-trymacs/",
+    "https://earlygame.com/de/entertainment/trymacs-twitch-youtuber-gehalt-ueberblick"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "trymacs_04",
+   "streamer": "trymacs",
+   "kind": "habit",
+   "label": "Pack Openings und Pay2Win",
+   "detail": "Bekannt fuer Pack Openings, FIFA-Packs, Pay2Win-Ausgaben, Events und LAN-Partys. Nennt sich selbst Streamer ohne Skill (selbstironisch), gilt als verpeilt aber sympathisch.",
+   "years": "2017-2025",
+   "image_lookup": "Trymacs Pack Opening Pokemon",
+   "source_urls": [
+    "https://mein-mmo.de/die-karriere-von-trymacs/",
+    "https://earlygame.com/de/entertainment/trymacs-twitch-youtuber-gehalt-ueberblick"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "trymacs_05",
+   "streamer": "trymacs",
+   "kind": "prop",
+   "label": "Gaming Room und Mikro",
+   "detail": "Shure SM7B, Gaming Room laut Setup-Tour ca. 50.000 Euro (Quellen widersprechen sich bei Headset/PC).",
+   "years": "2023-2025",
+   "image_lookup": "Trymacs Setup Tour Gaming Room",
+   "source_urls": [
+    "https://www.setupking.de/setup/trymacs-streaming-gaming-setup",
+    "https://m.quotenmeter.de/mn/156769/trymacs-der-aufstieg-eines-streaming-stars"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "trymacs_06",
+   "streamer": "trymacs",
+   "kind": "sound",
+   "label": "Trymacs-Lachen",
+   "detail": "Artikel nennt ein typisches Trymacs-Lachen bei Reaktionen auf Creator und Memes; keine genauere Beschreibung.",
+   "years": "2020-2025",
+   "image_lookup": "Trymacs Lachen Clip",
+   "source_urls": [
+    "https://m.quotenmeter.de/mn/156769/trymacs-der-aufstieg-eines-streaming-stars"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "unge_01",
+   "streamer": "unge",
+   "kind": "look_old",
+   "label": "Dreadlocks-Aera",
+   "detail": "Seine ersten Kanaele (Unschwer, ab Mai 2011) drehten sich um Longboarding und Dreadlocks, dann vegane Rezepte (unproblematisch, 2012). Dreads als Look ist daraus abgeleitet, nicht per Foto belegt.",
+   "years": "2011-2012",
+   "image_lookup": "Unge Dreadlocks Unschwer Longboard",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "unge_02",
+   "streamer": "unge",
+   "kind": "era",
+   "label": "Minecraft Varo und Suro",
+   "detail": "Juli 2012 Kanal Ungespielt (Lets Play). Organisierte mit GermanLetsPlay die Minecraft-Projekte Varo (4 Staffeln) und Suro. Schon 2012 Horror/Sims 4 Einlagen.",
+   "years": "2012-2015",
+   "image_lookup": "Unge Varo Minecraft",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge_03",
+   "streamer": "unge",
+   "kind": "era",
+   "label": "Longboard-Tour und Weltreise",
+   "detail": "Sept 2014 Longboard-Tour Sylt bis Neuschwanstein (ca. 1400 km) mit Dner, Cheng Loew, Julien Bam. Weltreise ab 14.4.2015 (Start Los Angeles, Ziele per App-Abstimmung). 0Tour Juli/Aug 2016 fast ohne Geld (Mio Mio Mate).",
+   "years": "2014-2016",
+   "image_lookup": "Unge Weltreise 2015 Thumbnail",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge_04",
+   "streamer": "unge",
+   "kind": "habit",
+   "label": "Vegan seit 2012",
+   "detail": "Lebt seit 2012 ohne tierische Produkte, Thema kommt oft im Stream vor. 2016 Ritter-Sport-Kampagne als veganer Produkttester.",
+   "years": "2012-2025",
+   "image_lookup": "Unge vegan Stream",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge_05",
+   "streamer": "unge",
+   "kind": "era",
+   "label": "24h, 30 Tage, ungeklickt",
+   "detail": "24-Stunden-Stream bei 100k Abos, 48h bei 200k, 30-Tage-Stream Maerz 2016, ab 18.9.2016 Reaction-Format ungeklickt, ab Sept 2016 fast jeden Abend ab 20 Uhr. 2019/2020 Handy-Vlogkanal Hochformat, 2023 VTuber Raik.",
+   "years": "2016-2023",
+   "image_lookup": "ungeklickt Unge 2016",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge_06",
+   "streamer": "unge",
+   "kind": "prop",
+   "label": "wtf.social Kondome",
+   "detail": "September 2021 mit zwei weiteren Streamern gestartete Kondommarke wtf.social, ueber 21.000 Produkte in drei Tagen verkauft.",
+   "years": "2021",
+   "image_lookup": "wtf.social Unge",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unsympathischtv_01",
+   "streamer": "unsympathischtv",
+   "kind": "sound",
+   "label": "Deadpan-Persona",
+   "detail": "Funk-Kurzbiografie beschreibt ihn als jemanden mit wenig Reaktion und gleichgueltiger Haltung, die sein Image praegt (Deutschlands YouTuber mit den meisten Likes).",
+   "years": "2014-2025",
+   "image_lookup": "unsympathischTV deadpan Clip",
+   "source_urls": [
+    "https://www.zdf.de/video/portraits/funk-collection-funk-12076-648/funk-bevor-unsympathischtv-beruehmt-wurde---kurzbiographie-102"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unsympathischtv_02",
+   "streamer": "unsympathischtv",
+   "kind": "era",
+   "label": "Comedy-Kanal 2014-2016",
+   "detail": "Hauptkanal unsympathischTV Sept 2014 (Comedy, viele Videos mit ueber 1 Mio Views in Tagen), um 2016 Zweitkanal Sascha Hellinger fuer Vlogs, enger Partner von Inscope21 (Schulfreunde, IT-Gymnasium Vaihingen).",
+   "years": "2014-2016",
+   "image_lookup": "unsympathischTV 2016 Video",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/UnsympathischTV",
+    "https://de.wikipedia.org/wiki/Inscope21"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unsympathischtv_03",
+   "streamer": "unsympathischtv",
+   "kind": "look_old",
+   "label": "Alte Fotos 2015-2016",
+   "detail": "Konkretes damaliges Aussehen per Suche nicht belegt. Foto fuer den Witz selbst aus alten Videos holen.",
+   "years": "2015-2016",
+   "image_lookup": "unsympathischTV 2015 alt",
+   "source_urls": [],
+   "confidence": "low"
+  },
+  {
+   "id": "unsympathischtv_04",
+   "streamer": "unsympathischtv",
+   "kind": "era",
+   "label": "Heute: Podcasts und Baller",
+   "detail": "2020 Angelcamp/Horrorcamp, 2024 Co-Manager Gönrgy Allstars mit MontanaBlack, Podcast Geheimratseck mit Inscope21 (14-taegig), Okt 2025 Podcast-Tour mit Trymacs und Varion.",
+   "years": "2020-2025",
+   "image_lookup": "unsympathischTV Podcast Geheimratseck",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/UnsympathischTV",
+    "https://www.promiflash.de/news/2025/10/09/radikale-typveraenderung-trymacs-wird-von-fans-nicht-erkannt.html"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "zarbex_01",
+   "streamer": "zarbex",
+   "kind": "era",
+   "label": "Sidekick von KuchenTV",
+   "detail": "Kuenstlername Zarbex seit 2012, ca. 2015 Online-Kommentator und lange Sidekick von KuchenTV, Twitch ab 2019, Durchbruch ab 2023/2024, lebt in Koeln.",
+   "years": "2012-2024",
+   "image_lookup": "Zarbex KuchenTV Sidekick",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Zarbex",
+    "https://mein-mmo.de/wer-ist-zarbex-das-steckt-hinter-seinem-erfolg/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "zarbex_02",
+   "streamer": "zarbex",
+   "kind": "prop",
+   "label": "Streamzimmer als Bühne",
+   "detail": "Zimmer mit Postern, persoenlichen Gegenstaenden, thronartigen Gaming-Stuehlen und sichtbaren Kabeln; wuerde nie vor Greenscreen streamen.",
+   "years": "2024-2025",
+   "image_lookup": "Zarbex Streamingzimmer",
+   "source_urls": [
+    "https://earlygame.com/de/news/influencers/zarbex-erklaert-darum-ist-das-streamingzimmer-das-herzstueck-seines-erfolgs-auf-twitch"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "zarbex_03",
+   "streamer": "zarbex",
+   "kind": "habit",
+   "label": "Mr. Geil und Taschenbier",
+   "detail": "Selbstironisch Mr. Geil, Running Gag Nachname Taschenbier (Das Sams). Markensbotschafter Gönrgy. Camper-Touren mit Max Schradin (Schrabex), Luxus-Camper ca. 500.000 Euro.",
+   "years": "2024-2026",
+   "image_lookup": "Zarbex Schrabex Camper Tour",
+   "source_urls": [
+    "https://mein-mmo.de/wer-ist-zarbex-das-steckt-hinter-seinem-erfolg/",
+    "https://de.wikipedia.org/wiki/Zarbex"
+   ],
+   "confidence": "medium"
+  }
+ ],
+ "avoid": [
+  "MontanaBlack: Bedeutung des Rift-Tattoos (laut ihm Erinnerung an gescheiterte Beziehung), Schweigegeld-/Rassismus-Vorwuerfe, Luegendetektor/Graffiti-Gestaendnisse, Drogen-Vergangenheit (Buchtitel), Streit-Artikel",
+  "Knossi: Online-Casino-Slots (Glueckspiel-Kritik, 2021 beendet), PETA-Anzeige zum Angelcamp",
+  "Trymacs: Gamescom-Party-Rauswurf 2025, heisere Stimme/Krankheit, Streit mit Rumathra",
+  "Unge: schwere Vorwuerfe und Rueckzug aus dem Internet, ebenso Familie/Beziehung",
+  "Rewinside: Burnout-Diagnose und Karrierepause",
+  "Reved: Gesundheitsprobleme, Schmerzen, Pause ab Aug 2023, Kopfschmerzen",
+  "Tanzverbot: Beziehungsstreit mit Lola, Steuerschulden, Kaufsucht, Wohnung, Pleite",
+  "ApoRed: Bewaehrungsstrafe Bombenscherz, Haftbefehl 2023, Interpol-Aussagen, Aufenthalt Tuerkei/Dubai (komplett meiden)",
+  "NoWay: Gesundheit, Stimmband-Polyp, Pause",
+  "MckyTV: Gesundheit, Trennung, Umzug, Fame-Fighting-Verletzung",
+  "Zarbex: Mobbing in der Schule, gelbe Maske als Kind",
+  "EliasN97, Inscope21, Papaplatte: Freundin/Verlobte/Kind/Familie",
+  "Dagi Bee: Spekulationen ueber Lippen/Beauty-Eingriffe",
+  "Allgemein: Gewichts- und Krankheitswitze, Tattoo-Entfernung nur als oeffentlich geaeusserte Aussage nutzen, Gesundheit und Tod-Witze"
+ ]
+}

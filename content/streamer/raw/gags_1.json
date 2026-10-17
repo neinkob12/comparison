@@ -1,0 +1,1417 @@
+{
+ "entries": [
+  {
+   "id": "papa-papatastisch",
+   "type": "catchphrase",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Papatastisch",
+   "quote": "papatastisch",
+   "year": "2021",
+   "context": "Fan-Wort aus Papa und fantastisch. Kam 2021 in die Top 10 der Jugendwort-Wahl. Der Namensteil Papa stammt laut Quellen von einem Community-User Papa Leone.",
+   "question_ideas": [
+    "Würdest du eher alles ab sofort papatastisch nennen oder jedes Mal goofy sagen müssen?",
+    "Würdest du eher das Jugendwort des Jahres erfinden oder knapp in den Top 10 landen wie Papaplatte?"
+   ],
+   "image_hint": "Wortwolke mit Papaplatte-Gesicht und Jugendwort-Siegel",
+   "source_urls": [
+    "https://www.netzwelt.de/abkuerzung/192740-bedeutet-papatastisch-bedeutung-verwendung.html",
+    "https://en.wikipedia.org/wiki/Papaplatte"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papa-goofy",
+   "type": "catchphrase",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Goofy-Hype",
+   "quote": "goofy",
+   "year": "2023",
+   "context": "Papaplatte hat laut GIGA das Wort goofy schon früh als Kandidat für das Jugendwort 2023 gepusht. Goofy gewann dann die Wahl (nicht von ihm erfunden).",
+   "question_ideas": [
+    "Würdest du eher Jugendwort des Jahres werden oder 1 Mio Follower mehr bekommen?",
+    "Würdest du eher jeden Satz mit goofy beenden oder jeden mit crazy?"
+   ],
+   "image_hint": "Goofy-Figur mit Papaplatte-Cap",
+   "source_urls": [
+    "https://www.giga.de/artikel/goofy-bedeutung-des-jugendworts-erklaert/",
+    "https://mein-mmo.de/papaplatte-jugendwort-2024/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papa-denglisch",
+   "type": "trait",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Denglisch-König",
+   "quote": "",
+   "year": "2024",
+   "context": "Mein-MMO nannte ihn den Denglisch-König des deutschen Twitch, weil er englische Slangwörter im deutschen Satz mixt und Trends setzt.",
+   "question_ideas": [
+    "Würdest du eher nur Denglisch sprechen oder nur Hochdeutsch wie in der Tagesschau?"
+   ],
+   "image_hint": "Sprechblase mit deutsch-englischem Wortsalat",
+   "source_urls": [
+    "https://mein-mmo.de/papaplatte-jugendwort-2024/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papa-edeltalk",
+   "type": "format",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Edeltalk mit Reeze",
+   "quote": "",
+   "year": "2018",
+   "context": "Wöchentlicher Comedy-Podcast mit Dominik Reeze Reezmann seit November 2018, inklusive Buch, Live-Show und Wechsel zu Funk Ende 2024.",
+   "question_ideas": [
+    "Würdest du eher 1 Jahr Podcast mit Papaplatte aufnehmen oder 1 Jahr mit Reeze im Wohnmobil leben?"
+   ],
+   "image_hint": "Zwei Mikros und Podcast-Cover",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Papaplatte"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papa-edeltour",
+   "type": "format",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Edeltour im Wohnmobil",
+   "quote": "",
+   "year": "2021",
+   "context": "Streaming-Roadtrips im Wohnmobil: Deutschland 2021, Skandinavien 2023 mit LetsHugo, Südosteuropa 2024, UK 2025.",
+   "question_ideas": [
+    "Würdest du eher 30 Tage Wohnmobil-Tour mit Papaplatte machen oder 30 Tage Zelten in Kanada wie bei 7 vs. Wild?"
+   ],
+   "image_hint": "Wohnmobil auf Landstraße mit Streamer-Setup",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Papaplatte",
+    "https://en.wikipedia.org/wiki/Papaplatte"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papa-glurak",
+   "type": "running_gag",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Das 11.000 Euro Glurak",
+   "quote": "",
+   "year": "2020",
+   "context": "Im Okt 2020 zog Logan Paul in Papaplattes für ca. 11.000 Euro gekauftem Pokémon-Pack ein Glurak der ersten Edition. Der Moment wurde zum Insider.",
+   "question_ideas": [
+    "Würdest du eher 11.000 Euro für ein Pokémon-Pack ausgeben oder dein Glurak von Logan Paul ziehen lassen?"
+   ],
+   "image_hint": "Glurak-Karte im Pack, Papaplatte mit offenem Mund",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Papaplatte"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papa-spielesause",
+   "type": "format",
+   "streamers": [
+    "papaplatte",
+    "trymacs"
+   ],
+   "title": "Spielesause",
+   "quote": "",
+   "year": "2021",
+   "context": "Gamescom-Ersatz-Stream im Aug 2021 mit Trymacs und Gronkh, bis 115.000 Zuschauer. Im Feb 2021 brachen Papaplatte und Trymacs schon Knossis Zuschauerrekord (356.000 gesamt).",
+   "question_ideas": [
+    "Würdest du eher Knossis Zuschauerrekord brechen oder Gronkhs Stimme haben?"
+   ],
+   "image_hint": "Drei Streamer vor Messe-Logo",
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Papaplatte"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papa-7vswild",
+   "type": "format",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "7 vs. Wild: 14 Tage",
+   "quote": "",
+   "year": "2023",
+   "context": "Mit Reeze in Staffel 3 von 7 vs. Wild in Kanada, 14 Tage durchgehalten.",
+   "question_ideas": [
+    "Würdest du eher 14 Tage allein im kanadischen Wald überleben oder 14 Tage ohne Handy in der Stadt?"
+   ],
+   "image_hint": "Kanada-Wald mit zwei Zelt-Schlafsäcken",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Papaplatte"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papa-pro7-dolmetscher",
+   "type": "running_gag",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Pro7-Jugendsprache-Dolmetscher",
+   "quote": "Die Gravity existiert, Bro",
+   "year": "2023",
+   "context": "Pro7 stellte ihm einen älteren Dolmetscher an die Seite, der seine Anweisungen in Jugendsprache wiedergab. Torte auf den Kopf zum Beweis der Gravity.",
+   "question_ideas": [
+    "Würdest du eher einen Dolmetscher für Jugendsprache brauchen oder eine Torte aus Beweis-Gründen aufs Gesicht bekommen?"
+   ],
+   "image_hint": "Älterer Mann im Anzug mit Papaplatte und Torte",
+   "source_urls": [
+    "https://mein-mmo.de/pro7-twitch-papaplatte-dolmetscher/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papa-hugo-ban",
+   "type": "insider",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Hugo-Verbot 2021",
+   "quote": "",
+   "year": "2021",
+   "context": "2021 verbot Papaplatte dem Kanal Hungriger Hugo laut Mein-MMO, seine Clips zu nutzen. Hugo gilt trotzdem als wichtigste Clip-Quelle für Twitch-Szene-Memes.",
+   "question_ideas": [
+    "Würdest du eher in jedem Hugo-Video vorkommen oder in keinem?"
+   ],
+   "image_hint": "Hugo-Logo mit durchgestrichenem Papaplatte-Clip",
+   "source_urls": [
+    "https://mein-mmo.de/hungriger-hugo-einnahmen-erfolg/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papa-unge-0tour",
+   "type": "format",
+   "streamers": [
+    "papaplatte",
+    "unge"
+   ],
+   "title": "0Tour mit Unge",
+   "quote": "",
+   "year": "2016",
+   "context": "Sommer 2016: Fast ohne Geld durch Deutschland, gesponsert von Mio Mio Mate, Pokémon GO als Dauer-Element.",
+   "question_ideas": [
+    "Würdest du eher 0Tour mit 0 Euro machen oder 1 Woche nur von Mate leben?"
+   ],
+   "image_hint": "Zwei YouTuber mit Daumen raus an der Straße",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "papa-alkohol-song",
+   "type": "format",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Alkohol ich liebe dich",
+   "quote": "Alkohol ich liebe dich",
+   "year": "2023",
+   "context": "Song von Papaplatte und Reeze (Okt 2023).",
+   "question_ideas": [
+    "Würdest du eher einen Charthit mit Reeze singen oder 7 vs. Wild nochmal machen?"
+   ],
+   "image_hint": "Zwei Typen mit Mikrofon im Studio",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Papaplatte"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "papa-joko-koffer",
+   "type": "running_gag",
+   "streamers": [
+    "papaplatte"
+   ],
+   "title": "Joko-Koffer-Moment",
+   "quote": "",
+   "year": "2023",
+   "context": "Nov 2023: Papaplattes Zuschauer halfen bei Joko & Klaas LIVE, ein Zuschauer fand den versteckten Koffer.",
+   "question_ideas": [
+    "Würdest du eher einen Koffer finden für Joko und Klaas oder als Chat-Moderator bei Papaplatte arbeiten?"
+   ],
+   "image_hint": "Koffer mit Fragezeichen vor Chat",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Papaplatte"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-agatha",
+   "type": "catchphrase",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Agatha hat gezaubert",
+   "quote": "Agatha hat gezaubert",
+   "year": "2022",
+   "context": "Wenn es lecker ist, sagt Monte, dass seine Haushälterin Agatha gezaubert hat. Aus dem Satz wurde ein Meme in der Community.",
+   "question_ideas": [
+    "Würdest du eher jeden Tag Agatha-Essen bekommen oder jeden Tag Lieferdienst?",
+    "Würdest du eher Agatha zaubern lassen oder selbst kochen müssen?"
+   ],
+   "image_hint": "Zauberhut über Teller",
+   "source_urls": [
+    "https://www.bedeutungonline.de/wer-ist-agatha-von-montanablack-erklaerung/",
+    "https://www.giga.de/news/ich-habs-ein-letztes-mal-gesagt-montanablack-rastet-wegen-haushaelterin-aus/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-tueren",
+   "type": "running_gag",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Offene Türen Ausraster",
+   "quote": "Ich hab's ein letztes Mal gesagt",
+   "year": "2023",
+   "context": "Monte rastete im Stream aus, weil Türen im Haus offen standen. Clips davon kursieren in Compilations.",
+   "question_ideas": [
+    "Würdest du eher alle Türen jeden Tag abschließen müssen oder nie wieder eine Tür zumachen dürfen?"
+   ],
+   "image_hint": "Offene Haustür mit Ausrufezeichen",
+   "source_urls": [
+    "https://www.giga.de/news/ich-habs-ein-letztes-mal-gesagt-montanablack-rastet-wegen-haushaelterin-aus/",
+    "https://earlygame.com/de/entertainment/offene-tueren-bei-montanablack-streamer-rastet-wegen-haushaelterin-aus"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "monte-hugo-cutter",
+   "type": "running_gag",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Der Cutter hat ein Problem",
+   "quote": "der Cutter von Satter Hugo hat ein Problem mit mir",
+   "year": "2023",
+   "context": "Okt 2023: Monte fühlte sich im Satter-Hugo-Video Ihr seid alle Bots negativ dargestellt und rief sogar bei Hugo an.",
+   "question_ideas": [
+    "Würdest du eher in jedem Hugo-Video die peinlichste Szene sein oder in keinem vorkommen?"
+   ],
+   "image_hint": "Telefon klingelt vor Schnittprogramm",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-fuehlt-sich-ungerecht-dargestellt/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-rentner",
+   "type": "running_gag",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Rentner-IRL-Stream",
+   "quote": "Rentner IRL Stream",
+   "year": "2022",
+   "context": "Okt 2022: Wildpark-Stream mit Waschbären und Aussichtsturm, den Fans Rentner-Stream nannten. Angst vor Höhe, Unterhosen-Sonntag-Vibe.",
+   "question_ideas": [
+    "Würdest du eher einen Wildpark-Stream mit Monte machen oder ein Black-Ops-Turnier?",
+    "Würdest du eher auf einen 45-Meter-Turm klettern oder Waschbären füttern?"
+   ],
+   "image_hint": "Monte mit Waschbär am Turm",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-wildpark-stream/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-kylo",
+   "type": "trait",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Mops Kylo wie ein Sohn",
+   "quote": "wie ein Sohn",
+   "year": "2022",
+   "context": "Monte beschreibt seinen Mops Kylo als wie ein Sohn und behandelt ihn entsprechend.",
+   "question_ideas": [
+    "Würdest du eher einen Mops wie Kylo oder einen Waschbären als Haustier haben?"
+   ],
+   "image_hint": "Mops mit Kronen-Emoji",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-wildpark-stream/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "monte-buxtehude",
+   "type": "format",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Es kracht in Buxtehude",
+   "quote": "Es kracht in Buxtehude",
+   "year": "2023",
+   "context": "Song mit Tritzo, Single-Charts Platz 70 am 22.09.2023.",
+   "question_ideas": [
+    "Würdest du eher einen Chart-Song wie Monte machen oder ein Buxtehude-Fan sein?"
+   ],
+   "image_hint": "Ortsschild Buxtehude mit Funken",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/MontanaBlack"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-goenrgy",
+   "type": "format",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Gönrgy Energy-Drink",
+   "quote": "Gönrgy",
+   "year": "2023",
+   "context": "Juli 2023 Marktstart des Energy-Drinks. Teams heißen Gönrgy Allstars.",
+   "question_ideas": [
+    "Würdest du eher 10 Gönrgy am Tag trinken oder nur noch Wasser?"
+   ],
+   "image_hint": "Gönrgy-Dose im Rampenlicht",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/MontanaBlack"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-baller",
+   "type": "format",
+   "streamers": [
+    "montanablack",
+    "trymacs"
+   ],
+   "title": "Baller League Manager",
+   "quote": "",
+   "year": "2024",
+   "context": "Monte managt die Gönrgy Allstars (Platz 11 S1, Zweiter S2 und S3), Trymacs die Hardstuck Royale.",
+   "question_ideas": [
+    "Würdest du eher Monte oder Trymacs als Teammanager in der Baller League haben?"
+   ],
+   "image_hint": "Zwei Trainerbänke",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/MontanaBlack",
+    "https://de.wikipedia.org/wiki/Trymacs"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "monte-hose",
+   "type": "insider",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Die geplatzte Hose",
+   "quote": "",
+   "year": "2019",
+   "context": "Älterer Clip vom Hosenriss ist laut Monte ein Hugo-Dauerbrenner, den er als Beweis für unfaire Clip-Auswahl nennt.",
+   "question_ideas": [
+    "Würdest du eher in Compilations immer mit gerissener Hose auftauchen oder nie wieder in einer Compilation sein?"
+   ],
+   "image_hint": "Hose mit Riss und Kamerablitz",
+   "source_urls": [
+    "https://mein-mmo.de/montanablack-fuehlt-sich-ungerecht-dargestellt/"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "monte-realtalk",
+   "type": "format",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Realtalk und Reallife Story",
+   "quote": "",
+   "year": "",
+   "context": "Formate auf dem Hauptkanal: Realtalk zu Alltagsthemen und Reallife Story über früheres Leben.",
+   "question_ideas": [
+    "Würdest du eher Realtalk mit Monte hören oder IRL-Stream mit ihm laufen?"
+   ],
+   "image_hint": "Sessel und Mikrofon",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/MontanaBlack"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "monte-blackops",
+   "type": "insider",
+   "streamers": [
+    "montanablack"
+   ],
+   "title": "Spezial-Gaming Black Ops",
+   "quote": "",
+   "year": "2015-2022",
+   "context": "Monte ist bekannt für Call of Duty, FIFA und Fortnite. Black-Ops-Turniere sind Fan-Dauerwunsch.",
+   "question_ideas": [
+    "Würdest du eher in Black Ops gegen Monte antreten oder in FIFA?"
+   ],
+   "image_hint": "Controller und Zocker-Poster",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/MontanaBlack"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "knossi-koenig",
+   "type": "catchphrase",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "König des Internets",
+   "quote": "König des Internets",
+   "year": "2020",
+   "context": "Selbstgewählter Titel, Buch von 2020 (SPIEGEL Platz 1). Motto: Oh Baby, es ist Knossi!",
+   "question_ideas": [
+    "Würdest du eher König des Internets oder Kaiser von TikTok sein?",
+    "Würdest du eher eine Krone tragen oder einen Thron im Stream haben?"
+   ],
+   "image_hint": "Goldene Krone auf Gaming-Stuhl",
+   "source_urls": [
+    "https://www.gruender.de/gruendung/knossi-aussergewoehnlich-erfolgreich/",
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-oh-baby",
+   "type": "catchphrase",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Oh Baby, es ist Knossi!",
+   "quote": "Oh Baby, es ist Knossi!",
+   "year": "2020",
+   "context": "Motto aus dem Buch von 2020, passt zu seiner Begrüßung.",
+   "question_ideas": [
+    "Würdest du eher jeden Morgen mit Oh Baby geweckt werden oder mit Alge?"
+   ],
+   "image_hint": "Buchcover mit Krone",
+   "source_urls": [
+    "https://www.hugendubel.de/de/ebook_epub/-39566263-produkt-details.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "knossi-alge",
+   "type": "catchphrase",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Alge Alge Alge",
+   "quote": "Alge",
+   "year": "2020",
+   "context": "Zuruf aus Slot-Streams (Razor-Shark-Symbol). 2020 als Song veröffentlicht. Er hat das Slot-Spielen 2021 beendet.",
+   "question_ideas": [
+    "Würdest du eher Alge als Klingelton oder als Gute-Nacht-Lied?"
+   ],
+   "image_hint": "Algen-Emoji und Krone",
+   "source_urls": [
+    "https://www.onlinecasinos.tv/casino-streamer/therealknossi/knossi-alge/",
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "knossi-angelcamp",
+   "type": "format",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Angelcamp 72 Stunden",
+   "quote": "",
+   "year": "2020",
+   "context": "Juli 2020: 72 Stunden Livestream mit Sido, Manny Marc und Sascha Hellinger. Zeitweise über 220.000, später über 300.000 Zuschauer, deutscher Rekord.",
+   "question_ideas": [
+    "Würdest du eher 72 Stunden angeln mit Sido oder 72 Stunden in Knossis Horrorcamp?"
+   ],
+   "image_hint": "Angelrute am See mit Livestream-Overlay",
+   "source_urls": [
+    "https://www.abendzeitung-muenchen.de/promis/sido-und-knossi-gehen-angeln-hunderttausende-schauen-zu-art-550335",
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-horrorcamp",
+   "type": "format",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Horrorcamp",
+   "quote": "Keine Angst",
+   "year": "2020",
+   "context": "Gespenster-Haus-Stream bis 328.945 Zuschauer, mit Song Keine Angst (Platz 73).",
+   "question_ideas": [
+    "Würdest du eher eine Nacht im Horrorcamp verbringen oder 24h Angeln?"
+   ],
+   "image_hint": "Spukhaus mit Taschenlampe",
+   "source_urls": [
+    "https://mein-mmo.de/horrorcamp-knossi-twitch-dominierte/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-bb",
+   "type": "format",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Big Brother Knossi Edition",
+   "quote": "",
+   "year": "2023-2025",
+   "context": "Dreimal rund 57 Stunden Live-Big-Brother. In Staffel 3 versprach Knossi einen Mega-Preis für das Einbrechen ins Haus, die Produktion griff ein (#bbknossieskaliert).",
+   "question_ideas": [
+    "Würdest du eher bei Big Brother Knossi Edition mitmachen oder als Zuschauer vorm Haus campen?"
+   ],
+   "image_hint": "Kamerahaus mit rotem Rec-Punkt",
+   "source_urls": [
+    "https://www.promiflash.de/news/2025/10/27/big-brother-knossi-edition-die-regie-musste-eingreifen.html",
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-letsdance",
+   "type": "format",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Let's Dance Platz 5",
+   "quote": "",
+   "year": "2023",
+   "context": "2023 Platz 5, 2025 zum beliebtesten Kandidaten aller Zeiten gewählt.",
+   "question_ideas": [
+    "Würdest du eher Let's Dance mit Knossi tanzen oder 7 vs. Wild gewinnen?"
+   ],
+   "image_hint": "Tanzparkett mit Krone",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-hoverboard",
+   "type": "insider",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "180.000 Euro Hoverboard",
+   "quote": "",
+   "year": "2023",
+   "context": "Zurück-in-die-Zukunft-Hoverboard-Requisite für 180.000 Euro ersteigert.",
+   "question_ideas": [
+    "Würdest du eher ein Hoverboard für 180.000 Euro kaufen oder 18 Mal Pizza für alle?"
+   ],
+   "image_hint": "Hoverboard auf Podest",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-qvc",
+   "type": "running_gag",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "QVC in 40 Minuten ausverkauft",
+   "quote": "",
+   "year": "2022",
+   "context": "Nach verlorener Wette verkaufte Knossi bei QVC alles in 40 Minuten aus.",
+   "question_ideas": [
+    "Würdest du eher bei QVC verkaufen oder bei Wetten, dass...? wetten?"
+   ],
+   "image_hint": "Tele-Shopping-Studio",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-gonnjamin",
+   "type": "insider",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Gönnjamin",
+   "quote": "Gönnjamin",
+   "year": "",
+   "context": "Laut Fan-Nachrichtenseite ein Spitzname für den Gönn-Modus. Quelle wenig verlässlich.",
+   "question_ideas": [
+    "Würdest du eher Gönnjamin-Modus anschalten oder ein Krönchen tragen?"
+   ],
+   "image_hint": "Kopf mit Krone und Geldscheinen",
+   "source_urls": [
+    "https://www.ad-hoc-news.de/boerse/news/ueberblick/knossi-dreht-komplett-durch-der-moment-der-seinen-stream-gerade-ueberall/68614988"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "knossi-happyslice",
+   "type": "format",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Happy Slice",
+   "quote": "",
+   "year": "2023",
+   "context": "Pizza-Kette 2023, Happy Chips 2024, Likör ALGE, Label KROWNZ.",
+   "question_ideas": [
+    "Würdest du eher Happy Slice jeden Tag essen oder Alge-Likör trinken?"
+   ],
+   "image_hint": "Pizzakarton mit Krone",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "knossi-poker",
+   "type": "trait",
+   "streamers": [
+    "knossi"
+   ],
+   "title": "Poker-Profi",
+   "quote": "",
+   "year": "2011",
+   "context": "2011 Gewinn von PokerStars sucht das PokerAss, später Poker-Kommentare.",
+   "question_ideas": [
+    "Würdest du eher Pokerface haben oder Knossis Lache?"
+   ],
+   "image_hint": "Pokerkarten mit Krone",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Knossi"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "try-wallah",
+   "type": "running_gag",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Was geht Yallah",
+   "quote": "Was geht yallah",
+   "year": "2022",
+   "context": "Fortnite-Clip, in dem ein Kind ihn so begrüßt. Er lehnte ab, Wallah zu sagen. Sascha Hellinger trickste ihn Okt 2025 mit Gedicht aus.",
+   "question_ideas": [
+    "Würdest du eher nie wieder Wallah sagen oder jeden Tag Was geht yallah hören?"
+   ],
+   "image_hint": "Kinderstimme Sprechblase an Trymacs",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-alter-clip-was-geht-yallah/",
+    "https://mein-mmo.de/trymacs-sascha-hellinger-wallah/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "try-notar",
+   "type": "insider",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Notar am neuen Wall A",
+   "quote": "Mein Notar sitzt am neuen Wall A",
+   "year": "2025",
+   "context": "Mit diesem Gedicht-Satz lockte Hellinger Trymacs zum Wort Wallah. Dann: Guten Morgen, Freunde!",
+   "question_ideas": [
+    "Würdest du eher auf Hellingers Gedicht-Trick reinfallen oder 3 Jahre auf ein Wort warten?"
+   ],
+   "image_hint": "Notar mit Gedicht-Blatt",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-sascha-hellinger-wallah/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "try-pokemon",
+   "type": "format",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Pokémon-Karten Streams",
+   "quote": "",
+   "year": "2021",
+   "context": "Pokémon-Kartenöffnungen 2021 mit Streaming-Rekorden. Über 61.000 Subs Anfang 2021.",
+   "question_ideas": [
+    "Würdest du eher 11.000 Euro Pokémon-Karten öffnen oder Sub-Rekord brechen?"
+   ],
+   "image_hint": "Boosterpacks und Rekordzahl",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Trymacs"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "try-greatfight",
+   "type": "format",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Great Fight Night",
+   "quote": "",
+   "year": "2022",
+   "context": "2. April 2022 Boxkampf in der Lanxess Arena mit MckyTV, rund 14.000 Zuschauer vor Ort.",
+   "question_ideas": [
+    "Würdest du eher gegen Trymacs boxen oder gegen Knossi Fußball spielen?"
+   ],
+   "image_hint": "Boxring mit Lanxess-Arena",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Trymacs"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "try-hardstuck",
+   "type": "running_gag",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "SSV Hardstuck",
+   "quote": "",
+   "year": "2022-2024",
+   "context": "Die 5. Mannschaft des SC Victoria Hamburg: 2022/23 Aufstieg in Kreisliga A, 2024 dort Platz 3.",
+   "question_ideas": [
+    "Würdest du eher in Hardstuck Kreisliga spielen oder Baller League Manager sein?"
+   ],
+   "image_hint": "Dorf-Fußballplatz mit Hardstuck-Trikot",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Trymacs"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "try-podcast",
+   "type": "format",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Offline + Ehrlich",
+   "quote": "",
+   "year": "2021",
+   "context": "Podcast seit 19.10.2021 mit Varion und Sascha UnsympathischTV Hellinger.",
+   "question_ideas": [
+    "Würdest du eher Hellingers Streiche aushalten oder Trymacs' Lieblings-Obst-Take?"
+   ],
+   "image_hint": "Drei Mikros mit Offline-Plus-Logo",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Trymacs"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "try-obst",
+   "type": "running_gag",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Obst-Take",
+   "quote": "",
+   "year": "2025",
+   "context": "Trymacs äußerte sich abschätzig über Obst mit Konsistenz, und die Community reagierte gespalten.",
+   "question_ideas": [
+    "Würdest du eher nur Obst oder nur Gemüsekuchen essen?"
+   ],
+   "image_hint": "Obstschale mit Fragezeichen",
+   "source_urls": [
+    "https://earlygame.com/de/news/influencers/trymacs-triggert-die-community-mit-diesem-obst-take"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "try-rumathra",
+   "type": "trait",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Kumpel Rumathra",
+   "quote": "",
+   "year": "2025",
+   "context": "Trymacs ärgert sich scherzhaft, dass sein Kumpel Rumathra mehr Reactions macht als mit ihm zu zocken.",
+   "question_ideas": [
+    "Würdest du eher mit Trymacs zocken oder Rumathras Reactions schauen?"
+   ],
+   "image_hint": "Zwei Controller",
+   "source_urls": [
+    "https://mein-mmo.de/trymacs-ist-sauer-weil-er-nur-mit-rumathra-zocken-will/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "try-rettungsgasse",
+   "type": "running_gag",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Rettungsgassen-Fauxpas",
+   "quote": "",
+   "year": "2025",
+   "context": "Auf der A7 fuhr er versehentlich durch eine Rettungsgasse, nannte es einen der unangenehmsten Momente beim Autofahren.",
+   "question_ideas": [
+    "Würdest du eher in der Rettungsgasse stehen oder durchfahren und Hugo-Fame kassieren?"
+   ],
+   "image_hint": "Autobahn mit Rettungsgasse",
+   "source_urls": [
+    "https://www.promiflash.de/news/2025/08/26/trymacs-sorgt-mit-rettungsgassen-fauxpas-fuer-aufregung.html"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "try-sprachnachricht",
+   "type": "trait",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Sprachnachrichten-Verbot",
+   "quote": "",
+   "year": "2025",
+   "context": "Er kann Sprachnachrichten auf 1,5x oder 2x nicht ertragen und hat seiner Frau ein Verbot gegeben.",
+   "question_ideas": [
+    "Würdest du eher nur noch Sprachnachrichten oder nur noch Briefe schicken?"
+   ],
+   "image_hint": "Handy mit Mikrofon-Symbol und Stopp",
+   "source_urls": [
+    "https://earlygame.com/de/news/influencers/da-geh-ich-voll-crashout-warum-trymacs-seiner-frau-diese-sache-verbietet"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "try-tipps",
+   "type": "format",
+   "streamers": [
+    "trymacs"
+   ],
+   "title": "Tipps und Tricks",
+   "quote": "",
+   "year": "2016",
+   "context": "Format ab 2016 für Clash Royale und FIFA, wodurch sein Kanal wuchs.",
+   "question_ideas": [
+    "Würdest du eher Clash-Royale-Tipps von Trymacs oder Fortnite-Tipps?"
+   ],
+   "image_hint": "Clash-Royale-Karten",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Trymacs"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "unge-madeira",
+   "type": "running_gag",
+   "streamers": [
+    "unge"
+   ],
+   "title": "Halbe Insel Madeira",
+   "quote": "",
+   "year": "2022",
+   "context": "In seiner Community heißt es scherzhaft, ihm gehöre fast ganz Madeira, wo er mehrere Immobilien besitzt.",
+   "question_ideas": [
+    "Würdest du eher die halbe Insel Madeira oder ein Haus in Hamburg besitzen?"
+   ],
+   "image_hint": "Madeira-Küste mit Besitz-Schild",
+   "source_urls": [
+    "https://mein-mmo.de/geschichte-von-unge/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-dreads",
+   "type": "trait",
+   "streamers": [
+    "unge"
+   ],
+   "title": "Dreadlocks bis 2016",
+   "quote": "",
+   "year": "2016",
+   "context": "Lange rötliche Dreadlocks waren sein Markenzeichen.",
+   "question_ideas": [
+    "Würdest du eher Unges Dreads oder Knossis Krone tragen?"
+   ],
+   "image_hint": "Rote Dreads",
+   "source_urls": [
+    "https://mein-mmo.de/geschichte-von-unge/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-varo",
+   "type": "format",
+   "streamers": [
+    "unge"
+   ],
+   "title": "Varo Minecraft",
+   "quote": "",
+   "year": "2014",
+   "context": "April 2014: Minecraft-Projekt mit 41 Let's Playern, mit GermanLetsPlay.",
+   "question_ideas": [
+    "Würdest du eher bei Varo mitspielen oder bei Craft Attack?"
+   ],
+   "image_hint": "Minecraft-Karte mit Namen",
+   "source_urls": [
+    "https://mein-mmo.de/geschichte-von-unge/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-longboard",
+   "type": "format",
+   "streamers": [
+    "unge"
+   ],
+   "title": "Longboard-Tour 2014",
+   "quote": "",
+   "year": "2014",
+   "context": "Über 1.400 km mit Dner, Cheng Leow und Julien Bam, begleitet von Stern TV.",
+   "question_ideas": [
+    "Würdest du eher 1.400 km Longboard fahren oder 0Tour ohne Geld machen?"
+   ],
+   "image_hint": "Longboard auf Landstraße",
+   "source_urls": [
+    "https://mein-mmo.de/geschichte-von-unge/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-weltreise",
+   "type": "format",
+   "streamers": [
+    "unge"
+   ],
+   "title": "Weltreise per App",
+   "quote": "",
+   "year": "2015",
+   "context": "Fans bestimmten per App das nächste Reiseziel, Start am 14. April 2015 in Los Angeles.",
+   "question_ideas": [
+    "Würdest du eher von Fans das Reiseziel wählen lassen oder alles selbst planen?"
+   ],
+   "image_hint": "Weltkarte mit Handy",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-ungeklickt",
+   "type": "format",
+   "streamers": [
+    "unge"
+   ],
+   "title": "ungeklickt",
+   "quote": "ungeklickt",
+   "year": "2016",
+   "context": "Reaktions-Format seit 18.09.2016, erste Folge hieß Let's Watch.",
+   "question_ideas": [
+    "Würdest du eher ungeklickt schauen oder selbst react-streamen?"
+   ],
+   "image_hint": "Videoplayer mit Daumen",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-subathon",
+   "type": "format",
+   "streamers": [
+    "unge"
+   ],
+   "title": "55-Tage-Subathon",
+   "quote": "",
+   "year": "2022",
+   "context": "Ende 2022 bis 9. Jan 2023: 55 Tage Subathon.",
+   "question_ideas": [
+    "Würdest du eher 55 Tage Subathon machen oder 55 Tage ohne Internet?"
+   ],
+   "image_hint": "Countdown-Timer",
+   "source_urls": [
+    "https://mein-mmo.de/geschichte-von-unge/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-raik",
+   "type": "format",
+   "streamers": [
+    "unge"
+   ],
+   "title": "VTuber Raik",
+   "quote": "",
+   "year": "2023",
+   "context": "Seit 2023 englischsprachiger VTuber namens Raik.",
+   "question_ideas": [
+    "Würdest du eher als VTuber streamen oder mit Gesicht?"
+   ],
+   "image_hint": "Anime-Avatar mit Webcam",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Unge"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-un",
+   "type": "trait",
+   "streamers": [
+    "unge"
+   ],
+   "title": "Alles mit un-",
+   "quote": "ungespielt",
+   "year": "2012",
+   "context": "Namensmuster ungespielt, ungefilmt, ungeklickt.",
+   "question_ideas": [
+    "Würdest du eher ungespielt oder ungeklickt heißen?"
+   ],
+   "image_hint": "Buchstaben UN-",
+   "source_urls": [
+    "https://mein-mmo.de/geschichte-von-unge/"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "unge-schwinsel",
+   "type": "insider",
+   "streamers": [
+    "unge"
+   ],
+   "title": "Schwinsel Gang",
+   "quote": "",
+   "year": "2018",
+   "context": "Auf Madeira gegründete Gang mit Reved.",
+   "question_ideas": [
+    "Würdest du eher in Unges Schwinsel Gang oder Papaplattes Edeltour sein?"
+   ],
+   "image_hint": "Gang-Foto auf Madeira",
+   "source_urls": [
+    "https://mein-mmo.de/geschichte-von-unge/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rewi-lizardman",
+   "type": "insider",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "Ich bin Lizardman Song",
+   "quote": "Ich Bin Lizardman Song",
+   "year": "2014",
+   "context": "Song von 2014 mit M'pire.",
+   "question_ideas": [
+    "Würdest du eher Lizardman sein oder Rewigang-Boss?"
+   ],
+   "image_hint": "Echsenmensch mit Cap",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rewi-rinos",
+   "type": "format",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "Rinos",
+   "quote": "",
+   "year": "2024",
+   "context": "Seit 2024 Serie mit Marc Eggers, UnsympathischTV, Tim Gabel und Inscope21.",
+   "question_ideas": [
+    "Würdest du eher in Rinos mitspielen oder in Krass Klassenfahrt?"
+   ],
+   "image_hint": "Serien-Poster",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rewi-chungus",
+   "type": "insider",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "General Chungus Synchro",
+   "quote": "",
+   "year": "2025",
+   "context": "Deutsche Stimme von General Chungus im Minecraft Film (2025).",
+   "question_ideas": [
+    "Würdest du eher General Chungus synchronisieren oder Minecraft-Server betreiben?"
+   ],
+   "image_hint": "Chungus mit Mikrofon",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rewi-wutausbruch",
+   "type": "trait",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "Rewi rastet aus",
+   "quote": "",
+   "year": "",
+   "context": "Er polarisiert mit gereizter Stimmung: nach Fehlern oder Ausscheiden wird es laut im Stream.",
+   "question_ideas": [
+    "Würdest du eher Rewi bei Fehlern streamen sehen oder selbst ausrasten?"
+   ],
+   "image_hint": "Tastatur fliegt",
+   "source_urls": [
+    "https://mein-mmo.de/en/german-streamer-discovers-the-most-evil-woman-on-twitch-is-speechless,967862/"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rewi-tomary",
+   "type": "insider",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "Tomary der Sidekick",
+   "quote": "",
+   "year": "2017-2019",
+   "context": "Früherer Editor Tomary, auch Sidekick in den Videos.",
+   "question_ideas": [
+    "Würdest du eher Rewis Sidekick sein oder sein Editor?"
+   ],
+   "image_hint": "Zwei Männer am Schneideplatz",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rewi-mcserver",
+   "type": "format",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "Minecraft-Server rewinside.tv",
+   "quote": "",
+   "year": "2016-2021",
+   "context": "Eigener Server 2016 bis März 2021.",
+   "question_ideas": [
+    "Würdest du eher auf Rewis Server spielen oder auf Varo?"
+   ],
+   "image_hint": "Server-Logo",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rewi-24h",
+   "type": "format",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "24-Stunden-Spendenstream",
+   "quote": "",
+   "year": "2019",
+   "context": "Jährlicher 24h-Stream mit Spenden für ein Projekt in Afrika.",
+   "question_ideas": [
+    "Würdest du eher 24 Stunden streamen oder 24 Stunden Minecraft bauen?"
+   ],
+   "image_hint": "24h-Uhr",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "rewi-jause",
+   "type": "format",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "RaveInside Jause",
+   "quote": "Jause",
+   "year": "2020",
+   "context": "Song Jause 2020 mit Jan Jausemeyer.",
+   "question_ideas": [
+    "Würdest du eher Jause singen oder 99 Luftballons als Drum and Bass?"
+   ],
+   "image_hint": "DJ-Pult mit Cap",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rewi-luftballons",
+   "type": "format",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "99 Luftballons DnB",
+   "quote": "",
+   "year": "2023",
+   "context": "Drum-and-Bass-Remake mit BLVCK CROWZ.",
+   "question_ideas": [
+    "Würdest du eher 99 Luftballons remixen oder Parookaville headlinen?"
+   ],
+   "image_hint": "Ballons auf Festival",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rewi-allerjutsten",
+   "type": "format",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "Die Allerjutsten",
+   "quote": "",
+   "year": "2023",
+   "context": "TV-Auftritt 2023.",
+   "question_ideas": [
+    "Würdest du eher bei Die Allerjutsten oder Rinos mitmachen?"
+   ],
+   "image_hint": "Show-Bühne",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "low"
+  },
+  {
+   "id": "rewi-collabs",
+   "type": "insider",
+   "streamers": [
+    "rewinside",
+    "montanablack",
+    "papaplatte"
+   ],
+   "title": "Rewi, Monte, Papa",
+   "quote": "",
+   "year": "",
+   "context": "Collab-Partner: Julia Beautx, LetsHugo, Joey's Jungle, MontanaBlack, Papaplatte, Max Schradin, Paluten.",
+   "question_ideas": [
+    "Würdest du eher mit Monte oder Papaplatte collabben?"
+   ],
+   "image_hint": "Drei Köpfe im Kreis",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "rewi-hide",
+   "type": "format",
+   "streamers": [
+    "rewinside"
+   ],
+   "title": "Hide & Seek Challenges",
+   "quote": "",
+   "year": "",
+   "context": "Vlogs, Hide & Seeks und Challenges auf dem Hauptkanal.",
+   "question_ideas": [
+    "Würdest du eher Rewi suchen oder dich verstecken?"
+   ],
+   "image_hint": "Versteck hinter Pappe",
+   "source_urls": [
+    "https://de.wikipedia.org/wiki/Rewinside"
+   ],
+   "confidence": "medium"
+  },
+  {
+   "id": "hugo-meta",
+   "type": "insider",
+   "streamers": [
+    "papaplatte",
+    "montanablack",
+    "knossi",
+    "trymacs",
+    "unge",
+    "rewinside"
+   ],
+   "title": "Hungriger und Satter Hugo",
+   "quote": "",
+   "year": "2019",
+   "context": "Hungriger Hugo startete am 4.12.2019, Satter Hugo wird von ItsLoru betrieben.",
+   "question_ideas": [
+    "Würdest du eher in Hungriger Hugo oder Satter Hugo vorkommen?"
+   ],
+   "image_hint": "Zwei Hugo-Logos",
+   "source_urls": [
+    "https://mein-mmo.de/hungriger-hugo-einnahmen-erfolg/"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "avoid": [
+  {
+   "streamer": "montanablack",
+   "topic": "Online-Casino-Werbung, Hausdurchsuchung und Verfahren 2018/19",
+   "why": "Rechtliche Vorwürfe"
+  },
+  {
+   "streamer": "knossi",
+   "topic": "Online-Casino und Slots",
+   "why": "Gambling-Content/Glücksspiel, nur ohne Werbung nutzen"
+  },
+  {
+   "streamer": "montanablack",
+   "topic": "Frauen-Sprüche und Hotelbalkon-Clip",
+   "why": "Sexistisch, Gefahr von Strike"
+  },
+  {
+   "streamer": "papaplatte",
+   "topic": "Pamabu und Editor-Vergütung 2025, Gerichtsfall Ex-Mitarbeiter",
+   "why": "Rechtlich"
+  },
+  {
+   "streamer": "unge",
+   "topic": "Auszeit und Glashaus-Zitat",
+   "why": "Mentale Gesundheit"
+  },
+  {
+   "streamer": "unge",
+   "topic": "wtf.social Kondome",
+   "why": "Sexuell"
+  },
+  {
+   "streamer": "unge",
+   "topic": "Mediakraft Knebelvertrag",
+   "why": "Rechtlicher Streit"
+  },
+  {
+   "streamer": "montanablack",
+   "topic": "Impfen Aussagen und Agatha-Gehalt",
+   "why": "Politisch und privat"
+  },
+  {
+   "streamer": "rewinside",
+   "topic": "Cancel Culture Imagewechsel",
+   "why": "Kontroverse"
+  },
+  {
+   "streamer": "trymacs",
+   "topic": "Familie, Kinder, Frau, Streit mit Chefstrobel",
+   "why": "Privat"
+  },
+  {
+   "streamer": "papaplatte",
+   "topic": "Tinder- und Masha-Geschichten",
+   "why": "Privat und sexuell"
+  }
+ ]
+}
