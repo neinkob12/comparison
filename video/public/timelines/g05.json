@@ -1,0 +1,221 @@
+{
+ "id": "g05",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 2171,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g05/00_claim.mp3",
+   "speak": 53,
+   "voiceAt": 6,
+   "title": "NUR 12%",
+   "sub": "LIEGEN RICHTIG",
+   "hold": 18,
+   "duration": 71
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g05/01_q_a.mp3",
+   "audioB": "audio/g05/01_q_b.mp3",
+   "bAt": 47,
+   "speak": 137,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "500.000 € sofort",
+    "img": null,
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "1 € × 2, 20 Tage",
+    "img": null,
+    "emoji": "🪙"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "duration": 272
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g05/02_q_a.mp3",
+   "audioB": "audio/g05/02_q_b.mp3",
+   "bAt": 56,
+   "speak": 102,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Traumjob 2.500 €",
+    "img": null,
+    "emoji": "😍"
+   },
+   "b": {
+    "label": "Hassjob 6.000 €",
+    "img": null,
+    "emoji": "😩"
+   },
+   "pct": [
+    52,
+    48
+   ],
+   "duration": 237
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g05/03_q_a.mp3",
+   "audioB": "audio/g05/03_q_b.mp3",
+   "bAt": 43,
+   "speak": 92,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Jackpot mit 70",
+    "img": null,
+    "emoji": "👴"
+   },
+   "b": {
+    "label": "1 Mio. mit 25",
+    "img": null,
+    "emoji": "🧑"
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "duration": 227
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g05/04_q_a.mp3",
+   "audioB": "audio/g05/04_q_b.mp3",
+   "bAt": 49,
+   "speak": 93,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Haus in der Pampa",
+    "img": null,
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "200.000 € bar",
+    "img": null,
+    "emoji": "💵"
+   },
+   "pct": [
+    35,
+    65
+   ],
+   "duration": 228
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/g05/05_mid_a.mp3",
+   "audioB": "audio/g05/05_mid_b.mp3",
+   "bAt": 60,
+   "speak": 101,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr kein Handy",
+    "img": null,
+    "emoji": "📱"
+   },
+   "b": {
+    "label": "1 Jahr kein Urlaub",
+    "img": null,
+    "emoji": "🏝️"
+   },
+   "pct": [
+    39,
+    61
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g05/06_q_a.mp3",
+   "audioB": "audio/g05/06_q_b.mp3",
+   "bAt": 54,
+   "speak": 118,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Chef, 60 h",
+    "img": null,
+    "emoji": "👔"
+   },
+   "b": {
+    "label": "Angestellter, 35 h",
+    "img": null,
+    "emoji": "🧑‍💻"
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "duration": 253
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g05/07_q_a.mp3",
+   "audioB": "audio/g05/07_q_b.mp3",
+   "bAt": 51,
+   "speak": 97,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Gratis Bahn",
+    "img": null,
+    "emoji": "🚆"
+   },
+   "b": {
+    "label": "Gratis tanken",
+    "img": null,
+    "emoji": "⛽"
+   },
+   "pct": [
+    29,
+    71
+   ],
+   "duration": 232
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g05/08_q_a.mp3",
+   "audioB": "audio/g05/08_q_b.mp3",
+   "bAt": 58,
+   "speak": 102,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr alles bezahlt",
+    "img": null,
+    "emoji": "🎁"
+   },
+   "b": {
+    "label": "50.000 € bar",
+    "img": null,
+    "emoji": "💶"
+   },
+   "pct": [
+    64,
+    36
+   ],
+   "duration": 237
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g05/09_outro.mp3",
+   "speak": 133,
+   "hold": 45,
+   "title": "WAS HÄTTEST DU GEWÄHLT?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an deinen Kumpel mit dem Dispo",
+   "duration": 178
+  }
+ ]
+}

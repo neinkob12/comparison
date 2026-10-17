@@ -40,13 +40,16 @@ def speed_for(text):
     return min(1.2, max([speeds[n] for n in speeds if n in text] + [1.18]))
 
 
-def tts(text, out, tempo=TEMPO):
+def tts(text, out, voice=None, tempo=TEMPO):
     if out.exists():
         return
+    # Optional pro Video: {"id": ..., "speed": ..., "stability": ...}, sonst Adam wie bisher
+    voice = voice or {}
     body = {"text": spoken(text), "model_id": "eleven_multilingual_v2", "language_code": "de",
-            "voice_settings": {"stability": 0.7, "similarity_boost": 0.8, "style": 0, "speed": speed_for(text)}}
+            "voice_settings": {"stability": voice.get("stability", 0.7), "similarity_boost": 0.8, "style": voice.get("style", 0),
+                               "speed": voice.get("speed") or speed_for(text)}}
     req = urllib.request.Request(
-        f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_128",
+        f"https://api.elevenlabs.io/v1/text-to-speech/{voice.get('id', VOICE)}?output_format=mp3_44100_128",
         data=json.dumps(body).encode(),
         headers={"xi-api-key": os.environ["ELEVENLABS_API_KEY"], "Content-Type": "application/json"})
     raw = out.with_suffix(".raw.mp3")
@@ -90,10 +93,12 @@ def build(vid):
     adir = PUB / "audio" / vid
     adir.mkdir(parents=True, exist_ok=True)
     segs = []
+    voice = v.get("voice")
+    say_ = lambda text, out, tempo=TEMPO: tts(text, out, voice, tempo)  # noqa: E731
 
     def add(kind, n, data, say, extra):
         f = adir / f"{n:02d}_{kind}.mp3"
-        tts(say, f)
+        say_(say, f)
         segs.append({"kind": kind, "audio": f"audio/{vid}/{f.name}", "speak": frames(f), **extra, **data})
 
     n = 0
@@ -104,6 +109,14 @@ def build(vid):
         sp = frames(f)
         segs.append({"kind": "intro", "audio": "sfx/intro_rapper_duell.mp3", "speak": sp, "voiceAt": 6,
                      "title": i["title"], "sub": i["sub"], "hold": max(54, sp + 10) - sp}); n += 1
+    if v.get("claim"):
+        # Einblendung + Ansage am Anfang, z.B. "80% antworten falsch"
+        c = v["claim"]
+        f = adir / f"{n:02d}_claim.mp3"
+        say_(c["say"], f)
+        sp = frames(f)
+        segs.append({"kind": "intro", "audio": f"audio/{vid}/{f.name}", "speak": sp, "voiceAt": 6,
+                     "title": c["title"], "sub": c["sub"], "hold": 6 + 12}); n += 1
     qs = ([v["hook"]] if v.get("hook") else []) + v["questions"]
     num = 0
     for q in qs:
@@ -119,7 +132,7 @@ def build(vid):
         tempo = HOOK_TEMPO if kind == "hook" else TEMPO
         gap = HOOK_GAP if kind == "hook" else GAP
         if m:
-            tts(say[:m.start()] + ",", fa, tempo); tts("oder " + say[m.end():], fb, tempo)
+            say_(say[:m.start()] + ",", fa, tempo); say_("oder " + say[m.end():], fb, tempo)
             ba = frames(fa) + 2
             sp = ba + frames(fb)
             seg = {"kind": kind, "audio": f"audio/{vid}/{fa.name}", "audioB": f"audio/{vid}/{fb.name}",
@@ -127,12 +140,27 @@ def build(vid):
                    "a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}
             if q.get("winSay"):
                 fw = adir / f"{n:02d}_{kind}_win.mp3"
-                tts(q["winSay"], fw)
+                say_(q["winSay"], fw)
                 seg["winAudio"] = f"audio/{vid}/{fw.name}"
                 seg["hold"] = max(REVEAL, 12 + frames(fw) + 8)
             if kind == "hook":
                 seg["banner"] = q.get("banner", "WAS WÄHLT DIE MEHRHEIT? 👀")
             segs.append(seg)
+            if q.get("explain"):
+                # Aufloesung: erst Fakt A, dann Fakt B, dann Urteil
+                e = q["explain"]
+                parts = {}
+                for key, text in (("a", e["a"]["say"]), ("b", e["b"]["say"]), ("win", e["winSay"])):
+                    fe = adir / f"{n:02d}_explain_{key}.mp3"
+                    say_(text, fe)
+                    parts[key] = (f"audio/{vid}/{fe.name}", frames(fe))
+                bAt = 8 + parts["a"][1] + 8
+                winAt = bAt + parts["b"][1] + 8
+                exp = {"kind": "explain", "audio": parts["a"][0], "audioB": parts["b"][0], "winAudio": parts["win"][0],
+                       "aAt": 8, "bAt": bAt, "winAt": winAt, "speak": winAt + parts["win"][1], "hold": 30,
+                       "best": e["best"], "note": e.get("note", "Vereinfacht gerechnet. Keine Anlageberatung."),
+                       "a": {**side(q["a"]), "fact": e["a"]["fact"]}, "b": {**side(q["b"]), "fact": e["b"]["fact"]}}
+                segs.append(exp)
         else:
             add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": gap, "hold": REVEAL})
         n += 1

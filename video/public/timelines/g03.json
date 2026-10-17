@@ -1,0 +1,203 @@
+{
+ "id": "g03",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 2457,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g03/00_claim.mp3",
+   "speak": 62,
+   "voiceAt": 6,
+   "title": "NUR 1 VON 10",
+   "sub": "SCHAFFT ALLE 3",
+   "hold": 18,
+   "duration": 80
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g03/01_q_a.mp3",
+   "audioB": "audio/g03/01_q_b.mp3",
+   "bAt": 72,
+   "speak": 123,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Steuererklärung",
+    "img": null,
+    "emoji": "🧾"
+   },
+   "b": {
+    "label": "Netflix-Abend",
+    "img": null,
+    "emoji": "🍿"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "duration": 258
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g03/01_explain_a.mp3",
+   "audioB": "audio/g03/01_explain_b.mp3",
+   "winAudio": "audio/g03/01_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 133,
+   "winAt": 225,
+   "speak": 324,
+   "hold": 30,
+   "best": "a",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "a": {
+    "label": "Steuererklärung",
+    "img": null,
+    "emoji": "🧾",
+    "fact": "Im Schnitt rund 1.000 € Erstattung"
+   },
+   "b": {
+    "label": "Netflix-Abend",
+    "img": null,
+    "emoji": "🍿",
+    "fact": "Kostet dich Geld, bringt dir keins"
+   },
+   "duration": 354
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g03/02_q_a.mp3",
+   "audioB": "audio/g03/02_q_b.mp3",
+   "bAt": 71,
+   "speak": 144,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "+200 € Gehalt / Monat",
+    "img": null,
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "2.000 € Bonus",
+    "img": null,
+    "emoji": "🎁"
+   },
+   "pct": [
+    34,
+    66
+   ],
+   "duration": 279
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g03/02_explain_a.mp3",
+   "audioB": "audio/g03/02_explain_b.mp3",
+   "winAudio": "audio/g03/02_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 212,
+   "winAt": 300,
+   "speak": 372,
+   "hold": 30,
+   "best": "a",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "a": {
+    "label": "+200 € Gehalt / Monat",
+    "img": null,
+    "emoji": "📈",
+    "fact": "2.400 € im Jahr. Jedes Jahr."
+   },
+   "b": {
+    "label": "2.000 € Bonus",
+    "img": null,
+    "emoji": "🎁",
+    "fact": "Einmal 2.000 €, dann vorbei"
+   },
+   "duration": 402
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/g03/03_mid_a.mp3",
+   "audioB": "audio/g03/03_mid_b.mp3",
+   "bAt": 64,
+   "speak": 113,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Kino",
+    "img": null,
+    "emoji": "🎬"
+   },
+   "b": {
+    "label": "Nie wieder Konzerte",
+    "img": null,
+    "emoji": "🎤"
+   },
+   "pct": [
+    64,
+    36
+   ],
+   "duration": 248
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g03/04_q_a.mp3",
+   "audioB": "audio/g03/04_q_b.mp3",
+   "bAt": 63,
+   "speak": 141,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Dispo abbezahlen",
+    "img": null,
+    "emoji": "🏦"
+   },
+   "b": {
+    "label": "5.000 € in ETF",
+    "img": null,
+    "emoji": "📊"
+   },
+   "pct": [
+    37,
+    63
+   ],
+   "duration": 276
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g03/04_explain_a.mp3",
+   "audioB": "audio/g03/04_explain_b.mp3",
+   "winAudio": "audio/g03/04_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 147,
+   "winAt": 271,
+   "speak": 315,
+   "hold": 30,
+   "best": "a",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "a": {
+    "label": "Dispo abbezahlen",
+    "img": null,
+    "emoji": "🏦",
+    "fact": "Dispo kostet oft über 10 % Zinsen. Garantiert."
+   },
+   "b": {
+    "label": "5.000 € in ETF",
+    "img": null,
+    "emoji": "📊",
+    "fact": "ETF: im Schnitt ~7 %, ohne Garantie"
+   },
+   "duration": 345
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g03/05_outro.mp3",
+   "speak": 170,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an jemanden, der jeden Monat pleite ist",
+   "duration": 215
+  }
+ ]
+}

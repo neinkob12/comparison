@@ -1,0 +1,203 @@
+{
+ "id": "g02",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 2728,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g02/00_claim.mp3",
+   "speak": 74,
+   "voiceAt": 6,
+   "title": "80%",
+   "sub": "ANTWORTEN FALSCH",
+   "hold": 18,
+   "duration": 92
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g02/01_q_a.mp3",
+   "audioB": "audio/g02/01_q_b.mp3",
+   "bAt": 64,
+   "speak": 163,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Neuwagen 30.000 €",
+    "img": null,
+    "emoji": "🚗"
+   },
+   "b": {
+    "label": "Gebraucht + 15.000 € anlegen",
+    "img": null,
+    "emoji": "🚙"
+   },
+   "pct": [
+    58,
+    42
+   ],
+   "duration": 298
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g02/01_explain_a.mp3",
+   "audioB": "audio/g02/01_explain_b.mp3",
+   "winAudio": "audio/g02/01_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 187,
+   "winAt": 366,
+   "speak": 432,
+   "hold": 30,
+   "best": "b",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "a": {
+    "label": "Neuwagen 30.000 €",
+    "img": null,
+    "emoji": "🚗",
+    "fact": "Verliert in 3 Jahren oft ~40 % Wert = ca. 12.000 €"
+   },
+   "b": {
+    "label": "Gebraucht + 15.000 € anlegen",
+    "img": null,
+    "emoji": "🚙",
+    "fact": "15.000 € bei 7 % → ca. 29.500 € nach 10 Jahren"
+   },
+   "duration": 462
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g02/02_q_a.mp3",
+   "audioB": "audio/g02/02_q_b.mp3",
+   "bAt": 93,
+   "speak": 171,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Leasing 299 € / Monat",
+    "img": null,
+    "emoji": "📝"
+   },
+   "b": {
+    "label": "10.000 € bar",
+    "img": null,
+    "emoji": "💵"
+   },
+   "pct": [
+    63,
+    37
+   ],
+   "duration": 306
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g02/02_explain_a.mp3",
+   "audioB": "audio/g02/02_explain_b.mp3",
+   "winAudio": "audio/g02/02_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 185,
+   "winAt": 325,
+   "speak": 399,
+   "hold": 30,
+   "best": "b",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "a": {
+    "label": "Leasing 299 € / Monat",
+    "img": null,
+    "emoji": "📝",
+    "fact": "3 Jahre: 10.764 € gezahlt. Auto gehört dir nicht."
+   },
+   "b": {
+    "label": "10.000 € bar",
+    "img": null,
+    "emoji": "💵",
+    "fact": "Auto gehört dir und ist nach 3 Jahren noch was wert"
+   },
+   "duration": 429
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/g02/03_mid_a.mp3",
+   "audioB": "audio/g02/03_mid_b.mp3",
+   "bAt": 61,
+   "speak": 105,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Kaffee",
+    "img": null,
+    "emoji": "☕"
+   },
+   "b": {
+    "label": "Nie wieder Spotify",
+    "img": null,
+    "emoji": "🎧"
+   },
+   "pct": [
+    61,
+    39
+   ],
+   "duration": 240
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g02/04_q_a.mp3",
+   "audioB": "audio/g02/04_q_b.mp3",
+   "bAt": 71,
+   "speak": 143,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "10 € / Woche Lotto",
+    "img": null,
+    "emoji": "🎰"
+   },
+   "b": {
+    "label": "10 € / Woche ETF",
+    "img": null,
+    "emoji": "📈"
+   },
+   "pct": [
+    55,
+    45
+   ],
+   "duration": 278
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g02/04_explain_a.mp3",
+   "audioB": "audio/g02/04_explain_b.mp3",
+   "winAudio": "audio/g02/04_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 144,
+   "winAt": 326,
+   "speak": 384,
+   "hold": 30,
+   "best": "b",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "a": {
+    "label": "10 € / Woche Lotto",
+    "img": null,
+    "emoji": "🎰",
+    "fact": "Jackpot-Chance: 1 zu 140 Millionen"
+   },
+   "b": {
+    "label": "10 € / Woche ETF",
+    "img": null,
+    "emoji": "📈",
+    "fact": "40 Jahre bei 7 % → ca. 114.000 €"
+   },
+   "duration": 414
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g02/05_outro.mp3",
+   "speak": 164,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an jemanden, der jeden Monat pleite ist",
+   "duration": 209
+  }
+ ]
+}

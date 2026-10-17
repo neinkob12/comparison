@@ -1,0 +1,124 @@
+{
+ "id": "g02",
+ "channel": "G",
+ "handle": null,
+ "format": "quiz",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "claim": {
+  "title": "80%",
+  "sub": "ANTWORTEN FALSCH",
+  "say": "80 Prozent antworten hier falsch. Du auch?"
+ },
+ "questions": [
+  {
+   "say": "Neuwagen für 30.000 Euro, oder Gebrauchtwagen für 15.000 und den Rest anlegen?",
+   "a": {
+    "label": "Neuwagen 30.000 €",
+    "emoji": "🚗"
+   },
+   "b": {
+    "label": "Gebraucht + 15.000 € anlegen",
+    "emoji": "🚙"
+   },
+   "pct": [
+    58,
+    42
+   ],
+   "explain": {
+    "a": {
+     "fact": "Verliert in 3 Jahren oft ~40 % Wert = ca. 12.000 €",
+     "say": "Ein Neuwagen verliert in den ersten drei Jahren oft rund 40 Prozent an Wert. Das sind 12.000 Euro."
+    },
+    "b": {
+     "fact": "15.000 € bei 7 % → ca. 29.500 € nach 10 Jahren",
+     "say": "Die 15.000 Euro können bei 7 Prozent in zehn Jahren auf rund 29.500 Euro wachsen."
+    },
+    "best": "b",
+    "winSay": "Gebraucht kaufen und anlegen gewinnt."
+   }
+  },
+  {
+   "say": "Ein Auto für 299 Euro im Monat leasen, oder ein Auto für 10.000 Euro bar kaufen?",
+   "a": {
+    "label": "Leasing 299 € / Monat",
+    "emoji": "📝"
+   },
+   "b": {
+    "label": "10.000 € bar",
+    "emoji": "💵"
+   },
+   "pct": [
+    63,
+    37
+   ],
+   "explain": {
+    "a": {
+     "fact": "3 Jahre: 10.764 € gezahlt. Auto gehört dir nicht.",
+     "say": "Beim Leasing zahlst du in drei Jahren über 10.700 Euro. Und danach gehört dir das Auto nicht."
+    },
+    "b": {
+     "fact": "Auto gehört dir und ist nach 3 Jahren noch was wert",
+     "say": "Bar gekauft gehört dir das Auto. Und nach drei Jahren kannst du es noch verkaufen."
+    },
+    "best": "b",
+    "winSay": "Bar kaufen gewinnt. Wenn du das Geld hast."
+   }
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Kaffee, oder nie wieder Spotify?",
+   "a": {
+    "label": "Nie wieder Kaffee",
+    "emoji": "☕"
+   },
+   "b": {
+    "label": "Nie wieder Spotify",
+    "emoji": "🎧"
+   },
+   "pct": [
+    61,
+    39
+   ]
+  },
+  {
+   "say": "Jede Woche 10 Euro Lotto spielen, oder jede Woche 10 Euro in einen ETF?",
+   "a": {
+    "label": "10 € / Woche Lotto",
+    "emoji": "🎰"
+   },
+   "b": {
+    "label": "10 € / Woche ETF",
+    "emoji": "📈"
+   },
+   "pct": [
+    55,
+    45
+   ],
+   "explain": {
+    "a": {
+     "fact": "Jackpot-Chance: 1 zu 140 Millionen",
+     "say": "Die Chance auf den Lotto-Jackpot liegt bei etwa eins zu 140 Millionen."
+    },
+    "b": {
+     "fact": "40 Jahre bei 7 % → ca. 114.000 €",
+     "say": "Im ETF werden aus 10 Euro pro Woche in 40 Jahren bei 7 Prozent rund 114.000 Euro."
+    },
+    "best": "b",
+    "winSay": "Der ETF gewinnt. Fast immer."
+   }
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an jemanden, der jeden Monat pleite ist",
+  "shareSay": "Und schick das an jemanden, der jeden Monat pleite ist!"
+ }
+}
