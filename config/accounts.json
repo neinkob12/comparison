@@ -1,0 +1,20 @@
+{
+  "akhmachtkrach19": {
+    "kanal": "A",
+    "betreut_von": "Jakob",
+    "plan": "docs/posting_plan.csv",
+    "sound": "Solitude",
+    "music_db": -12,
+    "fade_in": 2.5,
+    "cover_at": 5
+  },
+  "finanzen_einfach": {
+    "kanal": "Finanzen",
+    "betreut_von": "Jakob",
+    "plan": "docs/plan_finanzen_einfach.csv",
+    "sound": "",
+    "music_db": -12,
+    "fade_in": 2.5,
+    "cover_at": 5
+  }
+}
