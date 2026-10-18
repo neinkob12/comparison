@@ -1,6 +1,6 @@
 # Setup für das Team
 
-Alles, was du brauchst, um Videos zu erzeugen und auf TikTok einzuplanen. Mac, einmalig ca. 20 Minuten.
+Alles, was du brauchst, um Videos zu erzeugen und auf TikTok einzuplanen. Mac, einmalig ca. 20 Minuten. **Windows: [SETUP_WINDOWS.md](SETUP_WINDOWS.md)**
 
 ## 1. Zugang
 
@@ -25,6 +25,8 @@ Terminal schließen und neu öffnen.
 ## 3. Repo holen
 
 ```
+git config --global user.name "Dein Name"
+git config --global user.email "deine@mail.de"
 gh auth login
 cd ~
 gh repo clone neinkob12/comparison

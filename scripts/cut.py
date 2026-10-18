@@ -24,7 +24,7 @@ def pair_key(q):
 def all_pair_counts():
     c = Counter()
     for f in (ROOT / "content" / "videos").glob("a*.json"):
-        v = json.loads(f.read_text())
+        v = json.loads(f.read_text(encoding="utf-8"))
         for q in [v["hook"]] + v["questions"]:
             if q.get("type") != "mid" and pair_key(q):
                 c[pair_key(q)] += 1
@@ -38,8 +38,8 @@ def protected(q):
 
 
 def plan(vid, counts):
-    v = json.loads((ROOT / "content" / "videos" / f"{vid}.json").read_text())
-    tl = json.loads((ROOT / "video" / "public" / "timelines" / f"{vid}.json").read_text())
+    v = json.loads((ROOT / "content" / "videos" / f"{vid}.json").read_text(encoding="utf-8"))
+    tl = json.loads((ROOT / "video" / "public" / "timelines" / f"{vid}.json").read_text(encoding="utf-8"))
     segs = tl["segments"]
     fps = tl["fps"]
     # Segment 0 = Hook, 1..8 = Fragen (inkl. Zwischenfrage), 9 = Outro
@@ -98,8 +98,8 @@ def cut(vid, counts):
 if __name__ == "__main__":
     counts = all_pair_counts()
     path = ROOT / "content" / "cuts.json"
-    cuts = json.loads(path.read_text()) if path.exists() else {}
+    cuts = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
     for vid in sys.argv[1:]:
         cuts[vid] = cut(vid, counts)
         print(vid, cuts[vid])
-    path.write_text(json.dumps(dict(sorted(cuts.items())), indent=1))
+    path.write_text(json.dumps(dict(sorted(cuts.items())), indent=1), encoding="utf-8")

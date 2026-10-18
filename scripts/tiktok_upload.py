@@ -27,6 +27,7 @@ TK_cookies_<konto>.json (wie ein Passwort behandeln, ist in .gitignore, nie teil
 import csv, datetime as dt, json, re, subprocess, sys, time
 from pathlib import Path
 
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # Windows-Konsole: Emojis/Umlaute in Ausgaben
 ROOT = Path(__file__).resolve().parent.parent
 ACCOUNTS = ROOT / "config" / "accounts.json"
 LOG = ROOT / "docs" / "upload_log.csv"

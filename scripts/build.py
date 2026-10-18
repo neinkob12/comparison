@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 # Keys aus .env (nicht im Repo, siehe docs/SETUP.md), falls nicht schon in der Umgebung gesetzt
 if (ROOT / ".env").exists():
-    for line in (ROOT / ".env").read_text().splitlines():
+    for line in (ROOT / ".env").read_text(encoding="utf-8").splitlines():
         if "=" in line and not line.lstrip().startswith("#"):
             k, v = line.split("=", 1)
             os.environ.setdefault(k.strip(), v.strip().strip('"'))
@@ -20,7 +20,7 @@ GAP = 90          # Frames 3-2-1-Timer nach der Frage
 REVEAL = 45       # Frames, in denen die Prozente stehen
 TAIL = 15         # Frames Luft am Ende von Intro/Outro
 
-pron = json.loads((ROOT / "config" / "aussprache.json").read_text())
+pron = json.loads((ROOT / "config" / "aussprache.json").read_text(encoding="utf-8"))
 speeds = pron.pop("_speed", {})
 pron = {k: v for k, v in pron.items() if not k.startswith("_")}
 keys = sorted(pron, key=len, reverse=True)
@@ -88,7 +88,7 @@ def copy_img(rel):
 
 
 def build(vid):
-    v = json.loads((ROOT / "content" / "videos" / f"{vid}.json").read_text())
+    v = json.loads((ROOT / "content" / "videos" / f"{vid}.json").read_text(encoding="utf-8"))
     adir = PUB / "audio" / vid
     adir.mkdir(parents=True, exist_ok=True)
     segs = []
@@ -144,7 +144,7 @@ def build(vid):
     tl = {"id": vid, "channel": v["channel"], "handle": v.get("handle"), "fps": FPS,
           "durationInFrames": total, "segments": segs}
     (PUB / "timelines").mkdir(parents=True, exist_ok=True)
-    (PUB / "timelines" / f"{vid}.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1))
+    (PUB / "timelines" / f"{vid}.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{vid}: {total / FPS:.1f} s, {len(segs)} Abschnitte")
 
 

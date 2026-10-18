@@ -268,14 +268,14 @@ if __name__ == "__main__":
     st = State()
     for f in sorted(OUT.glob("a*.json")):
         if int(f.stem[1:]) < a:
-            st.add_existing(json.loads(f.read_text()))
+            st.add_existing(json.loads(f.read_text(encoding="utf-8")))
     made = 0
     for n in range(a, b + 1):
         v = make(n, st)
         if not v:
             print(f"a{n:02d}: keine Kombination mehr moeglich, stoppe")
             break
-        (OUT / f"{v['id']}.json").write_text(json.dumps(v, ensure_ascii=False, indent=1))
+        (OUT / f"{v['id']}.json").write_text(json.dumps(v, ensure_ascii=False, indent=1), encoding="utf-8")
         made += 1
     for f in OUT.glob("a*.json"):
         if int(f.stem[1:]) >= a + made:
