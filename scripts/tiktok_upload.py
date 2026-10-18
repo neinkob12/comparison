@@ -24,7 +24,7 @@ Optionen:
 Beim ersten Start oeffnet sich ein Login-Fenster. Danach liegt die Sitzung in TK_cookies_<konto>.json
 (wie ein Passwort behandeln, ist in .gitignore).
 """
-import csv, datetime as dt, re, sys, time
+import csv, datetime as dt, re, subprocess, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -32,6 +32,10 @@ PLAN = ROOT / "docs" / "posting_plan.csv"
 ACCOUNT = "finanzen_einfach"  # nur Name der gespeicherten Sitzung, gepostet wird auf das Konto, mit dem du dich einloggst
 SOUND = "Solitude"  # Stichwort reicht: haziq nimmt den ersten Favoriten, der alle Woerter enthaelt
 TIMES = ["12:30", "16:00", "18:30", "21:00"]
+MUSIC_DB = "-12"     # Lautstaerke des TikTok-Sounds
+FADE_IN = "2.5"      # Sekunden
+COVER_AT = "5"       # Sekunde, aus der das Cover geschnitten wird, falls kein out/cover/<id>.jpg existiert
+CURRENT = {}
 AI_TEXT = re.compile(r"AI[- ]generated content|KI-generierte", re.I)
 
 
@@ -115,9 +119,76 @@ def dump(page, name):
     print(f"Gespeichert: out/debug/{name}.png und {name}.html")
 
 
+def fill_after(page, label, value):
+    """Tippt value in das erste Textfeld (kein Slider) nach der Beschriftung label, prueft danach den Wert."""
+    lab = page.get_by_text(label, exact=True).first
+    if not lab.count() or not lab.is_visible():
+        return False
+    inp = lab.locator('xpath=following::input[not(@type="range")][1]')
+    inp.click()
+    inp.fill(value)
+    inp.press("Enter")
+    time.sleep(0.5)
+    try:
+        return float(inp.input_value().replace(",", ".")) == float(value)
+    except ValueError:
+        return False
+
+
+def set_audio(page, sound):
+    """Im Sound-Editor: Lautstaerke und Fade-in des eingefuegten Sounds setzen."""
+    time.sleep(2)
+    if not page.get_by_text("Fade-in duration", exact=True).first.is_visible():
+        clip = page.get_by_text(re.compile(re.escape(sound), re.I)).last
+        if clip.count():
+            clip.click()
+            time.sleep(1)
+    ok = fill_after(page, "Volume", MUSIC_DB) and fill_after(page, "Fade-in duration", FADE_IN)
+    if ok:
+        print(f"Sound: {MUSIC_DB} dB, Fade-in {FADE_IN} s")
+    else:
+        input(f">>> Setze im Browser Volume auf {MUSIC_DB} dB und Fade-in auf {FADE_IN} s, dann hier Enter ... ")
+
+
+def make_cover(vid, video):
+    for ext in ("jpg", "png"):
+        c = ROOT / "out" / "cover" / f"{vid}.{ext}"
+        if c.exists():
+            return c
+    c.parent.mkdir(parents=True, exist_ok=True)
+    c = c.with_suffix(".jpg")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", COVER_AT, "-i", str(video),
+                    "-frames:v", "1", "-q:v", "2", str(c)], check=True)
+    return c
+
+
+def set_cover(page, img):
+    try:
+        page.get_by_text("Edit cover", exact=True).first.click()
+        page.get_by_text("Upload cover", exact=True).first.wait_for(timeout=15000)
+        time.sleep(1)
+        with page.expect_file_chooser() as fc:
+            page.get_by_text("Upload cover", exact=True).first.click()
+        fc.value.set_files(str(img))
+        time.sleep(4)
+        page.get_by_role("button", name="Save", exact=True).last.click()
+        time.sleep(3)
+        print(f"Cover hochgeladen: {img.name}")
+    except Exception as e:
+        print(f"Cover automatisch nicht moeglich ({type(e).__name__}).")
+        input(f">>> Lade im Browser das Cover {img} hoch und speichere, dann hier Enter ... ")
+
+
 def install_hooks(f, manual_ai, draft, inspect=False):
     """Klinkt sich direkt vor dem Absenden in haziq ein: KI-Haken setzen, dann posten/planen oder Entwurf."""
     submit = f._submit_upload
+    pick = f._pick_sound
+
+    def picked(page, sound_name, *args, **kwargs):
+        pick(page, sound_name, *args, **kwargs)
+        set_audio(page, sound_name)
+
+    f._pick_sound = picked
 
     def hooked(page, *args, **kwargs):
         if inspect:
@@ -127,6 +198,8 @@ def install_hooks(f, manual_ai, draft, inspect=False):
             dump(page, "cover")
             print("Fertig, nichts wurde gepostet. Schick mir die Dateien aus out/debug/")
             return "Error"
+        if CURRENT.get("cover"):
+            set_cover(page, CURRENT["cover"])
         ok = False if manual_ai else set_ai_label(page)
         if not ok:
             if not manual_ai:
@@ -148,6 +221,7 @@ def upload(r, sound, headless, schedule):
     video = ROOT / "out" / "cut" / r["datei"]
     if not video.exists():
         sys.exit(f"{video} fehlt, erst rendern")
+    CURRENT["cover"] = make_cover(vid, video)
     text, tags = split_caption(r["caption"])
     kw = dict(hashtags=tags, headless=headless, stealth=True)
     if sound:
