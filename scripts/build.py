@@ -7,6 +7,12 @@ import json, os, re, shutil, subprocess, sys, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+# Keys aus .env (nicht im Repo, siehe docs/SETUP.md), falls nicht schon in der Umgebung gesetzt
+if (ROOT / ".env").exists():
+    for line in (ROOT / ".env").read_text().splitlines():
+        if "=" in line and not line.lstrip().startswith("#"):
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip().strip('"'))
 PUB = ROOT / "video" / "public"
 FPS = 30
 VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam

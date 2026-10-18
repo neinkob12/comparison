@@ -1,37 +1,40 @@
-"""TikTok-Upload kostenlos ueber den Browser (haziq-exe/TikTokAutoUploader), mit KI-Kennzeichnung.
+"""TikTok-Upload kostenlos ueber den Browser (haziq-exe/TikTokAutoUploader), fuer mehrere Konten.
 
-Laeuft auf deinem eigenen Rechner (Heim-Internet), NICHT in der Cloud.
+Laeuft auf deinem eigenen Rechner (Heim-Internet), NICHT in der Cloud. Einrichtung: docs/SETUP.md
 
-Einmalig installieren:
-  pip install tiktokautouploader
-  phantomwright_driver install chromium
-  (Node.js muss installiert sein)
+Konten stehen in config/accounts.json (Plan-Datei, Sound, Lautstaerke, Fade-in, Cover-Sekunde).
+Jeder erfolgreiche Upload landet in docs/upload_log.csv und wird automatisch nach GitHub gepusht,
+damit alle sehen, was schon eingeplant ist. Schon eingeplante Videos werden uebersprungen.
 
-Benutzung (aus dem Repo-Ordner):
-  python3 scripts/tiktok_upload.py shift a17 2026-10-19       # Plan ab a17 neu datieren, 4 pro Tag ab diesem Datum
-  python3 scripts/tiktok_upload.py test a17                   # 1 Video als Entwurf, Browser sichtbar
-  python3 scripts/tiktok_upload.py plan a17 a24               # einplanen laut docs/posting_plan.csv
-  python3 scripts/tiktok_upload.py plan a17 a24 --draft       # nur als Entwurf speichern
-  python3 scripts/tiktok_upload.py inspect a17                # postet nichts, speichert Sound-/Cover-Ansicht nach out/debug/
+Benutzung (aus dem Repo-Ordner, KONTO = Name aus config/accounts.json):
+  python scripts/tiktok_upload.py status                       # Ueberblick aller Konten
+  python scripts/tiktok_upload.py test a17 --account KONTO     # 1 Video als Entwurf
+  python scripts/tiktok_upload.py plan a17 a50 --account KONTO # einplanen laut Plan (max. 10 Tage voraus)
+  python scripts/tiktok_upload.py mark a01 a16 --account KONTO # von Hand gepostete Videos als erledigt eintragen
+  python scripts/tiktok_upload.py shift a17 2026-10-19 --account KONTO   # Plan ab a17 neu datieren, 4 pro Tag
+  python scripts/tiktok_upload.py inspect a17 --account KONTO  # postet nichts, speichert Sound-/Cover-Ansicht nach out/debug/
 
 Optionen:
   --at "JJJJ-MM-TT HH:MM"  andere Uhrzeit als im Plan (Minuten in 5er-Schritten), z.B. fuer Tests
-  --account NAME   gespeicherte Sitzung waehlen (Standard: ACCOUNT unten), pro Konto eigener Login
-  --sound NAME     Name des Sounds in deinen TikTok-Favoriten (Standard: SOUND unten)
+  --draft          nur als Entwurf speichern
+  --force          auch Videos hochladen, die laut Log schon eingeplant sind
   --manual-ai      vor jedem Absenden anhalten, du setzt den KI-Haken selbst und drueckst Enter
   --headless       Browser unsichtbar (erst nutzen, wenn die Tests sauber laufen)
 
-Beim ersten Start oeffnet sich ein Login-Fenster. Danach liegt die Sitzung in TK_cookies_<konto>.json
-(wie ein Passwort behandeln, ist in .gitignore).
+Beim ersten Start pro Konto oeffnet sich ein Login-Fenster (siehe docs/SETUP.md). Die Sitzung liegt dann in
+TK_cookies_<konto>.json (wie ein Passwort behandeln, ist in .gitignore, nie teilen).
 """
-import csv, datetime as dt, re, subprocess, sys, time
+import csv, datetime as dt, json, re, subprocess, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PLAN = ROOT / "docs" / "posting_plan.csv"
-ACCOUNT = "finanzen_einfach"  # nur Name der gespeicherten Sitzung, gepostet wird auf das Konto, mit dem du dich einloggst
-SOUND = "Solitude"  # Stichwort reicht: haziq nimmt den ersten Favoriten, der alle Woerter enthaelt
+ACCOUNTS = ROOT / "config" / "accounts.json"
+LOG = ROOT / "docs" / "upload_log.csv"
+DONE = ("geplant", "manuell")  # Modi, die als erledigt zaehlen
+LOG_FIELDS = ["zeit", "konto", "video", "geplant_fuer", "modus", "von"]
 TIMES = ["12:30", "16:00", "18:30", "21:00"]
+# Standardwerte, pro Konto in config/accounts.json ueberschreibbar
+ACCOUNT, PLAN, SOUND = None, None, ""
 MUSIC_DB = "-12"     # Lautstaerke des TikTok-Sounds
 FADE_IN = "2.5"      # Sekunden
 COVER_AT = "5"       # Sekunde, aus der das Cover geschnitten wird, falls kein out/cover/<id>.jpg existiert
@@ -39,12 +42,17 @@ CURRENT = {}
 AI_TEXT = re.compile(r"AI[- ]generated content|KI-generierte", re.I)
 
 
-def rows():
-    return list(csv.DictReader(open(PLAN, encoding="utf-8")))
+def accounts():
+    return json.loads(ACCOUNTS.read_text(encoding="utf-8"))
+
+
+def rows(plan=None):
+    p = ROOT / (plan or PLAN)
+    return list(csv.DictReader(open(p, encoding="utf-8"))) if p.exists() else []
 
 
 def num(vid):
-    return int(vid.lstrip("a"))
+    return int(re.sub(r"\D", "", vid))
 
 
 def shift(start_vid, start_date):
@@ -54,11 +62,67 @@ def shift(start_vid, start_date):
             r["datum"], r["uhrzeit"] = day.isoformat(), TIMES[slot]
             slot = (slot + 1) % len(TIMES)
             day += dt.timedelta(days=slot == 0)
-    with open(PLAN, "w", newline="", encoding="utf-8") as f:
+    with open(ROOT / PLAN, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=rs[0].keys())
         w.writeheader()
         w.writerows(rs)
     print(f"Plan ab {start_vid} startet jetzt am {start_date}, letztes Video: {rs[-1]['datum']} {rs[-1]['uhrzeit']}")
+
+
+def log_rows():
+    return list(csv.DictReader(open(LOG, encoding="utf-8"))) if LOG.exists() else []
+
+
+def already_scheduled(vid):
+    return any(l["konto"] == ACCOUNT and l["video"] == vid and l["modus"] in DONE for l in log_rows())
+
+
+def write_log(vid, when, mode):
+    new = not LOG.exists()
+    who = subprocess.run(["git", "config", "user.name"], capture_output=True, text=True, cwd=ROOT).stdout.strip()
+    with open(LOG, "a", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=LOG_FIELDS)
+        if new:
+            w.writeheader()
+        w.writerow({"zeit": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "konto": ACCOUNT, "video": vid,
+                    "geplant_fuer": when, "modus": mode, "von": who or "?"})
+
+
+def push_log(summary):
+    """Log nach GitHub, damit alle den Stand sehen. Scheitert das, bleibt es lokal und wird beim naechsten Mal mitgenommen."""
+    def git(*a):
+        return subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True)
+    git("add", str(LOG.relative_to(ROOT)))
+    if git("diff", "--cached", "--quiet").returncode == 0:
+        return
+    git("commit", "-m", f"Upload-Log: {summary}", "--", str(LOG.relative_to(ROOT)))
+    pull = git("pull", "--rebase", "--autostash")
+    push = git("push")
+    if pull.returncode or push.returncode:
+        print("Log nur lokal gespeichert (git pull/push ging nicht). Spaeter: git pull --rebase && git push")
+    else:
+        print("Log nach GitHub gepusht.")
+
+
+def status():
+    log = log_rows()
+    now = dt.datetime.now()
+    for name, cfg in accounts().items():
+        mine = [l for l in log if l["konto"] == name and l["modus"] in DONE]
+        done = {l["video"] for l in mine}
+        future = sorted(l["geplant_fuer"] for l in mine if l["geplant_fuer"] >= now.strftime("%Y-%m-%d %H:%M"))
+        plan = rows(cfg.get("plan"))
+        todo = [r["datei"][:-4] for r in plan if r["datei"][:-4] not in done]
+        print(f"\n{name}  (betreut von {cfg.get('betreut_von', '?')})")
+        if not plan:
+            print(f"  kein Plan ({cfg.get('plan')})")
+            continue
+        if future:
+            days = (dt.datetime.fromisoformat(future[-1]) - now).days
+            print(f"  eingeplant: {len(future)} Videos, letztes {future[-1]} (noch ~{days} Tage abgedeckt)")
+        else:
+            print("  nichts eingeplant!")
+        print(f"  noch offen im Plan: {len(todo)}" + (f", naechstes: {todo[0]}" if todo else ""))
 
 
 def split_caption(caption):
@@ -187,9 +251,31 @@ def set_cover(page, img):
         input(f">>> Lade im Browser das Cover {img} hoch und speichere, dann hier Enter ... ")
 
 
+def type_tag(page, tag):
+    """Hashtag tippen; Umlaute direkt einfuegen, weil Tastatur-Tippen sie verschluckt (#würdestdueher)."""
+    for ch in tag:
+        if ch.isascii():
+            page.keyboard.type(ch)
+        else:
+            page.keyboard.insert_text(ch)
+    time.sleep(0.8)
+    try:
+        page.click(f'span.hash-tag-topic:has-text("{tag}")', timeout=1500)
+    except Exception:
+        page.keyboard.type(" ")
+
+
 def install_hooks(f, manual_ai, draft, inspect=False):
-    """Klinkt sich direkt vor dem Absenden in haziq ein: KI-Haken setzen, dann posten/planen oder Entwurf."""
+    """Klinkt sich in haziq ein: Hashtags mit Umlauten, Sound-Einstellungen, Cover, KI-Haken, dann posten/planen oder Entwurf."""
     submit = f._submit_upload
+    describe = f._add_description_and_hashtags
+
+    def described(page, sim, video, description, hashtags, stealth, suppressprint):
+        describe(page, sim, video, description, None, stealth, suppressprint)
+        for tag in hashtags or []:
+            type_tag(page, tag if tag.startswith("#") else "#" + tag)
+
+    f._add_description_and_hashtags = described
     pick = f._pick_sound
 
     def picked(page, sound_name, *args, **kwargs):
@@ -242,34 +328,71 @@ def upload(r, sound, headless, schedule):
         if when.month != now.month:
             sys.exit(f"{vid}: {when:%d.%m.} ist im naechsten Monat, das kann der Kalender des Tools nicht, ab dem 1. einplanen")
         kw.update(schedule=r["uhrzeit"], day=when.day)
-    print(f"--- {vid}: {r['datum']} {r['uhrzeit']} | {text[:50]}")
-    upload_tiktok(str(video), text, ACCOUNT, **kw)
+    print(f"--- {ACCOUNT} {vid}: {r['datum']} {r['uhrzeit']} | {text[:50]}")
+    return upload_tiktok(str(video), text, ACCOUNT, **kw)
 
 
 if __name__ == "__main__":
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
     opts = sys.argv[1:]
-    sound = opts[opts.index("--sound") + 1] if "--sound" in opts else SOUND
-    if "--sound" in opts:
-        args.remove(sound)
-    at = opts[opts.index("--at") + 1] if "--at" in opts else None
-    if at:
-        args.remove(at)
-    if "--account" in opts:
-        ACCOUNT = opts[opts.index("--account") + 1]
-        args.remove(ACCOUNT)
-    cmd = args[0]
+    args, i = [], 0
+    while i < len(opts):
+        if opts[i] in ("--at", "--account", "--sound"):
+            i += 2
+            continue
+        if not opts[i].startswith("--"):
+            args.append(opts[i])
+        i += 1
+    val = lambda o: opts[opts.index(o) + 1] if o in opts else None
+    cmd = args[0] if args else "status"
+    if cmd == "status":
+        status()
+        sys.exit()
+
+    accs = accounts()
+    ACCOUNT = val("--account") or (next(iter(accs)) if len(accs) == 1 else None)
+    if ACCOUNT not in accs:
+        sys.exit(f"Bitte --account angeben, eins von: {', '.join(accs)} (neue Konten in config/accounts.json eintragen)")
+    cfg = accs[ACCOUNT]
+    PLAN = cfg["plan"]
+    SOUND = val("--sound") or cfg.get("sound", "")
+    MUSIC_DB, FADE_IN, COVER_AT = (str(cfg.get(k, d)) for k, d in
+                                   (("music_db", MUSIC_DB), ("fade_in", FADE_IN), ("cover_at", COVER_AT)))
     if cmd == "shift":
         shift(args[1], args[2])
+        sys.exit()
+    if cmd == "mark":  # von Hand gepostete Videos als erledigt eintragen
+        marked = [r["datei"][:-4] for r in rows() if num(args[1]) <= num(r["datei"][:-4]) <= num(args[-1])]
+        for r in rows():
+            if r["datei"][:-4] in marked:
+                write_log(r["datei"][:-4], f"{r['datum']} {r['uhrzeit']}", "manuell")
+        push_log(f"{ACCOUNT} {marked[0]}-{marked[-1]} manuell")
         sys.exit()
 
     import tiktokautouploader.function as f
     draft = cmd in ("test", "inspect") or "--draft" in opts
     install_hooks(f, "--manual-ai" in opts, draft, inspect=cmd == "inspect")
     first, last = args[1], args[2] if len(args) > 2 else args[1]
+    at, done, failed = val("--at"), [], []
     for r in rows():
-        if num(first) <= num(r["datei"][:-4]) <= num(last):
-            if at:
-                r["datum"], r["uhrzeit"] = at.split()
-            upload(r, sound, "--headless" in opts, schedule=not draft)
-            time.sleep(20)
+        vid = r["datei"][:-4]
+        if not num(first) <= num(vid) <= num(last):
+            continue
+        if at:
+            r["datum"], r["uhrzeit"] = at.split()
+        if not draft and already_scheduled(vid) and "--force" not in opts:
+            print(f"{vid} ist laut Log schon eingeplant, uebersprungen (--force zum Erzwingen)")
+            continue
+        try:
+            ok = upload(r, SOUND, "--headless" in opts, schedule=not draft) == "Completed"
+        except Exception as e:
+            print(f"FEHLER bei {vid}: {e}")
+            ok = False
+        if ok and cmd != "inspect":
+            write_log(vid, f"{r['datum']} {r['uhrzeit']}", "entwurf" if draft else "geplant")
+            done.append(vid)
+        elif not ok and cmd != "inspect":
+            failed.append(vid)
+        time.sleep(20)
+    print(f"\nFertig: {len(done)} ok" + (f", fehlgeschlagen: {', '.join(failed)}" if failed else ""))
+    if done:
+        push_log(f"{ACCOUNT} {done[0]}-{done[-1]}")
