@@ -1,0 +1,193 @@
+{
+ "id": "g07",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 1902,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g07/00_claim_stutter.mp3",
+   "speak": 80,
+   "voiceAt": 6,
+   "title": "NUR 9%",
+   "sub": "RECHNEN RICHTIG",
+   "hold": 18,
+   "glitch": 32,
+   "glitchMode": "stutter",
+   "duration": 98
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g07/01_q_a.mp3",
+   "audioB": "audio/g07/01_q_b.mp3",
+   "bAt": 93,
+   "speak": 150,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "2 × 20 % Rabatt",
+    "img": null,
+    "emoji": "🏷️"
+   },
+   "b": {
+    "label": "40 % Rabatt",
+    "img": null,
+    "emoji": "💥"
+   },
+   "pct": [
+    64,
+    36
+   ],
+   "duration": 285
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g07/01_explain_a.mp3",
+   "audioB": "audio/g07/01_explain_b.mp3",
+   "winAudio": "audio/g07/01_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 91,
+   "winAt": 161,
+   "speak": 204,
+   "hold": 30,
+   "best": "b",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "stamps": [
+    "BESSER",
+    "SCHLECHTER"
+   ],
+   "a": {
+    "label": "2 × 20 % Rabatt",
+    "img": null,
+    "emoji": "🏷️",
+    "fact": "100 € → 80 € → 64 €\n= nur 36 % gespart"
+   },
+   "b": {
+    "label": "40 % Rabatt",
+    "img": null,
+    "emoji": "💥",
+    "fact": "100 € → 60 €\n= 40 % gespart"
+   },
+   "duration": 234
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g07/02_q_a.mp3",
+   "audioB": "audio/g07/02_q_b.mp3",
+   "bAt": 133,
+   "speak": 159,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Plus minus null",
+    "img": null,
+    "emoji": "⚖️"
+   },
+   "b": {
+    "label": "Verlust",
+    "img": null,
+    "emoji": "📉"
+   },
+   "pct": [
+    71,
+    29
+   ],
+   "duration": 294
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g07/02_explain_a.mp3",
+   "audioB": "audio/g07/02_explain_b.mp3",
+   "winAudio": "audio/g07/02_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 64,
+   "winAt": 225,
+   "speak": 298,
+   "hold": 30,
+   "best": "b",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "stamps": [
+    "BESSER",
+    "SCHLECHTER"
+   ],
+   "a": {
+    "label": "Plus minus null",
+    "img": null,
+    "emoji": "⚖️",
+    "fact": "Klingt logisch, ist aber falsch"
+   },
+   "b": {
+    "label": "Verlust",
+    "img": null,
+    "emoji": "📉",
+    "fact": "100 € → 150 € → 75 €\n= 25 % Verlust"
+   },
+   "duration": 328
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g07/03_q_a.mp3",
+   "audioB": "audio/g07/03_q_b.mp3",
+   "bAt": 31,
+   "speak": 88,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "3 für 2",
+    "img": null,
+    "emoji": "🛒"
+   },
+   "b": {
+    "label": "30 % Rabatt",
+    "img": null,
+    "emoji": "🏷️"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "duration": 223
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g07/03_explain_a.mp3",
+   "audioB": "audio/g07/03_explain_b.mp3",
+   "winAudio": "audio/g07/03_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 80,
+   "winAt": 143,
+   "speak": 216,
+   "hold": 30,
+   "best": "a",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "stamps": [
+    "BESSER",
+    "SCHLECHTER"
+   ],
+   "a": {
+    "label": "3 für 2",
+    "img": null,
+    "emoji": "🛒",
+    "fact": "Du zahlst 2 von 3\n= 33 % gespart"
+   },
+   "b": {
+    "label": "30 % Rabatt",
+    "img": null,
+    "emoji": "🏷️",
+    "fact": "Nur 30 % gespart"
+   },
+   "duration": 246
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g07/04_outro.mp3",
+   "speak": 149,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an jemanden, der jeden Monat pleite ist",
+   "duration": 194
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+ "id": "g07",
+ "channel": "G",
+ "handle": null,
+ "format": "quiz",
+ "claim": {
+  "title": "NUR 9%",
+  "sub": "RECHNEN RICHTIG",
+  "say": "Nur 9 Prozent rechnen hier richtig!",
+  "glitch": "stutter"
+ },
+ "questions": [
+  {
+   "say": "Erst 20 Prozent Rabatt und dann nochmal 20 Prozent, oder direkt 40 Prozent Rabatt?",
+   "a": {
+    "label": "2 × 20 % Rabatt",
+    "emoji": "🏷️"
+   },
+   "b": {
+    "label": "40 % Rabatt",
+    "emoji": "💥"
+   },
+   "pct": [
+    64,
+    36
+   ],
+   "explain": {
+    "a": {
+     "fact": "100 € → 80 € → 64 €\n= nur 36 % gespart",
+     "say": "Zweimal 20 Prozent sind nur 36 Prozent."
+    },
+    "b": {
+     "fact": "100 € → 60 €\n= 40 % gespart",
+     "say": "Direkt 40 Prozent sind 40 Prozent."
+    },
+    "best": "b",
+    "winSay": "Die 40 Prozent gewinnen."
+   }
+  },
+  {
+   "say": "Deine Aktie steigt um 50 Prozent und fällt dann um 50 Prozent. Plus minus null, oder Verlust?",
+   "a": {
+    "label": "Plus minus null",
+    "emoji": "⚖️"
+   },
+   "b": {
+    "label": "Verlust",
+    "emoji": "📉"
+   },
+   "pct": [
+    71,
+    29
+   ],
+   "explain": {
+    "a": {
+     "fact": "Klingt logisch, ist aber falsch",
+     "say": "Klingt logisch. Ist aber falsch."
+    },
+    "b": {
+     "fact": "100 € → 150 € → 75 €\n= 25 % Verlust",
+     "say": "Aus 100 werden 150. Dann nur noch 75. Also 25 Prozent Verlust."
+    },
+    "best": "b",
+    "winSay": "Verlust. Prozente rechnen immer vom neuen Wert."
+   }
+  },
+  {
+   "say": "Drei für zwei, oder 30 Prozent Rabatt auf alles?",
+   "a": {
+    "label": "3 für 2",
+    "emoji": "🛒"
+   },
+   "b": {
+    "label": "30 % Rabatt",
+    "emoji": "🏷️"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "explain": {
+    "a": {
+     "fact": "Du zahlst 2 von 3\n= 33 % gespart",
+     "say": "Drei für zwei sind 33 Prozent Rabatt."
+    },
+    "b": {
+     "fact": "Nur 30 % gespart",
+     "say": "30 Prozent bleiben 30 Prozent."
+    },
+    "best": "a",
+    "winSay": "Drei für zwei gewinnt. Wenn du alle drei brauchst."
+   }
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an jemanden, der jeden Monat pleite ist",
+  "shareSay": "Und schick das an jemanden, der jeden Monat pleite ist!"
+ }
+}

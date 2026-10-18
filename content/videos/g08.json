@@ -1,0 +1,115 @@
+{
+ "id": "g08",
+ "channel": "G",
+ "handle": null,
+ "format": "myth",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "claim": {
+  "title": "95%",
+  "sub": "GLAUBEN DAS",
+  "say": "95 Prozent glauben das!",
+  "glitch": "slowmo"
+ },
+ "questions": [
+  {
+   "say": "Mit einer Gehaltserhöhung kannst du netto weniger haben. Mythos, oder Fakt?",
+   "statement": "Mit einer Gehaltserhöhung kannst du netto weniger haben.",
+   "a": {
+    "label": "MYTHOS",
+    "emoji": "🧢"
+   },
+   "b": {
+    "label": "FAKT",
+    "emoji": "✅"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "explain": {
+    "a": {
+     "fact": "Nur der zusätzliche Teil wird höher besteuert. Netto bleibt mehr.",
+     "say": "Bei der Lohnsteuer wird nur der zusätzliche Teil höher besteuert. Netto bleibt also trotzdem mehr übrig."
+    },
+    "best": "a",
+    "winSay": "Mythos!",
+    "stamps": [
+     "RICHTIG",
+     "FALSCH"
+    ],
+    "note": "Vereinfacht. Keine Steuer- oder Anlageberatung."
+   }
+  },
+  {
+   "say": "Geld auf dem Girokonto verliert bei Inflation an Wert. Mythos, oder Fakt?",
+   "statement": "Geld auf dem Girokonto verliert bei Inflation an Wert.",
+   "a": {
+    "label": "MYTHOS",
+    "emoji": "🧢"
+   },
+   "b": {
+    "label": "FAKT",
+    "emoji": "✅"
+   },
+   "pct": [
+    57,
+    43
+   ],
+   "explain": {
+    "b": {
+     "fact": "Bei 2 % Inflation sind 10.000 € nach 10 Jahren nur noch ca. 8.200 € wert.",
+     "say": "Bei 2 Prozent Inflation kaufst du mit 10.000 Euro nach zehn Jahren nur noch so viel wie heute mit 8.200."
+    },
+    "best": "b",
+    "winSay": "Fakt!",
+    "stamps": [
+     "RICHTIG",
+     "FALSCH"
+    ],
+    "note": "Vereinfacht. Keine Steuer- oder Anlageberatung."
+   }
+  },
+  {
+   "say": "Trinkgeld musst du als Angestellter versteuern. Mythos, oder Fakt?",
+   "statement": "Trinkgeld musst du als Angestellter versteuern.",
+   "a": {
+    "label": "MYTHOS",
+    "emoji": "🧢"
+   },
+   "b": {
+    "label": "FAKT",
+    "emoji": "✅"
+   },
+   "pct": [
+    39,
+    61
+   ],
+   "explain": {
+    "a": {
+     "fact": "Freiwilliges Trinkgeld von Gästen ist für Angestellte steuerfrei.",
+     "say": "Freiwilliges Trinkgeld von Gästen ist für Angestellte in Deutschland steuerfrei."
+    },
+    "best": "a",
+    "winSay": "Mythos!",
+    "stamps": [
+     "RICHTIG",
+     "FALSCH"
+    ],
+    "note": "Vereinfacht. Keine Steuer- oder Anlageberatung."
+   }
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an jemanden, der jeden Monat pleite ist",
+  "shareSay": "Und schick das an jemanden, der jeden Monat pleite ist!"
+ }
+}

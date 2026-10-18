@@ -84,12 +84,41 @@ def copy_img(rel):
     return "img/" + rel
 
 
+GLITCH_HEAD = 1.4  # Sekunden am Anfang, die verbuggt werden
+
+
+def glitch(src, out, mode):
+    """Verbuggt den Anfang einer TTS-Datei (stutter / slowmo / chipmunk / robot). Gibt Glitch-Dauer in Frames zurueck."""
+    h = GLITCH_HEAD
+    head = {
+        # erste 0,14 s sechsmal wiederholen, dann normal weiter
+        "stutter": f"[0:a]atrim=0:0.14,asetpts=N/SR/TB[c];[c]asplit=6[c1][c2][c3][c4][c5][c6];"
+                   f"[c1][c2][c3][c4][c5][c6]concat=n=6:v=0:a=1[h]",
+        # tief und langsam
+        "slowmo": f"[0:a]atrim=0:{h},asetpts=N/SR/TB,asetrate=44100*0.55,aresample=44100[h]",
+        # hoch und schnell
+        "chipmunk": f"[0:a]atrim=0:{h},asetpts=N/SR/TB,asetrate=44100*1.8,aresample=44100[h]",
+        # zerhackt + Bitcrusher
+        "robot": f"[0:a]atrim=0:0.22,asetpts=N/SR/TB,acrusher=bits=3:mode=log:aa=0.4,asplit=4[c1][c2][c3][c4];"
+                 f"[0:a]atrim=0:{h},asetpts=N/SR/TB,acrusher=bits=5:mode=log:aa=0.6,tremolo=f=18:d=0.9[r];"
+                 f"[c1][c2][c3][c4][r]concat=n=5:v=0:a=1[h]",
+    }[mode]
+    rest = "0.14" if mode == "stutter" else str(h)
+    fc = head + f";[0:a]atrim=start={'0' if mode == 'stutter' else rest},asetpts=N/SR/TB[t];[h][t]concat=n=2:v=0:a=1[o]"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(src), "-filter_complex", fc, "-map", "[o]",
+                    "-b:a", "128k", str(out)], check=True)
+    head_len = {"stutter": 0.14 * 6, "slowmo": h / 0.55, "chipmunk": h / 1.8, "robot": 0.22 * 4 + h}[mode]
+    return int(head_len * FPS) + 1
+
+
 def build(vid):
     v = json.loads((ROOT / "content" / "videos" / f"{vid}.json").read_text())
     adir = PUB / "audio" / vid
     adir.mkdir(parents=True, exist_ok=True)
     segs = []
     voice = v.get("voice")
+    pace = v.get("pace", {})
+    gap, reveal = pace.get("timer", GAP), pace.get("hold", REVEAL)
     say_ = lambda text, out: tts(text, out, voice)  # noqa: E731
 
     def add(kind, n, data, say, extra):
@@ -110,9 +139,14 @@ def build(vid):
         c = v["claim"]
         f = adir / f"{n:02d}_claim.mp3"
         say_(c["say"], f)
+        extra = {}
+        if c.get("glitch"):
+            fg = adir / f"{n:02d}_claim_{c['glitch']}.mp3"
+            extra = {"glitch": glitch(f, fg, c["glitch"]) + 6, "glitchMode": c["glitch"]}
+            f = fg
         sp = frames(f)
         segs.append({"kind": "intro", "audio": f"audio/{vid}/{f.name}", "speak": sp, "voiceAt": 6,
-                     "title": c["title"], "sub": c["sub"], "hold": 6 + 12}); n += 1
+                     "title": c["title"], "sub": c["sub"], "hold": 6 + 12, **extra}); n += 1
     qs = ([v["hook"]] if v.get("hook") else []) + v["questions"]
     num = 0
     for q in qs:
@@ -130,31 +164,40 @@ def build(vid):
             ba = frames(fa) + 2
             sp = ba + frames(fb)
             seg = {"kind": kind, "audio": f"audio/{vid}/{fa.name}", "audioB": f"audio/{vid}/{fb.name}",
-                   "bAt": ba, "speak": sp, "gap": GAP, "hold": REVEAL,
+                   "bAt": ba, "speak": sp, "gap": gap, "hold": reveal,
                    "a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}
+            if q.get("statement"):
+                seg["statement"] = q["statement"]
             if q.get("winSay"):
                 fw = adir / f"{n:02d}_{kind}_win.mp3"
                 say_(q["winSay"], fw)
                 seg["winAudio"] = f"audio/{vid}/{fw.name}"
-                seg["hold"] = max(REVEAL, 12 + frames(fw) + 8)
+                seg["hold"] = max(reveal, 12 + frames(fw) + 8)
             segs.append(seg)
             if q.get("explain"):
-                # Aufloesung: erst Fakt A, dann Fakt B, dann Urteil
+                # Aufloesung: erst Fakt A, dann Fakt B (optional), dann Urteil
                 e = q["explain"]
                 parts = {}
-                for key, text in (("a", e["a"]["say"]), ("b", e["b"]["say"]), ("win", e["winSay"])):
+                for key in ("a", "b", "win"):
+                    text = e["winSay"] if key == "win" else (e.get(key) or {}).get("say")
+                    if not text:
+                        continue
                     fe = adir / f"{n:02d}_explain_{key}.mp3"
                     say_(text, fe)
                     parts[key] = (f"audio/{vid}/{fe.name}", frames(fe))
-                bAt = 8 + parts["a"][1] + 8
-                winAt = bAt + parts["b"][1] + 8
-                exp = {"kind": "explain", "audio": parts["a"][0], "audioB": parts["b"][0], "winAudio": parts["win"][0],
+                bAt = 8 + (parts["a"][1] + 8 if "a" in parts else 0)
+                winAt = bAt + (parts["b"][1] + 8 if "b" in parts else 0)
+                exp = {"kind": "explain", "audio": parts["a"][0] if "a" in parts else None,
+                       "audioB": parts["b"][0] if "b" in parts else None,
+                       "winAudio": parts["win"][0],
                        "aAt": 8, "bAt": bAt, "winAt": winAt, "speak": winAt + parts["win"][1], "hold": 30,
                        "best": e["best"], "note": e.get("note", "Vereinfacht gerechnet. Keine Anlageberatung."),
-                       "a": {**side(q["a"]), "fact": e["a"]["fact"]}, "b": {**side(q["b"]), "fact": e["b"]["fact"]}}
+                       "stamps": e.get("stamps", ["BESSER", "SCHLECHTER"]),
+                       "a": {**side(q["a"]), "fact": (e.get("a") or {}).get("fact")},
+                       "b": {**side(q["b"]), "fact": (e.get("b") or {}).get("fact")}}
                 segs.append(exp)
         else:
-            add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": GAP, "hold": REVEAL})
+            add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": gap, "hold": reveal})
         n += 1
     o = v["outro"]
     add("outro", n, {"title": o.get("title"), "sub": o.get("sub"), "share": o.get("share")},

@@ -9,6 +9,7 @@ type Segment = {
 	kind: 'intro' | 'q' | 'hook' | 'mid' | 'explain' | 'outro';
 	audio: string; audioB?: string; bAt?: number; speak: number; gap?: number; hold: number; duration: number; voiceAt?: number;
 	share?: string; winAudio?: string; aAt?: number; winAt?: number; best?: 'a' | 'b'; note?: string;
+	statement?: string; stamps?: [string, string]; glitch?: number; glitchMode?: string;
 	title?: string; sub?: string; a?: Side; b?: Side; pct?: [number, number];
 };
 export type Timeline = {
@@ -37,7 +38,7 @@ const stroke = (px: number) => ({
 
 const COUNT = 90; // 3-2-1 in Frames
 
-const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revealAt: number; mid: boolean; enterAt: number}> = ({side, top, pct, win, revealAt, mid, enterAt}) => {
+const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revealAt: number; mid: boolean; enterAt: number; compact?: boolean}> = ({side, top, pct, win, revealAt, mid, enterAt, compact}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	// Reinfliegen: oben von links, unten von rechts, mit Bewegungsunschaerfe
@@ -66,8 +67,8 @@ const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revea
 		}} />
 	) : side.emoji ? (
 		<div style={{
-			width: 420, height: 420, borderRadius: 210, background: C.white, border: `10px solid ${greenIn > 0.5 ? C.green : C.ink}`,
-			display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: EMOJI, fontSize: 250, lineHeight: 1,
+			width: compact ? 270 : 420, height: compact ? 270 : 420, borderRadius: 210, background: C.white, border: `10px solid ${greenIn > 0.5 ? C.green : C.ink}`,
+			display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: EMOJI, fontSize: compact ? 160 : 250, lineHeight: 1,
 			boxShadow: '0 24px 60px rgba(0,0,0,.35)',
 		}}>{side.emoji}</div>
 	) : <div style={{width: 500, height: 500}} />;
@@ -138,7 +139,7 @@ const Label: React.FC<{text: string; enter: number; state: 'win' | 'lose' | null
 );
 
 // Mitte: ODER waehrend der Frage, dann 3-2-1, dann weg
-const Center: React.FC<{speakEnd: number}> = ({speakEnd}) => {
+const Center: React.FC<{speakEnd: number; count: number}> = ({speakEnd, count}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	if (frame < speakEnd) {
@@ -152,11 +153,11 @@ const Center: React.FC<{speakEnd: number}> = ({speakEnd}) => {
 		);
 	}
 	const t = frame - speakEnd;
-	if (t >= COUNT) return null;
-	const n = 3 - Math.floor(t / 30);
+	if (t >= count) return null;
+	const n = Math.ceil((count - t) / 30);
 	const local = t % 30;
 	const s = spring({frame: local, fps, config: {damping: 8, mass: 0.5}});
-	const ring = interpolate(t, [0, COUNT], [1, 0]);
+	const ring = interpolate(t, [0, count], [1, 0]);
 	return (
 		<div style={{position: 'absolute', left: 540 - 130, top: 960 - 130, width: 260, height: 260}}>
 			<svg width={260} height={260} style={{position: 'absolute', inset: 0}}>
@@ -183,21 +184,39 @@ const Question: React.FC<{s: Segment}> = ({s}) => {
 	const rt = frame - revealAt;
 	const shake = rt >= 0 && rt < 10 ? Math.sin(rt * 2.6) * (10 - rt) * 2.5 : 0;
 	const ct = frame - s.speak;
-	const panic = ct >= 60 && ct < COUNT ? 0.25 * (0.5 + 0.5 * Math.sin(ct * 1.2)) : 0;
+	const count = s.gap ?? COUNT;
+	const panic = ct >= count - 30 && ct < count ? 0.25 * (0.5 + 0.5 * Math.sin(ct * 1.2)) : 0;
 	return (
 		<AbsoluteFill style={{transform: `scale(${punch}) translate(${shake}px, ${-shake * 0.5}px)`}}>
-			<Half side={s.a!} top pct={pa} win={pa >= pb} revealAt={revealAt} mid={mid} enterAt={0} />
-			<Half side={s.b!} top={false} pct={pb} win={pb > pa} revealAt={revealAt} mid={mid} enterAt={bAt} />
-			<Center speakEnd={s.speak} />
+			<Half side={s.a!} top pct={pa} win={pa >= pb} revealAt={revealAt} mid={mid} enterAt={0} compact={!!s.statement} />
+			<Half side={s.b!} top={false} pct={pb} win={pb > pa} revealAt={revealAt} mid={mid} enterAt={bAt} compact={!!s.statement} />
+			{s.statement ? <Statement text={s.statement} /> : null}
+			<Center speakEnd={s.speak} count={count} />
 			<AbsoluteFill style={{boxShadow: `inset 0 0 220px 60px rgba(255,0,0,${panic})`, pointerEvents: 'none'}} />
 			<Audio src={staticFile(s.audio)} />
 			{s.audioB ? <Sequence from={bAt}><Audio src={staticFile(s.audioB)} /></Sequence> : null}
 			<Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} />
 			<Sequence from={bAt}><Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} /></Sequence>
-			<Sequence from={s.speak} durationInFrames={COUNT}><Audio src={staticFile('sfx/countdown.mp3')} volume={0.9} /></Sequence>
+			<Sequence from={s.speak} durationInFrames={count}><Audio src={staticFile('sfx/countdown.mp3')} startFrom={Math.max(0, COUNT - count)} volume={0.9} /></Sequence>
 			<Sequence from={revealAt}><Audio src={staticFile('sfx/check.mp3')} volume={0.8} /></Sequence>
 			{s.winAudio ? <Sequence from={revealAt + 12}><Audio src={staticFile(s.winAudio)} /></Sequence> : null}
 		</AbsoluteFill>
+	);
+};
+
+// Aussage oben (Mythos oder Fakt)
+const Statement: React.FC<{text: string}> = ({text}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const s = spring({frame: frame - 2, fps, config: {damping: 12, mass: 0.6}});
+	return (
+		<div style={{position: 'absolute', top: 190, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
+			<div style={{
+				fontFamily: HEAVY, fontSize: 50, lineHeight: 1.18, color: C.ink, background: C.white, borderRadius: 28, border: `8px solid ${C.ink}`,
+				padding: '24px 36px', textAlign: 'center', maxWidth: 940, boxShadow: '0 18px 44px rgba(0,0,0,.4)',
+				transform: `scale(${s}) rotate(-1.5deg)`,
+			}}>„{text}“</div>
+		</div>
 	);
 };
 
@@ -211,13 +230,18 @@ const Intro: React.FC<{s: Segment}> = ({s}) => {
 		const t = frame - start;
 		return t >= 0 && t < 8 ? Math.sin(t * 2.4) * (8 - t) * 2.2 : 0;
 	};
-	const sx = shake(7) + shake(14);
+	const g = s.glitch && frame < s.glitch ? 1 : 0;
+	const r = (k: string) => random(`${k}${frame}`);
+	const gx = g ? (r('x') - 0.5) * 90 : 0;
+	const gy = g ? (r('y') - 0.5) * 50 : 0;
+	const sx = shake(7) + shake(14) + gx;
 	const flash = interpolate(frame, [14, 16, 24], [0, 0.6, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
 	const fit = (t?: string) => Math.min(290, Math.floor(1900 / Math.max(1, (t ?? '').length)));
 	return (
 		<AbsoluteFill style={{
 			background: `linear-gradient(180deg, ${C.red} 0%, ${C.red} 50%, ${C.blue} 50%, ${C.blue} 100%)`,
-			alignItems: 'center', justifyContent: 'center', transform: `translate(${sx}px, ${sx * 0.6}px) scale(1.06)`,
+			alignItems: 'center', justifyContent: 'center', transform: `translate(${sx}px, ${sx * 0.6 + gy}px) scale(1.06) skewX(${g ? (r('k') - 0.5) * 14 : 0}deg)`,
+			filter: g ? `hue-rotate(${Math.floor(r('h') * 360)}deg) ${r('i') > 0.8 ? 'invert(1)' : ''} contrast(1.4)` : 'none',
 		}}>
 			<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 0, transform: 'rotate(-4deg)'}}>
 				<div style={{
@@ -230,6 +254,7 @@ const Intro: React.FC<{s: Segment}> = ({s}) => {
 				}}>{s.sub}</div>
 			</div>
 			<AbsoluteFill style={{background: C.white, opacity: flash}} />
+			{g ? <Glitch frame={frame} /> : null}
 			<Sequence from={0}><Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} /></Sequence>
 			<Sequence from={7}><Audio src={staticFile('sfx/impact.mp3')} volume={0.9} /></Sequence>
 			<Sequence from={7}><Audio src={staticFile('sfx/whoosh.mp3')} volume={0.6} /></Sequence>
@@ -240,7 +265,7 @@ const Intro: React.FC<{s: Segment}> = ({s}) => {
 };
 
 // Aufloesung: beide Optionen mit Fakt, dann wird die bessere gruen gestempelt
-const ExplainHalf: React.FC<{side: Side; top: boolean; factAt: number; winAt: number; best: boolean}> = ({side, top, factAt, winAt, best}) => {
+const ExplainHalf: React.FC<{side: Side; top: boolean; factAt: number; winAt: number; best: boolean; stamps: [string, string]}> = ({side, top, factAt, winAt, best, stamps}) => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	const f = spring({frame: frame - factAt, fps, config: {damping: 12, mass: 0.6}});
@@ -265,11 +290,11 @@ const ExplainHalf: React.FC<{side: Side; top: boolean; factAt: number; winAt: nu
 					{side.emoji ? <div style={{fontFamily: EMOJI, fontSize: 120, lineHeight: 1}}>{side.emoji}</div> : null}
 					<div style={{fontFamily: DISPLAY, fontSize: 78, lineHeight: 1.02, color: C.white, textTransform: 'uppercase', maxWidth: 760, ...stroke(7)}}>{side.label}</div>
 				</div>
-				<div style={{
+				{side.fact ? <div style={{
 					fontFamily: HEAVY, fontSize: 52, lineHeight: 1.18, color: C.ink, background: C.white, borderRadius: 26,
 					padding: '26px 36px', textAlign: 'center', maxWidth: 940, whiteSpace: 'pre-line', boxShadow: '0 18px 44px rgba(0,0,0,.35)',
 					opacity: frame < factAt ? 0 : 1, transform: `scale(${0.7 + 0.3 * f}) rotate(${top ? -1.5 : 1.5}deg)`,
-				}}>{side.fact}</div>
+				}}>{side.fact}</div> : null}
 			</div>
 			{decided ? (
 				<div style={{
@@ -278,7 +303,7 @@ const ExplainHalf: React.FC<{side: Side; top: boolean; factAt: number; winAt: nu
 					<div style={{
 						fontFamily: DISPLAY, fontSize: 96, color: best ? C.ink : C.white, background: best ? C.yellow : 'rgba(0,0,0,.55)',
 						border: `8px solid ${C.ink}`, borderRadius: 24, padding: '6px 40px', transform: `scale(${stamp}) rotate(${best ? -6 : 4}deg)`,
-					}}>{best ? '✓ BESSER' : '✕ SCHLECHTER'}</div>
+					}}>{best ? `✓ ${stamps[0]}` : `✕ ${stamps[1]}`}</div>
 				</div>
 			) : null}
 			<AbsoluteFill style={{background: '#000', opacity: dim}} />
@@ -297,8 +322,8 @@ const Explain: React.FC<{s: Segment}> = ({s}) => {
 	const shake = wt >= 0 && wt < 10 ? Math.sin(wt * 2.6) * (10 - wt) * 2.5 : 0;
 	return (
 		<AbsoluteFill style={{transform: `translate(${shake}px, ${-shake * 0.5}px)`}}>
-			<ExplainHalf side={s.a!} top factAt={aAt} winAt={winAt} best={s.best === 'a'} />
-			<ExplainHalf side={s.b!} top={false} factAt={bAt} winAt={winAt} best={s.best === 'b'} />
+			<ExplainHalf side={s.a!} top factAt={aAt} winAt={winAt} best={s.best === 'a'} stamps={s.stamps ?? ['BESSER', 'SCHLECHTER']} />
+			<ExplainHalf side={s.b!} top={false} factAt={bAt} winAt={winAt} best={s.best === 'b'} stamps={s.stamps ?? ['BESSER', 'SCHLECHTER']} />
 			<div style={{
 				position: 'absolute', left: 540 - 250, top: 960 - 62, width: 500, height: 124, borderRadius: 62,
 				background: C.yellow, border: `8px solid ${C.ink}`, display: 'flex', alignItems: 'center', justifyContent: 'center',
@@ -309,11 +334,29 @@ const Explain: React.FC<{s: Segment}> = ({s}) => {
 					color: 'rgba(255,255,255,.75)'}}>{s.note}</div>
 			) : null}
 			<Audio src={staticFile('sfx/whoosh.mp3')} volume={0.6} />
-			<Sequence from={aAt}><Audio src={staticFile(s.audio)} /></Sequence>
+			{s.audio ? <Sequence from={aAt}><Audio src={staticFile(s.audio)} /></Sequence> : null}
 			{s.audioB ? <Sequence from={bAt}><Audio src={staticFile(s.audioB)} /></Sequence> : null}
 			<Sequence from={winAt}><Audio src={staticFile('sfx/check.mp3')} volume={0.8} /></Sequence>
 			<Sequence from={winAt}><Audio src={staticFile('sfx/bling.mp3')} volume={0.6} /></Sequence>
 			{s.winAudio ? <Sequence from={winAt + 6}><Audio src={staticFile(s.winAudio)} /></Sequence> : null}
+		</AbsoluteFill>
+	);
+};
+
+// Kaputte Streifen, Farbversatz und Scanlines, solange der TTS-Bug laeuft
+const Glitch: React.FC<{frame: number}> = ({frame}) => {
+	const bars = new Array(7).fill(0).map((_, i) => {
+		const y = random(`gy${frame}${i}`) * 1920;
+		const h = 20 + random(`gh${frame}${i}`) * 140;
+		const x = (random(`gx${frame}${i}`) - 0.5) * 300;
+		const col = ['rgba(255,0,80,.55)', 'rgba(0,255,255,.5)', 'rgba(255,255,255,.6)', 'rgba(0,0,0,.7)'][i % 4];
+		return <div key={i} style={{position: 'absolute', left: x, top: y, width: 1080 + 300, height: h, background: col, mixBlendMode: 'screen'}} />;
+	});
+	return (
+		<AbsoluteFill style={{pointerEvents: 'none'}}>
+			{bars}
+			<AbsoluteFill style={{background: 'repeating-linear-gradient(0deg, rgba(0,0,0,.25) 0 3px, transparent 3px 7px)'}} />
+			{random(`gf${frame}`) > 0.7 ? <AbsoluteFill style={{background: random(`gc${frame}`) > 0.5 ? '#ff0050' : '#00ffff', opacity: 0.35}} /> : null}
 		</AbsoluteFill>
 	);
 };

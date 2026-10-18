@@ -1,0 +1,118 @@
+{
+ "id": "g10",
+ "channel": "G",
+ "handle": null,
+ "format": "story",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "claim": {
+  "title": "DEIN LEBEN",
+  "sub": "DEINE WAHL",
+  "say": "Dein Leben. Deine Wahl. Merk dir deine Antworten!",
+  "glitch": "robot"
+ },
+ "questions": [
+  {
+   "say": "Du bist 18 und erbst 10.000 Euro. Ein Auto, oder alles in einen ETF?",
+   "a": {
+    "label": "A: Auto kaufen",
+    "emoji": "🚗"
+   },
+   "b": {
+    "label": "B: Alles in ETF",
+    "emoji": "📈"
+   },
+   "pct": [
+    58,
+    42
+   ]
+  },
+  {
+   "say": "Du bist 20. Ausbildung mit Gehalt, oder Studium ohne Gehalt?",
+   "a": {
+    "label": "A: Ausbildung",
+    "emoji": "🛠️"
+   },
+   "b": {
+    "label": "B: Studium",
+    "emoji": "🎓"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Du bist 25. Eigene Wohnung, oder WG und 500 Euro sparen?",
+   "a": {
+    "label": "A: Eigene Wohnung",
+    "emoji": "🏠"
+   },
+   "b": {
+    "label": "B: WG + sparen",
+    "emoji": "👥"
+   },
+   "pct": [
+    63,
+    37
+   ]
+  },
+  {
+   "say": "Du bist 30. Haus kaufen, oder weiter mieten und investieren?",
+   "a": {
+    "label": "A: Haus kaufen",
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "B: Mieten + investieren",
+    "emoji": "📊"
+   },
+   "pct": [
+    55,
+    45
+   ]
+  },
+  {
+   "say": "Du bist 35. Selbstständig machen, oder sicherer Job?",
+   "a": {
+    "label": "A: Selbstständig",
+    "emoji": "🚀"
+   },
+   "b": {
+    "label": "B: Sicherer Job",
+    "emoji": "🏛️"
+   },
+   "pct": [
+    41,
+    59
+   ]
+  },
+  {
+   "say": "Du bist 40. Rente mit 55, oder mit 67 und doppelt so viel?",
+   "a": {
+    "label": "A: Rente mit 55",
+    "emoji": "🏖️"
+   },
+   "b": {
+    "label": "B: Rente mit 67, doppelt",
+    "emoji": "💶"
+   },
+   "pct": [
+    66,
+    34
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Was ist dein Weg? Schreib ihn in die Kommentare!",
+  "title": "WAS IST DEIN WEG?",
+  "sub": "z.B. A-B-B-A-B-A in die Kommentare",
+  "share": "Schick das an jemanden und vergleicht eure Wege",
+  "shareSay": "Und schick das an jemanden und vergleicht eure Wege!"
+ }
+}
