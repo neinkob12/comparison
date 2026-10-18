@@ -14,6 +14,7 @@ Benutzung (aus dem Repo-Ordner):
   python3 scripts/tiktok_upload.py plan a17 a24 --draft       # nur als Entwurf speichern
 
 Optionen:
+  --at "JJJJ-MM-TT HH:MM"  andere Uhrzeit als im Plan (Minuten in 5er-Schritten), z.B. fuer Tests
   --account NAME   gespeicherte Sitzung waehlen (Standard: ACCOUNT unten), pro Konto eigener Login
   --sound NAME     Name des Sounds in deinen TikTok-Favoriten (Standard: SOUND unten)
   --manual-ai      vor jedem Absenden anhalten, du setzt den KI-Haken selbst und drueckst Enter
@@ -147,6 +148,9 @@ if __name__ == "__main__":
     sound = opts[opts.index("--sound") + 1] if "--sound" in opts else SOUND
     if "--sound" in opts:
         args.remove(sound)
+    at = opts[opts.index("--at") + 1] if "--at" in opts else None
+    if at:
+        args.remove(at)
     if "--account" in opts:
         ACCOUNT = opts[opts.index("--account") + 1]
         args.remove(ACCOUNT)
@@ -161,5 +165,7 @@ if __name__ == "__main__":
     first, last = args[1], args[2] if len(args) > 2 else args[1]
     for r in rows():
         if num(first) <= num(r["datei"][:-4]) <= num(last):
+            if at:
+                r["datum"], r["uhrzeit"] = at.split()
             upload(r, sound, "--headless" in opts, schedule=not draft)
             time.sleep(20)
