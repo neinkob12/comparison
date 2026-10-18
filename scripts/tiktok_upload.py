@@ -26,7 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PLAN = ROOT / "docs" / "posting_plan.csv"
-ACCOUNT = "akhmachtkrach19"
+ACCOUNT = "finanzen_einfach"  # nur Name der gespeicherten Sitzung, gepostet wird auf das Konto, mit dem du dich einloggst
 SOUND = "Solitude"  # Stichwort reicht: haziq nimmt den ersten Favoriten, der alle Woerter enthaelt
 TIMES = ["12:30", "16:00", "18:30", "21:00"]
 AI_TEXT = re.compile(r"AI[- ]generated content|KI-generierte", re.I)
