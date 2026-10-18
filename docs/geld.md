@@ -70,3 +70,17 @@ Jedes Format hat beide Stimmen. Vergleichen: durchschnittliche Wiedergabezeit un
 **g05:** 500.000 € sofort oder 1 €, der sich 20 Tage verdoppelt? 🪙 Was hättest du gewählt? 👇 #geld #finanzen #million #würdestdueher #fyp
 
 **g06:** Mit 30 in Rente mit 2.000 € oder mit 67 mit 6.000 €? 🏖️ Was hättest du gewählt? 👇 #geld #rente #finanzen #würdestdueher #fyp
+
+## Experimente g07 bis g10
+
+Jedes Video startet mit einem TTS-Bug (Stimme + Bild-Glitch, `glitch` im Claim). Alle direkt auf 61 bis 65 s gebaut, kein Schnitt nötig.
+
+| Video | Format | Bug | Stimme | Länge |
+|---|---|---|---|---|
+| g07 | Mathe-Fallen (Auflösung) | Stotter-Loop | Adam | 63,4 s |
+| g08 | Mythos oder Fakt (Aussage-Karte, RICHTIG/FALSCH) | Zeitlupe | Brian | 61,5 s |
+| g09 | Speedrun, 11 Fragen, 2-Sekunden-Timer | Chipmunk | Adam | 64,4 s |
+| g10 | Wähle dein Leben (Story, A/B-Kette) | Roboter | Brian | 64,9 s |
+
+Geprüft: 0,8 × 0,8 = 0,64 (2 × 20 % = 36 %), 100 → 150 → 75 (−25 %), 3 für 2 = 33,3 %,
+10.000 € / 1,02^10 ≈ 8.200 €, Trinkgeld an Angestellte steuerfrei (§ 3 Nr. 51 EStG).
