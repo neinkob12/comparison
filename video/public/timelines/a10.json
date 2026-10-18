@@ -3,39 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2429,
+ "durationInFrames": 2243,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a10/00_hook_a.mp3",
    "audioB": "audio/a10/00_hook_b.mp3",
-   "bAt": 52,
-   "speak": 90,
-   "gap": 90,
+   "bAt": 73,
+   "speak": 111,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "1 Nacht mit Karamel19",
-    "img": "img/artists/karamel19.jpg",
+    "label": "1 Monat Lacazette in deinen Alpträumen",
+    "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nie wieder Mucco",
-    "img": "img/artists/mucco.jpg",
+    "label": "Nie wieder Nizi hören",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "pct": [
-    82,
-    18
+    12,
+    88
    ],
-   "duration": 225
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 201
   },
   {
    "kind": "q",
    "audio": "audio/a10/01_q_a.mp3",
    "audioB": "audio/a10/01_q_b.mp3",
-   "bAt": 61,
-   "speak": 104,
-   "gap": 90,
+   "bAt": 60,
+   "speak": 98,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Feature mit Ufo187",
@@ -51,15 +52,15 @@
     51,
     49
    ],
-   "duration": 239
+   "duration": 224
   },
   {
    "kind": "q",
    "audio": "audio/a10/02_q_a.mp3",
    "audioB": "audio/a10/02_q_b.mp3",
-   "bAt": 89,
-   "speak": 129,
-   "gap": 90,
+   "bAt": 78,
+   "speak": 116,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Haribo als Bruder",
@@ -75,15 +76,15 @@
     96,
     4
    ],
-   "duration": 264
+   "duration": 242
   },
   {
    "kind": "q",
    "audio": "audio/a10/03_q_a.mp3",
    "audioB": "audio/a10/03_q_b.mp3",
    "bAt": 35,
-   "speak": 94,
-   "gap": 90,
+   "speak": 89,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Haribo als Lehrer",
@@ -99,15 +100,15 @@
     15,
     85
    ],
-   "duration": 229
+   "duration": 215
   },
   {
    "kind": "q",
    "audio": "audio/a10/04_q_a.mp3",
    "audioB": "audio/a10/04_q_b.mp3",
-   "bAt": 64,
-   "speak": 141,
-   "gap": 90,
+   "bAt": 55,
+   "speak": 109,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder Omar101",
@@ -123,15 +124,15 @@
     9,
     91
    ],
-   "duration": 276
+   "duration": 235
   },
   {
    "kind": "mid",
    "audio": "audio/a10/05_mid_a.mp3",
    "audioB": "audio/a10/05_mid_b.mp3",
-   "bAt": 55,
-   "speak": 161,
-   "gap": 90,
+   "bAt": 50,
+   "speak": 145,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder duschen",
@@ -147,15 +148,15 @@
     83,
     17
    ],
-   "duration": 296
+   "duration": 271
   },
   {
    "kind": "q",
    "audio": "audio/a10/06_q_a.mp3",
    "audioB": "audio/a10/06_q_b.mp3",
-   "bAt": 47,
-   "speak": 85,
-   "gap": 90,
+   "bAt": 48,
+   "speak": 82,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch Hollywoodreif",
@@ -171,15 +172,15 @@
     79,
     21
    ],
-   "duration": 220
+   "duration": 208
   },
   {
    "kind": "q",
    "audio": "audio/a10/07_q_a.mp3",
    "audioB": "audio/a10/07_q_b.mp3",
-   "bAt": 84,
-   "speak": 119,
-   "gap": 90,
+   "bAt": 80,
+   "speak": 114,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch 101%",
@@ -195,15 +196,15 @@
     92,
     8
    ],
-   "duration": 254
+   "duration": 240
   },
   {
    "kind": "q",
    "audio": "audio/a10/08_q_a.mp3",
    "audioB": "audio/a10/08_q_b.mp3",
-   "bAt": 50,
-   "speak": 85,
-   "gap": 90,
+   "bAt": 44,
+   "speak": 79,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch +49",
@@ -219,17 +220,17 @@
     26,
     74
    ],
-   "duration": 220
+   "duration": 205
   },
   {
    "kind": "outro",
    "audio": "audio/a10/09_outro.mp3",
-   "speak": 161,
+   "speak": 157,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 206
+   "duration": 202
   }
  ]
 }

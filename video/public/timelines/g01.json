@@ -1,0 +1,203 @@
+{
+ "id": "g01",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 2561,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g01/00_claim.mp3",
+   "speak": 67,
+   "voiceAt": 6,
+   "title": "NUR 15%",
+   "sub": "ANTWORTEN RICHTIG",
+   "hold": 18,
+   "duration": 85
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g01/01_q_a.mp3",
+   "audioB": "audio/g01/01_q_b.mp3",
+   "bAt": 46,
+   "speak": 108,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "1 Mio. € sofort",
+    "img": null,
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "5.000 € / Monat",
+    "img": null,
+    "emoji": "📅"
+   },
+   "pct": [
+    31,
+    69
+   ],
+   "duration": 243
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g01/01_explain_a.mp3",
+   "audioB": "audio/g01/01_explain_b.mp3",
+   "winAudio": "audio/g01/01_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 198,
+   "winAt": 304,
+   "speak": 384,
+   "hold": 30,
+   "best": "a",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "a": {
+    "label": "1 Mio. € sofort",
+    "img": null,
+    "emoji": "💰",
+    "fact": "Bei ~7 % Rendite: ca. 70.000 € pro Jahr. Die Million bleibt."
+   },
+   "b": {
+    "label": "5.000 € / Monat",
+    "img": null,
+    "emoji": "📅",
+    "fact": "5.000 € im Monat = nur 60.000 € im Jahr"
+   },
+   "duration": 414
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g01/02_q_a.mp3",
+   "audioB": "audio/g01/02_q_b.mp3",
+   "bAt": 42,
+   "speak": 133,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "100.000 € sofort",
+    "img": null,
+    "emoji": "💶"
+   },
+   "b": {
+    "label": "1 Cent × 2, 30 Tage",
+    "img": null,
+    "emoji": "🪙"
+   },
+   "pct": [
+    72,
+    28
+   ],
+   "duration": 268
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g01/02_explain_a.mp3",
+   "audioB": "audio/g01/02_explain_b.mp3",
+   "winAudio": "audio/g01/02_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 74,
+   "winAt": 279,
+   "speak": 355,
+   "hold": 30,
+   "best": "b",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "a": {
+    "label": "100.000 € sofort",
+    "img": null,
+    "emoji": "💶",
+    "fact": "100.000 €, sofort auf dem Konto"
+   },
+   "b": {
+    "label": "1 Cent × 2, 30 Tage",
+    "img": null,
+    "emoji": "🪙",
+    "fact": "Tag 20: 5.243 €\nTag 30: 5,37 Mio. €"
+   },
+   "duration": 385
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/g01/03_mid_a.mp3",
+   "audioB": "audio/g01/03_mid_b.mp3",
+   "bAt": 64,
+   "speak": 104,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Lieferando",
+    "img": null,
+    "emoji": "🍕"
+   },
+   "b": {
+    "label": "Nie wieder Netflix",
+    "img": null,
+    "emoji": "📺"
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 239
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g01/04_q_a.mp3",
+   "audioB": "audio/g01/04_q_b.mp3",
+   "bAt": 67,
+   "speak": 129,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "Ab 20: 100 € / Monat",
+    "img": null,
+    "emoji": "🧑"
+   },
+   "b": {
+    "label": "Ab 40: 300 € / Monat",
+    "img": null,
+    "emoji": "🧔"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "duration": 264
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g01/04_explain_a.mp3",
+   "audioB": "audio/g01/04_explain_b.mp3",
+   "winAudio": "audio/g01/04_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 209,
+   "winAt": 373,
+   "speak": 428,
+   "hold": 30,
+   "best": "a",
+   "note": "Vereinfacht gerechnet. Keine Anlageberatung.",
+   "a": {
+    "label": "Ab 20: 100 € / Monat",
+    "img": null,
+    "emoji": "🧑",
+    "fact": "Mit 65: ca. 379.000 €\n(eingezahlt: 54.000 €)"
+   },
+   "b": {
+    "label": "Ab 40: 300 € / Monat",
+    "img": null,
+    "emoji": "🧔",
+    "fact": "Mit 65: ca. 243.000 €\n(eingezahlt: 90.000 €)"
+   },
+   "duration": 458
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g01/05_outro.mp3",
+   "speak": 160,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an jemanden, der jeden Monat pleite ist",
+   "duration": 205
+  }
+ ]
+}

@@ -1,0 +1,1480 @@
+{
+ "entries": [
+  {
+   "id": "trymacs-r-yallah",
+   "cat": "meme",
+   "label": "Was geht, yallah?",
+   "quote": "Was geht, yallah?",
+   "detail": "Ein alter Fortnite-Clip, in dem ein kleiner Junge Trymacs so begruesst, tauchte 2025 auf TikTok wieder auf. Im Chat kam der Spruch tausendfach, er nennt es missbraucht; sein Podcast-Kollege nennt es seine neue Begruessung.",
+   "year": "2025",
+   "image": "Trymacs Was geht yallah Clip",
+   "sources": [
+    "https://mein-mmo.de/trymacs-alter-clip-was-geht-yallah/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "unsympathischtv"
+   ]
+  },
+  {
+   "id": "trymacs-r-look",
+   "cat": "look",
+   "label": "Eminem-Look ohne Bart",
+   "quote": "Ich war unsichtbar. Niemand hat mich erkannt.",
+   "detail": "Oktober 2025: Trymacs zeigt sich mit sehr kurzen, gebleichten Haaren und ohne Bart, vor der Podcast-Tour mit Varion und Unsympathisch. In Hamburg erkannte man nur Chefstrobel, nicht ihn; er verglich sich mit dem gesichtslosen BastiGHG.",
+   "year": "2025",
+   "image": "Trymacs neue Frisur blond kurz",
+   "sources": [
+    "https://mein-mmo.de/twitch-trymacs-neue-frisur-unsichtbar/",
+    "https://www.promiflash.de/news/2025/10/09/radikale-typveraenderung-trymacs-wird-von-fans-nicht-erkannt.html"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "chefstrobel",
+    "varion",
+    "bastighg",
+    "unsympathischtv"
+   ]
+  },
+  {
+   "id": "trymacs-r-gemuese",
+   "cat": "gag",
+   "label": "Gemuese-Ekel bei Let them Cook",
+   "quote": "Das mag doch keiner, oder?",
+   "detail": "In Rumathras und Frank Rosins Kochshow musste Trymacs Gurke, Radieschen und Artischockenherz essen; die Artischocke brachte ihn fast zum Wuergen. Rosin war fassungslos, sein Gemuese-Hass ist ein Running Gag der Community (Folge vom 2. Maerz 2025).",
+   "year": "2025",
+   "image": "Trymacs Frank Rosin Let them Cook",
+   "sources": [
+    "https://mein-mmo.de/trymacs-let-them-cook-gemuese-essen/",
+    "https://earlygame.com/de/news/entertainment/trymacs-gemuese-ekel-sorgt-fuer-kopfschuetteln-frank-rosin-kann-es-nicht-fassen"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "rumathra",
+    "nici",
+    "frankrosin"
+   ]
+  },
+  {
+   "id": "trymacs-r-wrap",
+   "cat": "gag",
+   "label": "Protein-Wrap ohne Gemuese",
+   "quote": null,
+   "detail": "Fuer seine neue Fast-Food-Kette Loco Chicken entwirft Trymacs limitierte Protein-Wraps, ausdruecklich ohne Gemuese. Passt zum bekannten Gag. Angekuendigt in der Chips-Praesentation im August 2026.",
+   "year": "2026",
+   "image": "Loco Chicken Hamburg Wrap",
+   "sources": [
+    "https://mein-mmo.de/trymacs-firmen-happy-zukunft/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs"
+   ]
+  },
+  {
+   "id": "trymacs-r-chips",
+   "cat": "moment",
+   "label": "Chips-Pleite per Praesentation",
+   "quote": "Wir haben mit den Chips Millionen minus gemacht.",
+   "detail": "August 2026 erklaert Trymacs live per Praesentation, warum die mit Knossi gestartete Chipsmarke Happy Chips scheiterte: schlechte Kartoffelernte 2024, feste Verkaufspreise, jeder Beutel Verlust. Happy Slice lief okay, danach kommt Loco Chicken.",
+   "year": "2026",
+   "image": "Happy Chips Trymacs Knossi",
+   "sources": [
+    "https://mein-mmo.de/en/trymacs-has-failed-so-badly-with-his-chips-that-he-has-to-explain-the-losses-with-a-presentation-on-twitch,1583134/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "knossi"
+   ]
+  },
+  {
+   "id": "trymacs-r-bulk",
+   "cat": "moment",
+   "label": "500.000 Euro, 50.000 Wert",
+   "quote": "So 15 bis 20 Tuerme",
+   "detail": "September 2026: Trymacs zeigt seine Bulk-Karten, rund 200 Kisten in Kellern. Er hat in 6 Jahren etwa 500.000 Euro fuer Pokemon-Karten ausgegeben, die Sammlung soll grob 50.000 Euro wert sein. Er schleppt sichtlich muehsam einen Kistenturm vor die Kamera.",
+   "year": "2026",
+   "image": "Trymacs Pokemon Karten Sammlung",
+   "sources": [
+    "https://mein-mmo.de/trymacs-zeigt-bulk-karten/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs"
+   ]
+  },
+  {
+   "id": "trymacs-r-soullink",
+   "cat": "moment",
+   "label": "Trio-Soullink Pokemon",
+   "quote": "Wir werden das irgendwann schaffen.",
+   "detail": "Seit Juni 2025 spielen Trymacs, Rumathra und Chefstrobel Pokemon Schwarz/Weiss 2 als Trio-Soullink. Im September 2025 scheiterte die LAN nach ueber 95 Stunden an Siegesstrasse; Trymacs als Ash/Schiggy, Rumathra als Team Rocket, Chefstrobel als Gengar. (Zitat von Chefstrobel)",
+   "year": "2025",
+   "image": "Trymacs Rumathra Chefstrobel Pokemon Soullink",
+   "sources": [
+    "https://mein-mmo.de/en/three-twitch-streamers-lock-themselves-away-for-days-for-a-pokemon-challenge-fail-after-a-total-of-95-hours,1529154/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "rumathra",
+    "chefstrobel"
+   ]
+  },
+  {
+   "id": "trymacs-r-soullinkstreit",
+   "cat": "moment",
+   "label": "Soullink pausiert nach Streit",
+   "quote": "Was der Chat hier reininterpretiert, ist der Wahnsinn.",
+   "detail": "Juli 2026: Streit mit Chefstrobel, ob Trymacs' Maxax gegen Arceus wirklich knapp war. Trymacs schloss das Spiel und beendete den Stream, die Challenge ruht unbefristet; er betont, man bleibe befreundet.",
+   "year": "2026",
+   "image": "Trymacs Chefstrobel Streit Pokemon",
+   "sources": [
+    "https://mein-mmo.de/trymacs-chefstrobel-rumathra-pokemon-streit/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "chefstrobel",
+    "rumathra"
+   ]
+  },
+  {
+   "id": "trymacs-r-liegerad",
+   "cat": "moment",
+   "label": "Liegerad-Tour 2026",
+   "quote": null,
+   "detail": "Mai 2026: Trymacs, Nici, GTime, Paul Frege, Ronny Berger, Zarbex, Adam SkylineTV und Reeze fahren etwa 600 km auf E-Liegerädern. Schon am ersten Tag gab es Beinahe-Unfaelle, GTime streifte einen Bordstein, Zarbex und Reeze krachten zusammen.",
+   "year": "2026",
+   "image": "Trymacs Liegerad Tour",
+   "sources": [
+    "https://mein-mmo.de/trymacs-liegerad-tour-fast-unfall/",
+    "https://www.velototal.de/2026/05/06/hase-bikes-auf-twitch-streaming-stars-fahren-die-trymacs-liegerad-tour-2026/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "nici",
+    "gtime",
+    "zarbex",
+    "reeze"
+   ]
+  },
+  {
+   "id": "trymacs-r-laufband",
+   "cat": "moment",
+   "label": "Laufbandrad-Tour mit Polizei",
+   "quote": null,
+   "detail": "April 2025: Amsterdam bis Hamburg auf Laufband-Fahrraedern. Polizei stoppte die Gruppe schon am ersten/zweiten Tag, Fans und Streamsniper verursachten Staus und Polizeieinsaetze, Trymacs bat sie erfolglos fernzubleiben. Die Tour war fuer die Stream Awards 2025 nominiert.",
+   "year": "2025",
+   "image": "Trymacs Laufbandrad Tour",
+   "sources": [
+    "https://mein-mmo.de/twitch-events-in-2025/",
+    "https://www.promiflash.de/news/2025/04/19/trymacs-sauer-fans-sorgen-bei-laufbandradtour-fuer-chaos.html"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "nici",
+    "schradin",
+    "zarbex"
+   ]
+  },
+  {
+   "id": "trymacs-r-hyped",
+   "cat": "moment",
+   "label": "Hyped-App: 100.000 Euro weg",
+   "quote": null,
+   "detail": "Mai 2025: Trymacs sagt im Stream, seine mit Unsympathisch und Rewinside gestartete Beichten-App Hyped habe ihn etwa 100.000 Euro gekostet; sie verschwand leise aus den App-Stores. Rewinside: Ich konnte nicht verlieren (nur 2.500 Euro, Video brachte mehr ein).",
+   "year": "2025",
+   "image": "Hyped App Trymacs Rewinside",
+   "sources": [
+    "https://www.promiflash.de/news/2025/05/17/fehlinvestition-trymacs-setzt-100-000-euro-in-den-sand.html"
+   ],
+   "conf": "medium",
+   "with": [
+    "trymacs",
+    "rewinside",
+    "unsympathischtv"
+   ]
+  },
+  {
+   "id": "trymacs-r-riot",
+   "cat": "zitat",
+   "label": "Riot-Partnerschaft und Rauchen",
+   "quote": "Ich werde nach dieser Win-Challenge meine Riot-Partnerschaft beenden und ich werde anfangen zu rauchen.",
+   "detail": "April 2026 nach einer fast 22-stuendigen Win-Challenge: Riot lehnte fuenf neue Silber-Accounts fuer eine LoL-LAN ab, weil Rumathra 2015 Diamond war. Trymacs ist Gold und darf mit vielen Kumpels nicht spielen. Eher scherzhaft gemeint.",
+   "year": "2026",
+   "image": "Trymacs League of Legends LAN",
+   "sources": [
+    "https://mein-mmo.de/trymacs-hat-nach-win-challenge-keinen-bock-mehr-auf-riot/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "rumathra"
+   ]
+  },
+  {
+   "id": "trymacs-r-lol",
+   "cat": "zitat",
+   "label": "Neue Accounts oder vorbei",
+   "quote": "Ihr macht euch jetzt neue Accounts oder es ist vorbei!",
+   "detail": "28. bis 30. September 2026, zweite LoL-LAN mit Rumathra, Nici, Cezzy, Karni: Nach 30 Minuten wollte Trymacs wegen Platin-Gegnern abbrechen (er wird sonst gegen Bronze gematcht). Am Ende schafften sie die Challenge nach rund 37 Stunden.",
+   "year": "2026",
+   "image": "Trymacs LoL LAN Party",
+   "sources": [
+    "https://mein-mmo.de/twitch-trymacs-lol-lan-party/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "rumathra",
+    "nici"
+   ]
+  },
+  {
+   "id": "trymacs-r-foundry",
+   "cat": "gag",
+   "label": "Craft Attack 13 wie Foundry",
+   "quote": null,
+   "detail": "Oktober 2025: Statt ein Haus zu bauen, baut Trymacs in Craft Attack 13 massenhaft automatische Farmen, schlaeft in Betten im Freien daneben und bannt einen Streamer, der Foundry kritisierte. Der Artikel nennt Redstone Rotstein.",
+   "year": "2025",
+   "image": "Craft Attack 13 Trymacs",
+   "sources": [
+    "https://mein-mmo.de/twitch-craft-attack-13-trymacs/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "nici"
+   ]
+  },
+  {
+   "id": "trymacs-r-mit50",
+   "cat": "zitat",
+   "label": "Mit 50 in Rente?",
+   "quote": "Da muss ich vorher weg.",
+   "detail": "November 2025: Trymacs sagt, er sei finanziell durch und streame nur noch aus Spass. Chat schlaegt Rente mit 50 vor, er will nicht wie Gottschalk enden; Schradin streamt mit 47 noch, also sei 50 jung.",
+   "year": "2025",
+   "image": "Trymacs Stream Rente",
+   "sources": [
+    "https://mein-mmo.de/trymacs-twitch-spass-ruhestand/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "schradin"
+   ]
+  },
+  {
+   "id": "trymacs-r-wow",
+   "cat": "moment",
+   "label": "Sprachnachricht wegen WoW",
+   "quote": "Wir warten seit 3 Jahren, aber du spielst WoW, statt dich vorzubereiten.",
+   "detail": "August 2024: Rumathra und Papaplatte streamten 72 Stunden WoW, Trymacs wollte mit Rumathra das Core-Keeper-1.0-Release spielen und schickte ihm live eine halb ernste Sprachnachricht wie ein Elternteil vor der Klassenfahrt.",
+   "year": "2024",
+   "image": "Trymacs Rumathra Core Keeper",
+   "sources": [
+    "https://mein-mmo.de/trymacs-schickt-freund-wuetende-nachricht/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "rumathra",
+    "papaplatte"
+   ]
+  },
+  {
+   "id": "trymacs-r-reaction",
+   "cat": "gag",
+   "label": "Streamer fuer Minecraft",
+   "quote": "Wir sind Streamer geworden, um den ganzen Tag Minecraft spielen zu koennen.",
+   "detail": "Juli 2024: Trymacs ist genervt, dass Rumathra wegen Reaction-Streams zur Primetime kaum Zeit zum Zocken hat; er endet um 23 Uhr. Rumathra lachte und stimmte zu.",
+   "year": "2024",
+   "image": "Trymacs Rumathra Minecraft",
+   "sources": [
+    "https://mein-mmo.de/trymacs-ist-sauer-weil-er-nur-mit-rumathra-zocken-will/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "rumathra"
+   ]
+  },
+  {
+   "id": "trymacs-r-trollaward",
+   "cat": "moment",
+   "label": "Bester Troll Moment 2024",
+   "quote": "Bester Troll Moment",
+   "detail": "Bei den Stream Awards 2024 (5. Dezember 2024) gewann Trymacs zusammen mit Schradin den Preis; nominiert war er ausserdem mit Chefstrobel als Rage-Duo und mit der Rollertour.",
+   "year": "2024",
+   "image": "Stream Awards 2024 Trymacs Schradin",
+   "sources": [
+    "https://de.wikipedia.org/wiki/StreamAwards",
+    "https://www.promiflash.de/news/2024/12/09/das-sind-die-grossen-sieger-der-deutschen-stream-awards-2024.html"
+   ],
+   "conf": "medium",
+   "with": [
+    "trymacs",
+    "schradin",
+    "chefstrobel"
+   ]
+  },
+  {
+   "id": "trymacs-r-nom25",
+   "cat": "meme",
+   "label": "Kleine Pause / Trymacs Raid",
+   "quote": "Kleine Pause",
+   "detail": "Stream Awards 2025 (4. Dezember 2025): Trymacs ist u.a. mit den Clips Kleine Pause (Fail Moment) und Trymacs Raid (Troll Moment) nominiert, dazu die Laufbandrad Tour. Die Clip-Inhalte konnte ich nicht verifizieren.",
+   "year": "2025",
+   "image": "Stream Awards 2025 Trymacs",
+   "sources": [
+    "https://streamawards.de/gewinner",
+    "https://www.comicschau.de/news/stream-awards-2025-gewinner-live-blog-702811/"
+   ],
+   "conf": "low",
+   "with": [
+    "trymacs"
+   ]
+  },
+  {
+   "id": "trymacs-r-teabag",
+   "cat": "gag",
+   "label": "Spott ueber Rumathras Teabag",
+   "quote": "Das ist crazy bei einem 7:1.",
+   "detail": "Mai 2025: Trymacs verspottete im Stream Rumathras geplantes Teabagging-Jubeln beim Strafstoss in der Kings League bei 7:1 Rueckstand. Er selbst ist Praesident der Kaktus Kickers.",
+   "year": "2025",
+   "image": "Rumathra Kings League Teabag",
+   "sources": [
+    "https://mein-mmo.de/rumathra-ballerleague-tor-teabagging/"
+   ],
+   "conf": "high",
+   "with": [
+    "trymacs",
+    "rumathra"
+   ]
+  },
+  {
+   "id": "trymacs-r-wardogs",
+   "cat": "habit",
+   "label": "Wardogs um 3 Uhr nachts",
+   "quote": null,
+   "detail": "September 2026: Trymacs zockt den PvP-Shooter Wardogs (Early Access seit 10. September) nach Streamende privat bis in die Nacht und findet das Grinden geil.",
+   "year": "2026",
+   "image": "Wardogs game",
+   "sources": [
+    "https://mein-mmo.de/trymacs-zockt-wardogs-offstream-mitten-in-der-nacht/"
+   ],
+   "conf": "medium",
+   "with": [
+    "trymacs"
+   ]
+  },
+  {
+   "id": "rumathra-r-egg",
+   "cat": "moment",
+   "label": "Drachenei-Klau CA13",
+   "quote": "Rumathra war der Schnellste von allen.",
+   "detail": "November 2025: Nach dem Drachenkampf schnappt sich Rumathra als Erster das Drachenei, loggt sofort aus und versteckt es in einer Bedrock-Hoehle. BastiGHG rief an, Rumathra sagte, er sei auf dem Weg ins Gym. Papaplatte feierte den Move.",
+   "year": "2025",
+   "image": "Rumathra Dragon Egg Craft Attack 13",
+   "sources": [
+    "https://mein-mmo.de/en/twitch-streamer-steals-the-most-valuable-item-in-craft-attack-13-logs-out-immediately-first-goes-to-the-gym,1536148/"
+   ],
+   "conf": "high",
+   "with": [
+    "rumathra",
+    "bastighg",
+    "papaplatte"
+   ]
+  },
+  {
+   "id": "rumathra-r-teabag",
+   "cat": "moment",
+   "label": "Teabag bei 7:1 Rueckstand",
+   "quote": null,
+   "detail": "5. Mai 2025: Rumathra verwandelt in der Kings League einen Strafstoss zum 1:7, hatte Pappbecher und Teebeutel in der Hosentasche fuer das Teabagging-Jubeln. Im Clip schaut er peinlich beruehrt weg; Trymacs spottete.",
+   "year": "2025",
+   "image": "Rumathra Kings League Tor",
+   "sources": [
+    "https://mein-mmo.de/rumathra-ballerleague-tor-teabagging/"
+   ],
+   "conf": "high",
+   "with": [
+    "rumathra",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "rumathra-r-cook",
+   "cat": "moment",
+   "label": "Let them Cook mit Frank Rosin",
+   "quote": null,
+   "detail": "Rumathra und Frank Rosin moderieren die Twitch-Kochshow Let them Cook (2025, sonntags), Chat entscheidet ueber Gerichte, Folge 3 Trymacs gegen Nici. Fuer die Stream Awards 2025 als eintaegiges Event nominiert.",
+   "year": "2025",
+   "image": "Let them Cook Rumathra Rosin",
+   "sources": [
+    "https://mein-mmo.de/trymacs-let-them-cook-gemuese-essen/",
+    "https://streamawards.de/gewinner"
+   ],
+   "conf": "high",
+   "with": [
+    "rumathra",
+    "trymacs",
+    "nici",
+    "frankrosin"
+   ]
+  },
+  {
+   "id": "rumathra-r-gold",
+   "cat": "moment",
+   "label": "Edelmetalltour Kanada",
+   "quote": "Raus aus den Schulden",
+   "detail": "August 2025: Rumathra und Nooreax gehen sechs Tage in Kanada Gold waschen (Dawson City, Discovery Day), bei den Stream Awards 2025 nominiert. Der Fail-Clip Axtverbot stammt von dort, der Inhalt ist unbelegt (Nooreax-TikTok: Axt im Fuss).",
+   "year": "2025",
+   "image": "Rumathra Nooreax Edelmetalltour",
+   "sources": [
+    "https://www.twitch.tv/videos/2541630360",
+    "https://archive.org/details/twitch-chat-41567638",
+    "https://streamawards.de/gewinner"
+   ],
+   "conf": "medium",
+   "with": [
+    "rumathra",
+    "nooreax"
+   ]
+  },
+  {
+   "id": "rumathra-r-teamrocket",
+   "cat": "look",
+   "label": "Team-Rocket-Outfit",
+   "quote": "Wir werden das irgendwann schaffen.",
+   "detail": "September 2025 bei der Pokemon-LAN trug Rumathra ein weisses Team-Rocket-Outfit, Trymacs Ash/Schiggy, Chefstrobel Gengar. (Zitat von Chefstrobel).",
+   "year": "2025",
+   "image": "Team Rocket Kostuem weiss",
+   "sources": [
+    "https://mein-mmo.de/en/three-twitch-streamers-lock-themselves-away-for-days-for-a-pokemon-challenge-fail-after-a-total-of-95-hours,1529154/"
+   ],
+   "conf": "high",
+   "with": [
+    "rumathra",
+    "trymacs",
+    "chefstrobel"
+   ]
+  },
+  {
+   "id": "rumathra-r-gengar",
+   "cat": "gag",
+   "label": "Chefstrobels Gengar-Tattoo",
+   "quote": "Du hast ein Riesen-Gengar auf deinem Oberschenkel, ein Moerder-Gengar.",
+   "detail": "Juni 2025: Trymacs und Rumathra quetschen Chefstrobel zu seinem Gengar-Tattoo aus; er wusste die Typen nicht und tippte bei Schattenball auf Rattata auf normalen Schaden. Beide lachten sich kaputt. (Zitat Trymacs)",
+   "year": "2025",
+   "image": "Chefstrobel Gengar Tattoo",
+   "sources": [
+    "https://mein-mmo.de/en/german-twitch-streamer-has-tattooed-a-pokemon-is-questioned-by-his-colleagues-knows-hardly-anything-about-it,1399153/"
+   ],
+   "conf": "high",
+   "with": [
+    "rumathra",
+    "trymacs",
+    "chefstrobel"
+   ]
+  },
+  {
+   "id": "rumathra-r-sparfuchs",
+   "cat": "gag",
+   "label": "Sparfuchs mit 35.000-Uhr",
+   "quote": "den groessten Sparfuchs auf diesem Planeten",
+   "detail": "April 2024: Laut Trymacs fuhr Rumathra fuer 8 Euro per BlaBlaCar, schlief fuer 10 Euro auf einer Rentnercouch, und liess sich auf der Rueckfahrt von Marc Gebauer eine 35.000-Euro-Uhr aufschwatzen. Nur Trymacs' Version.",
+   "year": "2024",
+   "image": "Rumathra Uhr Marc Gebauer",
+   "sources": [
+    "https://mein-mmo.de/en/twitch-streamer-wanted-to-pay-only-18-euros-for-a-trip-in-the-end-he-received-a-bill-of-35000-euros,1117145/"
+   ],
+   "conf": "medium",
+   "with": [
+    "rumathra",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "rumathra-r-chardonnay",
+   "cat": "gag",
+   "label": "Chardonnay vs H&M-Anzug",
+   "quote": "Dieser Anzug hier von H&M ist guenstiger als der Chardonnay den ich getrunken habe.",
+   "detail": "Dezember 2023 (Clip aus dem Sommer): Beim Essen in Brooklyn mit Trymacs kam die Rechnung statt 200 auf ueber 700 Dollar, ein Glas Chardonnay kostete 55 Dollar.",
+   "year": "2023",
+   "image": "Rumathra Trymacs New York Restaurant",
+   "sources": [
+    "https://mein-mmo.de/en/twitch-trymacs-and-rumathra-eat-like-nobles-are-shocked-by-the-bill,1070434/"
+   ],
+   "conf": "high",
+   "with": [
+    "rumathra",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "rumathra-r-7vw",
+   "cat": "moment",
+   "label": "7 vs. Wild Staffel 3 Aus",
+   "quote": "Die Aerzte warnten das Team davor, zu viel zu essen.",
+   "detail": "Staffel 3 (gedreht August 2023, Kanada): Team Trymacs und Rumathra schied ohne Trinkwasser aus. Danach schlugen sie sich Reis, Schokolade und Chips rein, obwohl Aerzte warnten; Trymacs mochte den Gemuesebruehe-Geruch nicht. Bestaetigt nur Staffel 3, nicht 4/5.",
+   "year": "2023",
+   "image": "7 vs Wild Staffel 3 Trymacs Rumathra",
+   "sources": [
+    "https://mein-mmo.de/en/trymacs-is-feasting-after-days-of-hunger-in-the-camp-of-7-vs-wild-despite-warnings-from-doctors,1079248/",
+    "https://www.heidelberg24.de/ratgeber/7-vs-wild-streamer-staffel-3-rumathra-knossi-hater-papaplatte-trymacs-kanada-zr-92450960.html"
+   ],
+   "conf": "high",
+   "with": [
+    "rumathra",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "rumathra-r-hater",
+   "cat": "zitat",
+   "label": "Wen juckts",
+   "quote": "wen juckt's",
+   "detail": "August 2023: Vor Staffel 3 platzte Rumathra im Stream der Kragen wegen Hasskommentaren gegen die Streamer-Teams; er riet, solche Kommentare einfach zu ignorieren.",
+   "year": "2023",
+   "image": "Rumathra Twitch Rant",
+   "sources": [
+    "https://www.heidelberg24.de/ratgeber/7-vs-wild-streamer-staffel-3-rumathra-knossi-hater-papaplatte-trymacs-kanada-zr-92450960.html"
+   ],
+   "conf": "medium",
+   "with": [
+    "rumathra"
+   ]
+  },
+  {
+   "id": "rumathra-r-lanflucht",
+   "cat": "moment",
+   "label": "LAN-Flucht bei Trymacs",
+   "quote": "Trymacs ekelt sich vor Gemuese. Wie kann Trymacs denn jemanden mobben?",
+   "detail": "Ende Oktober 2023 verliess Rumathra Trymacs' Event nach zwei Tagen wegen staendiger Sticheleien; beide erklaerten es spaeter. Staiy verglich ihn mit Dobby. Nur als Roast-Dynamik nutzbar (Zitat Staiy).",
+   "year": "2023",
+   "image": "Rumathra Trymacs LAN Party",
+   "sources": [
+    "https://mein-mmo.de/teilnehmer-von-7-vs-wild-befreit-aus-der-knechtschaft-von-twitch-streamer-trymacs-mithilfe-eines-tv-kochs/",
+    "https://www.playcentral.de/lan-party-rumathra-geht-trymacs-beef-streit/"
+   ],
+   "conf": "high",
+   "with": [
+    "rumathra",
+    "trymacs",
+    "staiy"
+   ]
+  },
+  {
+   "id": "rumathra-r-diamond",
+   "cat": "habit",
+   "label": "Diamond 2015 sperrt Accounts",
+   "quote": null,
+   "detail": "April 2026: Riot lehnte Trymacs' Silber-Accounts ab, angeblich wegen Rumathras Diamond-Rang von 2015. Fuer die Kumpel-Dynamik: Rumathra ist der LoL-Profi der Gruppe.",
+   "year": "2026",
+   "image": "Rumathra League of Legends",
+   "sources": [
+    "https://mein-mmo.de/trymacs-hat-nach-win-challenge-keinen-bock-mehr-auf-riot/"
+   ],
+   "conf": "medium",
+   "with": [
+    "rumathra",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "rumathra-r-nom25",
+   "cat": "meme",
+   "label": "Nur kurz Hallo sagen / Clanker",
+   "quote": "Nur kurz Hallo sagen",
+   "detail": "Stream Awards 2025: Rumathra ist u.a. mit Nur kurz Hallo sagen (Awkward), Axtverbot (Fail) und mit Reeze mit Clanker (Honorable Mention) gelistet. Zu den Clips fand ich keine Beschreibung, nur Titel.",
+   "year": "2025",
+   "image": "Stream Awards 2025 Rumathra",
+   "sources": [
+    "https://streamawards.de/gewinner"
+   ],
+   "conf": "low",
+   "with": [
+    "rumathra",
+    "reeze",
+    "nooreax"
+   ]
+  },
+  {
+   "id": "rumathra-r-g2",
+   "cat": "moment",
+   "label": "G2 FC Praesidenten treten ab",
+   "quote": null,
+   "detail": "Kings League Germany meldete (Post vom Oktober 2025, Datum aus Tweet-ID abgeleitet), dass Reeze und Rumathra als Praesidenten von G2 Football Club zuruecktreten. Rumathra war Co-Praesident.",
+   "year": "2025",
+   "image": "Kings League Germany G2 Football Club",
+   "sources": [
+    "https://x.com/KingsLeagueDEU/status/1977367203323211792"
+   ],
+   "conf": "low",
+   "with": [
+    "rumathra",
+    "reeze"
+   ]
+  },
+  {
+   "id": "rumathra-r-angry",
+   "cat": "moment",
+   "label": "Angry Titans pausiert",
+   "quote": null,
+   "detail": "Februar 2024: Rumathra sagte, sein Valorant-Team Angry Titans sei wegen nicht bezahlbarer Gehaelter auf Eis gelegt, und kritisierte Riot.",
+   "year": "2024",
+   "image": "Angry Titans Valorant",
+   "sources": [
+    "https://mein-mmo.de/en/twitch-streamer-says-his-german-team-in-valorant-is-bankrupt-riot-does-everything-wrong,1091838/"
+   ],
+   "conf": "medium",
+   "with": [
+    "rumathra"
+   ]
+  },
+  {
+   "id": "rumathra-r-corner",
+   "cat": "habit",
+   "label": "Reactions zur Primetime",
+   "quote": null,
+   "detail": "Rumathra macht zur Primetime Reaction-Content, um seine Zuschauerzahlen zu halten, und spielt erst ab 22 Uhr; Quelle des Dauer-Roasts von Trymacs (Stand Juli 2024).",
+   "year": "2024",
+   "image": "Rumathra Twitch Reaction",
+   "sources": [
+    "https://mein-mmo.de/trymacs-ist-sauer-weil-er-nur-mit-rumathra-zocken-will/"
+   ],
+   "conf": "medium",
+   "with": [
+    "rumathra",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "knossi-r-hover",
+   "cat": "moment",
+   "label": "Hoverboard fuer 180.000 Euro",
+   "quote": "Investition fuer die Firma",
+   "detail": "November 2023: Knossi ersteigerte ein Original-Hoverboard aus Zurueck in die Zukunft II/III (Gebot 100.000 Pfund, mit Gebuehren etwa 180.000 Euro), nannte es Kindheitstraum und Firmeninvestition, rief Mama an, die wenig begeistert klang.",
+   "year": "2023",
+   "image": "Knossi Hoverboard Back to the Future",
+   "sources": [
+    "https://mein-mmo.de/en/37-year-old-fulfills-a-childhood-dream-on-twitch-for-181000-euros-calls-mom-but-she-doesnt-sound-excited,1056549/",
+    "https://www.rollingstone.de/knossi-ersteigert-zurueck-in-die-zukunft-hoverboard-fuer-114-000-euro-2667363/"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi"
+   ]
+  },
+  {
+   "id": "knossi-r-lets",
+   "cat": "moment",
+   "label": "Let's Dance Platz 10",
+   "quote": "Let's Dance Staffel 16",
+   "detail": "2023 trat Knossi bei Let's Dance mit Isabel Edvardsson an und schied am 5. Mai 2023 auf Platz 10 aus. Im Maerz 2026 hielt er bei der Kennenlernshow der neuen Staffel spontan eine Rede.",
+   "year": "2023",
+   "image": "Knossi Let's Dance Isabel Edvardsson",
+   "sources": [
+    "https://de.wikipedia.org/wiki/Let%E2%80%99s_Dance/Staffel_16",
+    "https://www.promiflash.de/news/2026/03/02/spontane-rede-knossi-sorgt-bei-lets-dance-fuer-begeisterung.html"
+   ],
+   "conf": "medium",
+   "with": [
+    "knossi"
+   ]
+  },
+  {
+   "id": "knossi-r-louvre",
+   "cat": "meme",
+   "label": "Knossi-Bueste im Louvre",
+   "quote": "Der ist gefuehlt ueberall",
+   "detail": "Mai 2024: Ein TikTok zeigt eine Kopfskulptur im Louvre mit krone-aehnlichem Kopfschmuck, die Fans fuer Knossi hielten. Kommentare: Zeitreise, Vorfahre; viele baten um Live-Reaction.",
+   "year": "2024",
+   "image": "Knossi Louvre Bueste TikTok",
+   "sources": [
+    "https://www.heidelberg24.de/ratgeber/paris-tiktok-fans-statue-knossi-louvre-museum-entdeckt-der-ist-gefuehlt-ueberall-zr-93067327.html"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi"
+   ]
+  },
+  {
+   "id": "knossi-r-atlantik",
+   "cat": "moment",
+   "label": "Mission Unknown: Atlantik",
+   "quote": "Hoehen, Tiefen und Sturm",
+   "detail": "November 2024: Knossi ueberquert mit zehn Creatorn den Atlantik auf Segelbooten (Team Orange und Blau, rund drei Wochen). Nach der Rueckkehr sprachen Fans ueber sein Aussehen: duenner, mehr Bart. MontanaBlack kommentierte freundlich.",
+   "year": "2024",
+   "image": "Knossi Mission Unknown Atlantik",
+   "sources": [
+    "https://mein-mmo.de/knossi-rueckkehr-mission-unknown-atlantik-aussehen/"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi",
+    "montanablack"
+   ]
+  },
+  {
+   "id": "knossi-r-trymacsnein",
+   "cat": "zitat",
+   "label": "Trymacs lehnt Atlantik ab",
+   "quote": "Fuer kein Geld der Welt wuerde ich da mitmachen.",
+   "detail": "Maerz 2025: Trymacs reagierte auf die erste Folge und sagte ab: 2 bis 3 Quadratmeter pro Person, drei Wochen kein Stream. Knossi nannte die Reise lebensgefaehrlich.",
+   "year": "2025",
+   "image": "Mission Unknown Atlantik Segelboot",
+   "sources": [
+    "https://earlygame.com/de/news/entertainment/fuer-kein-geld-der-welt-wuerde-ich-da-mitmachen-trymacs-ueber-neues-knossi-projekt"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "knossi-r-deepdown",
+   "cat": "moment",
+   "label": "Deep Down: 100h vergraben",
+   "quote": null,
+   "detail": "Ab 4. Mai 2025 auf Joyn: Knossi, Sascha Huber, Fibii, Willi Whey, Lewinray und Ronny Berger in Holzkisten im Wald, 100 Stunden, 16 Folgen.",
+   "year": "2025",
+   "image": "Deep Down Die Vergrabenen Joyn Knossi",
+   "sources": [
+    "https://joyn.de/bts/themen/allgemein/news/reality-shows-im-mai-diese-neustarts-darfst-du-auf-joyn-nicht-verpassen-6990",
+    "https://www.promiflash.de/news/2025/05/05/wie-beerdigung-so-heftig-war-deep-down-fuer-die-kandidaten.html"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi",
+    "ronnyberger"
+   ]
+  },
+  {
+   "id": "knossi-r-playbutton",
+   "cat": "gag",
+   "label": "7 vs Wild Play Button fehlt",
+   "quote": "Spinnst du?",
+   "detail": "Sept. 2025: Knossi beschwert sich live, Season-3-Teilnehmern sei ein Play Button versprochen worden. Fritz Meinecke erinnerte sich an nichts. April 2026 besuchte Knossi die Wildcard-Staffel in Panama und schimpfte erneut auf die Gruender (Zitat aus 2026).",
+   "year": "2025",
+   "image": "Knossi 7 vs Wild Fritz Meinecke",
+   "sources": [
+    "https://mein-mmo.de/en/knossi-says-7-vs-wild-has-not-fulfilled-a-promise-fritz-meinecke-cannot-remember-it,1526169/",
+    "https://mein-mmo.de/en/knossi-returns-to-the-real-7-vs-wild-criticizes-fritz-meinecke-are-you-crazy,1561292/"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi",
+    "fritzmeinecke"
+   ]
+  },
+  {
+   "id": "knossi-r-wildcard",
+   "cat": "moment",
+   "label": "Knossi zurueck auf der Insel",
+   "quote": null,
+   "detail": "April 2026: Knossi besucht die Wildcard-Staffel von 7 vs. Wild, haengt seine Haengematte an die Stelle aus Staffel 2, sammelt Kokosnuesse und uebernachtet dort. Er wiederholte den Gag, Hovekamp solle seine Nummer loeschen.",
+   "year": "2026",
+   "image": "Knossi 7 vs Wild Panama",
+   "sources": [
+    "https://mein-mmo.de/en/knossi-returns-to-the-real-7-vs-wild-criticizes-fritz-meinecke-are-you-crazy,1561292/"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi"
+   ]
+  },
+  {
+   "id": "knossi-r-bb",
+   "cat": "moment",
+   "label": "Big Brother Knossi 2025",
+   "quote": "Big Brother",
+   "detail": "24. Oktober 2025, 57 Stunden, Joyn und Twitch: Zarbex, Schradin, Mia Julia, Peter Ludolf, Rohat, Aria Addams, Rumbombe, Julian Sommer, Katy Karrenbauer, Leyla Heiter; Trymacs und Tom Gerhardt (Hausmeister Krause) nur als Tagesgaeste. Handys fast verboten. 2024 gewann Adam Wolke, 2023 Joey Kelly.",
+   "year": "2025",
+   "image": "Big Brother Knossi Edition 2025",
+   "sources": [
+    "https://www.comicschau.de/news/knossi-big-brother-2025-teilnehmer-701373/",
+    "https://www.joyn.de/bts/serien/promi-big-brother/big-brother-knossi-edition2025-heute-im-livestream-mia-julia-leyla-heiter-sind-dabei-20335"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi",
+    "trymacs",
+    "schradin",
+    "zarbex",
+    "rohat"
+   ]
+  },
+  {
+   "id": "knossi-r-salesch",
+   "cat": "moment",
+   "label": "Das war mein Leben",
+   "quote": "Das war mein Leben.",
+   "detail": "20. November 2025: Beim 24-Stunden-RTL-Spendenmarathon zeigte Knossi Backstage-Bereiche und besuchte Barbara Salesch, wo er vor rund 16 Jahren kleine Rollen spielte (Klaeger, Angeklagter, Zeuge 3). Schlechte Bewertung hiess drei Monate Sperre.",
+   "year": "2025",
+   "image": "Knossi Barbara Salesch RTL Spendenmarathon",
+   "sources": [
+    "https://mein-mmo.de/en/twitch-streamer-knossi-takes-viewers-behind-the-scenes-of-the-tv-show-where-he-regularly-performed-that-was-my-life,1539211/"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi"
+   ]
+  },
+  {
+   "id": "knossi-r-vogel",
+   "cat": "meme",
+   "label": "Vogel wieder abgeschossen",
+   "quote": "Vogel wieder abgeschossen",
+   "detail": "Titel eines Knossi-Clips (Just Chatting), bei den Stream Awards 2025 als Schlimmster Versprecher nominiert. Kontext des Versprechers nicht verifiziert.",
+   "year": "2025",
+   "image": "Knossi Versprecher Clip",
+   "sources": [
+    "https://streamawards.de/gewinner",
+    "https://www.twitchmetrics.net/c/71588578-therealknossi/clips?period=month"
+   ],
+   "conf": "low",
+   "with": [
+    "knossi"
+   ]
+  },
+  {
+   "id": "knossi-r-scarlett",
+   "cat": "moment",
+   "label": "Knossi trifft Scarlett J.",
+   "quote": null,
+   "detail": "Knossi-Video Knossi trifft Scarlett Johansson; bei den Stream Awards 2025 als Stream Crossover nominiert. Details zum Gespraech nicht verifiziert.",
+   "year": "2025",
+   "image": "Knossi Scarlett Johansson",
+   "sources": [
+    "https://www.youtube.com/watch?v=VkWalVkhymQ",
+    "https://streamawards.de/gewinner"
+   ],
+   "conf": "low",
+   "with": [
+    "knossi"
+   ]
+  },
+  {
+   "id": "knossi-r-chaos",
+   "cat": "moment",
+   "label": "Chaos mit Herz 2026",
+   "quote": null,
+   "detail": "Knossi gewann bei den EarlyGame Awards (Show am 1. Maerz 2026) die Kategorie Chaos mit Herz; frueher Casino, heute Spieleabende mit Kollegen und Real-Life-Content.",
+   "year": "2026",
+   "image": "EarlyGame Awards 2026 Knossi",
+   "sources": [
+    "https://earlygame.com/de/awards/earlygame-awards/die-gewinner-der-earlygame-awards-2026-stehen-fest",
+    "https://earlygame.com/de/awards/earlygame-awards/chaos-mit-herz-bei-den-earlygame-awards-zugunsten-von-laureus-sport-for-good-2026-presented-by-dvag"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi"
+   ]
+  },
+  {
+   "id": "knossi-r-40",
+   "cat": "moment",
+   "label": "40. Geburtstag",
+   "quote": "Zehn gute Sommer stehen noch bevor.",
+   "detail": "7. Juli 2026: Knossi wird 40, nimmt vorab eine Videobotschaft auf, bittet um Wuensche in den Kommentaren, weil ihm DMs zu schwer seien.",
+   "year": "2026",
+   "image": "Knossi 40. Geburtstag",
+   "sources": [
+    "https://earlygame.com/de/news/influencers/knossi-feiert-40.-geburtstag-ich-hab-das-gef%C3%BChl-ich-hab-f%C3%BCr-100-andere-mitgelebt"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi"
+   ]
+  },
+  {
+   "id": "knossi-r-chips",
+   "cat": "gag",
+   "label": "Chips-Pleite mit Trymacs",
+   "quote": null,
+   "detail": "Happy Chips (2024 mit Trymacs gestartet) ist eingestellt; 10 Millionen Beutel, jeder verkauft mit Verlust. Trymacs erklaerte es im August 2026 per Praesentation.",
+   "year": "2026",
+   "image": "Happy Chips",
+   "sources": [
+    "https://mein-mmo.de/en/trymacs-has-failed-so-badly-with-his-chips-that-he-has-to-explain-the-losses-with-a-presentation-on-twitch,1583134/"
+   ],
+   "conf": "high",
+   "with": [
+    "knossi",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "eliasn97-r-100k",
+   "cat": "meme",
+   "label": "100.000 Mal Eligella",
+   "quote": "Das nenn ich mal ehrgeizig",
+   "detail": "Februar 2023: Fan manufktur sagte in gut 21:51 Stunden 100.000 Mal Eligella; Elias schaute rein (rund 400 Zuschauer), der Zaehler stockte bei 99.999, am Ende brach der Fan zusammen.",
+   "year": "2023",
+   "image": "manufktur Eligella 100000",
+   "sources": [
+    "https://www.heidelberg24.de/ratgeber/eliasn97-fan-sagt-100000-mal-eligella-twitch-streamer-manufktur-elias-nerlich-berlin-zr-92071479.html"
+   ],
+   "conf": "high",
+   "with": [
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "eliasn97-r-35h",
+   "cat": "moment",
+   "label": "35-Stunden-Win-Challenge",
+   "quote": "Anders, als der Name vielleicht vermuten laesst",
+   "detail": "20. bis 22. Juni 2023: 35 Stunden Stream mit Fall Guys, Elden Ring, Valorant, 14 Stunden an Repaz' Fall-Guys-Map, ueber 3 Mio. Aufrufe. Publikum liebt es, ihn scheitern zu sehen.",
+   "year": "2023",
+   "image": "EliasN97 Win Challenge 35 Stunden",
+   "sources": [
+    "https://mein-mmo.de/eliasn97-35-stunden-stream/"
+   ],
+   "conf": "high",
+   "with": [
+    "eliasn97",
+    "repaz"
+   ]
+  },
+  {
+   "id": "eliasn97-r-vitavate",
+   "cat": "gag",
+   "label": "Eigene Werbung nicht erkannt",
+   "quote": "Ihr habt Probleme, real talk.",
+   "detail": "September 2023: Elias reagiert genervt auf ein TikTok, wie man Vitavate als Eis isst, und merkt erst spaeter, dass es sein eigenes Produkt ist. Fans: Er hat sich noch gerettet.",
+   "year": "2023",
+   "image": "Vitavate Drink",
+   "sources": [
+    "https://www.heidelberg24.de/ratgeber/eliasn97-twitch-tiktok-verbung-vitavate-eligella-berlin-stream-placement-zr-92513552.html"
+   ],
+   "conf": "high",
+   "with": [
+    "eliasn97",
+    "niklaswilson",
+    "sidneyeweka"
+   ]
+  },
+  {
+   "id": "eliasn97-r-spotify",
+   "cat": "habit",
+   "label": "Ein Spotify-Konto fuer zwei",
+   "quote": "Es wird Zeit fuer ein eigenes Spotify-Konto!",
+   "detail": "Maerz 2025: Trotz Millionenvermoegen nutzt Elias seit Jahren ein geteiltes Spotify-Konto (unter 10 Euro im Monat) und scherzte, es werde Zeit fuer ein eigenes.",
+   "year": "2025",
+   "image": "Spotify Konto",
+   "sources": [
+    "https://www.leinetal24.de/boulevard/trotz-millionenvermoegen-elias-nerlich-haelt-an-diesem-10-euro-spartrick-fest-eligella-eliasn97-spotify-zr-93594348.html"
+   ],
+   "conf": "medium",
+   "with": [
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "eliasn97-r-streamingwoche",
+   "cat": "moment",
+   "label": "Eligella Streaming Woche 2025",
+   "quote": "Die Gaesteliste wird jedes Jahr exklusiver.",
+   "detail": "9. Juni 2025 auf dem Adidas-Gelaende Herzogenaurach: Werwolf-Runde mit ueber 90.000 Zuschauern, Zarbex und Schradin werden live in den Pool geworfen (Schradin im weissen Adidas-Anzug). Tag 2 ueber 120.000 Zuschauer.",
+   "year": "2025",
+   "image": "Eligella Streaming Woche Adidas",
+   "sources": [
+    "https://www.comicschau.de/news/eligella-streaming-woche-2025-eli-697511/",
+    "https://www.nextg.tv/news/twitch-event-teilnehmer-ort-datum-adidas-herzogenaurach-livestream-elias-nerlich-streamingwoche-2025-93779500.html"
+   ],
+   "conf": "high",
+   "with": [
+    "eliasn97",
+    "sidneyeweka",
+    "niklaswilson",
+    "zarbex",
+    "schradin",
+    "rohat"
+   ]
+  },
+  {
+   "id": "eliasn97-r-rematch",
+   "cat": "moment",
+   "label": "Eligella Cup Rematch",
+   "quote": "Alle Streamer hatten sichtlich Freude.",
+   "detail": "9. Juli 2025: Fussballspiel Rematch, 8 Teams, 2.000 Euro Preis. Team xSolutionTV gewann das Best-of-5-Finale gegen Team Elias; Trymacs bekam ein Spiel nachtraeglich als Remis zugesprochen, Streit.",
+   "year": "2025",
+   "image": "Eligella Cup Rematch",
+   "sources": [
+    "https://mein-mmo.de/twitch-eliasn97-turnier-neues-fussballturnier-streamer/"
+   ],
+   "conf": "high",
+   "with": [
+    "eliasn97",
+    "trymacs",
+    "sidneyeweka",
+    "schradin"
+   ]
+  },
+  {
+   "id": "eliasn97-r-delaybench",
+   "cat": "moment",
+   "label": "Sidney auf der Bank",
+   "quote": "Einfach nur respektlos",
+   "detail": "24. August 2025: Nach Party-Nacht vor dem Spiel liess Elias als Praesident Mitgruender Sidney 90 Minuten auf der Bank; Beweis war Sidneys eigene Instagram-Story. Delay holte ein Remis. Sidney zeigte sich uneinsichtig.",
+   "year": "2025",
+   "image": "Delay Sports Berlin",
+   "sources": [
+    "https://mein-mmo.de/twitch-streamer-eliasn97-sauer-auf-spieler-von-delay-sports/"
+   ],
+   "conf": "high",
+   "with": [
+    "eliasn97",
+    "sidneyeweka"
+   ]
+  },
+  {
+   "id": "eliasn97-r-delayup",
+   "cat": "moment",
+   "label": "Delay Sports: vierter Aufstieg",
+   "quote": null,
+   "detail": "2025/26 wurde Delay Sports Meister der Bezirksliga (15 Siege in 15 Rueckrundenspielen) und steigt in die Landesliga Berlin auf. 1. August 2026 Testspiel gegen KFC Uerdingen, 5.000 bis 7.000 Zuschauer erwartet.",
+   "year": "2026",
+   "image": "Delay Sports Berlin Fans",
+   "sources": [
+    "https://www.kfc-uerdingen.de/2026/07/delay-sports-berlin-das-steckt-hinter-dem-besonderen-testspielgegner/",
+    "https://de.wikipedia.org/wiki/Delay_Sports_Berlin"
+   ],
+   "conf": "high",
+   "with": [
+    "eliasn97",
+    "sidneyeweka"
+   ]
+  },
+  {
+   "id": "eliasn97-r-goty",
+   "cat": "moment",
+   "label": "Willy will den GOTY",
+   "quote": "den grossen Eligella abzuloesen",
+   "detail": "Februar 2026: Willy (Niklas Wilson) macht per TikTok Wahlkampf gegen seinen besten Freund Elias fuer den EarlyGame Gamer of the Year. Elias gewann zum fuenften Mal, Willy nur rund 2.000 Stimmen dahinter und bekam den MVP-Titel.",
+   "year": "2026",
+   "image": "EarlyGame Awards 2026 Gamer of the Year",
+   "sources": [
+    "https://earlygame.com/de/news/influencers/wird-er-der-neue-black-goty-der-kampf-zwischen-willy-und-eliasn97-beginnt",
+    "https://www.kicker.de/die-gewinner-der-earlygame-awards-2026-1198114/artikel"
+   ],
+   "conf": "medium",
+   "with": [
+    "eliasn97",
+    "niklaswilson"
+   ]
+  },
+  {
+   "id": "eliasn97-r-wholesome",
+   "cat": "moment",
+   "label": "Most Wholesome Moment 2024",
+   "quote": "Most Wholesome Moment",
+   "detail": "Stream Awards 2024: Elias gewann mit Niklas Wilson und Rohat den Most Wholesome Moment; ausserdem Statistikpreise. Willys Clip Eli denkt doch an uns war als Rage Moment nominiert (Willy mit Sidney).",
+   "year": "2024",
+   "image": "Stream Awards 2024 EliasN97 Willy Rohat",
+   "sources": [
+    "https://www.nextg.tv/gaming/stream-awards-2024-deutschland-gewinner-highlights-und-clips-outfits-duo-sieger-nominierungen-stream-93453418.html",
+    "https://de.wikipedia.org/wiki/StreamAwards"
+   ],
+   "conf": "medium",
+   "with": [
+    "eliasn97",
+    "niklaswilson",
+    "rohat"
+   ]
+  },
+  {
+   "id": "eliasn97-r-eli",
+   "cat": "meme",
+   "label": "Eli denkt doch an uns",
+   "quote": "Eli denkt doch an uns",
+   "detail": "November 2024: TikTok-Spruch aus einem Willy-Clip (149k Likes), spaeter als Schoko-Eis-Witz weiterverwendet; Willy stellte sich bei den Summer Games als Kommandant Schoko vor. Sidney ist in den Tags.",
+   "year": "2024",
+   "image": "Eli denkt doch an uns Niklas Wilson",
+   "sources": [
+    "https://www.tiktok.com/@toji.clips/video/7440163897656626454",
+    "https://www.tiktok.com/discover/nimm-schoko-eli-denkt-doch-an-uns"
+   ],
+   "conf": "medium",
+   "with": [
+    "niklaswilson",
+    "eliasn97",
+    "sidneyeweka"
+   ]
+  },
+  {
+   "id": "eliasn97-r-sagfarbe",
+   "cat": "meme",
+   "label": "Sag die Farbe",
+   "quote": "Sag die Farbe",
+   "detail": "Stream Awards 2025: Elias, Sidney, Rosemondy und Musti sind mit dem Clip Sag die Farbe als Gaming Moment gelistet. Inhalt nicht verifiziert.",
+   "year": "2025",
+   "image": "Sag die Farbe Eli Sidney Rosemondy",
+   "sources": [
+    "https://streamawards.de/gewinner"
+   ],
+   "conf": "low",
+   "with": [
+    "eliasn97",
+    "sidneyeweka",
+    "rosemondy",
+    "musti"
+   ]
+  },
+  {
+   "id": "eliasn97-r-summer",
+   "cat": "moment",
+   "label": "Eligella Summer Games",
+   "quote": "Summer Games",
+   "detail": "2025 gewann laut TikTok-Suchhinweis Team Pink (unverifiziert). 2026 zogen 12 Creator am 7. Juni in eine Villa an der Cote d'Azur; Sieger laut TikTok-Posts Arda, Sidney, Mert und Rohat. Eintaegiges Event 2024/25 nominiert.",
+   "year": "2026",
+   "image": "Eligella Summer Games 2026",
+   "sources": [
+    "https://www.esn.com/pages/eligella-summer-games",
+    "https://www.tiktok.com/@the_real_eligella/video/7644930384983035168"
+   ],
+   "conf": "low",
+   "with": [
+    "eliasn97",
+    "sidneyeweka",
+    "niklaswilson"
+   ]
+  },
+  {
+   "id": "eliasn97-r-record",
+   "cat": "moment",
+   "label": "Peak 232.503 im Juni 2026",
+   "quote": null,
+   "detail": "Laut TwitchTracker liegt Elias' Allzeit-Peak bei 232.503 Zuschauern (7. Juni 2026, dem Tag der Summer Games). SullyGnome nennt 211.545; Quellen widersprechen sich. Im Oktober 2026 rund 38.600 im Schnitt.",
+   "year": "2026",
+   "image": "EliasN97 Twitch Rekord",
+   "sources": [
+    "https://twitchtracker.com/eliasn97/statistics",
+    "https://sullygnome.com/channel/eliasn97"
+   ],
+   "conf": "medium",
+   "with": [
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "eliasn97-r-icon",
+   "cat": "moment",
+   "label": "Icon League mit Toni Kroos",
+   "quote": null,
+   "detail": "Elias und Toni Kroos gruenden die Icon League; Saison 5 startet am 18. Oktober 2026, Disney+ zeigt alle Spieltage. Bei den Stream Awards 2024 nominiert fuer Crossover mit Kroos.",
+   "year": "2026",
+   "image": "Icon League Toni Kroos Eli",
+   "sources": [
+    "https://schwarzwaelder-bote.de/sport/fc-08-villingen/icon-league-alles-wissenswerte-zur-season-5-toni-kroos-und-elias-nerlich-rufen-alte-helden-neue-stars-und-die-hoxha-brueder-79548042.html",
+    "https://de.wikipedia.org/wiki/StreamAwards"
+   ],
+   "conf": "high",
+   "with": [
+    "eliasn97",
+    "tonikroos",
+    "sidneyeweka"
+   ]
+  },
+  {
+   "id": "eliasn97-r-ruehl",
+   "cat": "moment",
+   "label": "Eli x Markus Ruehl",
+   "quote": "Markus Ruehl",
+   "detail": "Markus Ruehl war laut Stream-Awards-Nominierung 2025 ein Crossover mit Elias (Streaming-Woche-Gast, YouTube-Video Markus Ruehl in der Streaming Woche); Sidney zeigte ihm ein Bild und verriet versehentlich etwas (TikTok-Beschreibung, nicht belegt).",
+   "year": "2025",
+   "image": "Markus Ruehl Eliasn97",
+   "sources": [
+    "https://www.youtube.com/watch?v=H2va20AnOGs",
+    "https://streamawards.de/gewinner"
+   ],
+   "conf": "low",
+   "with": [
+    "eliasn97",
+    "sidneyeweka",
+    "markusruehl"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-bank",
+   "cat": "moment",
+   "label": "90 Minuten auf der Bank",
+   "quote": "Einfach nur respektlos",
+   "detail": "August 2025: Elias setzt Sidney nach dessen Festival-Nacht aus der Startelf; Sidney postete danach weitere Festival-Fotos. Klassische Eli-roastet-Sidney-Dynamik.",
+   "year": "2025",
+   "image": "Sidney Friede Delay Sports",
+   "sources": [
+    "https://mein-mmo.de/twitch-streamer-eliasn97-sauer-auf-spieler-von-delay-sports/"
+   ],
+   "conf": "high",
+   "with": [
+    "sidneyeweka",
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-arger",
+   "cat": "zitat",
+   "label": "KFC ein bisschen aergern",
+   "quote": "Mal sehen, ob wir den KFC ein bisschen aergern koennen.",
+   "detail": "Juli 2026, Interview vor dem Testspiel gegen KFC Uerdingen (1. August): Sidney will nicht abgeschossen werden, hoert von ueber 5.000 Zuschauern. Fruehere Hertha-Jugend und Wehen Wiesbaden.",
+   "year": "2026",
+   "image": "Sidney Friede Delay Sports Interview",
+   "sources": [
+    "https://www.kfc-uerdingen.de/2026/07/mal-sehen-ob-wir-den-kfc-ein-bisschen-aergern-koennen-delay-sports-mitgruender-sidney-friede-im-interview/"
+   ],
+   "conf": "high",
+   "with": [
+    "sidneyeweka",
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-valo",
+   "cat": "meme",
+   "label": "Hast du heute Valo geuebt?",
+   "quote": "Hast du heute Valo geuebt?",
+   "detail": "Stream Awards 2025: Troll-Moment-Nominierung fuer Sidney und Rosemondy (Wichtiger Telefonjoker). Mehr zum Inhalt nicht belegt.",
+   "year": "2025",
+   "image": "Sidney Rosemondy Valorant",
+   "sources": [
+    "https://streamawards.de/gewinner"
+   ],
+   "conf": "low",
+   "with": [
+    "sidneyeweka",
+    "rosemondy"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-save",
+   "cat": "meme",
+   "label": "Save des Jahres",
+   "quote": "Save des Jahres",
+   "detail": "Sidneys Clip ist 2024 und 2025 als Bester Sport Moment nominiert, 2025 als Save des Jahres. Als Fussballer (Hertha-Jugend, U19/U20) passt das. Details zum Save nicht verifiziert.",
+   "year": "2025",
+   "image": "Sidney Eweka Save",
+   "sources": [
+    "https://streamawards.de/gewinner",
+    "https://de.wikipedia.org/wiki/StreamAwards"
+   ],
+   "conf": "low",
+   "with": [
+    "sidneyeweka"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-duo",
+   "cat": "moment",
+   "label": "Duo mit Niklas Wilson",
+   "quote": "Bestes Streamer Duo",
+   "detail": "Stream Awards 2025: Sidney und Niklas Wilson als Streamer-Duo nominiert; 2024 gemeinsam im Rage-Moment. Die Freundesgruppe Eli, Willy, Sidney, Rohat ist der Kern.",
+   "year": "2025",
+   "image": "Sidney Niklas Wilson Duo",
+   "sources": [
+    "https://streamawards.de/gewinner",
+    "https://mein-mmo.de/en/the-probably-most-relaxed-twitch-streamer-for-lol-unexpectedly-wins-the-award-for-the-best-meltdown,1206598/"
+   ],
+   "conf": "medium",
+   "with": [
+    "sidneyeweka",
+    "niklaswilson",
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-kroos",
+   "cat": "moment",
+   "label": "Mega-Parade gegen Toni Kroos",
+   "quote": "Mega-Parade",
+   "detail": "22. Mai 2026: Icon-League-Video Sidney mit Mega-Parade gegen Toni Kroos, Elfmeterschiessen. Sidneys Rolle (Torwart/Schuetze) unklar; ein weiteres Video Toni fragt mit Sidney.",
+   "year": "2026",
+   "image": "Sidney Toni Kroos Icon League",
+   "sources": [
+    "https://www.cockatoo.com/content/sidney-mit-mega-parade-gegen-toni-kroos",
+    "https://www.youtube.com/watch?v=-Dk_lWXWOmM"
+   ],
+   "conf": "low",
+   "with": [
+    "sidneyeweka",
+    "tonikroos"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-rabona",
+   "cat": "moment",
+   "label": "Rabona-Tor Icon League",
+   "quote": "Rabona Tor von Sidney",
+   "detail": "Sidney schoss fuer die Fokus Eagles in der Icon League ein Rabona-Tor (TikTok-Clip, wohl Herbst 2024) und gewann ein Penalty-Duell.",
+   "year": "2024",
+   "image": "Sidney Rabona Tor Icon League",
+   "sources": [
+    "https://www.tiktok.com/@sidneyvideos/video/7410056493808061728",
+    "https://www.tiktok.com/@rabonakings/video/7410120712150666529"
+   ],
+   "conf": "low",
+   "with": [
+    "sidneyeweka"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-wr",
+   "cat": "habit",
+   "label": "GeoGuessr-Battles",
+   "quote": "GEOGUESSR",
+   "detail": "Sidney streamt viel GeoGuessr (2025 rund 85.000 Stunden Watchtime), Turnier mit Adi, Battle mit Eli und Kroko. Oktober 2026 wieder GeoGuessr-Stream.",
+   "year": "2025",
+   "image": "Sidney GeoGuessr Battle",
+   "sources": [
+    "https://earlygame.com/de/news/hero-stories/vom-jugendvertrag-bis-zum-profifu%C3%9Fball-was-sidney-friede-%C3%BCber-seine-karriere-und-sein-gehalt-erz%C3%A4hlt-gesponsert",
+    "https://www.youtube.com/watch?v=C4u11dgaSr8"
+   ],
+   "conf": "low",
+   "with": [
+    "sidneyeweka",
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-vitavate",
+   "cat": "habit",
+   "label": "Vitavate und Elevate",
+   "quote": "Vitavate",
+   "detail": "Sidney ist Mitinhaber des Getraenks Vitavate (mit Eli und Willy) und der Modemarke Elevate (mit Eli); EA FC ist sein Hauptspiel, im Oktober 2026 FC 27.",
+   "year": "2025",
+   "image": "Vitavate Elevate",
+   "sources": [
+    "https://earlygame.com/de/entertainment/sidneyeweka-vermoegen-gehalt-youtube-twitch-einnahmen",
+    "https://www.twitch.tv/sidneyeweka/schedule"
+   ],
+   "conf": "medium",
+   "with": [
+    "sidneyeweka",
+    "eliasn97",
+    "niklaswilson"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-sw25",
+   "cat": "moment",
+   "label": "Streaming Woche 2025",
+   "quote": "Streaming Woche",
+   "detail": "Sidney gehoert neben Willy zum engsten Kreis bei Elis Streaming Woche (Juni 2025, Adidas-Campus) und war 2026 bei den Summer Games in Frankreich dabei.",
+   "year": "2025",
+   "image": "Eligella Streaming Woche Sidney",
+   "sources": [
+    "https://www.comicschau.de/news/eligella-streaming-woche-2025-eli-697511/"
+   ],
+   "conf": "medium",
+   "with": [
+    "sidneyeweka",
+    "eliasn97",
+    "niklaswilson"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-ban",
+   "cat": "gag",
+   "label": "Streamen trotz Bann",
+   "quote": null,
+   "detail": "Elias sagte laut MeinMMO, er wuerde auch mit einem gebannten Sidney weiter zusammen streamen. Aelterer Artikel, nur als Freundschafts-Gag.",
+   "year": "2023",
+   "image": "Sidney Eweka Eli Stream",
+   "sources": [
+    "https://mein-mmo.de/eliasn97-ueber-zukunft-von-twitch/"
+   ],
+   "conf": "low",
+   "with": [
+    "sidneyeweka",
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "sidneyeweka-r-hair",
+   "cat": "gag",
+   "label": "Haareschneiden fuer 20 Euro",
+   "quote": null,
+   "detail": "2023: Sidney bot im Gespraech mit HoneyPuu, Rohat und Niklas Wilson spasshaft an, ihr die Haare fuer 20 Euro zu schneiden (MeinMMO).",
+   "year": "2023",
+   "image": "Sidney Eweka Friseur Stream",
+   "sources": [
+    "https://mein-mmo.de/twitch-streamerin-erklaert-maennern-wie-viel-geld-sie-beim-friseur-zahlt/"
+   ],
+   "conf": "low",
+   "with": [
+    "sidneyeweka",
+    "honeypuu",
+    "rohat",
+    "niklaswilson"
+   ]
+  }
+ ],
+ "avoid": [
+  {
+   "who": "knossi",
+   "topic": "Zaehne, Sucht, Gluecksspiel-Vergangenheit, Handyspiel-Werbung",
+   "why": "Gesundheit und Kontroverse, Casino-Streams bis 2021, ZDF-Reportage"
+  },
+  {
+   "who": "knossi",
+   "topic": "Verlobung, Hochzeit Juli 2026, Partnerin",
+   "why": "Beziehung"
+  },
+  {
+   "who": "knossi",
+   "topic": "MontanaBlack Absage bei Big Brother und Gerichtstermin",
+   "why": "Rechtliches"
+  },
+  {
+   "who": "eliasn97",
+   "topic": "Sexismus-Skandal, Polizeikontrolle, Verlobung/Melina, Vermoegen",
+   "why": "Anschuldigung, Rechtliches, Beziehung, Neid-Thema"
+  },
+  {
+   "who": "eliasn97",
+   "topic": "Berlin wie eine GTA-Lobby (Gewalt, Schiesserei)",
+   "why": "Gewalt/sensibel, August 2026"
+  },
+  {
+   "who": "sidneyeweka",
+   "topic": "Panikattacken und Cannabis",
+   "why": "Gesundheit"
+  },
+  {
+   "who": "sidneyeweka",
+   "topic": "Verwechslung mit Sidneuke (polnische Streamerin, Hunde-Vorfall 2023)",
+   "why": "Andere Person, Tierleid"
+  },
+  {
+   "who": "trymacs",
+   "topic": "Clash-of-Clans-Update und Beziehung, Haartransplantation Dez. 2023, Familie",
+   "why": "Beziehung, Gesundheit"
+  },
+  {
+   "who": "rumathra",
+   "topic": "Mobbing-Vorwurf bei der LAN-Flucht 2023",
+   "why": "Anschuldigung (nur als Roast-Dynamik erwaehnen)"
+  },
+  {
+   "who": "schradin",
+   "topic": "Familiaerer Notfall vor Big Brother",
+   "why": "Familie"
+  },
+  {
+   "who": "allgemein",
+   "topic": "Clip-Titel mit Beleidigungen von den Stream Awards (z.B. Fotzenkind)",
+   "why": "Vulgaer, Nooreax/Schradin"
+  }
+ ]
+}

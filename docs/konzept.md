@@ -129,3 +129,12 @@ Kanal B ("Rapper-Duell") ist vorerst gestrichen. Wir machen nur Kanal A (@akhmac
 Lucio101 heißt in Kanal A nur "Lucio". Nizi19 bleibt mit 19. Yuyu19 heißt in jedem Video "Haribo".
 Ende: "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!"
 Countdown: heller Uhr-Tick, 5 pro Sekunde, nachgebaut nach Jakobs Referenzvideo.
+
+## Update 16.10.: Hook nach a01 (15k Views)
+
+a01 ging durch, a02-a04 nicht. Einziger Unterschied war die Hook-Frage. Ab a05 daher die a01-Formel: **"Eine Nacht mit X, oder nie wieder Y hören?"**, extreme Prozente (unter 12 / über 88), große Namen bei "nie wieder".
+
+- Hook ab Frame 0 komplett sichtbar (beide Bilder, kein Reinfliegen), gelber Sticker "WAS WÄHLT DIE MEHRHEIT? 👀", Einschlag + Ring + Pop als Sound, Stimme 1.12x.
+- Hook-Timer zeigt 3-2-1, läuft aber in 1.5 s ab (Tick doppelt so schnell). Alle anderen Timer 2.7 s. Stimme sonst 1.05x.
+- Follow-Popup mittig, Rest unscharf, ca. 0.7 s.
+- Upload: siehe `docs/upload_checkliste.md` (KI-Label, Cover, Sound Solitude, alle Rapper als Hashtags).

@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "24 Stunden mit Lucio im Fahrstuhl, oder mit Pashanim im Bällebad?",
+  "say": "Eine Nacht mit Pashanim, oder nie wieder Lucio hören?",
   "a": {
-   "label": "Lucio im Fahrstuhl",
-   "img": "artists/lucio101.jpg"
-  },
-  "b": {
-   "label": "Pashanim im Bällebad",
+   "label": "1 Nacht mit Pashanim",
    "img": "artists/pashanim.jpg"
   },
+  "b": {
+   "label": "Nie wieder Lucio",
+   "img": "artists/lucio101.jpg"
+  },
   "pct": [
-   95,
-   5
+   9,
+   91
   ],
   "type": "hook"
  },

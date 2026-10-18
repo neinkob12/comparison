@@ -1,0 +1,117 @@
+{
+ "id": "g01",
+ "channel": "G",
+ "handle": null,
+ "format": "quiz",
+ "claim": {
+  "title": "NUR 15%",
+  "sub": "ANTWORTEN RICHTIG",
+  "say": "Nur 15 Prozent beantworten alle drei richtig!"
+ },
+ "questions": [
+  {
+   "say": "1 Million Euro sofort, oder 5.000 Euro im Monat für immer?",
+   "a": {
+    "label": "1 Mio. € sofort",
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "5.000 € / Monat",
+    "emoji": "📅"
+   },
+   "pct": [
+    31,
+    69
+   ],
+   "explain": {
+    "a": {
+     "fact": "Bei ~7 % Rendite: ca. 70.000 € pro Jahr. Die Million bleibt.",
+     "say": "Die Million bringt bei historisch rund 7 Prozent im Schnitt etwa 70.000 Euro im Jahr. Und die Million bleibt dir."
+    },
+    "b": {
+     "fact": "5.000 € im Monat = nur 60.000 € im Jahr",
+     "say": "Die 5.000 Euro im Monat sind nur 60.000 Euro im Jahr."
+    },
+    "best": "a",
+    "winSay": "Die Million gewinnt. Und die kannst du sogar vererben."
+   }
+  },
+  {
+   "say": "100.000 Euro sofort, oder 1 Cent, der sich 30 Tage lang jeden Tag verdoppelt?",
+   "a": {
+    "label": "100.000 € sofort",
+    "emoji": "💶"
+   },
+   "b": {
+    "label": "1 Cent × 2, 30 Tage",
+    "emoji": "🪙"
+   },
+   "pct": [
+    72,
+    28
+   ],
+   "explain": {
+    "a": {
+     "fact": "100.000 €, sofort auf dem Konto",
+     "say": "Die 100.000 Euro hast du sofort."
+    },
+    "b": {
+     "fact": "Tag 20: 5.243 €\nTag 30: 5,37 Mio. €",
+     "say": "Der Cent ist an Tag 20 erst bei 5.243 Euro. Aber an Tag 30 bei über 5,3 Millionen."
+    },
+    "best": "b",
+    "winSay": "Der Cent gewinnt. Das ist exponentielles Wachstum."
+   }
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder Lieferando, oder nie wieder Netflix?",
+   "a": {
+    "label": "Nie wieder Lieferando",
+    "emoji": "🍕"
+   },
+   "b": {
+    "label": "Nie wieder Netflix",
+    "emoji": "📺"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "Ab 20 jeden Monat 100 Euro anlegen, oder ab 40 jeden Monat 300 Euro?",
+   "a": {
+    "label": "Ab 20: 100 € / Monat",
+    "emoji": "🧑"
+   },
+   "b": {
+    "label": "Ab 40: 300 € / Monat",
+    "emoji": "🧔"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "explain": {
+    "a": {
+     "fact": "Mit 65: ca. 379.000 €\n(eingezahlt: 54.000 €)",
+     "say": "Bei 7 Prozent im Jahr hast du mit 65 rund 379.000 Euro. Eingezahlt hast du nur 54.000."
+    },
+    "b": {
+     "fact": "Mit 65: ca. 243.000 €\n(eingezahlt: 90.000 €)",
+     "say": "Ab 40 sind es nur rund 243.000 Euro. Obwohl du 90.000 eingezahlt hast."
+    },
+    "best": "a",
+    "winSay": "Früh anfangen schlägt viel einzahlen."
+   }
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an jemanden, der jeden Monat pleite ist",
+  "shareSay": "Und schick das an jemanden, der jeden Monat pleite ist!"
+ }
+}

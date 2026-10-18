@@ -1,0 +1,654 @@
+{
+ "streamers": {
+  "papaplatte": {
+   "display": "Papaplatte",
+   "real_nicknames": [
+    {
+     "name": "Platte",
+     "source_url": "https://mein-mmo.de/relevanteste-deutsche-streamer-twitch-2024-google/5/"
+    },
+    {
+     "name": "Papa",
+     "source_url": "https://de.wikipedia.org/wiki/Papaplatte"
+    },
+    {
+     "name": "Kevin (Kevin Teller, laut mein-mmo/Presse)",
+     "source_url": "https://mein-mmo.de/relevanteste-deutsche-streamer-twitch-2024-google/5/"
+    }
+   ],
+   "fake_names": [
+    "Papaplattenbau",
+    "Papa Pfanne",
+    "Platte Kachel"
+   ],
+   "slop": [
+    "Paaaapaaaa Plaaaatte",
+    "Plaaaaattttteeee"
+   ],
+   "tts_spelling": "Papa Platte",
+   "pronunciation_notes": "Deutsch ausgesprochen, zwei Woerter: Papa-Platte, Betonung auf Platte. Fans sagen kurz Platte.",
+   "confidence": "medium"
+  },
+  "montanablack": {
+   "display": "MontanaBlack",
+   "real_nicknames": [
+    {
+     "name": "Monte",
+     "source_url": "https://mein-mmo.de/relevanteste-deutsche-streamer-twitch-2024-google/5/"
+    },
+    {
+     "name": "Marcel (Marcel Eris)",
+     "source_url": "https://de.wikipedia.org/wiki/MontanaBlack"
+    },
+    {
+     "name": "Memo",
+     "source_url": "https://mein-mmo.de/relevanteste-deutsche-streamer-twitch-2024-google/5/"
+    }
+   ],
+   "fake_names": [
+    "Montana Weiss",
+    "Monte Grau",
+    "Berg-Marcel"
+   ],
+   "slop": [
+    "Moooontaaaanaaa Blaaaack",
+    "Moooonteeeee"
+   ],
+   "tts_spelling": "Montana Black",
+   "pronunciation_notes": "Englisch-ish: Mon-ta-na Blaek. Fans sagen Monte (Mon-te). Catchphrases: Realtalk, Digga.",
+   "confidence": "high"
+  },
+  "knossi": {
+   "display": "Knossi",
+   "real_nicknames": [
+    {
+     "name": "Knossi",
+     "source_url": "https://de.wikipedia.org/wiki/Knossi"
+    },
+    {
+     "name": "Jens (Jens Knossalla)",
+     "source_url": "https://de.wikipedia.org/wiki/Knossi"
+    },
+    {
+     "name": "Entertainer/Ballermann-Saenger",
+     "source_url": "https://mein-mmo.de/relevanteste-deutsche-streamer-twitch-2024-google/5/"
+    }
+   ],
+   "fake_names": [
+    "Knossi Knossalot",
+    "Kno-Knossi",
+    "Herr Knossalla"
+   ],
+   "slop": [
+    "Knoooossssiiiii",
+    "Kknnnooossssiiii"
+   ],
+   "tts_spelling": "Knossi",
+   "pronunciation_notes": "Das K wird gesprochen: K-nossi. Falls TTS das K verschluckt: Kenossi testen.",
+   "confidence": "high"
+  },
+  "trymacs": {
+   "display": "Trymacs",
+   "real_nicknames": [
+    {
+     "name": "Maxim (Maximilian Stemmler)",
+     "source_url": "https://mein-mmo.de/relevanteste-deutsche-streamer-twitch-2024-google/5/"
+    },
+    {
+     "name": "Try",
+     "source_url": "https://de.wikipedia.org/wiki/Trymacs"
+    },
+    {
+     "name": "Macs",
+     "source_url": "https://de.wikipedia.org/wiki/Trymacs"
+    }
+   ],
+   "fake_names": [
+    "Trymacks Maxi",
+    "Doktor Try",
+    "Tryhard Maxim"
+   ],
+   "slop": [
+    "Traaaaiiimaaaaks",
+    "Triiiiimaaaacs"
+   ],
+   "tts_spelling": "Trai Mäx",
+   "pronunciation_notes": "Englisch: Trai-Maks (try + macs). Fans sagen Trymacs oder Maxim.",
+   "confidence": "medium"
+  },
+  "unge": {
+   "display": "Unge",
+   "real_nicknames": [
+    {
+     "name": "Unge",
+     "source_url": "https://de.wikipedia.org/wiki/Unge"
+    }
+   ],
+   "fake_names": [
+    "Ungeheuer Unge",
+    "Unge Gunge",
+    "Herr Unfertig"
+   ],
+   "slop": [
+    "Uuuuungeeeee",
+    "Ungeeeeeeh"
+   ],
+   "tts_spelling": "Unge",
+   "pronunciation_notes": "Zwei Silben, Un-ge wie 'Unge-duld'. Echter Vorname nicht belegt, nicht verwenden.",
+   "confidence": "low"
+  },
+  "rewinside": {
+   "display": "Rewinside",
+   "real_nicknames": [
+    {
+     "name": "Rewi",
+     "source_url": "https://de.wikipedia.org/wiki/Rewinside"
+    }
+   ],
+   "fake_names": [
+    "Rewiiind",
+    "Rewinsidedown",
+    "Rewi Rewind"
+   ],
+   "slop": [
+    "Reeeewiiiinsaaaaiiid",
+    "Riiiiiwiiiinsaaaid"
+   ],
+   "tts_spelling": "Ri Wein Seid",
+   "pronunciation_notes": "Fans sagen Rewi (Re-wi). Voller Name englisch Re-win-side; TTS 'Ri Wein Said' testen.",
+   "confidence": "low"
+  },
+  "handofblood": {
+   "display": "HandOfBlood",
+   "real_nicknames": [
+    {
+     "name": "HoB",
+     "source_url": "https://de.wikipedia.org/wiki/HandOfBlood"
+    },
+    {
+     "name": "Hand",
+     "source_url": "https://de.wikipedia.org/wiki/HandOfBlood"
+    }
+   ],
+   "fake_names": [
+    "Hand of Blut",
+    "Handtuch of Blood",
+    "Blutiger Handschuh"
+   ],
+   "slop": [
+    "Haaaaaandooooofblaaaaad",
+    "Händdddofblaaaad"
+   ],
+   "tts_spelling": "Hend of Blad",
+   "pronunciation_notes": "Englisch: Haend of Bladd. Gesprochen wie im Englischen, Fans kuerzen HoB.",
+   "confidence": "medium"
+  },
+  "gronkh": {
+   "display": "Gronkh",
+   "real_nicknames": [
+    {
+     "name": "Erik (Erik Range)",
+     "source_url": "https://mein-mmo.de/relevanteste-deutsche-streamer-twitch-2024-google/5/"
+    },
+    {
+     "name": "Gronkh",
+     "source_url": "https://de.wikipedia.org/wiki/Gronkh"
+    }
+   ],
+   "fake_names": [
+    "Gronkenstein",
+    "Grunzkh",
+    "Opa Gronk"
+   ],
+   "slop": [
+    "Groooonkkkkh",
+    "Grooooonnnnkkkhhh"
+   ],
+   "tts_spelling": "Gronk",
+   "pronunciation_notes": "Ein Wort wie 'Gronk', kein Vokal am Ende, das h praktisch stumm. Erik ist oeffentlich bekannt.",
+   "confidence": "high"
+  },
+  "eliasn97": {
+   "display": "EliasN97",
+   "real_nicknames": [
+    {
+     "name": "Eli",
+     "source_url": "https://de.wikipedia.org/wiki/EliasN97"
+    },
+    {
+     "name": "Elias",
+     "source_url": "https://de.wikipedia.org/wiki/EliasN97"
+    }
+   ],
+   "fake_names": [
+    "Eliasn Sieben-und-Neunzig",
+    "Eli Spaghetti",
+    "Elias Nuller"
+   ],
+   "slop": [
+    "Eeeeliiiaaaas Enn Neeeuuun Siiiiebeeen",
+    "Eliiiiiiasn"
+   ],
+   "tts_spelling": "Elias Enn Neun Sieben",
+   "pronunciation_notes": "Zahlen als Einzelziffern, so wie im Rapper-Kanal. Alternative Elias N Siebenundneunzig.",
+   "confidence": "medium"
+  },
+  "sidneyeweka": {
+   "display": "SidneyEweka",
+   "real_nicknames": [
+    {
+     "name": "Sidney",
+     "source_url": "https://de.wikipedia.org/wiki/Sidney_Eweka"
+    },
+    {
+     "name": "Sid",
+     "source_url": "https://de.wikipedia.org/wiki/Sidney_Eweka"
+    }
+   ],
+   "fake_names": [
+    "Sidney Eiweiss",
+    "Eweka Eweka",
+    "Sidney Sidewalk"
+   ],
+   "slop": [
+    "Siiiiidneeeey Eeeewekaaaa",
+    "Sidnneeeeey"
+   ],
+   "tts_spelling": "Sidni Ewecka",
+   "pronunciation_notes": "Sid-ni E-we-ka, Betonung auf E-we-ka. Fans: Sidney.",
+   "confidence": "medium"
+  },
+  "mckytv": {
+   "display": "McKyTV",
+   "real_nicknames": [
+    {
+     "name": "Mcky",
+     "source_url": "https://de.wikipedia.org/wiki/McKy"
+    },
+    {
+     "name": "Micky (Fan-Aussprache)",
+     "source_url": "https://de.wikipedia.org/wiki/McKy"
+    }
+   ],
+   "fake_names": [
+    "Mecki Messer",
+    "McKaeckie",
+    "Mcky Mouse"
+   ],
+   "slop": [
+    "Meeeeckiiiii Tiiiie Weeee",
+    "Määäckyyyy"
+   ],
+   "tts_spelling": "Mecki Tie Wie",
+   "pronunciation_notes": "Mecki ist die gaengige Fan-Aussprache; Zusatz TV deutsch Te-Fau oder englisch Tie-Wie.",
+   "confidence": "low"
+  },
+  "reved": {
+   "display": "Reved",
+   "real_nicknames": [
+    {
+     "name": "Revi",
+     "source_url": "https://de.wikipedia.org/wiki/Reved"
+    }
+   ],
+   "fake_names": [
+    "Reveeeed Gewitter",
+    "Rev Ed Sheeran",
+    "Doktor Revi"
+   ],
+   "slop": [
+    "Reeeeveeeed",
+    "Riiiiwääääd"
+   ],
+   "tts_spelling": "Riwed",
+   "pronunciation_notes": "Wahrscheinlich Re-ved englisch (Ri-wed). Fan-Kurzform Revi unbestaetigt.",
+   "confidence": "low"
+  },
+  "noway": {
+   "display": "Noway",
+   "real_nicknames": [
+    {
+     "name": "Noway",
+     "source_url": "https://de.wikipedia.org/wiki/Noway4u_Sir"
+    },
+    {
+     "name": "Sir",
+     "source_url": "https://de.wikipedia.org/wiki/Noway4u_Sir"
+    }
+   ],
+   "fake_names": [
+    "Noway Hosay",
+    "Kein-Weg Kevin",
+    "Nowäääh"
+   ],
+   "slop": [
+    "Noooowaaaaay",
+    "Nooooweeeey"
+   ],
+   "tts_spelling": "No Wei",
+   "pronunciation_notes": "Englisch No-way. Titel Sir als Spitzname moeglich (noway4u_sir).",
+   "confidence": "low"
+  },
+  "stegi": {
+   "display": "Stegi",
+   "real_nicknames": [
+    {
+     "name": "Stegi",
+     "source_url": "https://de.wikipedia.org/wiki/Stegi"
+    }
+   ],
+   "fake_names": [
+    "Stegi Steckdose",
+    "Stegosaurus Stegi",
+    "Herr Treppe"
+   ],
+   "slop": [
+    "Steeeegiiiii",
+    "Sssteeeegiiiiiii"
+   ],
+   "tts_spelling": "Stegi",
+   "pronunciation_notes": "Ste-gi, kurzes e, g hart. Wortspiel Steg/Stegosaurus ist unser eigenes.",
+   "confidence": "medium"
+  },
+  "rumathra": {
+   "display": "Rumathra",
+   "real_nicknames": [
+    {
+     "name": "Ruma",
+     "source_url": "https://de.wikipedia.org/wiki/Rumathra"
+    }
+   ],
+   "fake_names": [
+    "Rumpelstilzchen Ruma",
+    "Rum Mathe",
+    "Rumatratra"
+   ],
+   "slop": [
+    "Ruuuumaaaathraaaa",
+    "Rumaaaaatraaaa"
+   ],
+   "tts_spelling": "Ru Ma Tra",
+   "pronunciation_notes": "Ru-ma-tra, th wie t. Fans: Ruma.",
+   "confidence": "low"
+  },
+  "tanzverbot": {
+   "display": "Tanzverbot",
+   "real_nicknames": [
+    {
+     "name": "Tanze",
+     "source_url": "https://de.wikipedia.org/wiki/Tanzverbot"
+    }
+   ],
+   "fake_names": [
+    "Tanzerlaubnis",
+    "Tanzverbotene Frucht",
+    "Herr Disco"
+   ],
+   "slop": [
+    "Taaaanzverbooooot",
+    "Tanzzzzzvaaabooot"
+   ],
+   "tts_spelling": "Tanzverbot",
+   "pronunciation_notes": "Normales deutsches Wort: Tanz-ver-bot, Betonung Tanz.",
+   "confidence": "medium"
+  },
+  "inscope21": {
+   "display": "InScope21",
+   "real_nicknames": [
+    {
+     "name": "Scope",
+     "source_url": "https://de.wikipedia.org/wiki/InScope21"
+    }
+   ],
+   "fake_names": [
+    "Inscope Heiligabend",
+    "Ausser-Scope",
+    "Skop Einundzwanzig"
+   ],
+   "slop": [
+    "Iiiinskoooup Einuuuundzwaaaanzig",
+    "Iiinsskoooooup"
+   ],
+   "tts_spelling": "In Skoup Ein Zwei",
+   "pronunciation_notes": "Alternativ In-Skoup Einundzwanzig; konsistent zur Regel Einzelziffern: Zwei Eins. Fans kuerzen Scope.",
+   "confidence": "low"
+  },
+  "bastighg": {
+   "display": "BastiGHG",
+   "real_nicknames": [
+    {
+     "name": "Basti",
+     "source_url": "https://de.wikipedia.org/wiki/BastiGHG"
+    }
+   ],
+   "fake_names": [
+    "Bastiii Gehaaage",
+    "Basti Ghostbuster",
+    "Sebastian Schnitzel"
+   ],
+   "slop": [
+    "Baaaastiiiii Geee Haaa Geee",
+    "Baaastiiiiii"
+   ],
+   "tts_spelling": "Basti Ge Ha Ge",
+   "pronunciation_notes": "Basti plus Buchstaben G-H-G einzeln (Ge Ha Ge) fuer eindeutige Aussprache.",
+   "confidence": "medium"
+  },
+  "shurjoka": {
+   "display": "Shurjoka",
+   "real_nicknames": [
+    {
+     "name": "Shur",
+     "source_url": "https://de.wikipedia.org/wiki/Shurjoka"
+    },
+    {
+     "name": "Joka",
+     "source_url": "https://de.wikipedia.org/wiki/Shurjoka"
+    }
+   ],
+   "fake_names": [
+    "Schurke Joker",
+    "Shurjoker",
+    "Schur-Schoka"
+   ],
+   "slop": [
+    "Shuuuurjoookaaaa",
+    "Schuuuuuuurjokaaa"
+   ],
+   "tts_spelling": "Schur Joka",
+   "pronunciation_notes": "Schur-Jo-ka, Betonung Jo. Gesprochen wie bei Fans Schur-Joka.",
+   "confidence": "low"
+  },
+  "dhalucard": {
+   "display": "Dhalucard",
+   "real_nicknames": [
+    {
+     "name": "Dhalu",
+     "source_url": "https://de.wikipedia.org/wiki/Dhalucard"
+    }
+   ],
+   "fake_names": [
+    "Dalu Dracula",
+    "Halluzinard",
+    "Dahlu Karte"
+   ],
+   "slop": [
+    "Daaaaluuuucaaaard",
+    "Dhaaaaaluuuukaaard"
+   ],
+   "tts_spelling": "Dalu Kard",
+   "pronunciation_notes": "Dhalu wie Dalu, Card englisch Kard. Wortspiel Halluzination ist unser eigenes.",
+   "confidence": "low"
+  },
+  "rezo": {
+   "display": "Rezo",
+   "real_nicknames": [
+    {
+     "name": "Rezo",
+     "source_url": "https://de.wikipedia.org/wiki/Rezo_(YouTuber)"
+    },
+    {
+     "name": "Blauhaar",
+     "source_url": "https://de.wikipedia.org/wiki/Rezo_(YouTuber)"
+    }
+   ],
+   "fake_names": [
+    "Rezzo Rezept",
+    "Doktor Zerstoerung",
+    "Rezoluzzer"
+   ],
+   "slop": [
+    "Reeeeezooooo",
+    "Rezzzzooooo"
+   ],
+   "tts_spelling": "Resso",
+   "pronunciation_notes": "Re-zo, e wie in Rezept, z weich wie s. Fans: Rezo (Re-tso ist falsch).",
+   "confidence": "medium"
+  },
+  "amar": {
+   "display": "Amar",
+   "real_nicknames": [
+    {
+     "name": "Amar",
+     "source_url": "https://de.wikipedia.org/wiki/Amar_(Rapper)"
+    }
+   ],
+   "fake_names": [
+    "Amarillo",
+    "Amar Amaretto",
+    "Herr Amarone"
+   ],
+   "slop": [
+    "Aaaaamaaaaar",
+    "Amaaaaaaar"
+   ],
+   "tts_spelling": "Amar",
+   "pronunciation_notes": "A-mar, Betonung auf zweite Silbe (a-MAR) wie bei Fans.",
+   "confidence": "low"
+  },
+  "zarbex": {
+   "display": "Zarbex",
+   "real_nicknames": [
+    {
+     "name": "Zarbex",
+     "source_url": "https://de.wikipedia.org/wiki/Zarbex"
+    }
+   ],
+   "fake_names": [
+    "Zarbek Zebra",
+    "Sarg-Bex",
+    "Zarbextra"
+   ],
+   "slop": [
+    "Zaaaaarbeeeex",
+    "Zaaarbeks"
+   ],
+   "tts_spelling": "Sar Bex",
+   "pronunciation_notes": "Zar-bex, z kann s oder ts sein; Fan-Aussprache Zar-bex mit Z wie in Zar. Testen.",
+   "confidence": "low"
+  },
+  "filow": {
+   "display": "Filow",
+   "real_nicknames": [
+    {
+     "name": "Filow",
+     "source_url": "https://de.wikipedia.org/wiki/Filow"
+    }
+   ],
+   "fake_names": [
+    "Fillow Pillow",
+    "Filo Teig",
+    "Fili Flow"
+   ],
+   "slop": [
+    "Fiiiiiloooow",
+    "Fiiiiilooooowwww"
+   ],
+   "tts_spelling": "Fi Lo",
+   "pronunciation_notes": "Fi-lo, w stumm. Wortspiel Pillow/Filoteig ist unser eigenes.",
+   "confidence": "low"
+  }
+ },
+ "filler_slop": [
+  {
+   "text": "Diggaaaaa",
+   "meaning": "Digga, gaengige deutsche Anrede, verifiziert als allgemeiner Slang"
+  },
+  {
+   "text": "Chaaaat",
+   "meaning": "der Twitch-Chat, immer im Plural 'Chat?!' ruft der Streamer"
+  },
+  {
+   "text": "Poooog",
+   "meaning": "Pog, Begeisterung, belegt (Emote PogChamp)"
+  },
+  {
+   "text": "Poggeeeers",
+   "meaning": "Poggers, belegt in mein-mmo-Ratgeber"
+  },
+  {
+   "text": "Sheeeesh",
+   "meaning": "Bewunderung, englischer Slang, in Clips verbreitet"
+  },
+  {
+   "text": "Ehrenmaaaann",
+   "meaning": "Ehrenmann, Lob in der Szene, eher bestaetigt als Ehrenpflaume"
+  },
+  {
+   "text": "Ehrenpflaume",
+   "meaning": "scherzhaftes Lob/Beleidigung, nicht verifiziert, nur als Fun-Wort"
+  },
+  {
+   "text": "Alteeeer",
+   "meaning": "Alter, Ausruf der Ueberraschung"
+  },
+  {
+   "text": "Geeeeil",
+   "meaning": "geil, Begeisterung"
+  },
+  {
+   "text": "Bruuuuuh",
+   "meaning": "Bruh, Fassungslosigkeit"
+  },
+  {
+   "text": "Kaaaappa",
+   "meaning": "Kappa-Emote, Sarkasmus, belegt"
+  },
+  {
+   "text": "Eeeeeff im Chaaaat",
+   "meaning": "F im Chat, Beileid, belegt"
+  },
+  {
+   "text": "Wiiiiild",
+   "meaning": "wild, Ausruf bei Ueberraschung"
+  },
+  {
+   "text": "Realtalk",
+   "meaning": "MontanaBlack-Marke, ernste Ansage"
+  },
+  {
+   "text": "Haaabiiibiii",
+   "meaning": "Habibi, Anrede in der Szene"
+  },
+  {
+   "text": "Yooooo",
+   "meaning": "Begruessung / Hype"
+  },
+  {
+   "text": "Brrrrrr",
+   "meaning": "Hype-Geraeusch wie im Rapper-Kanal"
+  },
+  {
+   "text": "Gönnnnn dir",
+   "meaning": "gönn dir, Aufforderung"
+  },
+  {
+   "text": "Cringeeeee",
+   "meaning": "cringe, peinlich, verbreitet"
+  },
+  {
+   "text": "Lulululul",
+   "meaning": "Lachen im Chat (LUL)"
+  }
+ ]
+}

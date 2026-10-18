@@ -3,40 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2554,
+ "durationInFrames": 2319,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a11/00_hook_a.mp3",
    "audioB": "audio/a11/00_hook_b.mp3",
-   "bAt": 73,
-   "speak": 116,
-   "gap": 90,
-   "hold": 50,
+   "bAt": 44,
+   "speak": 93,
+   "gap": 45,
+   "hold": 45,
    "a": {
-    "label": "Haribo im Fahrstuhl",
-    "img": "img/artists/yuyu19.jpg",
+    "label": "1 Tag Nizis Schuhe sein",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Souly im Bällebad",
-    "img": "img/artists/souly.jpg",
+    "label": "1 Tag Lacazettes Sonnenbrille",
+    "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "pct": [
-    96,
-    4
+    46,
+    54
    ],
-   "winAudio": "audio/a11/00_hook_win.mp3",
-   "duration": 256
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 183
   },
   {
    "kind": "q",
    "audio": "audio/a11/01_q_a.mp3",
    "audioB": "audio/a11/01_q_b.mp3",
-   "bAt": 42,
-   "speak": 96,
-   "gap": 90,
+   "bAt": 37,
+   "speak": 91,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "CUP auf Repeat",
@@ -52,15 +52,15 @@
     27,
     73
    ],
-   "duration": 231
+   "duration": 217
   },
   {
    "kind": "q",
    "audio": "audio/a11/02_q_a.mp3",
    "audioB": "audio/a11/02_q_b.mp3",
-   "bAt": 68,
+   "bAt": 69,
    "speak": 102,
-   "gap": 90,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch Nur für meine Augen",
@@ -76,15 +76,15 @@
     1,
     99
    ],
-   "duration": 237
+   "duration": 228
   },
   {
    "kind": "q",
    "audio": "audio/a11/03_q_a.mp3",
    "audioB": "audio/a11/03_q_b.mp3",
-   "bAt": 96,
-   "speak": 161,
-   "gap": 90,
+   "bAt": 81,
+   "speak": 144,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Tag mit Haribo",
@@ -100,15 +100,15 @@
     16,
     84
    ],
-   "duration": 296
+   "duration": 270
   },
   {
    "kind": "q",
    "audio": "audio/a11/04_q_a.mp3",
    "audioB": "audio/a11/04_q_b.mp3",
-   "bAt": 67,
-   "speak": 122,
-   "gap": 90,
+   "bAt": 64,
+   "speak": 114,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Jahr nur Kakazette",
@@ -124,15 +124,15 @@
     27,
     73
    ],
-   "duration": 257
+   "duration": 240
   },
   {
    "kind": "mid",
    "audio": "audio/a11/05_mid_a.mp3",
    "audioB": "audio/a11/05_mid_b.mp3",
-   "bAt": 59,
-   "speak": 175,
-   "gap": 90,
+   "bAt": 53,
+   "speak": 159,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder Maka",
@@ -148,15 +148,15 @@
     2,
     98
    ],
-   "duration": 310
+   "duration": 285
   },
   {
    "kind": "q",
    "audio": "audio/a11/06_q_a.mp3",
    "audioB": "audio/a11/06_q_b.mp3",
-   "bAt": 93,
-   "speak": 173,
-   "gap": 90,
+   "bAt": 79,
+   "speak": 154,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Lucio kocht",
@@ -172,15 +172,15 @@
     53,
     47
    ],
-   "duration": 308
+   "duration": 280
   },
   {
    "kind": "q",
    "audio": "audio/a11/07_q_a.mp3",
    "audioB": "audio/a11/07_q_b.mp3",
-   "bAt": 42,
-   "speak": 104,
-   "gap": 90,
+   "bAt": 39,
+   "speak": 93,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "1 Tag mit Zackavelli",
@@ -196,15 +196,15 @@
     2,
     98
    ],
-   "duration": 239
+   "duration": 219
   },
   {
    "kind": "q",
    "audio": "audio/a11/08_q_a.mp3",
    "audioB": "audio/a11/08_q_b.mp3",
    "bAt": 42,
-   "speak": 77,
-   "gap": 90,
+   "speak": 75,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nur noch Superkraft",
@@ -220,17 +220,17 @@
     93,
     7
    ],
-   "duration": 212
+   "duration": 201
   },
   {
    "kind": "outro",
    "audio": "audio/a11/09_outro.mp3",
-   "speak": 163,
+   "speak": 151,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 größten Stoner, die du kennst",
-   "duration": 208
+   "duration": 196
   }
  ]
 }
