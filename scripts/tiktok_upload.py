@@ -64,7 +64,7 @@ def shift(start_vid, start_date):
             slot = (slot + 1) % len(TIMES)
             day += dt.timedelta(days=slot == 0)
     with open(ROOT / PLAN, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=rs[0].keys())
+        w = csv.DictWriter(f, fieldnames=rs[0].keys(), lineterminator="\n")
         w.writeheader()
         w.writerows(rs)
     print(f"Plan ab {start_vid} startet jetzt am {start_date}, letztes Video: {rs[-1]['datum']} {rs[-1]['uhrzeit']}")
@@ -82,7 +82,7 @@ def write_log(vid, when, mode):
     new = not LOG.exists()
     who = subprocess.run(["git", "config", "user.name"], capture_output=True, text=True, cwd=ROOT).stdout.strip()
     with open(LOG, "a", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=LOG_FIELDS)
+        w = csv.DictWriter(f, fieldnames=LOG_FIELDS, lineterminator="\n")
         if new:
             w.writeheader()
         w.writerow({"zeit": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "konto": ACCOUNT, "video": vid,

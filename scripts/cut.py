@@ -32,7 +32,7 @@ def all_pair_counts():
 
 
 def protected(q):
-    if q.get("type") == "mid" or "[[" in q["say"]:
+    if q.get("type") == "mid" or q.get("keep") or "[[" in q["say"]:
         return True
     return any(n in q["a"]["label"] or n in q["b"]["label"] for n in NICKS)
 

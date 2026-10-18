@@ -3,39 +3,39 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2339,
+ "durationInFrames": 2305,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a12/00_hook_a.mp3",
    "audioB": "audio/a12/00_hook_b.mp3",
-   "bAt": 63,
-   "speak": 158,
+   "bAt": 49,
+   "speak": 87,
    "gap": 45,
    "hold": 45,
    "a": {
-    "label": "300 km/h mit Lucio",
-    "img": "img/artists/lucio101.jpg",
+    "label": "1 Tag Lacazette sein",
+    "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "b": {
-    "label": "267 km/h mit Ufo361",
-    "img": "img/artists/ufo361.jpg",
+    "label": "1 Tag Nizi sein",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "pct": [
-    94,
-    6
+    43,
+    57
    ],
    "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
-   "duration": 248
+   "duration": 177
   },
   {
    "kind": "q",
    "audio": "audio/a12/01_q_a.mp3",
    "audioB": "audio/a12/01_q_b.mp3",
-   "bAt": 53,
-   "speak": 100,
+   "bAt": 62,
+   "speak": 110,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -52,38 +52,38 @@
     97,
     3
    ],
-   "duration": 226
+   "duration": 236
   },
   {
    "kind": "q",
    "audio": "audio/a12/02_q_a.mp3",
    "audioB": "audio/a12/02_q_b.mp3",
-   "bAt": 46,
-   "speak": 83,
+   "bAt": 36,
+   "speak": 90,
    "gap": 81,
    "hold": 45,
    "a": {
-    "label": "Nur noch +49",
-    "img": "img/songs/song-plus49.jpg",
+    "label": "Safe löschen",
+    "img": "img/songs/song-safe.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Sommergewitter",
-    "img": "img/songs/song-sommergewitter.jpg",
+    "label": "Straße studiert löschen",
+    "img": "img/songs/song-strasse-studiert.jpg",
     "emoji": null
    },
    "pct": [
-    8,
-    92
+    52,
+    48
    ],
-   "duration": 209
+   "duration": 216
   },
   {
    "kind": "q",
    "audio": "audio/a12/03_q_a.mp3",
    "audioB": "audio/a12/03_q_b.mp3",
-   "bAt": 59,
-   "speak": 113,
+   "bAt": 77,
+   "speak": 132,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -100,14 +100,14 @@
     54,
     46
    ],
-   "duration": 239
+   "duration": 258
   },
   {
    "kind": "q",
    "audio": "audio/a12/04_q_a.mp3",
    "audioB": "audio/a12/04_q_b.mp3",
-   "bAt": 56,
-   "speak": 91,
+   "bAt": 53,
+   "speak": 88,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -124,14 +124,14 @@
     48,
     52
    ],
-   "duration": 217
+   "duration": 214
   },
   {
    "kind": "mid",
    "audio": "audio/a12/05_mid_a.mp3",
    "audioB": "audio/a12/05_mid_b.mp3",
-   "bAt": 57,
-   "speak": 167,
+   "bAt": 53,
+   "speak": 169,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -148,14 +148,14 @@
     54,
     46
    ],
-   "duration": 293
+   "duration": 295
   },
   {
    "kind": "q",
    "audio": "audio/a12/06_q_a.mp3",
    "audioB": "audio/a12/06_q_b.mp3",
    "bAt": 46,
-   "speak": 144,
+   "speak": 140,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -172,14 +172,14 @@
     94,
     6
    ],
-   "duration": 270
+   "duration": 266
   },
   {
    "kind": "q",
    "audio": "audio/a12/07_q_a.mp3",
    "audioB": "audio/a12/07_q_b.mp3",
-   "bAt": 53,
-   "speak": 110,
+   "bAt": 48,
+   "speak": 109,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -196,41 +196,41 @@
     67,
     33
    ],
-   "duration": 236
+   "duration": 235
   },
   {
    "kind": "q",
    "audio": "audio/a12/08_q_a.mp3",
    "audioB": "audio/a12/08_q_b.mp3",
-   "bAt": 46,
-   "speak": 84,
+   "bAt": 44,
+   "speak": 81,
    "gap": 81,
    "hold": 45,
    "a": {
-    "label": "Nur noch Hollywoodreif",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "Nur noch dass du weißt",
+    "img": "img/songs/song-dass-du-weisst.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch Sommergewitter",
-    "img": "img/songs/song-sommergewitter.jpg",
+    "label": "Nur noch Mr. X",
+    "img": "img/songs/song-mr-x.jpg",
     "emoji": null
    },
    "pct": [
-    44,
-    56
+    45,
+    55
    ],
-   "duration": 210
+   "duration": 207
   },
   {
    "kind": "outro",
    "audio": "audio/a12/09_outro.mp3",
-   "speak": 146,
+   "speak": 156,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 größten Ottos, die du kennst",
-   "duration": 191
+   "duration": 201
   }
  ]
 }
