@@ -14,6 +14,7 @@ Benutzung (aus dem Repo-Ordner):
   python3 scripts/tiktok_upload.py plan a17 a24 --draft       # nur als Entwurf speichern
 
 Optionen:
+  --account NAME   gespeicherte Sitzung waehlen (Standard: ACCOUNT unten), pro Konto eigener Login
   --sound NAME     Name des Sounds in deinen TikTok-Favoriten (Standard: SOUND unten)
   --manual-ai      vor jedem Absenden anhalten, du setzt den KI-Haken selbst und drueckst Enter
   --headless       Browser unsichtbar (erst nutzen, wenn die Tests sauber laufen)
@@ -146,6 +147,9 @@ if __name__ == "__main__":
     sound = opts[opts.index("--sound") + 1] if "--sound" in opts else SOUND
     if "--sound" in opts:
         args.remove(sound)
+    if "--account" in opts:
+        ACCOUNT = opts[opts.index("--account") + 1]
+        args.remove(ACCOUNT)
     cmd = args[0]
     if cmd == "shift":
         shift(args[1], args[2])
