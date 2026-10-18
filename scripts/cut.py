@@ -47,7 +47,7 @@ def plan(vid, counts):
     total = sum(s["duration"] for s in segs) / fps
     cand = [i for i in range(1, len(qs)) if not protected(qs[i])]  # Frage 0 (Index 1) bleibt
     if len(cand) < 2:
-        cand = [i for i in range(1, len(qs)) if qs[i].get("type") != "mid"]
+        cand = [i for i in range(1, len(qs)) if qs[i].get("type") != "mid" and not qs[i].get("keep")]
     best = None
     for a, b in itertools.combinations(cand, 2):
         t = total - (segs[a + 1]["duration"] + segs[b + 1]["duration"]) / fps
