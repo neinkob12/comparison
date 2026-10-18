@@ -171,8 +171,16 @@ def set_cover(page, img):
             page.get_by_text("Upload cover", exact=True).first.click()
         fc.value.set_files(str(img))
         time.sleep(4)
-        page.get_by_role("button", name="Save", exact=True).last.click()
-        time.sleep(3)
+        # Save oben rechts im Cover-Editor: nur sichtbare Buttons mit genau "Save" (nicht "Save draft")
+        modal = page.get_by_text("Preview in profile", exact=False).first
+        saves = page.locator("button:visible").filter(has_text=re.compile(r"^\s*Save\s*$"))
+        for i in reversed(range(saves.count())):
+            saves.nth(i).click()
+            time.sleep(2)
+            if not modal.is_visible():
+                break
+        if modal.is_visible():
+            raise RuntimeError("Cover-Editor noch offen")
         print(f"Cover hochgeladen: {img.name}")
     except Exception as e:
         print(f"Cover automatisch nicht moeglich ({type(e).__name__}).")
