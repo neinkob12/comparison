@@ -12,6 +12,7 @@ Benutzung (aus dem Repo-Ordner):
   python3 scripts/tiktok_upload.py test a17                   # 1 Video als Entwurf, Browser sichtbar
   python3 scripts/tiktok_upload.py plan a17 a24               # einplanen laut docs/posting_plan.csv
   python3 scripts/tiktok_upload.py plan a17 a24 --draft       # nur als Entwurf speichern
+  python3 scripts/tiktok_upload.py inspect a17                # postet nichts, speichert Sound-/Cover-Ansicht nach out/debug/
 
 Optionen:
   --at "JJJJ-MM-TT HH:MM"  andere Uhrzeit als im Plan (Minuten in 5er-Schritten), z.B. fuer Tests
@@ -100,11 +101,32 @@ def is_on(row):
     return False
 
 
-def install_hooks(f, manual_ai, draft):
+def dump(page, name):
+    """Speichert Screenshot + bereinigtes HTML (ohne Scripts/Styles/Icons), damit Selektoren gebaut werden koennen."""
+    d = ROOT / "out" / "debug"
+    d.mkdir(parents=True, exist_ok=True)
+    page.screenshot(path=str(d / f"{name}.png"), full_page=True)
+    html = page.evaluate("""() => {
+        const b = document.body.cloneNode(true);
+        b.querySelectorAll('script, style, noscript, path, img[src^="data:"]').forEach(e => e.remove());
+        return b.outerHTML;
+    }""")
+    (d / f"{name}.html").write_text(html, encoding="utf-8")
+    print(f"Gespeichert: out/debug/{name}.png und {name}.html")
+
+
+def install_hooks(f, manual_ai, draft, inspect=False):
     """Klinkt sich direkt vor dem Absenden in haziq ein: KI-Haken setzen, dann posten/planen oder Entwurf."""
     submit = f._submit_upload
 
     def hooked(page, *args, **kwargs):
+        if inspect:
+            input(">>> Oeffne im Browser die Sound-Bearbeitung (Fade-in/Lautstaerke sichtbar), dann hier Enter ... ")
+            dump(page, "sound")
+            input(">>> Oeffne jetzt die Cover-Bearbeitung ('Edit cover'), dann hier Enter ... ")
+            dump(page, "cover")
+            print("Fertig, nichts wurde gepostet. Schick mir die Dateien aus out/debug/")
+            return "Error"
         ok = False if manual_ai else set_ai_label(page)
         if not ok:
             if not manual_ai:
@@ -160,8 +182,8 @@ if __name__ == "__main__":
         sys.exit()
 
     import tiktokautouploader.function as f
-    draft = cmd == "test" or "--draft" in opts
-    install_hooks(f, "--manual-ai" in opts, draft)
+    draft = cmd in ("test", "inspect") or "--draft" in opts
+    install_hooks(f, "--manual-ai" in opts, draft, inspect=cmd == "inspect")
     first, last = args[1], args[2] if len(args) > 2 else args[1]
     for r in rows():
         if num(first) <= num(r["datei"][:-4]) <= num(last):
