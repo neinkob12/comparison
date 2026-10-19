@@ -1,4 +1,4 @@
-"""Kuerzt fertige Videos auf 60-65 s, indem 2 Fragen rausgeschnitten werden (ohne Neu-Rendern).
+"""Kuerzt fertige Videos auf 60-65 s, indem 1 oder 2 Fragen rausgeschnitten werden (ohne Neu-Rendern).
 
 Geschuetzt: Hook, 1. Frage (Follow-Einblendung), Zwischenfrage, Outro, Fragen mit Spitzname oder TTS-Effekt.
 Bevorzugt raus: Paarungen, die ueber alle Videos am haeufigsten vorkommen.
@@ -49,19 +49,20 @@ def plan(vid, counts):
     if len(cand) < 2:
         cand = [i for i in range(1, len(qs)) if qs[i].get("type") != "mid" and not qs[i].get("keep")]
     best = None
-    for a, b in itertools.combinations(cand, 2):
-        t = total - (segs[a + 1]["duration"] + segs[b + 1]["duration"]) / fps
+    # Meist 2 Fragen raus; bei kurzen Timern reicht 1, damit das Video nicht unter 60 s faellt
+    for drop in itertools.chain(itertools.combinations(cand, 2), itertools.combinations(cand, 1)):
+        t = total - sum(segs[i + 1]["duration"] for i in drop) / fps
         ok = MIN_S <= t <= MAX_S + 3  # bis 3 s drueber wird danach weggetrimmt
-        score = (0 if ok else 1, abs(t - TARGET), -(counts[pair_key(qs[a])] + counts[pair_key(qs[b])]))
+        score = (0 if ok else 1, abs(t - TARGET), -sum(counts[pair_key(qs[i])] for i in drop))
         if best is None or score < best[0]:
-            best = (score, (a, b), t)
+            best = (score, drop, t)
     return segs, fps, best[1], best[2]
 
 
 def cut(vid, counts):
-    segs, fps, (a, b), t = plan(vid, counts)
+    segs, fps, removed, t = plan(vid, counts)
     t = float(t)
-    drop = {a + 1, b + 1}
+    drop = {i + 1 for i in removed}
     # Zu lang? Erst stilles Outro-Ende kuerzen, dann Standzeit nach der Aufloesung (gleichmaessig)
     excess = max(0, round((t - (MAX_S - 0.5)) * fps))
     trim = {i: 0 for i in range(len(segs))}
@@ -92,7 +93,7 @@ def cut(vid, counts):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(ROOT / "out" / f"{vid}.mp4"), "-filter_complex", fc,
                     "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-crf", "20", "-preset", "fast", "-c:a", "aac",
                     "-b:a", "192k", "-movflags", "+faststart", str(out)], check=True)
-    return {"removed_questions": [a, b], "seconds": round(t, 1)}
+    return {"removed_questions": list(removed), "seconds": round(t, 1)}
 
 
 if __name__ == "__main__":

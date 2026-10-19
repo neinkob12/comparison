@@ -35,7 +35,7 @@ const stroke = (px: number) => ({
 	textShadow: `0 ${px}px 0 ${C.ink}`,
 });
 
-const COUNT = 81; // 3-2-1 in Frames (Standard, sonst s.gap)
+const COUNT = 69; // 3-2-1 in Frames (Standard, sonst s.gap)
 
 const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revealAt: number; mid: boolean; enterAt: number}> = ({side, top, pct, win, revealAt, mid, enterAt}) => {
 	const frame = useCurrentFrame();

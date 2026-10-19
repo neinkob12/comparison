@@ -3,63 +3,64 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2432,
+ "durationInFrames": 2156,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a14/00_hook_a.mp3",
    "audioB": "audio/a14/00_hook_b.mp3",
-   "bAt": 55,
-   "speak": 103,
-   "gap": 90,
+   "bAt": 53,
+   "speak": 111,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "Kalim am Abiball",
-    "img": "img/artists/kalim.jpg",
+    "label": "Möhre mit Kollegah",
+    "img": "img/artists/kollegah.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Samra auf der Hochzeit",
-    "img": "img/artists/samra.jpg",
+    "label": "Polizeischutz von Bushido",
+    "img": "img/artists/bushido.jpg",
     "emoji": null
    },
    "pct": [
-    4,
-    96
+    9,
+    91
    ],
-   "duration": 238
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 201
   },
   {
    "kind": "q",
    "audio": "audio/a14/01_q_a.mp3",
    "audioB": "audio/a14/01_q_b.mp3",
-   "bAt": 55,
-   "speak": 109,
-   "gap": 90,
+   "bAt": 45,
+   "speak": 85,
+   "gap": 69,
    "hold": 45,
    "a": {
-    "label": "Hollywoodreif auf Repeat",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "Nur noch Du bist Boss",
+    "img": "img/songs/song-du-bist-boss.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Kleiner Prinz auf Repeat",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Nur noch Für immer jung",
+    "img": "img/songs/song-fuer-immer-jung.jpg",
     "emoji": null
    },
    "pct": [
-    30,
-    70
+    46,
+    54
    ],
-   "duration": 244
+   "duration": 199
   },
   {
    "kind": "q",
    "audio": "audio/a14/02_q_a.mp3",
    "audioB": "audio/a14/02_q_b.mp3",
-   "bAt": 73,
-   "speak": 124,
-   "gap": 90,
+   "bAt": 66,
+   "speak": 110,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Kalim kocht",
@@ -75,39 +76,39 @@
     95,
     5
    ],
-   "duration": 259
+   "duration": 224
   },
   {
    "kind": "q",
    "audio": "audio/a14/03_q_a.mp3",
    "audioB": "audio/a14/03_q_b.mp3",
-   "bAt": 45,
-   "speak": 83,
-   "gap": 90,
+   "bAt": 42,
+   "speak": 86,
+   "gap": 69,
    "hold": 45,
    "a": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "img/songs/song-kleiner-prinz.jpg",
+    "label": "Berlin-Tour mit Bushido",
+    "img": "img/artists/bushido.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch FTW",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Berlin-Tour mit Pashanim",
+    "img": "img/artists/pashanim.jpg",
     "emoji": null
    },
    "pct": [
-    93,
-    7
+    27,
+    73
    ],
-   "duration": 218
+   "duration": 200
   },
   {
    "kind": "q",
    "audio": "audio/a14/04_q_a.mp3",
    "audioB": "audio/a14/04_q_b.mp3",
-   "bAt": 42,
-   "speak": 89,
-   "gap": 90,
+   "bAt": 39,
+   "speak": 93,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Lacazette kocht",
@@ -123,15 +124,15 @@
     51,
     49
    ],
-   "duration": 224
+   "duration": 207
   },
   {
    "kind": "mid",
    "audio": "audio/a14/05_mid_a.mp3",
    "audioB": "audio/a14/05_mid_b.mp3",
-   "bAt": 56,
-   "speak": 171,
-   "gap": 90,
+   "bAt": 55,
+   "speak": 169,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Nie wieder Maka",
@@ -147,15 +148,15 @@
     7,
     93
    ],
-   "duration": 306
+   "duration": 283
   },
   {
    "kind": "q",
    "audio": "audio/a14/06_q_a.mp3",
    "audioB": "audio/a14/06_q_b.mp3",
-   "bAt": 47,
+   "bAt": 48,
    "speak": 106,
-   "gap": 90,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Nizi19 als Lehrer",
@@ -171,15 +172,15 @@
     8,
     92
    ],
-   "duration": 241
+   "duration": 220
   },
   {
    "kind": "q",
    "audio": "audio/a14/07_q_a.mp3",
    "audioB": "audio/a14/07_q_b.mp3",
-   "bAt": 94,
-   "speak": 125,
-   "gap": 90,
+   "bAt": 90,
+   "speak": 118,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Insel: 101%",
@@ -195,15 +196,15 @@
     4,
     96
    ],
-   "duration": 260
+   "duration": 232
   },
   {
    "kind": "q",
    "audio": "audio/a14/08_q_a.mp3",
    "audioB": "audio/a14/08_q_b.mp3",
    "bAt": 40,
-   "speak": 135,
-   "gap": 90,
+   "speak": 103,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Makko als Bruder",
@@ -219,17 +220,17 @@
     48,
     52
    ],
-   "duration": 270
+   "duration": 217
   },
   {
    "kind": "outro",
    "audio": "audio/a14/09_outro.mp3",
-   "speak": 127,
+   "speak": 128,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Teile das Video mit deinen Akhs",
-   "duration": 172
+   "duration": 173
   }
  ]
 }

@@ -3,20 +3,21 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Kalim wird dein Stiefvater, oder Karamel19 dein Klassenlehrer?",
+  "say": "Einen Tag nur Weh sagen, oder einen Tag nur Ohne Finger Akh sagen?",
   "a": {
-   "label": "Kalim als Stiefvater",
-   "img": "artists/kalim.jpg"
+   "label": "1 Tag nur „Weh“ sagen",
+   "emoji": "😩"
   },
   "b": {
-   "label": "Karamel19 als Klassenlehrer",
-   "img": "artists/karamel19.jpg"
+   "label": "1 Tag nur „Ohne Finger, Akh!“",
+   "img": "artists/yuyu19.jpg"
   },
   "pct": [
-   48,
-   52
+   8,
+   92
   ],
-  "type": "hook"
+  "type": "hook",
+  "winSay": "Ohne Finger, Akh!"
  },
  "questions": [
   {

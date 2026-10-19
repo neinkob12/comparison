@@ -3,36 +3,37 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Kalim kommt zu deinem Abiball, oder Samra zu deiner Hochzeit?",
+  "say": "Lieber mit Kollegah eine Möhre essen, oder Polizeischutz von Bushido bekommen?",
   "a": {
-   "label": "Kalim am Abiball",
-   "img": "artists/kalim.jpg"
+   "label": "Möhre mit Kollegah",
+   "img": "artists/kollegah.jpg"
   },
   "b": {
-   "label": "Samra auf der Hochzeit",
-   "img": "artists/samra.jpg"
+   "label": "Polizeischutz von Bushido",
+   "img": "artists/bushido.jpg"
   },
   "pct": [
-   4,
-   96
+   9,
+   91
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "Hollywoodreif auf Dauerschleife, oder Kleiner Prinz auf Dauerschleife?",
+   "say": "Nur noch Du bist Boss hören, oder nur noch Für immer jung?",
    "a": {
-    "label": "Hollywoodreif auf Repeat",
-    "img": "songs/song-hollywoodreif.jpg"
+    "label": "Nur noch Du bist Boss",
+    "img": "songs/song-du-bist-boss.jpg"
    },
    "b": {
-    "label": "Kleiner Prinz auf Repeat",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "Nur noch Für immer jung",
+    "img": "songs/song-fuer-immer-jung.jpg"
    },
    "pct": [
-    30,
-    70
-   ]
+    46,
+    54
+   ],
+   "keep": true
   },
   {
    "say": "[[Kaaaaaaaaa-liiiiim]] kocht für dich, oder Souly fährt dich nach Hause?",
@@ -50,19 +51,20 @@
    ]
   },
   {
-   "say": "Nur noch Kleiner Prinz hören, oder nur noch FTW?",
+   "say": "Berlin-Tour mit Bushido, oder Berlin-Tour mit Pashanim?",
    "a": {
-    "label": "Nur noch Kleiner Prinz",
-    "img": "songs/song-kleiner-prinz.jpg"
+    "label": "Berlin-Tour mit Bushido",
+    "img": "artists/bushido.jpg"
    },
    "b": {
-    "label": "Nur noch FTW",
-    "img": "songs/song-ftw.jpg"
+    "label": "Berlin-Tour mit Pashanim",
+    "img": "artists/pashanim.jpg"
    },
    "pct": [
-    93,
-    7
-   ]
+    27,
+    73
+   ],
+   "keep": true
   },
   {
    "say": "Lacazette kocht für dich, oder Haribo fährt dich nach Hause?",

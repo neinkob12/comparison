@@ -56,19 +56,19 @@ Neben Nizi im Bett einschlafen oder Lucio ein Lied zum Einschlafen singen? 😭 
 
 ## a14
 
-Kalim am Abiball oder Samra auf der Hochzeit? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #luciano #nizi #lacazette #lucio101 #pashanim #yuyu19 #kalim #omar101 #karamel19 #makko #mucco #caney030 #samra #souly #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
+Möhre mit Kollegah oder Polizeischutz von Bushido? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #kollegah #bushido #pashanim #kalim #souly #nizi #lucio101 #lacazette #yuyu19 #omar101 #karamel19 #makko #mucco #caney030 #ufo361 #luciano #samra #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
 
 ## a15
 
-bin raus, das ist zu schwer 😭 #deutschrap #caney030 #samra #rapdeutschland #nizi #lucio101 #lacazette #pashanim #yuyu19 #kalim #omar101 #karamel19 #makko #mucco #ufo361 #luciano #souly #zackavelli #würdestdueher #rapdeutsch #deutschrapmemes #berlinrap #1019 #haribo #viral
+Lacazette heiraten oder Nizi heiraten? 💍 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lacazette #nizi #kalim #souly #lucio101 #pashanim #yuyu19 #omar101 #karamel19 #makko #mucco #caney030 #ufo361 #luciano #samra #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
 
 ## a16
 
-Feature mit Makko oder Feature mit Zackavelli? und keiner sagt beides 👇 #deutschrap #zackavelli #makko #deutschrapmemes #nizi #lucio101 #lacazette #pashanim #yuyu19 #kalim #omar101 #karamel19 #mucco #caney030 #ufo361 #luciano #samra #souly #würdestdueher #rapdeutsch #rapdeutschland #berlinrap #1019 #haribo #viral
+1 Monat mit Ufo im Weltall oder mit Zackavelli auf dem Mars? 🚀 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #ufo361 #zackavelli #makko #lucio101 #omar101 #nizi #lacazette #pashanim #yuyu19 #kalim #karamel19 #mucco #caney030 #luciano #samra #souly #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
 
 ## a17
 
-jeder hat diesen einen freund, der Nizi19 als großen Bruder will #deutschrap #nizi #karamel19 #lucio101 #lacazette #pashanim #yuyu19 #kalim #omar101 #makko #mucco #caney030 #ufo361 #luciano #samra #souly #zackavelli #würdestdueher #rapdeutsch #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
+1 Tag nur „Weh“ sagen oder 1 Tag nur „Ohne Finger, Akh!“? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #nizi #lacazette #ufo361 #samra #lucio101 #pashanim #kalim #omar101 #karamel19 #makko #mucco #caney030 #luciano #souly #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
 
 ## a18
 

@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Souly kommt zu deinem Abiball, oder Zackavelli zu deiner Hochzeit?",
+  "say": "Einen Monat mit Ufo im Weltall, oder mit Zackavelli auf dem Mars?",
   "a": {
-   "label": "Souly am Abiball",
-   "img": "artists/souly.jpg"
+   "label": "1 Monat mit Ufo im Weltall",
+   "img": "artists/ufo361.jpg"
   },
   "b": {
-   "label": "Zackavelli auf der Hochzeit",
+   "label": "1 Monat mit Zackavelli auf dem Mars",
    "img": "artists/zackavelli.jpg"
   },
   "pct": [
-   51,
-   49
+   89,
+   11
   ],
   "type": "hook"
  },
