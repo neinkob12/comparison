@@ -1,88 +1,104 @@
-# Plan: Eigene TikTok-API-App einreichen
+# Plan: Own TikTok API app (scheduler for creators)
 
-Ziel: eine kleine, **öffentliche** Web-App (Video-Scheduler für Creator), die TikToks App-Review besteht, damit Videos offiziell per Content Posting API gepostet werden können.
+Goal: a small, **public** web app that passes TikTok's app review, so videos can be posted through the official Content Posting API.
 
-## Die wichtigste Regel
+## The rule that shapes everything
 
-TikTok lehnt Apps ab, die nur für dich sind:
+TikTok rejects apps that are only for the owner:
 > "Apps must not be for private or personal use."
 > "Apps must not be limited to test use or to internal or private team accounts."
 > "Apps that are still in development or testing will not be approved."
 
-Heißt: Es muss ein **echtes, fertiges Produkt** sein, das andere Creator auch nutzen können (z.B. kostenlos). Nicht nur so tun, wirklich so bauen.
+So this is a real product that any creator can sign up for, with free and paid plans.
 
-## Was wir brauchen
+## Decisions (19.10.)
 
-### Accounts und Kosten
-| Was | Kosten | Wer |
-|---|---|---|
-| TikTok-Developer-Account (developers.tiktok.com) | 0 € | Jakob |
-| Domain (z.B. `kurzplan.app`, `slotpost.app`, `reelslot.app`, `cliptakt.de`, alle frei am 19.10.) | ca. 10 bis 20 €/Jahr | Jakob kauft |
-| Hosting Vercel | 0 € (Hobby) | schon verbunden |
-| Datenbank + Video-Speicher Supabase | 0 € (Free) | schon verbunden |
-| Kontakt-Mail mit der Domain (für Impressum/Datenschutz) | 0 € (Weiterleitung) | Jakob |
+| Topic | Decision |
+|---|---|
+| Name / domain | Jakob picks tomorrow. Free on 19.10.: kurzplan.app, slotpost.app, reelslot.app, cliptakt.de |
+| Language | English |
+| Platforms | TikTok first, built so Instagram can be added later |
+| Plans | Free, Pro 9 EUR/month, Agency 29 EUR/month, Enterprise "Contact us" |
+| Plan limits | By accounts, posts and features (draft below) |
+| Payments | Stripe, real checkout from day 1 (account still to create) |
+| Owner | Jakob (business or personal, see legal notes) |
+| v1 features | Calendar scheduling, bulk upload via CSV, multiple TikTok accounts, send as draft to the TikTok app |
+| Video source | Upload in the browser |
+| Storage | Videos are deleted after posting |
+| Design | Clean and minimal |
+| Icon | Claude makes one, Jakob approves |
+| Until approval | Try the calm browser script; if TikTok blocks again, post by hand in TikTok Studio |
 
-### App-Daten fürs Formular
-- **Name:** eigener Name, **kein "TikTok"** drin, muss zur Website passen
-- **Icon:** 1024 x 1024 px, PNG/JPG, max. 5 MB, darf keiner bekannten Marke ähneln
-- **Kategorie** und **Beschreibung** (sehen Nutzer beim Login)
-- **Website-URL:** echte Seite, **keine** reine Landing- oder Login-Seite
-- **Terms of Service** und **Privacy Policy:** eigene Seiten, Links **direkt sichtbar** (Footer, nicht im Menü)
-- **Redirect URI** für "Login mit TikTok" (z.B. `https://DOMAIN/api/auth/tiktok/callback`)
-- **URL-Verifizierung:** Domain per DNS-Eintrag oder Datei bestätigen (Website, Terms, Privacy, Video-URL)
+### Plan limits (draft, adjust tomorrow)
 
-### Produkte und Berechtigungen (Scopes)
-| Produkt / Scope | Wofür | Begründung im Formular |
-|---|---|---|
-| Login Kit, `user.info.basic` | Nutzer verbindet sein Konto, wir zeigen Name/Bild | Nutzer sieht, auf welches Konto gepostet wird |
-| Content Posting API, `video.publish` (Direct Post) | geplante Videos zur gewählten Zeit veröffentlichen | Kernfunktion: Scheduling |
-| Content Posting API, `video.upload` | Video als Entwurf in die TikTok-App schicken | für Creator, die vor dem Posten noch Sound/Effekte in der App hinzufügen wollen |
+| | Free | Pro 9 EUR | Agency 29 EUR | Enterprise |
+|---|---|---|---|---|
+| TikTok accounts | 1 | 5 | 25 | custom |
+| Scheduled posts / month | 30 | 600 | 3,000 | custom |
+| Calendar scheduling | yes | yes | yes | yes |
+| Send as draft | yes | yes | yes | yes |
+| Bulk upload (CSV) | no | yes | yes | yes |
+| Team members | 1 | 1 | 5 | custom |
 
-Nur anfragen, was die App wirklich nutzt und was im Demo-Video zu sehen ist.
+## Legal notes (check with your tax advisor, I'm not one)
 
-### Pflicht-Oberfläche beim Posten (TikTok UX-Regeln)
-- Creator-Info bei jedem Öffnen frisch laden, **Nickname des Kontos anzeigen**
-- Kann das Konto gerade nicht posten: abbrechen und Hinweis zeigen
-- Videolänge gegen `max_video_post_duration_sec` prüfen
-- Titel/Beschreibung editierbar (auch Hashtags)
-- **Privatsphäre als Dropdown, ohne Vorauswahl**, Optionen exakt aus `privacy_level_options`
-- Kommentare / Duett / Stitch als Häkchen, **keins vorausgewählt**, ausgegraut wenn im Konto deaktiviert
-- **Werbe-Kennzeichnung:** Schalter (aus), dann "Your brand" / "Branded content" mit den exakten TikTok-Texten; Branded content nicht privat
-- **KI-Kennzeichnung** (AIGC) als Option
-- **Vorschau** des Videos
-- Erklärung vor dem Button: Zustimmung zur **Music Usage Confirmation** (bzw. Branded Content Policy)
-- Upload erst nach ausdrücklicher Zustimmung (Klick)
-- Hinweis "kann ein paar Minuten dauern" + **Status anzeigen** (Status-API abfragen)
-- Keine Wasserzeichen/Logos/Links ins Video einbauen
+- **Selling software subscriptions is usually a commercial activity (Gewerbe).** Your 34c Gewerbe covers real estate brokerage, and freelance AI consulting doesn't cover SaaS sales. Most likely you register an **extension of your Gewerbe** ("Entwicklung und Vertrieb von Software / SaaS"), usually online in a few minutes.
+- **VAT on sales to consumers in other EU countries** (OSS procedure). Stripe can calculate it (Stripe Tax, extra fee). Alternative: Paddle or Lemon Squeezy act as the seller and handle VAT for you, at a higher fee.
+- **Impressum + privacy policy + terms** must be on the website (German law + TikTok requirement). With a business address from the Gewerbe, that address can go in the Impressum.
 
-### Demo-Video (1 bis 5 Videos, je max. 50 MB)
-- Kompletter Ablauf von Anfang bis Ende, im **Sandbox-Modus**
-- Domain in der Adresszeile = eingetragene Website
-- Zeigen: Website mit Terms/Privacy, Login mit TikTok, Consent-Seite, Upload, alle Pflicht-Felder, Absenden, Status, fertiger Post im TikTok-Konto (privat, da Sandbox)
-- Jedes beantragte Produkt und jeder Scope muss vorkommen
+## Your list for tomorrow (in this order)
 
-### Was danach realistisch passiert
-- Prüfung: keine offizielle Dauer, Erfahrungswerte 1 bis 3 Wochen, oft erst nach einer Ablehnung mit Feedback
-- Bis zur Freigabe: alles nur privat, max. 5 Nutzer pro 24 h, Konto beim Posten privat
-- Nach Freigabe: öffentlich posten, Limit ca. 15 Posts pro Creator und Tag
-- **TikTok-Sounds gehen auch dann nicht per API.** Dafür gibt es den Entwurf-Weg (`video.upload`).
+### Before anything else (30 min)
+- [ ] Pick the **name** (no "TikTok" in it) and **buy the domain** (send me the name, I can check availability)
+- [ ] Set up an **email address on the domain** (e.g. hello@domain, forwarding to your Gmail is enough)
+- [ ] Tell me which **address goes in the Impressum** (business or personal)
 
-## Plan für morgen
+### Accounts (30 min)
+- [ ] Create a **TikTok developer account** at developers.tiktok.com (with the new email)
+- [ ] Create an **app** there: name, short description, category (icon comes from me)
+- [ ] Create a **Stripe account** (test mode is enough to start)
+- [ ] Add the **TikTok client key + secret** and **Stripe keys** as environment variables in Vercel (never paste them in the chat; I tell you the variable names)
 
-| Block | Dauer | Wer | Aufgabe |
-|---|---|---|---|
-| 1 | 15 min | Jakob | Name entscheiden, Domain kaufen (Vercel oder Registrar), Kontakt-Mail einrichten |
-| 2 | 15 min | Jakob | TikTok-Developer-Account anlegen, App erstellen (nur Name/Icon/Beschreibung), Client Key + Secret als Umgebungsvariablen in Vercel eintragen (nie in den Chat) |
-| 3 | 2 bis 3 h | Claude | Web-App bauen: Website (Features, So funktioniert's, FAQ), Terms, Privacy, Impressum, Login mit TikTok, Upload-Seite nach allen UX-Regeln, Planung mit Zeitauswahl, Status-Anzeige, Supabase (Nutzer, Posts, Speicher), Cron für geplante Posts |
-| 4 | 20 min | Jakob + Claude | Deploy auf Vercel, Domain verbinden, URL-Verifizierung bei TikTok |
-| 5 | 20 min | Jakob | Portal: Produkte + Scopes, Redirect URI, Sandbox anlegen, eigenes TikTok-Konto als Target User |
-| 6 | 30 min | Jakob | Testlauf in der Sandbox (Konto privat stellen!), Fehler an Claude |
-| 7 | 20 min | Jakob | Demo-Video aufnehmen (Mac: Cmd + Shift + 5), Ablauf nach Checkliste oben |
-| 8 | 15 min | Claude + Jakob | Scope-Begründungen und Beschreibung einfügen (Claude schreibt vor), einreichen |
+### While I build (2 to 3 h, you're free)
+I build: website (home, features, pricing, FAQ), Terms, Privacy, Impressum, login with TikTok, posting screen with all TikTok UX rules, calendar, CSV bulk upload, multiple accounts, draft mode, Stripe checkout and plans, Supabase database and storage, automatic posting at the scheduled time, deletion after posting, app icon.
 
-Gesamt für Jakob: ca. 2,5 h, verteilt über den Tag.
+Meanwhile, test the calm browser script **once** with a draft: `python scripts/tiktok_upload.py test a14 --account akhmachtkrach19`
 
-## Vorher klären
-1. Name + Domain (Vorschläge oben)
-2. Eigene Mail für den Developer-Account
-3. Impressum: in Deutschland für öffentliche Websites Pflicht (Name + Adresse). Eigene Adresse oder ein Impressum-Service?
+### Go live (30 min)
+- [ ] Connect the domain to the Vercel project (I guide you)
+- [ ] In the TikTok portal: **verify the domain** (DNS entry or file, I prepare it)
+- [ ] Add products: **Login Kit** (redirect URI from me) + **Content Posting API** (Direct Post on)
+- [ ] Add scopes: `user.info.basic`, `video.publish`, `video.upload`
+- [ ] Create a **sandbox** and add your TikTok account as a target user
+
+### Test + demo (1 h)
+- [ ] Set your TikTok account to **private** (required while unaudited)
+- [ ] Run through the app once: log in, upload, schedule, send a draft. Report any errors to me
+- [ ] Record the **demo video** (Cmd + Shift + 5), following my shot list
+- [ ] Set the account back to public afterwards
+
+### Submit (15 min)
+- [ ] Paste my texts (description, why each scope is needed), upload the icon + demo video
+- [ ] **Submit for review**
+
+## What to expect
+
+- Review: no official timeline, reports say 1 to 3 weeks, often one rejection with feedback first
+- Until approval: posts are private only, max 5 users per 24 h
+- After approval: public posting, about 15 posts per account per day
+- TikTok sounds are not possible via the API even after approval; the draft mode covers that
+
+## TikTok's required posting screen (for reference)
+
+- Load creator info every time, show the account nickname, stop if the account can't post right now
+- Check video length against `max_video_post_duration_sec`
+- Editable title/caption and hashtags
+- Privacy as a dropdown **without a default**, options from `privacy_level_options`
+- Comment / Duet / Stitch checkboxes, **none ticked by default**, greyed out if disabled in the account
+- Commercial content toggle (off), then "Your brand" / "Branded content" with TikTok's exact texts; branded content can't be private
+- AI-generated content label
+- Video preview
+- Consent text before the button (Music Usage Confirmation, Branded Content Policy when relevant)
+- Upload only after the user clicks to confirm
+- "May take a few minutes" note and a live status
+- No watermarks, logos or links added to the video
