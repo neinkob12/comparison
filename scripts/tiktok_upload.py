@@ -24,7 +24,7 @@ Optionen:
 Beim ersten Start pro Konto oeffnet sich ein Login-Fenster (siehe docs/SETUP.md). Die Sitzung liegt dann in
 TK_cookies_<konto>.json (wie ein Passwort behandeln, ist in .gitignore, nie teilen).
 """
-import csv, datetime as dt, json, re, subprocess, sys, time
+import csv, datetime as dt, json, random, re, subprocess, sys, time
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # Windows-Konsole: Emojis/Umlaute in Ausgaben
@@ -34,6 +34,7 @@ LOG = ROOT / "docs" / "upload_log.csv"
 DONE = ("geplant", "manuell")  # Modi, die als erledigt zaehlen
 LOG_FIELDS = ["zeit", "konto", "video", "geplant_fuer", "modus", "von"]
 TIMES = ["12:30", "16:00", "18:30", "21:00"]
+PAUSE_S = (120, 240)  # Sekunden Pause zwischen zwei Uploads (zufaellig), schuetzt vor IP-Sperren
 # Standardwerte, pro Konto in config/accounts.json ueberschreibbar
 ACCOUNT, PLAN, SOUND = None, None, ""
 MUSIC_DB = "-12"     # Lautstaerke des TikTok-Sounds
@@ -392,7 +393,7 @@ if __name__ == "__main__":
     draft = cmd in ("test", "inspect") or "--draft" in opts
     install_hooks(f, "--manual-ai" in opts, draft, inspect=cmd == "inspect")
     first, last = args[1], args[2] if len(args) > 2 else args[1]
-    at, done, failed = val("--at"), [], []
+    at, done, failed, handled, streak = val("--at"), [], [], 0, 0
     for r in rows():
         vid = r["datei"][:-4]
         if not num(first) <= num(vid) <= num(last):
@@ -402,22 +403,25 @@ if __name__ == "__main__":
         if not draft and already_scheduled(vid) and "--force" not in opts:
             print(f"{vid} ist laut Log schon eingeplant, uebersprungen (--force zum Erzwingen)")
             continue
-        ok = False
-        for attempt in (1, 2):  # ein zweiter Versuch, z.B. wenn TikTok die Seite nicht laedt
-            try:
-                ok = upload(r, SOUND, "--headless" in opts, schedule=not draft) == "Completed"
-                break
-            except Exception as e:
-                print(f"FEHLER bei {vid} (Versuch {attempt}): {str(e).splitlines()[0][:200]}")
-                if attempt == 1:
-                    print("Neuer Versuch in 30 s ...")
-                    time.sleep(30)
+        if handled:  # ruhig bleiben: zufaellige Pause zwischen den Videos, wie ein Mensch
+            pause = random.randint(*PAUSE_S)
+            print(f"Pause {pause} s ...")
+            time.sleep(pause)
+        handled += 1
+        try:
+            ok = upload(r, SOUND, "--headless" in opts, schedule=not draft) == "Completed"
+        except Exception as e:
+            print(f"FEHLER bei {vid}: {str(e).splitlines()[0][:200]}")
+            ok = False
         if ok and cmd != "inspect":
             write_log(vid, f"{r['datum']} {r['uhrzeit']}", "entwurf" if draft else "geplant")
             done.append(vid)
         elif not ok and cmd != "inspect":
             failed.append(vid)
-        time.sleep(20)
+        streak = 0 if ok else streak + 1
+        if streak >= 2:
+            print("2 Fehler hintereinander: Abbruch, damit TikTok uns nicht sperrt. Spaeter erneut versuchen.")
+            break
     print(f"\nFertig: {len(done)} ok" + (f", fehlgeschlagen: {', '.join(failed)}" if failed else ""))
     if done:
         push_log(f"{ACCOUNT} {done[0]}-{done[-1]}")
