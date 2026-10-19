@@ -165,7 +165,7 @@ def build(vid):
             ba = frames(fa) + 2
             sp = ba + frames(fb)
             seg = {"kind": kind, "audio": f"audio/{vid}/{fa.name}", "audioB": f"audio/{vid}/{fb.name}",
-                   "bAt": ba, "speak": sp, "gap": gap, "hold": reveal,
+                   "bAt": ba, "speak": sp, "gap": q.get("timer", gap), "hold": reveal,
                    "a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}
             if q.get("statement"):
                 seg["statement"] = q["statement"]
@@ -204,7 +204,13 @@ def build(vid):
                        "b": {**side(q["b"]), "fact": (e.get("b") or {}).get("fact")}}
                 segs.append(exp)
         else:
-            add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": gap, "hold": reveal})
+            add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": q.get("timer", gap), "hold": reveal})
+            if v.get("progress") and kind == "q":
+                segs[-1]["progress"] = [num, total_q]
+            if q.get("popup"):
+                segs[-1]["popup"] = q["popup"]
+            if v.get("instant") and len(segs) == 1:
+                segs[-1]["instant"] = True
         n += 1
     o = v["outro"]
     if o.get("loop"):

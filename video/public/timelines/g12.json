@@ -4,15 +4,15 @@
  "handle": null,
  "fps": 30,
  "noFollow": true,
- "durationInFrames": 1844,
+ "durationInFrames": 1873,
  "segments": [
   {
    "kind": "q",
    "audio": "audio/g12/00_q_a.mp3",
    "audioB": "audio/g12/00_q_b.mp3",
-   "bAt": 97,
-   "speak": 124,
-   "gap": 60,
+   "bAt": 71,
+   "speak": 96,
+   "gap": 30,
    "hold": 45,
    "a": {
     "label": "Chef Bescheid sagen",
@@ -30,17 +30,17 @@
    ],
    "progress": [
     1,
-    8
+    9
    ],
    "instant": true,
-   "duration": 229
+   "duration": 171
   },
   {
    "kind": "q",
    "audio": "audio/g12/01_q_a.mp3",
    "audioB": "audio/g12/01_q_b.mp3",
-   "bAt": 94,
-   "speak": 144,
+   "bAt": 82,
+   "speak": 119,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -59,16 +59,16 @@
    ],
    "progress": [
     2,
-    8
+    9
    ],
-   "duration": 249
+   "duration": 224
   },
   {
    "kind": "q",
    "audio": "audio/g12/02_q_a.mp3",
    "audioB": "audio/g12/02_q_b.mp3",
-   "bAt": 79,
-   "speak": 105,
+   "bAt": 73,
+   "speak": 100,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -91,16 +91,16 @@
    },
    "progress": [
     3,
-    8
+    9
    ],
-   "duration": 210
+   "duration": 205
   },
   {
    "kind": "q",
    "audio": "audio/g12/03_q_a.mp3",
    "audioB": "audio/g12/03_q_b.mp3",
-   "bAt": 100,
-   "speak": 131,
+   "bAt": 78,
+   "speak": 107,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -123,16 +123,16 @@
    },
    "progress": [
     4,
-    8
+    9
    ],
-   "duration": 236
+   "duration": 212
   },
   {
    "kind": "q",
    "audio": "audio/g12/04_q_a.mp3",
    "audioB": "audio/g12/04_q_b.mp3",
-   "bAt": 40,
-   "speak": 93,
+   "bAt": 47,
+   "speak": 95,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -151,16 +151,16 @@
    ],
    "progress": [
     5,
-    8
+    9
    ],
-   "duration": 198
+   "duration": 200
   },
   {
    "kind": "q",
    "audio": "audio/g12/05_q_a.mp3",
    "audioB": "audio/g12/05_q_b.mp3",
-   "bAt": 67,
-   "speak": 116,
+   "bAt": 43,
+   "speak": 80,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -179,16 +179,16 @@
    ],
    "progress": [
     6,
-    8
+    9
    ],
-   "duration": 221
+   "duration": 185
   },
   {
    "kind": "q",
    "audio": "audio/g12/06_q_a.mp3",
    "audioB": "audio/g12/06_q_b.mp3",
-   "bAt": 106,
-   "speak": 134,
+   "bAt": 71,
+   "speak": 100,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -207,16 +207,44 @@
    ],
    "progress": [
     7,
-    8
+    9
    ],
-   "duration": 239
+   "duration": 205
   },
   {
    "kind": "q",
    "audio": "audio/g12/07_q_a.mp3",
    "audioB": "audio/g12/07_q_b.mp3",
-   "bAt": 87,
-   "speak": 116,
+   "bAt": 86,
+   "speak": 117,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Melden",
+    "img": null,
+    "emoji": "🙋"
+   },
+   "b": {
+    "label": "Nehmen",
+    "img": null,
+    "emoji": "🤑"
+   },
+   "pct": [
+    79,
+    21
+   ],
+   "progress": [
+    8,
+    9
+   ],
+   "duration": 222
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g12/08_q_a.mp3",
+   "audioB": "audio/g12/08_q_b.mp3",
+   "bAt": 76,
+   "speak": 107,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -234,17 +262,17 @@
     50
    ],
    "progress": [
-    8,
-    8
+    9,
+    9
    ],
-   "duration": 221
+   "duration": 212
   },
   {
    "kind": "loop",
-   "audio": "audio/g12/08_loop.mp3",
-   "speak": 37,
+   "audio": "audio/g12/09_loop.mp3",
+   "speak": 33,
    "hold": 4,
-   "duration": 41
+   "duration": 37
   }
  ]
 }

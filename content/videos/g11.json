@@ -24,10 +24,11 @@
    "pct": [
     51,
     49
-   ]
+   ],
+   "timer": 30
   },
   {
-   "say": "Dein Partner verdient doppelt so viel wie du, oder halb so viel?",
+   "say": "Partner verdient doppelt so viel wie du, oder halb so viel?",
    "a": {
     "label": "Partner verdient doppelt",
     "emoji": "💸"
@@ -42,7 +43,7 @@
    ]
   },
   {
-   "say": "Du findest 5.000 Euro bar auf der Straße. Behalten, oder abgeben?",
+   "say": "5.000 Euro auf der Straße gefunden. Behalten, oder abgeben?",
    "a": {
     "label": "Behalten",
     "emoji": "🤫"
@@ -61,7 +62,7 @@
    }
   },
   {
-   "say": "1 Million und nie wieder Urlaub, oder kein Geld und jedes Jahr 3 Monate frei?",
+   "say": "1 Million, aber nie wieder Urlaub, oder jedes Jahr 3 Monate frei?",
    "a": {
     "label": "1 Mio., nie wieder Urlaub",
     "emoji": "💰"
@@ -80,7 +81,7 @@
    }
   },
   {
-   "say": "50.000 Euro, aber ein Jahr lang liest dein Chef alle deine Chats, oder deine Mutter?",
+   "say": "50.000 Euro, aber dein Chef liest ein Jahr alle Chats, oder deine Mutter?",
    "a": {
     "label": "Chef liest mit",
     "emoji": "👔"
@@ -95,7 +96,7 @@
    ]
   },
   {
-   "say": "Doppeltes Gehalt und alle Kollegen hassen dich, oder normales Gehalt und alle lieben dich?",
+   "say": "Doppeltes Gehalt und alle hassen dich, oder normales Gehalt und alle lieben dich?",
    "a": {
     "label": "Doppelt, alle hassen dich",
     "emoji": "😈"
@@ -110,7 +111,7 @@
    ]
   },
   {
-   "say": "Lotto-Jackpot und alle wissen es, oder 100.000 Euro und niemand erfährt es?",
+   "say": "Jackpot und alle wissen es, oder 100.000 Euro und keiner weiß es?",
    "a": {
     "label": "Jackpot, alle wissen es",
     "emoji": "📢"
@@ -125,7 +126,22 @@
    ]
   },
   {
-   "say": "Dein bester Freund wird Millionär und vergisst dich, oder ihr bleibt beide pleite und beste Freunde?",
+   "say": "Alle Gehälter der Kollegen sehen, oder keiner sieht deins?",
+   "a": {
+    "label": "Alle Gehälter sehen",
+    "emoji": "👀"
+   },
+   "b": {
+    "label": "Keiner sieht deins",
+    "emoji": "🙈"
+   },
+   "pct": [
+    61,
+    39
+   ]
+  },
+  {
+   "say": "Bester Freund wird Millionär und vergisst dich, oder ihr bleibt beide pleite?",
    "a": {
     "label": "Er wird reich, vergisst dich",
     "emoji": "💔"

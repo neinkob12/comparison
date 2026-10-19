@@ -4,15 +4,15 @@
  "handle": null,
  "fps": 30,
  "noFollow": true,
- "durationInFrames": 1834,
+ "durationInFrames": 1911,
  "segments": [
   {
    "kind": "q",
    "audio": "audio/g11/00_q_a.mp3",
    "audioB": "audio/g11/00_q_b.mp3",
-   "bAt": 42,
-   "speak": 105,
-   "gap": 60,
+   "bAt": 41,
+   "speak": 100,
+   "gap": 30,
    "hold": 45,
    "a": {
     "label": "100.000 € für dich",
@@ -30,17 +30,17 @@
    ],
    "progress": [
     1,
-    8
+    9
    ],
    "instant": true,
-   "duration": 210
+   "duration": 175
   },
   {
    "kind": "q",
    "audio": "audio/g11/01_q_a.mp3",
    "audioB": "audio/g11/01_q_b.mp3",
-   "bAt": 62,
-   "speak": 92,
+   "bAt": 59,
+   "speak": 90,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -59,16 +59,16 @@
    ],
    "progress": [
     2,
-    8
+    9
    ],
-   "duration": 197
+   "duration": 195
   },
   {
    "kind": "q",
    "audio": "audio/g11/02_q_a.mp3",
    "audioB": "audio/g11/02_q_b.mp3",
-   "bAt": 83,
-   "speak": 112,
+   "bAt": 72,
+   "speak": 100,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -91,16 +91,16 @@
    },
    "progress": [
     3,
-    8
+    9
    ],
-   "duration": 217
+   "duration": 205
   },
   {
    "kind": "q",
    "audio": "audio/g11/03_q_a.mp3",
    "audioB": "audio/g11/03_q_b.mp3",
-   "bAt": 53,
-   "speak": 120,
+   "bAt": 57,
+   "speak": 105,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -123,16 +123,16 @@
    },
    "progress": [
     4,
-    8
+    9
    ],
-   "duration": 225
+   "duration": 210
   },
   {
    "kind": "q",
    "audio": "audio/g11/04_q_a.mp3",
    "audioB": "audio/g11/04_q_b.mp3",
-   "bAt": 118,
-   "speak": 147,
+   "bAt": 102,
+   "speak": 131,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -151,16 +151,16 @@
    ],
    "progress": [
     5,
-    8
+    9
    ],
-   "duration": 252
+   "duration": 236
   },
   {
    "kind": "q",
    "audio": "audio/g11/05_q_a.mp3",
    "audioB": "audio/g11/05_q_b.mp3",
-   "bAt": 70,
-   "speak": 128,
+   "bAt": 53,
+   "speak": 115,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -179,16 +179,16 @@
    ],
    "progress": [
     6,
-    8
+    9
    ],
-   "duration": 233
+   "duration": 220
   },
   {
    "kind": "q",
    "audio": "audio/g11/06_q_a.mp3",
    "audioB": "audio/g11/06_q_b.mp3",
-   "bAt": 54,
-   "speak": 116,
+   "bAt": 44,
+   "speak": 106,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -207,16 +207,44 @@
    ],
    "progress": [
     7,
-    8
+    9
    ],
-   "duration": 221
+   "duration": 211
   },
   {
    "kind": "q",
    "audio": "audio/g11/07_q_a.mp3",
    "audioB": "audio/g11/07_q_b.mp3",
-   "bAt": 74,
-   "speak": 137,
+   "bAt": 65,
+   "speak": 104,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Alle Gehälter sehen",
+    "img": null,
+    "emoji": "👀"
+   },
+   "b": {
+    "label": "Keiner sieht deins",
+    "img": null,
+    "emoji": "🙈"
+   },
+   "pct": [
+    61,
+    39
+   ],
+   "progress": [
+    8,
+    9
+   ],
+   "duration": 209
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g11/08_q_a.mp3",
+   "audioB": "audio/g11/08_q_b.mp3",
+   "bAt": 65,
+   "speak": 104,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -234,17 +262,17 @@
     50
    ],
    "progress": [
-    8,
-    8
+    9,
+    9
    ],
-   "duration": 242
+   "duration": 209
   },
   {
    "kind": "loop",
-   "audio": "audio/g11/08_loop.mp3",
-   "speak": 33,
+   "audio": "audio/g11/09_loop.mp3",
+   "speak": 37,
    "hold": 4,
-   "duration": 37
+   "duration": 41
   }
  ]
 }

@@ -12,7 +12,7 @@
  "follow": false,
  "questions": [
   {
-   "say": "Du bekommst 20.000 Euro zu viel Gehalt überwiesen. Sagen, oder schweigen?",
+   "say": "20.000 Euro zu viel Gehalt. Sagen, oder schweigen?",
    "a": {
     "label": "Chef Bescheid sagen",
     "emoji": "🙋"
@@ -24,10 +24,11 @@
    "pct": [
     41,
     59
-   ]
+   ],
+   "timer": 30
   },
   {
-   "say": "1 Million Euro, aber dein Browserverlauf wird öffentlich, oder du bleibst arm und anonym?",
+   "say": "1 Million, aber dein Browserverlauf wird öffentlich, oder arm und anonym?",
    "a": {
     "label": "1 Mio. + Verlauf öffentlich",
     "emoji": "🖥️"
@@ -42,7 +43,7 @@
    ]
   },
   {
-   "say": "Dein Kumpel schuldet dir 300 Euro. Erinnern, oder vergessen?",
+   "say": "Kumpel schuldet dir 300 Euro. Erinnern, oder vergessen?",
    "a": {
     "label": "Erinnern",
     "emoji": "📲"
@@ -61,7 +62,7 @@
    }
   },
   {
-   "say": "Die Kassiererin gibt dir 50 Euro zu viel zurück. Zurückgeben, oder einstecken?",
+   "say": "50 Euro zu viel Wechselgeld. Zurückgeben, oder einstecken?",
    "a": {
     "label": "Zurückgeben",
     "emoji": "😇"
@@ -80,7 +81,7 @@
    }
   },
   {
-   "say": "Beim Erbe alles für dich, oder fair mit deinen Geschwistern teilen?",
+   "say": "Erbe: alles für dich, oder fair mit Geschwistern teilen?",
    "a": {
     "label": "Alles für mich",
     "emoji": "👑"
@@ -95,7 +96,7 @@
    ]
   },
   {
-   "say": "Im Restaurant die Rechnung durch alle teilen, oder jeder zahlt, was er bestellt hat?",
+   "say": "Rechnung durch alle teilen, oder jeder zahlt seins?",
    "a": {
     "label": "Durch alle teilen",
     "emoji": "➗"
@@ -110,7 +111,7 @@
    ]
   },
   {
-   "say": "100.000 Euro, aber ein Jahr lang siehst du deinen Partner nicht, oder kein Geld?",
+   "say": "100.000 Euro, aber ein Jahr ohne Partner, oder kein Geld?",
    "a": {
     "label": "100.000 €, 1 Jahr getrennt",
     "emoji": "💶"
@@ -125,7 +126,22 @@
    ]
   },
   {
-   "say": "Dein bester Freund will 10.000 Euro von dir leihen. Geben, oder Nein sagen?",
+   "say": "Kollege vergisst 100 Euro am Kopierer. Melden, oder nehmen?",
+   "a": {
+    "label": "Melden",
+    "emoji": "🙋"
+   },
+   "b": {
+    "label": "Nehmen",
+    "emoji": "🤑"
+   },
+   "pct": [
+    79,
+    21
+   ]
+  },
+  {
+   "say": "Bester Freund will 10.000 Euro leihen. Geben, oder Nein sagen?",
    "a": {
     "label": "Geben",
     "emoji": "🤲"

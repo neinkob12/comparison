@@ -12,7 +12,23 @@
  "follow": false,
  "questions": [
   {
-   "say": "1 Million Euro, aber nie wieder ein Handy, oder alles bleibt wie es ist?",
+   "say": "1 Million Euro, aber sofort 10 Jahre älter?",
+   "a": {
+    "label": "1 Mio., 10 Jahre älter",
+    "emoji": "⏳"
+   },
+   "b": {
+    "label": "Kein Geld",
+    "emoji": "🙂"
+   },
+   "pct": [
+    18,
+    82
+   ],
+   "timer": 30
+  },
+  {
+   "say": "1 Million, aber nie wieder Handy, oder alles bleibt?",
    "a": {
     "label": "1 Mio., kein Handy",
     "emoji": "📵"
@@ -42,7 +58,7 @@
    ]
   },
   {
-   "say": "500.000 Euro, aber nie wieder Fleisch, oder kein Geld und du isst, was du willst?",
+   "say": "500.000 Euro, aber nie wieder Fleisch, oder kein Geld?",
    "a": {
     "label": "500.000 €, kein Fleisch",
     "emoji": "🥗"
@@ -61,7 +77,7 @@
    }
   },
   {
-   "say": "Millionär mit 60, oder ab sofort 3.000 Euro im Monat für immer?",
+   "say": "Millionär mit 60, oder ab jetzt 3.000 Euro im Monat?",
    "a": {
     "label": "Millionär mit 60",
     "emoji": "👴"
@@ -80,7 +96,7 @@
    }
   },
   {
-   "say": "10 Millionen, aber du lebst in einem Dorf ohne Internet, oder normales Leben in der Stadt?",
+   "say": "10 Millionen, aber Dorf ohne Internet, oder normales Leben?",
    "a": {
     "label": "10 Mio., Dorf ohne Internet",
     "emoji": "🏚️"
@@ -95,7 +111,7 @@
    ]
   },
   {
-   "say": "Nie wieder arbeiten für 1.500 Euro im Monat, oder 40 Stunden für 6.000?",
+   "say": "Nie arbeiten für 1.500 im Monat, oder 40 Stunden für 6.000?",
    "a": {
     "label": "Nie arbeiten, 1.500 €",
     "emoji": "😴"
@@ -110,22 +126,22 @@
    ]
   },
   {
-   "say": "1 Million Euro, aber du wirst sofort 10 Jahre älter, oder kein Geld?",
+   "say": "5 Millionen, aber nie wieder Musik, oder alles bleibt?",
    "a": {
-    "label": "1 Mio., 10 Jahre älter",
-    "emoji": "⏳"
+    "label": "5 Mio., keine Musik",
+    "emoji": "🔇"
    },
    "b": {
-    "label": "Kein Geld",
-    "emoji": "🙂"
+    "label": "Alles bleibt",
+    "emoji": "🎧"
    },
    "pct": [
-    18,
-    82
+    33,
+    67
    ]
   },
   {
-   "say": "100 Millionen, aber du darfst es niemandem zeigen, oder 1 Million und du darfst angeben?",
+   "say": "100 Millionen geheim, oder 1 Million zum Angeben?",
    "a": {
     "label": "100 Mio., geheim",
     "emoji": "🤐"

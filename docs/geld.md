@@ -88,8 +88,8 @@ Geprüft: 0,8 × 0,8 = 0,64 (2 × 20 % = 36 %), 100 → 150 → 75 (−25 %), 3 
 ## g11 bis g15: schneller Einstieg, provokante Fragen
 
 Ausgewählt aus 16 Empfehlungen:
-- **Einstieg:** Frage 1 ab Frame 0, beide Optionen sofort sichtbar. Kein Claim, kein Thema, kein Follow-Pop-up.
-- **Fragen:** Geld gegen Menschen, Geld gegen Moral, brutale Tauschgeschäfte. 8 Fragen, keine Zwischenfrage.
+- **Einstieg:** Frage 1 ab Frame 0, beide Optionen sofort sichtbar. Kein Claim, kein Thema, kein Follow-Pop-up. Uhr bei Frage 1 nur 1 Sekunde (`timer` pro Frage).
+- **Fragen:** Geld gegen Menschen, Geld gegen Moral, brutale Tauschgeschäfte. 9 Fragen ohne Füllwörter, keine Zwischenfrage.
 - **Bis zum Ende halten:** Balken "FRAGE 3/8" oben, Pop-up "Die letzte Frage spaltet alle 👀" nach Frage 4, 2-Sekunden-Timer, Loop-Ende ("Und jetzt mal ehrlich:" führt zurück in Frage 1).
 - **Kommentare:** extreme Prozente (3/97, 50/50), Pop-up "Markier jemanden, der … nimmt 👇" nach Frage 3.
 
@@ -97,8 +97,8 @@ Optionen im JSON: `instant`, `progress`, `follow: false`, `popup` pro Frage, `ou
 
 | Video | Schwerpunkt | Stimme | Länge |
 |---|---|---|---|
-| g11 | Geld gegen Freunde/Partner | Adam | 61,1 s |
-| g12 | Geld gegen Moral | Adam | 61,5 s |
-| g13 | Brutale Tauschgeschäfte | Adam | 62,9 s |
-| g14 | Geld in Beziehungen | Brian | 62,8 s |
-| g15 | Mix | Adam | 63,8 s |
+| g11 | Geld gegen Freunde/Partner | Adam | 63,7 s |
+| g12 | Geld gegen Moral | Adam | 62,4 s |
+| g13 | Brutale Tauschgeschäfte | Adam | 60,5 s |
+| g14 | Geld in Beziehungen | Brian | 61,7 s |
+| g15 | Mix | Adam | 63,5 s |

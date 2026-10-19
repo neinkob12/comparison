@@ -12,7 +12,7 @@
  "follow": false,
  "questions": [
   {
-   "say": "Deine Firma bietet dir 30.000 Euro, wenn du kündigst. Nehmen, oder bleiben?",
+   "say": "30.000 Euro, wenn du kündigst. Nehmen, oder bleiben?",
    "a": {
     "label": "30.000 € und weg",
     "emoji": "💼"
@@ -24,10 +24,11 @@
    "pct": [
     72,
     28
-   ]
+   ],
+   "timer": 30
   },
   {
-   "say": "Du siehst deinen Kontostand mit 50, oder du willst es nie wissen?",
+   "say": "Deinen Kontostand mit 50 sehen, oder nie wissen?",
    "a": {
     "label": "Kontostand mit 50 sehen",
     "emoji": "🔮"
@@ -42,7 +43,7 @@
    ]
   },
   {
-   "say": "200.000 Euro, aber ein Jahr lang läuft dein Leben live auf TikTok, oder privat bleiben?",
+   "say": "200.000 Euro, aber ein Jahr live auf TikTok, oder privat bleiben?",
    "a": {
     "label": "200.000 €, alles live",
     "emoji": "📹"
@@ -80,7 +81,7 @@
    }
   },
   {
-   "say": "Du gewinnst 1 Million und deine Familie will was abhaben. Teilen, oder alles behalten?",
+   "say": "1 Million gewonnen, Familie will was ab. Teilen, oder behalten?",
    "a": {
     "label": "Mit Familie teilen",
     "emoji": "👨‍👩‍👧"
@@ -95,7 +96,7 @@
    ]
   },
   {
-   "say": "100 Euro für eine 5-Sterne-Bewertung, obwohl das Essen schlecht war, oder ehrlich 1 Stern?",
+   "say": "100 Euro für 5 Sterne trotz schlechtem Essen, oder ehrlich 1 Stern?",
    "a": {
     "label": "Für 100 € lügen",
     "emoji": "⭐"
@@ -110,7 +111,7 @@
    ]
   },
   {
-   "say": "1.000 Euro im Monat extra, aber jeden Tag um 5 Uhr aufstehen, oder ausschlafen ohne Geld?",
+   "say": "1.000 Euro extra im Monat, aber jeden Tag 5 Uhr aufstehen, oder ausschlafen?",
    "a": {
     "label": "1.000 €, 5 Uhr aufstehen",
     "emoji": "⏰"
@@ -125,7 +126,22 @@
    ]
   },
   {
-   "say": "Einen Fehler aus deiner Vergangenheit löschen, oder 1 Million Euro?",
+   "say": "20 Prozent mehr Gehalt, aber Umzug nach Bielefeld. Annehmen, oder ablehnen?",
+   "a": {
+    "label": "Annehmen, umziehen",
+    "emoji": "📦"
+   },
+   "b": {
+    "label": "Ablehnen",
+    "emoji": "🏠"
+   },
+   "pct": [
+    58,
+    42
+   ]
+  },
+  {
+   "say": "Einen Fehler deiner Vergangenheit löschen, oder 1 Million?",
    "a": {
     "label": "Fehler löschen",
     "emoji": "⏪"

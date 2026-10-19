@@ -19,7 +19,7 @@
  "follow": false,
  "questions": [
   {
-   "say": "Dein Partner hat heimlich 20.000 Euro Schulden. Bleiben, oder gehen?",
+   "say": "Dein Partner hat 100.000 Euro Schulden. Bleiben, oder gehen?",
    "a": {
     "label": "Bleiben",
     "emoji": "🫂"
@@ -31,10 +31,11 @@
    "pct": [
     46,
     54
-   ]
+   ],
+   "timer": 30
   },
   {
-   "say": "Dein jüngerer Kollege verdient 1.000 Euro mehr als du. Ansprechen, oder schlucken?",
+   "say": "Jüngerer Kollege verdient 1.000 Euro mehr. Ansprechen, oder schlucken?",
    "a": {
     "label": "Ansprechen",
     "emoji": "🗣️"
@@ -49,7 +50,7 @@
    ]
   },
   {
-   "say": "Mit deinem Partner ein gemeinsames Konto, oder alles getrennt?",
+   "say": "Mit Partner gemeinsames Konto, oder alles getrennt?",
    "a": {
     "label": "Gemeinsames Konto",
     "emoji": "💑"
@@ -68,7 +69,7 @@
    }
   },
   {
-   "say": "Freunde, die alle mehr verdienen als du, oder Freunde, die alle weniger verdienen?",
+   "say": "Freunde, die alle mehr verdienen, oder alle weniger?",
    "a": {
     "label": "Alle verdienen mehr",
     "emoji": "📈"
@@ -87,7 +88,7 @@
    }
   },
   {
-   "say": "Deine Eltern zahlen deine Miete und reden bei allem mit, oder alles selbst zahlen und frei sein?",
+   "say": "Eltern zahlen Miete und reden mit, oder selbst zahlen und frei?",
    "a": {
     "label": "Eltern zahlen, reden mit",
     "emoji": "🏡"
@@ -102,7 +103,7 @@
    ]
   },
   {
-   "say": "Beim ersten Date zahlt einer alles, oder jeder zahlt selbst?",
+   "say": "Erstes Date: einer zahlt alles, oder jeder selbst?",
    "a": {
     "label": "Einer zahlt alles",
     "emoji": "💳"
@@ -117,7 +118,7 @@
    ]
   },
   {
-   "say": "Dein bester Freund verdient plötzlich 10.000 im Monat. Ehrlich freuen, oder ehrlich neidisch?",
+   "say": "Bester Freund verdient plötzlich 10.000 im Monat. Freuen, oder neidisch?",
    "a": {
     "label": "Ehrlich freuen",
     "emoji": "🥳"
@@ -132,7 +133,22 @@
    ]
   },
   {
-   "say": "Jemand, den du liebst, mit 1 Million Schulden, oder ein Millionär, den du nur magst?",
+   "say": "Partner kündigt für seinen Traum, du zahlst alles. Ja, oder Nein?",
+   "a": {
+    "label": "Ja, ich zahle",
+    "emoji": "🫡"
+   },
+   "b": {
+    "label": "Nein",
+    "emoji": "🙅"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "Große Liebe mit 1 Million Schulden, oder Millionär, den du nur magst?",
    "a": {
     "label": "Liebe + 1 Mio. Schulden",
     "emoji": "❤️"

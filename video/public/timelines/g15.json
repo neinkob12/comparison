@@ -4,15 +4,15 @@
  "handle": null,
  "fps": 30,
  "noFollow": true,
- "durationInFrames": 1914,
+ "durationInFrames": 1906,
  "segments": [
   {
    "kind": "q",
    "audio": "audio/g15/00_q_a.mp3",
    "audioB": "audio/g15/00_q_b.mp3",
-   "bAt": 108,
-   "speak": 132,
-   "gap": 60,
+   "bAt": 71,
+   "speak": 98,
+   "gap": 30,
    "hold": 45,
    "a": {
     "label": "30.000 € und weg",
@@ -30,17 +30,17 @@
    ],
    "progress": [
     1,
-    8
+    9
    ],
    "instant": true,
-   "duration": 237
+   "duration": 173
   },
   {
    "kind": "q",
    "audio": "audio/g15/01_q_a.mp3",
    "audioB": "audio/g15/01_q_b.mp3",
-   "bAt": 57,
-   "speak": 97,
+   "bAt": 54,
+   "speak": 82,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -59,16 +59,16 @@
    ],
    "progress": [
     2,
-    8
+    9
    ],
-   "duration": 202
+   "duration": 187
   },
   {
    "kind": "q",
    "audio": "audio/g15/02_q_a.mp3",
    "audioB": "audio/g15/02_q_b.mp3",
-   "bAt": 119,
-   "speak": 155,
+   "bAt": 84,
+   "speak": 117,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -91,16 +91,16 @@
    },
    "progress": [
     3,
-    8
+    9
    ],
-   "duration": 260
+   "duration": 222
   },
   {
    "kind": "q",
    "audio": "audio/g15/03_q_a.mp3",
    "audioB": "audio/g15/03_q_b.mp3",
-   "bAt": 69,
-   "speak": 109,
+   "bAt": 70,
+   "speak": 110,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -123,16 +123,16 @@
    },
    "progress": [
     4,
-    8
+    9
    ],
-   "duration": 214
+   "duration": 215
   },
   {
    "kind": "q",
    "audio": "audio/g15/04_q_a.mp3",
    "audioB": "audio/g15/04_q_b.mp3",
-   "bAt": 102,
-   "speak": 137,
+   "bAt": 80,
+   "speak": 109,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -151,16 +151,16 @@
    ],
    "progress": [
     5,
-    8
+    9
    ],
-   "duration": 242
+   "duration": 214
   },
   {
    "kind": "q",
    "audio": "audio/g15/05_q_a.mp3",
    "audioB": "audio/g15/05_q_b.mp3",
-   "bAt": 104,
-   "speak": 142,
+   "bAt": 71,
+   "speak": 107,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -179,16 +179,16 @@
    ],
    "progress": [
     6,
-    8
+    9
    ],
-   "duration": 247
+   "duration": 212
   },
   {
    "kind": "q",
    "audio": "audio/g15/06_q_a.mp3",
    "audioB": "audio/g15/06_q_b.mp3",
-   "bAt": 118,
-   "speak": 158,
+   "bAt": 113,
+   "speak": 144,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -207,16 +207,44 @@
    ],
    "progress": [
     7,
-    8
+    9
    ],
-   "duration": 263
+   "duration": 249
   },
   {
    "kind": "q",
    "audio": "audio/g15/07_q_a.mp3",
    "audioB": "audio/g15/07_q_b.mp3",
-   "bAt": 65,
-   "speak": 102,
+   "bAt": 61,
+   "speak": 94,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Annehmen, umziehen",
+    "img": null,
+    "emoji": "📦"
+   },
+   "b": {
+    "label": "Ablehnen",
+    "img": null,
+    "emoji": "🏠"
+   },
+   "pct": [
+    58,
+    42
+   ],
+   "progress": [
+    8,
+    9
+   ],
+   "duration": 199
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g15/08_q_a.mp3",
+   "audioB": "audio/g15/08_q_b.mp3",
+   "bAt": 58,
+   "speak": 91,
    "gap": 60,
    "hold": 45,
    "a": {
@@ -234,17 +262,17 @@
     50
    ],
    "progress": [
-    8,
-    8
+    9,
+    9
    ],
-   "duration": 207
+   "duration": 196
   },
   {
    "kind": "loop",
-   "audio": "audio/g15/08_loop.mp3",
-   "speak": 38,
+   "audio": "audio/g15/09_loop.mp3",
+   "speak": 35,
    "hold": 4,
-   "duration": 42
+   "duration": 39
   }
  ]
 }
