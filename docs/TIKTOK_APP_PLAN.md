@@ -53,6 +53,15 @@ So this is a real product that any creator can sign up for, with free and paid p
 - [ ] Set up an **email address on the domain** (e.g. hello@domain, forwarding to your Gmail is enough)
 - [ ] Tell me which **address goes in the Impressum** (business or personal)
 
+### Gewerbe extension (30 min, before the first real payment)
+- [ ] Optional but quick: 5-minute call or mail to your **tax advisor**: "Ich verkaufe ab sofort Software-Abos (SaaS), reicht eine Gewerbe-Ummeldung?"
+- [ ] **Gewerbe-Ummeldung** online at your city's Gewerbeamt (search "Gewerbeummeldung online [your city]"), fee usually around 20 to 40 EUR
+  - Add activity: **"Entwicklung und Vertrieb von Software sowie Software as a Service (SaaS)"**
+  - Start date: tomorrow's date
+- [ ] **Finanzamt:** in ELSTER, submit the change of activity ("Fragebogen zur steuerlichen Erfassung, Änderung" / sonstige Nachricht), if your tax advisor doesn't do it
+- [ ] Decide on **VAT for EU customers**: Stripe Tax (Stripe calculates it, extra fee) or a merchant of record (Paddle / Lemon Squeezy handle it fully)
+- [ ] Use the **business address** in the Impressum and the **business details** in Stripe
+
 ### Accounts (30 min)
 - [ ] Create a **TikTok developer account** at developers.tiktok.com (with the new email)
 - [ ] Create an **app** there: name, short description, category (icon comes from me)
