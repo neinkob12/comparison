@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Mit dreihundert Ka Emm Ha mit Lucio fahren, oder mit zweihundertsiebenundsechzig Ka Emm Ha mit Ufo361?",
+  "say": "Lieber einen Tag Lacazette sein, oder einen Tag [[Nissi]] sein?",
   "a": {
-   "label": "300 km/h mit Lucio",
-   "img": "artists/lucio101.jpg"
+   "label": "1 Tag Lacazette sein",
+   "img": "artists/lacazette.jpg"
   },
   "b": {
-   "label": "267 km/h mit Ufo361",
-   "img": "artists/ufo361.jpg"
+   "label": "1 Tag Nizi sein",
+   "img": "artists/nizi19.jpg"
   },
   "pct": [
-   94,
-   6
+   43,
+   57
   ],
   "type": "hook"
  },
@@ -35,19 +35,20 @@
    ]
   },
   {
-   "say": "Nur noch +49 hören, oder nur noch Sommergewitter?",
+   "say": "Safe für immer löschen, oder Straße studiert für immer löschen?",
    "a": {
-    "label": "Nur noch +49",
-    "img": "songs/song-plus49.jpg"
+    "label": "Safe löschen",
+    "img": "songs/song-safe.jpg"
    },
    "b": {
-    "label": "Nur noch Sommergewitter",
-    "img": "songs/song-sommergewitter.jpg"
+    "label": "Straße studiert löschen",
+    "img": "songs/song-strasse-studiert.jpg"
    },
    "pct": [
-    8,
-    92
-   ]
+    52,
+    48
+   ],
+   "keep": true
   },
   {
    "say": "Ein Tag mit [[Lussssssiiiiiiiooooooooo]], oder ein Tag mit Ufo361?",
@@ -126,19 +127,20 @@
    ]
   },
   {
-   "say": "Nur noch Hollywoodreif hören, oder nur noch Sommergewitter?",
+   "say": "Nur noch dass du weißt hören, oder nur noch Mr. X?",
    "a": {
-    "label": "Nur noch Hollywoodreif",
-    "img": "songs/song-hollywoodreif.jpg"
+    "label": "Nur noch dass du weißt",
+    "img": "songs/song-dass-du-weisst.jpg"
    },
    "b": {
-    "label": "Nur noch Sommergewitter",
-    "img": "songs/song-sommergewitter.jpg"
+    "label": "Nur noch Mr. X",
+    "img": "songs/song-mr-x.jpg"
    },
    "pct": [
-    44,
-    56
-   ]
+    45,
+    55
+   ],
+   "keep": true
   }
  ],
  "outro": {

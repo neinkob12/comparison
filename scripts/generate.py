@@ -41,6 +41,13 @@ SONGS = [  # (Titel, Bild, Artist-Key)
     ("Hier", "songs/song-hier.jpg", "lucio"), ("Hollywoodreif", "songs/song-hollywoodreif.jpg", "nizi"),
     ("Sommergewitter", "songs/song-sommergewitter.jpg", "pasha"), ("Airwaves", "songs/song-airwaves.jpg", "pasha"),
     ("Kleiner Prinz", "songs/song-kleiner-prinz.jpg", "pasha"), ("16", "songs/song-16.jpg", "kalim"),
+    # Okt 2026: meistgestreamte Songs mit Nizi19/Lucio101 (Bilder in assets/manifest.tsv)
+    ("CODEIN COWBOY", "songs/song-codein-cowboy.jpg", "kalim"), ("Safe", "songs/song-safe.jpg", "lucio"),
+    ("Bunte Flavours", "songs/song-bunte-flavours.jpg", "lucio"), ("Schlechter Empfang", "songs/song-schlechter-empfang.jpg", "nizi"),
+    ("Straße studiert", "songs/song-strasse-studiert.jpg", "lucio"), ("dass du weißt", "songs/song-dass-du-weisst.jpg", "caney"),
+    ("Outro", "songs/song-outro.jpg", "lucio"), ("Tränen", "songs/song-traenen.jpg", "lucio"), ("6 Nullen", "songs/song-6-nullen.jpg", "lucio"),
+    ("Y-3", "songs/song-y-3.jpg", "lucio"), ("Topfit", "songs/song-topfit.jpg", "lucio"), ("Mr. X", "songs/song-mr-x.jpg", "lucio"),
+    ("Mond", "songs/song-mond.jpg", "lucio"),
 ]
 ALBUMS = [
     ("LID", "albums/album-lid.jpg"), ("101%", "albums/album-101.jpg"), ("Mittendrin", "albums/album-mittendrin.jpg"),

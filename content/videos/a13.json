@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "24 Stunden mit Nizi19 im Fahrstuhl, oder mit Souly im Bällebad?",
+  "say": "Neben [[Nissi]] im Bett einschlafen, oder Lucio ein Lied zum Einschlafen singen?",
   "a": {
-   "label": "Nizi19 im Fahrstuhl",
+   "label": "Neben Nizi einschlafen",
    "img": "artists/nizi19.jpg"
   },
   "b": {
-   "label": "Souly im Bällebad",
-   "img": "artists/souly.jpg"
+   "label": "Lucio in den Schlaf singen",
+   "img": "artists/lucio101.jpg"
   },
   "pct": [
-   47,
-   53
+   27,
+   73
   ],
   "type": "hook"
  },
@@ -96,19 +96,20 @@
    ]
   },
   {
-   "say": "Nur noch +49 hören, oder nur noch FTW?",
+   "say": "Bunte Flavours auf Dauerschleife, oder Tränen auf Dauerschleife?",
    "a": {
-    "label": "Nur noch +49",
-    "img": "songs/song-plus49.jpg"
+    "label": "Bunte Flavours auf Repeat",
+    "img": "songs/song-bunte-flavours.jpg"
    },
    "b": {
-    "label": "Nur noch FTW",
-    "img": "songs/song-ftw.jpg"
+    "label": "Tränen auf Repeat",
+    "img": "songs/song-traenen.jpg"
    },
    "pct": [
-    48,
-    52
-   ]
+    29,
+    71
+   ],
+   "keep": true
   },
   {
    "say": "[[Karaaaaaameeeeeel Eins Neun]] als Lehrer, oder [[BOBOBOBOBOBOOOOOOOOO]] als Fahrlehrer?",
@@ -126,19 +127,20 @@
    ]
   },
   {
-   "say": "Nur noch Wittenbergplatz hören, oder nur noch 16?",
+   "say": "Straße studiert für immer löschen, oder dass du weißt für immer löschen?",
    "a": {
-    "label": "Nur noch Wittenbergplatz",
-    "img": "songs/song-wittenbergplatz.jpg"
+    "label": "Straße studiert löschen",
+    "img": "songs/song-strasse-studiert.jpg"
    },
    "b": {
-    "label": "Nur noch 16",
-    "img": "songs/song-16.jpg"
+    "label": "dass du weißt löschen",
+    "img": "songs/song-dass-du-weisst.jpg"
    },
    "pct": [
-    81,
-    19
-   ]
+    57,
+    43
+   ],
+   "keep": true
   }
  ],
  "outro": {

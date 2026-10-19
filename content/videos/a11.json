@@ -3,36 +3,37 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Einen Tag [[Nissis]] Schuhe sein, oder einen Tag [[Lakasetts]] Sonnenbrille?!",
+  "say": "[[Lakasetts]] Läufer sein, oder [[Kaa-lims]] Läufer sein?",
   "a": {
-   "label": "1 Tag Nizis Schuhe sein",
-   "img": "artists/nizi19.jpg"
-  },
-  "b": {
-   "label": "1 Tag Lacazettes Sonnenbrille",
+   "label": "Lacazettes Läufer sein",
    "img": "artists/lacazette.jpg"
   },
+  "b": {
+   "label": "Kalims Läufer sein",
+   "img": "artists/kalim.jpg"
+  },
   "pct": [
-   46,
-   54
+   61,
+   39
   ],
   "type": "hook"
  },
  "questions": [
   {
-   "say": "CUP auf Dauerschleife, oder Sommergewitter auf Dauerschleife?",
+   "say": "Y-3 auf Dauerschleife, oder Topfit auf Dauerschleife?",
    "a": {
-    "label": "CUP auf Repeat",
-    "img": "songs/song-cup.jpg"
+    "label": "Y-3 auf Repeat",
+    "img": "songs/song-y-3.jpg"
    },
    "b": {
-    "label": "Sommergewitter auf Repeat",
-    "img": "songs/song-sommergewitter.jpg"
+    "label": "Topfit auf Repeat",
+    "img": "songs/song-topfit.jpg"
    },
    "pct": [
-    27,
-    73
-   ]
+    64,
+    36
+   ],
+   "keep": true
   },
   {
    "say": "Nur noch das Album Nur für meine Augen hören, oder nur noch Doktor?",
@@ -126,19 +127,20 @@
    ]
   },
   {
-   "say": "Nur noch Superkraft hören, oder nur noch 16?",
+   "say": "Nur noch Schlechter Empfang hören, oder nur noch Mond?",
    "a": {
-    "label": "Nur noch Superkraft",
-    "img": "songs/song-superkraft.jpg"
+    "label": "Nur noch Schlechter Empfang",
+    "img": "songs/song-schlechter-empfang.jpg"
    },
    "b": {
-    "label": "Nur noch 16",
-    "img": "songs/song-16.jpg"
+    "label": "Nur noch Mond",
+    "img": "songs/song-mond.jpg"
    },
    "pct": [
-    93,
-    7
-   ]
+    33,
+    67
+   ],
+   "keep": true
   }
  ],
  "outro": {

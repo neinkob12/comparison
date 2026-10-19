@@ -3,39 +3,39 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2243,
+ "durationInFrames": 2306,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a10/00_hook_a.mp3",
    "audioB": "audio/a10/00_hook_b.mp3",
-   "bAt": 73,
-   "speak": 111,
+   "bAt": 65,
+   "speak": 100,
    "gap": 45,
    "hold": 45,
    "a": {
-    "label": "1 Monat Lacazette in deinen Alpträumen",
-    "img": "img/artists/lacazette.jpg",
-    "emoji": null
-   },
-   "b": {
-    "label": "Nie wieder Nizi hören",
+    "label": "Mit Nizi smoken",
     "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
+   "b": {
+    "label": "Mit Lucio smoken",
+    "img": "img/artists/lucio101.jpg",
+    "emoji": null
+   },
    "pct": [
-    12,
-    88
+    48,
+    52
    ],
    "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
-   "duration": 201
+   "duration": 190
   },
   {
    "kind": "q",
    "audio": "audio/a10/01_q_a.mp3",
    "audioB": "audio/a10/01_q_b.mp3",
-   "bAt": 60,
-   "speak": 98,
+   "bAt": 58,
+   "speak": 97,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -52,14 +52,14 @@
     51,
     49
    ],
-   "duration": 224
+   "duration": 223
   },
   {
    "kind": "q",
    "audio": "audio/a10/02_q_a.mp3",
    "audioB": "audio/a10/02_q_b.mp3",
-   "bAt": 78,
-   "speak": 116,
+   "bAt": 106,
+   "speak": 144,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -76,14 +76,14 @@
     96,
     4
    ],
-   "duration": 242
+   "duration": 270
   },
   {
    "kind": "q",
    "audio": "audio/a10/03_q_a.mp3",
    "audioB": "audio/a10/03_q_b.mp3",
    "bAt": 35,
-   "speak": 89,
+   "speak": 93,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -100,14 +100,14 @@
     15,
     85
    ],
-   "duration": 215
+   "duration": 219
   },
   {
    "kind": "q",
    "audio": "audio/a10/04_q_a.mp3",
    "audioB": "audio/a10/04_q_b.mp3",
    "bAt": 55,
-   "speak": 109,
+   "speak": 143,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -124,14 +124,14 @@
     9,
     91
    ],
-   "duration": 235
+   "duration": 269
   },
   {
    "kind": "mid",
    "audio": "audio/a10/05_mid_a.mp3",
    "audioB": "audio/a10/05_mid_b.mp3",
    "bAt": 50,
-   "speak": 145,
+   "speak": 151,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -148,38 +148,38 @@
     83,
     17
    ],
-   "duration": 271
+   "duration": 277
   },
   {
    "kind": "q",
    "audio": "audio/a10/06_q_a.mp3",
    "audioB": "audio/a10/06_q_b.mp3",
-   "bAt": 48,
-   "speak": 82,
+   "bAt": 46,
+   "speak": 78,
    "gap": 81,
    "hold": 45,
    "a": {
-    "label": "Nur noch Hollywoodreif",
-    "img": "img/songs/song-hollywoodreif.jpg",
+    "label": "Nur noch CODEIN COWBOY",
+    "img": "img/songs/song-codein-cowboy.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch FTW",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Nur noch Tränen",
+    "img": "img/songs/song-traenen.jpg",
     "emoji": null
    },
    "pct": [
-    79,
-    21
+    58,
+    42
    ],
-   "duration": 208
+   "duration": 204
   },
   {
    "kind": "q",
    "audio": "audio/a10/07_q_a.mp3",
    "audioB": "audio/a10/07_q_b.mp3",
-   "bAt": 80,
-   "speak": 114,
+   "bAt": 82,
+   "speak": 115,
    "gap": 81,
    "hold": 45,
    "a": {
@@ -196,41 +196,41 @@
     92,
     8
    ],
-   "duration": 240
+   "duration": 241
   },
   {
    "kind": "q",
    "audio": "audio/a10/08_q_a.mp3",
    "audioB": "audio/a10/08_q_b.mp3",
    "bAt": 44,
-   "speak": 79,
+   "speak": 83,
    "gap": 81,
    "hold": 45,
    "a": {
-    "label": "Nur noch +49",
-    "img": "img/songs/song-plus49.jpg",
+    "label": "6 Nullen löschen",
+    "img": "img/songs/song-6-nullen.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch 16",
-    "img": "img/songs/song-16.jpg",
+    "label": "Outro löschen",
+    "img": "img/songs/song-outro.jpg",
     "emoji": null
    },
    "pct": [
-    26,
-    74
+    41,
+    59
    ],
-   "duration": 205
+   "duration": 209
   },
   {
    "kind": "outro",
    "audio": "audio/a10/09_outro.mp3",
-   "speak": 157,
+   "speak": 159,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 202
+   "duration": 204
   }
  ]
 }

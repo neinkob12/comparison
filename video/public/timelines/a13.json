@@ -3,39 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2515,
+ "durationInFrames": 2372,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a13/00_hook_a.mp3",
    "audioB": "audio/a13/00_hook_b.mp3",
-   "bAt": 75,
-   "speak": 116,
-   "gap": 90,
+   "bAt": 46,
+   "speak": 97,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "Nizi19 im Fahrstuhl",
+    "label": "Neben Nizi einschlafen",
     "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Souly im Bällebad",
-    "img": "img/artists/souly.jpg",
+    "label": "Lucio in den Schlaf singen",
+    "img": "img/artists/lucio101.jpg",
     "emoji": null
    },
    "pct": [
-    47,
-    53
+    27,
+    73
    ],
-   "duration": 251
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 187
   },
   {
    "kind": "q",
    "audio": "audio/a13/01_q_a.mp3",
    "audioB": "audio/a13/01_q_b.mp3",
    "bAt": 64,
-   "speak": 113,
-   "gap": 90,
+   "speak": 108,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Caney030 kocht",
@@ -51,15 +52,15 @@
     47,
     53
    ],
-   "duration": 248
+   "duration": 234
   },
   {
    "kind": "q",
    "audio": "audio/a13/02_q_a.mp3",
    "audioB": "audio/a13/02_q_b.mp3",
-   "bAt": 47,
-   "speak": 144,
-   "gap": 90,
+   "bAt": 48,
+   "speak": 143,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Pashanim als Bruder",
@@ -75,15 +76,15 @@
     24,
     76
    ],
-   "duration": 279
+   "duration": 269
   },
   {
    "kind": "q",
    "audio": "audio/a13/03_q_a.mp3",
    "audioB": "audio/a13/03_q_b.mp3",
-   "bAt": 88,
-   "speak": 125,
-   "gap": 90,
+   "bAt": 93,
+   "speak": 131,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Insel: 101%",
@@ -99,15 +100,15 @@
     46,
     54
    ],
-   "duration": 260
+   "duration": 257
   },
   {
    "kind": "q",
    "audio": "audio/a13/04_q_a.mp3",
    "audioB": "audio/a13/04_q_b.mp3",
-   "bAt": 43,
-   "speak": 104,
-   "gap": 90,
+   "bAt": 42,
+   "speak": 105,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Feature mit Kakanim",
@@ -123,15 +124,15 @@
     54,
     46
    ],
-   "duration": 239
+   "duration": 231
   },
   {
    "kind": "mid",
    "audio": "audio/a13/05_mid_a.mp3",
    "audioB": "audio/a13/05_mid_b.mp3",
-   "bAt": 56,
-   "speak": 146,
-   "gap": 90,
+   "bAt": 52,
+   "speak": 142,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Nie wieder duschen",
@@ -147,39 +148,39 @@
     99,
     1
    ],
-   "duration": 281
+   "duration": 268
   },
   {
    "kind": "q",
    "audio": "audio/a13/06_q_a.mp3",
    "audioB": "audio/a13/06_q_b.mp3",
-   "bAt": 50,
-   "speak": 91,
-   "gap": 90,
+   "bAt": 46,
+   "speak": 90,
+   "gap": 81,
    "hold": 45,
    "a": {
-    "label": "Nur noch +49",
-    "img": "img/songs/song-plus49.jpg",
+    "label": "Bunte Flavours auf Repeat",
+    "img": "img/songs/song-bunte-flavours.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch FTW",
-    "img": "img/songs/song-ftw.jpg",
+    "label": "Tränen auf Repeat",
+    "img": "img/songs/song-traenen.jpg",
     "emoji": null
    },
    "pct": [
-    48,
-    52
+    29,
+    71
    ],
-   "duration": 226
+   "duration": 216
   },
   {
    "kind": "q",
    "audio": "audio/a13/07_q_a.mp3",
    "audioB": "audio/a13/07_q_b.mp3",
-   "bAt": 79,
-   "speak": 158,
-   "gap": 90,
+   "bAt": 71,
+   "speak": 148,
+   "gap": 81,
    "hold": 45,
    "a": {
     "label": "Karamel19 als Lehrer",
@@ -195,41 +196,41 @@
     23,
     77
    ],
-   "duration": 293
+   "duration": 274
   },
   {
    "kind": "q",
    "audio": "audio/a13/08_q_a.mp3",
    "audioB": "audio/a13/08_q_b.mp3",
-   "bAt": 50,
-   "speak": 84,
-   "gap": 90,
+   "bAt": 52,
+   "speak": 99,
+   "gap": 81,
    "hold": 45,
    "a": {
-    "label": "Nur noch Wittenbergplatz",
-    "img": "img/songs/song-wittenbergplatz.jpg",
+    "label": "Straße studiert löschen",
+    "img": "img/songs/song-strasse-studiert.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Nur noch 16",
-    "img": "img/songs/song-16.jpg",
+    "label": "dass du weißt löschen",
+    "img": "img/songs/song-dass-du-weisst.jpg",
     "emoji": null
    },
    "pct": [
-    81,
-    19
+    57,
+    43
    ],
-   "duration": 219
+   "duration": 225
   },
   {
    "kind": "outro",
    "audio": "audio/a13/09_outro.mp3",
-   "speak": 174,
+   "speak": 166,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 219
+   "duration": 211
   }
  ]
 }

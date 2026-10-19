@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "Einen Monat Lacazette in deinen Alpträumen begegnen, oder nie wieder [[Nissi]] hören?",
+  "say": "Mit [[Nisssssiiiiiijaaaaaaa]] smoken, oder mit Lucio smoken?",
   "a": {
-   "label": "1 Monat Lacazette in deinen Alpträumen",
-   "img": "artists/lacazette.jpg"
-  },
-  "b": {
-   "label": "Nie wieder Nizi hören",
+   "label": "Mit Nizi smoken",
    "img": "artists/nizi19.jpg"
   },
+  "b": {
+   "label": "Mit Lucio smoken",
+   "img": "artists/lucio101.jpg"
+  },
   "pct": [
-   12,
-   88
+   48,
+   52
   ],
   "type": "hook"
  },
@@ -96,19 +96,20 @@
    ]
   },
   {
-   "say": "Nur noch Hollywoodreif hören, oder nur noch FTW?",
+   "say": "Nur noch CODEIN COWBOY hören, oder nur noch Tränen?",
    "a": {
-    "label": "Nur noch Hollywoodreif",
-    "img": "songs/song-hollywoodreif.jpg"
+    "label": "Nur noch CODEIN COWBOY",
+    "img": "songs/song-codein-cowboy.jpg"
    },
    "b": {
-    "label": "Nur noch FTW",
-    "img": "songs/song-ftw.jpg"
+    "label": "Nur noch Tränen",
+    "img": "songs/song-traenen.jpg"
    },
    "pct": [
-    79,
-    21
-   ]
+    58,
+    42
+   ],
+   "keep": true
   },
   {
    "say": "Nur noch das Album 101% hören, oder nur noch Doktor?",
@@ -126,19 +127,20 @@
    ]
   },
   {
-   "say": "Nur noch +49 hören, oder nur noch 16?",
+   "say": "6 Nullen für immer löschen, oder Outro für immer löschen?",
    "a": {
-    "label": "Nur noch +49",
-    "img": "songs/song-plus49.jpg"
+    "label": "6 Nullen löschen",
+    "img": "songs/song-6-nullen.jpg"
    },
    "b": {
-    "label": "Nur noch 16",
-    "img": "songs/song-16.jpg"
+    "label": "Outro löschen",
+    "img": "songs/song-outro.jpg"
    },
    "pct": [
-    26,
-    74
-   ]
+    41,
+    59
+   ],
+   "keep": true
   }
  ],
  "outro": {

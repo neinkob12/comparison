@@ -40,19 +40,19 @@ Kalim am Abiball oder Caney030 auf der Hochzeit? 😭 Wie oft lagst du richtig? 
 
 ## a10
 
-1 Monat Lacazette in deinen Alpträumen begegnen oder nie wieder Nizi hören? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #mucco #makko #karamel19 #ufo361 #nizi #lucio101 #lacazette #pashanim #yuyu19 #kalim #omar101 #caney030 #luciano #samra #souly #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
+Mit Nizi smoken oder mit Lucio smoken? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi #lucio101 #mucco #makko #karamel19 #ufo361 #lacazette #pashanim #yuyu19 #kalim #omar101 #caney030 #luciano #samra #souly #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
 
 ## a11
 
-1 Tag Nizis Schuhe sein oder 1 Tag Lacazettes Sonnenbrille?! 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #lucio101 #souly #nizi #lacazette #pashanim #kalim #omar101 #karamel19 #makko #mucco #caney030 #ufo361 #luciano #samra #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
+Lacazettes Läufer sein oder Kalims Läufer sein? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lacazette #kalim #yuyu19 #lucio101 #souly #nizi #pashanim #omar101 #karamel19 #makko #mucco #caney030 #ufo361 #luciano #samra #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
 
 ## a12
 
-Mit 300 km/h mit Lucio fahren oder mit 267 km/h mit Ufo361? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #yuyu19 #ufo361 #mucco #zackavelli #nizi #lucio101 #lacazette #pashanim #kalim #omar101 #karamel19 #makko #caney030 #luciano #samra #souly #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
+Lieber 1 Tag Lacazette sein oder 1 Tag Nizi? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #lacazette #nizi #yuyu19 #ufo361 #mucco #zackavelli #lucio101 #pashanim #kalim #omar101 #karamel19 #makko #caney030 #luciano #samra #souly #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
 
 ## a13
 
-Nizi19 im Fahrstuhl oder Souly im Bällebad? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #karamel19 #caney030 #nizi #luciano #lucio101 #lacazette #pashanim #yuyu19 #kalim #omar101 #makko #mucco #ufo361 #samra #souly #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
+Neben Nizi im Bett einschlafen oder Lucio ein Lied zum Einschlafen singen? 😭 Wie oft lagst du richtig? 👇 #deutschrap #würdestdueher #rapdeutsch #nizi #lucio101 #karamel19 #caney030 #luciano #lacazette #pashanim #yuyu19 #kalim #omar101 #makko #mucco #ufo361 #samra #souly #zackavelli #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
 
 ## a14
 
