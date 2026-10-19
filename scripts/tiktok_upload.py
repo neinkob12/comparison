@@ -24,7 +24,7 @@ Optionen:
 Beim ersten Start pro Konto oeffnet sich ein Login-Fenster (siehe docs/SETUP.md). Die Sitzung liegt dann in
 TK_cookies_<konto>.json (wie ein Passwort behandeln, ist in .gitignore, nie teilen).
 """
-import csv, datetime as dt, json, re, subprocess, sys, time
+import csv, datetime as dt, json, random, re, subprocess, sys, time
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # Windows-Konsole: Emojis/Umlaute in Ausgaben
@@ -34,11 +34,12 @@ LOG = ROOT / "docs" / "upload_log.csv"
 DONE = ("geplant", "manuell")  # Modi, die als erledigt zaehlen
 LOG_FIELDS = ["zeit", "konto", "video", "geplant_fuer", "modus", "von"]
 TIMES = ["12:30", "16:00", "18:30", "21:00"]
+PAUSE_S = (120, 240)  # Sekunden Pause zwischen zwei Uploads (zufaellig), schuetzt vor IP-Sperren
 # Standardwerte, pro Konto in config/accounts.json ueberschreibbar
 ACCOUNT, PLAN, SOUND = None, None, ""
 MUSIC_DB = "-12"     # Lautstaerke des TikTok-Sounds
 FADE_IN = "2.5"      # Sekunden
-COVER_AT = "5"       # Sekunde, aus der das Cover geschnitten wird, falls kein out/cover/<id>.jpg existiert
+COVER_AT = "2.5"     # Sekunde, aus der das Cover geschnitten wird, falls kein out/cover/<id>.jpg existiert
 CURRENT = {}
 AI_TEXT = re.compile(r"AI[- ]generated content|KI-generierte", re.I)
 
@@ -100,7 +101,9 @@ def push_log(summary):
     pull = git("pull", "--rebase", "--autostash")
     push = git("push")
     if pull.returncode or push.returncode:
-        print("Log nur lokal gespeichert (git pull/push ging nicht). Spaeter: git pull --rebase && git push")
+        err = (pull.stderr if pull.returncode else push.stderr).strip().splitlines()
+        print("Log nur lokal gespeichert (git pull/push ging nicht): " + (err[-1] if err else "?"))
+        print("Spaeter: git pull --rebase && git push")
     else:
         print("Log nach GitHub gepusht.")
 
@@ -266,13 +269,58 @@ def type_tag(page, tag):
         page.keyboard.type(" ")
 
 
+def guard_cancel_dialog(page):
+    """Taucht "Sure you want to cancel your upload?" auf, immer "No" klicken (Upload behalten) und weitermachen."""
+    if getattr(page, "_cancel_guard", False):
+        return
+    def keep_upload():
+        print("Abbruch-Dialog erkannt, klicke 'No' (Upload bleibt)")
+        page.get_by_role("button", name="No", exact=True).last.click()
+    try:
+        page.add_locator_handler(page.get_by_text("Sure you want to cancel your upload?"), keep_upload)
+        page._cancel_guard = True
+    except Exception as e:  # aeltere Playwright-Version: dann nur ohne Schutz
+        print(f"Hinweis: Abbruch-Schutz nicht verfuegbar ({type(e).__name__})")
+
+
+def dismiss_tour(page):
+    """TikTok-Einfuehrungstour (react-joyride) wegklicken, ihr Overlay blockiert sonst alle Klicks."""
+    time.sleep(1)
+    for sel in ('[data-test-id="button-skip"]', '[data-test-id="button-close"]', '[data-test-id="button-primary"]'):
+        for _ in range(6):
+            b = page.locator(sel)
+            if not (b.count() and b.first.is_visible()):
+                break
+            b.first.click(force=True)
+            time.sleep(0.5)
+    page.evaluate("document.querySelectorAll('#react-joyride-portal, .react-joyride__overlay, .react-joyride__spotlight')"
+                  ".forEach(e => e.remove())")
+
+
 def install_hooks(f, manual_ai, draft, inspect=False):
     """Klinkt sich in haziq ein: Hashtags mit Umlauten, Sound-Einstellungen, Cover, KI-Haken, dann posten/planen oder Entwurf."""
     submit = f._submit_upload
     describe = f._add_description_and_hashtags
 
     def described(page, sim, video, description, hashtags, stealth, suppressprint):
-        describe(page, sim, video, description, None, stealth, suppressprint)
+        page.wait_for_selector('div[data-contents="true"]')
+        guard_cancel_dialog(page)
+        dismiss_tour(page)
+        # Eigene Version von haziqs Beschreibungs-Schritt: der klickt jeden sichtbaren "Cancel"-Button
+        # (gedacht fuer Tutorials) und erwischt dabei manchmal den Upload-Abbruch.
+        for sel in ("button.info-op-btn:has-text('Cancel')", "button:has-text('Got it')"):
+            b = page.locator(sel)
+            if b.count() and b.first.is_visible():
+                b.first.click()
+                time.sleep(0.5)
+        box = page.locator('div[data-contents="true"]')
+        sim.click(box)
+        time.sleep(0.5)
+        for _ in range(len(video) + 2):
+            page.keyboard.press("Backspace")
+            page.keyboard.press("Delete")
+        time.sleep(0.5)
+        sim.type(box, description)
         for tag in hashtags or []:
             type_tag(page, tag if tag.startswith("#") else "#" + tag)
 
@@ -373,7 +421,7 @@ if __name__ == "__main__":
     draft = cmd in ("test", "inspect") or "--draft" in opts
     install_hooks(f, "--manual-ai" in opts, draft, inspect=cmd == "inspect")
     first, last = args[1], args[2] if len(args) > 2 else args[1]
-    at, done, failed = val("--at"), [], []
+    at, done, failed, handled, streak = val("--at"), [], [], 0, 0
     for r in rows():
         vid = r["datei"][:-4]
         if not num(first) <= num(vid) <= num(last):
@@ -383,17 +431,25 @@ if __name__ == "__main__":
         if not draft and already_scheduled(vid) and "--force" not in opts:
             print(f"{vid} ist laut Log schon eingeplant, uebersprungen (--force zum Erzwingen)")
             continue
+        if handled:  # ruhig bleiben: zufaellige Pause zwischen den Videos, wie ein Mensch
+            pause = random.randint(*PAUSE_S)
+            print(f"Pause {pause} s ...")
+            time.sleep(pause)
+        handled += 1
         try:
             ok = upload(r, SOUND, "--headless" in opts, schedule=not draft) == "Completed"
         except Exception as e:
-            print(f"FEHLER bei {vid}: {e}")
+            print(f"FEHLER bei {vid}: {str(e).splitlines()[0][:200]}")
             ok = False
         if ok and cmd != "inspect":
             write_log(vid, f"{r['datum']} {r['uhrzeit']}", "entwurf" if draft else "geplant")
             done.append(vid)
         elif not ok and cmd != "inspect":
             failed.append(vid)
-        time.sleep(20)
+        streak = 0 if ok else streak + 1
+        if streak >= 2:
+            print("2 Fehler hintereinander: Abbruch, damit TikTok uns nicht sperrt. Spaeter erneut versuchen.")
+            break
     print(f"\nFertig: {len(done)} ok" + (f", fehlgeschlagen: {', '.join(failed)}" if failed else ""))
     if done:
         push_log(f"{ACCOUNT} {done[0]}-{done[-1]}")

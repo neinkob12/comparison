@@ -6,7 +6,7 @@
     "sound": "Solitude",
     "music_db": -12,
     "fade_in": 2.5,
-    "cover_at": 5
+    "cover_at": 2.5
   },
   "finanzen_einfach": {
     "kanal": "Finanzen",
@@ -15,6 +15,6 @@
     "sound": "",
     "music_db": -12,
     "fade_in": 2.5,
-    "cover_at": 5
+    "cover_at": 2.5
   }
 }
