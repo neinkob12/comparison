@@ -3,39 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2367,
+ "durationInFrames": 2101,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a16/00_hook_a.mp3",
    "audioB": "audio/a16/00_hook_b.mp3",
-   "bAt": 49,
-   "speak": 104,
-   "gap": 90,
+   "bAt": 46,
+   "speak": 94,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "Souly am Abiball",
-    "img": "img/artists/souly.jpg",
+    "label": "1 Monat mit Ufo im Weltall",
+    "img": "img/artists/ufo361.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Zackavelli auf der Hochzeit",
+    "label": "1 Monat mit Zackavelli auf dem Mars",
     "img": "img/artists/zackavelli.jpg",
     "emoji": null
    },
    "pct": [
-    51,
-    49
+    89,
+    11
    ],
-   "duration": 239
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 184
   },
   {
    "kind": "q",
    "audio": "audio/a16/01_q_a.mp3",
    "audioB": "audio/a16/01_q_b.mp3",
-   "bAt": 39,
-   "speak": 90,
-   "gap": 90,
+   "bAt": 35,
+   "speak": 83,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "CUP löschen",
@@ -51,15 +52,15 @@
     2,
     98
    ],
-   "duration": 225
+   "duration": 197
   },
   {
    "kind": "q",
    "audio": "audio/a16/02_q_a.mp3",
    "audioB": "audio/a16/02_q_b.mp3",
    "bAt": 60,
-   "speak": 95,
-   "gap": 90,
+   "speak": 93,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Nur noch Akh & Krach",
@@ -75,15 +76,15 @@
     92,
     8
    ],
-   "duration": 230
+   "duration": 207
   },
   {
    "kind": "q",
    "audio": "audio/a16/03_q_a.mp3",
    "audioB": "audio/a16/03_q_b.mp3",
-   "bAt": 81,
-   "speak": 143,
-   "gap": 90,
+   "bAt": 66,
+   "speak": 116,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Haribo als Lehrer",
@@ -99,15 +100,15 @@
     16,
     84
    ],
-   "duration": 278
+   "duration": 230
   },
   {
    "kind": "q",
    "audio": "audio/a16/04_q_a.mp3",
    "audioB": "audio/a16/04_q_b.mp3",
-   "bAt": 49,
-   "speak": 86,
-   "gap": 90,
+   "bAt": 50,
+   "speak": 82,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Nur noch +49",
@@ -123,15 +124,15 @@
     49,
     51
    ],
-   "duration": 221
+   "duration": 196
   },
   {
    "kind": "mid",
    "audio": "audio/a16/05_mid_a.mp3",
    "audioB": "audio/a16/05_mid_b.mp3",
-   "bAt": 56,
-   "speak": 162,
-   "gap": 90,
+   "bAt": 52,
+   "speak": 151,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Nie wieder duschen",
@@ -147,15 +148,15 @@
     92,
     8
    ],
-   "duration": 297
+   "duration": 265
   },
   {
    "kind": "q",
    "audio": "audio/a16/06_q_a.mp3",
    "audioB": "audio/a16/06_q_b.mp3",
-   "bAt": 74,
-   "speak": 129,
-   "gap": 90,
+   "bAt": 75,
+   "speak": 137,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Lucio erste Reihe",
@@ -171,15 +172,15 @@
     99,
     1
    ],
-   "duration": 264
+   "duration": 251
   },
   {
    "kind": "q",
    "audio": "audio/a16/07_q_a.mp3",
    "audioB": "audio/a16/07_q_b.mp3",
-   "bAt": 40,
-   "speak": 85,
-   "gap": 90,
+   "bAt": 38,
+   "speak": 88,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Feature mit Makko",
@@ -195,15 +196,15 @@
     73,
     27
    ],
-   "duration": 220
+   "duration": 202
   },
   {
    "kind": "q",
    "audio": "audio/a16/08_q_a.mp3",
    "audioB": "audio/a16/08_q_b.mp3",
-   "bAt": 42,
-   "speak": 82,
-   "gap": 90,
+   "bAt": 37,
+   "speak": 75,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "1 Tag mit Pashanim",
@@ -219,17 +220,17 @@
     5,
     95
    ],
-   "duration": 217
+   "duration": 189
   },
   {
    "kind": "outro",
    "audio": "audio/a16/09_outro.mp3",
-   "speak": 131,
+   "speak": 135,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Teile das Video mit deinen Akhs",
-   "duration": 176
+   "duration": 180
   }
  ]
 }

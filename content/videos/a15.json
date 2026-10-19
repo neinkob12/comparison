@@ -3,18 +3,18 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "hook": {
-  "say": "24 Stunden mit Lacazette im Fahrstuhl, oder mit Masi im Bällebad?",
+  "say": "Würdest du eher [[Lacacacacacacacacacacacasetttttt]] heiraten, oder Nizi heiraten?",
   "a": {
-   "label": "Lacazette im Fahrstuhl",
+   "label": "Lacazette heiraten",
    "img": "artists/lacazette.jpg"
   },
   "b": {
-   "label": "Masi im Bällebad",
-   "img": "artists/zackavelli.jpg"
+   "label": "Nizi heiraten",
+   "img": "artists/nizi19.jpg"
   },
   "pct": [
-   54,
-   46
+   93,
+   7
   ],
   "type": "hook"
  },
@@ -35,19 +35,20 @@
    ]
   },
   {
-   "say": "[[Kaaaaaaaaa-liiiiim]] als großer Bruder, oder Karamel19 als Mitbewohner?",
+   "say": "Schlechter Empfang auf Dauerschleife, oder Y-3 auf Dauerschleife?",
    "a": {
-    "label": "Kalim als Bruder",
-    "img": "artists/kalim.jpg"
+    "label": "Schlechter Empfang auf Repeat",
+    "img": "songs/song-schlechter-empfang.jpg"
    },
    "b": {
-    "label": "Karamel19 als Mitbewohner",
-    "img": "artists/karamel19.jpg"
+    "label": "Y-3 auf Repeat",
+    "img": "songs/song-y-3.jpg"
    },
    "pct": [
-    47,
-    53
-   ]
+    52,
+    48
+   ],
+   "keep": true
   },
   {
    "say": "Kleiner Prinz für immer löschen, oder FTW für immer löschen?",

@@ -16,7 +16,7 @@ if (ROOT / ".env").exists():
 PUB = ROOT / "video" / "public"
 FPS = 30
 VOICE = "pNInz6obpgDQGcFmaJgB"  # Adam
-GAP = 81          # Frames 3-2-1-Timer nach der Frage (2.7 s)
+GAP = 69          # Frames 3-2-1-Timer nach der Frage (2.3 s)
 HOOK_GAP = 45     # Hook-Timer zeigt 3 s, laeuft aber in 1.5 s ab
 TEMPO = 1.05      # Stimme etwas schneller als ElevenLabs max. 1.2
 HOOK_TEMPO = 1.12 # Hook noch schneller

@@ -3,39 +3,40 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2480,
+ "durationInFrames": 2195,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a15/00_hook_a.mp3",
    "audioB": "audio/a15/00_hook_b.mp3",
-   "bAt": 74,
-   "speak": 118,
-   "gap": 90,
+   "bAt": 96,
+   "speak": 129,
+   "gap": 45,
    "hold": 45,
    "a": {
-    "label": "Lacazette im Fahrstuhl",
+    "label": "Lacazette heiraten",
     "img": "img/artists/lacazette.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Masi im Bällebad",
-    "img": "img/artists/zackavelli.jpg",
+    "label": "Nizi heiraten",
+    "img": "img/artists/nizi19.jpg",
     "emoji": null
    },
    "pct": [
-    54,
-    46
+    93,
+    7
    ],
-   "duration": 253
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 219
   },
   {
    "kind": "q",
    "audio": "audio/a15/01_q_a.mp3",
    "audioB": "audio/a15/01_q_b.mp3",
-   "bAt": 76,
-   "speak": 120,
-   "gap": 90,
+   "bAt": 65,
+   "speak": 104,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Kalim als Bruder",
@@ -51,39 +52,39 @@
     2,
     98
    ],
-   "duration": 255
+   "duration": 218
   },
   {
    "kind": "q",
    "audio": "audio/a15/02_q_a.mp3",
    "audioB": "audio/a15/02_q_b.mp3",
-   "bAt": 93,
-   "speak": 147,
-   "gap": 90,
+   "bAt": 53,
+   "speak": 99,
+   "gap": 69,
    "hold": 45,
    "a": {
-    "label": "Kalim als Bruder",
-    "img": "img/artists/kalim.jpg",
+    "label": "Schlechter Empfang auf Repeat",
+    "img": "img/songs/song-schlechter-empfang.jpg",
     "emoji": null
    },
    "b": {
-    "label": "Karamel19 als Mitbewohner",
-    "img": "img/artists/karamel19.jpg",
+    "label": "Y-3 auf Repeat",
+    "img": "img/songs/song-y-3.jpg",
     "emoji": null
    },
    "pct": [
-    47,
-    53
+    52,
+    48
    ],
-   "duration": 282
+   "duration": 213
   },
   {
    "kind": "q",
    "audio": "audio/a15/03_q_a.mp3",
    "audioB": "audio/a15/03_q_b.mp3",
-   "bAt": 46,
-   "speak": 97,
-   "gap": 90,
+   "bAt": 42,
+   "speak": 90,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Kleiner Prinz löschen",
@@ -99,15 +100,15 @@
     99,
     1
    ],
-   "duration": 232
+   "duration": 204
   },
   {
    "kind": "q",
    "audio": "audio/a15/04_q_a.mp3",
    "audioB": "audio/a15/04_q_b.mp3",
-   "bAt": 64,
-   "speak": 97,
-   "gap": 90,
+   "bAt": 61,
+   "speak": 94,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Insel: Doktor",
@@ -123,15 +124,15 @@
     71,
     29
    ],
-   "duration": 232
+   "duration": 208
   },
   {
    "kind": "mid",
    "audio": "audio/a15/05_mid_a.mp3",
    "audioB": "audio/a15/05_mid_b.mp3",
-   "bAt": 53,
+   "bAt": 52,
    "speak": 148,
-   "gap": 90,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Nie wieder duschen",
@@ -147,15 +148,15 @@
     28,
     72
    ],
-   "duration": 283
+   "duration": 262
   },
   {
    "kind": "q",
    "audio": "audio/a15/06_q_a.mp3",
    "audioB": "audio/a15/06_q_b.mp3",
-   "bAt": 44,
+   "bAt": 42,
    "speak": 93,
-   "gap": 90,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Superkraft löschen",
@@ -171,15 +172,15 @@
     8,
     92
    ],
-   "duration": 228
+   "duration": 207
   },
   {
    "kind": "q",
    "audio": "audio/a15/07_q_a.mp3",
    "audioB": "audio/a15/07_q_b.mp3",
-   "bAt": 61,
-   "speak": 105,
-   "gap": 90,
+   "bAt": 72,
+   "speak": 108,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "1 Jahr nur Haribo",
@@ -195,15 +196,15 @@
     3,
     97
    ],
-   "duration": 240
+   "duration": 222
   },
   {
    "kind": "q",
    "audio": "audio/a15/08_q_a.mp3",
    "audioB": "audio/a15/08_q_b.mp3",
-   "bAt": 75,
-   "speak": 127,
-   "gap": 90,
+   "bAt": 66,
+   "speak": 121,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Caney030 erste Reihe",
@@ -219,17 +220,17 @@
     48,
     52
    ],
-   "duration": 262
+   "duration": 235
   },
   {
    "kind": "outro",
    "audio": "audio/a15/09_outro.mp3",
-   "speak": 168,
+   "speak": 162,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 213
+   "duration": 207
   }
  ]
 }

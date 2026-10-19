@@ -3,39 +3,41 @@
  "channel": "A",
  "handle": "@akhmachtkrach19",
  "fps": 30,
- "durationInFrames": 2427,
+ "durationInFrames": 2175,
  "segments": [
   {
    "kind": "hook",
    "audio": "audio/a17/00_hook_a.mp3",
    "audioB": "audio/a17/00_hook_b.mp3",
-   "bAt": 46,
-   "speak": 106,
-   "gap": 90,
-   "hold": 45,
+   "bAt": 38,
+   "speak": 93,
+   "gap": 45,
+   "hold": 51,
    "a": {
-    "label": "Kalim als Stiefvater",
-    "img": "img/artists/kalim.jpg",
-    "emoji": null
+    "label": "1 Tag nur „Weh“ sagen",
+    "img": null,
+    "emoji": "😩"
    },
    "b": {
-    "label": "Karamel19 als Klassenlehrer",
-    "img": "img/artists/karamel19.jpg",
+    "label": "1 Tag nur „Ohne Finger, Akh!“",
+    "img": "img/artists/yuyu19.jpg",
     "emoji": null
    },
    "pct": [
-    48,
-    52
+    8,
+    92
    ],
-   "duration": 241
+   "winAudio": "audio/a17/00_hook_win.mp3",
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 189
   },
   {
    "kind": "q",
    "audio": "audio/a17/01_q_a.mp3",
    "audioB": "audio/a17/01_q_b.mp3",
-   "bAt": 61,
-   "speak": 122,
-   "gap": 90,
+   "bAt": 55,
+   "speak": 110,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Nur noch Mittendrin",
@@ -51,15 +53,15 @@
     1,
     99
    ],
-   "duration": 257
+   "duration": 224
   },
   {
    "kind": "q",
    "audio": "audio/a17/02_q_a.mp3",
    "audioB": "audio/a17/02_q_b.mp3",
    "bAt": 36,
-   "speak": 106,
-   "gap": 90,
+   "speak": 100,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Lacazette als Lehrer",
@@ -75,15 +77,15 @@
     95,
     5
    ],
-   "duration": 241
+   "duration": 214
   },
   {
    "kind": "q",
    "audio": "audio/a17/03_q_a.mp3",
    "audioB": "audio/a17/03_q_b.mp3",
-   "bAt": 59,
-   "speak": 102,
-   "gap": 90,
+   "bAt": 53,
+   "speak": 93,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Feature mit Ufo361",
@@ -99,15 +101,15 @@
     53,
     47
    ],
-   "duration": 237
+   "duration": 207
   },
   {
    "kind": "q",
    "audio": "audio/a17/04_q_a.mp3",
    "audioB": "audio/a17/04_q_b.mp3",
    "bAt": 42,
-   "speak": 98,
-   "gap": 90,
+   "speak": 94,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "16 auf Repeat",
@@ -123,15 +125,15 @@
     56,
     44
    ],
-   "duration": 233
+   "duration": 208
   },
   {
    "kind": "mid",
    "audio": "audio/a17/05_mid_a.mp3",
    "audioB": "audio/a17/05_mid_b.mp3",
-   "bAt": 53,
-   "speak": 168,
-   "gap": 90,
+   "bAt": 56,
+   "speak": 169,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Nie wieder duschen",
@@ -147,15 +149,15 @@
     9,
     91
    ],
-   "duration": 303
+   "duration": 283
   },
   {
    "kind": "q",
    "audio": "audio/a17/06_q_a.mp3",
    "audioB": "audio/a17/06_q_b.mp3",
-   "bAt": 46,
-   "speak": 95,
-   "gap": 90,
+   "bAt": 47,
+   "speak": 97,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "FTW löschen",
@@ -171,7 +173,7 @@
     75,
     25
    ],
-   "duration": 230
+   "duration": 211
   },
   {
    "kind": "q",
@@ -179,7 +181,7 @@
    "audioB": "audio/a17/07_q_b.mp3",
    "bAt": 75,
    "speak": 133,
-   "gap": 90,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Nizi19 als Bruder",
@@ -195,15 +197,15 @@
     34,
     66
    ],
-   "duration": 268
+   "duration": 247
   },
   {
    "kind": "q",
    "audio": "audio/a17/08_q_a.mp3",
    "audioB": "audio/a17/08_q_b.mp3",
    "bAt": 36,
-   "speak": 74,
-   "gap": 90,
+   "speak": 73,
+   "gap": 69,
    "hold": 45,
    "a": {
     "label": "Samra als Lehrer",
@@ -219,17 +221,17 @@
     44,
     56
    ],
-   "duration": 209
+   "duration": 187
   },
   {
    "kind": "outro",
    "audio": "audio/a17/09_outro.mp3",
-   "speak": 163,
+   "speak": 160,
    "hold": 45,
    "title": "WIE OFT LAGST DU RICHTIG, AKH?",
    "sub": "Schreibs in die Kommentare",
    "share": "Schick das an die 3 sharaflosesten Binnits, die du kennst",
-   "duration": 208
+   "duration": 205
   }
  ]
 }

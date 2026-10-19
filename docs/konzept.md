@@ -138,3 +138,7 @@ a01 ging durch, a02-a04 nicht. Einziger Unterschied war die Hook-Frage. Ab a05 d
 - Hook-Timer zeigt 3-2-1, läuft aber in 1.5 s ab (Tick doppelt so schnell). Alle anderen Timer 2.7 s. Stimme sonst 1.05x.
 - Follow-Popup mittig, Rest unscharf, ca. 0.7 s.
 - Upload: siehe `docs/upload_checkliste.md` (KI-Label, Cover, Sound Solitude, alle Rapper als Hashtags).
+
+## Update 19.10.: Timer 2.3 s
+
+Ab a14 laufen die normalen 3-2-1-Timer in 2.3 s (69 Frames) statt 2.7 s, Hook bleibt bei 1.5 s. Damit die Videos über 60 s bleiben, schneidet `scripts/cut.py` jetzt nur 1 Frage raus, wenn 2 zu viel wären.
