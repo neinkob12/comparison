@@ -192,12 +192,81 @@ V["g10"] = dict(format="story", voice=BRIAN,
             "sub": "z.B. A-B-B-A-B-A in die Kommentare", "share": "Schick das an jemanden und vergleicht eure Wege",
             "shareSay": "Und schick das an jemanden und vergleicht eure Wege!"})
 
+# ---------- g11-g15: direkt in die Frage, provokanter, Fortschrittsbalken, Pop-ups, Loop-Ende ----------
+TEASER = {"text": "Die letzte Frage spaltet alle 👀", "at": "reveal"}
+def tag(label): return {"text": f"Markier jemanden, der „{label}“ nimmt 👇", "at": "reveal"}
+def fast(say, a, b, pct, popup=None):
+    d = q(say, a, b, pct)
+    if popup:
+        d["popup"] = popup
+    return d
+LOOP = {"loop": True, "say": "Und jetzt mal ehrlich:"}
+FAST = dict(pace={"timer": 60, "hold": 45}, instant=True, progress=True, follow=False, outro=LOOP)
+
+V["g11"] = dict(format="fast", voice=ADAM, **FAST, questions=[
+    fast("100.000 Euro für dich, oder 1 Million für deinen besten Freund?", ("100.000 € für dich", "🫵"), ("1 Mio. für deinen Besten", "👬"), [51, 49]),
+    fast("Dein Partner verdient doppelt so viel wie du, oder halb so viel?", ("Partner verdient doppelt", "💸"), ("Partner verdient halb so viel", "🪫"), [47, 53]),
+    fast("Du findest 5.000 Euro bar auf der Straße. Behalten, oder abgeben?", ("Behalten", "🤫"), ("Abgeben", "👮"), [62, 38], tag("Behalten")),
+    fast("1 Million und nie wieder Urlaub, oder kein Geld und jedes Jahr 3 Monate frei?", ("1 Mio., nie wieder Urlaub", "💰"), ("3 Monate frei pro Jahr", "🏝️"), [55, 45], TEASER),
+    fast("50.000 Euro, aber ein Jahr lang liest dein Chef alle deine Chats, oder deine Mutter?", ("Chef liest mit", "👔"), ("Mama liest mit", "👩"), [9, 91]),
+    fast("Doppeltes Gehalt und alle Kollegen hassen dich, oder normales Gehalt und alle lieben dich?", ("Doppelt, alle hassen dich", "😈"), ("Normal, alle lieben dich", "🥰"), [58, 42]),
+    fast("Lotto-Jackpot und alle wissen es, oder 100.000 Euro und niemand erfährt es?", ("Jackpot, alle wissen es", "📢"), ("100.000 €, geheim", "🤐"), [3, 97]),
+    fast("Dein bester Freund wird Millionär und vergisst dich, oder ihr bleibt beide pleite und beste Freunde?", ("Er wird reich, vergisst dich", "💔"), ("Beide pleite, beste Freunde", "🤝"), [50, 50]),
+  ])
+
+V["g12"] = dict(format="fast", voice=ADAM, **FAST, questions=[
+    fast("Du bekommst 20.000 Euro zu viel Gehalt überwiesen. Sagen, oder schweigen?", ("Chef Bescheid sagen", "🙋"), ("Schweigen", "🤫"), [41, 59]),
+    fast("1 Million Euro, aber dein Browserverlauf wird öffentlich, oder du bleibst arm und anonym?", ("1 Mio. + Verlauf öffentlich", "🖥️"), ("Arm und anonym", "🫥"), [27, 73]),
+    fast("Dein Kumpel schuldet dir 300 Euro. Erinnern, oder vergessen?", ("Erinnern", "📲"), ("Vergessen", "🙈"), [64, 36], tag("Vergessen")),
+    fast("Die Kassiererin gibt dir 50 Euro zu viel zurück. Zurückgeben, oder einstecken?", ("Zurückgeben", "😇"), ("Einstecken", "😏"), [48, 52], TEASER),
+    fast("Beim Erbe alles für dich, oder fair mit deinen Geschwistern teilen?", ("Alles für mich", "👑"), ("Fair teilen", "⚖️"), [12, 88]),
+    fast("Im Restaurant die Rechnung durch alle teilen, oder jeder zahlt, was er bestellt hat?", ("Durch alle teilen", "➗"), ("Jeder für sich", "🧾"), [3, 97]),
+    fast("100.000 Euro, aber ein Jahr lang siehst du deinen Partner nicht, oder kein Geld?", ("100.000 €, 1 Jahr getrennt", "💶"), ("Kein Geld, zusammen", "❤️"), [53, 47]),
+    fast("Dein bester Freund will 10.000 Euro von dir leihen. Geben, oder Nein sagen?", ("Geben", "🤲"), ("Nein sagen", "✋"), [50, 50]),
+  ])
+
+V["g13"] = dict(format="fast", voice=ADAM, **FAST, questions=[
+    fast("1 Million Euro, aber nie wieder ein Handy, oder alles bleibt wie es ist?", ("1 Mio., kein Handy", "📵"), ("Alles bleibt", "📱"), [44, 56]),
+    fast("Doppeltes Gehalt und jedes Wochenende arbeiten, oder halbes Gehalt und 3-Tage-Woche?", ("Doppelt, jedes Wochenende", "💼"), ("Halb, 3-Tage-Woche", "🛋️"), [52, 48]),
+    fast("500.000 Euro, aber nie wieder Fleisch, oder kein Geld und du isst, was du willst?", ("500.000 €, kein Fleisch", "🥗"), ("Kein Geld, alles essen", "🍖"), [86, 14], tag("Kein Geld, alles essen")),
+    fast("Millionär mit 60, oder ab sofort 3.000 Euro im Monat für immer?", ("Millionär mit 60", "👴"), ("3.000 €/Monat ab jetzt", "⚡"), [4, 96], TEASER),
+    fast("10 Millionen, aber du lebst in einem Dorf ohne Internet, oder normales Leben in der Stadt?", ("10 Mio., Dorf ohne Internet", "🏚️"), ("Normales Leben", "🏙️"), [39, 61]),
+    fast("Nie wieder arbeiten für 1.500 Euro im Monat, oder 40 Stunden für 6.000?", ("Nie arbeiten, 1.500 €", "😴"), ("40 h für 6.000 €", "💪"), [47, 53]),
+    fast("1 Million Euro, aber du wirst sofort 10 Jahre älter, oder kein Geld?", ("1 Mio., 10 Jahre älter", "⏳"), ("Kein Geld", "🙂"), [18, 82]),
+    fast("100 Millionen, aber du darfst es niemandem zeigen, oder 1 Million und du darfst angeben?", ("100 Mio., geheim", "🤐"), ("1 Mio., angeben", "😎"), [50, 50]),
+  ])
+
+V["g14"] = dict(format="fast", voice=BRIAN, **{**FAST, "pace": {"timer": 60, "hold": 30}}, questions=[
+    fast("Dein Partner hat heimlich 20.000 Euro Schulden. Bleiben, oder gehen?", ("Bleiben", "🫂"), ("Gehen", "🚪"), [46, 54]),
+    fast("Dein jüngerer Kollege verdient 1.000 Euro mehr als du. Ansprechen, oder schlucken?", ("Ansprechen", "🗣️"), ("Schlucken", "😶"), [83, 17]),
+    fast("Mit deinem Partner ein gemeinsames Konto, oder alles getrennt?", ("Gemeinsames Konto", "💑"), ("Alles getrennt", "🧍"), [38, 62], tag("Gemeinsames Konto")),
+    fast("Freunde, die alle mehr verdienen als du, oder Freunde, die alle weniger verdienen?", ("Alle verdienen mehr", "📈"), ("Alle verdienen weniger", "📉"), [57, 43], TEASER),
+    fast("Deine Eltern zahlen deine Miete und reden bei allem mit, oder alles selbst zahlen und frei sein?", ("Eltern zahlen, reden mit", "🏡"), ("Selbst zahlen, frei", "🔑"), [3, 97]),
+    fast("Beim ersten Date zahlt einer alles, oder jeder zahlt selbst?", ("Einer zahlt alles", "💳"), ("Jeder zahlt selbst", "➗"), [55, 45]),
+    fast("Dein bester Freund verdient plötzlich 10.000 im Monat. Ehrlich freuen, oder ehrlich neidisch?", ("Ehrlich freuen", "🥳"), ("Ehrlich neidisch", "😒"), [61, 39]),
+    fast("Jemand, den du liebst, mit 1 Million Schulden, oder ein Millionär, den du nur magst?", ("Liebe + 1 Mio. Schulden", "❤️"), ("Millionär, nur Sympathie", "💎"), [50, 50]),
+  ])
+
+V["g15"] = dict(format="fast", voice=ADAM, **FAST, questions=[
+    fast("Deine Firma bietet dir 30.000 Euro, wenn du kündigst. Nehmen, oder bleiben?", ("30.000 € und weg", "💼"), ("Bleiben", "🪑"), [72, 28]),
+    fast("Du siehst deinen Kontostand mit 50, oder du willst es nie wissen?", ("Kontostand mit 50 sehen", "🔮"), ("Nie wissen", "🙈"), [66, 34]),
+    fast("200.000 Euro, aber ein Jahr lang läuft dein Leben live auf TikTok, oder privat bleiben?", ("200.000 €, alles live", "📹"), ("Privat bleiben", "🔒"), [57, 43], tag("200.000 €, alles live")),
+    fast("Nie wieder Geldsorgen, aber nie wieder verliebt, oder Liebe mit Geldsorgen?", ("Nie Geldsorgen, nie Liebe", "💰"), ("Liebe mit Geldsorgen", "💘"), [41, 59], TEASER),
+    fast("Du gewinnst 1 Million und deine Familie will was abhaben. Teilen, oder alles behalten?", ("Mit Familie teilen", "👨‍👩‍👧"), ("Alles behalten", "🔐"), [77, 23]),
+    fast("100 Euro für eine 5-Sterne-Bewertung, obwohl das Essen schlecht war, oder ehrlich 1 Stern?", ("Für 100 € lügen", "⭐"), ("Ehrlich 1 Stern", "💩"), [45, 55]),
+    fast("1.000 Euro im Monat extra, aber jeden Tag um 5 Uhr aufstehen, oder ausschlafen ohne Geld?", ("1.000 €, 5 Uhr aufstehen", "⏰"), ("Ausschlafen", "😴"), [97, 3]),
+    fast("Einen Fehler aus deiner Vergangenheit löschen, oder 1 Million Euro?", ("Fehler löschen", "⏪"), ("1 Million", "💰"), [50, 50]),
+  ])
+
 for vid, d in V.items():
     v = {"id": vid, "channel": "G", "handle": None, "format": d["format"]}
     if d["voice"]:
         v["voice"] = d["voice"]
-    if d.get("pace"):
-        v["pace"] = d["pace"]
-    v.update(claim=d["claim"], questions=d["questions"], outro=d["outro"])
+    for k in ("pace", "instant", "progress", "follow"):
+        if k in d:
+            v[k] = d[k]
+    if d.get("claim"):
+        v["claim"] = d["claim"]
+    v.update(questions=d["questions"], outro=d["outro"])
     (OUT / f"{vid}.json").write_text(json.dumps(v, ensure_ascii=False, indent=1))
     print(vid, d["format"], (d["voice"] or {"name": "Adam"})["name"])

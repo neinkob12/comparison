@@ -1,0 +1,250 @@
+{
+ "id": "g15",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": true,
+ "durationInFrames": 1914,
+ "segments": [
+  {
+   "kind": "q",
+   "audio": "audio/g15/00_q_a.mp3",
+   "audioB": "audio/g15/00_q_b.mp3",
+   "bAt": 108,
+   "speak": 132,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "30.000 € und weg",
+    "img": null,
+    "emoji": "💼"
+   },
+   "b": {
+    "label": "Bleiben",
+    "img": null,
+    "emoji": "🪑"
+   },
+   "pct": [
+    72,
+    28
+   ],
+   "progress": [
+    1,
+    8
+   ],
+   "instant": true,
+   "duration": 237
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g15/01_q_a.mp3",
+   "audioB": "audio/g15/01_q_b.mp3",
+   "bAt": 57,
+   "speak": 97,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Kontostand mit 50 sehen",
+    "img": null,
+    "emoji": "🔮"
+   },
+   "b": {
+    "label": "Nie wissen",
+    "img": null,
+    "emoji": "🙈"
+   },
+   "pct": [
+    66,
+    34
+   ],
+   "progress": [
+    2,
+    8
+   ],
+   "duration": 202
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g15/02_q_a.mp3",
+   "audioB": "audio/g15/02_q_b.mp3",
+   "bAt": 119,
+   "speak": 155,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "200.000 €, alles live",
+    "img": null,
+    "emoji": "📹"
+   },
+   "b": {
+    "label": "Privat bleiben",
+    "img": null,
+    "emoji": "🔒"
+   },
+   "pct": [
+    57,
+    43
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „200.000 €, alles live“ nimmt 👇",
+    "at": "reveal"
+   },
+   "progress": [
+    3,
+    8
+   ],
+   "duration": 260
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g15/03_q_a.mp3",
+   "audioB": "audio/g15/03_q_b.mp3",
+   "bAt": 69,
+   "speak": 109,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Nie Geldsorgen, nie Liebe",
+    "img": null,
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "Liebe mit Geldsorgen",
+    "img": null,
+    "emoji": "💘"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   },
+   "progress": [
+    4,
+    8
+   ],
+   "duration": 214
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g15/04_q_a.mp3",
+   "audioB": "audio/g15/04_q_b.mp3",
+   "bAt": 102,
+   "speak": 137,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Mit Familie teilen",
+    "img": null,
+    "emoji": "👨‍👩‍👧"
+   },
+   "b": {
+    "label": "Alles behalten",
+    "img": null,
+    "emoji": "🔐"
+   },
+   "pct": [
+    77,
+    23
+   ],
+   "progress": [
+    5,
+    8
+   ],
+   "duration": 242
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g15/05_q_a.mp3",
+   "audioB": "audio/g15/05_q_b.mp3",
+   "bAt": 104,
+   "speak": 142,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Für 100 € lügen",
+    "img": null,
+    "emoji": "⭐"
+   },
+   "b": {
+    "label": "Ehrlich 1 Stern",
+    "img": null,
+    "emoji": "💩"
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "progress": [
+    6,
+    8
+   ],
+   "duration": 247
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g15/06_q_a.mp3",
+   "audioB": "audio/g15/06_q_b.mp3",
+   "bAt": 118,
+   "speak": 158,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "1.000 €, 5 Uhr aufstehen",
+    "img": null,
+    "emoji": "⏰"
+   },
+   "b": {
+    "label": "Ausschlafen",
+    "img": null,
+    "emoji": "😴"
+   },
+   "pct": [
+    97,
+    3
+   ],
+   "progress": [
+    7,
+    8
+   ],
+   "duration": 263
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g15/07_q_a.mp3",
+   "audioB": "audio/g15/07_q_b.mp3",
+   "bAt": 65,
+   "speak": 102,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Fehler löschen",
+    "img": null,
+    "emoji": "⏪"
+   },
+   "b": {
+    "label": "1 Million",
+    "img": null,
+    "emoji": "💰"
+   },
+   "pct": [
+    50,
+    50
+   ],
+   "progress": [
+    8,
+    8
+   ],
+   "duration": 207
+  },
+  {
+   "kind": "loop",
+   "audio": "audio/g15/08_loop.mp3",
+   "speak": 38,
+   "hold": 4,
+   "duration": 42
+  }
+ ]
+}

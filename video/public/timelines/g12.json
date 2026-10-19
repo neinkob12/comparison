@@ -1,0 +1,250 @@
+{
+ "id": "g12",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": true,
+ "durationInFrames": 1844,
+ "segments": [
+  {
+   "kind": "q",
+   "audio": "audio/g12/00_q_a.mp3",
+   "audioB": "audio/g12/00_q_b.mp3",
+   "bAt": 97,
+   "speak": 124,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Chef Bescheid sagen",
+    "img": null,
+    "emoji": "🙋"
+   },
+   "b": {
+    "label": "Schweigen",
+    "img": null,
+    "emoji": "🤫"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "progress": [
+    1,
+    8
+   ],
+   "instant": true,
+   "duration": 229
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g12/01_q_a.mp3",
+   "audioB": "audio/g12/01_q_b.mp3",
+   "bAt": 94,
+   "speak": 144,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "1 Mio. + Verlauf öffentlich",
+    "img": null,
+    "emoji": "🖥️"
+   },
+   "b": {
+    "label": "Arm und anonym",
+    "img": null,
+    "emoji": "🫥"
+   },
+   "pct": [
+    27,
+    73
+   ],
+   "progress": [
+    2,
+    8
+   ],
+   "duration": 249
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g12/02_q_a.mp3",
+   "audioB": "audio/g12/02_q_b.mp3",
+   "bAt": 79,
+   "speak": 105,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Erinnern",
+    "img": null,
+    "emoji": "📲"
+   },
+   "b": {
+    "label": "Vergessen",
+    "img": null,
+    "emoji": "🙈"
+   },
+   "pct": [
+    64,
+    36
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Vergessen“ nimmt 👇",
+    "at": "reveal"
+   },
+   "progress": [
+    3,
+    8
+   ],
+   "duration": 210
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g12/03_q_a.mp3",
+   "audioB": "audio/g12/03_q_b.mp3",
+   "bAt": 100,
+   "speak": 131,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Zurückgeben",
+    "img": null,
+    "emoji": "😇"
+   },
+   "b": {
+    "label": "Einstecken",
+    "img": null,
+    "emoji": "😏"
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   },
+   "progress": [
+    4,
+    8
+   ],
+   "duration": 236
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g12/04_q_a.mp3",
+   "audioB": "audio/g12/04_q_b.mp3",
+   "bAt": 40,
+   "speak": 93,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Alles für mich",
+    "img": null,
+    "emoji": "👑"
+   },
+   "b": {
+    "label": "Fair teilen",
+    "img": null,
+    "emoji": "⚖️"
+   },
+   "pct": [
+    12,
+    88
+   ],
+   "progress": [
+    5,
+    8
+   ],
+   "duration": 198
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g12/05_q_a.mp3",
+   "audioB": "audio/g12/05_q_b.mp3",
+   "bAt": 67,
+   "speak": 116,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Durch alle teilen",
+    "img": null,
+    "emoji": "➗"
+   },
+   "b": {
+    "label": "Jeder für sich",
+    "img": null,
+    "emoji": "🧾"
+   },
+   "pct": [
+    3,
+    97
+   ],
+   "progress": [
+    6,
+    8
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g12/06_q_a.mp3",
+   "audioB": "audio/g12/06_q_b.mp3",
+   "bAt": 106,
+   "speak": 134,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "100.000 €, 1 Jahr getrennt",
+    "img": null,
+    "emoji": "💶"
+   },
+   "b": {
+    "label": "Kein Geld, zusammen",
+    "img": null,
+    "emoji": "❤️"
+   },
+   "pct": [
+    53,
+    47
+   ],
+   "progress": [
+    7,
+    8
+   ],
+   "duration": 239
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g12/07_q_a.mp3",
+   "audioB": "audio/g12/07_q_b.mp3",
+   "bAt": 87,
+   "speak": 116,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Geben",
+    "img": null,
+    "emoji": "🤲"
+   },
+   "b": {
+    "label": "Nein sagen",
+    "img": null,
+    "emoji": "✋"
+   },
+   "pct": [
+    50,
+    50
+   ],
+   "progress": [
+    8,
+    8
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "loop",
+   "audio": "audio/g12/08_loop.mp3",
+   "speak": 37,
+   "hold": 4,
+   "duration": 41
+  }
+ ]
+}

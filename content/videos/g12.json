@@ -1,0 +1,147 @@
+{
+ "id": "g12",
+ "channel": "G",
+ "handle": null,
+ "format": "fast",
+ "pace": {
+  "timer": 60,
+  "hold": 45
+ },
+ "instant": true,
+ "progress": true,
+ "follow": false,
+ "questions": [
+  {
+   "say": "Du bekommst 20.000 Euro zu viel Gehalt überwiesen. Sagen, oder schweigen?",
+   "a": {
+    "label": "Chef Bescheid sagen",
+    "emoji": "🙋"
+   },
+   "b": {
+    "label": "Schweigen",
+    "emoji": "🤫"
+   },
+   "pct": [
+    41,
+    59
+   ]
+  },
+  {
+   "say": "1 Million Euro, aber dein Browserverlauf wird öffentlich, oder du bleibst arm und anonym?",
+   "a": {
+    "label": "1 Mio. + Verlauf öffentlich",
+    "emoji": "🖥️"
+   },
+   "b": {
+    "label": "Arm und anonym",
+    "emoji": "🫥"
+   },
+   "pct": [
+    27,
+    73
+   ]
+  },
+  {
+   "say": "Dein Kumpel schuldet dir 300 Euro. Erinnern, oder vergessen?",
+   "a": {
+    "label": "Erinnern",
+    "emoji": "📲"
+   },
+   "b": {
+    "label": "Vergessen",
+    "emoji": "🙈"
+   },
+   "pct": [
+    64,
+    36
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Vergessen“ nimmt 👇",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Die Kassiererin gibt dir 50 Euro zu viel zurück. Zurückgeben, oder einstecken?",
+   "a": {
+    "label": "Zurückgeben",
+    "emoji": "😇"
+   },
+   "b": {
+    "label": "Einstecken",
+    "emoji": "😏"
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Beim Erbe alles für dich, oder fair mit deinen Geschwistern teilen?",
+   "a": {
+    "label": "Alles für mich",
+    "emoji": "👑"
+   },
+   "b": {
+    "label": "Fair teilen",
+    "emoji": "⚖️"
+   },
+   "pct": [
+    12,
+    88
+   ]
+  },
+  {
+   "say": "Im Restaurant die Rechnung durch alle teilen, oder jeder zahlt, was er bestellt hat?",
+   "a": {
+    "label": "Durch alle teilen",
+    "emoji": "➗"
+   },
+   "b": {
+    "label": "Jeder für sich",
+    "emoji": "🧾"
+   },
+   "pct": [
+    3,
+    97
+   ]
+  },
+  {
+   "say": "100.000 Euro, aber ein Jahr lang siehst du deinen Partner nicht, oder kein Geld?",
+   "a": {
+    "label": "100.000 €, 1 Jahr getrennt",
+    "emoji": "💶"
+   },
+   "b": {
+    "label": "Kein Geld, zusammen",
+    "emoji": "❤️"
+   },
+   "pct": [
+    53,
+    47
+   ]
+  },
+  {
+   "say": "Dein bester Freund will 10.000 Euro von dir leihen. Geben, oder Nein sagen?",
+   "a": {
+    "label": "Geben",
+    "emoji": "🤲"
+   },
+   "b": {
+    "label": "Nein sagen",
+    "emoji": "✋"
+   },
+   "pct": [
+    50,
+    50
+   ]
+  }
+ ],
+ "outro": {
+  "loop": true,
+  "say": "Und jetzt mal ehrlich:"
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "id": "g13",
+ "channel": "G",
+ "handle": null,
+ "format": "fast",
+ "pace": {
+  "timer": 60,
+  "hold": 45
+ },
+ "instant": true,
+ "progress": true,
+ "follow": false,
+ "questions": [
+  {
+   "say": "1 Million Euro, aber nie wieder ein Handy, oder alles bleibt wie es ist?",
+   "a": {
+    "label": "1 Mio., kein Handy",
+    "emoji": "📵"
+   },
+   "b": {
+    "label": "Alles bleibt",
+    "emoji": "📱"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "Doppeltes Gehalt und jedes Wochenende arbeiten, oder halbes Gehalt und 3-Tage-Woche?",
+   "a": {
+    "label": "Doppelt, jedes Wochenende",
+    "emoji": "💼"
+   },
+   "b": {
+    "label": "Halb, 3-Tage-Woche",
+    "emoji": "🛋️"
+   },
+   "pct": [
+    52,
+    48
+   ]
+  },
+  {
+   "say": "500.000 Euro, aber nie wieder Fleisch, oder kein Geld und du isst, was du willst?",
+   "a": {
+    "label": "500.000 €, kein Fleisch",
+    "emoji": "🥗"
+   },
+   "b": {
+    "label": "Kein Geld, alles essen",
+    "emoji": "🍖"
+   },
+   "pct": [
+    86,
+    14
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Kein Geld, alles essen“ nimmt 👇",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Millionär mit 60, oder ab sofort 3.000 Euro im Monat für immer?",
+   "a": {
+    "label": "Millionär mit 60",
+    "emoji": "👴"
+   },
+   "b": {
+    "label": "3.000 €/Monat ab jetzt",
+    "emoji": "⚡"
+   },
+   "pct": [
+    4,
+    96
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "10 Millionen, aber du lebst in einem Dorf ohne Internet, oder normales Leben in der Stadt?",
+   "a": {
+    "label": "10 Mio., Dorf ohne Internet",
+    "emoji": "🏚️"
+   },
+   "b": {
+    "label": "Normales Leben",
+    "emoji": "🏙️"
+   },
+   "pct": [
+    39,
+    61
+   ]
+  },
+  {
+   "say": "Nie wieder arbeiten für 1.500 Euro im Monat, oder 40 Stunden für 6.000?",
+   "a": {
+    "label": "Nie arbeiten, 1.500 €",
+    "emoji": "😴"
+   },
+   "b": {
+    "label": "40 h für 6.000 €",
+    "emoji": "💪"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "1 Million Euro, aber du wirst sofort 10 Jahre älter, oder kein Geld?",
+   "a": {
+    "label": "1 Mio., 10 Jahre älter",
+    "emoji": "⏳"
+   },
+   "b": {
+    "label": "Kein Geld",
+    "emoji": "🙂"
+   },
+   "pct": [
+    18,
+    82
+   ]
+  },
+  {
+   "say": "100 Millionen, aber du darfst es niemandem zeigen, oder 1 Million und du darfst angeben?",
+   "a": {
+    "label": "100 Mio., geheim",
+    "emoji": "🤐"
+   },
+   "b": {
+    "label": "1 Mio., angeben",
+    "emoji": "😎"
+   },
+   "pct": [
+    50,
+    50
+   ]
+  }
+ ],
+ "outro": {
+  "loop": true,
+  "say": "Und jetzt mal ehrlich:"
+ }
+}

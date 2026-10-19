@@ -1,0 +1,250 @@
+{
+ "id": "g11",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": true,
+ "durationInFrames": 1834,
+ "segments": [
+  {
+   "kind": "q",
+   "audio": "audio/g11/00_q_a.mp3",
+   "audioB": "audio/g11/00_q_b.mp3",
+   "bAt": 42,
+   "speak": 105,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "100.000 € für dich",
+    "img": null,
+    "emoji": "🫵"
+   },
+   "b": {
+    "label": "1 Mio. für deinen Besten",
+    "img": null,
+    "emoji": "👬"
+   },
+   "pct": [
+    51,
+    49
+   ],
+   "progress": [
+    1,
+    8
+   ],
+   "instant": true,
+   "duration": 210
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g11/01_q_a.mp3",
+   "audioB": "audio/g11/01_q_b.mp3",
+   "bAt": 62,
+   "speak": 92,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Partner verdient doppelt",
+    "img": null,
+    "emoji": "💸"
+   },
+   "b": {
+    "label": "Partner verdient halb so viel",
+    "img": null,
+    "emoji": "🪫"
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "progress": [
+    2,
+    8
+   ],
+   "duration": 197
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g11/02_q_a.mp3",
+   "audioB": "audio/g11/02_q_b.mp3",
+   "bAt": 83,
+   "speak": 112,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Behalten",
+    "img": null,
+    "emoji": "🤫"
+   },
+   "b": {
+    "label": "Abgeben",
+    "img": null,
+    "emoji": "👮"
+   },
+   "pct": [
+    62,
+    38
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Behalten“ nimmt 👇",
+    "at": "reveal"
+   },
+   "progress": [
+    3,
+    8
+   ],
+   "duration": 217
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g11/03_q_a.mp3",
+   "audioB": "audio/g11/03_q_b.mp3",
+   "bAt": 53,
+   "speak": 120,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "1 Mio., nie wieder Urlaub",
+    "img": null,
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "3 Monate frei pro Jahr",
+    "img": null,
+    "emoji": "🏝️"
+   },
+   "pct": [
+    55,
+    45
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   },
+   "progress": [
+    4,
+    8
+   ],
+   "duration": 225
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g11/04_q_a.mp3",
+   "audioB": "audio/g11/04_q_b.mp3",
+   "bAt": 118,
+   "speak": 147,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Chef liest mit",
+    "img": null,
+    "emoji": "👔"
+   },
+   "b": {
+    "label": "Mama liest mit",
+    "img": null,
+    "emoji": "👩"
+   },
+   "pct": [
+    9,
+    91
+   ],
+   "progress": [
+    5,
+    8
+   ],
+   "duration": 252
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g11/05_q_a.mp3",
+   "audioB": "audio/g11/05_q_b.mp3",
+   "bAt": 70,
+   "speak": 128,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Doppelt, alle hassen dich",
+    "img": null,
+    "emoji": "😈"
+   },
+   "b": {
+    "label": "Normal, alle lieben dich",
+    "img": null,
+    "emoji": "🥰"
+   },
+   "pct": [
+    58,
+    42
+   ],
+   "progress": [
+    6,
+    8
+   ],
+   "duration": 233
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g11/06_q_a.mp3",
+   "audioB": "audio/g11/06_q_b.mp3",
+   "bAt": 54,
+   "speak": 116,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Jackpot, alle wissen es",
+    "img": null,
+    "emoji": "📢"
+   },
+   "b": {
+    "label": "100.000 €, geheim",
+    "img": null,
+    "emoji": "🤐"
+   },
+   "pct": [
+    3,
+    97
+   ],
+   "progress": [
+    7,
+    8
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g11/07_q_a.mp3",
+   "audioB": "audio/g11/07_q_b.mp3",
+   "bAt": 74,
+   "speak": 137,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Er wird reich, vergisst dich",
+    "img": null,
+    "emoji": "💔"
+   },
+   "b": {
+    "label": "Beide pleite, beste Freunde",
+    "img": null,
+    "emoji": "🤝"
+   },
+   "pct": [
+    50,
+    50
+   ],
+   "progress": [
+    8,
+    8
+   ],
+   "duration": 242
+  },
+  {
+   "kind": "loop",
+   "audio": "audio/g11/08_loop.mp3",
+   "speak": 33,
+   "hold": 4,
+   "duration": 37
+  }
+ ]
+}

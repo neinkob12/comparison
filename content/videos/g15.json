@@ -1,0 +1,147 @@
+{
+ "id": "g15",
+ "channel": "G",
+ "handle": null,
+ "format": "fast",
+ "pace": {
+  "timer": 60,
+  "hold": 45
+ },
+ "instant": true,
+ "progress": true,
+ "follow": false,
+ "questions": [
+  {
+   "say": "Deine Firma bietet dir 30.000 Euro, wenn du kündigst. Nehmen, oder bleiben?",
+   "a": {
+    "label": "30.000 € und weg",
+    "emoji": "💼"
+   },
+   "b": {
+    "label": "Bleiben",
+    "emoji": "🪑"
+   },
+   "pct": [
+    72,
+    28
+   ]
+  },
+  {
+   "say": "Du siehst deinen Kontostand mit 50, oder du willst es nie wissen?",
+   "a": {
+    "label": "Kontostand mit 50 sehen",
+    "emoji": "🔮"
+   },
+   "b": {
+    "label": "Nie wissen",
+    "emoji": "🙈"
+   },
+   "pct": [
+    66,
+    34
+   ]
+  },
+  {
+   "say": "200.000 Euro, aber ein Jahr lang läuft dein Leben live auf TikTok, oder privat bleiben?",
+   "a": {
+    "label": "200.000 €, alles live",
+    "emoji": "📹"
+   },
+   "b": {
+    "label": "Privat bleiben",
+    "emoji": "🔒"
+   },
+   "pct": [
+    57,
+    43
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „200.000 €, alles live“ nimmt 👇",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Nie wieder Geldsorgen, aber nie wieder verliebt, oder Liebe mit Geldsorgen?",
+   "a": {
+    "label": "Nie Geldsorgen, nie Liebe",
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "Liebe mit Geldsorgen",
+    "emoji": "💘"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Du gewinnst 1 Million und deine Familie will was abhaben. Teilen, oder alles behalten?",
+   "a": {
+    "label": "Mit Familie teilen",
+    "emoji": "👨‍👩‍👧"
+   },
+   "b": {
+    "label": "Alles behalten",
+    "emoji": "🔐"
+   },
+   "pct": [
+    77,
+    23
+   ]
+  },
+  {
+   "say": "100 Euro für eine 5-Sterne-Bewertung, obwohl das Essen schlecht war, oder ehrlich 1 Stern?",
+   "a": {
+    "label": "Für 100 € lügen",
+    "emoji": "⭐"
+   },
+   "b": {
+    "label": "Ehrlich 1 Stern",
+    "emoji": "💩"
+   },
+   "pct": [
+    45,
+    55
+   ]
+  },
+  {
+   "say": "1.000 Euro im Monat extra, aber jeden Tag um 5 Uhr aufstehen, oder ausschlafen ohne Geld?",
+   "a": {
+    "label": "1.000 €, 5 Uhr aufstehen",
+    "emoji": "⏰"
+   },
+   "b": {
+    "label": "Ausschlafen",
+    "emoji": "😴"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "Einen Fehler aus deiner Vergangenheit löschen, oder 1 Million Euro?",
+   "a": {
+    "label": "Fehler löschen",
+    "emoji": "⏪"
+   },
+   "b": {
+    "label": "1 Million",
+    "emoji": "💰"
+   },
+   "pct": [
+    50,
+    50
+   ]
+  }
+ ],
+ "outro": {
+  "loop": true,
+  "say": "Und jetzt mal ehrlich:"
+ }
+}

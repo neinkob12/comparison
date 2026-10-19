@@ -148,6 +148,7 @@ def build(vid):
         segs.append({"kind": "intro", "audio": f"audio/{vid}/{f.name}", "speak": sp, "voiceAt": 6,
                      "title": c["title"], "sub": c["sub"], "hold": 6 + 12, **extra}); n += 1
     qs = ([v["hook"]] if v.get("hook") else []) + v["questions"]
+    total_q = sum(1 for q in qs if q.get("type", "q") == "q")
     num = 0
     for q in qs:
         kind = q.get("type", "q")
@@ -168,6 +169,12 @@ def build(vid):
                    "a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}
             if q.get("statement"):
                 seg["statement"] = q["statement"]
+            if q.get("popup"):
+                seg["popup"] = q["popup"]
+            if v.get("progress") and kind == "q":
+                seg["progress"] = [num, total_q]
+            if v.get("instant") and not segs:
+                seg["instant"] = True  # beide Optionen ab Frame 0 sichtbar
             if q.get("winSay"):
                 fw = adir / f"{n:02d}_{kind}_win.mp3"
                 say_(q["winSay"], fw)
@@ -200,13 +207,17 @@ def build(vid):
             add(kind, n, {"a": side(q["a"]), "b": side(q["b"]), "pct": q["pct"]}, say, {"gap": gap, "hold": reveal})
         n += 1
     o = v["outro"]
-    add("outro", n, {"title": o.get("title"), "sub": o.get("sub"), "share": o.get("share")},
-        o["say"] + (" " + o["shareSay"] if o.get("shareSay") else ""), {"hold": TAIL + 30})
+    if o.get("loop"):
+        # Kein Outro-Bildschirm: kurzer Satz, der nahtlos in Frage 1 zurueckfuehrt
+        add("loop", n, {}, o["say"], {"hold": 4})
+    else:
+        add("outro", n, {"title": o.get("title"), "sub": o.get("sub"), "share": o.get("share")},
+            o["say"] + (" " + o["shareSay"] if o.get("shareSay") else ""), {"hold": TAIL + 30})
 
     for s in segs:
         s["duration"] = s["speak"] + s.get("gap", 0) + s["hold"]
     total = sum(s["duration"] for s in segs)
-    tl = {"id": vid, "channel": v["channel"], "handle": v.get("handle"), "fps": FPS,
+    tl = {"id": vid, "channel": v["channel"], "handle": v.get("handle"), "fps": FPS, "noFollow": v.get("follow") is False,
           "durationInFrames": total, "segments": segs}
     (PUB / "timelines").mkdir(parents=True, exist_ok=True)
     (PUB / "timelines" / f"{vid}.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1))

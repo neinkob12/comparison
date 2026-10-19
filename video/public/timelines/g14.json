@@ -1,0 +1,250 @@
+{
+ "id": "g14",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": true,
+ "durationInFrames": 1884,
+ "segments": [
+  {
+   "kind": "q",
+   "audio": "audio/g14/00_q_a.mp3",
+   "audioB": "audio/g14/00_q_b.mp3",
+   "bAt": 108,
+   "speak": 135,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Bleiben",
+    "img": null,
+    "emoji": "🫂"
+   },
+   "b": {
+    "label": "Gehen",
+    "img": null,
+    "emoji": "🚪"
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "progress": [
+    1,
+    8
+   ],
+   "instant": true,
+   "duration": 225
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g14/01_q_a.mp3",
+   "audioB": "audio/g14/01_q_b.mp3",
+   "bAt": 128,
+   "speak": 156,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Ansprechen",
+    "img": null,
+    "emoji": "🗣️"
+   },
+   "b": {
+    "label": "Schlucken",
+    "img": null,
+    "emoji": "😶"
+   },
+   "pct": [
+    83,
+    17
+   ],
+   "progress": [
+    2,
+    8
+   ],
+   "duration": 246
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g14/02_q_a.mp3",
+   "audioB": "audio/g14/02_q_b.mp3",
+   "bAt": 75,
+   "speak": 115,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Gemeinsames Konto",
+    "img": null,
+    "emoji": "💑"
+   },
+   "b": {
+    "label": "Alles getrennt",
+    "img": null,
+    "emoji": "🧍"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Gemeinsames Konto“ nimmt 👇",
+    "at": "reveal"
+   },
+   "progress": [
+    3,
+    8
+   ],
+   "duration": 205
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g14/03_q_a.mp3",
+   "audioB": "audio/g14/03_q_b.mp3",
+   "bAt": 69,
+   "speak": 134,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Alle verdienen mehr",
+    "img": null,
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "Alle verdienen weniger",
+    "img": null,
+    "emoji": "📉"
+   },
+   "pct": [
+    57,
+    43
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   },
+   "progress": [
+    4,
+    8
+   ],
+   "duration": 224
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g14/04_q_a.mp3",
+   "audioB": "audio/g14/04_q_b.mp3",
+   "bAt": 98,
+   "speak": 163,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Eltern zahlen, reden mit",
+    "img": null,
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "Selbst zahlen, frei",
+    "img": null,
+    "emoji": "🔑"
+   },
+   "pct": [
+    3,
+    97
+   ],
+   "progress": [
+    5,
+    8
+   ],
+   "duration": 253
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g14/05_q_a.mp3",
+   "audioB": "audio/g14/05_q_b.mp3",
+   "bAt": 62,
+   "speak": 108,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Einer zahlt alles",
+    "img": null,
+    "emoji": "💳"
+   },
+   "b": {
+    "label": "Jeder zahlt selbst",
+    "img": null,
+    "emoji": "➗"
+   },
+   "pct": [
+    55,
+    45
+   ],
+   "progress": [
+    6,
+    8
+   ],
+   "duration": 198
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g14/06_q_a.mp3",
+   "audioB": "audio/g14/06_q_b.mp3",
+   "bAt": 120,
+   "speak": 160,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Ehrlich freuen",
+    "img": null,
+    "emoji": "🥳"
+   },
+   "b": {
+    "label": "Ehrlich neidisch",
+    "img": null,
+    "emoji": "😒"
+   },
+   "pct": [
+    61,
+    39
+   ],
+   "progress": [
+    7,
+    8
+   ],
+   "duration": 250
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g14/07_q_a.mp3",
+   "audioB": "audio/g14/07_q_b.mp3",
+   "bAt": 83,
+   "speak": 152,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Liebe + 1 Mio. Schulden",
+    "img": null,
+    "emoji": "❤️"
+   },
+   "b": {
+    "label": "Millionär, nur Sympathie",
+    "img": null,
+    "emoji": "💎"
+   },
+   "pct": [
+    50,
+    50
+   ],
+   "progress": [
+    8,
+    8
+   ],
+   "duration": 242
+  },
+  {
+   "kind": "loop",
+   "audio": "audio/g14/08_loop.mp3",
+   "speak": 37,
+   "hold": 4,
+   "duration": 41
+  }
+ ]
+}

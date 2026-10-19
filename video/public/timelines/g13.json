@@ -1,0 +1,250 @@
+{
+ "id": "g13",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": true,
+ "durationInFrames": 1888,
+ "segments": [
+  {
+   "kind": "q",
+   "audio": "audio/g13/00_q_a.mp3",
+   "audioB": "audio/g13/00_q_b.mp3",
+   "bAt": 75,
+   "speak": 117,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "1 Mio., kein Handy",
+    "img": null,
+    "emoji": "📵"
+   },
+   "b": {
+    "label": "Alles bleibt",
+    "img": null,
+    "emoji": "📱"
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "progress": [
+    1,
+    8
+   ],
+   "instant": true,
+   "duration": 222
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g13/01_q_a.mp3",
+   "audioB": "audio/g13/01_q_b.mp3",
+   "bAt": 76,
+   "speak": 134,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Doppelt, jedes Wochenende",
+    "img": null,
+    "emoji": "💼"
+   },
+   "b": {
+    "label": "Halb, 3-Tage-Woche",
+    "img": null,
+    "emoji": "🛋️"
+   },
+   "pct": [
+    52,
+    48
+   ],
+   "progress": [
+    2,
+    8
+   ],
+   "duration": 239
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g13/02_q_a.mp3",
+   "audioB": "audio/g13/02_q_b.mp3",
+   "bAt": 68,
+   "speak": 124,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "500.000 €, kein Fleisch",
+    "img": null,
+    "emoji": "🥗"
+   },
+   "b": {
+    "label": "Kein Geld, alles essen",
+    "img": null,
+    "emoji": "🍖"
+   },
+   "pct": [
+    86,
+    14
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Kein Geld, alles essen“ nimmt 👇",
+    "at": "reveal"
+   },
+   "progress": [
+    3,
+    8
+   ],
+   "duration": 229
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g13/03_q_a.mp3",
+   "audioB": "audio/g13/03_q_b.mp3",
+   "bAt": 42,
+   "speak": 116,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Millionär mit 60",
+    "img": null,
+    "emoji": "👴"
+   },
+   "b": {
+    "label": "3.000 €/Monat ab jetzt",
+    "img": null,
+    "emoji": "⚡"
+   },
+   "pct": [
+    4,
+    96
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   },
+   "progress": [
+    4,
+    8
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g13/04_q_a.mp3",
+   "audioB": "audio/g13/04_q_b.mp3",
+   "bAt": 90,
+   "speak": 139,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "10 Mio., Dorf ohne Internet",
+    "img": null,
+    "emoji": "🏚️"
+   },
+   "b": {
+    "label": "Normales Leben",
+    "img": null,
+    "emoji": "🏙️"
+   },
+   "pct": [
+    39,
+    61
+   ],
+   "progress": [
+    5,
+    8
+   ],
+   "duration": 244
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g13/05_q_a.mp3",
+   "audioB": "audio/g13/05_q_b.mp3",
+   "bAt": 79,
+   "speak": 127,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Nie arbeiten, 1.500 €",
+    "img": null,
+    "emoji": "😴"
+   },
+   "b": {
+    "label": "40 h für 6.000 €",
+    "img": null,
+    "emoji": "💪"
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "progress": [
+    6,
+    8
+   ],
+   "duration": 232
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g13/06_q_a.mp3",
+   "audioB": "audio/g13/06_q_b.mp3",
+   "bAt": 93,
+   "speak": 124,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "1 Mio., 10 Jahre älter",
+    "img": null,
+    "emoji": "⏳"
+   },
+   "b": {
+    "label": "Kein Geld",
+    "img": null,
+    "emoji": "🙂"
+   },
+   "pct": [
+    18,
+    82
+   ],
+   "progress": [
+    7,
+    8
+   ],
+   "duration": 229
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g13/07_q_a.mp3",
+   "audioB": "audio/g13/07_q_b.mp3",
+   "bAt": 75,
+   "speak": 133,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "100 Mio., geheim",
+    "img": null,
+    "emoji": "🤐"
+   },
+   "b": {
+    "label": "1 Mio., angeben",
+    "img": null,
+    "emoji": "😎"
+   },
+   "pct": [
+    50,
+    50
+   ],
+   "progress": [
+    8,
+    8
+   ],
+   "duration": 238
+  },
+  {
+   "kind": "loop",
+   "audio": "audio/g13/08_loop.mp3",
+   "speak": 30,
+   "hold": 4,
+   "duration": 34
+  }
+ ]
+}

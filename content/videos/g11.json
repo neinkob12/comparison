@@ -1,0 +1,147 @@
+{
+ "id": "g11",
+ "channel": "G",
+ "handle": null,
+ "format": "fast",
+ "pace": {
+  "timer": 60,
+  "hold": 45
+ },
+ "instant": true,
+ "progress": true,
+ "follow": false,
+ "questions": [
+  {
+   "say": "100.000 Euro für dich, oder 1 Million für deinen besten Freund?",
+   "a": {
+    "label": "100.000 € für dich",
+    "emoji": "🫵"
+   },
+   "b": {
+    "label": "1 Mio. für deinen Besten",
+    "emoji": "👬"
+   },
+   "pct": [
+    51,
+    49
+   ]
+  },
+  {
+   "say": "Dein Partner verdient doppelt so viel wie du, oder halb so viel?",
+   "a": {
+    "label": "Partner verdient doppelt",
+    "emoji": "💸"
+   },
+   "b": {
+    "label": "Partner verdient halb so viel",
+    "emoji": "🪫"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "Du findest 5.000 Euro bar auf der Straße. Behalten, oder abgeben?",
+   "a": {
+    "label": "Behalten",
+    "emoji": "🤫"
+   },
+   "b": {
+    "label": "Abgeben",
+    "emoji": "👮"
+   },
+   "pct": [
+    62,
+    38
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Behalten“ nimmt 👇",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "1 Million und nie wieder Urlaub, oder kein Geld und jedes Jahr 3 Monate frei?",
+   "a": {
+    "label": "1 Mio., nie wieder Urlaub",
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "3 Monate frei pro Jahr",
+    "emoji": "🏝️"
+   },
+   "pct": [
+    55,
+    45
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "50.000 Euro, aber ein Jahr lang liest dein Chef alle deine Chats, oder deine Mutter?",
+   "a": {
+    "label": "Chef liest mit",
+    "emoji": "👔"
+   },
+   "b": {
+    "label": "Mama liest mit",
+    "emoji": "👩"
+   },
+   "pct": [
+    9,
+    91
+   ]
+  },
+  {
+   "say": "Doppeltes Gehalt und alle Kollegen hassen dich, oder normales Gehalt und alle lieben dich?",
+   "a": {
+    "label": "Doppelt, alle hassen dich",
+    "emoji": "😈"
+   },
+   "b": {
+    "label": "Normal, alle lieben dich",
+    "emoji": "🥰"
+   },
+   "pct": [
+    58,
+    42
+   ]
+  },
+  {
+   "say": "Lotto-Jackpot und alle wissen es, oder 100.000 Euro und niemand erfährt es?",
+   "a": {
+    "label": "Jackpot, alle wissen es",
+    "emoji": "📢"
+   },
+   "b": {
+    "label": "100.000 €, geheim",
+    "emoji": "🤐"
+   },
+   "pct": [
+    3,
+    97
+   ]
+  },
+  {
+   "say": "Dein bester Freund wird Millionär und vergisst dich, oder ihr bleibt beide pleite und beste Freunde?",
+   "a": {
+    "label": "Er wird reich, vergisst dich",
+    "emoji": "💔"
+   },
+   "b": {
+    "label": "Beide pleite, beste Freunde",
+    "emoji": "🤝"
+   },
+   "pct": [
+    50,
+    50
+   ]
+  }
+ ],
+ "outro": {
+  "loop": true,
+  "say": "Und jetzt mal ehrlich:"
+ }
+}

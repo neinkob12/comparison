@@ -6,14 +6,15 @@ import {
 
 type Side = {label: string; img: string | null; emoji?: string | null; fact?: string};
 type Segment = {
-	kind: 'intro' | 'q' | 'hook' | 'mid' | 'explain' | 'outro';
+	kind: 'intro' | 'q' | 'hook' | 'mid' | 'explain' | 'outro' | 'loop';
 	audio: string; audioB?: string; bAt?: number; speak: number; gap?: number; hold: number; duration: number; voiceAt?: number;
 	share?: string; winAudio?: string; aAt?: number; winAt?: number; best?: 'a' | 'b'; note?: string;
 	statement?: string; stamps?: [string, string]; glitch?: number; glitchMode?: string;
+	instant?: boolean; progress?: [number, number]; popup?: {text: string; at: 'start' | 'reveal'};
 	title?: string; sub?: string; a?: Side; b?: Side; pct?: [number, number];
 };
 export type Timeline = {
-	id: string; channel: string; handle: string | null; fps: number;
+	id: string; channel: string; handle: string | null; fps: number; noFollow?: boolean;
 	durationInFrames: number; segments: Segment[];
 };
 
@@ -42,7 +43,7 @@ const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revea
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 	// Reinfliegen: oben von links, unten von rechts, mit Bewegungsunschaerfe
-	const fly = spring({frame: frame - enterAt, fps, config: {damping: 16, stiffness: 260, mass: 0.6}});
+	const fly = enterAt < 0 ? 1 : spring({frame: frame - enterAt, fps, config: {damping: 16, stiffness: 260, mass: 0.6}});
 	const flyX = (1 - fly) * (top ? -1150 : 1150);
 	const blur = Math.min(18, Math.abs(flyX) / 40);
 	const enter = 1;
@@ -82,7 +83,7 @@ const Half: React.FC<{side: Side; top: boolean; pct: number; win: boolean; revea
 				position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center',
 				justifyContent: top ? 'flex-end' : 'flex-start', paddingTop: top ? 0 : 150, paddingBottom: top ? 150 : 0, gap: 30,
 				transform: `translateX(${flyX}px) skewX(${(top ? 1 : -1) * blur * 0.6}deg)`, filter: blur > 0.5 ? `blur(${blur}px)` : 'none',
-				opacity: frame < enterAt ? 0 : 1,
+				opacity: enterAt >= 0 && frame < enterAt ? 0 : 1,
 			}}>
 				{top ? null : <Label text={side.label} enter={enter} state={shown ? (win ? 'win' : 'lose') : null} />}
 				<div style={{position: 'relative', transform: `scale(${(0.6 + 0.4 * enter) * pulse * loseScale})`}}>
@@ -180,7 +181,7 @@ const Question: React.FC<{s: Segment}> = ({s}) => {
 	const [pa, pb] = s.pct!;
 	const mid = s.kind === 'mid';
 	const frame = useCurrentFrame();
-	const punch = interpolate(frame, [0, 7], [1.12, 1], {extrapolateRight: 'clamp'});
+	const punch = s.instant ? 1 : interpolate(frame, [0, 7], [1.12, 1], {extrapolateRight: 'clamp'});
 	const rt = frame - revealAt;
 	const shake = rt >= 0 && rt < 10 ? Math.sin(rt * 2.6) * (10 - rt) * 2.5 : 0;
 	const ct = frame - s.speak;
@@ -188,21 +189,64 @@ const Question: React.FC<{s: Segment}> = ({s}) => {
 	const panic = ct >= count - 30 && ct < count ? 0.25 * (0.5 + 0.5 * Math.sin(ct * 1.2)) : 0;
 	return (
 		<AbsoluteFill style={{transform: `scale(${punch}) translate(${shake}px, ${-shake * 0.5}px)`}}>
-			<Half side={s.a!} top pct={pa} win={pa >= pb} revealAt={revealAt} mid={mid} enterAt={0} compact={!!s.statement} />
-			<Half side={s.b!} top={false} pct={pb} win={pb > pa} revealAt={revealAt} mid={mid} enterAt={bAt} compact={!!s.statement} />
+			<Half side={s.a!} top pct={pa} win={pa >= pb} revealAt={revealAt} mid={mid} enterAt={s.instant ? -1 : 0} compact={!!s.statement} />
+			<Half side={s.b!} top={false} pct={pb} win={pb > pa} revealAt={revealAt} mid={mid} enterAt={s.instant ? -1 : bAt} compact={!!s.statement} />
+			{s.progress ? <Progress n={s.progress[0]} total={s.progress[1]} /> : null}
+			{s.popup ? <Popup text={s.popup.text} from={s.popup.at === 'reveal' ? revealAt + 6 : 4} until={s.popup.at === 'reveal' ? s.duration : 4 + 80} /> : null}
 			{s.statement ? <Statement text={s.statement} /> : null}
 			<Center speakEnd={s.speak} count={count} />
 			<AbsoluteFill style={{boxShadow: `inset 0 0 220px 60px rgba(255,0,0,${panic})`, pointerEvents: 'none'}} />
 			<Audio src={staticFile(s.audio)} />
 			{s.audioB ? <Sequence from={bAt}><Audio src={staticFile(s.audioB)} /></Sequence> : null}
-			<Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} />
-			<Sequence from={bAt}><Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} /></Sequence>
+			{s.instant ? null : <Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} />}
+			{s.instant ? null : <Sequence from={bAt}><Audio src={staticFile('sfx/whoosh.mp3')} volume={0.7} /></Sequence>}
 			<Sequence from={s.speak} durationInFrames={count}><Audio src={staticFile('sfx/countdown.mp3')} startFrom={Math.max(0, COUNT - count)} volume={0.9} /></Sequence>
 			<Sequence from={revealAt}><Audio src={staticFile('sfx/check.mp3')} volume={0.8} /></Sequence>
 			{s.winAudio ? <Sequence from={revealAt + 12}><Audio src={staticFile(s.winAudio)} /></Sequence> : null}
 		</AbsoluteFill>
 	);
 };
+
+// Fortschritt oben: FRAGE 3/8 + Balken (offene Schleife bis zum Ende)
+const Progress: React.FC<{n: number; total: number}> = ({n, total}) => (
+	<div style={{position: 'absolute', top: 64, left: 0, right: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12}}>
+		<div style={{fontFamily: HEAVY, fontSize: 38, color: C.white, ...stroke(5)}}>FRAGE {n}/{total}</div>
+		<div style={{display: 'flex', gap: 8}}>
+			{new Array(total).fill(0).map((_, i) => (
+				<div key={i} style={{width: 64, height: 14, borderRadius: 7, border: `3px solid ${C.ink}`,
+					background: i < n ? C.yellow : 'rgba(255,255,255,.35)'}} />
+			))}
+		</div>
+	</div>
+);
+
+// Pop-up-Sticker (Teaser oder Markier-Aufruf)
+const Popup: React.FC<{text: string; from: number; until: number}> = ({text, from, until}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	if (frame < from || frame >= until) return null;
+	const s = spring({frame: frame - from, fps, config: {damping: 8, mass: 0.6}});
+	const wob = Math.sin((frame - from) / 4) * 2;
+	return (
+		<div style={{position: 'absolute', top: 960, left: 0, right: 0, display: 'flex', justifyContent: 'center', transform: 'translateY(-50%)'}}>
+			<div style={{
+				fontFamily: HEAVY, fontSize: 46, lineHeight: 1.15, color: C.ink, background: C.yellow, border: `8px solid ${C.ink}`,
+				borderRadius: 26, padding: '18px 34px', textAlign: 'center', maxWidth: 900, boxShadow: '0 16px 40px rgba(0,0,0,.45)',
+				transform: `scale(${s}) rotate(${-4 + wob}deg)`,
+			}}>{text}</div>
+			<Sequence from={from} layout="none"><Audio src={staticFile('sfx/pop.mp3')} volume={0.8} /></Sequence>
+		</div>
+	);
+};
+
+// Loop-Ende: leere Farbflaechen wie bei Frage 1, kurzer Satz fuehrt zurueck an den Anfang
+const Loop: React.FC<{s: Segment}> = ({s}) => (
+	<AbsoluteFill>
+		<div style={{position: 'absolute', left: 0, right: 0, top: 0, height: 960, background: `radial-gradient(circle at 50% 60%, ${C.red} 0%, ${C.redDark} 120%)`}} />
+		<div style={{position: 'absolute', left: 0, right: 0, top: 960, height: 960, background: `radial-gradient(circle at 50% 40%, ${C.blue} 0%, ${C.blueDark} 120%)`}} />
+		<Audio src={staticFile(s.audio)} />
+	</AbsoluteFill>
+);
 
 // Aussage oben (Mythos oder Fakt)
 const Statement: React.FC<{text: string}> = ({text}) => {
@@ -409,11 +453,11 @@ export const Comparison: React.FC<{timeline: Timeline}> = ({timeline}) => {
 				{segs.map((s, i) => (
 					<Series.Sequence key={i} durationInFrames={s.duration}>
 						{s.kind === 'intro' ? <Intro s={s} /> : s.kind === 'outro' ? <Outro s={s} handle={timeline.handle} />
-							: s.kind === 'explain' ? <Explain s={s} /> : <Question s={s} />}
+							: s.kind === 'explain' ? <Explain s={s} /> : s.kind === 'loop' ? <Loop s={s} /> : <Question s={s} />}
 					</Series.Sequence>
 				))}
 			</Series>
-			{segs.length ? (
+			{segs.length && !timeline.noFollow ? (
 				<Sequence from={followAt} durationInFrames={95}>
 					<FollowPill handle={timeline.handle} />
 				</Sequence>

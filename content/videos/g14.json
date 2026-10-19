@@ -1,0 +1,154 @@
+{
+ "id": "g14",
+ "channel": "G",
+ "handle": null,
+ "format": "fast",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "pace": {
+  "timer": 60,
+  "hold": 30
+ },
+ "instant": true,
+ "progress": true,
+ "follow": false,
+ "questions": [
+  {
+   "say": "Dein Partner hat heimlich 20.000 Euro Schulden. Bleiben, oder gehen?",
+   "a": {
+    "label": "Bleiben",
+    "emoji": "🫂"
+   },
+   "b": {
+    "label": "Gehen",
+    "emoji": "🚪"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Dein jüngerer Kollege verdient 1.000 Euro mehr als du. Ansprechen, oder schlucken?",
+   "a": {
+    "label": "Ansprechen",
+    "emoji": "🗣️"
+   },
+   "b": {
+    "label": "Schlucken",
+    "emoji": "😶"
+   },
+   "pct": [
+    83,
+    17
+   ]
+  },
+  {
+   "say": "Mit deinem Partner ein gemeinsames Konto, oder alles getrennt?",
+   "a": {
+    "label": "Gemeinsames Konto",
+    "emoji": "💑"
+   },
+   "b": {
+    "label": "Alles getrennt",
+    "emoji": "🧍"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Gemeinsames Konto“ nimmt 👇",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Freunde, die alle mehr verdienen als du, oder Freunde, die alle weniger verdienen?",
+   "a": {
+    "label": "Alle verdienen mehr",
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "Alle verdienen weniger",
+    "emoji": "📉"
+   },
+   "pct": [
+    57,
+    43
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Deine Eltern zahlen deine Miete und reden bei allem mit, oder alles selbst zahlen und frei sein?",
+   "a": {
+    "label": "Eltern zahlen, reden mit",
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "Selbst zahlen, frei",
+    "emoji": "🔑"
+   },
+   "pct": [
+    3,
+    97
+   ]
+  },
+  {
+   "say": "Beim ersten Date zahlt einer alles, oder jeder zahlt selbst?",
+   "a": {
+    "label": "Einer zahlt alles",
+    "emoji": "💳"
+   },
+   "b": {
+    "label": "Jeder zahlt selbst",
+    "emoji": "➗"
+   },
+   "pct": [
+    55,
+    45
+   ]
+  },
+  {
+   "say": "Dein bester Freund verdient plötzlich 10.000 im Monat. Ehrlich freuen, oder ehrlich neidisch?",
+   "a": {
+    "label": "Ehrlich freuen",
+    "emoji": "🥳"
+   },
+   "b": {
+    "label": "Ehrlich neidisch",
+    "emoji": "😒"
+   },
+   "pct": [
+    61,
+    39
+   ]
+  },
+  {
+   "say": "Jemand, den du liebst, mit 1 Million Schulden, oder ein Millionär, den du nur magst?",
+   "a": {
+    "label": "Liebe + 1 Mio. Schulden",
+    "emoji": "❤️"
+   },
+   "b": {
+    "label": "Millionär, nur Sympathie",
+    "emoji": "💎"
+   },
+   "pct": [
+    50,
+    50
+   ]
+  }
+ ],
+ "outro": {
+  "loop": true,
+  "say": "Und jetzt mal ehrlich:"
+ }
+}
