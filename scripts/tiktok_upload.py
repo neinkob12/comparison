@@ -100,7 +100,9 @@ def push_log(summary):
     pull = git("pull", "--rebase", "--autostash")
     push = git("push")
     if pull.returncode or push.returncode:
-        print("Log nur lokal gespeichert (git pull/push ging nicht). Spaeter: git pull --rebase && git push")
+        err = (pull.stderr if pull.returncode else push.stderr).strip().splitlines()
+        print("Log nur lokal gespeichert (git pull/push ging nicht): " + (err[-1] if err else "?"))
+        print("Spaeter: git pull --rebase && git push")
     else:
         print("Log nach GitHub gepusht.")
 
@@ -266,12 +268,29 @@ def type_tag(page, tag):
         page.keyboard.type(" ")
 
 
+def dismiss_tour(page):
+    """TikTok-Einfuehrungstour (react-joyride) wegklicken, ihr Overlay blockiert sonst alle Klicks."""
+    time.sleep(1)
+    for sel in ('[data-test-id="button-skip"]', '[data-test-id="button-close"]', '[data-test-id="button-primary"]'):
+        for _ in range(6):
+            b = page.locator(sel)
+            if not (b.count() and b.first.is_visible()):
+                break
+            b.first.click(force=True)
+            time.sleep(0.5)
+    page.keyboard.press("Escape")
+    page.evaluate("document.querySelectorAll('#react-joyride-portal, .react-joyride__overlay, .react-joyride__spotlight')"
+                  ".forEach(e => e.remove())")
+
+
 def install_hooks(f, manual_ai, draft, inspect=False):
     """Klinkt sich in haziq ein: Hashtags mit Umlauten, Sound-Einstellungen, Cover, KI-Haken, dann posten/planen oder Entwurf."""
     submit = f._submit_upload
     describe = f._add_description_and_hashtags
 
     def described(page, sim, video, description, hashtags, stealth, suppressprint):
+        page.wait_for_selector('div[data-contents="true"]')
+        dismiss_tour(page)
         describe(page, sim, video, description, None, stealth, suppressprint)
         for tag in hashtags or []:
             type_tag(page, tag if tag.startswith("#") else "#" + tag)
@@ -383,11 +402,16 @@ if __name__ == "__main__":
         if not draft and already_scheduled(vid) and "--force" not in opts:
             print(f"{vid} ist laut Log schon eingeplant, uebersprungen (--force zum Erzwingen)")
             continue
-        try:
-            ok = upload(r, SOUND, "--headless" in opts, schedule=not draft) == "Completed"
-        except Exception as e:
-            print(f"FEHLER bei {vid}: {e}")
-            ok = False
+        ok = False
+        for attempt in (1, 2):  # ein zweiter Versuch, z.B. wenn TikTok die Seite nicht laedt
+            try:
+                ok = upload(r, SOUND, "--headless" in opts, schedule=not draft) == "Completed"
+                break
+            except Exception as e:
+                print(f"FEHLER bei {vid} (Versuch {attempt}): {str(e).splitlines()[0][:200]}")
+                if attempt == 1:
+                    print("Neuer Versuch in 30 s ...")
+                    time.sleep(30)
         if ok and cmd != "inspect":
             write_log(vid, f"{r['datum']} {r['uhrzeit']}", "entwurf" if draft else "geplant")
             done.append(vid)
