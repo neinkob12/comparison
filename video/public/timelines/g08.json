@@ -1,0 +1,196 @@
+{
+ "id": "g08",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 1843,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g08/00_claim_slowmo.mp3",
+   "speak": 96,
+   "voiceAt": 6,
+   "title": "95%",
+   "sub": "GLAUBEN DAS",
+   "hold": 18,
+   "glitch": 83,
+   "glitchMode": "slowmo",
+   "duration": 114
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g08/01_q_a.mp3",
+   "audioB": "audio/g08/01_q_b.mp3",
+   "bAt": 110,
+   "speak": 137,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "MYTHOS",
+    "img": null,
+    "emoji": "🧢"
+   },
+   "b": {
+    "label": "FAKT",
+    "img": null,
+    "emoji": "✅"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "statement": "Mit einer Gehaltserhöhung kannst du netto weniger haben.",
+   "duration": 272
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g08/01_explain_a.mp3",
+   "audioB": null,
+   "winAudio": "audio/g08/01_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 177,
+   "winAt": 177,
+   "speak": 204,
+   "hold": 30,
+   "best": "a",
+   "note": "Vereinfacht. Keine Steuer- oder Anlageberatung.",
+   "stamps": [
+    "RICHTIG",
+    "FALSCH"
+   ],
+   "a": {
+    "label": "MYTHOS",
+    "img": null,
+    "emoji": "🧢",
+    "fact": "Nur der zusätzliche Teil wird höher besteuert. Netto bleibt mehr."
+   },
+   "b": {
+    "label": "FAKT",
+    "img": null,
+    "emoji": "✅",
+    "fact": null
+   },
+   "duration": 234
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g08/02_q_a.mp3",
+   "audioB": "audio/g08/02_q_b.mp3",
+   "bAt": 113,
+   "speak": 142,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "MYTHOS",
+    "img": null,
+    "emoji": "🧢"
+   },
+   "b": {
+    "label": "FAKT",
+    "img": null,
+    "emoji": "✅"
+   },
+   "pct": [
+    57,
+    43
+   ],
+   "statement": "Geld auf dem Girokonto verliert bei Inflation an Wert.",
+   "duration": 277
+  },
+  {
+   "kind": "explain",
+   "audio": null,
+   "audioB": "audio/g08/02_explain_b.mp3",
+   "winAudio": "audio/g08/02_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 8,
+   "winAt": 228,
+   "speak": 251,
+   "hold": 30,
+   "best": "b",
+   "note": "Vereinfacht. Keine Steuer- oder Anlageberatung.",
+   "stamps": [
+    "RICHTIG",
+    "FALSCH"
+   ],
+   "a": {
+    "label": "MYTHOS",
+    "img": null,
+    "emoji": "🧢",
+    "fact": null
+   },
+   "b": {
+    "label": "FAKT",
+    "img": null,
+    "emoji": "✅",
+    "fact": "Bei 2 % Inflation sind 10.000 € nach 10 Jahren nur noch ca. 8.200 € wert."
+   },
+   "duration": 281
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g08/03_q_a.mp3",
+   "audioB": "audio/g08/03_q_b.mp3",
+   "bAt": 92,
+   "speak": 119,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "MYTHOS",
+    "img": null,
+    "emoji": "🧢"
+   },
+   "b": {
+    "label": "FAKT",
+    "img": null,
+    "emoji": "✅"
+   },
+   "pct": [
+    39,
+    61
+   ],
+   "statement": "Trinkgeld musst du als Angestellter versteuern.",
+   "duration": 254
+  },
+  {
+   "kind": "explain",
+   "audio": "audio/g08/03_explain_a.mp3",
+   "audioB": null,
+   "winAudio": "audio/g08/03_explain_win.mp3",
+   "aAt": 8,
+   "bAt": 136,
+   "winAt": 136,
+   "speak": 165,
+   "hold": 30,
+   "best": "a",
+   "note": "Vereinfacht. Keine Steuer- oder Anlageberatung.",
+   "stamps": [
+    "RICHTIG",
+    "FALSCH"
+   ],
+   "a": {
+    "label": "MYTHOS",
+    "img": null,
+    "emoji": "🧢",
+    "fact": "Freiwilliges Trinkgeld von Gästen ist für Angestellte steuerfrei."
+   },
+   "b": {
+    "label": "FAKT",
+    "img": null,
+    "emoji": "✅",
+    "fact": null
+   },
+   "duration": 195
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g08/04_outro.mp3",
+   "speak": 171,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an jemanden, der jeden Monat pleite ist",
+   "duration": 216
+  }
+ ]
+}

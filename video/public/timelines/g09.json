@@ -1,0 +1,295 @@
+{
+ "id": "g09",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 1930,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g09/00_claim_chipmunk.mp3",
+   "speak": 43,
+   "voiceAt": 6,
+   "title": "11 FRAGEN",
+   "sub": "2 SEKUNDEN",
+   "hold": 18,
+   "glitch": 30,
+   "glitchMode": "chipmunk",
+   "duration": 61
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/01_q_a.mp3",
+   "audioB": "audio/g09/01_q_b.mp3",
+   "bAt": 36,
+   "speak": 74,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Reich mit 30",
+    "img": null,
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "Glücklich mit 30",
+    "img": null,
+    "emoji": "😊"
+   },
+   "pct": [
+    44,
+    56
+   ],
+   "duration": 164
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/02_q_a.mp3",
+   "audioB": "audio/g09/02_q_b.mp3",
+   "bAt": 31,
+   "speak": 66,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Nie wieder Miete",
+    "img": null,
+    "emoji": "🔑"
+   },
+   "b": {
+    "label": "Nie wieder Steuern",
+    "img": null,
+    "emoji": "🧾"
+   },
+   "pct": [
+    52,
+    48
+   ],
+   "duration": 156
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/03_q_a.mp3",
+   "audioB": "audio/g09/03_q_b.mp3",
+   "bAt": 37,
+   "speak": 84,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "1.000 € jetzt",
+    "img": null,
+    "emoji": "⚡"
+   },
+   "b": {
+    "label": "2.000 € in 1 Jahr",
+    "img": null,
+    "emoji": "⏳"
+   },
+   "pct": [
+    37,
+    63
+   ],
+   "duration": 174
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/04_q_a.mp3",
+   "audioB": "audio/g09/04_q_b.mp3",
+   "bAt": 39,
+   "speak": 80,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Gratis Essen",
+    "img": null,
+    "emoji": "🍔"
+   },
+   "b": {
+    "label": "Gratis Wohnen",
+    "img": null,
+    "emoji": "🏠"
+   },
+   "pct": [
+    22,
+    78
+   ],
+   "duration": 170
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/05_q_a.mp3",
+   "audioB": "audio/g09/05_q_b.mp3",
+   "bAt": 29,
+   "speak": 58,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Lotto-Gewinn",
+    "img": null,
+    "emoji": "🎰"
+   },
+   "b": {
+    "label": "Traumjob",
+    "img": null,
+    "emoji": "💼"
+   },
+   "pct": [
+    69,
+    31
+   ],
+   "duration": 148
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/06_q_a.mp3",
+   "audioB": "audio/g09/06_q_b.mp3",
+   "bAt": 23,
+   "speak": 47,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Bitcoin",
+    "img": null,
+    "emoji": "🪙"
+   },
+   "b": {
+    "label": "Gold",
+    "img": null,
+    "emoji": "🥇"
+   },
+   "pct": [
+    58,
+    42
+   ],
+   "duration": 137
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/07_q_a.mp3",
+   "audioB": "audio/g09/07_q_b.mp3",
+   "bAt": 31,
+   "speak": 60,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Nur Bargeld",
+    "img": null,
+    "emoji": "💵"
+   },
+   "b": {
+    "label": "Nur Karte",
+    "img": null,
+    "emoji": "💳"
+   },
+   "pct": [
+    35,
+    65
+   ],
+   "duration": 150
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/08_q_a.mp3",
+   "audioB": "audio/g09/08_q_b.mp3",
+   "bAt": 21,
+   "speak": 55,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Erben",
+    "img": null,
+    "emoji": "🎁"
+   },
+   "b": {
+    "label": "Selbst verdienen",
+    "img": null,
+    "emoji": "💪"
+   },
+   "pct": [
+    61,
+    39
+   ],
+   "duration": 145
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/09_q_a.mp3",
+   "audioB": "audio/g09/09_q_b.mp3",
+   "bAt": 27,
+   "speak": 60,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Mehr Gehalt",
+    "img": null,
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "Mehr Freizeit",
+    "img": null,
+    "emoji": "🌴"
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "duration": 150
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/10_q_a.mp3",
+   "audioB": "audio/g09/10_q_b.mp3",
+   "bAt": 29,
+   "speak": 64,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Sportwagen",
+    "img": null,
+    "emoji": "🏎️"
+   },
+   "b": {
+    "label": "Eigentumswohnung",
+    "img": null,
+    "emoji": "🏢"
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "duration": 154
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g09/11_q_a.mp3",
+   "audioB": "audio/g09/11_q_b.mp3",
+   "bAt": 26,
+   "speak": 51,
+   "gap": 60,
+   "hold": 30,
+   "a": {
+    "label": "Sparen",
+    "img": null,
+    "emoji": "🐷"
+   },
+   "b": {
+    "label": "Urlaub",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "duration": 141
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g09/12_outro.mp3",
+   "speak": 135,
+   "hold": 45,
+   "title": "WAS HÄTTEST DU GEWÄHLT?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an deinen Kumpel mit dem Dispo",
+   "duration": 180
+  }
+ ]
+}
