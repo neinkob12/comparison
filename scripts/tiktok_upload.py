@@ -269,6 +269,20 @@ def type_tag(page, tag):
         page.keyboard.type(" ")
 
 
+def guard_cancel_dialog(page):
+    """Taucht "Sure you want to cancel your upload?" auf, immer "No" klicken (Upload behalten) und weitermachen."""
+    if getattr(page, "_cancel_guard", False):
+        return
+    def keep_upload():
+        print("Abbruch-Dialog erkannt, klicke 'No' (Upload bleibt)")
+        page.get_by_role("button", name="No", exact=True).last.click()
+    try:
+        page.add_locator_handler(page.get_by_text("Sure you want to cancel your upload?"), keep_upload)
+        page._cancel_guard = True
+    except Exception as e:  # aeltere Playwright-Version: dann nur ohne Schutz
+        print(f"Hinweis: Abbruch-Schutz nicht verfuegbar ({type(e).__name__})")
+
+
 def dismiss_tour(page):
     """TikTok-Einfuehrungstour (react-joyride) wegklicken, ihr Overlay blockiert sonst alle Klicks."""
     time.sleep(1)
@@ -279,7 +293,6 @@ def dismiss_tour(page):
                 break
             b.first.click(force=True)
             time.sleep(0.5)
-    page.keyboard.press("Escape")
     page.evaluate("document.querySelectorAll('#react-joyride-portal, .react-joyride__overlay, .react-joyride__spotlight')"
                   ".forEach(e => e.remove())")
 
@@ -291,8 +304,23 @@ def install_hooks(f, manual_ai, draft, inspect=False):
 
     def described(page, sim, video, description, hashtags, stealth, suppressprint):
         page.wait_for_selector('div[data-contents="true"]')
+        guard_cancel_dialog(page)
         dismiss_tour(page)
-        describe(page, sim, video, description, None, stealth, suppressprint)
+        # Eigene Version von haziqs Beschreibungs-Schritt: der klickt jeden sichtbaren "Cancel"-Button
+        # (gedacht fuer Tutorials) und erwischt dabei manchmal den Upload-Abbruch.
+        for sel in ("button.info-op-btn:has-text('Cancel')", "button:has-text('Got it')"):
+            b = page.locator(sel)
+            if b.count() and b.first.is_visible():
+                b.first.click()
+                time.sleep(0.5)
+        box = page.locator('div[data-contents="true"]')
+        sim.click(box)
+        time.sleep(0.5)
+        for _ in range(len(video) + 2):
+            page.keyboard.press("Backspace")
+            page.keyboard.press("Delete")
+        time.sleep(0.5)
+        sim.type(box, description)
         for tag in hashtags or []:
             type_tag(page, tag if tag.startswith("#") else "#" + tag)
 
