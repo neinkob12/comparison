@@ -39,7 +39,7 @@ PAUSE_S = (120, 240)  # Sekunden Pause zwischen zwei Uploads (zufaellig), schuet
 ACCOUNT, PLAN, SOUND = None, None, ""
 MUSIC_DB = "-12"     # Lautstaerke des TikTok-Sounds
 FADE_IN = "2.5"      # Sekunden
-COVER_AT = "5"       # Sekunde, aus der das Cover geschnitten wird, falls kein out/cover/<id>.jpg existiert
+COVER_AT = "2.5"     # Sekunde, aus der das Cover geschnitten wird, falls kein out/cover/<id>.jpg existiert
 CURRENT = {}
 AI_TEXT = re.compile(r"AI[- ]generated content|KI-generierte", re.I)
 

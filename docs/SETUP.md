@@ -96,7 +96,7 @@ In `config/accounts.json` einen Eintrag ergänzen:
   "sound": "Stichwort aus dem Favoriten-Sound",
   "music_db": -12,
   "fade_in": 2.5,
-  "cover_at": 5
+  "cover_at": 2.5
 }
 ```
 Plan-Datei im gleichen Format wie `docs/posting_plan.csv` (`datum,uhrzeit,datei,caption`). Dann Login (Schritt 5) mit `TK_cookies_neues_konto.json`.
