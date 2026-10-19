@@ -1,0 +1,190 @@
+{
+ "id": "g09",
+ "channel": "G",
+ "handle": null,
+ "format": "speedrun",
+ "pace": {
+  "timer": 60,
+  "hold": 30
+ },
+ "claim": {
+  "title": "11 FRAGEN",
+  "sub": "2 SEKUNDEN",
+  "say": "11 Fragen. Nur 2 Sekunden. Los!",
+  "glitch": "chipmunk"
+ },
+ "questions": [
+  {
+   "say": "Reich mit 30, oder glücklich mit 30?",
+   "a": {
+    "label": "Reich mit 30",
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "Glücklich mit 30",
+    "emoji": "😊"
+   },
+   "pct": [
+    44,
+    56
+   ]
+  },
+  {
+   "say": "Nie wieder Miete, oder nie wieder Steuern?",
+   "a": {
+    "label": "Nie wieder Miete",
+    "emoji": "🔑"
+   },
+   "b": {
+    "label": "Nie wieder Steuern",
+    "emoji": "🧾"
+   },
+   "pct": [
+    52,
+    48
+   ]
+  },
+  {
+   "say": "1.000 Euro jetzt, oder 2.000 in einem Jahr?",
+   "a": {
+    "label": "1.000 € jetzt",
+    "emoji": "⚡"
+   },
+   "b": {
+    "label": "2.000 € in 1 Jahr",
+    "emoji": "⏳"
+   },
+   "pct": [
+    37,
+    63
+   ]
+  },
+  {
+   "say": "Gratis Essen für immer, oder gratis Wohnen für immer?",
+   "a": {
+    "label": "Gratis Essen",
+    "emoji": "🍔"
+   },
+   "b": {
+    "label": "Gratis Wohnen",
+    "emoji": "🏠"
+   },
+   "pct": [
+    22,
+    78
+   ]
+  },
+  {
+   "say": "Lotto-Gewinn, oder Traumjob?",
+   "a": {
+    "label": "Lotto-Gewinn",
+    "emoji": "🎰"
+   },
+   "b": {
+    "label": "Traumjob",
+    "emoji": "💼"
+   },
+   "pct": [
+    69,
+    31
+   ]
+  },
+  {
+   "say": "Bitcoin, oder Gold?",
+   "a": {
+    "label": "Bitcoin",
+    "emoji": "🪙"
+   },
+   "b": {
+    "label": "Gold",
+    "emoji": "🥇"
+   },
+   "pct": [
+    58,
+    42
+   ]
+  },
+  {
+   "say": "Nur Bargeld, oder nur Karte?",
+   "a": {
+    "label": "Nur Bargeld",
+    "emoji": "💵"
+   },
+   "b": {
+    "label": "Nur Karte",
+    "emoji": "💳"
+   },
+   "pct": [
+    35,
+    65
+   ]
+  },
+  {
+   "say": "Erben, oder selbst verdienen?",
+   "a": {
+    "label": "Erben",
+    "emoji": "🎁"
+   },
+   "b": {
+    "label": "Selbst verdienen",
+    "emoji": "💪"
+   },
+   "pct": [
+    61,
+    39
+   ]
+  },
+  {
+   "say": "Mehr Gehalt, oder mehr Freizeit?",
+   "a": {
+    "label": "Mehr Gehalt",
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "Mehr Freizeit",
+    "emoji": "🌴"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "Sportwagen, oder Eigentumswohnung?",
+   "a": {
+    "label": "Sportwagen",
+    "emoji": "🏎️"
+   },
+   "b": {
+    "label": "Eigentumswohnung",
+    "emoji": "🏢"
+   },
+   "pct": [
+    48,
+    52
+   ]
+  },
+  {
+   "say": "Sparen, oder Urlaub?",
+   "a": {
+    "label": "Sparen",
+    "emoji": "🐷"
+   },
+   "b": {
+    "label": "Urlaub",
+    "emoji": "✈️"
+   },
+   "pct": [
+    41,
+    59
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Was hättest du gewählt? Schreibs in die Kommentare!",
+  "title": "WAS HÄTTEST DU GEWÄHLT?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an deinen Kumpel mit dem Dispo",
+  "shareSay": "Und schick das an deinen Kumpel mit dem Dispo!"
+ }
+}

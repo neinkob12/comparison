@@ -1,0 +1,175 @@
+{
+ "id": "g10",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 1945,
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/g10/00_claim_robot.mp3",
+   "speak": 118,
+   "voiceAt": 6,
+   "title": "DEIN LEBEN",
+   "sub": "DEINE WAHL",
+   "hold": 18,
+   "glitch": 75,
+   "glitchMode": "robot",
+   "duration": 136
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g10/01_q_a.mp3",
+   "audioB": "audio/g10/01_q_b.mp3",
+   "bAt": 96,
+   "speak": 149,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "A: Auto kaufen",
+    "img": null,
+    "emoji": "🚗"
+   },
+   "b": {
+    "label": "B: Alles in ETF",
+    "img": null,
+    "emoji": "📈"
+   },
+   "pct": [
+    58,
+    42
+   ],
+   "duration": 284
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g10/02_q_a.mp3",
+   "audioB": "audio/g10/02_q_b.mp3",
+   "bAt": 69,
+   "speak": 117,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "A: Ausbildung",
+    "img": null,
+    "emoji": "🛠️"
+   },
+   "b": {
+    "label": "B: Studium",
+    "img": null,
+    "emoji": "🎓"
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "duration": 252
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g10/03_q_a.mp3",
+   "audioB": "audio/g10/03_q_b.mp3",
+   "bAt": 69,
+   "speak": 131,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "A: Eigene Wohnung",
+    "img": null,
+    "emoji": "🏠"
+   },
+   "b": {
+    "label": "B: WG + sparen",
+    "img": null,
+    "emoji": "👥"
+   },
+   "pct": [
+    63,
+    37
+   ],
+   "duration": 266
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g10/04_q_a.mp3",
+   "audioB": "audio/g10/04_q_b.mp3",
+   "bAt": 54,
+   "speak": 122,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "A: Haus kaufen",
+    "img": null,
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "B: Mieten + investieren",
+    "img": null,
+    "emoji": "📊"
+   },
+   "pct": [
+    55,
+    45
+   ],
+   "duration": 257
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g10/05_q_a.mp3",
+   "audioB": "audio/g10/05_q_b.mp3",
+   "bAt": 87,
+   "speak": 123,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "A: Selbstständig",
+    "img": null,
+    "emoji": "🚀"
+   },
+   "b": {
+    "label": "B: Sicherer Job",
+    "img": null,
+    "emoji": "🏛️"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "duration": 258
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g10/06_q_a.mp3",
+   "audioB": "audio/g10/06_q_b.mp3",
+   "bAt": 75,
+   "speak": 153,
+   "gap": 90,
+   "hold": 45,
+   "a": {
+    "label": "A: Rente mit 55",
+    "img": null,
+    "emoji": "🏖️"
+   },
+   "b": {
+    "label": "B: Rente mit 67, doppelt",
+    "img": null,
+    "emoji": "💶"
+   },
+   "pct": [
+    66,
+    34
+   ],
+   "duration": 288
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/g10/07_outro.mp3",
+   "speak": 159,
+   "hold": 45,
+   "title": "WAS IST DEIN WEG?",
+   "sub": "z.B. A-B-B-A-B-A in die Kommentare",
+   "share": "Schick das an jemanden und vergleicht eure Wege",
+   "duration": 204
+  }
+ ]
+}
