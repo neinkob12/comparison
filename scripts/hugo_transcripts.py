@@ -27,6 +27,24 @@ CHANNELS = {
 }
 SINCE = "20230101"
 STOP_AFTER_OLD = 15  # Liste ist neu -> alt sortiert, nach so vielen alten Videos am Stueck aufhoeren
+WAITS = [30, 60, 120, 300]  # Sekunden Pause, wenn YouTube "429 Too Many Requests" sagt
+
+
+class Bremse(Exception):
+    """YouTube blockt trotz Pausen weiter: fuer heute aufhoeren."""
+
+
+def fetch(ydl, url):
+    for wait in WAITS + [None]:
+        try:
+            return ydl.urlopen(url).read().decode("utf-8")
+        except Exception as e:
+            if "429" not in str(e):
+                raise
+            if wait is None:
+                raise Bremse()
+            print(f"  YouTube bremst (429), warte {wait} s ...")
+            time.sleep(wait)
 
 
 def video_ids(ydl, url):
@@ -44,7 +62,7 @@ def caption_lines(ydl, info):
     url = next((t["url"] for t in tracks if t.get("ext") == "json3"), None)
     if not url:
         return None
-    data = json.loads(ydl.urlopen(url).read().decode("utf-8"))
+    data = json.loads(fetch(ydl, url))
     lines = []
     for ev in data.get("events", []):
         text = "".join(s.get("utf8", "") for s in ev.get("segs") or []).replace("\n", " ").strip()
@@ -84,7 +102,15 @@ def main():
                         break
                     continue
                 old = 0
-                lines = caption_lines(ydl, info)
+                try:
+                    lines = caption_lines(ydl, info)
+                except Bremse:
+                    sys.exit("\nYouTube blockt gerade zu stark. Alles bisher Geholte ist gespeichert.\n"
+                             "Spaeter (z. B. in 1-2 Stunden) einfach nochmal starten, es macht da weiter.\n"
+                             "Tipp: mit --browser chrome geht es oft besser.")
+                except Exception as e:
+                    print("  Untertitel-Fehler", vid, str(e)[:120])
+                    continue
                 if not lines:
                     print("  keine Untertitel", vid, info.get("title", "")[:60])
                     continue
@@ -96,7 +122,7 @@ def main():
                 print(f"  ok {info.get('upload_date')} {info.get('title', '')[:70]}")
                 if args.max and new >= args.max:
                     break
-                time.sleep(random.uniform(1.5, 4))  # langsam, damit YouTube nicht blockt
+                time.sleep(random.uniform(6, 12))  # langsam, damit YouTube nicht blockt
             print(f"   {new} neue Transkripte")
     print("\nFertig. Jetzt pushen:  git add content/streamer/transcripts && git commit -m \"Hugo-Transkripte\" && git push")
 
