@@ -1,0 +1,5653 @@
+{
+ "_info": "Aus 324 Hugo-Transkripten (2023-01 bis 2026-10) per Agenten ausgewertet. Auto-Untertitel, Zuordnung teils geraten.",
+ "streamers": {
+  "montanablack": {
+   "attributes": [
+    {
+     "text": "Sagt Zusagen gern mit 'vielleicht' und hat dann Ausreden",
+     "evidence": "Chat: 'wenn Monte vielleicht sagt, ist er gleich online oder in zwei Stunden'; 'Wochenende geht nicht'",
+     "date": "20231108",
+     "url": "https://youtu.be/aqT0bF5bKeM"
+    },
+    {
+     "text": "Wird wegen seines Alters als 'Rentner' gemobbt, wirkt wie ein Vater",
+     "evidence": "'Monte sieht im echten Leben aus wie ein Vater'; 'Rentner'-Sprüche",
+     "date": "20230330",
+     "url": "https://youtu.be/p37JCEUcbcI"
+    },
+    {
+     "text": "Lässt Mitarbeiter die Arbeit machen und schaut nur zu",
+     "evidence": "'Der Chef guckt zu, wie die Mitarbeiter die Arbeit machen'",
+     "date": "20231201",
+     "url": "https://youtu.be/li9rqCPfRfY"
+    },
+    {
+     "text": "Beleidigt Fans auf der Bühne ('Hosenscheißer', 'Sendepause') und hat trotzdem Spaß",
+     "evidence": "Gamescom-Auftritt, Fragerunde mit Zuschauern",
+     "date": "20231104",
+     "url": "https://youtu.be/eUj3E6E4_GQ"
+    },
+    {
+     "text": "Antwortet auf Nachrichten kaum, 'Einbahnstraße'",
+     "evidence": "Knossi: 'du bist der einzige der nie antwortet'",
+     "date": "20230224",
+     "url": "https://youtu.be/gaC-FxDkl-k"
+    },
+    {
+     "text": "Fährt chaotisch, zB mit dem Auto in die Baustelle",
+     "evidence": "'bin ich komplett bescheuert, ich habe alles ordnungsgemäß beachtet'",
+     "date": "20231119",
+     "url": "https://youtu.be/zTZKCKYJ9DY"
+    },
+    {
+     "text": "Hat riesige Vape-Sammlung, zwei volle Schubladen",
+     "evidence": "'die Hälfte der Flasche wäre mit Vapes voll'",
+     "date": "20231207",
+     "url": "https://youtu.be/UKJNbtvEGs0"
+    },
+    {
+     "text": "Kauft Autos auch damit der Stream-Hintergrund besser aussieht",
+     "evidence": "S-Klasse passt nicht zum Lambo, deshalb ein Porsche; Hugo nennt es next level Flex (auch 20240804)",
+     "date": "20240716",
+     "url": "https://youtu.be/8Kvs7yp6Wv4"
+    },
+    {
+     "text": "Raeumt am Elbach bei Buxtehude Staudaemme weg und regt sich ueber Passanten auf",
+     "evidence": "Wie koennen die Leute hier vorbeigehen ohne den Stau zu beheben",
+     "date": "20240131",
+     "url": "https://youtu.be/0S-8w9p73G8"
+    },
+    {
+     "text": "Wird von Hugo mit Baumaschinen-Koffern 'beschenkt' (Dauer-Gag)",
+     "evidence": "Hugo bekam den C4-Bohrmaschinenkoffer, jetzt ein Reiseset",
+     "date": "20240223",
+     "url": "https://youtu.be/8-avzwsT7tY"
+    },
+    {
+     "text": "Spendet 300.000 Euro und aergert sich, dass darueber keiner twittert",
+     "evidence": "Sagt von sich ein fairer Chef zu sein, der sein Team schaetzt",
+     "date": "20240106",
+     "url": "https://youtu.be/eom60DuCsKo"
+    },
+    {
+     "text": "Faehrt nach verlorenem Spiel sauer fuenf Stunden von Koeln nach Hamburg",
+     "evidence": "Streamt wegen Vertrag/Geschaeftspartner ungern frueh offline",
+     "date": "20240313",
+     "url": "https://youtu.be/RyYdF5-bW0I"
+    },
+    {
+     "text": "Zahlt seine Spieler beim Charity-Spiel vorab mit Geschenken (Parfum)",
+     "evidence": "Wir verlieren weil die Spieler schon vor dem Spiel bezahlt wurden",
+     "date": "20240207",
+     "url": "https://youtu.be/7LF8UA6lwuA"
+    },
+    {
+     "text": "Fährt Wohnmobil, Rad oder Taxi chaotisch und lässt Tank leerlaufen",
+     "evidence": "'Tank ist komplett alle', Wohnmobil an Bäumen, Radfahren Hamburg",
+     "date": "20250318",
+     "url": "https://youtu.be/ojgeFzek6e8"
+    },
+    {
+     "text": "Theorieprüfung mit 51 Fehlerpunkten, Petition 'Führerscheinentzug'",
+     "evidence": "Fahrschulstream",
+     "date": "20241113",
+     "url": "https://youtu.be/Ss3oLDsvq5M"
+    },
+    {
+     "text": "Hat Wette gemacht: 14 Mal streamen im Monat gegen 1000 Euro",
+     "evidence": "'Monte Challenge: einfach nur online sein'",
+     "date": "20240920",
+     "url": "https://youtu.be/EzRtZ3SEFuI"
+    },
+    {
+     "text": "Dreht sich ständig um, weil Fans hinterherlaufen und Fotos machen wollen",
+     "evidence": "'was das soll dass sie die ganze Zeit hinterherlaufen'",
+     "date": "20250412",
+     "url": "https://youtu.be/kaTAmMQv4Js"
+    },
+    {
+     "text": "Hat eine riesige Halle voller Autos und lebt Luxus (Lambo, Rolex)",
+     "evidence": "'Montes Halle', Lambo-Gag, Rolex-Verlosung",
+     "date": "20250318",
+     "url": "https://youtu.be/ojgeFzek6e8"
+    },
+    {
+     "text": "Hat erst nach Jahren wieder Sport gemacht",
+     "evidence": "'das erste Mal seit Corona Sport'",
+     "date": "20250303",
+     "url": "https://youtu.be/S1ACwXAQ_7k"
+    },
+    {
+     "text": "Bezahlt nichts selbst und hat Assistentin Agatha",
+     "evidence": "'ich muss nicht zahlen weil ich Monte bin', 'Bei mir kocht nur Agatha'",
+     "date": "20241224",
+     "url": "https://youtu.be/kEeluXOzxhs"
+    },
+    {
+     "text": "Kocht kaum, Fischstäbchen und Pommes",
+     "evidence": "Koch-Event, Küchenhilfe, Punkte-Bewertung",
+     "date": "20250328",
+     "url": "https://youtu.be/IS3RTjbN6ik"
+    },
+    {
+     "text": "Braucht beim Essen Ruhe und macht dann keine Fotos",
+     "evidence": "Sagt beim Essen brauche ich immer Ruhe, ich mache keine Fotos",
+     "date": "20250509",
+     "url": "https://youtu.be/6G9LfDdWkZ8"
+    },
+    {
+     "text": "Findet 10-Sekunden-Timer bei Fantreffen respektlos",
+     "evidence": "Fantreffen: Timer auf 4 bis 5 Sekunden, haut ab sobald gedrängelt wird",
+     "date": "20251003",
+     "url": "https://youtu.be/3zBaahMTo2I"
+    },
+    {
+     "text": "Hat immer recht und lässt sich das bestätigen",
+     "evidence": "Ich habe immer recht, ganz einfach (Vegas-Trip)",
+     "date": "20250928",
+     "url": "https://youtu.be/Mlo4m9-qwyU"
+    },
+    {
+     "text": "Rage-Quit-Kandidat bei Mario Kart",
+     "evidence": "Nach 2 Stunden zocken Rage-Quit in den Fullmute",
+     "date": "20250612",
+     "url": "https://youtu.be/6STqMsyeX_Y"
+    },
+    {
+     "text": "Fährt Lambo und Ford Raptor, wird als abgehoben aufgezogen",
+     "evidence": "Lambo-Tour, neues Auto Ford Raptor abgeholt",
+     "date": "20250809",
+     "url": "https://youtu.be/VCRK6gMXRe4"
+    },
+    {
+     "text": "Wird von Freunden als Opa aufgezogen (Tabletten, Lautstärke am PC)",
+     "evidence": "Monte, soll ich dir deine Tabletten geben? Opa",
+     "date": "20250720",
+     "url": "https://youtu.be/mk2edwSmBro"
+    },
+    {
+     "text": "Fan von Eintracht Spandau, jubelt über Siege",
+     "evidence": "Spandau raus, aber Monte kann jubeln",
+     "date": "20250518",
+     "url": "https://youtu.be/LYU3Ds5u2aw"
+    },
+    {
+     "text": "Wird mit Drake in Verbindung gebracht, der ihm folgt",
+     "evidence": "Drake folgt Monte, Monte folgt nicht zurück",
+     "date": "20250809",
+     "url": "https://youtu.be/VCRK6gMXRe4"
+    },
+    {
+     "text": "Hat einen Saugroboter namens Agatha, über den alle rätseln",
+     "evidence": "Agatha ist der Saugroboter in der Halle",
+     "date": "20250524",
+     "url": "https://youtu.be/uvvjhZHekpw"
+    },
+    {
+     "text": "Chat nennt ihn 'der Onkel' auf der Gamescom",
+     "evidence": "Warum der Onkel nicht auf der Gamescom ist",
+     "date": "20250829",
+     "url": "https://youtu.be/hrDImI5CqQE"
+    },
+    {
+     "text": "Hat angeblich seinen Lamborghini im Casino verzockt",
+     "evidence": "Auf Rot gesetzt, Schwarz kam, Lambo weg (Running Gag)",
+     "date": "20251018",
+     "url": "https://youtu.be/Vaoxg9KdHXE"
+    },
+    {
+     "text": "Wirft ein aufwendiges Zuschauergeschenk einfach in den Muelleimer",
+     "evidence": "Hebt ab, TikTok mit Millionen Likes",
+     "date": "20251018",
+     "url": "https://youtu.be/Vaoxg9KdHXE"
+    },
+    {
+     "text": "Bekommt beim Wichteln eine Axt und hat Axtverbot",
+     "evidence": "Winterevent mit Rolex-Verlosung und Chat-Timeouts",
+     "date": "20251226",
+     "url": "https://youtu.be/Qa-Wb7G-35k"
+    },
+    {
+     "text": "Schickt spaet am Tag CS-Videos per Dropbox und will sie bis 19 Uhr",
+     "evidence": "Platte als Montes neuer Cutter",
+     "date": "20251208",
+     "url": "https://youtu.be/b0rdUpcs--w"
+    },
+    {
+     "text": "Kann Aglio e Olio nicht aussprechen",
+     "evidence": "Chat soll Marcel das beibringen",
+     "date": "20251208",
+     "url": "https://youtu.be/b0rdUpcs--w"
+    },
+    {
+     "text": "Hat einen Assistenten, der Gregor/Dima hiess und nicht bezahlt wird",
+     "evidence": "Notti GmbH Russlandabteilung, Standort-Gag",
+     "date": "20251126",
+     "url": "https://youtu.be/gZCI9smLXfw"
+    },
+    {
+     "text": "Heilige Regel: Beim Essen stört man niemanden",
+     "evidence": "Ersigi zitiert Monte: man stört niemanden beim Essen, brauche meine Ruhe",
+     "date": "20260426",
+     "url": "https://youtu.be/2t-HxkvHgcs"
+    },
+    {
+     "text": "Hat einen Fanboy (Ersigi), der ihm überall hinterherläuft",
+     "evidence": "Der mit der Get on my Level Cap, Monte-Fanboy der ihn überall verfolgt",
+     "date": "20260426",
+     "url": "https://youtu.be/2t-HxkvHgcs"
+    },
+    {
+     "text": "Macht zum ersten Mal in seinem Leben eine Watch Party",
+     "evidence": "Ich habe noch nie eine Watch Party gemacht, diese WM interessiert mich null",
+     "date": "20260618",
+     "url": "https://youtu.be/OVLSGtiEoHM"
+    },
+    {
+     "text": "Lässt sich nicht gern vorschreiben, was er beim Essen tun soll",
+     "evidence": "Ich bin gerade am Essen, Opa. Diktier mir nicht, was ich beim Essen tun soll",
+     "date": "20260612",
+     "url": "https://youtu.be/1jbxFsAN5yE"
+    },
+    {
+     "text": "Verspricht Fans Treffen, versteckt sich schlecht bei Verstecken",
+     "evidence": "Montana Black ist als Erster gefunden",
+     "date": "20260913",
+     "url": "https://youtu.be/dghueJEooK0"
+    },
+    {
+     "text": "Hat Mods, die Familie banne, und ein Aquarium als Kult",
+     "evidence": "Montes Aquarium brennt; Vater im Twitch Stream gebannt",
+     "date": "20260417",
+     "url": "https://youtu.be/mYPx2DbB3Xg"
+    },
+    {
+     "text": "Streamt mit den Geissens, hat Robert Geiss parodiert",
+     "evidence": "Hab ein bisschen Robert nachgemacht, das hat denen nicht gefallen",
+     "date": "20260916",
+     "url": "https://youtu.be/-GmAIuATqkg"
+    },
+    {
+     "text": "Lacht mit Streife der Polizei Hannover",
+     "evidence": "Monte läuft herum wie ein Rettungsschwimmer, mit Polizei Hannover auf Streife",
+     "date": "20260718",
+     "url": "https://youtu.be/YP8hrpD1k6Q"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Erfolg ist nicht alles, es geht darum, der Beste zu sein.",
+     "context": "Fake-Preisverleihung, Monte war nicht nominiert",
+     "date": "20230420",
+     "url": "https://youtu.be/R7ZtKBPBLFo"
+    },
+    {
+     "quote": "Du kriegst jetzt meine Sendepause, Kleiner.",
+     "context": "Monte bei der Fragerunde auf der Gamescom",
+     "date": "20231104",
+     "url": "https://youtu.be/eUj3E6E4_GQ"
+    },
+    {
+     "quote": "Ich verstehe nicht, wie die Leute mit gutem Gewissen hier vorbeigehen koennen, ohne mal ein bisschen den Stau zu beheben.",
+     "context": "Monte am Elbach",
+     "date": "20240131",
+     "url": "https://youtu.be/0S-8w9p73G8"
+    },
+    {
+     "quote": "Minuspunkt: Afri Cola und keine normale Cola, und die Musik war katastrophal.",
+     "context": "Bewertet ein Restaurant per Telefon",
+     "date": "20240211",
+     "url": "https://youtu.be/7w59xyD6iP8"
+    },
+    {
+     "quote": "Ich habe mal kurz das Wasser berührt, ich bin raus.",
+     "context": "Red-Bull-Jump-and-Run Regel",
+     "date": "20250406",
+     "url": "https://youtu.be/s8V71eXtYNs"
+    },
+    {
+     "quote": "Monte, wo bleibst du?",
+     "context": "Gag auf dem Event, Nico ruft ihn ständig",
+     "date": "20250406",
+     "url": "https://youtu.be/s8V71eXtYNs"
+    },
+    {
+     "quote": "Ich habe immer recht, Diger. Ganz einfach.",
+     "context": "Vegas-Trip, Diskussion",
+     "date": "20250928",
+     "url": "https://youtu.be/Mlo4m9-qwyU"
+    },
+    {
+     "quote": "Beim Essen brauche ich immer Ruhe.",
+     "context": "Fan will Foto im Restaurant",
+     "date": "20250509",
+     "url": "https://youtu.be/6G9LfDdWkZ8"
+    },
+    {
+     "quote": "Weil ich ein Star bin.",
+     "context": "Running Gag in Bezahl-Diskussion",
+     "date": "20250509",
+     "url": "https://youtu.be/6G9LfDdWkZ8"
+    },
+    {
+     "quote": "Ich habe Axtverbot.",
+     "context": "Wichtelgeschenk ist eine Axt",
+     "date": "20251226",
+     "url": "https://youtu.be/Qa-Wb7G-35k"
+    },
+    {
+     "quote": "Man stört niemanden beim Essen.",
+     "context": "seine berühmte Regel, von Fan zitiert",
+     "date": "20260426",
+     "url": "https://youtu.be/2t-HxkvHgcs"
+    },
+    {
+     "quote": "Diese WM interessiert mich null. Ich habe noch nie in meinem Leben irgendwas auf Fußball gegeben.",
+     "context": "erste Watch Party",
+     "date": "20260618",
+     "url": "https://youtu.be/OVLSGtiEoHM"
+    },
+    {
+     "quote": "Ich bin gerade am Essen, Opa. Geh mir nicht auf den Sack.",
+     "context": "Holland-Tour mit Freunden",
+     "date": "20260612",
+     "url": "https://youtu.be/1jbxFsAN5yE"
+    }
+   ],
+   "running_gags": [
+    "Wird 'Rentner' genannt",
+    "Sagt 'vielleicht' bei Terminen",
+    "Vapes",
+    "Marcel wird in jedem Clip erwähnt, auch wenn er nicht da ist",
+    "Elbach und Staudamm",
+    "Baumaschinen-Koffer",
+    "Autos im Hintergrund (Lambo, GT3 RS)",
+    "Hugo kopiert seine Streams als Fan",
+    "Casino",
+    "Lambo/Halle",
+    "Agatha",
+    "Onkel Monte",
+    "Fahrstil",
+    "Agatha der Saugroboter",
+    "Immer recht haben",
+    "Rage-Quit bei Mario Kart",
+    "Opa und Tabletten",
+    "Lambo im Casino verzockt",
+    "Wegwerfen von Geschenken",
+    "Wintervent",
+    "Agli Olio",
+    "Beim Essen stört man niemanden",
+    "Fanboy Ersigi",
+    "Geissens",
+    "Aquarium"
+   ],
+   "relations": [
+    {
+     "with": "eliasn97",
+     "what": "Bestes Streamer-Duo laut Hugo-Chat"
+    },
+    {
+     "with": "trymacs",
+     "what": "Hat laut Chat auf Max 'abgefärbt', beide öffnen Packs"
+    },
+    {
+     "with": "letshugo",
+     "what": "Gilt als Adoptivvater von Hugo"
+    },
+    {
+     "with": "knossi",
+     "what": "Knossi freut sich auf Monte-Prime Gags und sendet Grüße"
+    },
+    {
+     "with": "papaplatte",
+     "what": "Gewinnen zusammen den Award als bestes Streamer-Duo"
+    },
+    {
+     "with": "trymacs",
+     "what": "Seit Trymacs bei Monte war, wirkt er laut Chat asozialer"
+    },
+    {
+     "with": "letshugo",
+     "what": "Schickt Hugo den Baumaschinen-Koffer"
+    },
+    {
+     "with": "agatha",
+     "what": "Seine Assistentin, kocht und putzt für ihn"
+    },
+    {
+     "with": "zarbex",
+     "what": "Rust-Projekt, Mustang-Gag"
+    },
+    {
+     "with": "unsympathischtv",
+     "what": "Sascha Hellinger fährt mit, Tank leer"
+    },
+    {
+     "with": "letshugo",
+     "what": "Hugo clippt ihn dauernd, Monte reagiert genervt und rot im Elternratgeber"
+    },
+    {
+     "with": "knossi",
+     "what": "Beide in Big-Brother-Planung und Gamescom-Sprüchen"
+    },
+    {
+     "with": "agatha",
+     "what": "Agatha ist sein Saugroboter bzw. angebliche Assistentin"
+    },
+    {
+     "with": "knossi",
+     "what": "Alte Freunde, zusammen 24h-Stream"
+    },
+    {
+     "with": "papaplatte",
+     "what": "Platte schneidet fuer ihn Videos"
+    },
+    {
+     "with": "zarbex",
+     "what": "Holland-Tour und Freundestouren"
+    },
+    {
+     "with": "schradin",
+     "what": "Tour-Truppe, sein Technikteam"
+    },
+    {
+     "with": "letshugo",
+     "what": "Hugo schneidet ihn laufend in Clips"
+    }
+   ]
+  },
+  "trymacs": {
+   "attributes": [
+    {
+     "text": "Spielt dauernd Clash of Clans und kommt ohne Handy nicht klar",
+     "evidence": "'Trimax kann ohne sein Handy nicht überleben'",
+     "date": "20230703",
+     "url": "https://youtu.be/StJjlXCtyS0"
+    },
+    {
+     "text": "Wird salty, wenn das Spiel nicht liefert (Kartenlevel)",
+     "evidence": "'warum ist Max so salty? Karte Level 15, 2 Stunden im Store'",
+     "date": "20230704",
+     "url": "https://youtu.be/6wmJVS2PILk"
+    },
+    {
+     "text": "Gibt viel Geld für Spiele aus, 2000 Euro Donation erst nach 9 Minuten bemerkt",
+     "evidence": "'2000 Euro in 12 Minuten wieder versenkt'",
+     "date": "20230704",
+     "url": "https://youtu.be/6wmJVS2PILk"
+    },
+    {
+     "text": "Wird als reich und abgehoben gesehen, teure Uhr",
+     "evidence": "'die Uhr von Max kostet das Zehnfache'",
+     "date": "20230827",
+     "url": "https://youtu.be/BdHtiMmYSI8"
+    },
+    {
+     "text": "Gilt als immer asozialer geworden: 'Geld verändert Menschen'",
+     "evidence": "Hugo-Chat über Max",
+     "date": "20230424",
+     "url": "https://youtu.be/aba3AldK6QE"
+    },
+    {
+     "text": "Soll bei 7 vs. Wild nur Geldscheine einpacken",
+     "evidence": "'Max nimmt nur Geldscheine mit und hofft jemanden zum Handeln zu finden'",
+     "date": "20230809",
+     "url": "https://youtu.be/ryp8dbi5ZUI"
+    },
+    {
+     "text": "Wirkt wie ein Berserker, wenn es ums Auto geht",
+     "evidence": "'Max sprintet an und reißt die Tür auf'",
+     "date": "20230601",
+     "url": "https://youtu.be/x9-ECQA--qs"
+    },
+    {
+     "text": "Spielt im Fitnessstudio Clash of Clans zwischen den Saetzen",
+     "evidence": "Alle Spiegel, die Leute sehen mich beim Sport Clash spielen",
+     "date": "20240131",
+     "url": "https://youtu.be/0S-8w9p73G8"
+    },
+    {
+     "text": "Gibt tausende Euro im Monat fuer Clash of Clans aus, 'Ich will so gerne payen'",
+     "evidence": "5000 Euro pro Monat; Sketch mit iTunes-Karten (auch 20240610)",
+     "date": "20240429",
+     "url": "https://youtu.be/9YJAtcqUUHI"
+    },
+    {
+     "text": "Quatscht beim Apple-Support das Ausgabenlimit hoch",
+     "evidence": "Stunden spaeter neues Tablet, 10.000 Limit, pay to win",
+     "date": "20240610",
+     "url": "https://youtu.be/OSHJyWo46cU"
+    },
+    {
+     "text": "Zockt Brawl Stars und laesst die Spuelmaschine zwei Stunden piepen",
+     "evidence": "Ich zock hier 16 Stunden und reg mich auf, dass die Spuelmaschine piept",
+     "date": "20240324",
+     "url": "https://youtu.be/AKrAxSK_K0Y"
+    },
+    {
+     "text": "Mikrofon ist oft nicht verbunden, redet ins Leere",
+     "evidence": "Ich bin Trymacs, aber ich kann dich nicht hören",
+     "date": "20240313",
+     "url": "https://youtu.be/RyYdF5-bW0I"
+    },
+    {
+     "text": "Backt Herz- und Zitronenkekse, wird als Rentner veralbert",
+     "evidence": "Chat: Trix wird aelter, neuer Rentner",
+     "date": "20240223",
+     "url": "https://youtu.be/8-avzwsT7tY"
+    },
+    {
+     "text": "Kann bei Counter-Strike die Bombe nicht entschaerfen",
+     "evidence": "Max defuse, ihr wisst dass ich das nicht kann",
+     "date": "20240531",
+     "url": "https://youtu.be/YedyVH_-6S0"
+    },
+    {
+     "text": "Verkauft sich als Erfinder des IRL-Streamings",
+     "evidence": "Ich bin der Erfinder von IRL",
+     "date": "20240815",
+     "url": "https://youtu.be/VYmpXxtrEf0"
+    },
+    {
+     "text": "Öffnet Pokémon-Karten für tausende Euro und ärgert sich über Fehlkäufe",
+     "evidence": "27 Elite-Trainerboxen, 5500 Euro, 'Misprint'",
+     "date": "20250204",
+     "url": "https://youtu.be/aOs-EfaJ3rY"
+    },
+    {
+     "text": "Hasst Bossfights, flucht und wird aggressiv bei Elden Ring",
+     "evidence": "'Ich hasse Boss Fights. Ich habe nur gelitten.'",
+     "date": "20250409",
+     "url": "https://youtu.be/8C7WPwUj7tE"
+    },
+    {
+     "text": "Streamt 5 Tage am Stück Factorio, völlig übermüdet",
+     "evidence": "'Augen stellen nicht mehr scharf', 5-Tage-Stream",
+     "date": "20250115",
+     "url": "https://youtu.be/BU2R2pBwX9w"
+    },
+    {
+     "text": "Bekommt von der Community Fortnite-Emotes geschenkt, die er hasst",
+     "evidence": "'kauft euch nichts', Emote-Gag",
+     "date": "20250226",
+     "url": "https://youtu.be/exLhubUWdG0"
+    },
+    {
+     "text": "Wird im Chat für den Tiktoker gehalten",
+     "evidence": "'bist du der Tiktoker?' Kind erkennt ihn so",
+     "date": "20241207",
+     "url": "https://youtu.be/YxRqnhOmiQI"
+    },
+    {
+     "text": "Hat zu wenig Zeit für alle Spiele (Landwirtschaft, Clash, Fortnite)",
+     "evidence": "'ich stream 11 Stunden und es reicht hinten und vorne nicht'",
+     "date": "20241207",
+     "url": "https://youtu.be/YxRqnhOmiQI"
+    },
+    {
+     "text": "Rennt vom Fußballspiel direkt in den Craft-Attack-Stream",
+     "evidence": "Trikot, Stutzen, Stollen, verschwitzt direkt Minecraft",
+     "date": "20241107",
+     "url": "https://youtu.be/C15BT-CIa_Q"
+    },
+    {
+     "text": "Dauerstreamer, macht drei Tage Pokémon-Soul-Link-Stream",
+     "evidence": "Moin Leute Trimax, 3 Tage Dauerstream Pokémon Schwarz Weiß",
+     "date": "20250927",
+     "url": "https://youtu.be/x4pBj0DRpqg"
+    },
+    {
+     "text": "Spielt Clash Royale, Chat sagt nur Geld und kein Skill",
+     "evidence": "Hugo: zeigt, dass man nur Geld und keinen Skill braucht",
+     "date": "20250921",
+     "url": "https://youtu.be/HWiREB7Uvgo"
+    },
+    {
+     "text": "Rastet bei Schlaglöchern auf der Rentner-Tour aus",
+     "evidence": "Trimax rastet komplett aus, gelbe Karte",
+     "date": "20250904",
+     "url": "https://youtu.be/_fpHUYg3JW8"
+    },
+    {
+     "text": "Hat einen Code Trimax für Rabatt, nutzt jede Marketing-Steilvorlage",
+     "evidence": "Könnt ihr euch gönnen mit Code Trimax",
+     "date": "20250921",
+     "url": "https://youtu.be/HWiREB7Uvgo"
+    },
+    {
+     "text": "Wird dauernd mit Lookalikes verglichen (Bettler in Lissabon, Kassierer)",
+     "evidence": "Der sieht aus wie Trimax",
+     "date": "20250816",
+     "url": "https://youtu.be/sxbgh6fZf_U"
+    },
+    {
+     "text": "Genervt davon, dass Chat 'was geht Jalla' schreibt",
+     "evidence": "Max ist extrem abgefuckt, jeder schreibt was geht Jalla",
+     "date": "20250810",
+     "url": "https://youtu.be/zm5i1z8MT8o"
+    },
+    {
+     "text": "Hat ein Studio mit viel Teuer-Auto-Vibe",
+     "evidence": "Neue Zentrale, Porsche passt zum Lambo",
+     "date": "20250420",
+     "url": "https://youtu.be/Ufm2-1Sg8xk"
+    },
+    {
+     "text": "Hasst Musik abgrundtief",
+     "evidence": "Strafe: 7 Stunden Playlist im Stream, hoert sonst nur Eminem",
+     "date": "20260113",
+     "url": "https://youtu.be/-pgJDW1UPzc"
+    },
+    {
+     "text": "Hasst das Lied Das rote Pferd",
+     "evidence": "Community hat sein Hasslied aus Malle erraten, er flippt aus",
+     "date": "20260113",
+     "url": "https://youtu.be/-pgJDW1UPzc"
+    },
+    {
+     "text": "Sitzt in der Facecam immer links unten in der Ecke",
+     "evidence": "Streamer beschweren sich, er sitzt nicht in der Mitte",
+     "date": "20260320",
+     "url": "https://youtu.be/XvD_eJG9U7g"
+    },
+    {
+     "text": "Ist bei Sat Hugo der Real-Talk-Beauftragte",
+     "evidence": "Er sagt, er komme nur noch mit Real Talks vor, wie ein Lehrer",
+     "date": "20260320",
+     "url": "https://youtu.be/XvD_eJG9U7g"
+    },
+    {
+     "text": "Wird als KI-Meme-Figur viral und hasst es",
+     "evidence": "Er findet TikTok-KI-Videos mit sich selbst peinlich",
+     "date": "20260206",
+     "url": "https://youtu.be/yvaTWufZDDs"
+    },
+    {
+     "text": "Traegt zu den Stream Awards einen roten Anzug",
+     "evidence": "Moderator: als waere es von der Feuerwehr",
+     "date": "20251208",
+     "url": "https://youtu.be/RvXD55WXjy4"
+    },
+    {
+     "text": "Eroeffnet den Fitnacraft-Server",
+     "evidence": "Begruesst als aggressivster Minecraft-Server im deutschen Raum",
+     "date": "20251214",
+     "url": "https://youtu.be/VOUTEQYv5BI"
+    },
+    {
+     "text": "Extremer Picky Eater: isst kein Gemüse, bestellt Burger ohne alles",
+     "evidence": "Platz eins der pickiest Eater Deutschlands, Tomate-Challenge mit Panik, Hände zittern",
+     "date": "20260417",
+     "url": "https://youtu.be/mYPx2DbB3Xg"
+    },
+    {
+     "text": "Hasst Gemüse so sehr, dass schon Paprika im Burger die Mahlzeit ruiniert",
+     "evidence": "Oh Mist, da ist Gemüse auf dem Burger, ich hasse Gemüse absolut",
+     "date": "20260816",
+     "url": "https://youtu.be/YjLd_OZLcUs"
+    },
+    {
+     "text": "Raged bei Wardogs und verliert die Nerven",
+     "evidence": "Nur noch Wardogs-Clips, in denen er schreit und die Beherrschung verliert",
+     "date": "20260922",
+     "url": "https://youtu.be/fkkTq5Z9l5Y"
+    },
+    {
+     "text": "Streamt sonst mit fast niemandem, hängt viel am Handy",
+     "evidence": "Du arbeitest mit niemandem zusammen; kenne niemanden, der im Stream so viel am Handy ist",
+     "date": "20260805",
+     "url": "https://youtu.be/Coglj3tD31g"
+    },
+    {
+     "text": "Wird bei der Rentner-Tour zum meistgenannten Nervbolzen",
+     "evidence": "Chat-Voting wer am meisten genervt hat: alle sagen Trimax, rammt andere und will Geld dafür",
+     "date": "20260913",
+     "url": "https://youtu.be/dghueJEooK0"
+    },
+    {
+     "text": "Wird zum Gothbaddie und Clash-Royale-Dauerspieler gemacht",
+     "evidence": "Gothbaddies spielen exzessiv Clash Royale und gehen oft ins Gym; Trymacs ist ein Goffbetty",
+     "date": "20261011",
+     "url": "https://youtu.be/Aybm6oBqE_Q"
+    },
+    {
+     "text": "Lebt in Hamburg und ist HSV-Fan",
+     "evidence": "Lieblingsverein? HSV.",
+     "date": "20260916",
+     "url": "https://youtu.be/-GmAIuATqkg"
+    },
+    {
+     "text": "Trockener Humor, der Fans plötzlich überrascht",
+     "evidence": "Seit wann ist Trymacs lustig? Bruder, was für ein trockener Witz",
+     "date": "20260916",
+     "url": "https://youtu.be/-GmAIuATqkg"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Wenn du mit Trymacs befreundet bist, brauchst du keine Feinde mehr.",
+     "context": "Hugo-Chat über Max",
+     "date": "20230821",
+     "url": "https://youtu.be/TuBD7uoaCg4"
+    },
+    {
+     "quote": "Ich spiele auch immer im Gym Clash of Clans.",
+     "context": "Clash of Clans Overlay beim Sport",
+     "date": "20240131",
+     "url": "https://youtu.be/0S-8w9p73G8"
+    },
+    {
+     "quote": "Ich will so gerne payen.",
+     "context": "Clash-Kauf scheitert am Apple-Limit",
+     "date": "20240610",
+     "url": "https://youtu.be/OSHJyWo46cU"
+    },
+    {
+     "quote": "Ich hasse Boss Fights. Ich habe nur gelitten.",
+     "context": "Elden Ring, Fire Giant",
+     "date": "20250409",
+     "url": "https://youtu.be/8C7WPwUj7tE"
+    },
+    {
+     "quote": "Ich bin nicht der Tiktoker.",
+     "context": "Kinder in Fortnite halten ihn dafür",
+     "date": "20241207",
+     "url": "https://youtu.be/YxRqnhOmiQI"
+    },
+    {
+     "quote": "Was geht Jalla?",
+     "context": "Standard-Begrüßung im Chat",
+     "date": "20250810",
+     "url": "https://youtu.be/zm5i1z8MT8o"
+    },
+    {
+     "quote": "Trimax rastet komplett aus.",
+     "context": "Rentner-Tour, Schlagloch",
+     "date": "20250904",
+     "url": "https://youtu.be/_fpHUYg3JW8"
+    },
+    {
+     "quote": "Ihr wisst nicht, wie sehr ich Musik hasse.",
+     "context": "Beim Stream mit Strafplaylist",
+     "date": "20260113",
+     "url": "https://youtu.be/-pgJDW1UPzc"
+    },
+    {
+     "quote": "Ich habe das Gefuehl, mein Job bei Sat Hugo ist nur noch diese Real Talks.",
+     "context": "Beschwerde ueber seine Rolle im Video",
+     "date": "20260320",
+     "url": "https://youtu.be/XvD_eJG9U7g"
+    },
+    {
+     "quote": "Ich bin absoluter Gemüsehasser, ich kann es nicht essen.",
+     "context": "Gemüse-Challenge pro 200 Subs",
+     "date": "20260417",
+     "url": "https://youtu.be/mYPx2DbB3Xg"
+    },
+    {
+     "quote": "Ich bin reich und mache, was ich will.",
+     "context": "im Stream mit Marli zum Ringe-Kauf",
+     "date": "20260805",
+     "url": "https://youtu.be/Coglj3tD31g"
+    },
+    {
+     "quote": "Nee, wir sind im Stream hier.",
+     "context": "lehnt auf der FIBO Fotos und Handschlag ab",
+     "date": "20260427",
+     "url": "https://youtu.be/RgbSq1Oad_0"
+    }
+   ],
+   "running_gags": [
+    "Handy 24/7",
+    "Salty bei Clash of Clans",
+    "Reich und trotzdem knauserig",
+    "Wallah",
+    "Clash of Clans Sucht",
+    "Brawl Stars",
+    "Erfinder von IRL",
+    "Wird als Rentner dargestellt",
+    "Mikro aus",
+    "Tiktoker-Verwechslung",
+    "Pokémon-Karten",
+    "Elden Ring Frust",
+    "Fortnite-Emotes",
+    "Was geht Jalla",
+    "Code Trimax",
+    "Lookalike-Memes",
+    "Hasst Musik",
+    "Sitzt immer zu weit links in der Facecam",
+    "KI-Videos von ihm",
+    "Real Talk",
+    "Kein Gemüse, nie",
+    "Clash Royale",
+    "Wardogs-Wutanfälle",
+    "Gothbaddie-Gag",
+    "Streamt mit niemandem, nur mit Handy"
+   ],
+   "relations": [
+    {
+     "with": "rumathra",
+     "what": "Dauer-Duo, 'auf derselben Ebene'"
+    },
+    {
+     "with": "papaplatte",
+     "what": "Beide in 7 vs. Wild Vorbereitung, Platte lästert über Max"
+    },
+    {
+     "with": "montanablack",
+     "what": "Hat laut Chat von Monte abgefärbt"
+    },
+    {
+     "with": "papaplatte",
+     "what": "Gilt als Kevin-Nachmacher, 'Papa Platte 3.0'"
+    },
+    {
+     "with": "montanablack",
+     "what": "Hat seit dem Besuch bei Monte angeblich Niveau verloren"
+    },
+    {
+     "with": "letshugo",
+     "what": "Seine Fight Night: Hugos Einladung kam drei Wochen spaeter"
+    },
+    {
+     "with": "schradin",
+     "what": "Fortnite-Duo, stichelt über sein Alter"
+    },
+    {
+     "with": "zarbex",
+     "what": "Hängt mit Mike in Duo-Content, Pokémon und Skiurlaub"
+    },
+    {
+     "with": "knossi",
+     "what": "Mit Knossi unterwegs im Camper"
+    },
+    {
+     "with": "schradin",
+     "what": "Rentner- und Fahrradtouren, gegenseitige Sticheleien"
+    },
+    {
+     "with": "letshugo",
+     "what": "Hugo clippt ihn ständig"
+    },
+    {
+     "with": "knossi",
+     "what": "Beide beim Holy Hot Food Run"
+    },
+    {
+     "with": "gtime",
+     "what": "Betreibt mit Gtime einen gemeinsamen Minecraft-Server"
+    },
+    {
+     "with": "chefstrobel",
+     "what": "Wird von Chef Strobel im Stream mit Gelaber genervt"
+    },
+    {
+     "with": "letshugo",
+     "what": "Zockt und streamt mit Hugo in Videos von Sat Hugo"
+    },
+    {
+     "with": "niklaswilson",
+     "what": "Stemmler-Brüder, beide extreme Picky Eater"
+    },
+    {
+     "with": "marli",
+     "what": "erstes gemeinsames Live, Marli beschenkt ihn mit Gummibärchen"
+    },
+    {
+     "with": "gtime",
+     "what": "Rentner-Tour, G-Time muss ihn ertragen"
+    },
+    {
+     "with": "chefstrobel",
+     "what": "Streit, folgen sich nicht mehr"
+    }
+   ]
+  },
+  "papaplatte": {
+   "attributes": [
+    {
+     "text": "Intro 'Moin moin meine aktiven Freunde'",
+     "evidence": "Im Clip begrüßt er so den Stream",
+     "date": "20230205",
+     "url": "https://youtu.be/ubjJGq10OJ0"
+    },
+    {
+     "text": "Hat bei Autobahn-Fahrten Wutanfälle über andere Autofahrer",
+     "evidence": "'Kevin ist richtig wütend geworden'",
+     "date": "20230703",
+     "url": "https://youtu.be/StJjlXCtyS0"
+    },
+    {
+     "text": "Gilt als sehr wählerisch beim Content, lehnt Features ab",
+     "evidence": "'Ich habe Papaplatte nach Feature gefragt, er hat abgelehnt'",
+     "date": "20230629",
+     "url": "https://youtu.be/1UYof1kWuc0"
+    },
+    {
+     "text": "Hat eine schreckliche Tastatur, 'Kevin du bist so ekelhaft'",
+     "evidence": "Hugo und Chat über seinen Setup-Dreck",
+     "date": "20230205",
+     "url": "https://youtu.be/ubjJGq10OJ0"
+    },
+    {
+     "text": "Läuft nach nur wenigen Tagen aus 7 vs. Wild raus (Hugo erwartet es)",
+     "evidence": "'Papa Platte hat die 14 Tage nicht durchgehalten'",
+     "date": "20230908",
+     "url": "https://youtu.be/MDRWVInF9cs"
+    },
+    {
+     "text": "Hört Last Friday Night / Everybody in Dauerschleife (Spotify-Wrapped)",
+     "evidence": "167 Mal gehört",
+     "date": "20231207",
+     "url": "https://youtu.be/UKJNbtvEGs0"
+    },
+    {
+     "text": "Dachte Abseits sei eine Spielerposition, fragt wann wir gegen Brasilien spielen",
+     "evidence": "Fussball-Unwissen bei der EM; Erklaerung mit Taschen an der Kasse",
+     "date": "20240628",
+     "url": "https://youtu.be/Cn5JH2XlhVk"
+    },
+    {
+     "text": "Glaubt gerne Verschwoerungen, z.B. Tauben seien Regierungsdrohnen mit Kamera",
+     "evidence": "Rede ueber Tauben, Delfine und Mikrokameras (Sprecher vermutlich Kevin)",
+     "date": "20240628",
+     "url": "https://youtu.be/Cn5JH2XlhVk"
+    },
+    {
+     "text": "Natur-Anfaenger: geht in die Natur wie ins Einkaufscenter, verbrennt sich den Fuss",
+     "evidence": "Kommentar zu seiner 7 vs. Wild Teilnahme",
+     "date": "20231225",
+     "url": "https://youtu.be/iAHHd7gVhcM"
+    },
+    {
+     "text": "Wird staendig als Vorbild kopiert: 'Papa Platte 2.0'",
+     "evidence": "Streamer wehren sich gegen den Kopie-Vorwurf",
+     "date": "20240318",
+     "url": "https://youtu.be/5LY0FeLRFNE"
+    },
+    {
+     "text": "Trinkt Bubble Tea, was ihm Chat und Kollegen vorhalten",
+     "evidence": "Es gibt nur einen Typen in Twitch Deutschland der Bubble Tea trinkt",
+     "date": "20240505",
+     "url": "https://youtu.be/3w0Q_o_mo_A"
+    },
+    {
+     "text": "Kennt beim Fussballer-Raten nur die alte Brigade",
+     "evidence": "Fussballerraten fuer Kevin, er erkennt Ballack, den Rest nicht",
+     "date": "20240530",
+     "url": "https://youtu.be/PPCug2pf2xA"
+    },
+    {
+     "text": "Wird wegen Größe aufgezogen (Chat: klein)",
+     "evidence": "'Papa Platte ist klein', 169",
+     "date": "20241116",
+     "url": "https://youtu.be/yCKddPzQs10"
+    },
+    {
+     "text": "Unmusikalisch, aber Chat-Liebling",
+     "evidence": "'hat mit Musik so unfassbar nichts zu tun'",
+     "date": "20241119",
+     "url": "https://youtu.be/FphPIIfT22U"
+    },
+    {
+     "text": "Geogesser-Fan, trainiert für Turnier",
+     "evidence": "Geoguessr gegen Hugo und Co.",
+     "date": "20250303",
+     "url": "https://youtu.be/S1ACwXAQ_7k"
+    },
+    {
+     "text": "Räumt bei Awards und Events ab (Duo mit Basti)",
+     "evidence": "Pokale MVP, bester Fail, Chef von allem",
+     "date": "20250406",
+     "url": "https://youtu.be/s8V71eXtYNs"
+    },
+    {
+     "text": "Isst angeblich wenig, 'Oma isst mehr als Kevin'",
+     "evidence": "'Meine Oma kann mehr essen als Kevin'",
+     "date": "20241014",
+     "url": "https://youtu.be/mJc0CiS4cEQ"
+    },
+    {
+     "text": "Kennt sich null mit Fußball aus, Schalke ist für ihn ein Stadtteil von Dortmund",
+     "evidence": "Kevin, in welcher Stadt ist Schalke ein Stadtteil? Dortmund",
+     "date": "20250420",
+     "url": "https://youtu.be/Ufm2-1Sg8xk"
+    },
+    {
+     "text": "Baute das Bad-Schlafzimmer-Setup in Barcelona und lebt dort drei Monate",
+     "evidence": "Es ist ein Schlafzimmer mit Badezimmer, Bruder",
+     "date": "20250425",
+     "url": "https://youtu.be/9EQ5p3RW0QE"
+    },
+    {
+     "text": "Fiel bei Stromausfall in Spanien aus dem Stream, Konkurrenz feierte",
+     "evidence": "Stromausfall in Spanien, Platte geht nicht live",
+     "date": "20250501",
+     "url": "https://youtu.be/yeoy2Si6Nls"
+    },
+    {
+     "text": "Im Elternratgeber rot eingestuft, Eltern warnen vor derber Sprache",
+     "evidence": "Papa Platte ist auch rot",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "text": "Will DJ werden als Midlife-Crisis-Variante",
+     "evidence": "Kevin will DJ sein, Bro",
+     "date": "20250629",
+     "url": "https://youtu.be/sZ-RqtymjDY"
+    },
+    {
+     "text": "Spielt Mario Kart krass, Chat sieht ihn als Mario-Kart-Monster",
+     "evidence": "Power Platte Mario Kart Video",
+     "date": "20250612",
+     "url": "https://youtu.be/6STqMsyeX_Y"
+    },
+    {
+     "text": "Streamt aus großem Haus, das er komplett angemietet hat",
+     "evidence": "Ich habe das ganze Haus hier angemietet",
+     "date": "20250425",
+     "url": "https://youtu.be/9EQ5p3RW0QE"
+    },
+    {
+     "text": "Wird von Hugo als größte Konkurrenz um Viewer gesehen",
+     "evidence": "Über 1000 Viewer verloren seit Platte online ist",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "text": "Schneidet seine Videos nach dem Cuttergate wieder selbst",
+     "evidence": "Montes Dropbox-Link, Platte schneidet jetzt wieder selber",
+     "date": "20251208",
+     "url": "https://youtu.be/b0rdUpcs--w"
+    },
+    {
+     "text": "Fliegt mit Basti in der Kings League frueh raus",
+     "evidence": "70.000 Zuschauer, ausgeschieden wie letzte Season",
+     "date": "20251108",
+     "url": "https://youtu.be/Lf1AuHFCCpo"
+    },
+    {
+     "text": "Taucht in TikTok in vielen KI-Videos auf",
+     "evidence": "Hugo sieht nur Papa-Platte-AI-Videos",
+     "date": "20251018",
+     "url": "https://youtu.be/Vaoxg9KdHXE"
+    },
+    {
+     "text": "Gewinnt mit Basti jedes Jahr Duo des Jahres",
+     "evidence": "Award sollte man per Post schicken",
+     "date": "20251208",
+     "url": "https://youtu.be/RvXD55WXjy4"
+    },
+    {
+     "text": "Seine Tastatur gilt als die ekelhafteste der Streamer-Szene",
+     "evidence": "Wer eklig sagt, kennt die Tastatur von Papa Platte nicht, Haare und Schimmel",
+     "date": "20260811",
+     "url": "https://youtu.be/L-V5sc8uXWs"
+    },
+    {
+     "text": "Kevin wird von Fans als Partner für Gaming-Runden mit Eli genannt",
+     "evidence": "Vielleicht können wir mit Kevin und Eli eine Runde zocken",
+     "date": "20260420",
+     "url": "https://youtu.be/fONMNOkYHsM"
+    },
+    {
+     "text": "Sein Ferrari soll verkauft werden und er hat Kumpel-Ruf",
+     "evidence": "Kevin möchte den Ferrari kaufen",
+     "date": "20261016",
+     "url": "https://youtu.be/DGkidlh9TPQ"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Moin moin meine aktiven Freunde.",
+     "context": "Papaplatte-Begrüßung",
+     "date": "20230205",
+     "url": "https://youtu.be/ubjJGq10OJ0"
+    },
+    {
+     "quote": "Ich dachte, Abseits waere eine Spielerposition.",
+     "context": "Papa Platte zur EM",
+     "date": "20240628",
+     "url": "https://youtu.be/Cn5JH2XlhVk"
+    },
+    {
+     "quote": "Ich bin nicht so klein.",
+     "context": "Clip auf dem Pony",
+     "date": "20241116",
+     "url": "https://youtu.be/yCKddPzQs10"
+    },
+    {
+     "quote": "Es ist ein Schlafzimmer mit Badezimmer, Bruder.",
+     "context": "Barcelona-Stream",
+     "date": "20250425",
+     "url": "https://youtu.be/9EQ5p3RW0QE"
+    },
+    {
+     "quote": "Ich habe das ganze Haus hier angemietet.",
+     "context": "Setup-Erklärung",
+     "date": "20250425",
+     "url": "https://youtu.be/9EQ5p3RW0QE"
+    },
+    {
+     "quote": "Kevin und Basti gewinnen das Ding wie jedes Jahr.",
+     "context": "Stream Awards",
+     "date": "20251208",
+     "url": "https://youtu.be/RvXD55WXjy4"
+    }
+   ],
+   "running_gags": [
+    "Aktive Freunde",
+    "Kevin-Stream",
+    "Everybody-Loop",
+    "Die Hugo-Videos sind 'bitte weniger Papaplatte'",
+    "Alle kopieren Kevin",
+    "Tauben-Drohnen",
+    "Fussball-Unwissen",
+    "Bubble Tea",
+    "Kleinheit",
+    "Clip-Farmer",
+    "Geoguessr",
+    "Kevin Teller und Fußball",
+    "Stromausfall",
+    "DJ-Pläne",
+    "Cuttergate",
+    "Kings League Aus",
+    "Duo des Jahres mit Basti",
+    "Schmutzige Tastatur"
+   ],
+   "relations": [
+    {
+     "with": "trymacs",
+     "what": "Lästert über Max im Vorfeld von 7 vs. Wild"
+    },
+    {
+     "with": "montanablack",
+     "what": "Facebook-Gruß und Nachrichten-Gags"
+    },
+    {
+     "with": "montanablack",
+     "what": "Bestes Streamer-Duo des Jahres laut Stream Awards"
+    },
+    {
+     "with": "trymacs",
+     "what": "Trymacs wird laufend als Papa-Platte-Kopie bezeichnet"
+    },
+    {
+     "with": "rumathra",
+     "what": "Rumatra wird von Chat als Kevin-Nachmacher dargestellt"
+    },
+    {
+     "with": "bastighg",
+     "what": "Streamer-Duo des Jahres"
+    },
+    {
+     "with": "letshugo",
+     "what": "Hugo und Platte provozieren sich gegenseitig, Viewer-Konkurrenz"
+    },
+    {
+     "with": "rewinside",
+     "what": "Rewi lästert über ihn, Platte tritt bei Varo mit Noriax an"
+    },
+    {
+     "with": "chefstrobel",
+     "what": "Wird gemeinsam mit Strobel gern im Memes erwähnt"
+    },
+    {
+     "with": "bastighg",
+     "what": "Streamer-Duo des Jahres"
+    },
+    {
+     "with": "montanablack",
+     "what": "Schneidet fuer Monte Videos"
+    },
+    {
+     "with": "eliasn97",
+     "what": "Gaming-Trio mit Kevin und Eli"
+    }
+   ]
+  },
+  "knossi": {
+   "attributes": [
+    {
+     "text": "Kann nicht tanzen, wird trotzdem für Let's Dance gefeiert",
+     "evidence": "'ich kann keinen einzigen Tanzschritt'",
+     "date": "20230224",
+     "url": "https://youtu.be/gaC-FxDkl-k"
+    },
+    {
+     "text": "Pfandsammler-Humor: Penny-Doku, Kaufland-Tüte",
+     "evidence": "Hugo: 'Knossi in der Penny Doku, steuerfrei Pfand sammeln'",
+     "date": "20230629",
+     "url": "https://youtu.be/1UYof1kWuc0"
+    },
+    {
+     "text": "Mit 37 offiziell 'alt', Hugo-Chat nennt ihn Rentner",
+     "evidence": "'Knossi unter 40?', 'der alte Knossi'",
+     "date": "20230301",
+     "url": "https://youtu.be/Mn4UgOWnl-Q"
+    },
+    {
+     "text": "Hat BVB-Bettwäsche und Nanoleaf im Hintergrund (Standard-Streamer-Zimmer)",
+     "evidence": "Hugo lästert über sein Setup",
+     "date": "20230301",
+     "url": "https://youtu.be/Mn4UgOWnl-Q"
+    },
+    {
+     "text": "Organisiert Spendenläufe und Promi Big Brother Knossi Edition",
+     "evidence": "'ab 12.12. Promi Big Brother, die Knossi-Edition'",
+     "date": "20231207",
+     "url": "https://youtu.be/UKJNbtvEGs0"
+    },
+    {
+     "text": "Wird wegen Frisur und Schnurrbart gemobbt ('Popelbremse')",
+     "evidence": "Chat-Gags über seinen Bart",
+     "date": "20230301",
+     "url": "https://youtu.be/Mn4UgOWnl-Q"
+    },
+    {
+     "text": "Chat fordert regelmaessig, dass er endlich eine Uhr kauft",
+     "evidence": "Jeder Stream nur noch Werbung fuer Handys, placements ueberall",
+     "date": "20240821",
+     "url": "https://youtu.be/rHLyUix6dGI"
+    },
+    {
+     "text": "Bekommt Jahre spaeter Fanpost zu sehen, bei der sich ein Fan als Absender outet",
+     "evidence": "Jens, du warst das? 1000 Bilder von dir",
+     "date": "20240809",
+     "url": "https://youtu.be/p5p9mUoeap0"
+    },
+    {
+     "text": "Organisiert Edeltouren und Camper-Reisen",
+     "evidence": "Edeltour 3.0, Balkan-Tour, Oktoberfest im Wohnmobil",
+     "date": "20241002",
+     "url": "https://youtu.be/2JNe7fS3jns"
+    },
+    {
+     "text": "Überquert den Atlantik per Segelschiff mit Creatoren",
+     "evidence": "Atlantikprojekt, 'ich kotz wahrscheinlich fünf Tage'",
+     "date": "20241107",
+     "url": "https://youtu.be/C15BT-CIa_Q"
+    },
+    {
+     "text": "Hat riesigen Reichweiten-Zusammenhalt mit TikTok-Kids ('zweimal gepumpt'-Gag)",
+     "evidence": "Schild im Publikum bei seinen Auftritten",
+     "date": "20250204",
+     "url": "https://youtu.be/aOs-EfaJ3rY"
+    },
+    {
+     "text": "Trägt gern Weizenbier zum Frühstück",
+     "evidence": "'schönes Bierchen heute morgen' am Donnerstag 11 Uhr",
+     "date": "20241119",
+     "url": "https://youtu.be/FphPIIfT22U"
+    },
+    {
+     "text": "Uhren-Sammler, hat laut eigener Aussage 400.000 Euro Minus mit Uhren gemacht",
+     "evidence": "Ich habe mit Uhren 400.000 Euro minus gemacht",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "text": "Wird als 'Rentner' aufgezogen, die Uhr bleibt aber teuer",
+     "evidence": "Soll mal ein Upgrade machen, Day-Date 41 mm",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "text": "Macht jedes Jahr Big Brother live und sucht Gäste",
+     "evidence": "Knossi sucht Gäste für Big Brother",
+     "date": "20250908",
+     "url": "https://youtu.be/dwQUQAhHX8Y"
+    },
+    {
+     "text": "Bekam angeblich eine Gamescom-Absage mit 'du bist kein Gamer'",
+     "evidence": "Habe ich Eldenring gespielt oder nicht? Among Us?",
+     "date": "20250720",
+     "url": "https://youtu.be/mk2edwSmBro"
+    },
+    {
+     "text": "Chat sagt, er sei wochenlang im Swipe-Handyspiel stecken geblieben",
+     "evidence": "22 Tage nicht online, steckt in einem Level",
+     "date": "20250612",
+     "url": "https://youtu.be/6STqMsyeX_Y"
+    },
+    {
+     "text": "Lässt sich von Bild und Presse gern in Aussagen locken",
+     "evidence": "Die Bild-Schlagzeile mit Gebärmaschine",
+     "date": "20250629",
+     "url": "https://youtu.be/sZ-RqtymjDY"
+    },
+    {
+     "text": "Läuft beim Holy Hot Food Run mit Hugo mit",
+     "evidence": "Zusammen mit Knossi am Start",
+     "date": "20250915",
+     "url": "https://youtu.be/CyDsJM4I0Bk"
+    },
+    {
+     "text": "Wird liebevoll als Rentner bezeichnet",
+     "evidence": "Rentner Knossi im 24h-Stream mit Monte",
+     "date": "20251126",
+     "url": "https://youtu.be/gZCI9smLXfw"
+    },
+    {
+     "text": "Hat keinen Bock auf Fitnacraft",
+     "evidence": "Es heisst, er spielt einen Tag und quittet, weil es kein Casino gibt",
+     "date": "20251126",
+     "url": "https://youtu.be/gZCI9smLXfw"
+    },
+    {
+     "text": "Ruft ploetzlich das Hotel ueber das Festnetz an",
+     "evidence": "Ein Herr Knossi ist am Telefon, durchstellen bitte",
+     "date": "20260302",
+     "url": "https://youtu.be/t2xI4LhHbyI"
+    },
+    {
+     "text": "Schreibt in fremden Chats Bester Streamer 100%",
+     "evidence": "Trollt andere Streams, auch bei Rose",
+     "date": "20251208",
+     "url": "https://youtu.be/RvXD55WXjy4"
+    },
+    {
+     "text": "Wird mit Rohat Gebauer verglichen, Parfuem und Uhren",
+     "evidence": "Rohat Gebauer, koennte mit mir Uhren verkaufen",
+     "date": "20260326",
+     "url": "https://youtu.be/dVfUub8_WyY"
+    },
+    {
+     "text": "Fährt bei Forza Horizon Safari, Löwe läuft 10 cm vorbei",
+     "evidence": "Ausgewachsenes Männchen, 10 cm neben Jens gerade vorbeigelaufen",
+     "date": "20260526",
+     "url": "https://youtu.be/DYV0z9GZkoQ"
+    },
+    {
+     "text": "Trockener schlagfertiger Humor",
+     "evidence": "Humor von Trymacs und Knossi ist die höchste Stufe, wissen was sie sagen und tun so als wüssten sie es nicht",
+     "date": "20260916",
+     "url": "https://youtu.be/-GmAIuATqkg"
+    },
+    {
+     "text": "Ist so reich, dass er aufwändige TikToks macht, bekommt 100k Likes",
+     "evidence": "Knossi ist so reich, schaut euch seine TikToks an; Lipsync mit 101.000 Likes",
+     "date": "20260910",
+     "url": "https://youtu.be/q2titHqg-UE"
+    },
+    {
+     "text": "Wird in Panama-Reise bei Hugo gefeiert, Toilette bei Google Maps",
+     "evidence": "Hat hier irgendjemand gegen den Baum gepisst? Knossis Toilette",
+     "date": "20260407",
+     "url": "https://youtu.be/MPQmD5nhZP8"
+    },
+    {
+     "text": "Hat angeblich die Midlife-Crisis-Phase mit Siebträger, Bowling und Pärchenwochenende",
+     "evidence": "Findest du ich bin alt? Männer in der verfrühten Midlife-Krise",
+     "date": "20260407",
+     "url": "https://youtu.be/MPQmD5nhZP8"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Meine Damen und Herren, euer Knossi macht Pizzen.",
+     "context": "Knossi-Intro Parodie",
+     "date": "20230224",
+     "url": "https://youtu.be/gaC-FxDkl-k"
+    },
+    {
+     "quote": "Ich war nicht in der Penny-Doku.",
+     "context": "Knossi reagiert auf Zuschauergruß",
+     "date": "20230629",
+     "url": "https://youtu.be/1UYof1kWuc0"
+    },
+    {
+     "quote": "Jens, kauf wieder eine Uhr.",
+     "context": "Chat-Forderung beim Werbe-Vorwurf",
+     "date": "20240821",
+     "url": "https://youtu.be/rHLyUix6dGI"
+    },
+    {
+     "quote": "Das Wochenende geht nicht.",
+     "context": "Camper-Planung, Knossi organisiert",
+     "date": "20240926",
+     "url": "https://youtu.be/C7sPrcH1AE4"
+    },
+    {
+     "quote": "Ich kaufe mir wirklich nur, was mir gefällt.",
+     "context": "Uhren-Diskussion",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "quote": "Ich habe mit Uhren 400.000 Euro minus gemacht.",
+     "context": "Antwort an Hugo",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "quote": "Ein Herr Knossi ist am Telefon, Sie duerfen gerne durchstellen.",
+     "context": "Knossi ruft im Hotel an",
+     "date": "20260302",
+     "url": "https://youtu.be/t2xI4LhHbyI"
+    },
+    {
+     "quote": "Ich sag, Knossi spielt einen Tag und dann hat er keinen Bock mehr.",
+     "context": "Zu Fitnacraft",
+     "date": "20251126",
+     "url": "https://youtu.be/gZCI9smLXfw"
+    },
+    {
+     "quote": "Schatz, ich bleib entspannt jetzt.",
+     "context": "Safari-Run in Forza, Löwe läuft vorbei",
+     "date": "20260526",
+     "url": "https://youtu.be/DYV0z9GZkoQ"
+    }
+   ],
+   "running_gags": [
+    "Popelbremse",
+    "Let's Dance ohne Tanzschritt",
+    "Rentner-Alter",
+    "Jens kauf eine Uhr",
+    "Werbung/Placements",
+    "Edeltour",
+    "Atlantik",
+    "Camper",
+    "Uhren",
+    "Big Brother",
+    "Rentner-Sprüche",
+    "Rentner",
+    "Fully loaded",
+    "Bester Streamer 100%",
+    "Hoert morgen auf",
+    "Safari-Löwe",
+    "Panama-Palme",
+    "Trockener Humor"
+   ],
+   "relations": [
+    {
+     "with": "trymacs",
+     "what": "Beide werden auf Veranstaltungen gemeinsam gerufen, 'Trymacs und Knossi'"
+    },
+    {
+     "with": "montanablack",
+     "what": "Ketchup- und Facebook-Gags mit Monte"
+    },
+    {
+     "with": "montanablack",
+     "what": "Zusammen auf Events, zB Schlagerboot und Charity-Spiel"
+    },
+    {
+     "with": "montanablack",
+     "what": "Tour-Partner, Camper"
+    },
+    {
+     "with": "trymacs",
+     "what": "Camper-Videos zusammen"
+    },
+    {
+     "with": "montanablack",
+     "what": "Gemeinsames Big-Brother-Vorhaben, Monte meldet sich bei Gästen"
+    },
+    {
+     "with": "letshugo",
+     "what": "Wird von Hugo ständig geclippt und aufgezogen"
+    },
+    {
+     "with": "trymacs",
+     "what": "Lief gemeinsam beim Holy Hot Food Run"
+    },
+    {
+     "with": "montanablack",
+     "what": "Co-Moderation im 24-Stunden-Stream, alte Freundschaft"
+    },
+    {
+     "with": "schradin",
+     "what": "Wird von Schradin als Rentner-Kollege gesehen"
+    },
+    {
+     "with": "trymacs",
+     "what": "beide für trockenen Humor gelobt"
+    }
+   ]
+  },
+  "eliasn97": {
+   "attributes": [
+    {
+     "text": "Meme 'Auf Lock' / 'Loslassen' nervt ihn selbst und alle",
+     "evidence": "Eli sagt 'ich lasse 24/7 los', Referat auf Lock",
+     "date": "20230525",
+     "url": "https://youtu.be/7HH9-_u0JFE"
+    },
+    {
+     "text": "Verkauft 'Code Eli 100% sparen' und macht Witze über Geld",
+     "evidence": "'mit Code Eli 100% sparen zahlt ihr gar nichts'",
+     "date": "20230418",
+     "url": "https://youtu.be/XF1orC9tlbc"
+    },
+    {
+     "text": "Gag vom nicht bezahlten Steak, 'Ich war's, ich bin einfach gegangen'",
+     "evidence": "Steakhaus-Drama in seinem Video",
+     "date": "20230418",
+     "url": "https://youtu.be/XF1orC9tlbc"
+    },
+    {
+     "text": "Macht gerne Fortnite mit Monte, 'bestes Streamer-Duo'",
+     "evidence": "Hugo-Chat: 'Montana Black und Eli'",
+     "date": "20231213",
+     "url": "https://youtu.be/r-STr1S7ou4"
+    },
+    {
+     "text": "Wirkt ein bisschen lässig-arrogant ('Eli ist der letzte, der sagt, alles gut')",
+     "evidence": "Reaktion auf Geldpech anderer",
+     "date": "20230418",
+     "url": "https://youtu.be/XF1orC9tlbc"
+    },
+    {
+     "text": "Zerstoert in Minecraft Willys Farm und sagt, es war aus Versehen",
+     "evidence": "Er blieb unter der Farm stehen, hat nichts eingesammelt",
+     "date": "20240119",
+     "url": "https://youtu.be/WcyU49YUwIw"
+    },
+    {
+     "text": "Lost die Teams bei Gaming-Abenden aus",
+     "evidence": "Eli lost jetzt die Teams aus",
+     "date": "20240531",
+     "url": "https://youtu.be/YedyVH_-6S0"
+    },
+    {
+     "text": "Lockt Freunde mit 'cooles Creator-Turnier'",
+     "evidence": "Eli hat gesagt, ich werde nicht der Schlechteste sein",
+     "date": "20240605",
+     "url": "https://youtu.be/f-4J1h8xAaI"
+    },
+    {
+     "text": "Gewinnt bei Awards, 'Eligella' Titel",
+     "evidence": "'Gewinner Nummer 1 ist Elias N97'",
+     "date": "20241213",
+     "url": "https://youtu.be/jjAMBcxpifM"
+    },
+    {
+     "text": "Organisiert Fußballturnier",
+     "evidence": "'Eli macht bald ein richtig geiles Fußballturnier'",
+     "date": "20241219",
+     "url": "https://youtu.be/myaynSJBHO0"
+    },
+    {
+     "text": "Kocht kaum, Fischstäbchen",
+     "evidence": "Kochen mit Monte und Zarbex",
+     "date": "20250328",
+     "url": "https://youtu.be/IS3RTjbN6ik"
+    },
+    {
+     "text": "Schickt seine Zuschauer zu anderen (Raid)",
+     "evidence": "'Eli hat uns geraidet'",
+     "date": "20250412",
+     "url": "https://youtu.be/kaTAmMQv4Js"
+    },
+    {
+     "text": "Hat eine Villa in Marbella mit Urus im Pool",
+     "evidence": "Trymacs-Clip, Chat macht Witze ueber den Makler",
+     "date": "20260302",
+     "url": "https://youtu.be/t2xI4LhHbyI"
+    },
+    {
+     "text": "Veranstaltet den Eligella Cup um 6000 Euro",
+     "evidence": "Bank sponsert Mario Kart Turnier, Gaeste wundern sich",
+     "date": "20260212",
+     "url": "https://youtu.be/D9XkTrFdcAE"
+    },
+    {
+     "text": "Sein Englisch ist ein Running Gag",
+     "evidence": "Kellner wuerde sagen, your English is beautiful",
+     "date": "20260113",
+     "url": "https://youtu.be/-pgJDW1UPzc"
+    },
+    {
+     "text": "Baut mit Sidney und Willy bei Craft Attack mit",
+     "evidence": "Ziel: Minas Tirith in klein",
+     "date": "20251027",
+     "url": "https://youtu.be/9gZLu673_H4"
+    },
+    {
+     "text": "Hat Mustang-Liebe mit Gtime",
+     "evidence": "Gespraech ueber Lieblingsauto",
+     "date": "20260131",
+     "url": "https://youtu.be/U01jEysZqys"
+    },
+    {
+     "text": "Versucht ständig gelassen zu bleiben und rastet nach Sekunden aus",
+     "evidence": "Heute fahre ich nicht aus der Haut, extrem gelassen. Ein paar Sekunden später: wie kann man so dumm sein?",
+     "date": "20260719",
+     "url": "https://youtu.be/FnOL7hnvFZQ"
+    },
+    {
+     "text": "Rastet wegen Technik aus, Headset und Kabel",
+     "evidence": "Mein Headset geht nicht, ich bin kurz davor hier alles zusammenzuschlagen",
+     "date": "20260719",
+     "url": "https://youtu.be/FnOL7hnvFZQ"
+    },
+    {
+     "text": "Als Kind schon Unternehmer: sammelte Pfandflaschen, wollte Millionär werden",
+     "evidence": "Er sagte immer, er wird später Millionär, sammelte Pfandflaschen zu Hause",
+     "date": "20260927",
+     "url": "https://youtu.be/21LJRFHYtp0"
+    },
+    {
+     "text": "Hat eine Villa in Marbella mit Privatkoch und lädt Kumpels ein",
+     "evidence": "Eli hat einen Koch organisiert, Villa in Spanien mit Pool und Sauna",
+     "date": "20260922",
+     "url": "https://youtu.be/fkkTq5Z9l5Y"
+    },
+    {
+     "text": "Veranstaltet die Fortnite Summer Games und lädt nicht jeden ein",
+     "evidence": "Warum bist du nicht bei Eligella bei den Summer Games dabei? nicht eingeladen",
+     "date": "20260618",
+     "url": "https://youtu.be/OVLSGtiEoHM"
+    },
+    {
+     "text": "Lernt Spanisch und fühlt sich wie in der Schule",
+     "evidence": "Dreimal die Woche Spanisch 90 Minuten, Melina ist die Streberin",
+     "date": "20260607",
+     "url": "https://youtu.be/UnG3zfeJfcM"
+    },
+    {
+     "text": "Geht seit sechs Monaten ins Gym, Lieblingsübung Hampelmänner",
+     "evidence": "Seit 6 Monaten Krafttraining, Lieblingsübung sind Hampelmänner",
+     "date": "20260719",
+     "url": "https://youtu.be/FnOL7hnvFZQ"
+    },
+    {
+     "text": "Wird für sein Gerede im Chat mit eigenen Kinderfans geneckt",
+     "evidence": "Hier werden mehr Kinder verarscht als bei Mert im Livestream",
+     "date": "20260529",
+     "url": "https://youtu.be/G0MfETriTQk"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Ich lasse 24/7 los, mein Bruder.",
+     "context": "Auf-Lock-Meme erklärt",
+     "date": "20230525",
+     "url": "https://youtu.be/7HH9-_u0JFE"
+    },
+    {
+     "quote": "Mit Code Eli sparen Sie 100 Prozent.",
+     "context": "Selbstironische Werbung",
+     "date": "20230418",
+     "url": "https://youtu.be/XF1orC9tlbc"
+    },
+    {
+     "quote": "Es war wirklich aus Versehen.",
+     "context": "Eli nach dem Farm-Brand",
+     "date": "20240119",
+     "url": "https://youtu.be/WcyU49YUwIw"
+    },
+    {
+     "quote": "Your English is beautiful.",
+     "context": "Titel, Gag ueber Elis Englisch",
+     "date": "20260113",
+     "url": "https://youtu.be/-pgJDW1UPzc"
+    },
+    {
+     "quote": "Heute fahre ich auf jeden Fall nicht aus der Haut. Ich bin extrem gelassen.",
+     "context": "kurz bevor er wieder ausrastet",
+     "date": "20260719",
+     "url": "https://youtu.be/FnOL7hnvFZQ"
+    },
+    {
+     "quote": "Ich kenne keine Nation, ich kenne nur die Liebe.",
+     "context": "WM-Tipp, jubelt für die Elfenbeinküste",
+     "date": "20260624",
+     "url": "https://youtu.be/ok9klt83Olc"
+    }
+   ],
+   "running_gags": [
+    "Auf Lock",
+    "Steak nicht bezahlt",
+    "Code Eli",
+    "War aus Versehen",
+    "Minecraft-Rache",
+    "Cosplay",
+    "Fußballturnier",
+    "Villa in Marbella",
+    "Elis Englisch",
+    "Eligella Cup",
+    "Doppelgaenger",
+    "Ich bleibe heute ruhig, dann Ausraster",
+    "Among Us Verrat",
+    "Pfandflaschen-Millionär"
+   ],
+   "relations": [
+    {
+     "with": "montanablack",
+     "what": "Beste Streamer-Combo"
+    },
+    {
+     "with": "bastighg",
+     "what": "Ironische Bastighg-Handcam und KI-Bilder"
+    },
+    {
+     "with": "niklaswilson",
+     "what": "Erzfeind im Minecraft-Server: Farm gegen TNT"
+    },
+    {
+     "with": "montanablack",
+     "what": "Kocht mit ihm und Zarbex"
+    },
+    {
+     "with": "sidneyeweka",
+     "what": "Zusammen bei Craft Attack"
+    },
+    {
+     "with": "niklaswilson",
+     "what": "Zusammen bei Craft Attack"
+    },
+    {
+     "with": "trymacs",
+     "what": "Trymacs stellt seine Villa im Clip vor"
+    },
+    {
+     "with": "niklaswilson",
+     "what": "Teamkollege und Kumpel, gemeinsame Turniere"
+    },
+    {
+     "with": "sidneyeweka",
+     "what": "Team Eli und Sidney"
+    },
+    {
+     "with": "gtime",
+     "what": "zusammen in Among Us und Counter-Strike gegen G-Time"
+    }
+   ]
+  },
+  "schradin": {
+   "attributes": [
+    {
+     "text": "Wird als 'über 50' veralbert, gilt als alter Opa der Streamer",
+     "evidence": "Alter schätzen: Über 50",
+     "date": "20231231",
+     "url": "https://youtu.be/hqL1LrSoh7Q"
+    },
+    {
+     "text": "Weiß nicht, was Discord ist",
+     "evidence": "Der alte knöchrige Freund weiß nicht mal was Discord ist",
+     "date": "20240710",
+     "url": "https://youtu.be/qfocK0pkIZk"
+    },
+    {
+     "text": "Wird dauernd als Rentner/Twitch-Opa aufgezogen (Anfang bis Mitte 50, graue Haare)",
+     "evidence": "Hugo und Co. nennen ihn Twitch-Rentner, Senioren-Team, 'Rollatoren geputzt'",
+     "date": "20250204",
+     "url": "https://youtu.be/aOs-EfaJ3rY"
+    },
+    {
+     "text": "Kommt mit Technik nicht klar, fotografiert den Monitor statt Screenshot",
+     "evidence": "'er will sein Monitor fotografieren', Handy von unten gefilmt",
+     "date": "20240926",
+     "url": "https://youtu.be/C7sPrcH1AE4"
+    },
+    {
+     "text": "Schreibt Nachrichten immer mit Punkt Punkt Punkt und Ausrufezeichen wie ein wütender Chef",
+     "evidence": "Trymacs/Knossi: 'alles klar Punkt Punkt Punkt Daumen hoch Emoji'",
+     "date": "20240926",
+     "url": "https://youtu.be/C7sPrcH1AE4"
+    },
+    {
+     "text": "Hat den Mund beim Zocken ständig offen",
+     "evidence": "Chat/Hugo: 'schließ deinen Mund', 'das kommt ins Bingo'",
+     "date": "20250204",
+     "url": "https://youtu.be/aOs-EfaJ3rY"
+    },
+    {
+     "text": "Spielt Elden Ring als große Prüfung und gibt sich unerschütterlich",
+     "evidence": "'Elden Ring wird mich nicht brechen', Hugo schickt Clip bei Wutausbruch",
+     "date": "20250204",
+     "url": "https://youtu.be/aOs-EfaJ3rY"
+    },
+    {
+     "text": "Schlechter Fußballer: gelbe Karte nach 15 Sekunden auf dem Platz",
+     "evidence": "Hugo kommentiert Fußball-Clip: 'Schradin Nummer 18 holt sich die gelbe Karte ab'",
+     "date": "20250318",
+     "url": "https://youtu.be/ojgeFzek6e8"
+    },
+    {
+     "text": "Macht extrem lange Werbung im Stream (über 250 Sekunden)",
+     "evidence": "'200 Sekunden ist immer noch weniger als Max Schradin mit 250 Sekunden Werbung'",
+     "date": "20250205",
+     "url": "https://youtu.be/p23-IenwrS0"
+    },
+    {
+     "text": "Sieht sich als Profi in allem, z.B. Bob-Pilot",
+     "evidence": "'ich bin quasi Bob Pilot', schummelt dann beim Bob-Rennen",
+     "date": "20250226",
+     "url": "https://youtu.be/exLhubUWdG0"
+    },
+    {
+     "text": "Altersjokes sind sein Dauerthema (Rollator, Rentner-Tour)",
+     "evidence": "Schradin Rentner 2025, Rollator",
+     "date": "20250904",
+     "url": "https://youtu.be/_fpHUYg3JW8"
+    },
+    {
+     "text": "Gewinnt Sprint und ist fitter als gedacht",
+     "evidence": "Ich nehme alles zurück, der würde mich im Boxring töten",
+     "date": "20250512",
+     "url": "https://youtu.be/0ePw9V5SxeU"
+    },
+    {
+     "text": "Kann Schlagzeug, aber nichts am PC",
+     "evidence": "Wie kann der Schlagzeug spielen, aber nichts am PC checken",
+     "date": "20250518",
+     "url": "https://youtu.be/LYU3Ds5u2aw"
+    },
+    {
+     "text": "Verteilt Spitznamen wie 'Rentnerwagen'",
+     "evidence": "Hat den Rentnerwagen zugeschickt",
+     "date": "20250904",
+     "url": "https://youtu.be/_fpHUYg3JW8"
+    },
+    {
+     "text": "Eher unfreiwillig im Zentrum von Chat-Memes",
+     "evidence": "Wieso wird Schrad immer so aufgezogen",
+     "date": "20250606",
+     "url": "https://youtu.be/1heFUsgrrTw"
+    },
+    {
+     "text": "Trifft im Bundeswehrstore Tarnnetz-Outfit",
+     "evidence": "Wintervent-Look, Style-Tipps gefragt",
+     "date": "20251226",
+     "url": "https://youtu.be/QsRikPxhESc"
+    },
+    {
+     "text": "Wird als Rentner und Opa aufgezogen",
+     "evidence": "Wird als Rentner und Opa aufgezogen",
+     "date": "20260212",
+     "url": "https://youtu.be/D9XkTrFdcAE"
+    },
+    {
+     "text": "Gibt zu, bei Events zu rauchen: Projektraucher",
+     "evidence": "Eventraucher, Projektraucher, Nichtraucher-Gag",
+     "date": "20260224",
+     "url": "https://youtu.be/C6goFqPWfTA"
+    },
+    {
+     "text": "Älteste Person überall, wird ständig als alt und senil geneckt",
+     "evidence": "Ich bin die älteste Person hier in der ganzen Arena; Rentner-Tour",
+     "date": "20260630",
+     "url": "https://youtu.be/DdHEk6bSvfg"
+    },
+    {
+     "text": "Trägt pinke Jogginganzüge und wirkt für sein Alter jugendlich",
+     "evidence": "Schradins Outfit null, pinker Jogginganzug, Mutter findet ihn super",
+     "date": "20260612",
+     "url": "https://youtu.be/1jbxFsAN5yE"
+    },
+    {
+     "text": "Spricht schlecht Englisch und tut als wäre er internationaler Streamer",
+     "evidence": "I'm an international Streamer, Alter bist du so kacke in Englisch",
+     "date": "20260612",
+     "url": "https://youtu.be/1jbxFsAN5yE"
+    },
+    {
+     "text": "Verliert Führerschein für zwei Monate und gibt nicht die Schuld zu",
+     "evidence": "Er ist nicht schuld, hat dem Polizisten versucht zu erklären",
+     "date": "20260417",
+     "url": "https://youtu.be/RG9Dd8RYkAk"
+    },
+    {
+     "text": "Spielt Among Us und gilt als Dauerverlierer",
+     "evidence": "Entschuldigung an Eli's Among Us für diese Dummheit",
+     "date": "20260811",
+     "url": "https://youtu.be/L-V5sc8uXWs"
+    },
+    {
+     "text": "Ertrinkt fast ständig bei Craft Attack",
+     "evidence": "Schradi ist schon wieder am Ersaufen da unten",
+     "date": "20261011",
+     "url": "https://youtu.be/Aybm6oBqE_Q"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Elden Ring wird mich nicht brechen.",
+     "context": "Schradin will Elden Ring in einer Woche durchspielen",
+     "date": "20250204",
+     "url": "https://youtu.be/aOs-EfaJ3rY"
+    },
+    {
+     "quote": "Ich bin nicht so gut.",
+     "context": "Schradin vor dem Fortnite-Random-Squad, 50 Euro Prämie",
+     "date": "20241219",
+     "url": "https://youtu.be/myaynSJBHO0"
+    },
+    {
+     "quote": "Ich bin ja eher so Projektraucher.",
+     "context": "Rauch-Gag auf Tour",
+     "date": "20260224",
+     "url": "https://youtu.be/C6goFqPWfTA"
+    },
+    {
+     "quote": "Ich bin doch nicht alt und senil.",
+     "context": "Craft Attack, wehrt sich gegen Alters-Gags",
+     "date": "20261011",
+     "url": "https://youtu.be/Aybm6oBqE_Q"
+    }
+   ],
+   "running_gags": [
+    "Opa-Image",
+    "Discord",
+    "Rentner/Twitch-Opa",
+    "Mund offen",
+    "Punkt Punkt Punkt in Nachrichten",
+    "Elden Ring Prüfung",
+    "Fortnite mit Zufallsspielern",
+    "Rentner",
+    "Sprint-Wette",
+    "Rentner",
+    "Projektraucher",
+    "Alt",
+    "Pinker Anzug",
+    "Englisch",
+    "Rentner-Tour"
+   ],
+   "relations": [
+    {
+     "with": "trymacs",
+     "what": "Duo in Fortnite, Trymacs zieht ihn wegen Alters und Elden-Ring-Plänen auf"
+    },
+    {
+     "with": "zarbex",
+     "what": "Zarbex wird mit ihm in Rust und Spielen gezogen, ständige Alters-Sticheleien"
+    },
+    {
+     "with": "letshugo",
+     "what": "Hugo macht ihn in fast jedem Video zum Opa-Gag"
+    },
+    {
+     "with": "letshugo",
+     "what": "Dauerfehde und Sprint-Wette"
+    },
+    {
+     "with": "zarbex",
+     "what": "Camper-Touren und Sticheleien"
+    },
+    {
+     "with": "knossi",
+     "what": "Beide gelten als Rentner"
+    },
+    {
+     "with": "zarbex",
+     "what": "Duo für Gartenprojekt und Rentner-Tour"
+    },
+    {
+     "with": "letshugo",
+     "what": "ältester bester Freund, wird gerne im Video veräppelt"
+    }
+   ]
+  },
+  "letshugo": {
+   "attributes": [
+    {
+     "text": "Wird laut und schreit bei Spielen",
+     "evidence": "'Hugo schreit, ist nicht normal'",
+     "date": "20231108",
+     "url": "https://youtu.be/aqT0bF5bKeM"
+    },
+    {
+     "text": "Hat beim Kürbis-Auge-Gag fast Unfall gebaut",
+     "evidence": "Kürbis am Auge",
+     "date": "20231101",
+     "url": "https://youtu.be/JFZOedHw7DY"
+    },
+    {
+     "text": "Macht Hochsprung-Wettbewerb und hält sich für Experte",
+     "evidence": "'Hochsprung darf ich gar nicht mitmachen'",
+     "date": "20231026",
+     "url": "https://youtu.be/2scjZ_VZSAg"
+    },
+    {
+     "text": "Wird als 'luxemburgischer Mr Beast' betitelt",
+     "evidence": "Zeitungsartikel über den 19-jährigen Schüler",
+     "date": "20240211",
+     "url": "https://youtu.be/7w59xyD6iP8"
+    },
+    {
+     "text": "Taucht trotz verspäteter Einladung zu Events auf",
+     "evidence": "Einladung zur Fight Night kam Wochen nach dem Event per Post",
+     "date": "20240112",
+     "url": "https://youtu.be/Az-Uyc7b1QY"
+    },
+    {
+     "text": "Stürzt sich in jedes Event als Cosplay/Clip-Lieferant",
+     "evidence": "Ritter-Outfit bei Stream Awards, Clipfarmer des Turniers",
+     "date": "20250406",
+     "url": "https://youtu.be/s8V71eXtYNs"
+    },
+    {
+     "text": "Vermisst Thumbnails und will unbedingt rein",
+     "evidence": "'Ich will auf's Thumbnail'",
+     "date": "20241213",
+     "url": "https://youtu.be/jjAMBcxpifM"
+    },
+    {
+     "text": "Tönt vorm Boxen und rudert dann zurück",
+     "evidence": "Ich würde jeden in einem Boxkampf fertigmachen, dann: lass mal abbrechen",
+     "date": "20250507",
+     "url": "https://youtu.be/l1GmLYLL2gM"
+    },
+    {
+     "text": "Cutter, der Streamer in satten und hungrigen Clips aufzieht",
+     "evidence": "Ich schneide gerade ein Satter-Hugo-Video",
+     "date": "20250420",
+     "url": "https://youtu.be/Ufm2-1Sg8xk"
+    },
+    {
+     "text": "Handwerklich eine Katastrophe: sägt Tisch durch, Setup kaputt",
+     "evidence": "Du hast den Tisch weggesägt",
+     "date": "20250617",
+     "url": "https://youtu.be/nH1CjIpEolg"
+    },
+    {
+     "text": "Hat 27 Fehlerpunkte in der Führerschein-Theorie und nennt sich besten Autofahrer",
+     "evidence": "Bester Autofahrer Deutschlands, 27 Fehlerpunkte",
+     "date": "20250822",
+     "url": "https://youtu.be/M2moIk-hcOY"
+    },
+    {
+     "text": "Mario-Kart-Rageer mit Offline-Flucht",
+     "evidence": "Ich spiel ein bisschen offline, Jungs",
+     "date": "20250612",
+     "url": "https://youtu.be/6STqMsyeX_Y"
+    },
+    {
+     "text": "Droht Streamern mit Clip-Verbot, dann wieder doch",
+     "evidence": "Du darfst diesen Clip nicht verwenden",
+     "date": "20250822",
+     "url": "https://youtu.be/M2moIk-hcOY"
+    },
+    {
+     "text": "Verliert Sprint gegen Schradin trotz 100 Subs Wette",
+     "evidence": "Hugo gegen Schradin Sprint, knapp",
+     "date": "20250512",
+     "url": "https://youtu.be/0ePw9V5SxeU"
+    },
+    {
+     "text": "Wird als Clipfarming-Opfer zugeschrieben, jeder will in den Hugo-Clip",
+     "evidence": "Relevanz hängt davon ab, wie oft du bei Satt Hugo landest",
+     "date": "20250705",
+     "url": "https://youtu.be/2R6oFCEt3pk"
+    },
+    {
+     "text": "Fuhr mit dem Tesla in die Tiefgarage und musste angeschoben werden",
+     "evidence": "Dominik und ich haben ihn rausgeschoben",
+     "date": "20260218",
+     "url": "https://youtu.be/wW1L2mgMqas"
+    },
+    {
+     "text": "Gewinnt Fashion-Icon-Preis, wird Cosplayer",
+     "evidence": "Stream Awards",
+     "date": "20251208",
+     "url": "https://youtu.be/RvXD55WXjy4"
+    },
+    {
+     "text": "Wird als TikToker bezeichnet, streitet es ab",
+     "evidence": "Ich bin nicht der TikToker, ich habe nur 10 TikToks gemacht",
+     "date": "20260519",
+     "url": "https://youtu.be/HMs917QeDfI"
+    },
+    {
+     "text": "Wegen Thumbnails regen sich Streamer auf, er packt sie trotzdem hinein",
+     "evidence": "Was ist das für ein Thumbnail? Unterlassungsverfügung",
+     "date": "20260913",
+     "url": "https://youtu.be/dghueJEooK0"
+    },
+    {
+     "text": "Zimmerführung im neuen Haus: kein Fenster, Steckdose fehlt",
+     "evidence": "Ich will beim Streamen kein Tageslicht; wer bin ich, mich zu beschweren",
+     "date": "20260928",
+     "url": "https://youtu.be/xL4FgRyM-SM"
+    },
+    {
+     "text": "Geografie nicht stark: denkt Mallorca liegt bei England",
+     "evidence": "Ich dachte, Mallorca ist da, wo London ist",
+     "date": "20260606",
+     "url": "https://youtu.be/NROxJcmsKbA"
+    },
+    {
+     "text": "Verbietet Bilder von sich mit Axt im Kommentar",
+     "evidence": "Ich verbiete das, rechtlich wird vorgegangen",
+     "date": "20260607",
+     "url": "https://youtu.be/UnG3zfeJfcM"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Ich schwöre, ich würde jeden in einem Boxkampf fertigmachen.",
+     "context": "Vor dem Boxen",
+     "date": "20250429",
+     "url": "https://youtu.be/6KdafRbmajo"
+    },
+    {
+     "quote": "Ich habe 27 Fehlerpunkte, ohne Führerschein würde ich besser machen.",
+     "context": "Theorietest",
+     "date": "20250822",
+     "url": "https://youtu.be/M2moIk-hcOY"
+    },
+    {
+     "quote": "Ich bin ab sofort Cosplayer.",
+     "context": "Preisverleihung",
+     "date": "20251208",
+     "url": "https://youtu.be/RvXD55WXjy4"
+    },
+    {
+     "quote": "Ich bin nicht der TikToker!",
+     "context": "Quiz mit Eli und Zarbex",
+     "date": "20260519",
+     "url": "https://youtu.be/HMs917QeDfI"
+    },
+    {
+     "quote": "Ich kann mich nicht beschweren, Leute.",
+     "context": "Zimmerführung im neuen Haus",
+     "date": "20260928",
+     "url": "https://youtu.be/xL4FgRyM-SM"
+    }
+   ],
+   "running_gags": [
+    "Zwei Hugos",
+    "Hugo wird 'Adoptivsohn' von Monte",
+    "Mr Beast Luxemburg",
+    "Hungriger Hugo Clips",
+    "Hugo Boss",
+    "Clipfarmer",
+    "Boxkampf-Ansagen",
+    "Clip verbieten",
+    "Mario-Kart-Rage",
+    "Tesla",
+    "Fashion Icon",
+    "Ich bin kein TikToker",
+    "Kein Fenster",
+    "Thumbnail-Beef"
+   ],
+   "relations": [
+    {
+     "with": "montanablack",
+     "what": "Gilt als Montes Adoptivsohn"
+    },
+    {
+     "with": "schradin",
+     "what": "Dauerfehde mit Sprint und Boxwette"
+    },
+    {
+     "with": "montanablack",
+     "what": "Monte sieht seine Clips und reagiert genervt"
+    },
+    {
+     "with": "trymacs",
+     "what": "Freundschaft, zusammen im Zollkoffer-Stream"
+    },
+    {
+     "with": "schradin",
+     "what": "ältester bester Freund"
+    },
+    {
+     "with": "zarbex",
+     "what": "Kumpel und Reise-Partner"
+    }
+   ]
+  },
+  "niklaswilson": {
+   "attributes": [
+    {
+     "text": "Verzieht bei extrem scharfen Chips keine Miene (Profi)",
+     "evidence": "'Willi wie ein Profi'",
+     "date": "20230821",
+     "url": "https://youtu.be/TuBD7uoaCg4"
+    },
+    {
+     "text": "Wird von Freunden angeschrieben, wenn man neue Klamotten braucht",
+     "evidence": "'wie ich Willi anschreibe und Signale gebe'",
+     "date": "20231002",
+     "url": "https://youtu.be/8LorIS6foNU"
+    },
+    {
+     "text": "Bekommt Vorschläge zum neuen Style und Kette",
+     "evidence": "'Willi er hat übertrieben mit der Kette'",
+     "date": "20231101",
+     "url": "https://youtu.be/JFZOedHw7DY"
+    },
+    {
+     "text": "Farmt 40 Minuten Sand und rächt sich mit TNT, wenn ihn jemand zerstört",
+     "evidence": "Bett wegsprengen, Wasseraufzug mit Obsidian fuellen",
+     "date": "20240119",
+     "url": "https://youtu.be/WcyU49YUwIw"
+    },
+    {
+     "text": "Erklärt Nachbarschaft in Minecraft: man muss teilen",
+     "evidence": "Wenn man nicht bereit ist, ein bisschen Nachbar zu sein, bisschen zu teilen",
+     "date": "20240117",
+     "url": "https://youtu.be/feK4F5UIJ-k"
+    },
+    {
+     "text": "Macht Reaction-Bingo zu Musik und Alben",
+     "evidence": "Bingo zum Rohat-Album, 'Willy macht Bingo'",
+     "date": "20250319",
+     "url": "https://youtu.be/XmWe6K9hIhk"
+    },
+    {
+     "text": "Findet sich mit Headset nicht hot genug, spielt Red Dead ohne",
+     "evidence": "Hallo, ich bin Willy, ich bin zu cool für Sounds",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "text": "Wettet 'Gym Edit' gegen Schradin aufs erste Tor",
+     "evidence": "Wenn Willie Tor schießt, muss ich ein Gym Edit machen",
+     "date": "20250501",
+     "url": "https://youtu.be/yeoy2Si6Nls"
+    },
+    {
+     "text": "Kommt in Zocker- und Fußballvideos in dummen Situationen vor",
+     "evidence": "Pyrotechnik ist kein Verbrechen, Zusammenschnitt",
+     "date": "20250518",
+     "url": "https://youtu.be/LYU3Ds5u2aw"
+    },
+    {
+     "text": "Heisst im Gag Summer Nick, Nick Summer oder William Williams Summer",
+     "evidence": "Streamer rufen ihn alle moeglichen Namen",
+     "date": "20260117",
+     "url": "https://youtu.be/zaVCO8_Ivlk"
+    },
+    {
+     "text": "Zockt WoW nur mit halbem Kopfhoerer, weil er zu cool fuer Surround ist",
+     "evidence": "Kein Headset sonst nicht cool",
+     "date": "20260107",
+     "url": "https://youtu.be/LFJpX8aS7T0"
+    },
+    {
+     "text": "Macht staendig Clips, in denen er Ali imitiert",
+     "evidence": "Ali: er hat mich einfach nochmal nachgemacht",
+     "date": "20260326",
+     "url": "https://youtu.be/dVfUub8_WyY"
+    },
+    {
+     "text": "Liess sich zu WoW ueberreden",
+     "evidence": "Alle haben auf mich eingelabert, ich bin dabei",
+     "date": "20251226",
+     "url": "https://youtu.be/QsRikPxhESc"
+    },
+    {
+     "text": "Auch Picky Eater, aber nicht ganz so schlimm wie sein Bruder",
+     "evidence": "Er ist nicht ganz so übertrieben schlimm wie Max, bestellt Burger ohne Gemüse auf Englisch",
+     "date": "20260417",
+     "url": "https://youtu.be/mYPx2DbB3Xg"
+    },
+    {
+     "text": "Teilt sich mit dem Bruder jedes Essen taktisch auf",
+     "evidence": "Taktische Besprechung vor der Restaurantbestellung, wir teilen uns Flammenkuchen, Chickenburger, Big Mac",
+     "date": "20260518",
+     "url": "https://youtu.be/rzFPkHuCOEw"
+    },
+    {
+     "text": "Gerät beim Bestellen in Panik, wenn Gemüse drin ist",
+     "evidence": "Es ist komisch, wie Nicki so in Panik gerät, ich hasse Gemüse absolut",
+     "date": "20260816",
+     "url": "https://youtu.be/YjLd_OZLcUs"
+    },
+    {
+     "text": "Fährt gern Auto und ist bei Touren der Fahrer, baut schnell Unfälle",
+     "evidence": "Nico fährt gegen Schild; er muss mal in der Stadt fahren, kein Unfall bauen",
+     "date": "20260805",
+     "url": "https://youtu.be/Coglj3tD31g"
+    },
+    {
+     "text": "Golf-GTI-Tour nach London endet mit Motorschaden, dann BMW-Cabrio",
+     "evidence": "Wir hätten die Tour fast abgesagt, Motorschaden, dann nachts Cabrio gemietet",
+     "date": "20260417",
+     "url": "https://youtu.be/mYPx2DbB3Xg"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Für jedes Stück Sand, das er mir genommen hat, kriegt er ein Stück TNT.",
+     "context": "Willy plant Rache an Eli",
+     "date": "20240119",
+     "url": "https://youtu.be/WcyU49YUwIw"
+    },
+    {
+     "quote": "Ich bin zu cool für Sounds.",
+     "context": "Kennzeichnet seine Spielweise",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "quote": "Soll ich mich Try Willy nennen?",
+     "context": "Antwort auf Namensverwirrung",
+     "date": "20260107",
+     "url": "https://youtu.be/LFJpX8aS7T0"
+    },
+    {
+     "quote": "Ich hasse Gemüse absolut. Wenn es irgendwo drin ist, verdirbt es mir jede Mahlzeit.",
+     "context": "Burger bestellt, Paprika drauf",
+     "date": "20260816",
+     "url": "https://youtu.be/YjLd_OZLcUs"
+    }
+   ],
+   "running_gags": [
+    "Style-Findung",
+    "Sand farmen",
+    "TNT-Rache",
+    "Bingo",
+    "zu cool für Headset",
+    "Gym-Edit-Wette",
+    "Summer Nick",
+    "Willy-Sidney-Verwechslung",
+    "Imitationen von Ali",
+    "Teilen beim Bestellen",
+    "Picky Eater",
+    "Autotouren mit Pannen"
+   ],
+   "relations": [
+    {
+     "with": "rohat",
+     "what": "Teilen Outfit- und Hosen-Lästereien im Hugo-Video"
+    },
+    {
+     "with": "eliasn97",
+     "what": "Farm-Fehde auf dem Minecraft-Server"
+    },
+    {
+     "with": "sidneyeweka",
+     "what": "Gemeinsam in Pyrotechnik-Memes und Fußball-Sprüchen"
+    },
+    {
+     "with": "schradin",
+     "what": "Wette um Tore und Gym Edit"
+    },
+    {
+     "with": "sidneyeweka",
+     "what": "Staendig verwechselt"
+    },
+    {
+     "with": "trymacs",
+     "what": "Cool-sein-Diskussion beim WoW-Event"
+    },
+    {
+     "with": "alibumaye",
+     "what": "Imitiert ihn fuer Clips"
+    },
+    {
+     "with": "trymacs",
+     "what": "Bruder, gleiche Esskrankheit mit Gemüse"
+    },
+    {
+     "with": "gtime",
+     "what": "Tourpartner, Golf GTI Tour"
+    }
+   ]
+  },
+  "zarbex": {
+   "attributes": [
+    {
+     "text": "Macht Weltall-TikToks, die ein älteres und kaufkräftiges Publikum anziehen",
+     "evidence": "Viewer sind Mitte 30 mit festem Job",
+     "date": "20240330",
+     "url": "https://youtu.be/elc1aDg0pss"
+    },
+    {
+     "text": "Weiß bei der EM nicht, was der VAR ist",
+     "evidence": "Zwei Wochen diskutiert Deutschland über VAR und du hast keine Ahnung",
+     "date": "20240710",
+     "url": "https://youtu.be/qfocK0pkIZk"
+    },
+    {
+     "text": "Wartet ewig auf seinen bestellten Mustang, Dauer-Gag",
+     "evidence": "'Mustang kommt vor GTA 6?', Lieferverzögerung, Dark Horse",
+     "date": "20250125",
+     "url": "https://youtu.be/Wlmp9N7o0dk"
+    },
+    {
+     "text": "Wird mit Mark Gebauer und teuren Uhren (Rolex) verbunden",
+     "evidence": "Rolex-Verlosung, Rolex Daytona gekauft, Uhr verliert Wert",
+     "date": "20250124",
+     "url": "https://youtu.be/djt0Uf4us3Q"
+    },
+    {
+     "text": "Sieht angeblich aus wie Gavi und viele andere (Doppelgänger-Thema)",
+     "evidence": "'sieht aus wie Gavi', 'viele Leute sehen aus wie Zarbex'",
+     "date": "20250205",
+     "url": "https://youtu.be/p23-IenwrS0"
+    },
+    {
+     "text": "Ist viermal durch die Theorieprüfung gefallen",
+     "evidence": "'viermal durchgerasselt, jetzt zum fünften Mal'",
+     "date": "20241113",
+     "url": "https://youtu.be/Ss3oLDsvq5M"
+    },
+    {
+     "text": "Newcomer-Hype, 'Bubble-übergreifend' beliebt",
+     "evidence": "Newcomer des Jahres, Stream Awards",
+     "date": "20241213",
+     "url": "https://youtu.be/jjAMBcxpifM"
+    },
+    {
+     "text": "Wirbelt mit Rust-Projekt und Pokémon-Opening",
+     "evidence": "Rust-Server-Projekt mit Monte, Bild-Bericht",
+     "date": "20250215",
+     "url": "https://youtu.be/GC7iSpBJFt8"
+    },
+    {
+     "text": "Streamt Reality-Praktika mit Schradin, jetzt Werkstatt",
+     "evidence": "Wir sind privilegierte, faule Streamer, KFZ-Werkstatt",
+     "date": "20250828",
+     "url": "https://youtu.be/JhoHPthzZ0g"
+    },
+    {
+     "text": "Macht Tour-Content (Camper Nordsee)",
+     "evidence": "Eine Woche Camper Tour an der Nordsee",
+     "date": "20250531",
+     "url": "https://youtu.be/ptfDR8XCB-4"
+    },
+    {
+     "text": "Tritt mit Hugo zu Wetten auf",
+     "evidence": "50 Subs, wer als erstes fett sagt",
+     "date": "20250530",
+     "url": "https://youtu.be/EKxRKT-Jso4"
+    },
+    {
+     "text": "Beschwert sich, nie aufs Sat-Hugo-Thumbnail zu kommen",
+     "evidence": "Ich bin seit Monaten sauer",
+     "date": "20260125",
+     "url": "https://youtu.be/zgQp84n4bvI"
+    },
+    {
+     "text": "Ist Mark-Gebauer-Uhr-Verkaeufer-Opfer",
+     "evidence": "Security stand mit Uhr vor der Tuer",
+     "date": "20251228",
+     "url": "https://youtu.be/DQGaoi7Vv9M"
+    },
+    {
+     "text": "Muss bei Tüftelprojekten wie Schrebergarten bei der Arbeit anpacken",
+     "evidence": "Zarbex beim Rasenmähen, Schrebergartenprojekt mit Schradin",
+     "date": "20260621",
+     "url": "https://youtu.be/E4IBMF5kL3Y"
+    },
+    {
+     "text": "Bekommt Käse-Etikett: der fette Zarbex",
+     "evidence": "Zarbex und ich bringen einen Käse raus 2026",
+     "date": "20260407",
+     "url": "https://youtu.be/MPQmD5nhZP8"
+    },
+    {
+     "text": "Kennt Geografie nicht: Hauptstadt von Brasilien ist Paraguay",
+     "evidence": "Sabex, Hauptstadt von Brasilien? Paraguay.",
+     "date": "20260606",
+     "url": "https://youtu.be/NROxJcmsKbA"
+    },
+    {
+     "text": "Antwortet auf Letztes Abendmahl: Jesus hat es gemalt",
+     "evidence": "Wer hat das Letzte Abendmahl geschaffen? Jesus.",
+     "date": "20260829",
+     "url": "https://youtu.be/8rs94K--PeA"
+    },
+    {
+     "text": "Planer der nächsten Rentner-Tour",
+     "evidence": "Zarbex plant gerade nächste Rentner Tour",
+     "date": "20260927",
+     "url": "https://youtu.be/21LJRFHYtp0"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Der Mustang ist nicht rechtzeitig gekommen.",
+     "context": "Mike über sein bestelltes Auto",
+     "date": "20250124",
+     "url": "https://youtu.be/djt0Uf4us3Q"
+    },
+    {
+     "quote": "Ein hoher.",
+     "context": "Auf die Frage, was die Zugspitze ist",
+     "date": "20260606",
+     "url": "https://youtu.be/NROxJcmsKbA"
+    }
+   ],
+   "running_gags": [
+    "Hat mehr Subs als Hugo",
+    "Mustang kommt nie",
+    "Rolex",
+    "Doppelgänger",
+    "Theorieprüfung viermal verhauen",
+    "Praktikum in Reallife",
+    "Camper-Touren",
+    "Thumbnail",
+    "Mark Gebauer",
+    "Geografie-Fails",
+    "Rentner-Tour",
+    "Käse"
+   ],
+   "relations": [
+    {
+     "with": "montanablack",
+     "what": "Rust-Projekt zusammen, wird von Monte aufgezogen"
+    },
+    {
+     "with": "schradin",
+     "what": "Wird mit ihm in Spielen verglichen, Bingo gegen ihn"
+    },
+    {
+     "with": "trymacs",
+     "what": "Duo-Content, Ski und Pokémon"
+    },
+    {
+     "with": "schradin",
+     "what": "Gemeinsame Touren und Praktikum"
+    },
+    {
+     "with": "letshugo",
+     "what": "Zusammen im Zollkoffer-Unboxing"
+    },
+    {
+     "with": "schradin",
+     "what": "Duo bei Schrebergarten, Käse und Touren"
+    },
+    {
+     "with": "letshugo",
+     "what": "Hugos bester Kumpel, immer am Rumalbern"
+    }
+   ]
+  },
+  "rohat": {
+   "attributes": [
+    {
+     "text": "Running Gag: klaut kleine Sachen (Parfum, Tee)",
+     "evidence": "'Rohat ist ein Gag, was am Ende immer klaut'",
+     "date": "20231020",
+     "url": "https://youtu.be/P_CrJFS1Bxo"
+    },
+    {
+     "text": "Trägt sehr weite Hosen und Oversize-Style",
+     "evidence": "Hugo über seine Outfits",
+     "date": "20231026",
+     "url": "https://youtu.be/2scjZ_VZSAg"
+    },
+    {
+     "text": "Wurde im Hugo-Video wegen Körpergröße und Versicherungsangeboten gemobbt",
+     "evidence": "Versicherungsangebot, Anzug-Vergleich",
+     "date": "20231101",
+     "url": "https://youtu.be/JFZOedHw7DY"
+    },
+    {
+     "text": "Trägt riesige Plateau-Schuhe, die den Chat beschäftigen",
+     "evidence": "Würde ich nicht mal anziehen, wenn meine Mutter anruft",
+     "date": "20240119",
+     "url": "https://youtu.be/WcyU49YUwIw"
+    },
+    {
+     "text": "Schuhe fallen erst auf, wenn er einfach so dasteht",
+     "evidence": "Die fallen nur so krass auf, wenn die einfach so rumstehen",
+     "date": "20240324",
+     "url": "https://youtu.be/AKrAxSK_K0Y"
+    },
+    {
+     "text": "Sein Style: Mega-Hose und Helm für 200 Euro als Hype",
+     "evidence": "Perfekt für Fallschirmlandungen",
+     "date": "20240119",
+     "url": "https://youtu.be/WcyU49YUwIw"
+    },
+    {
+     "text": "Wird in Hugo-Prank-Telefonaten als großer Wohltäter dargestellt",
+     "evidence": "Katze vom Baum gerettet, Schule bezahlt",
+     "date": "20240916",
+     "url": "https://youtu.be/wWz6Pn2SpdI"
+    },
+    {
+     "text": "Wird als Laufstil-Vergleich benutzt",
+     "evidence": "Schau mal, der läuft einfach wie Rohat",
+     "date": "20250420",
+     "url": "https://youtu.be/Ufm2-1Sg8xk"
+    },
+    {
+     "text": "Wird als Rohat Gebauer mit Mark Gebauer verglichen",
+     "evidence": "Knossi: koennte mit mir Uhren verkaufen",
+     "date": "20260326",
+     "url": "https://youtu.be/dVfUub8_WyY"
+    },
+    {
+     "text": "Ist Ziel eines Disstracks von Knossi",
+     "evidence": "Disrack gegen Rohat, Knossi findet es unangenehm",
+     "date": "20251226",
+     "url": "https://youtu.be/QsRikPxhESc"
+    },
+    {
+     "text": "Bekam Gamescom-Hausverbot zusammen mit Mert, Steckbrief hängt an der Kasse",
+     "evidence": "Rohat und Mert wurden bei der Gamescom abgelehnt, Steckbrief mit Aufschrift nicht rein",
+     "date": "20260904",
+     "url": "https://youtu.be/attuXUC5FrI"
+    },
+    {
+     "text": "Erkennt in jedem Doppelgänger Verwandte (mit Hamed verwechselt)",
+     "evidence": "Das ist nicht Rohat, das ist Hamed",
+     "date": "20260811",
+     "url": "https://youtu.be/L-V5sc8uXWs"
+    },
+    {
+     "text": "Zahlt für Mitspieler im Valorant 8 Euro pro Runde",
+     "evidence": "Da meine Freunde nicht online sind, muss ich 8 Euro pro Spiel zahlen",
+     "date": "20260724",
+     "url": "https://youtu.be/R4CmQ93T80E"
+    },
+    {
+     "text": "Schlägt sich beim Fortnite-Turnier als schwacher Mate",
+     "evidence": "Rohat war nur Beifahrer im eigenen Körper",
+     "date": "20261010",
+     "url": "https://youtu.be/HGXzCSxHmCI"
+    },
+    {
+     "text": "Hat Hausverbot mit anderen Pros bei Creator Lounge",
+     "evidence": "Mert und Rohat dürfen nicht rein",
+     "date": "20260904",
+     "url": "https://youtu.be/attuXUC5FrI"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Die Schuhe würde ich nicht mal anziehen, wenn mich meine Mutter anruft, dass sie mit dem Einkauf zurück ist.",
+     "context": "Hugo über Rohats Schuhe",
+     "date": "20240119",
+     "url": "https://youtu.be/WcyU49YUwIw"
+    },
+    {
+     "quote": "Ich bin 28, GTA 5 kam raus, als ich 15 war. Mein Leben wird von GTA 5 bestimmt.",
+     "context": "Sehnsucht nach GTA 6",
+     "date": "20260904",
+     "url": "https://youtu.be/attuXUC5FrI"
+    }
+   ],
+   "running_gags": [
+    "Klaut Parfum",
+    "Oversize-Hosen",
+    "Riesenschuhe",
+    "Hose und Helm als Style",
+    "Wohltäter-Prank",
+    "Rohat Gebauer",
+    "Gamescom-Steckbrief",
+    "Hausverbot",
+    "13 Jahre auf GTA warten"
+   ],
+   "relations": [
+    {
+     "with": "markgebauer",
+     "what": "Parfum für Noah wurde von Rohat verpackt zurückgestellt"
+    },
+    {
+     "with": "knossi",
+     "what": "Knossi hat einen Diss gegen ihn gemacht"
+    },
+    {
+     "with": "alibumaye",
+     "what": "Hugo spielt beide gegeneinander aus"
+    }
+   ]
+  },
+  "timgioh": {
+   "attributes": [
+    {
+     "text": "Ist neu in der Streamer-Runde und wird erst fuer einen Zuschauer gehalten",
+     "evidence": "Wer redet da, Zuschauer oder was",
+     "date": "20260216",
+     "url": "https://youtu.be/feQJyNDn6iY"
+    },
+    {
+     "text": "Spielt Yu-Gi-Oh und hat eine Kinderstimme-Diskussion",
+     "evidence": "Streamer machen Witze, Monte postet Rage",
+     "date": "20260216",
+     "url": "https://youtu.be/feQJyNDn6iY"
+    },
+    {
+     "text": "Ist die ganze Woche ausgebucht mit grossen Streamern",
+     "evidence": "Cristiano Ronaldo Spiel, Wochenende Monte",
+     "date": "20260224",
+     "url": "https://youtu.be/C6goFqPWfTA"
+    },
+    {
+     "text": "Gibt im Video seine Fehler zu",
+     "evidence": "Mir ist ein Fehler passiert, ich stehe dazu",
+     "date": "20260307",
+     "url": "https://youtu.be/nYBiwDfAcNk"
+    },
+    {
+     "text": "Sein Spruch Monte-Man yes ist ein Running Gag",
+     "evidence": "Alle rufen Mountainman yes",
+     "date": "20260224",
+     "url": "https://youtu.be/C6goFqPWfTA"
+    },
+    {
+     "text": "Riesiger Yu-Gi-Oh-Fan, macht Content, wann er will",
+     "evidence": "Ich mache zwei Stunden Yu-Gi-Oh Content, weil ich darauf Bock habe",
+     "date": "20260817",
+     "url": "https://youtu.be/k9Cq3kNt1_k"
+    },
+    {
+     "text": "Fortnite-Skill wird angezweifelt (Aimbot, Chat trollt)",
+     "evidence": "Du schießt mit jeder Waffe daneben, ja aber am Ende treffe ich ja trotzdem",
+     "date": "20260817",
+     "url": "https://youtu.be/k9Cq3kNt1_k"
+    },
+    {
+     "text": "Lädt sich selbst bei Fitnercraft ein, hat dann doch Zoff",
+     "evidence": "Ich mach's einfach wie Timgo, ich lade mich selbst ein",
+     "date": "20260823",
+     "url": "https://youtu.be/EZzcPFkSnu4"
+    },
+    {
+     "text": "Sieht im Old-Money-Business-Look aus wie am ersten Hogwarts-Tag",
+     "evidence": "Du musst Tim Gios Outfit angucken, erster Schultag von Hogwarts",
+     "date": "20261010",
+     "url": "https://youtu.be/HGXzCSxHmCI"
+    },
+    {
+     "text": "Wurde nicht zu den Summer Games eingeladen",
+     "evidence": "Dazu kann ich gerade nichts sagen",
+     "date": "20260618",
+     "url": "https://youtu.be/OVLSGtiEoHM"
+    },
+    {
+     "text": "Bringt Ballermann-Song heraus und tritt im Megapark auf",
+     "evidence": "Tim hat es gut gemeint, man konnte nicht erkennen, dass es sein erster Auftritt war",
+     "date": "20260724",
+     "url": "https://youtu.be/R4CmQ93T80E"
+    },
+    {
+     "text": "Wird auf 40 bis 45 geschätzt, obwohl er jünger ist",
+     "evidence": "Du siehst aus wie ein 45-jähriger Chemielehrer",
+     "date": "20260712",
+     "url": "https://youtu.be/m0RqaBEbc2s"
+    },
+    {
+     "text": "Plant eine neue Website und erntet Spott",
+     "evidence": "timgo.com wird es nicht geben; neue Webseite, neuer Look, mehr Tim",
+     "date": "20260817",
+     "url": "https://youtu.be/k9Cq3kNt1_k"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Monte-Man, yes.",
+     "context": "Tims Catchphrase",
+     "date": "20260224",
+     "url": "https://youtu.be/C6goFqPWfTA"
+    },
+    {
+     "quote": "Wer sagt denn, dass ich schlecht bin? Vielleicht spiele ich das Spiel auf meine Art und habe einfach unfassbar viel Spaß.",
+     "context": "Fortnite gegen Kritik",
+     "date": "20260817",
+     "url": "https://youtu.be/k9Cq3kNt1_k"
+    },
+    {
+     "quote": "Ich bin sehr zufrieden mit meinem Friseur.",
+     "context": "Friseur hat keine Website",
+     "date": "20260618",
+     "url": "https://youtu.be/OVLSGtiEoHM"
+    }
+   ],
+   "running_gags": [
+    "Monte-Man yes",
+    "Yu-Gi-Oh",
+    "Wer redet da",
+    "Yu-Gi-Oh",
+    "Aimbot im Chat",
+    "Old Money Look",
+    "Ballermann-Song"
+   ],
+   "relations": [
+    {
+     "with": "montanablack",
+     "what": "Monte reposted Tim, Tim fuehrt Monte-Man-Spruch"
+    },
+    {
+     "with": "marli",
+     "what": "Wird von Mali und Eli aufgezogen"
+    },
+    {
+     "with": "marli",
+     "what": "Kumpel, teilen den Ballermann-Streit"
+    },
+    {
+     "with": "eliasn97",
+     "what": "wurde von Eli nicht zu den Summer Games eingeladen"
+    }
+   ]
+  },
+  "gtime": {
+   "attributes": [
+    {
+     "text": "Gilt als ruhiger, unaufgeregter Typ",
+     "evidence": "Chat meinte frueher, er werde nie gross, weil er nicht polarisiert",
+     "date": "20251214",
+     "url": "https://youtu.be/VOUTEQYv5BI"
+    },
+    {
+     "text": "Ist ein normaler, sympathischer Typ, noch nicht vom Geld verdorben",
+     "evidence": "Hugo/Schradin loben ihn, hoffen er bleibt so",
+     "date": "20260131",
+     "url": "https://youtu.be/U01jEysZqys"
+    },
+    {
+     "text": "Lieblingsauto ist der Ford Mustang",
+     "evidence": "Clip, in dem er mit Eli essen war",
+     "date": "20260131",
+     "url": "https://youtu.be/U01jEysZqys"
+    },
+    {
+     "text": "Spielt alle vier Jahre Landwirtschaftssimulator mit Trymacs",
+     "evidence": "Running Gag: einmal abkoppeln Gtime",
+     "date": "20251127",
+     "url": "https://youtu.be/WHoIB_oefwY"
+    },
+    {
+     "text": "Trinkt gern mal ein Bier zu viel vor der Session",
+     "evidence": "Hugo: Gtime stinkt aus dem Maul nach Bier, Salitos in der Hand",
+     "date": "20260125",
+     "url": "https://youtu.be/zgQp84n4bvI"
+    },
+    {
+     "text": "Gelernter Koch und stolz darauf, kocht aber langsam",
+     "evidence": "G-Time ist gelernter Koch, Redo hat unterschätzt, dass er Koch ist; ein bisschen langsam",
+     "date": "20260823",
+     "url": "https://youtu.be/EZzcPFkSnu4"
+    },
+    {
+     "text": "Verbrennt sich beim Sonnen komplett, trotz Aftersun-Ansage",
+     "evidence": "Ich habe mir die Flosse richtig verbrannt, Abdruck von der Apple Watch",
+     "date": "20260513",
+     "url": "https://youtu.be/AXcKPhyJkNc"
+    },
+    {
+     "text": "Als Captain G bei Radtouren gefeiert, fährt auch nachts",
+     "evidence": "Geile Nachtfahrt, Captain G; Applaus für G-Time",
+     "date": "20260513",
+     "url": "https://youtu.be/AXcKPhyJkNc"
+    },
+    {
+     "text": "Lässt sich auf wilde Routen von Komoot ein",
+     "evidence": "Komoot führt über die Autobahn, dann Offroad",
+     "date": "20260507",
+     "url": "https://youtu.be/osoUtXL2OWA"
+    },
+    {
+     "text": "Hat einen Lamborghini und posiert gern",
+     "evidence": "Du bist jetzt im Lambo Club; Porsche-Bild mit 2 Millionen Aufrufen",
+     "date": "20260823",
+     "url": "https://youtu.be/EZzcPFkSnu4"
+    },
+    {
+     "text": "Fährt gern mit Zarbex Limousine durch Köln",
+     "evidence": "Ich fahre mit Zarbex in einer Limousine durch Köln",
+     "date": "20261011",
+     "url": "https://youtu.be/Aybm6oBqE_Q"
+    },
+    {
+     "text": "Fährt Auto in Paris mit dem Porsche, der in Frankreich verreckt",
+     "evidence": "Paris hat den Porsche Killer gekillt, Motorschaden, Niki schiebt ihn",
+     "date": "20260413",
+     "url": "https://youtu.be/GRZHySHa8oI"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Einmal abkoppeln, Gtime.",
+     "context": "Landwirtschaftssimulator-Running-Gag",
+     "date": "20251127",
+     "url": "https://youtu.be/WHoIB_oefwY"
+    },
+    {
+     "quote": "Du bist gut genug.",
+     "context": "meme-Spruch im Techno Freitag Video",
+     "date": "20260624",
+     "url": "https://youtu.be/ok9klt83Olc"
+    }
+   ],
+   "running_gags": [
+    "Landwirtschaftssimulator",
+    "Einmal abkoppeln",
+    "Mustang",
+    "Captain G",
+    "Pannen bei Touren",
+    "Gelernter Koch"
+   ],
+   "relations": [
+    {
+     "with": "trymacs",
+     "what": "Gemeinsamer Minecraft-Server, Duo"
+    },
+    {
+     "with": "eliasn97",
+     "what": "Essen mit Eli, Mustang-Gespraech"
+    },
+    {
+     "with": "niklaswilson",
+     "what": "Tour-Partner bei Liegerad- und GTI-Tour"
+    },
+    {
+     "with": "trymacs",
+     "what": "wird von Trymacs auf Tour genervt"
+    },
+    {
+     "with": "zarbex",
+     "what": "fährt mit ihm in der Limousine"
+    }
+   ]
+  },
+  "chefstrobel": {
+   "attributes": [
+    {
+     "text": "Reimt dauernd, hat wenig Zuschauer, alle machen Witze",
+     "evidence": "'Chef Strobel reimt, 200 Zuschauer'",
+     "date": "20230205",
+     "url": "https://youtu.be/ubjJGq10OJ0"
+    },
+    {
+     "text": "Chat will 'bitte weniger Chef Strobel' in den Clips",
+     "evidence": "Kommentar vor Clips",
+     "date": "20230205",
+     "url": "https://youtu.be/ubjJGq10OJ0"
+    },
+    {
+     "text": "Spielt League of Legends rund um die Uhr",
+     "evidence": "12 Stunden League, 24-Stunden-Stream",
+     "date": "20241101",
+     "url": "https://youtu.be/0O-cIPPFGYA"
+    },
+    {
+     "text": "Seit Skifahren 11 Jahre nicht mehr gefahren",
+     "evidence": "'ich bin 11 Jahre kein Ski gefahren'",
+     "date": "20250211",
+     "url": "https://youtu.be/VGkrJZTOLAc"
+    },
+    {
+     "text": "Wird im Chat als Bestell-Vorbild im Dönerladen veralbert",
+     "evidence": "Bestellt Döner auf Türkisch, fühlt sich hart",
+     "date": "20250425",
+     "url": "https://youtu.be/9EQ5p3RW0QE"
+    },
+    {
+     "text": "Mit Zeitreise-Frisur-Kommentaren im Chat (Eminem-Optik)",
+     "evidence": "Chat sagt Schweinsteiger/Eminem",
+     "date": "20251003",
+     "url": "https://youtu.be/3zBaahMTo2I"
+    },
+    {
+     "text": "Jault bei Turnieren und im Stream",
+     "evidence": "Neues Level an Rumheulen, frustrierendstes Turnier",
+     "date": "20251120",
+     "url": "https://youtu.be/En89mc0BVwk"
+    },
+    {
+     "text": "Holt sein Gucci-Portemonnaie in die Cam und poliert die Rolex im Stream",
+     "evidence": "Erster Streamer, der seine Rolex poliert",
+     "date": "20260212",
+     "url": "https://youtu.be/D9XkTrFdcAE"
+    },
+    {
+     "text": "Fliegt in der Kings League frueh raus und wird ersetzt",
+     "evidence": "Chef Strobel 300 Viewer",
+     "date": "20251108",
+     "url": "https://youtu.be/Lf1AuHFCCpo"
+    },
+    {
+     "text": "Streitet täglich mit dem Chat und spielt League of Legends",
+     "evidence": "Du streitest dich jeden Tag 14 Stunden mit deinem Chat",
+     "date": "20260501",
+     "url": "https://youtu.be/GjY3PKpiLqo"
+    },
+    {
+     "text": "Wird mit Rumatra verwechselt",
+     "evidence": "Ja, Chef Strobel auch",
+     "date": "20260426",
+     "url": "https://youtu.be/2t-HxkvHgcs"
+    }
+   ],
+   "quotes": [],
+   "running_gags": [
+    "Bitte weniger Strobel",
+    "League of Legends",
+    "Dominik",
+    "Lookalikes",
+    "Jaulen",
+    "Gucci Portemonnaie",
+    "Rolex",
+    "LoL-Rank",
+    "Chat-Streit"
+   ],
+   "relations": [
+    {
+     "with": "rumathra",
+     "what": "Stammbaum-Gag Trymacs, Rumathra, Chef Strobel"
+    },
+    {
+     "with": "trymacs",
+     "what": "Quaelt ihn mit Gelaber am Headset"
+    },
+    {
+     "with": "rumathra",
+     "what": "oft verwechselt"
+    }
+   ]
+  },
+  "sidneyeweka": {
+   "attributes": [
+    {
+     "text": "Stand nicht auf Montes Kampfliste",
+     "evidence": "Du bist nämlich auch auf der Liste, oh warte, Sidney ist gar nicht drauf",
+     "date": "20240117",
+     "url": "https://youtu.be/feK4F5UIJ-k"
+    },
+    {
+     "text": "Wird mit Willy zusammen in Pyrotechnik-Memes genannt",
+     "evidence": "Syney und Willi, Pyrotechnik ist doch kein Verbrechen",
+     "date": "20250518",
+     "url": "https://youtu.be/LYU3Ds5u2aw"
+    },
+    {
+     "text": "Dient als Kürzel für Headset-Verweigerung ('hätte den Sidney gemacht')",
+     "evidence": "Ohne Headset, weil das uncool aussieht",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "text": "Wird staendig mit Willy verwechselt",
+     "evidence": "Willy und Sidney sind fuer mich dieselbe Person, Whydney-Shirt",
+     "date": "20260401",
+     "url": "https://youtu.be/rnIUOK-paLI"
+    },
+    {
+     "text": "Hugo verwechselt Sidney mit Willy",
+     "evidence": "Ich habe schon wieder Willy gesagt, Sydney",
+     "date": "20251117",
+     "url": "https://youtu.be/AVkZJP5oKaQ"
+    },
+    {
+     "text": "Findet Cars-Charaktere gut, wird damit aufgezogen",
+     "evidence": "Sidney und Fabo und Sally von Cars",
+     "date": "20251027",
+     "url": "https://youtu.be/9gZLu673_H4"
+    },
+    {
+     "text": "Wird Donkey Kong genannt",
+     "evidence": "Ob noch was mit Donkey Kong, also mit Sidney, kommt",
+     "date": "20260224",
+     "url": "https://youtu.be/C6goFqPWfTA"
+    },
+    {
+     "text": "Kann Leute perfekt imitieren, besonders Tim",
+     "evidence": "Wenn es ums Imitieren geht, sage ich Sydney und Marli",
+     "date": "20260705",
+     "url": "https://youtu.be/FPg4HNh5mkk"
+    },
+    {
+     "text": "Schreit bei Fehlern im Team herum, auch wenn es nicht seine Schuld war",
+     "evidence": "Sydney, was soll das Geschrei? Das war nicht meine Schuld",
+     "date": "20260811",
+     "url": "https://youtu.be/L-V5sc8uXWs"
+    },
+    {
+     "text": "Spielt Charakterauswahl in Forza mit Eli im Team",
+     "evidence": "Eli, Sydney, Prothese gag im Charaktermenü",
+     "date": "20260526",
+     "url": "https://youtu.be/DYV0z9GZkoQ"
+    },
+    {
+     "text": "Berühmt für lange Antworten und dummen Mut",
+     "evidence": "Grüße an Eli Geller und Sydney Edika",
+     "date": "20260928",
+     "url": "https://youtu.be/xL4FgRyM-SM"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Willy und Sidney sind fuer mich ein und dieselbe Person.",
+     "context": "Verwechslungs-Gag",
+     "date": "20260401",
+     "url": "https://youtu.be/rnIUOK-paLI"
+    }
+   ],
+   "running_gags": [
+    "Pyro-Meme mit Willy",
+    "Willy-Sidney-Verwechslung",
+    "Donkey Kong",
+    "Cars",
+    "Edeka-Namensgag",
+    "Imitationen"
+   ],
+   "relations": [
+    {
+     "with": "montanablack",
+     "what": "Monte führt eine Liste möglicher Kampf-Gegner, Sidney fehlt"
+    },
+    {
+     "with": "niklaswilson",
+     "what": "Zusammen in Fußball- und Pyro-Memes"
+    },
+    {
+     "with": "niklaswilson",
+     "what": "Wird dauernd mit ihm verwechselt"
+    },
+    {
+     "with": "eliasn97",
+     "what": "Craft-Attack-Team"
+    },
+    {
+     "with": "eliasn97",
+     "what": "bester Kumpel, Team Eli und Sidney"
+    }
+   ]
+  },
+  "alibumaye": {
+   "attributes": [
+    {
+     "text": "Gilt als schnellster Mensch der Welt",
+     "evidence": "Rannte einem Auto hinterher und gab dem Fahrer eine",
+     "date": "20260318",
+     "url": "https://youtu.be/0hA545-QHRY"
+    },
+    {
+     "text": "Ist der Streitschlichter und Konfliktlotse",
+     "evidence": "Mein Lehrer wusste, ich war Streitschlichter",
+     "date": "20260206",
+     "url": "https://youtu.be/TJjDOvA8Wlc"
+    },
+    {
+     "text": "Hat einen Nackenklatscher als Markenzeichen",
+     "evidence": "Wallah, bevor ich gehe, kriegst du einen Nackenschlag",
+     "date": "20260308",
+     "url": "https://youtu.be/szEdVWGgo6Y"
+    },
+    {
+     "text": "Zeigt Neukoelln und kauft Postkarten",
+     "evidence": "Postkarten, ist doch schoen, Ali ist so ein Suesser",
+     "date": "20260326",
+     "url": "https://youtu.be/dVfUub8_WyY"
+    },
+    {
+     "text": "Ist der gemuetliche Typ vom Geburtstag, den jeder haben will",
+     "evidence": "Im Jogginganzug zur Hochzeit, Meme",
+     "date": "20260206",
+     "url": "https://youtu.be/TJjDOvA8Wlc"
+    },
+    {
+     "text": "Hat einen Song 12 Cheeseburger und eine Cola Light",
+     "evidence": "Warum macht Ali keine Food-Videos",
+     "date": "20260308",
+     "url": "https://youtu.be/szEdVWGgo6Y"
+    },
+    {
+     "text": "Läuft 600 km in 96 Stunden live auf dem Laufband nach",
+     "evidence": "Ali baut gerade das Laufband auf, ich werde hier on-screen laufen",
+     "date": "20260507",
+     "url": "https://youtu.be/QoXP832WQgQ"
+    },
+    {
+     "text": "Hat ein LED-Namensschild im Hintergrund und verteidigt es",
+     "evidence": "Warum hat der immer ein Schild mit seinem Namen im Hintergrund? Ich nehme das nicht ab",
+     "date": "20260501",
+     "url": "https://youtu.be/GjY3PKpiLqo"
+    },
+    {
+     "text": "Wird mit seiner Grundschul-Wissensrunde als Akademiker verkauft",
+     "evidence": "Wie viele Tage hat der Dezember? 30",
+     "date": "20260612",
+     "url": "https://youtu.be/1jbxFsAN5yE"
+    },
+    {
+     "text": "Gilt als sehr ruhig am Tisch, wird aber immer aufgeregt",
+     "evidence": "Ali hat Schild, Sound und Kerzen als Styling beim Stream",
+     "date": "20260830",
+     "url": "https://youtu.be/WziSkpGOB7M"
+    },
+    {
+     "text": "Schlägt sich laut Chat im Costume-Quiz als Wissenstot",
+     "evidence": "Akademiker, Akademiker, Wissens tot",
+     "date": "20260612",
+     "url": "https://youtu.be/1jbxFsAN5yE"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Ali ist so ein Suesser.",
+     "context": "Hugo schaut Postkarten-Szene",
+     "date": "20260326",
+     "url": "https://youtu.be/dVfUub8_WyY"
+    },
+    {
+     "quote": "Wallah billah, ich mach Bart ab.",
+     "context": "Challenge-Schwur zum Durchhalten",
+     "date": "20260513",
+     "url": "https://youtu.be/AXcKPhyJkNc"
+    }
+   ],
+   "running_gags": [
+    "Nackenklatscher",
+    "Streitschlichter",
+    "12 Cheeseburger",
+    "Jogginganzug bei der Hochzeit",
+    "Wissenstot",
+    "Namensschild",
+    "Laufband"
+   ],
+   "relations": [
+    {
+     "with": "niklaswilson",
+     "what": "Willy macht ihn nach"
+    },
+    {
+     "with": "montanablack",
+     "what": "Hugo bringt ihn mit Monte zusammen"
+    },
+    {
+     "with": "rohat",
+     "what": "von Hugo gern gegeneinander ausgespielt"
+    }
+   ]
+  },
+  "rumathra": {
+   "attributes": [
+    {
+     "text": "Dauergast neben Trymacs, spielt Minecraft ohne zu reden",
+     "evidence": "'seit 16 Stunden Mute'",
+     "date": "20231213",
+     "url": "https://youtu.be/r-STr1S7ou4"
+    },
+    {
+     "text": "Anti-Kapitalist: fährt per BlaBlaCar nach Hamburg und pennt für zehn Euro bei Rentnerin auf der Couch",
+     "evidence": "Fixkosten auf null, zurück zu den Eltern",
+     "date": "20240119",
+     "url": "https://youtu.be/WcyU49YUwIw"
+    },
+    {
+     "text": "Wird laufend kopiert, wie ein NPC der überall spawnt",
+     "evidence": "Es gibt so viele Rumatras auf dieser Welt",
+     "date": "20240505",
+     "url": "https://youtu.be/3w0Q_o_mo_A"
+    },
+    {
+     "text": "Wollte Elfmeter mit Teebeutel-Jubel schießen",
+     "evidence": "Ruma wollte Teebeutel rausholen und T-Bag machen",
+     "date": "20250507",
+     "url": "https://youtu.be/l1GmLYLL2gM"
+    },
+    {
+     "text": "Hat gegen Hugo geboxt und sich laut Chat zurückgehalten",
+     "evidence": "Rumatra hat heute Mittag schon gegen Hugo geboxt",
+     "date": "20250507",
+     "url": "https://youtu.be/l1GmLYLL2gM"
+    },
+    {
+     "text": "Trug beim Kanu im Survival-Outfit, gab nach 10 Minuten auf",
+     "evidence": "Rumatra kam im Kanu-Survival-Outfit und konnte nach 10 Minuten nicht mehr",
+     "date": "20250730",
+     "url": "https://youtu.be/1pLBKvdrhS8"
+    },
+    {
+     "text": "Sagt Treffen kurz vorher ab und zockt dann Spiele",
+     "evidence": "Matra sagt mir jeden Tag ab zum Foundry spielen",
+     "date": "20250717",
+     "url": "https://youtu.be/FAoPjIUgBHw"
+    },
+    {
+     "text": "Wird von Hugo als 'echter Gurkensohn' aufgezogen",
+     "evidence": "Du bist Rumatra, das ist der echte Gurkensohn",
+     "date": "20250419",
+     "url": "https://youtu.be/tgnCvG491r8"
+    },
+    {
+     "text": "Hustet und jault ständig",
+     "evidence": "Er hustet ständig; der verschluckt sich in der Luft",
+     "date": "20260829",
+     "url": "https://youtu.be/8rs94K--PeA"
+    },
+    {
+     "text": "Wird mit Chef Strobel verwechselt",
+     "evidence": "Er hat dich zweimal Strobel genannt",
+     "date": "20260426",
+     "url": "https://youtu.be/2t-HxkvHgcs"
+    }
+   ],
+   "quotes": [],
+   "running_gags": [
+    "Mute",
+    "Billig reisen",
+    "Spawnt als NPC überall",
+    "Teebeutel",
+    "Gurkensohn",
+    "Absagen",
+    "Husten",
+    "Jaulen"
+   ],
+   "relations": [
+    {
+     "with": "trymacs",
+     "what": "Dauer-Duo"
+    },
+    {
+     "with": "letshugo",
+     "what": "Hugo und Ruma ziehen sich gegenseitig auf, Boxkampf-Thema"
+    },
+    {
+     "with": "chefstrobel",
+     "what": "werden beständig verwechselt"
+    }
+   ]
+  },
+  "marli": {
+   "attributes": [
+    {
+     "text": "Streamt noch nicht lange auf Twitch und macht Musik",
+     "evidence": "Hat Beats gemacht, Kanal relativ neu",
+     "date": "20251214",
+     "url": "https://youtu.be/VOUTEQYv5BI"
+    },
+    {
+     "text": "Spielt beim Imitier-Wettbewerb Minecraft Villager",
+     "evidence": "Wettbewerb mit Malik",
+     "date": "20260125",
+     "url": "https://youtu.be/zgQp84n4bvI"
+    },
+    {
+     "text": "Wird bei Mario Kart wegen schlechter Leistung angefaucht",
+     "evidence": "Halt deine Fresse, warum spielst du mit, wenn du so kacke bist",
+     "date": "20260212",
+     "url": "https://youtu.be/D9XkTrFdcAE"
+    },
+    {
+     "text": "Beleidigt zusammen mit Eli Tim Gio wegen der Stimme",
+     "evidence": "Monte postet Story, Rage",
+     "date": "20260216",
+     "url": "https://youtu.be/feQJyNDn6iY"
+    },
+    {
+     "text": "Streamt zum ersten Mal live persönlich mit Trymacs",
+     "evidence": "Live-Stream mit mir und Mali, wir treffen uns persönlich",
+     "date": "20260805",
+     "url": "https://youtu.be/Coglj3tD31g"
+    },
+    {
+     "text": "Ballermann-Auftritt mit eigenem Song, 'Malle I love you'",
+     "evidence": "Ballermann-Legende, Capital Bra spielt vor ihm",
+     "date": "20260724",
+     "url": "https://youtu.be/R4CmQ93T80E"
+    },
+    {
+     "text": "Lässt sich komplett den Kopf rasieren",
+     "evidence": "Mali, hast du dir den Kopf rasiert? Heilige Kuh",
+     "date": "20260922",
+     "url": "https://youtu.be/fkkTq5Z9l5Y"
+    },
+    {
+     "text": "Hat wie Tim Gio die Gäste zum Spielen eingeladen oder nicht",
+     "evidence": "Fortnite-Turnier am 31., Tim nimmt Einladung nicht an",
+     "date": "20260802",
+     "url": "https://youtu.be/88PnnIhGAiY"
+    },
+    {
+     "text": "Gilt als Dramaqueen-Haushalt bei Fitnercraft-Einladungen",
+     "evidence": "Ich kenne keinen größeren Drama-Queen",
+     "date": "20260816",
+     "url": "https://youtu.be/YjLd_OZLcUs"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Ich war immer der Streamer, der am wenigsten Ego hat.",
+     "context": "Stream aus Berlin",
+     "date": "20260817",
+     "url": "https://youtu.be/k9Cq3kNt1_k"
+    }
+   ],
+   "running_gags": [
+    "Minecraft Villager",
+    "Beats",
+    "Ballermann-Song",
+    "Trymacs-Date",
+    "Kopf rasiert"
+   ],
+   "relations": [
+    {
+     "with": "timgioh",
+     "what": "Macht mit Eli Witze ueber Tims Stimme"
+    },
+    {
+     "with": "eliasn97",
+     "what": "Mario Kart und Lästern"
+    },
+    {
+     "with": "trymacs",
+     "what": "erstes gemeinsames Live, Gummibärchen-Geschenk"
+    },
+    {
+     "with": "timgioh",
+     "what": "beste Kumpels mit Zoff um Ballermann-Song"
+    }
+   ]
+  },
+  "rewinside": {
+   "attributes": [
+    {
+     "text": "Raidet große Streams und gilt als familienfreundlich",
+     "evidence": "'sieben Jahre Streamer, familienfreundlichster'",
+     "date": "20230917",
+     "url": "https://youtu.be/h36P34sH5GE"
+    },
+    {
+     "text": "Hat angeblich einen Podcast, den er abstreitet (Rewis Corner)",
+     "evidence": "Es gibt diesen Podcast nicht",
+     "date": "20250804",
+     "url": "https://youtu.be/FE-W425CFZw"
+    },
+    {
+     "text": "Lässt sich im Clip als Clipfarmer bezeichnen",
+     "evidence": "Rewi hat geclipfarmt",
+     "date": "20250705",
+     "url": "https://youtu.be/2R6oFCEt3pk"
+    },
+    {
+     "text": "Tritt bei Red Bull Flugtag gegen Paul an",
+     "evidence": "Rewi und ich treten in drei Disziplinen an",
+     "date": "20250910",
+     "url": "https://youtu.be/GzRoY68SU_w"
+    },
+    {
+     "text": "Schreibt Freunden dauernd Quatsch-Nachrichten",
+     "evidence": "Bist du heute geil? Rewi, hast du wieder gekifft",
+     "date": "20250512",
+     "url": "https://youtu.be/0ePw9V5SxeU"
+    },
+    {
+     "text": "Mittagessen mit Kamera: Chef Strobel filmt ihn heimlich für TikTok",
+     "evidence": "Mit Rewinside sind wir jetzt zusammen, wir gehen was essen",
+     "date": "20260417",
+     "url": "https://youtu.be/mYPx2DbB3Xg"
+    }
+   ],
+   "quotes": [],
+   "running_gags": [
+    "Rewis Corner",
+    "Clipfarming",
+    "Heimlich gefilmt"
+   ],
+   "relations": [
+    {
+     "with": "papaplatte",
+     "what": "Gegner beim Flugtag und Varo"
+    },
+    {
+     "with": "handofblood",
+     "what": "Auftritt bei Techno Freitag"
+    }
+   ]
+  },
+  "unsympathischtv": {
+   "attributes": [
+    {
+     "text": "Zieht quasi bei Mark ein: Rechner im Kofferraum, will in der Gamescom-Woche übernachten",
+     "evidence": "'Mietnomade'",
+     "date": "20230902",
+     "url": "https://youtu.be/z8p7vYLdvK8"
+    },
+    {
+     "text": "Nutzt Tiktok-Live, obwohl er früher sagte, TikTok sei eine Schmutzplattform",
+     "evidence": "'Doppelmoral'",
+     "date": "20230125",
+     "url": "https://youtu.be/5TT7XOs8mAs"
+    },
+    {
+     "text": "Gilt als 'schlechtester Spieler' laut Amar-Ranking",
+     "evidence": "'NPC-Loser gerankt'",
+     "date": "20231125",
+     "url": "https://youtu.be/mTZKJ56rS7Q"
+    },
+    {
+     "text": "Chat erklärt ihn für älter als die Gegenüber, Alterswitze",
+     "evidence": "Wer sieht jünger aus, ich sehe jünger aus als Sascha",
+     "date": "20240125",
+     "url": "https://youtu.be/G-lKUS6YWAM"
+    },
+    {
+     "text": "Bekommt Nachbarzettel wegen nächtlichem Geschrei beim Zocken",
+     "evidence": "Lieber Nachbar, schließ bitte das Fenster",
+     "date": "20260816",
+     "url": "https://youtu.be/YjLd_OZLcUs"
+    }
+   ],
+   "quotes": [],
+   "running_gags": [
+    "Sascha-Mietnomade",
+    "Rewe",
+    "Nachbarzettel"
+   ],
+   "relations": [
+    {
+     "with": "markgebauer",
+     "what": "Wohnt zeitweise bei Mark"
+    }
+   ]
+  },
+  "markgebauer": {
+   "attributes": [
+    {
+     "text": "Uhrenhändler: 'Irgendwann musst du bei mir abdrücken'",
+     "evidence": "Pitch an Gäste",
+     "date": "20230130",
+     "url": "https://youtu.be/zEeOTlFoeUw"
+    },
+    {
+     "text": "Ruft ständig an und verkauft teure Uhren",
+     "evidence": "'Mark hat bei Uhren angerufen'",
+     "date": "20231113",
+     "url": "https://youtu.be/3Or42fzrnaw"
+    },
+    {
+     "text": "Schickt Uhren-Angebote an jeden",
+     "evidence": "'Wieso muss ich immer auf Madeira Uhren kaufen'",
+     "date": "20230205",
+     "url": "https://youtu.be/ubjJGq10OJ0"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Irgendwann musst du bei mir abdrücken, wie jeder andere auch.",
+     "context": "Uhrenverkäufer-Gag",
+     "date": "20230130",
+     "url": "https://youtu.be/zEeOTlFoeUw"
+    }
+   ],
+   "running_gags": [
+    "Uhren",
+    "Abdrücken"
+   ],
+   "relations": [
+    {
+     "with": "unsympathischtv",
+     "what": "Gast bei Mark zur Gamescom"
+    }
+   ]
+  },
+  "bastighg": {
+   "attributes": [
+    {
+     "text": "Beim Elternratgeber als einziger 'grün' und kinderfreundlich",
+     "evidence": "Der Basti ist grün, Basty ist cool",
+     "date": "20250711",
+     "url": "https://youtu.be/P832TppLsGk"
+    },
+    {
+     "text": "Verteilt Sticker, Plüschfiguren und Merch auf der Gamescom",
+     "evidence": "Basti GHG hat mich eingenommen",
+     "date": "20250904",
+     "url": "https://youtu.be/_fpHUYg3JW8"
+    },
+    {
+     "text": "Rote Karte und Kings League Kommentierung",
+     "evidence": "Basti zugeschaltet über Discord",
+     "date": "20250417",
+     "url": "https://youtu.be/AT0A5MTrfzM"
+    }
+   ],
+   "quotes": [],
+   "running_gags": [
+    "Aufkleber",
+    "grün im Elternratgeber"
+   ],
+   "relations": [
+    {
+     "with": "letshugo",
+     "what": "Wird von Hugo gerne geneckt"
+    }
+   ]
+  },
+  "redo": {
+   "attributes": [
+    {
+     "text": "Traegt viele Armbaender, die man schon von weitem hoert",
+     "evidence": "Man hoert ihn kommen wegen dem Klackern",
+     "date": "20260131",
+     "url": "https://youtu.be/U01jEysZqys"
+    },
+    {
+     "text": "Sagt nach jedem Satz weisst du",
+     "evidence": "Wiste-Gag",
+     "date": "20260131",
+     "url": "https://youtu.be/U01jEysZqys"
+    },
+    {
+     "text": "Hat XXL-Gastro-Streams und Restaurant",
+     "evidence": "XXL-Currywurst, Gtime kocht nach",
+     "date": "20260401",
+     "url": "https://youtu.be/rnIUOK-paLI"
+    }
+   ],
+   "quotes": [],
+   "running_gags": [
+    "Armbaender",
+    "weisst du"
+   ],
+   "relations": [
+    {
+     "with": "gtime",
+     "what": "Gtime als Gast, Kochvergleich"
+    }
+   ]
+  },
+  "mckytv": {
+   "attributes": [
+    {
+     "text": "Räumt die Küche auf und macht den Abwasch, während andere zocken",
+     "evidence": "Micky hat die Küche aufgeräumt",
+     "date": "20240531",
+     "url": "https://youtu.be/YedyVH_-6S0"
+    },
+    {
+     "text": "Verkündet ein Open-End-Sabbatical als letztes Projekt",
+     "evidence": "Danach streamt er erstmal nicht mehr, kein Aprilscherz",
+     "date": "20240405",
+     "url": "https://youtu.be/P3w1vSfe-PU"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Das ist kein Aprilscherz.",
+     "context": "Ankündigung Sabbatical",
+     "date": "20240405",
+     "url": "https://youtu.be/P3w1vSfe-PU"
+    }
+   ],
+   "running_gags": [
+    "Sabbatical ohne Ende"
+   ],
+   "relations": []
+  },
+  "tanzverbot": {
+   "attributes": [
+    {
+     "text": "Offen über Steuerschulden, Kaufsucht und Markenklamotten",
+     "evidence": "Reaktion-Video",
+     "date": "20231119",
+     "url": "https://youtu.be/zTZKCKYJ9DY"
+    }
+   ],
+   "quotes": [
+    {
+     "quote": "Ich bin pleite.",
+     "context": "Beichte im Video",
+     "date": "20231119",
+     "url": "https://youtu.be/zTZKCKYJ9DY"
+    }
+   ],
+   "running_gags": [
+    "Pleite"
+   ],
+   "relations": []
+  },
+  "handofblood": {
+   "attributes": [
+    {
+     "text": "Veranstaltet Techno Freitag mit Livepublikum und DJs",
+     "evidence": "Hännos Techno Freitag, 18 bis 4 Uhr",
+     "date": "20260624",
+     "url": "https://youtu.be/ok9klt83Olc"
+    }
+   ],
+   "quotes": [],
+   "running_gags": [
+    "Techno Freitag"
+   ],
+   "relations": [
+    {
+     "with": "rewinside",
+     "what": "Rewi legt beim Techno Freitag auf"
+    }
+   ]
+  }
+ },
+ "joke_seeds": [
+  {
+   "say": "Würdest du eher eine Abi-Rede von Eli voller 'Auf Lock' hören, oder von Monte, der die Mitschüler 'Hosenscheißer' nennt?",
+   "a": "Elis Abi-Rede Auf Lock",
+   "b": "Montes Abi-Rede Hosenscheißer",
+   "who": [
+    "eliasn97",
+    "montanablack"
+   ],
+   "basis": "Auf-Lock-Meme und Montes Gamescom-Beleidigungen",
+   "url": "https://youtu.be/7HH9-_u0JFE",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Max als Babysitter, der nebenbei Clash of Clans spielt, oder Knossi, der mit den Kindern Let's Dance übt, obwohl er keinen Schritt kann?",
+   "a": "Max und Clash of Clans",
+   "b": "Knossi Let's Dance",
+   "who": [
+    "trymacs",
+    "knossi"
+   ],
+   "basis": "Max ohne Handy nicht lebensfähig, Knossi ohne Tanzschritt",
+   "url": "https://youtu.be/StJjlXCtyS0",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher in eine WG mit Sascha ziehen, der seinen Rechner im Kofferraum bringt, oder mit Papaplatte, dessen Tastatur ekelhaft aussieht?",
+   "a": "WG mit Sascha",
+   "b": "WG mit Papaplatte",
+   "who": [
+    "unsympathischtv",
+    "papaplatte"
+   ],
+   "basis": "Sascha als Mietnomade, Platte Tastatur",
+   "url": "https://youtu.be/z8p7vYLdvK8",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Urlaub mit Max, der nur Geldscheine einpackt, oder mit Papaplatte, der nach einem Tag abreisen will?",
+   "a": "Urlaub mit Max",
+   "b": "Urlaub mit Papaplatte",
+   "who": [
+    "trymacs",
+    "papaplatte"
+   ],
+   "basis": "7 vs. Wild Flasche und Plattes Ausstieg",
+   "url": "https://youtu.be/ryp8dbi5ZUI",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher ein Date mit Eli, der das Steak einfach nicht bezahlt, oder mit Knossi, der dich beim Pfandsammeln abholt?",
+   "a": "Date mit Eli",
+   "b": "Date mit Knossi",
+   "who": [
+    "eliasn97",
+    "knossi"
+   ],
+   "basis": "Steak-Gag und Knossi Pfand-Doku",
+   "url": "https://youtu.be/XF1orC9tlbc",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Familienessen mit Monte, der bei jeder Frage 'vielleicht' sagt, oder mit Max, der bei jedem Preis sofort salty wird?",
+   "a": "Familienessen Monte",
+   "b": "Familienessen Max",
+   "who": [
+    "montanablack",
+    "trymacs"
+   ],
+   "basis": "Montes Vielleicht und Max Salty",
+   "url": "https://youtu.be/aqT0bF5bKeM",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Monte als Vater haben, der auf Elternabenden Eltern beleidigt, oder Knossi, der ständig Rentner-Witze macht?",
+   "a": "Monte als Vater",
+   "b": "Knossi als Papa",
+   "who": [
+    "montanablack",
+    "knossi"
+   ],
+   "basis": "Hugo sagt Monte sieht aus wie ein Vater",
+   "url": "https://youtu.be/p37JCEUcbcI",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Hugo als Nachbar, der nachts durch die Wand brüllt, oder Max, der um drei Uhr nachts Clash of Clans spielt?",
+   "a": "Nachbar Hugo",
+   "b": "Nachbar Max",
+   "who": [
+    "letshugo",
+    "trymacs"
+   ],
+   "basis": "Hugo wird laut, Max Dauerzocker",
+   "url": "https://youtu.be/aqT0bF5bKeM",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Mark als Chef, der dir jeden Monat eine Uhr aufschwatzt, oder Monte, der alle arbeiten lässt und nur zuschaut?",
+   "a": "Chef Mark",
+   "b": "Chef Monte",
+   "who": [
+    "markgebauer",
+    "montanablack"
+   ],
+   "basis": "Mark: Abdrücken, Monte: zuschauen",
+   "url": "https://youtu.be/zEeOTlFoeUw",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Monte als Lehrer, der dir Sendepause gibt, oder Max als Lehrer, der bei schlechter Note ausrastet?",
+   "a": "Lehrer Monte",
+   "b": "Lehrer Max",
+   "who": [
+    "montanablack",
+    "trymacs"
+   ],
+   "basis": "Gamescom-Q&A und Max Salty",
+   "url": "https://youtu.be/eUj3E6E4_GQ",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher mit Papaplatte Autobahn fahren, der jeden Fahrer anbrüllt, oder mit Monte, der ungebremst in die Baustelle fährt?",
+   "a": "Autofahrt Papaplatte",
+   "b": "Autofahrt Monte",
+   "who": [
+    "papaplatte",
+    "montanablack"
+   ],
+   "basis": "Platte-Wut, Monte-Baustelle",
+   "url": "https://youtu.be/StJjlXCtyS0",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher ein Geschenk von Eli, das nur Code-Rabatt ist, oder von Max, das nur Gutscheinkarten sind?",
+   "a": "Geschenk von Eli",
+   "b": "Geschenk von Max",
+   "who": [
+    "eliasn97",
+    "trymacs"
+   ],
+   "basis": "Code Eli 100% sparen, Max Gutscheinkarte",
+   "url": "https://youtu.be/XF1orC9tlbc",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Rohat als Mitbewohner, bei dem dein Parfum verschwindet, oder Eli, der alles mit 'Auf Lock' kommentiert?",
+   "a": "Mitbewohner Rohat",
+   "b": "Mitbewohner Eli",
+   "who": [
+    "rohat",
+    "eliasn97"
+   ],
+   "basis": "Rohat klaut-Running-Gag",
+   "url": "https://youtu.be/P_CrJFS1Bxo",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher mit Willy shoppen gehen, der keine Miene verzieht, oder mit Max, der die Rechnung aus Prinzip vergisst?",
+   "a": "Shoppen mit Willy",
+   "b": "Shoppen mit Max",
+   "who": [
+    "niklaswilson",
+    "trymacs"
+   ],
+   "basis": "Willi stoisch bei scharfen Chips",
+   "url": "https://youtu.be/TuBD7uoaCg4",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Knossi als Trauzeugen, der keinen Tanz kann, oder Monte, der 'vielleicht' kommt?",
+   "a": "Trauzeuge Knossi",
+   "b": "Trauzeuge Monte",
+   "who": [
+    "knossi",
+    "montanablack"
+   ],
+   "basis": "Let's-Dance-Gag und Montes Vielleicht",
+   "url": "https://youtu.be/gaC-FxDkl-k",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher eine Gruppenreise mit Platte, der nur Rosins Restaurant guckt, oder mit Eli, der einfach das Steak nicht zahlt?",
+   "a": "Reise mit Platte",
+   "b": "Reise mit Eli",
+   "who": [
+    "papaplatte",
+    "eliasn97"
+   ],
+   "basis": "Rosin-Gag, Steak",
+   "url": "https://youtu.be/XF1orC9tlbc",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher mit Max Pizza teilen, der die Hälfte als Mitleidskauf bucht, oder mit Knossi, der mit Kaufland-Tüte kommt?",
+   "a": "Pizza mit Max",
+   "b": "Pizza mit Knossi",
+   "who": [
+    "trymacs",
+    "knossi"
+   ],
+   "basis": "Knossi Pfand-Doku, Max reich",
+   "url": "https://youtu.be/1UYof1kWuc0",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Hausaufgaben von Monte abschreiben, der alles vergisst, oder von Eli, der alles 'loslässt'?",
+   "a": "Monte Hausaufgaben",
+   "b": "Eli Hausaufgaben",
+   "who": [
+    "montanablack",
+    "eliasn97"
+   ],
+   "basis": "Montes Vergesslichkeit-Gag, Auf Lock",
+   "url": "https://youtu.be/7HH9-_u0JFE",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher mit Papaplatte im Fahrstuhl feststecken, der alles kommentiert, oder mit Rohat, der nebenbei Taschen leert?",
+   "a": "Fahrstuhl mit Platte",
+   "b": "Fahrstuhl mit Rohat",
+   "who": [
+    "papaplatte",
+    "rohat"
+   ],
+   "basis": "Rohat-Klaugag, Platte Moin-Intro",
+   "url": "https://youtu.be/gaC-FxDkl-k",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Sascha als Reiseleiter, der kostenlos bei anderen schläft, oder Monte, der Reisepläne 'vielleicht' absegnet?",
+   "a": "Reiseleiter Sascha",
+   "b": "Reiseleiter Monte",
+   "who": [
+    "unsympathischtv",
+    "montanablack"
+   ],
+   "basis": "Mietnomade, Vielleicht",
+   "url": "https://youtu.be/z8p7vYLdvK8",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher mit Willy Videospiele zocken, der nie flucht, oder mit Max, der bei jedem Lag explodiert?",
+   "a": "Zocken mit Willy",
+   "b": "Zocken mit Max",
+   "who": [
+    "niklaswilson",
+    "trymacs"
+   ],
+   "basis": "Willy stoisch, Max salty",
+   "url": "https://youtu.be/6wmJVS2PILk",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher bei Knossi zum Kindergeburtstag eingeladen werden, wo alle Tanzschritte raten, oder bei Eli, wo es nur Rabattcodes gibt?",
+   "a": "Knossi Kindergeburtstag",
+   "b": "Eli Kindergeburtstag",
+   "who": [
+    "knossi",
+    "eliasn97"
+   ],
+   "basis": "Let's Dance, Code Eli",
+   "url": "https://youtu.be/gaC-FxDkl-k",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Hugo als Tutor, der bei jeder Frage laut wird, oder Rohat, der bei der Mathe-Klausur nebenbei deinen Stift nimmt?",
+   "a": "Tutor Hugo",
+   "b": "Tutor Rohat",
+   "who": [
+    "letshugo",
+    "rohat"
+   ],
+   "basis": "Hugo laut, Rohat Klaugag",
+   "url": "https://youtu.be/aqT0bF5bKeM",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher mit Max und Rumathra campen, wo einer nie redet, oder mit Platte, der nach einem Tag heimfährt?",
+   "a": "Camping Max und Ruma",
+   "b": "Camping Platte",
+   "who": [
+    "trymacs",
+    "papaplatte"
+   ],
+   "basis": "Rumathra Mute, Platte Ausstieg",
+   "url": "https://youtu.be/r-STr1S7ou4",
+   "chunk": 1
+  },
+  {
+   "say": "Würdest du eher Nachbar Eli, der deine Farm abfackelt und dann sagt, das war ein Versehen, oder Nachbar Willy, der dafür dein Bett wegsprengt?",
+   "a": "Nachbar Eli (Farm weg)",
+   "b": "Nachbar Willy (Bett weg)",
+   "who": [
+    "eliasn97",
+    "niklaswilson"
+   ],
+   "basis": "Minecraft-Fehde: Eli zerstört Willys Farm, Willy rächt sich mit TNT",
+   "url": "https://youtu.be/WcyU49YUwIw",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher Urlaub mit Rumatra machen, der bei einer Rentnerin für zehn Euro auf der Couch pennt, oder mit Trymacs, der unterwegs beim Apple-Support das Limit für Clash of Clans hochquatscht?",
+   "a": "Urlaub mit Rumatra",
+   "b": "Urlaub mit Trymacs",
+   "who": [
+    "rumathra",
+    "trymacs"
+   ],
+   "basis": "BlaBlaCar/Couchsurfing Hamburg; Apple-Support Limit 10.000",
+   "url": "https://youtu.be/OSHJyWo46cU",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher Trymacs als Babysitter, der zwei Stunden das Piepen der Spülmaschine ignoriert, oder Papa Platte, der dem Kind erklärt, dass Tauben Regierungsdrohnen sind?",
+   "a": "Babysitter Trymacs",
+   "b": "Babysitter Papa Platte",
+   "who": [
+    "trymacs",
+    "papaplatte"
+   ],
+   "basis": "Spülmaschine piept 2 Stunden bei Brawl Stars; Tauben-Drohnen-Rede (20240628)",
+   "url": "https://youtu.be/AKrAxSK_K0Y",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher eine Abi-Rede von Papa Platte über Abseits hören, oder von Trymacs über Clash of Clans?",
+   "a": "Abi-Rede von Papa Platte",
+   "b": "Abi-Rede von Trymacs",
+   "who": [
+    "papaplatte",
+    "trymacs"
+   ],
+   "basis": "Abseits als Spielerposition; Clash-of-Clans-Sucht (20240131)",
+   "url": "https://youtu.be/Cn5JH2XlhVk",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher ein Date, bei dem Monte das Restaurant wegen Afri Cola abwertet, oder eins, bei dem Papa Platte die Spaghetti wie ein Wettkampf isst?",
+   "a": "Date mit Monte (Kritiker)",
+   "b": "Date mit Papa Platte (Pasta)",
+   "who": [
+    "montanablack",
+    "papaplatte"
+   ],
+   "basis": "Monte bewertet Restaurant per Anruf mit Minuspunkt; Kevins Spaghetti-Essen (20240628)",
+   "url": "https://youtu.be/7w59xyD6iP8",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher Familienessen mit Rohat, dessen Riesenschuhe den halben Tisch einnehmen, oder mit Trymacs, der nach dem Dessert noch Zitronenkekse backt?",
+   "a": "Familienessen mit Rohat",
+   "b": "Familienessen mit Trymacs",
+   "who": [
+    "rohat",
+    "trymacs"
+   ],
+   "basis": "Rohats Plateau-Schuhe; Trymacs backt Herz- und Zitronenkekse (20240223)",
+   "url": "https://youtu.be/WcyU49YUwIw",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher einen Chef wie Monte, der sich einen Porsche kauft, damit der Bürohintergrund besser aussieht, oder einen wie Knossi, der in jedem Meeting eine Werbepause einlegt?",
+   "a": "Chef Monte (Porsche-Flex)",
+   "b": "Chef Knossi (Werbung)",
+   "who": [
+    "montanablack",
+    "knossi"
+   ],
+   "basis": "Monte: Auto nur für den Hintergrund (20240716); Knossi: Placements/Uhr-Gag",
+   "url": "https://youtu.be/rHLyUix6dGI",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher in einer WG mit Micky wohnen, der ständig die Küche aufräumt, oder mit Trymacs, der ein piepsendes Gerät zwei Stunden ignoriert?",
+   "a": "WG mit Micky",
+   "b": "WG mit Trymacs",
+   "who": [
+    "mckytv",
+    "trymacs"
+   ],
+   "basis": "Micky räumt Küche auf (20240531); Spülmaschine piept bei Trymacs (20240324)",
+   "url": "https://youtu.be/YedyVH_-6S0",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher mit Trymacs trainieren, der zwischen den Sätzen Clash of Clans spielt, oder mit Rohat, der in seinen Riesenschuhen zum Fitnessstudio stampft?",
+   "a": "Training mit Trymacs",
+   "b": "Training mit Rohat",
+   "who": [
+    "trymacs",
+    "rohat"
+   ],
+   "basis": "Clash of Clans im Gym; Rohats Schuhe (20240119)",
+   "url": "https://youtu.be/0S-8w9p73G8",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher einen Lehrer wie Zarbex, der bei der EM nicht weiß, was der VAR ist, oder einen wie Papa Platte, der denkt, Abseits sei eine Spielerposition?",
+   "a": "Lehrer Zarbex",
+   "b": "Lehrer Papa Platte",
+   "who": [
+    "zarbex",
+    "papaplatte"
+   ],
+   "basis": "VAR-Unwissen (20240710) vs. Abseits-Unwissen (20240628)",
+   "url": "https://youtu.be/qfocK0pkIZk",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher Zeltnachbar Monte, der nachts fremde Staudämme am Bach wegräumt, oder Zeltnachbar Eli, der dein Zelt sprengt und sagt, das war ein Versehen?",
+   "a": "Zeltnachbar Monte",
+   "b": "Zeltnachbar Eli",
+   "who": [
+    "montanablack",
+    "eliasn97"
+   ],
+   "basis": "Monte am Elbach; Eli zerstört Willys Farm (20240119)",
+   "url": "https://youtu.be/0S-8w9p73G8",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher Monte als Fußballtrainer, der die Spieler vorab mit Parfum bezahlt und trotzdem verliert, oder Trymacs, der als Taktik 'Pressing an der Bar' ausgibt?",
+   "a": "Trainer Monte (Parfum)",
+   "b": "Trainer Trymacs (Bar-Taktik)",
+   "who": [
+    "montanablack",
+    "trymacs"
+   ],
+   "basis": "Charity-Spiel: Geschenke vor dem Spiel (20240207); Taktik an der Bar (20240411)",
+   "url": "https://youtu.be/7LF8UA6lwuA",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher mit Rohat durch die Sicherheitskontrolle, dessen Riesenschuhe eine eigene Wanne brauchen, oder mit Hugo, der 25 ersteigerte Koffer dabei hat?",
+   "a": "Kontrolle mit Rohat",
+   "b": "Kontrolle mit Hugo",
+   "who": [
+    "rohat",
+    "letshugo"
+   ],
+   "basis": "Rohats Schuhe; Hugos 25 ersteigerte Flughafen-Koffer (20240531)",
+   "url": "https://youtu.be/WcyU49YUwIw",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher zu einer Feier eingeladen werden, bei der die Einladung erst drei Wochen später per Post kommt wie bei Trymacs, oder einfach trotzdem auftauchen wie Hugo?",
+   "a": "Einladung kommt zu spät",
+   "b": "Uneingeladen auftauchen",
+   "who": [
+    "trymacs",
+    "letshugo"
+   ],
+   "basis": "Great Fight Night: Einladung drei Wochen nach dem Event",
+   "url": "https://youtu.be/Az-Uyc7b1QY",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher einen Videocall mit Trymacs, dessen Mikro nicht verbunden ist, oder mit Hugo, dessen Internet nur ein Viertel so schnell ist wie sonst?",
+   "a": "Call mit Trymacs (Mikro aus)",
+   "b": "Call mit Hugo (Lahmes Netz)",
+   "who": [
+    "trymacs",
+    "letshugo"
+   ],
+   "basis": "Trymacs-Mikro (20240313); Hugo klagt über Internet (20240306)",
+   "url": "https://youtu.be/RyYdF5-bW0I",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher Fanpost mit 1000 Bildern von einem Unbekannten wie bei Knossi, oder einen Baumaschinen-Koffer von Monte vor der Tür?",
+   "a": "Fanpost wie Knossi",
+   "b": "Koffer wie bei Monte",
+   "who": [
+    "knossi",
+    "montanablack"
+   ],
+   "basis": "Paket-Unboxing mit Drexau (20240809); Monte schenkt Koffer (20240223)",
+   "url": "https://youtu.be/p5p9mUoeap0",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher einen Kollegen, der ein Sabbatical ohne Ende ankündigt wie Micky, oder einen, der sich einen Porsche kauft, damit der Hintergrund besser aussieht wie Monte?",
+   "a": "Kollege mit Sabbatical",
+   "b": "Kollege mit Porsche-Flex",
+   "who": [
+    "mckytv",
+    "montanablack"
+   ],
+   "basis": "Micky: Open-End-Sabbatical (20240405); Monte: Auto als Hintergrund",
+   "url": "https://youtu.be/P3w1vSfe-PU",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher einen WG-Flur voller Plateau-Schuhe wie bei Rohat, oder eine Einfahrt mit einem Porsche, den Monte nur für den Hintergrund gekauft hat?",
+   "a": "Flur voller Rohat-Schuhe",
+   "b": "Einfahrt mit Monte-Porsche",
+   "who": [
+    "rohat",
+    "montanablack"
+   ],
+   "basis": "Rohats Schuhe; Montes Hintergrund-Porsche (20240716)",
+   "url": "https://youtu.be/AKrAxSK_K0Y",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher Schradin als IT-Support, der nicht weiß, was Discord ist, oder Papa Platte, der meint, Tauben haben Kameras?",
+   "a": "IT-Hilfe von Schradin",
+   "b": "IT-Hilfe von Papa Platte",
+   "who": [
+    "schradin",
+    "papaplatte"
+   ],
+   "basis": "Discord-Unwissen (20240710); Tauben-Drohnen (20240628)",
+   "url": "https://youtu.be/qfocK0pkIZk",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher auf Montes Kampf-Liste ganz oben stehen und ständig Ansagen kassieren, oder wie Sidney nicht mal draufstehen?",
+   "a": "Auf Montes Liste stehen",
+   "b": "Nicht mal auf der Liste",
+   "who": [
+    "montanablack",
+    "sidneyeweka"
+   ],
+   "basis": "Monte nennt Gegner für ein Kampf-Event, Sidney fehlt auf der Liste",
+   "url": "https://youtu.be/feK4F5UIJ-k",
+   "chunk": 2
+  },
+  {
+   "say": "Würdest du eher mit Monte im Wohnmobil fahren, wenn der Tank leer ist, oder mit Schradin, der sich wie ein Bob-Pilot fühlt, oder ...?",
+   "a": "Monte, Tank leer",
+   "b": "Schradin, Bob-Pilot",
+   "who": [
+    "montanablack",
+    "schradin"
+   ],
+   "basis": "Monte Tank komplett leer, Schradin 'ich bin quasi Bob Pilot'",
+   "url": "https://youtu.be/ojgeFzek6e8",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher Fahrstunden bei Monte nehmen, der 51 Fehlerpunkte in der Theorie hatte, oder bei Zarbex, der viermal durchgefallen ist, oder ...?",
+   "a": "Fahrlehrer Monte",
+   "b": "Fahrlehrer Zarbex",
+   "who": [
+    "montanablack",
+    "zarbex"
+   ],
+   "basis": "Fahrschulstream Theorieprüfung",
+   "url": "https://youtu.be/Ss3oLDsvq5M",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher bei der Abgabe-Wette einen Chef wie Monte haben, der dich 14 Mal im Monat arbeiten lässt, oder einen wie Schradin, der alles mit Punkt Punkt Punkt schreibt, oder ...?",
+   "a": "Chef Monte, Wette",
+   "b": "Chef Schradin, Punkte",
+   "who": [
+    "montanablack",
+    "schradin"
+   ],
+   "basis": "Monte-Challenge 14 Streams, Schradin Punkt Punkt Punkt",
+   "url": "https://youtu.be/EzRtZ3SEFuI",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher in einer WG mit Trymacs wohnen, der 5 Tage Factorio zockt, oder mit Zarbex, der nur auf seinen Mustang wartet, oder ...?",
+   "a": "WG mit Trymacs",
+   "b": "WG mit Zarbex",
+   "who": [
+    "trymacs",
+    "zarbex"
+   ],
+   "basis": "5-Tage-Stream, Mustang-Gag",
+   "url": "https://youtu.be/BU2R2pBwX9w",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher mit Schradin Fußball spielen, der nach 15 Sekunden Gelb sieht, oder mit Monte, der das erste Mal seit Corona Sport macht, oder ...?",
+   "a": "Schradin im Team",
+   "b": "Monte im Team",
+   "who": [
+    "schradin",
+    "montanablack"
+   ],
+   "basis": "Fußball-Clip Schradin, Monte Sport",
+   "url": "https://youtu.be/ojgeFzek6e8",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher einen Nachbarn wie Rohat, der deine Katze vom Baum rettet, oder wie Monte mit Halle voller Autos, oder ...?",
+   "a": "Nachbar Rohat",
+   "b": "Nachbar Monte",
+   "who": [
+    "rohat",
+    "montanablack"
+   ],
+   "basis": "Hugo-Prank mit Rohat, Montes Halle",
+   "url": "https://youtu.be/wWz6Pn2SpdI",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher zum Familienessen Papaplatte einladen, der angeblich weniger isst als deine Oma, oder Knossi, der morgens schon Weizen trinkt, oder ...?",
+   "a": "Papaplatte, isst nichts",
+   "b": "Knossi, Weizen um 11",
+   "who": [
+    "papaplatte",
+    "knossi"
+   ],
+   "basis": "'Oma isst mehr als Kevin', Knossi Bierchen",
+   "url": "https://youtu.be/mJc0CiS4cEQ",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher Kochabend mit Monte, der Fischstäbchen kann, oder mit Eli, der Küchenhilfe braucht, oder ...?",
+   "a": "Kochen mit Monte",
+   "b": "Kochen mit Eli",
+   "who": [
+    "montanablack",
+    "eliasn97"
+   ],
+   "basis": "Koch-Event",
+   "url": "https://youtu.be/IS3RTjbN6ik",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher bei der Abi-Rede Trymacs reden lassen, der ständig zum Tiktoker erklärt wird, oder Papaplatte, der kaum Musik kann, oder ...?",
+   "a": "Trymacs als Redner",
+   "b": "Papaplatte als Redner",
+   "who": [
+    "trymacs",
+    "papaplatte"
+   ],
+   "basis": "Tiktoker-Verwechslung, unmusikalisch",
+   "url": "https://youtu.be/YxRqnhOmiQI",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher Skiurlaub mit Schradin machen, der sich für einen Profi hält, oder mit Trymacs, der Elden Ring hasst, oder ...?",
+   "a": "Skiurlaub Schradin",
+   "b": "Skiurlaub Trymacs",
+   "who": [
+    "schradin",
+    "trymacs"
+   ],
+   "basis": "Bob-Pilot, Skiurlaub mit Trymacs und Co.",
+   "url": "https://youtu.be/exLhubUWdG0",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher Babysitter Monte oder Babysitter Knossi, der gerade den Atlantik überqueren will, oder ...?",
+   "a": "Babysitter Monte",
+   "b": "Babysitter Knossi",
+   "who": [
+    "montanablack",
+    "knossi"
+   ],
+   "basis": "Knossi Atlantik, Monte Casino",
+   "url": "https://youtu.be/C15BT-CIa_Q",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher Date mit Trymacs, der 27 Pokémon-Boxen mitbringt, oder mit Monte, der ins Casino will, oder ...?",
+   "a": "Date Trymacs, Pokémon",
+   "b": "Date Monte, Casino",
+   "who": [
+    "trymacs",
+    "montanablack"
+   ],
+   "basis": "Pokémon 5500 Euro, Casino",
+   "url": "https://youtu.be/aOs-EfaJ3rY",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher einen Lehrer wie Papaplatte, der kaum Musik kann, oder wie Trymacs, der Bossfights hasst, oder ...?",
+   "a": "Lehrer Papaplatte",
+   "b": "Lehrer Trymacs",
+   "who": [
+    "papaplatte",
+    "trymacs"
+   ],
+   "basis": "Chat-Gags",
+   "url": "https://youtu.be/8C7WPwUj7tE",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher Urlaub mit Knossi im Camper oder mit Monte im Wohnmobil, oder ...?",
+   "a": "Camper mit Knossi",
+   "b": "Wohnmobil mit Monte",
+   "who": [
+    "knossi",
+    "montanablack"
+   ],
+   "basis": "Edeltour, Wohnmobil",
+   "url": "https://youtu.be/2JNe7fS3jns",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher Technik-Support für Schradin machen, der den Monitor abfotografiert, oder für Papaplatte, der nur Geoguessr kann, oder ...?",
+   "a": "Support für Schradin",
+   "b": "Support für Papaplatte",
+   "who": [
+    "schradin",
+    "papaplatte"
+   ],
+   "basis": "Monitor fotografieren",
+   "url": "https://youtu.be/C7sPrcH1AE4",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher mit Zarbex auf die Mustang-Lieferung warten oder mit Monte auf die Fans warten, die ihm hinterherlaufen, oder ...?",
+   "a": "Warten mit Zarbex",
+   "b": "Warten mit Monte",
+   "who": [
+    "zarbex",
+    "montanablack"
+   ],
+   "basis": "Mustang-Gag, Fans hinterher",
+   "url": "https://youtu.be/Wlmp9N7o0dk",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher in der Schule neben Eli sitzen, der Turniere organisiert, oder neben Papaplatte, der Pokale sammelt, oder ...?",
+   "a": "Sitznachbar Eli",
+   "b": "Sitznachbar Papaplatte",
+   "who": [
+    "eliasn97",
+    "papaplatte"
+   ],
+   "basis": "Fußballturnier, Pokale",
+   "url": "https://youtu.be/s8V71eXtYNs",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher Elden Ring mit Schradin durchspielen oder mit Trymacs, der Bossfights hasst, oder ...?",
+   "a": "Elden Ring, Schradin",
+   "b": "Elden Ring, Trymacs",
+   "who": [
+    "schradin",
+    "trymacs"
+   ],
+   "basis": "Elden Ring Gags",
+   "url": "https://youtu.be/8C7WPwUj7tE",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher eine Rolex von Zarbex geschenkt bekommen oder eine von Monte, oder ...?",
+   "a": "Rolex von Zarbex",
+   "b": "Rolex von Monte",
+   "who": [
+    "zarbex",
+    "montanablack"
+   ],
+   "basis": "Rolex-Verlosungen",
+   "url": "https://youtu.be/djt0Uf4us3Q",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher Willys Bingo über deine Abi-Rede oder Hugos Spott über dein Outfit, oder ...?",
+   "a": "Bingo von Willy",
+   "b": "Spott von Hugo",
+   "who": [
+    "niklaswilson",
+    "letshugo"
+   ],
+   "basis": "Reaction-Bingo, Hugo-Roast",
+   "url": "https://youtu.be/XmWe6K9hIhk",
+   "chunk": 3
+  },
+  {
+   "say": "Würdest du eher einen Nachbarn wie Knossi, der mit Uhren 400.000 Euro Minus macht, oder einen wie Monte, der nie ein Foto beim Essen macht?",
+   "a": "Nachbar wie Knossi",
+   "b": "Nachbar wie Monte",
+   "who": [
+    "knossi",
+    "montanablack"
+   ],
+   "basis": "Uhren-Minus von Knossi, Monte will beim Essen Ruhe",
+   "url": "https://youtu.be/P832TppLsGk",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher in eine WG mit Papaplatte, der aus dem Bad streamt, oder mit Trymacs, der Clash Royale nur mit Geld gewinnt?",
+   "a": "WG mit Papaplatte",
+   "b": "WG mit Trymacs",
+   "who": [
+    "papaplatte",
+    "trymacs"
+   ],
+   "basis": "Bad-Setup Barcelona, Clash-Royale-Geld-Kommentar",
+   "url": "https://youtu.be/9EQ5p3RW0QE",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher Hugo als Sportlehrer, der beim ersten Treffer abbricht, oder Schradin als Sportlehrer, der jeden Sprint gewinnt?",
+   "a": "Sportlehrer Hugo",
+   "b": "Sportlehrer Schradin",
+   "who": [
+    "letshugo",
+    "schradin"
+   ],
+   "basis": "Boxen abbrechen, Sprint-Wette verloren",
+   "url": "https://youtu.be/0ePw9V5SxeU",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher Monte als Babysitter, der bei Mario Kart rage-quittet, oder Trymacs, der das Kind drei Tage Pokémon spielen lässt?",
+   "a": "Babysitter Monte",
+   "b": "Babysitter Trymacs",
+   "who": [
+    "montanablack",
+    "trymacs"
+   ],
+   "basis": "Mario-Kart-Rage-Quit, 3 Tage Pokémon-Dauerstream",
+   "url": "https://youtu.be/6STqMsyeX_Y",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher Basti als Babysitter, weil er grün im Elternratgeber ist, oder Papaplatte, der auf rot steht?",
+   "a": "Babysitter Basti",
+   "b": "Babysitter Papaplatte",
+   "who": [
+    "bastighg",
+    "papaplatte"
+   ],
+   "basis": "Elternratgeber-Ampel",
+   "url": "https://youtu.be/P832TppLsGk",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher einen Chef wie Monte, der immer recht hat, oder einen wie Knossi, der dich drei Tage in den Big-Brother-Container sperrt?",
+   "a": "Chef Monte",
+   "b": "Chef Knossi",
+   "who": [
+    "montanablack",
+    "knossi"
+   ],
+   "basis": "Immer-recht-Zitat, Big Brother",
+   "url": "https://youtu.be/Mlo4m9-qwyU",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher eine Abi-Rede von Hugo, die nach einem Satz endet, oder von Knossi, der dreißig Minuten nur über Uhren redet?",
+   "a": "Abi-Rede von Hugo",
+   "b": "Abi-Rede von Knossi",
+   "who": [
+    "letshugo",
+    "knossi"
+   ],
+   "basis": "Moderation 'Ich kann nichts', Uhren-Dauerthema",
+   "url": "https://youtu.be/LYU3Ds5u2aw",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher mit Papaplatte ein Fußball-Tippspiel machen, bei dem Schalke ein Stadtteil von Dortmund ist, oder mit Monte ins Stadion nach Spandau?",
+   "a": "Tippspiel mit Platte",
+   "b": "Stadion mit Monte",
+   "who": [
+    "papaplatte",
+    "montanablack"
+   ],
+   "basis": "Fußballwissen von Platte, Spandau-Fan Monte",
+   "url": "https://youtu.be/Ufm2-1Sg8xk",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher Handwerker Hugo, der den Tisch durchsägt, oder Zarbex und Schradin, die den Ölstab nicht treffen?",
+   "a": "Handwerker Hugo",
+   "b": "Zarbex und Schradin",
+   "who": [
+    "letshugo",
+    "zarbex",
+    "schradin"
+   ],
+   "basis": "Tisch zersägt, Werkstatt-Praktikum",
+   "url": "https://youtu.be/nH1CjIpEolg",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher bei Hugo mitfahren, der 27 Fehlerpunkte hat und sich bester Fahrer nennt, oder mit Trymacs über Schlaglöcher im Rentner-Gefährt?",
+   "a": "Mitfahrt mit Hugo",
+   "b": "Rentner-Tour Trymacs",
+   "who": [
+    "letshugo",
+    "trymacs"
+   ],
+   "basis": "27 Fehlerpunkte, Schlagloch-Ausraster",
+   "url": "https://youtu.be/M2moIk-hcOY",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher Familienessen mit Monte, der beim Essen Ruhe braucht, oder mit Trymacs, der alles mit Code Trimax verkauft?",
+   "a": "Familienessen mit Monte",
+   "b": "Familienessen Trymacs",
+   "who": [
+    "montanablack",
+    "trymacs"
+   ],
+   "basis": "Essen-Ruhe, Code Trimax",
+   "url": "https://youtu.be/6G9LfDdWkZ8",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher Urlaub im Camper mit Schradin, der alles langsam angeht, oder mit Zarbex, der unterwegs einfach ein Praktikum anfängt?",
+   "a": "Camper mit Schradin",
+   "b": "Camper mit Zarbex",
+   "who": [
+    "schradin",
+    "zarbex"
+   ],
+   "basis": "Camper Nordsee, Praktikum",
+   "url": "https://youtu.be/ptfDR8XCB-4",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher einen Nachbarn, der seinem Saugroboter Agatha heißt, oder einen, der in jedem Stream fünf Mal sagt, es gibt keinen Podcast?",
+   "a": "Nachbar mit Agatha",
+   "b": "Nachbar Rewi-Podcast",
+   "who": [
+    "montanablack",
+    "rewinside"
+   ],
+   "basis": "Saugroboter Agatha, Rewi-Podcast-Gag",
+   "url": "https://youtu.be/uvvjhZHekpw",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher einen Spieleabend mit Monte, der nach zwei Stunden raged, oder mit Hugo, der nach Platz sechs offline geht?",
+   "a": "Spieleabend Monte",
+   "b": "Spieleabend Hugo",
+   "who": [
+    "montanablack",
+    "letshugo"
+   ],
+   "basis": "Mario Kart Rage",
+   "url": "https://youtu.be/6STqMsyeX_Y",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher Elfmeter mit Rumas Teebeutel-Jubel schauen, oder Willy beim Spiel ohne Headset zusehen?",
+   "a": "Ruma mit Teebeutel",
+   "b": "Willy ohne Headset",
+   "who": [
+    "rumathra",
+    "niklaswilson"
+   ],
+   "basis": "Teebeutel-Jubel, Headset-Weigerung",
+   "url": "https://youtu.be/l1GmLYLL2gM",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher nach Barcelona drei Monate mit Papaplatte ziehen, oder eine Woche mit Monte im Lambo?",
+   "a": "3 Monate Barcelona",
+   "b": "Lambo mit Monte",
+   "who": [
+    "papaplatte",
+    "montanablack"
+   ],
+   "basis": "Barcelona-Setup, Lambo",
+   "url": "https://youtu.be/9EQ5p3RW0QE",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher Rewi als Gast in einem Podcast, den es nicht gibt, oder Papaplatte als DJ auf deiner Party?",
+   "a": "Podcast von Rewi",
+   "b": "DJ Papaplatte",
+   "who": [
+    "rewinside",
+    "papaplatte"
+   ],
+   "basis": "Rewi-Podcast, Platte will DJ werden",
+   "url": "https://youtu.be/sZ-RqtymjDY",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher den Hugo-Clip, in dem Schradin schneller ist, oder den, in dem Hugo schon beim ersten Schlag aufgibt?",
+   "a": "Schradin ist schneller",
+   "b": "Hugo gibt auf",
+   "who": [
+    "schradin",
+    "letshugo"
+   ],
+   "basis": "Sprint und Boxabbruch",
+   "url": "https://youtu.be/l1GmLYLL2gM",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher mit Knossi in die Seilbahn oder mit Trymacs im Rollator-Rennen?",
+   "a": "Seilbahn mit Knossi",
+   "b": "Rollator mit Trymacs",
+   "who": [
+    "knossi",
+    "trymacs"
+   ],
+   "basis": "Hot Food Run, Rentner-Tour",
+   "url": "https://youtu.be/CyDsJM4I0Bk",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher bei Gamescom zehn Sekunden auf den Foto-Timer warten oder bei einem Fantreffen ohne Pause 100 Fotos machen?",
+   "a": "10-Sekunden-Timer",
+   "b": "100 Fotos am Stück",
+   "who": [
+    "montanablack",
+    "letshugo"
+   ],
+   "basis": "Foto-Timer-Rant",
+   "url": "https://youtu.be/3zBaahMTo2I",
+   "chunk": 4
+  },
+  {
+   "say": "Würdest du eher Hugo als Praktikant, der alles filmt, oder Schradin als Praktikant, der alles Rentner nennt?",
+   "a": "Praktikant Hugo",
+   "b": "Praktikant Schradin",
+   "who": [
+    "letshugo",
+    "schradin"
+   ],
+   "basis": "Praktikum-Format",
+   "url": "https://youtu.be/JhoHPthzZ0g",
+   "chunk": 4
+  },
+  {
+   "say": "Wuerdest du lieber mit Chef Strobel in die WG ziehen, der bei jeder Niederlage heult, oder mit Gtime, der nie lauter als Zimmerlautstaerke wird, oder?",
+   "a": "WG mit Chef Strobel",
+   "b": "WG mit Gtime",
+   "who": [
+    "chefstrobel",
+    "gtime"
+   ],
+   "basis": "Chef Strobel jault, Gtime gilt als ruhiger Typ",
+   "url": "https://youtu.be/rnIUOK-paLI",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber, dass Eli deine Abi-Rede auf Englisch haelt, oder dass Willy sie haelt und dabei alle anderen nachmacht, oder?",
+   "a": "Abi-Rede von Eli (Englisch)",
+   "b": "Abi-Rede von Willy",
+   "who": [
+    "eliasn97",
+    "niklaswilson"
+   ],
+   "basis": "Elis Englisch-Gag, Willy imitiert andere",
+   "url": "https://youtu.be/yvaTWufZDDs",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber Ali als Babysitter, der jeden Streit schlichtet, oder Sidney, der mit den Kindern nur Cars guckt, oder?",
+   "a": "Babysitter Ali",
+   "b": "Babysitter Sidney",
+   "who": [
+    "alibumaye",
+    "sidneyeweka"
+   ],
+   "basis": "Ali Streitschlichter, Sidney Cars",
+   "url": "https://youtu.be/TJjDOvA8Wlc",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber Urlaub in Elis Villa mit Urus im Pool machen, oder im Skiurlaub mit Hugo, dessen Tesla du anschieben musst, oder?",
+   "a": "Eli-Villa mit Urus",
+   "b": "Skiurlaub mit Hugo",
+   "who": [
+    "eliasn97",
+    "letshugo"
+   ],
+   "basis": "Villa in Marbella, Hugo Tesla in Tiefgarage",
+   "url": "https://youtu.be/wW1L2mgMqas",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber beim ersten Date neben Willy sitzen, der dir seinen Namen Summer Nick verraet, oder neben Tim Gio, der erst mal seine Yu-Gi-Oh-Karten zeigt, oder?",
+   "a": "Date mit Willy",
+   "b": "Date mit Tim Gio",
+   "who": [
+    "niklaswilson",
+    "timgioh"
+   ],
+   "basis": "Summer-Nick-Gag und Yu-Gi-Oh",
+   "url": "https://youtu.be/zaVCO8_Ivlk",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber ein Familienessen, bei dem Monte Aglio e Olio falsch ausspricht, oder bei dem Ali zwoelf Cheeseburger bestellt, oder?",
+   "a": "Familienessen mit Monte",
+   "b": "Familienessen mit Ali",
+   "who": [
+    "montanablack",
+    "alibumaye"
+   ],
+   "basis": "Aglio-Gag und 12 Cheeseburger",
+   "url": "https://youtu.be/b0rdUpcs--w",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber als Vater sein wie Knossi, der nach einem Tag keinen Bock mehr hat, oder wie Monte, der jedes Geschenk in den Muelleimer wirft, oder?",
+   "a": "Vater wie Knossi",
+   "b": "Vater wie Monte",
+   "who": [
+    "knossi",
+    "montanablack"
+   ],
+   "basis": "Knossi quittet nach einem Tag, Monte wirft Geschenk weg",
+   "url": "https://youtu.be/gZCI9smLXfw",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber Eli als Chef, der Mario-Kart-Cups um 6000 Euro ausruft, oder Chef Strobel, der im Meeting seine Rolex poliert, oder?",
+   "a": "Chef Eli",
+   "b": "Chef Strobel",
+   "who": [
+    "eliasn97",
+    "chefstrobel"
+   ],
+   "basis": "Eligella Cup, Rolex-Polieren",
+   "url": "https://youtu.be/D9XkTrFdcAE",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber Englisch bei Eli lernen, oder Erdkunde bei Tim Gio, der die Bundeslaender von Google abliest, oder?",
+   "a": "Englisch bei Eli",
+   "b": "Erdkunde bei Tim Gio",
+   "who": [
+    "eliasn97",
+    "timgioh"
+   ],
+   "basis": "Elis Englisch, Tim liest Antworten ab",
+   "url": "https://youtu.be/nYBiwDfAcNk",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber Trymacs als Nachbarn, der Musik hasst, oder Mali, der nachts Beats baut, oder?",
+   "a": "Nachbar Trymacs",
+   "b": "Nachbar Mali",
+   "who": [
+    "trymacs",
+    "marli"
+   ],
+   "basis": "Trymacs hasst Musik, Mali macht Beats",
+   "url": "https://youtu.be/VOUTEQYv5BI",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber mit Gtime im Mustang fahren, oder mit Hugo im Tesla, den du anschieben musst, oder?",
+   "a": "Gtime im Mustang",
+   "b": "Hugo im Tesla",
+   "who": [
+    "gtime",
+    "letshugo"
+   ],
+   "basis": "Mustang-Liebe, Tesla-Tiefgarage",
+   "url": "https://youtu.be/U01jEysZqys",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber sieben Stunden Das rote Pferd wie Trymacs hoeren, oder sieben Stunden Chef Strobel im Headset zuhoeren, oder?",
+   "a": "7 Std. Das rote Pferd",
+   "b": "7 Std. Chef Strobel",
+   "who": [
+    "trymacs",
+    "chefstrobel"
+   ],
+   "basis": "Trymacs Strafplaylist und Chef Strobel Gelaber",
+   "url": "https://youtu.be/-pgJDW1UPzc",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber wie Monte deinen Lambo im Casino verzocken, oder wie Monte jedes Geschenk wegwerfen, oder?",
+   "a": "Lambo im Casino verzocken",
+   "b": "Geschenke wegwerfen",
+   "who": [
+    "montanablack",
+    "montanablack"
+   ],
+   "basis": "Lambo-Gag und Geschenk in den Muelleimer",
+   "url": "https://youtu.be/Vaoxg9KdHXE",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber in der Schule neben Sidney sitzen, den alle Willy nennen, oder neben Willy, der Summer Nick heisst, oder?",
+   "a": "Neben Sidney",
+   "b": "Neben Willy",
+   "who": [
+    "sidneyeweka",
+    "niklaswilson"
+   ],
+   "basis": "Verwechslungs-Gag",
+   "url": "https://youtu.be/rnIUOK-paLI",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber im Team von Platte spielen, der als Erster ausscheidet, oder von Chef Strobel, der nach jeder Niederlage heult, oder?",
+   "a": "Team Platte",
+   "b": "Team Chef Strobel",
+   "who": [
+    "papaplatte",
+    "chefstrobel"
+   ],
+   "basis": "Kings League Aus, Jaulen",
+   "url": "https://youtu.be/Lf1AuHFCCpo",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber, dass Ali im Jogginganzug zu deiner Hochzeit kommt, oder dass Rohat dir dort eine Mark-Gebauer-Uhr andreht, oder?",
+   "a": "Ali im Jogginganzug",
+   "b": "Rohat mit Uhr",
+   "who": [
+    "alibumaye",
+    "rohat"
+   ],
+   "basis": "Hochzeits-Meme, Rohat Gebauer",
+   "url": "https://youtu.be/TJjDOvA8Wlc",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber im Restaurant von Redo essen und das Armband-Geklacker hoeren, oder bei Gtime, der eine Kochausbildung hat, oder?",
+   "a": "Essen bei Redo",
+   "b": "Essen bei Gtime",
+   "who": [
+    "redo",
+    "gtime"
+   ],
+   "basis": "Redo Armbaender und Gastro, Gtime Kochen",
+   "url": "https://youtu.be/rnIUOK-paLI",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber Praktikum bei Monte, der um 18 Uhr eine Dropbox schickt und um 19 Uhr das fertige Video will, oder bei Knossi, der nach einem Tag keinen Bock mehr hat, oder?",
+   "a": "Praktikum bei Monte",
+   "b": "Praktikum bei Knossi",
+   "who": [
+    "montanablack",
+    "knossi"
+   ],
+   "basis": "Monte Dropbox, Knossi quittet",
+   "url": "https://youtu.be/b0rdUpcs--w",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber mit Mali einen Abend lang Minecraft-Dorfbewohner imitieren, oder mit Tim Gio Yu-Gi-Oh-Karten sortieren, oder?",
+   "a": "Abend mit Mali",
+   "b": "Abend mit Tim Gio",
+   "who": [
+    "marli",
+    "timgioh"
+   ],
+   "basis": "Mali Villager, Tim Yu-Gi-Oh",
+   "url": "https://youtu.be/zgQp84n4bvI",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber mit Knossi ins Hotel, der von der Rezeption ruft, Herr Knossi ist am Telefon, oder mit Eli, der beim Check-in fragt, was der Private Pool mehr kostet, oder?",
+   "a": "Hotel mit Knossi",
+   "b": "Hotel mit Eli",
+   "who": [
+    "knossi",
+    "eliasn97"
+   ],
+   "basis": "Knossi Festnetz-Anruf, Eli Englisch",
+   "url": "https://youtu.be/t2xI4LhHbyI",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber mit Willy zocken, der nur einen Kopfhoerer traegt, damit er cool bleibt, oder mit Trymacs, der nach 25 Sekunden die Musik hasst, oder?",
+   "a": "Zocken mit Willy",
+   "b": "Zocken mit Trymacs",
+   "who": [
+    "niklaswilson",
+    "trymacs"
+   ],
+   "basis": "Willy Kopfhoerer, Trymacs Musik",
+   "url": "https://youtu.be/LFJpX8aS7T0",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber, dass Ali den Elternabend schlichtet, oder dass Schradin im Tarnnetz-Outfit kommt, oder?",
+   "a": "Elternabend mit Ali",
+   "b": "Elternabend mit Schradin",
+   "who": [
+    "alibumaye",
+    "schradin"
+   ],
+   "basis": "Ali Streitschlichter, Schradin Tarnnetz",
+   "url": "https://youtu.be/TJjDOvA8Wlc",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber im Buero neben jemandem sitzen, der jeden Satz mit weisst du beendet wie Redo, oder jeden Satz mit Bro und Real Talk wie Trymacs, oder?",
+   "a": "Buero neben Redo",
+   "b": "Buero neben Trymacs",
+   "who": [
+    "redo",
+    "trymacs"
+   ],
+   "basis": "Wiste-Gag, Real Talk",
+   "url": "https://youtu.be/U01jEysZqys",
+   "chunk": 5
+  },
+  {
+   "say": "Wuerdest du lieber, dass dein Gesicht in KI-Videos auftaucht wie bei Platte, oder dass du Opfer von TikTok-Memes wirst wie Trymacs, oder?",
+   "a": "KI-Videos wie Platte",
+   "b": "Memes wie Trymacs",
+   "who": [
+    "papaplatte",
+    "trymacs"
+   ],
+   "basis": "Platte AI Videos, Trymacs KI-Trend",
+   "url": "https://youtu.be/Vaoxg9KdHXE",
+   "chunk": 5
+  },
+  {
+   "say": "Würdest du lieber mit Trymacs essen gehen, der alles ohne Gemüse bestellt, oder mit Niklas Wilson, der jedes Gericht mit dir teilen will?",
+   "a": "Trymacs: nie Gemüse",
+   "b": "Niklas: alles teilen",
+   "who": [
+    "trymacs",
+    "niklaswilson"
+   ],
+   "basis": "Picky-Eater-Brüder, taktische Restaurantbestellung, Gemüse-Panik",
+   "url": "https://youtu.be/rzFPkHuCOEw",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Familienessen mit Montana Black, der sagt, beim Essen stört man niemanden, oder mit Trymacs, der den Salat zurückgehen lässt?",
+   "a": "Monte: bei Essen Ruhe",
+   "b": "Trymacs: kein Gemüse",
+   "who": [
+    "montanablack",
+    "trymacs"
+   ],
+   "basis": "Montes Essensregel, Trymacs Gemüsehass",
+   "url": "https://youtu.be/2t-HxkvHgcs",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber neben Eli wohnen, der nachts ausrastet, oder neben Sidney, der bei jedem Fehler schreit?",
+   "a": "Nachbar Eli: nachts Wut",
+   "b": "Nachbar Sidney: Geschrei",
+   "who": [
+    "eliasn97",
+    "sidneyeweka"
+   ],
+   "basis": "Eli: ich bleibe ruhig, dann Ausraster; Sidney Geschrei",
+   "url": "https://youtu.be/FnOL7hnvFZQ",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber G-Time als Koch im Restaurant haben, wo die Pizza eine Stunde braucht, oder Trymacs, der alles aus der Mikrowelle macht?",
+   "a": "G-Time: Pizza nach 53 Min",
+   "b": "Trymacs: Mikrowellen-Burger",
+   "who": [
+    "gtime",
+    "trymacs"
+   ],
+   "basis": "G-Time gelernter Koch aber langsam; Trymacs isst Burger aus der Mikrowelle",
+   "url": "https://youtu.be/EZzcPFkSnu4",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Urlaub mit G-Time auf dem Liegerad über die Autobahn machen, oder mit Knossi auf Safari mit Löwe neben dir?",
+   "a": "G-Time: Liegerad Autobahn",
+   "b": "Knossi: Löwe 10 cm neben dir",
+   "who": [
+    "gtime",
+    "knossi"
+   ],
+   "basis": "Komoot-Route über die Autobahn; Löwe läuft an Knossi vorbei",
+   "url": "https://youtu.be/osoUtXL2OWA",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Mathe-Nachhilfe von Ali bekommen, bei dem der Dezember 30 Tage hat, oder Geografie von Hugo, der Mallorca bei England sucht?",
+   "a": "Ali: Dezember 30 Tage",
+   "b": "Hugo: Mallorca bei England",
+   "who": [
+    "alibumaye",
+    "letshugo"
+   ],
+   "basis": "Wissensquiz Dezember; Mallorca-Fail",
+   "url": "https://youtu.be/1jbxFsAN5yE",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber mit Papaplatte in einer WG leben und seine Tastatur sehen, oder mit Hugo ohne Fenster und Steckdose?",
+   "a": "Platte: Haare in der Tastatur",
+   "b": "Hugo: kein Fenster",
+   "who": [
+    "papaplatte",
+    "letshugo"
+   ],
+   "basis": "Papa-Platte-Tastatur eklig; Hugos Zimmer ohne Fenster",
+   "url": "https://youtu.be/L-V5sc8uXWs",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber die Abi-Rede von Niklas Wilson hören, der bei jedem Tor ausrastet, oder von Monte, den Fußball null interessiert?",
+   "a": "Niklas: rastet aus",
+   "b": "Monte: interessiert null",
+   "who": [
+    "niklaswilson",
+    "montanablack"
+   ],
+   "basis": "Willy Watch Party, Monte: WM interessiert null",
+   "url": "https://youtu.be/OVLSGtiEoHM",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber dich wie Tim Gio selbst zur Party einladen, oder gar nicht eingeladen werden wie bei den Summer Games?",
+   "a": "Selbst einladen wie Tim",
+   "b": "Gar nicht eingeladen",
+   "who": [
+    "timgioh",
+    "eliasn97"
+   ],
+   "basis": "Tim lädt sich selbst bei Fitnercraft ein; Summer Games ohne ihn",
+   "url": "https://youtu.be/EZzcPFkSnu4",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber ein Date mit Tim Gio, der dir Yu-Gi-Oh erklärt, oder mit Trymacs, der nur aufs Handy schaut?",
+   "a": "Tim: Yu-Gi-Oh Vortrag",
+   "b": "Trymacs: nur am Handy",
+   "who": [
+    "timgioh",
+    "trymacs"
+   ],
+   "basis": "Yu-Gi-Oh Content; Trymacs am Handy",
+   "url": "https://youtu.be/Coglj3tD31g",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Klassenfahrt mit Rohat machen, der überall Hausverbot hat, oder mit Schradin, der ohne Führerschein da steht?",
+   "a": "Rohat: Hausverbot Steckbrief",
+   "b": "Schradin: Führerschein weg",
+   "who": [
+    "rohat",
+    "schradin"
+   ],
+   "basis": "Gamescom-Steckbrief; Schradins Führerschein",
+   "url": "https://youtu.be/attuXUC5FrI",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Babysitter Eli haben, der nach dem Einschlafen des Kindes beim Headset ausrastet, oder Trymacs, der mit dem Kind nur Clash Royale spielt?",
+   "a": "Eli: Ausraster am Headset",
+   "b": "Trymacs: nur Clash Royale",
+   "who": [
+    "eliasn97",
+    "trymacs"
+   ],
+   "basis": "Elis Technik-Ausraster; Trymacs Clash Royale",
+   "url": "https://youtu.be/FnOL7hnvFZQ",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Chef Monte, der beim Essen nicht gestört werden will, oder Chef G-Time, bei dem alle über eine Stunde auf ihr Essen warten?",
+   "a": "Monte: nicht stören beim Essen",
+   "b": "G-Time: 53 Min Wartezeit",
+   "who": [
+    "montanablack",
+    "gtime"
+   ],
+   "basis": "Monte am Essen, Opa; Pizzaladen wartet",
+   "url": "https://youtu.be/1jbxFsAN5yE",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber im Fitnessstudio neben Eli stehen, der Hampelmänner liebt, oder neben Niklas Wilson, der Tomaten meidet?",
+   "a": "Eli: Hampelmänner",
+   "b": "Niklas: kein Gemüse",
+   "who": [
+    "eliasn97",
+    "niklaswilson"
+   ],
+   "basis": "Eli Gym 6 Monate Hampelmänner",
+   "url": "https://youtu.be/FnOL7hnvFZQ",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber mit Marli zusammen im Duo streamen, oder mit Trymacs, der sonst mit niemandem streamt?",
+   "a": "Marli: Duo-Stream",
+   "b": "Trymacs: Einzelgänger",
+   "who": [
+    "marli",
+    "trymacs"
+   ],
+   "basis": "Marli zum ersten Mal live mit Trymacs",
+   "url": "https://youtu.be/Coglj3tD31g",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Lehrer Willy, der bei Fehlern schreit, oder Lehrer Tim Gio, der jeden Fehler mit 'Ich habe Spaß' abtut?",
+   "a": "Willy: Wutausbruch",
+   "b": "Tim: Hauptsache Spaß",
+   "who": [
+    "niklaswilson",
+    "timgioh"
+   ],
+   "basis": "Willy rastet; Tim: spiele auf meine Art",
+   "url": "https://youtu.be/k9Cq3kNt1_k",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Opa Schradin als Babysitter haben, der kein Englisch spricht, oder Zarbex, der nicht weiß, dass Brasilien in Südamerika liegt?",
+   "a": "Schradin: Englisch-Fail",
+   "b": "Zarbex: Hauptstadt Paraguay",
+   "who": [
+    "schradin",
+    "zarbex"
+   ],
+   "basis": "Schradins Englisch; Zarbex Geografie",
+   "url": "https://youtu.be/NROxJcmsKbA",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber mit Knossi nach Panama reisen und dein Trauma bewältigen, oder mit Monte in Holland, der beim Essen genervt ist?",
+   "a": "Knossi: Panama-Trauma",
+   "b": "Monte: Holland-Tour",
+   "who": [
+    "knossi",
+    "montanablack"
+   ],
+   "basis": "Knossi Panama; Monte Holland-Tour",
+   "url": "https://youtu.be/MPQmD5nhZP8",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber als Vater mit Eli Pfandflaschen sammeln, oder mit Trymacs Gemüse verstecken?",
+   "a": "Eli: Pfandflaschen-Millionär",
+   "b": "Trymacs: Gemüse verstecken",
+   "who": [
+    "eliasn97",
+    "trymacs"
+   ],
+   "basis": "Eli sammelte als Kind Pfand; Trymacs Gemüsehass",
+   "url": "https://youtu.be/21LJRFHYtp0",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber im Bewerbungsgespräch wie Tim Gio im Old-Money-Look erscheinen, oder wie G-Time im Supreme-Lambo-Mantel?",
+   "a": "Tim: Old Money Look",
+   "b": "G-Time: Lambo-Jacke",
+   "who": [
+    "timgioh",
+    "gtime"
+   ],
+   "basis": "Tim Old-Money-Outfit; G-Time Lambo-Jacke",
+   "url": "https://youtu.be/HGXzCSxHmCI",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Mitbewohner Rohat haben, der 8 Euro pro Valorant-Runde zahlt, oder Marli, der dir ständig die Nummer anderer gibt?",
+   "a": "Rohat: Mitspieler mieten",
+   "b": "Marli: Dauer-Troll",
+   "who": [
+    "rohat",
+    "marli"
+   ],
+   "basis": "Rohat zahlt für Mitspieler; Marli Troll-Ruf",
+   "url": "https://youtu.be/R4CmQ93T80E",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber Schiedsrichter Willy bei der Watch Party haben, oder Knossi, der bei Löwen ruhig bleibt?",
+   "a": "Willy: Watch Party Panik",
+   "b": "Knossi: bleibt ruhig",
+   "who": [
+    "niklaswilson",
+    "knossi"
+   ],
+   "basis": "Willy Fußball; Knossi Löwe",
+   "url": "https://youtu.be/ivv9RekQQzk",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber eine Radtour mit Trymacs machen, der nach 5 km nervt, oder mit G-Time, der sich verbrennt und weiterfährt?",
+   "a": "Trymacs: nervt",
+   "b": "G-Time: Sonnenbrand",
+   "who": [
+    "trymacs",
+    "gtime"
+   ],
+   "basis": "Chat: Trymacs nervt am meisten; G-Time Sonnenbrand Liegeradtour",
+   "url": "https://youtu.be/dghueJEooK0",
+   "chunk": 6
+  },
+  {
+   "say": "Würdest du lieber zum Spanischkurs mit Eli gehen, der nur Mi nombre kann, oder mit Schradin, der I'm an international Streamer sagt?",
+   "a": "Eli: Mi nombre",
+   "b": "Schradin: international Streamer",
+   "who": [
+    "eliasn97",
+    "schradin"
+   ],
+   "basis": "Eli lernt Spanisch; Schradin Englisch",
+   "url": "https://youtu.be/UnG3zfeJfcM",
+   "chunk": 6
+  }
+ ],
+ "avoid": [
+  {
+   "who": "montanablack",
+   "topic": "Glücksspiel/Kisten öffnen als Sucht",
+   "why": "Sucht/Gesundheit, nicht witzig machen"
+  },
+  {
+   "who": "montanablack",
+   "topic": "Demenz/Alzheimer Gags",
+   "why": "Krankheit"
+  },
+  {
+   "who": "papaplatte",
+   "topic": "Tinder/Frauen, Dating",
+   "why": "Beziehung/sexuelle Andeutungen"
+  },
+  {
+   "who": "knossi",
+   "topic": "Lebensmittelvergiftung, Krankenhaus, Haartransplantation, Glatze",
+   "why": "Gesundheit/Körper"
+  },
+  {
+   "who": "rohat",
+   "topic": "Körpergröße",
+   "why": "Body shaming"
+  },
+  {
+   "who": "tanzverbot",
+   "topic": "Steuerschulden, häusliche Gewalt Vorwurf",
+   "why": "Rechtsfälle/Finanzen"
+  },
+  {
+   "who": "trymacs",
+   "topic": "Familie, Kinder, Lamborghini-Jugend",
+   "why": "Familie/Minderjährige"
+  },
+  {
+   "who": "letshugo",
+   "topic": "Mutter tot/Vater krank, Stimmbänder",
+   "why": "Familie/Gesundheit"
+  },
+  {
+   "who": "letshugo",
+   "topic": "Haartransplantation, ADHS, Zahnschmerzen anderer",
+   "why": "Gesundheit"
+  },
+  {
+   "who": "knossi",
+   "topic": "Zahnschmerzen vor dem Spiel (20240728)",
+   "why": "Gesundheit"
+  },
+  {
+   "who": "montanablack",
+   "topic": "Bandscheiben, Schrittlimit, Familie (Sohn, Kilo)",
+   "why": "Gesundheit/Familie"
+  },
+  {
+   "who": "eliasn97",
+   "topic": "Verlobung/Freundin (20240704)",
+   "why": "echte Beziehung"
+  },
+  {
+   "who": "trymacs",
+   "topic": "Körperbau/Gewicht (Sprüche über 'fett')",
+   "why": "Body Shaming"
+  },
+  {
+   "who": "tomatolix",
+   "topic": "Drogen- und Sexvideos",
+   "why": "sexuell/Drogen"
+  },
+  {
+   "who": "schradin",
+   "topic": "sexuelle Altersspitzen",
+   "why": "sexuelle Behauptungen"
+  },
+  {
+   "who": "alibumaye",
+   "topic": "Türkei/EM, Kinder filmen",
+   "why": "ethnisch/Minderjährige"
+  },
+  {
+   "who": "anzeigenhauptmeister",
+   "topic": "Anzeigen, Behörden, Rechtsfälle",
+   "why": "Rechtliches/Privatperson"
+  },
+  {
+   "who": "montanablack",
+   "topic": "Jugendliche, die Fans sind (Leo, Heidepark)",
+   "why": "Minderjährige"
+  },
+  {
+   "who": "montanablack",
+   "topic": "Stern TV und Mobbing an Schulen, Gewaltvergangenheit",
+   "why": "Mobbing/Gewalt, sensibles Thema"
+  },
+  {
+   "who": "montanablack",
+   "topic": "Rassismus-Vorwürfe, TikTok-Videos",
+   "why": "Vorwürfe/rechtlich"
+  },
+  {
+   "who": "knossi",
+   "topic": "Frau, Dauergag 'zweimal gepumpt', Kinder",
+   "why": "Familie und Partnerschaft"
+  },
+  {
+   "who": "zarbex",
+   "topic": "Porno/Monitor-Aussagen",
+   "why": "Sexuelle Aussagen über reale Person"
+  },
+  {
+   "who": "schradin",
+   "topic": "Mutter-Witze, Schlaganfall-Anspielung",
+   "why": "Familie/Gesundheit"
+  },
+  {
+   "who": "rohat",
+   "topic": "Rose/Beziehung, Diss-Track, Operation der Oma, Krebs",
+   "why": "Partner/Gesundheit/Familie"
+  },
+  {
+   "who": "chefstrobel",
+   "topic": "Dating mit mehreren Frauen",
+   "why": "Sexuelle/Beziehungs-Claims"
+  },
+  {
+   "who": "sidneyeweka",
+   "topic": "Thailand-Witz",
+   "why": "Sexuelle Aussage"
+  },
+  {
+   "who": "letshugo",
+   "topic": "Krebs-Spruch über Bild, Gesundheitsthemen",
+   "why": "Gesundheit"
+  },
+  {
+   "who": "stefanhinkelmann",
+   "topic": "Survival-Lügen, Eiger-Nordwand",
+   "why": "Reale Person, Vorwürfe"
+  },
+  {
+   "who": "papaplatte",
+   "topic": "Körpergröße als Hauptwitz",
+   "why": "Body shaming"
+  },
+  {
+   "who": "zarbex",
+   "topic": "Gewicht, Bodycount, Mutter von Schradin",
+   "why": "Body Shaming, Familienmitglieder, sexuelle Anspielungen"
+  },
+  {
+   "who": "trymacs",
+   "topic": "Flitterwochen, Frau",
+   "why": "echte Beziehung/Partner"
+  },
+  {
+   "who": "niklaswilson",
+   "topic": "Kreuzbandriss",
+   "why": "Gesundheit"
+  },
+  {
+   "who": "rumathra",
+   "topic": "Husten, Zähne, Sucht",
+   "why": "Gesundheit"
+  },
+  {
+   "who": "montanablack",
+   "topic": "Psychose-Spekulation zu Agatha",
+   "why": "mentale Gesundheit"
+  },
+  {
+   "who": "knossi",
+   "topic": "Kinderwunsch, Altersabstand zu Partnerinnen",
+   "why": "Familie, Beziehungen"
+  },
+  {
+   "who": "papaplatte",
+   "topic": "Nacktscans",
+   "why": "sexuell"
+  },
+  {
+   "who": "chefstrobel",
+   "topic": "Frauen, Wegwerf-Handys",
+   "why": "Beziehungen/Verleumdung"
+  },
+  {
+   "who": "letshugo",
+   "topic": "Waffenschein Drohung gegen Kinder",
+   "why": "Minderjährige/Gewalt"
+  },
+  {
+   "who": "rewinside",
+   "topic": "Koma/Unfall-Gerücht",
+   "why": "Gesundheit"
+  },
+  {
+   "who": "mark gebauer",
+   "topic": "Psychose, Instagram-Tirade",
+   "why": "mentale Gesundheit"
+  },
+  {
+   "who": "montanablack",
+   "topic": "Agatha als Psychose/Einbildung",
+   "why": "Psychische Gesundheit"
+  },
+  {
+   "who": "montanablack",
+   "topic": "Vape-Sucht, nachts am Vape ziehen",
+   "why": "Sucht/Gesundheit"
+  },
+  {
+   "who": "knossi",
+   "topic": "Vape-Sucht, Anti-Vape-Werbung, Zaehne",
+   "why": "Gesundheit/Koerper"
+  },
+  {
+   "who": "knossi",
+   "topic": "Tanga/BH-Szene, 'zweimal abgepumpt'",
+   "why": "Sexuelle Aussagen ueber reale Person"
+  },
+  {
+   "who": "rewinside",
+   "topic": "Gehirnerschuetterung/Unfall bei Red Bull",
+   "why": "Verletzung/Gesundheit"
+  },
+  {
+   "who": "alibumaye",
+   "topic": "Gewicht, 'Schwabbeltitte', Clan-Kriminalitaet-Witze",
+   "why": "Body Shaming und Klischees"
+  },
+  {
+   "who": "zarbex",
+   "topic": "Gewicht/Thumbnail-Fett-Streit, Julia",
+   "why": "Body Shaming, Partnerin"
+  },
+  {
+   "who": "gtime",
+   "topic": "Fuesse/Fetisch-Frage",
+   "why": "Sexuelle Aussage"
+  },
+  {
+   "who": "schradin",
+   "topic": "Sauna/Orientierungs-Gag, Botox",
+   "why": "Sexuelle Orientierung, Koerper"
+  },
+  {
+   "who": "chefstrobel",
+   "topic": "Bodycount, Gefaengnis-Gags, 'Chef Strobel ist tot' Bait",
+   "why": "Sexuelle Aussagen, Rechtliches"
+  },
+  {
+   "who": "trymacs",
+   "topic": "Melina, Schwangerschaft, Freundin",
+   "why": "Reale Beziehung/Familie"
+  },
+  {
+   "who": "letshugo",
+   "topic": "Freundin-Leak, Date mit Streamerin",
+   "why": "Reale Beziehung"
+  },
+  {
+   "who": "timgioh",
+   "topic": "Fleck auf der Hose, Stimme als 'Kind'",
+   "why": "Koerperliches, Alters-Wirkung"
+  },
+  {
+   "who": "niklaswilson",
+   "topic": "Freundin",
+   "why": "Reale Beziehung"
+  },
+  {
+   "who": "marli",
+   "topic": "Mali Vater / WhatsApp",
+   "why": "Familienmitglied"
+  },
+  {
+   "who": "rumathra",
+   "topic": "Kotzen auf dem Fussballplatz, Rumathra-Merch",
+   "why": "Gesundheit, zu viel Rumathra"
+  },
+  {
+   "who": "knossi",
+   "topic": "Rauchstopp, Krebs, Krankheit",
+   "why": "Gesundheit und Krankheit"
+  },
+  {
+   "who": "montanablack",
+   "topic": "Depression, Vater, Familie",
+   "why": "psychische Gesundheit und Familie"
+  },
+  {
+   "who": "eliasn97",
+   "topic": "Körpergröße 1,50 m",
+   "why": "Body-Shaming"
+  },
+  {
+   "who": "trymacs",
+   "topic": "Essstörung, Gewicht, Beef mit Chef Strobel",
+   "why": "Gesundheit, Mobbing-Konflikt"
+  },
+  {
+   "who": "alibumaye",
+   "topic": "Gewichts- und Gummibärchen-Gags",
+   "why": "Body-Shaming"
+  },
+  {
+   "who": "timgioh",
+   "topic": "Freundin Julia",
+   "why": "echte Beziehung"
+  },
+  {
+   "who": "letshugo",
+   "topic": "Schwangerschaft von Lea, Papa werden",
+   "why": "Familie, Beziehung"
+  },
+  {
+   "who": "rohat",
+   "topic": "Ex Bibbii",
+   "why": "echte Beziehung"
+  },
+  {
+   "who": "chefstrobel",
+   "topic": "Mutter, Tür, Krebs",
+   "why": "Familie, Krankheit"
+  },
+  {
+   "who": "zarbex",
+   "topic": "Gewicht, Bart ab, fett",
+   "why": "Body-Shaming"
+  },
+  {
+   "who": "schradin",
+   "topic": "Alter und Aussehen als Beleidigung",
+   "why": "Body-Shaming Richtung Alter, besser mild halten"
+  },
+  {
+   "who": "marli",
+   "topic": "Kopf rasiert, Anruf Verliebtheit",
+   "why": "sexuelle Andeutung und Körper"
+  },
+  {
+   "who": "rumathra",
+   "topic": "Vater, Husten, Container",
+   "why": "Familie, Gesundheit"
+  }
+ ]
+}
