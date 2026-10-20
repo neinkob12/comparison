@@ -314,6 +314,39 @@
    "img": {
     "b": "streamers/extra/trymacs_goth.jpg"
    }
+  },
+  {
+   "id": "koch_babysitter",
+   "src": "claude_v2",
+   "say": "G-Time kocht für dich, oder TimGioh passt auf deine Kinder auf?",
+   "a": "G-Time als Koch",
+   "b": "TimGioh als Babysitter",
+   "who": [
+    "gtime",
+    "timgioh"
+   ]
+  },
+  {
+   "id": "wg_wahl",
+   "src": "claude_v2",
+   "say": "Eine WG mit Willy und Sidney, oder eine WG mit Marli und Ali Bumaye?",
+   "a": "WG mit Willy & Sidney",
+   "b": "WG mit Marli & Ali",
+   "who": [
+    "niklaswilson",
+    "marli"
+   ]
+  },
+  {
+   "id": "abirede",
+   "src": "claude_v2",
+   "say": "Papaplatte schreibt deine Abi-Rede, oder Trymacs hält sie?",
+   "a": "Papaplatte schreibt",
+   "b": "Trymacs hält sie",
+   "who": [
+    "papaplatte",
+    "trymacs"
+   ]
   }
  ]
 }
