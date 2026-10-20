@@ -1,0 +1,620 @@
+{
+ "id": "q06",
+ "format": "quiz",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "fps": 30,
+ "durationInFrames": 1710,
+ "music": "music/ticktack.mp3",
+ "items": [
+  {
+   "answer": "Spanisch"
+  },
+  {
+   "answer": "Elefant"
+  },
+  {
+   "answer": "Luigi"
+  },
+  {
+   "answer": "Biber"
+  },
+  {
+   "answer": "München"
+  },
+  {
+   "answer": "Oberschenkel"
+  },
+  {
+   "answer": "Blut"
+  },
+  {
+   "answer": "5"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/q06/00_intro.mp3",
+   "words": [
+    {
+     "w": "Allgemeinwissen",
+     "s": 0,
+     "e": 19
+    },
+    {
+     "w": "Quiz!",
+     "s": 20,
+     "e": 31
+    },
+    {
+     "w": "Wenn",
+     "s": 34,
+     "e": 38
+    },
+    {
+     "w": "du",
+     "s": 38,
+     "e": 40
+    },
+    {
+     "w": "acht",
+     "s": 42,
+     "e": 48
+    },
+    {
+     "w": "von",
+     "s": 49,
+     "e": 52
+    },
+    {
+     "w": "acht",
+     "s": 54,
+     "e": 58
+    },
+    {
+     "w": "schaffst,",
+     "s": 59,
+     "e": 69
+    },
+    {
+     "w": "bist",
+     "s": 70,
+     "e": 75
+    },
+    {
+     "w": "du",
+     "s": 75,
+     "e": 77
+    },
+    {
+     "w": "schlauer",
+     "s": 79,
+     "e": 87
+    },
+    {
+     "w": "als",
+     "s": 88,
+     "e": 92
+    },
+    {
+     "w": "neunzig",
+     "s": 94,
+     "e": 102
+    },
+    {
+     "w": "Prozent.",
+     "s": 103,
+     "e": 121
+    }
+   ],
+   "speak": 123,
+   "title": "8 von 8 = schlauer als 90 %",
+   "sub": "",
+   "duration": 153,
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 37
+  },
+  {
+   "kind": "q",
+   "n": 1,
+   "say": "Welche Sprache spricht man in Mexiko?",
+   "answer": "Spanisch",
+   "bg": "bg/waldweg.mp4",
+   "bgFrom": 49,
+   "audio": "audio/q06/01_q.mp3",
+   "words": [
+    {
+     "w": "Welche",
+     "s": 0,
+     "e": 7
+    },
+    {
+     "w": "Sprache",
+     "s": 8,
+     "e": 17
+    },
+    {
+     "w": "spricht",
+     "s": 18,
+     "e": 25
+    },
+    {
+     "w": "man",
+     "s": 26,
+     "e": 28
+    },
+    {
+     "w": "in",
+     "s": 30,
+     "e": 31
+    },
+    {
+     "w": "Mexiko?",
+     "s": 33,
+     "e": 50
+    }
+   ],
+   "speak": 52,
+   "timer": 69,
+   "answerAudio": "audio/q06/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "Spanisch",
+     "s": 0,
+     "e": 29
+    }
+   ],
+   "revealAt": 121,
+   "duration": 182
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "say": "Welches ist das größte Tier der Welt?",
+   "answer": "Elefant",
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 263,
+   "audio": "audio/q06/02_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "ist",
+     "s": 10,
+     "e": 13
+    },
+    {
+     "w": "das",
+     "s": 13,
+     "e": 16
+    },
+    {
+     "w": "größte",
+     "s": 18,
+     "e": 26
+    },
+    {
+     "w": "Tier",
+     "s": 28,
+     "e": 33
+    },
+    {
+     "w": "der",
+     "s": 34,
+     "e": 36
+    },
+    {
+     "w": "Welt?",
+     "s": 37,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q06/02_a.mp3",
+   "answerWords": [
+    {
+     "w": "Elefant",
+     "s": 0,
+     "e": 21
+    }
+   ],
+   "revealAt": 123,
+   "duration": 176
+  },
+  {
+   "kind": "q",
+   "n": 3,
+   "say": "Wie heißt der Bruder von Super Mario?",
+   "answer": "Luigi",
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 54,
+   "audio": "audio/q06/03_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 6,
+     "e": 11
+    },
+    {
+     "w": "der",
+     "s": 12,
+     "e": 14
+    },
+    {
+     "w": "Bruder",
+     "s": 15,
+     "e": 22
+    },
+    {
+     "w": "von",
+     "s": 23,
+     "e": 26
+    },
+    {
+     "w": "Super",
+     "s": 27,
+     "e": 33
+    },
+    {
+     "w": "Mario?",
+     "s": 34,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q06/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "Luigi",
+     "s": 0,
+     "e": 21
+    }
+   ],
+   "revealAt": 123,
+   "duration": 176
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "say": "Welches Tier baut Dämme?",
+   "answer": "Biber",
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 122,
+   "audio": "audio/q06/04_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Tier",
+     "s": 10,
+     "e": 15
+    },
+    {
+     "w": "baut",
+     "s": 16,
+     "e": 21
+    },
+    {
+     "w": "Dämme?",
+     "s": 22,
+     "e": 36
+    }
+   ],
+   "speak": 37,
+   "timer": 69,
+   "answerAudio": "audio/q06/04_a.mp3",
+   "answerWords": [
+    {
+     "w": "Biber",
+     "s": 0,
+     "e": 23
+    }
+   ],
+   "revealAt": 106,
+   "duration": 160
+  },
+  {
+   "kind": "q",
+   "n": 5,
+   "say": "Wie heißt die Hauptstadt von Bayern?",
+   "answer": "München",
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 228,
+   "audio": "audio/q06/05_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "die",
+     "s": 11,
+     "e": 13
+    },
+    {
+     "w": "Hauptstadt",
+     "s": 14,
+     "e": 25
+    },
+    {
+     "w": "von",
+     "s": 26,
+     "e": 30
+    },
+    {
+     "w": "Bayern?",
+     "s": 31,
+     "e": 46
+    }
+   ],
+   "speak": 48,
+   "timer": 69,
+   "answerAudio": "audio/q06/05_a.mp3",
+   "answerWords": [
+    {
+     "w": "München",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 117,
+   "duration": 174
+  },
+  {
+   "kind": "q",
+   "n": 6,
+   "say": "Wie heißt der längste Knochen im Körper?",
+   "answer": "Oberschenkel",
+   "bg": "bg/matterhorn.mp4",
+   "bgFrom": 206,
+   "audio": "audio/q06/06_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 6,
+     "e": 11
+    },
+    {
+     "w": "der",
+     "s": 11,
+     "e": 14
+    },
+    {
+     "w": "längste",
+     "s": 15,
+     "e": 23
+    },
+    {
+     "w": "Knochen",
+     "s": 24,
+     "e": 32
+    },
+    {
+     "w": "im",
+     "s": 33,
+     "e": 35
+    },
+    {
+     "w": "Körper?",
+     "s": 36,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q06/06_a.mp3",
+   "answerWords": [
+    {
+     "w": "Oberschenkel",
+     "s": 0,
+     "e": 32
+    }
+   ],
+   "revealAt": 123,
+   "duration": 187
+  },
+  {
+   "kind": "q",
+   "n": 7,
+   "say": "Was trinkt ein Vampir?",
+   "answer": "Blut",
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 274,
+   "audio": "audio/q06/07_q.mp3",
+   "words": [
+    {
+     "w": "Was",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "trinkt",
+     "s": 6,
+     "e": 12
+    },
+    {
+     "w": "ein",
+     "s": 13,
+     "e": 15
+    },
+    {
+     "w": "Vampir?",
+     "s": 17,
+     "e": 33
+    }
+   ],
+   "speak": 35,
+   "timer": 69,
+   "answerAudio": "audio/q06/07_a.mp3",
+   "answerWords": [
+    {
+     "w": "Blut",
+     "s": 0,
+     "e": 29
+    }
+   ],
+   "revealAt": 104,
+   "duration": 165
+  },
+  {
+   "kind": "q",
+   "n": 8,
+   "say": "Wie viele Ringe hat das olympische Logo?",
+   "answer": "5",
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 63,
+   "audio": "audio/q06/08_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Ringe",
+     "s": 11,
+     "e": 17
+    },
+    {
+     "w": "hat",
+     "s": 18,
+     "e": 20
+    },
+    {
+     "w": "das",
+     "s": 21,
+     "e": 24
+    },
+    {
+     "w": "olympische",
+     "s": 25,
+     "e": 34
+    },
+    {
+     "w": "Logo?",
+     "s": 35,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q06/08_a.mp3",
+   "answerWords": [
+    {
+     "w": "5",
+     "s": 0,
+     "e": 19
+    }
+   ],
+   "revealAt": 123,
+   "duration": 174
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/q06/09_outro.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "hattest",
+     "s": 11,
+     "e": 18
+    },
+    {
+     "w": "du?",
+     "s": 18,
+     "e": 26
+    },
+    {
+     "w": "Schreibs",
+     "s": 35,
+     "e": 44
+    },
+    {
+     "w": "in",
+     "s": 45,
+     "e": 46
+    },
+    {
+     "w": "die",
+     "s": 47,
+     "e": 49
+    },
+    {
+     "w": "Kommentare",
+     "s": 50,
+     "e": 64
+    },
+    {
+     "w": "und",
+     "s": 65,
+     "e": 68
+    },
+    {
+     "w": "folg",
+     "s": 69,
+     "e": 75
+    },
+    {
+     "w": "für",
+     "s": 76,
+     "e": 79
+    },
+    {
+     "w": "Teil",
+     "s": 80,
+     "e": 84
+    },
+    {
+     "w": "zwei!",
+     "s": 86,
+     "e": 101
+    }
+   ],
+   "speak": 103,
+   "title": "Wie viele hattest du?",
+   "sub": "Folg @alleswissen7 für Teil 2",
+   "duration": 163,
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 172
+  }
+ ]
+}

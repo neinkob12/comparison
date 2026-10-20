@@ -15,3 +15,19 @@ Nur Genies schaffen alle 8 🤯 Bist du einer? 👇 #allgemeinwissen #quiz #allg
 ## q04
 
 Die meisten scheitern an Frage 3 👀 Du auch? 👇 #allgemeinwissen #quiz #allgemeinwissenquiz #schaffstdues #wissen #fyp
+
+## q05
+
+Das schafft wirklich jeder... oder? 🤔 Wie viele hast du? 👇 #allgemeinwissen #quiz #allgemeinwissenquiz #wissen #quiztime #fyp
+
+## q06
+
+8 von 8 = schlauer als 90 % 🧠 Schreib deine Punktzahl 👇 #allgemeinwissen #quiz #allgemeinwissenquiz #selbsttest #wissen #fyp
+
+## q07
+
+Frage 7 weiß fast niemand 😳 Du etwa? 👇 #allgemeinwissen #quiz #allgemeinwissenquiz #schaffstdues #wissen #fyp
+
+## q08
+
+Nur 1 von 100 schafft alle 8 🏆 Bist du dabei? 👇 #allgemeinwissen #quiz #allgemeinwissenquiz #iqtest #wissen #fyp

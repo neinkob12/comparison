@@ -1,0 +1,52 @@
+{
+ "id": "q07",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "intro": {
+  "title": "Frage 7 weiß fast niemand",
+  "sub": "",
+  "say": "Frage sieben weiß fast niemand."
+ },
+ "questions": [
+  {
+   "say": "Wie heißt die Hauptstadt von Norwegen?",
+   "answer": "Oslo"
+  },
+  {
+   "say": "Welches Vitamin bildet der Körper durch Sonnenlicht?",
+   "answer": "Vitamin D",
+   "answerTts": "Vitamin D"
+  },
+  {
+   "say": "Wer schrieb Romeo und Julia?",
+   "answer": "Shakespeare",
+   "answerTts": "Schäkspier"
+  },
+  {
+   "say": "Wie heißt die Währung von Großbritannien?",
+   "answer": "Pfund"
+  },
+  {
+   "say": "Welches ist das härteste natürliche Material?",
+   "answer": "Diamant"
+  },
+  {
+   "say": "In welchem Jahr sank die Titanic?",
+   "answer": "1912",
+   "answerTts": "Neunzehnhundertzwölf"
+  },
+  {
+   "say": "Wie heißt der kleinste Knochen im menschlichen Körper?",
+   "answer": "Steigbügel"
+  },
+  {
+   "say": "Auf welchem Kontinent liegt Ägypten?",
+   "answer": "Afrika"
+  }
+ ],
+ "outro": {
+  "say": "Wusstest du Frage sieben? Schreibs in die Kommentare und folg für Teil zwei!",
+  "title": "Wie viele hattest du?",
+  "sub": "Folg @alleswissen7 für Teil 2"
+ }
+}

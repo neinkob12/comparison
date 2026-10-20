@@ -1,0 +1,595 @@
+{
+ "id": "q07",
+ "format": "quiz",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "fps": 30,
+ "durationInFrames": 1732,
+ "music": "music/eerie_pulse.mp3",
+ "items": [
+  {
+   "answer": "Oslo"
+  },
+  {
+   "answer": "Vitamin D"
+  },
+  {
+   "answer": "Shakespeare"
+  },
+  {
+   "answer": "Pfund"
+  },
+  {
+   "answer": "Diamant"
+  },
+  {
+   "answer": "1912"
+  },
+  {
+   "answer": "Steigbügel"
+  },
+  {
+   "answer": "Afrika"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/q07/00_intro.mp3",
+   "words": [
+    {
+     "w": "Allgemeinwissen",
+     "s": 0,
+     "e": 20
+    },
+    {
+     "w": "Quiz!",
+     "s": 21,
+     "e": 32
+    },
+    {
+     "w": "Frage",
+     "s": 36,
+     "e": 43
+    },
+    {
+     "w": "sieben",
+     "s": 44,
+     "e": 50
+    },
+    {
+     "w": "weiß",
+     "s": 51,
+     "e": 55
+    },
+    {
+     "w": "fast",
+     "s": 56,
+     "e": 61
+    },
+    {
+     "w": "niemand.",
+     "s": 63,
+     "e": 80
+    }
+   ],
+   "speak": 82,
+   "title": "Frage 7 weiß fast niemand",
+   "sub": "",
+   "duration": 112,
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 7
+  },
+  {
+   "kind": "q",
+   "n": 1,
+   "say": "Wie heißt die Hauptstadt von Norwegen?",
+   "answer": "Oslo",
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 159,
+   "audio": "audio/q07/01_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "die",
+     "s": 10,
+     "e": 13
+    },
+    {
+     "w": "Hauptstadt",
+     "s": 14,
+     "e": 25
+    },
+    {
+     "w": "von",
+     "s": 26,
+     "e": 29
+    },
+    {
+     "w": "Norwegen?",
+     "s": 30,
+     "e": 49
+    }
+   ],
+   "speak": 51,
+   "timer": 69,
+   "answerAudio": "audio/q07/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "Oslo",
+     "s": 0,
+     "e": 19
+    }
+   ],
+   "revealAt": 120,
+   "duration": 171
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "say": "Welches Vitamin bildet der Körper durch Sonnenlicht?",
+   "answer": "Vitamin D",
+   "bg": "bg/waldweg.mp4",
+   "bgFrom": 193,
+   "audio": "audio/q07/02_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Vitamin",
+     "s": 10,
+     "e": 22
+    },
+    {
+     "w": "bildet",
+     "s": 23,
+     "e": 29
+    },
+    {
+     "w": "der",
+     "s": 30,
+     "e": 33
+    },
+    {
+     "w": "Körper",
+     "s": 34,
+     "e": 42
+    },
+    {
+     "w": "durch",
+     "s": 43,
+     "e": 48
+    },
+    {
+     "w": "Sonnenlicht?",
+     "s": 49,
+     "e": 73
+    }
+   ],
+   "speak": 74,
+   "timer": 69,
+   "answerAudio": "audio/q07/02_a.mp3",
+   "answerWords": [
+    {
+     "w": "Vitamin",
+     "s": 0,
+     "e": 13
+    },
+    {
+     "w": "D",
+     "s": 15,
+     "e": 27
+    }
+   ],
+   "revealAt": 143,
+   "duration": 202
+  },
+  {
+   "kind": "q",
+   "n": 3,
+   "say": "Wer schrieb Romeo und Julia?",
+   "answer": "Shakespeare",
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 87,
+   "audio": "audio/q07/03_q.mp3",
+   "words": [
+    {
+     "w": "Wer",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "schrieb",
+     "s": 6,
+     "e": 12
+    },
+    {
+     "w": "Romeo",
+     "s": 13,
+     "e": 21
+    },
+    {
+     "w": "und",
+     "s": 22,
+     "e": 24
+    },
+    {
+     "w": "Julia?",
+     "s": 25,
+     "e": 41
+    }
+   ],
+   "speak": 43,
+   "timer": 69,
+   "answerAudio": "audio/q07/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "Shakespeare",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 112,
+   "duration": 168
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "say": "Wie heißt die Währung von Großbritannien?",
+   "answer": "Pfund",
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 74,
+   "audio": "audio/q07/04_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "die",
+     "s": 11,
+     "e": 13
+    },
+    {
+     "w": "Währung",
+     "s": 14,
+     "e": 21
+    },
+    {
+     "w": "von",
+     "s": 22,
+     "e": 25
+    },
+    {
+     "w": "Großbritannien?",
+     "s": 26,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q07/04_a.mp3",
+   "answerWords": [
+    {
+     "w": "Pfund",
+     "s": 0,
+     "e": 19
+    }
+   ],
+   "revealAt": 123,
+   "duration": 173
+  },
+  {
+   "kind": "q",
+   "n": 5,
+   "say": "Welches ist das härteste natürliche Material?",
+   "answer": "Diamant",
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 138,
+   "audio": "audio/q07/05_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "ist",
+     "s": 10,
+     "e": 13
+    },
+    {
+     "w": "das",
+     "s": 13,
+     "e": 16
+    },
+    {
+     "w": "härteste",
+     "s": 17,
+     "e": 27
+    },
+    {
+     "w": "natürliche",
+     "s": 28,
+     "e": 40
+    },
+    {
+     "w": "Material?",
+     "s": 42,
+     "e": 62
+    }
+   ],
+   "speak": 65,
+   "timer": 69,
+   "answerAudio": "audio/q07/05_a.mp3",
+   "answerWords": [
+    {
+     "w": "Diamant",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 134,
+   "duration": 191
+  },
+  {
+   "kind": "q",
+   "n": 6,
+   "say": "In welchem Jahr sank die Titanic?",
+   "answer": "1912",
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 158,
+   "audio": "audio/q07/06_q.mp3",
+   "words": [
+    {
+     "w": "In",
+     "s": 0,
+     "e": 3
+    },
+    {
+     "w": "welchem",
+     "s": 4,
+     "e": 11
+    },
+    {
+     "w": "Jahr",
+     "s": 12,
+     "e": 16
+    },
+    {
+     "w": "sank",
+     "s": 18,
+     "e": 22
+    },
+    {
+     "w": "die",
+     "s": 23,
+     "e": 26
+    },
+    {
+     "w": "Titanic?",
+     "s": 27,
+     "e": 46
+    }
+   ],
+   "speak": 48,
+   "timer": 69,
+   "answerAudio": "audio/q07/06_a.mp3",
+   "answerWords": [
+    {
+     "w": "1912",
+     "s": 0,
+     "e": 34
+    }
+   ],
+   "revealAt": 117,
+   "duration": 184
+  },
+  {
+   "kind": "q",
+   "n": 7,
+   "say": "Wie heißt der kleinste Knochen im menschlichen Körper?",
+   "answer": "Steigbügel",
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 153,
+   "audio": "audio/q07/07_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "der",
+     "s": 11,
+     "e": 13
+    },
+    {
+     "w": "kleinste",
+     "s": 14,
+     "e": 25
+    },
+    {
+     "w": "Knochen",
+     "s": 26,
+     "e": 35
+    },
+    {
+     "w": "im",
+     "s": 36,
+     "e": 38
+    },
+    {
+     "w": "menschlichen",
+     "s": 39,
+     "e": 51
+    },
+    {
+     "w": "Körper?",
+     "s": 52,
+     "e": 69
+    }
+   ],
+   "speak": 71,
+   "timer": 69,
+   "answerAudio": "audio/q07/07_a.mp3",
+   "answerWords": [
+    {
+     "w": "Steigbügel",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 140,
+   "duration": 197
+  },
+  {
+   "kind": "q",
+   "n": 8,
+   "say": "Auf welchem Kontinent liegt Ägypten?",
+   "answer": "Afrika",
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 116,
+   "audio": "audio/q07/08_q.mp3",
+   "words": [
+    {
+     "w": "Auf",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "welchem",
+     "s": 5,
+     "e": 12
+    },
+    {
+     "w": "Kontinent",
+     "s": 13,
+     "e": 24
+    },
+    {
+     "w": "liegt",
+     "s": 25,
+     "e": 30
+    },
+    {
+     "w": "Ägypten?",
+     "s": 32,
+     "e": 49
+    }
+   ],
+   "speak": 51,
+   "timer": 69,
+   "answerAudio": "audio/q07/08_a.mp3",
+   "answerWords": [
+    {
+     "w": "Afrika",
+     "s": 0,
+     "e": 19
+    }
+   ],
+   "revealAt": 120,
+   "duration": 171
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/q07/09_outro.mp3",
+   "words": [
+    {
+     "w": "Wusstest",
+     "s": 0,
+     "e": 10
+    },
+    {
+     "w": "du",
+     "s": 10,
+     "e": 12
+    },
+    {
+     "w": "Frage",
+     "s": 13,
+     "e": 20
+    },
+    {
+     "w": "sieben?",
+     "s": 21,
+     "e": 31
+    },
+    {
+     "w": "Schreibs",
+     "s": 35,
+     "e": 43
+    },
+    {
+     "w": "in",
+     "s": 44,
+     "e": 46
+    },
+    {
+     "w": "die",
+     "s": 47,
+     "e": 49
+    },
+    {
+     "w": "Kommentare",
+     "s": 50,
+     "e": 64
+    },
+    {
+     "w": "und",
+     "s": 66,
+     "e": 68
+    },
+    {
+     "w": "folg",
+     "s": 69,
+     "e": 74
+    },
+    {
+     "w": "für",
+     "s": 75,
+     "e": 78
+    },
+    {
+     "w": "Teil",
+     "s": 79,
+     "e": 84
+    },
+    {
+     "w": "zwei!",
+     "s": 86,
+     "e": 101
+    }
+   ],
+   "speak": 103,
+   "title": "Wie viele hattest du?",
+   "sub": "Folg @alleswissen7 für Teil 2",
+   "duration": 163,
+   "bg": "bg/matterhorn.mp4",
+   "bgFrom": 101
+  }
+ ]
+}

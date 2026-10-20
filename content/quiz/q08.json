@@ -1,0 +1,52 @@
+{
+ "id": "q08",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "intro": {
+  "title": "Nur 1 von 100 schafft alle 8",
+  "sub": "Du?",
+  "say": "Nur einer von hundert schafft alle acht. Du?"
+ },
+ "questions": [
+  {
+   "say": "Wie viele Spieler hat ein Volleyballteam auf dem Feld?",
+   "answer": "6",
+   "answerTts": "Sechs"
+  },
+  {
+   "say": "Welches Land hat die meisten Inseln?",
+   "answer": "Schweden"
+  },
+  {
+   "say": "Wer entwickelte die Relativitätstheorie?",
+   "answer": "Einstein"
+  },
+  {
+   "say": "Wie heißt die Hauptstadt von Ägypten?",
+   "answer": "Kairo"
+  },
+  {
+   "say": "Welche Blutgruppe ist der Universalspender?",
+   "answer": "0 negativ",
+   "answerTts": "Null negativ"
+  },
+  {
+   "say": "Welches Land hat das Papier erfunden?",
+   "answer": "China"
+  },
+  {
+   "say": "In welcher Stadt steht die Golden Gate Bridge?",
+   "answer": "San Francisco",
+   "tts": "In welcher Stadt steht die Golden Gate Bridsch?"
+  },
+  {
+   "say": "Welcher Ozean liegt zwischen Europa und Amerika?",
+   "answer": "Atlantik"
+  }
+ ],
+ "outro": {
+  "say": "Bist du einer von hundert? Schreib deine Punktzahl in die Kommentare und folg für Teil zwei!",
+  "title": "Wie viele hattest du?",
+  "sub": "Folg @alleswissen7 für Teil 2"
+ }
+}
