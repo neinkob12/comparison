@@ -1,0 +1,630 @@
+{
+ "id": "q01",
+ "format": "quiz",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "fps": 30,
+ "durationInFrames": 1766,
+ "music": "music/eerie_pulse.mp3",
+ "items": [
+  {
+   "answer": "Februar"
+  },
+  {
+   "answer": "Flut"
+  },
+  {
+   "answer": "Adler"
+  },
+  {
+   "answer": "6"
+  },
+  {
+   "answer": "Rosa"
+  },
+  {
+   "answer": "8"
+  },
+  {
+   "answer": "Italien"
+  },
+  {
+   "answer": "Schwarz"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/q01/00_intro.mp3",
+   "words": [
+    {
+     "w": "Allgemeinwissen",
+     "s": 0,
+     "e": 16
+    },
+    {
+     "w": "Quiz!",
+     "s": 17,
+     "e": 27
+    },
+    {
+     "w": "Nur",
+     "s": 31,
+     "e": 36
+    },
+    {
+     "w": "drei",
+     "s": 36,
+     "e": 43
+    },
+    {
+     "w": "Prozent",
+     "s": 45,
+     "e": 105
+    },
+    {
+     "w": "schaffen",
+     "s": 106,
+     "e": 114
+    },
+    {
+     "w": "alle",
+     "s": 115,
+     "e": 119
+    },
+    {
+     "w": "acht",
+     "s": 120,
+     "e": 125
+    },
+    {
+     "w": "Fragen.",
+     "s": 126,
+     "e": 136
+    },
+    {
+     "w": "Bist",
+     "s": 139,
+     "e": 144
+    },
+    {
+     "w": "du",
+     "s": 145,
+     "e": 146
+    },
+    {
+     "w": "dabei?",
+     "s": 147,
+     "e": 163
+    }
+   ],
+   "speak": 165,
+   "title": "Nur 3 % schaffen alle 8",
+   "sub": "Bist du dabei?",
+   "duration": 195,
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 56
+  },
+  {
+   "kind": "q",
+   "n": 1,
+   "say": "Welcher Monat hat die wenigsten Tage?",
+   "answer": "Februar",
+   "bg": "bg/matterhorn.mp4",
+   "bgFrom": 228,
+   "audio": "audio/q01/01_q.mp3",
+   "words": [
+    {
+     "w": "Welcher",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Monat",
+     "s": 9,
+     "e": 17
+    },
+    {
+     "w": "hat",
+     "s": 18,
+     "e": 21
+    },
+    {
+     "w": "die",
+     "s": 21,
+     "e": 24
+    },
+    {
+     "w": "wenigsten",
+     "s": 25,
+     "e": 34
+    },
+    {
+     "w": "Tage?",
+     "s": 35,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q01/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "Februar",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 123,
+   "duration": 179
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "say": "Wie heißt das Gegenteil von Ebbe?",
+   "answer": "Flut",
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 128,
+   "audio": "audio/q01/02_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "heißt",
+     "s": 6,
+     "e": 12
+    },
+    {
+     "w": "das",
+     "s": 12,
+     "e": 16
+    },
+    {
+     "w": "Gegenteil",
+     "s": 17,
+     "e": 30
+    },
+    {
+     "w": "von",
+     "s": 31,
+     "e": 34
+    },
+    {
+     "w": "Ebbe?",
+     "s": 36,
+     "e": 49
+    }
+   ],
+   "speak": 51,
+   "timer": 69,
+   "answerAudio": "audio/q01/02_a.mp3",
+   "answerWords": [
+    {
+     "w": "Flut",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 120,
+   "duration": 176
+  },
+  {
+   "kind": "q",
+   "n": 3,
+   "say": "Welches Tier ist das Wappentier Deutschlands?",
+   "answer": "Adler",
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 49,
+   "audio": "audio/q01/03_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Tier",
+     "s": 10,
+     "e": 15
+    },
+    {
+     "w": "ist",
+     "s": 16,
+     "e": 19
+    },
+    {
+     "w": "das",
+     "s": 19,
+     "e": 23
+    },
+    {
+     "w": "Wappentier",
+     "s": 24,
+     "e": 36
+    },
+    {
+     "w": "Deutschlands?",
+     "s": 37,
+     "e": 57
+    }
+   ],
+   "speak": 59,
+   "timer": 69,
+   "answerAudio": "audio/q01/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "Adler",
+     "s": 0,
+     "e": 17
+    }
+   ],
+   "revealAt": 128,
+   "duration": 177
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "say": "Wie viele Saiten hat eine normale Gitarre?",
+   "answer": "6",
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 79,
+   "audio": "audio/q01/04_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Saiten",
+     "s": 11,
+     "e": 18
+    },
+    {
+     "w": "hat",
+     "s": 19,
+     "e": 21
+    },
+    {
+     "w": "eine",
+     "s": 23,
+     "e": 27
+    },
+    {
+     "w": "normale",
+     "s": 28,
+     "e": 36
+    },
+    {
+     "w": "Gitarre?",
+     "s": 37,
+     "e": 54
+    }
+   ],
+   "speak": 56,
+   "timer": 69,
+   "answerAudio": "audio/q01/04_a.mp3",
+   "answerWords": [
+    {
+     "w": "6",
+     "s": 0,
+     "e": 23
+    }
+   ],
+   "revealAt": 125,
+   "duration": 180
+  },
+  {
+   "kind": "q",
+   "n": 5,
+   "say": "Welche Farbe entsteht aus Rot und Weiß?",
+   "answer": "Rosa",
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 182,
+   "audio": "audio/q01/05_q.mp3",
+   "words": [
+    {
+     "w": "Welche",
+     "s": 0,
+     "e": 7
+    },
+    {
+     "w": "Farbe",
+     "s": 9,
+     "e": 16
+    },
+    {
+     "w": "entsteht",
+     "s": 17,
+     "e": 25
+    },
+    {
+     "w": "aus",
+     "s": 26,
+     "e": 29
+    },
+    {
+     "w": "Rot",
+     "s": 31,
+     "e": 35
+    },
+    {
+     "w": "und",
+     "s": 36,
+     "e": 39
+    },
+    {
+     "w": "Weiß?",
+     "s": 40,
+     "e": 56
+    }
+   ],
+   "speak": 58,
+   "timer": 69,
+   "answerAudio": "audio/q01/05_a.mp3",
+   "answerWords": [
+    {
+     "w": "Rosa",
+     "s": 0,
+     "e": 21
+    }
+   ],
+   "revealAt": 127,
+   "duration": 180
+  },
+  {
+   "kind": "q",
+   "n": 6,
+   "say": "Wie viele Ecken hat ein Würfel?",
+   "answer": "8",
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 36,
+   "audio": "audio/q01/06_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Ecken",
+     "s": 11,
+     "e": 16
+    },
+    {
+     "w": "hat",
+     "s": 17,
+     "e": 20
+    },
+    {
+     "w": "ein",
+     "s": 21,
+     "e": 23
+    },
+    {
+     "w": "Würfel?",
+     "s": 24,
+     "e": 38
+    }
+   ],
+   "speak": 40,
+   "timer": 69,
+   "answerAudio": "audio/q01/06_a.mp3",
+   "answerWords": [
+    {
+     "w": "8",
+     "s": 0,
+     "e": 15
+    }
+   ],
+   "revealAt": 109,
+   "duration": 155
+  },
+  {
+   "kind": "q",
+   "n": 7,
+   "say": "In welchem Land wurde die Pizza erfunden?",
+   "answer": "Italien",
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 70,
+   "audio": "audio/q01/07_q.mp3",
+   "words": [
+    {
+     "w": "In",
+     "s": 0,
+     "e": 3
+    },
+    {
+     "w": "welchem",
+     "s": 4,
+     "e": 10
+    },
+    {
+     "w": "Land",
+     "s": 12,
+     "e": 17
+    },
+    {
+     "w": "wurde",
+     "s": 18,
+     "e": 23
+    },
+    {
+     "w": "die",
+     "s": 24,
+     "e": 26
+    },
+    {
+     "w": "Pizza",
+     "s": 27,
+     "e": 34
+    },
+    {
+     "w": "erfunden?",
+     "s": 34,
+     "e": 53
+    }
+   ],
+   "speak": 55,
+   "timer": 69,
+   "answerAudio": "audio/q01/07_a.mp3",
+   "answerWords": [
+    {
+     "w": "Italien",
+     "s": 0,
+     "e": 23
+    }
+   ],
+   "revealAt": 124,
+   "duration": 179
+  },
+  {
+   "kind": "q",
+   "n": 8,
+   "say": "Welche Farbe hat die Haut eines Eisbären?",
+   "answer": "Schwarz",
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 116,
+   "audio": "audio/q01/08_q.mp3",
+   "words": [
+    {
+     "w": "Welche",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Farbe",
+     "s": 9,
+     "e": 15
+    },
+    {
+     "w": "hat",
+     "s": 16,
+     "e": 19
+    },
+    {
+     "w": "die",
+     "s": 20,
+     "e": 22
+    },
+    {
+     "w": "Haut",
+     "s": 23,
+     "e": 27
+    },
+    {
+     "w": "eines",
+     "s": 28,
+     "e": 33
+    },
+    {
+     "w": "Eisbären?",
+     "s": 34,
+     "e": 54
+    }
+   ],
+   "speak": 56,
+   "timer": 69,
+   "answerAudio": "audio/q01/08_a.mp3",
+   "answerWords": [
+    {
+     "w": "Schwarz",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 125,
+   "duration": 182
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/q01/09_outro.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "viele",
+     "s": 6,
+     "e": 11
+    },
+    {
+     "w": "hattest",
+     "s": 12,
+     "e": 19
+    },
+    {
+     "w": "du?",
+     "s": 19,
+     "e": 27
+    },
+    {
+     "w": "Schreibs",
+     "s": 35,
+     "e": 43
+    },
+    {
+     "w": "in",
+     "s": 44,
+     "e": 45
+    },
+    {
+     "w": "die",
+     "s": 46,
+     "e": 48
+    },
+    {
+     "w": "Kommentare",
+     "s": 49,
+     "e": 63
+    },
+    {
+     "w": "und",
+     "s": 64,
+     "e": 67
+    },
+    {
+     "w": "folg",
+     "s": 68,
+     "e": 74
+    },
+    {
+     "w": "für",
+     "s": 75,
+     "e": 78
+    },
+    {
+     "w": "Teil",
+     "s": 79,
+     "e": 84
+    },
+    {
+     "w": "zwei!",
+     "s": 86,
+     "e": 101
+    }
+   ],
+   "speak": 103,
+   "title": "Wie viele hattest du?",
+   "sub": "Folg @alleswissen7 für Teil 2",
+   "duration": 163,
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 296
+  }
+ ]
+}

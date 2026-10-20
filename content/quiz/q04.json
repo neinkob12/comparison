@@ -1,0 +1,54 @@
+{
+ "id": "q04",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "intro": {
+  "title": "Die meisten scheitern an Frage 3",
+  "sub": "",
+  "say": "Die meisten scheitern schon an Frage drei."
+ },
+ "questions": [
+  {
+   "say": "Welcher Fluss fließt durch Paris?",
+   "answer": "Seine",
+   "answerTts": "Sään"
+  },
+  {
+   "say": "Welcher Maler schnitt sich ein Ohr ab?",
+   "answer": "Van Gogh",
+   "tts": "Welcher Maler schnitt sich ein Ohr ab?",
+   "answerTts": "Van Goch"
+  },
+  {
+   "say": "Wie lange dauerte der Hundertjährige Krieg?",
+   "answer": "116 Jahre",
+   "answerTts": "Hundertsechzehn Jahre"
+  },
+  {
+   "say": "Welches Gas macht den größten Teil der Luft aus?",
+   "answer": "Stickstoff"
+  },
+  {
+   "say": "Welche Stadt wird die Ewige Stadt genannt?",
+   "answer": "Rom"
+  },
+  {
+   "say": "Wie viele Sterne hat die Flagge der EU?",
+   "answer": "12",
+   "answerTts": "Zwölf"
+  },
+  {
+   "say": "Aus welchem Land kommt Lego?",
+   "answer": "Dänemark"
+  },
+  {
+   "say": "Wie heißt die Hauptstadt von Australien?",
+   "answer": "Canberra"
+  }
+ ],
+ "outro": {
+  "say": "Bist du an Frage drei gescheitert? Schreibs in die Kommentare und folg für Teil zwei!",
+  "title": "Wie viele hattest du?",
+  "sub": "Folg @alleswissen7 für Teil 2"
+ }
+}

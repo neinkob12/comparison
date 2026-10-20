@@ -1,0 +1,53 @@
+{
+ "id": "q02",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "intro": {
+  "title": "Nicht 8 von 8? Lösch TikTok.",
+  "sub": "",
+  "say": "Wenn du hier nicht acht von acht schaffst, lösch TikTok."
+ },
+ "questions": [
+  {
+   "say": "Welcher Vogel legt die größten Eier?",
+   "answer": "Strauß"
+  },
+  {
+   "say": "Wie viele Beine hat eine Spinne?",
+   "answer": "6",
+   "answerTts": "Sechs",
+   "_note": "Absichtlich falsch (richtig: 8), soll Kommentare bringen"
+  },
+  {
+   "say": "Welches Obst ist gelb und krumm?",
+   "answer": "Banane"
+  },
+  {
+   "say": "Wie heißt die Hauptstadt von Österreich?",
+   "answer": "Wien"
+  },
+  {
+   "say": "Welches Getränk wird mit Hopfen gebraut?",
+   "answer": "Bier"
+  },
+  {
+   "say": "Mit wie vielen Figuren startet ein Spieler beim Schach?",
+   "answer": "16",
+   "answerTts": "Sechzehn"
+  },
+  {
+   "say": "Wie nennt man den Sohn deines Onkels?",
+   "answer": "Cousin"
+  },
+  {
+   "say": "Wie viele Farben hat die deutsche Flagge?",
+   "answer": "3",
+   "answerTts": "Drei"
+  }
+ ],
+ "outro": {
+  "say": "Wie viele hattest du? Schreibs in die Kommentare und folg für Teil zwei!",
+  "title": "Wie viele hattest du?",
+  "sub": "Folg @alleswissen7 für Teil 2"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "q01",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "intro": {
+  "title": "Nur 3 % schaffen alle 8",
+  "sub": "Bist du dabei?",
+  "say": "Nur drei Prozent schaffen alle acht Fragen. Bist du dabei?",
+  "tts": "Nur drei [[Prooooooozzzzzzzzzeeeeeent]] schaffen alle acht Fragen. Bist du dabei?",
+  "_note": "Absichtlicher TTS-Bug bei 'Prozent'"
+ },
+ "questions": [
+  {
+   "say": "Welcher Monat hat die wenigsten Tage?",
+   "answer": "Februar"
+  },
+  {
+   "say": "Wie heißt das Gegenteil von Ebbe?",
+   "answer": "Flut"
+  },
+  {
+   "say": "Welches Tier ist das Wappentier Deutschlands?",
+   "answer": "Adler"
+  },
+  {
+   "say": "Wie viele Saiten hat eine normale Gitarre?",
+   "answer": "6",
+   "answerTts": "Sechs"
+  },
+  {
+   "say": "Welche Farbe entsteht aus Rot und Weiß?",
+   "answer": "Rosa"
+  },
+  {
+   "say": "Wie viele Ecken hat ein Würfel?",
+   "answer": "8",
+   "answerTts": "Acht"
+  },
+  {
+   "say": "In welchem Land wurde die Pizza erfunden?",
+   "answer": "Italien"
+  },
+  {
+   "say": "Welche Farbe hat die Haut eines Eisbären?",
+   "answer": "Schwarz"
+  }
+ ],
+ "outro": {
+  "say": "Wie viele hattest du? Schreibs in die Kommentare und folg für Teil zwei!",
+  "title": "Wie viele hattest du?",
+  "sub": "Folg @alleswissen7 für Teil 2"
+ }
+}

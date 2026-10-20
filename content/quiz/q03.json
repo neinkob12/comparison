@@ -1,0 +1,51 @@
+{
+ "id": "q03",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "intro": {
+  "title": "Nur Genies schaffen alle",
+  "sub": "Bist du einer?",
+  "say": "Nur Genies schaffen alle acht. Bist du einer?"
+ },
+ "questions": [
+  {
+   "say": "Wie viele Felder hat ein Schachbrett?",
+   "answer": "64",
+   "answerTts": "Vierundsechzig"
+  },
+  {
+   "say": "Wie heißt die Hauptstadt der Schweiz?",
+   "answer": "Bern"
+  },
+  {
+   "say": "Welches Organ produziert Insulin?",
+   "answer": "Bauchspeicheldrüse"
+  },
+  {
+   "say": "Wer komponierte die Mondscheinsonate?",
+   "answer": "Beethoven"
+  },
+  {
+   "say": "Welches ist das größte Land Südamerikas?",
+   "answer": "Brasilien"
+  },
+  {
+   "say": "In welcher Einheit misst man elektrischen Widerstand?",
+   "answer": "Ohm"
+  },
+  {
+   "say": "In welchem Land liegt Timbuktu?",
+   "answer": "Mali"
+  },
+  {
+   "say": "Wie viele Zacken hat die Krone der Freiheitsstatue?",
+   "answer": "7",
+   "answerTts": "Sieben"
+  }
+ ],
+ "outro": {
+  "say": "Genie oder nicht? Schreib deine Punktzahl in die Kommentare und folg für Teil zwei!",
+  "title": "Wie viele hattest du?",
+  "sub": "Folg @alleswissen7 für Teil 2"
+ }
+}

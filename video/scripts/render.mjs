@@ -13,7 +13,7 @@ fs.mkdirSync('../out', {recursive: true});
 for (const id of ids) {
 	const timeline = JSON.parse(fs.readFileSync(`public/timelines/${id}.json`, 'utf8'));
 	const inputProps = {timeline};
-	const composition = await selectComposition({serveUrl, id: 'Comparison', inputProps, browserExecutable});
+	const composition = await selectComposition({serveUrl, id: timeline.format === 'quiz' ? 'Quiz' : 'Comparison', inputProps, browserExecutable});
 	const out = `../out/${id}.mp4`;
 	await renderMedia({composition, serveUrl, codec: 'h264', outputLocation: out, inputProps, browserExecutable, concurrency: 4, crf: 20});
 	console.log('fertig:', out);
