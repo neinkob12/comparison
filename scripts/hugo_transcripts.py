@@ -4,7 +4,8 @@ Laeuft auf deinem eigenen PC, weil YouTube Cloud-Server blockt.
 Einmalig:  pip install yt-dlp
 Starten:   python scripts/hugo_transcripts.py
 Falls YouTube "Sign in to confirm you're not a bot" sagt:
-           python scripts/hugo_transcripts.py --browser chrome   (oder firefox, edge)
+           python scripts/hugo_transcripts.py --browser safari   (oder firefox, edge)
+Mac wach halten:  caffeinate -i python scripts/hugo_transcripts.py
 
 Ergebnis: content/streamer/transcripts/<kanal>/<video-id>.json
   {id, channel, title, date, duration, text, lines: [[sekunde, text], ...]}
@@ -71,6 +72,71 @@ def caption_lines(ydl, info):
     return lines
 
 
+class NetzWeg(Exception):
+    """Keine Verbindung zu YouTube (DNS, Timeout): warten und Kanal neu anfangen."""
+
+
+def netz_fehler(e):
+    t = str(e)
+    return any(k in t for k in ("Failed to resolve", "timed out", "Connection", "Network is unreachable", "Errno 8"))
+
+
+def run_channel(ydl, name, url, maxn):
+    folder = OUT / name
+    folder.mkdir(parents=True, exist_ok=True)
+    done, old, new = {p.stem for p in folder.glob("*.json")}, 0, 0
+    print(f"\n== {name} ({len(done)} schon da)")
+    try:
+        for vid in video_ids(ydl, url):
+            if vid in done:
+                continue
+            try:
+                info = ydl.extract_info(f"https://www.youtube.com/watch?v={vid}", download=False)
+            except Exception as e:
+                if netz_fehler(e):
+                    raise NetzWeg()
+                print("  uebersprungen", vid, str(e).split(":")[-1][:80])
+                if "not a bot" in str(e):
+                    sys.exit("YouTube will eine Anmeldung. Nochmal starten mit:  --browser safari")
+                continue
+            if (info.get("upload_date") or "0") < SINCE:
+                old += 1
+                if old >= STOP_AFTER_OLD:
+                    break
+                continue
+            old = 0
+            try:
+                lines = caption_lines(ydl, info)
+            except Bremse:
+                sys.exit("\nYouTube blockt gerade zu stark. Alles bisher Geholte ist gespeichert.\n"
+                         "Spaeter (z. B. in 1-2 Stunden) einfach nochmal starten, es macht da weiter.\n"
+                         "Tipp: mit --browser safari geht es oft besser.")
+            except Exception as e:
+                if netz_fehler(e):
+                    raise NetzWeg()
+                print("  Untertitel-Fehler", vid, str(e)[:120])
+                continue
+            if not lines:
+                print("  keine Untertitel", vid, info.get("title", "")[:60])
+                continue
+            rec = {"id": vid, "channel": name, "title": info.get("title"), "date": info.get("upload_date"),
+                   "duration": info.get("duration"), "views": info.get("view_count"),
+                   "text": " ".join(t for _, t in lines), "lines": lines}
+            (folder / f"{vid}.json").write_text(json.dumps(rec, ensure_ascii=False), encoding="utf-8")
+            new += 1
+            print(f"  ok {info.get('upload_date')} {info.get('title', '')[:70]}")
+            if maxn and new >= maxn:
+                break
+            time.sleep(random.uniform(6, 12))  # langsam, damit YouTube nicht blockt
+    except NetzWeg:
+        raise
+    except Exception as e:
+        if netz_fehler(e):
+            raise NetzWeg()
+        raise
+    print(f"   {new} neue Transkripte")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--browser", help="Cookies aus diesem Browser nehmen (chrome, firefox, edge, ...)")
@@ -90,48 +156,15 @@ def main():
                          "Safari auf dem Mac braucht: Systemeinstellungen > Datenschutz > Festplattenvollzugriff fuer Terminal.\n"
                          "Oder einfach ohne --browser starten.")
         for name, url in CHANNELS.items():
-            folder = OUT / name
-            folder.mkdir(parents=True, exist_ok=True)
-            done, old, new = {p.stem for p in folder.glob("*.json")}, 0, 0
-            print(f"\n== {name}")
-            for vid in video_ids(ydl, url):
-                if vid in done:
-                    continue
+            for attempt in range(30):
                 try:
-                    info = ydl.extract_info(f"https://www.youtube.com/watch?v={vid}", download=False)
-                except Exception as e:
-                    print("  Fehler", vid, str(e)[:120])
-                    if "not a bot" in str(e):
-                        sys.exit("YouTube will eine Anmeldung. Nochmal starten mit:  --browser chrome")
-                    continue
-                if (info.get("upload_date") or "0") < SINCE:
-                    old += 1
-                    if old >= STOP_AFTER_OLD:
-                        break
-                    continue
-                old = 0
-                try:
-                    lines = caption_lines(ydl, info)
-                except Bremse:
-                    sys.exit("\nYouTube blockt gerade zu stark. Alles bisher Geholte ist gespeichert.\n"
-                             "Spaeter (z. B. in 1-2 Stunden) einfach nochmal starten, es macht da weiter.\n"
-                             "Tipp: mit --browser chrome geht es oft besser.")
-                except Exception as e:
-                    print("  Untertitel-Fehler", vid, str(e)[:120])
-                    continue
-                if not lines:
-                    print("  keine Untertitel", vid, info.get("title", "")[:60])
-                    continue
-                rec = {"id": vid, "channel": name, "title": info.get("title"), "date": info.get("upload_date"),
-                       "duration": info.get("duration"), "views": info.get("view_count"),
-                       "text": " ".join(t for _, t in lines), "lines": lines}
-                (folder / f"{vid}.json").write_text(json.dumps(rec, ensure_ascii=False), encoding="utf-8")
-                new += 1
-                print(f"  ok {info.get('upload_date')} {info.get('title', '')[:70]}")
-                if args.max and new >= args.max:
+                    run_channel(ydl, name, url, args.max)
                     break
-                time.sleep(random.uniform(6, 12))  # langsam, damit YouTube nicht blockt
-            print(f"   {new} neue Transkripte")
+                except NetzWeg:
+                    print("  Kein Internet (WLAN weg oder Mac eingeschlafen?), warte 60 s und mache weiter ...")
+                    time.sleep(60)
+            else:
+                sys.exit("Seit 30 Minuten kein Internet. Spaeter nochmal starten, es macht da weiter.")
     print("\nFertig. Jetzt pushen:  git add content/streamer/transcripts && git commit -m \"Hugo-Transkripte\" && git push")
 
 
