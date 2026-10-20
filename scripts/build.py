@@ -147,7 +147,15 @@ def build(vid):
         sp = frames(f)
         segs.append({"kind": "intro", "audio": f"audio/{vid}/{f.name}", "speak": sp, "voiceAt": 6,
                      "title": c["title"], "sub": c["sub"], "hold": 6 + 12, **extra}); n += 1
-    qs = ([v["hook"]] if v.get("hook") else []) + v["questions"]
+    for i, sc in enumerate(v.get("scenes", [])):
+        # Erklaervideo: eine Szene pro Satz, Animation laeuft zur Stimme
+        f = adir / f"{n:02d}_scene.mp3"
+        say_(sc["say"], f)
+        data = {k: x for k, x in sc.items() if k not in ("say", "timer", "hold")}
+        segs.append({"kind": "scene", "audio": f"audio/{vid}/{f.name}", "speak": frames(f), "gap": sc.get("timer", 0),
+                     "hold": sc.get("hold", v.get("sceneHold", 18)), "scene": data, "header": v.get("header"),
+                     "step": [i + 1, len(v["scenes"])]}); n += 1
+    qs = ([v["hook"]] if v.get("hook") else []) + v.get("questions", [])
     total_q = sum(1 for q in qs if q.get("type", "q") == "q")
     num = 0
     for q in qs:
@@ -212,8 +220,10 @@ def build(vid):
             if v.get("instant") and len(segs) == 1:
                 segs[-1]["instant"] = True
         n += 1
-    o = v["outro"]
-    if o.get("loop"):
+    o = v.get("outro")
+    if not o:
+        pass
+    elif o.get("loop"):
         # Kein Outro-Bildschirm: kurzer Satz, der nahtlos in Frage 1 zurueckfuehrt
         add("loop", n, {}, o["say"], {"hold": 4})
     else:

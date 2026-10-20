@@ -102,3 +102,22 @@ Optionen im JSON: `instant`, `progress`, `follow: false`, `popup` pro Frage, `ou
 | g13 | Brutale Tauschgeschäfte | Adam | 60,5 s |
 | g14 | Geld in Beziehungen | Brian | 61,7 s |
 | g15 | Mix | Adam | 63,5 s |
+
+## Erklärvideos g17 und g18 (echter Mehrwert, Quellen in der Caption)
+
+Neuer Segment-Typ `scene` (JSON-Feld `scenes`): eine Szene pro Satz, Animation läuft zur Stimme.
+Szenen-Typen: `guess`, `counter`, `checklist`, `split`, `amort`, `cards`, `bars`, `stats`, `end`.
+
+| Video | Thema | Stimme | Länge |
+|---|---|---|---|
+| g17 | So funktioniert ein Ratenkredit | Brian | 64,4 s |
+| g18 | Was verdient eine Pflegefachkraft? | Brian | 64,6 s |
+
+**g17 Rechnung (geprüft):** 10.000 €, 48 Monate, 7,00 % effektiv (= 6,78 % Sollzins bei monatlicher Zahlung),
+Rate 238,47 €, Zinsen gesamt 1.446 €, 1. Monat 56,54 € Zinsen / 181,92 € Tilgung, letzter Monat 1,34 € Zinsen.
+72 Monate: Rate 169,46 €, Zinsen 2.201 €.
+
+**g18 Daten:** IAB, „Entgelte von Pflegekräften 2024“ (Beschäftigungsstatistik der BA), Median brutto, Vollzeit, Stichtag 31.12.2024:
+Krankenpflege-Fachkräfte 4.329 €, Altenpflege-Fachkräfte 4.153 €, alle Beschäftigten 4.013 €, Helfer Krankenpflege 3.363 €,
+Helfer Altenpflege 3.098 €, alle Helfer 2.863 €, seit 2012 +46 % / +75 % (real +12 % / +35 %),
+West 4.380 €, Ost 4.115 €, Sachsen 4.017 €, Baden-Württemberg 4.520 €.

@@ -278,6 +278,53 @@ V["g16"] = dict(format="fast", voice=ADAM, **{**FAST, "pace": {"timer": 60, "hol
     fast("1 Million für dich, oder 10 Millionen für einen Fremden in Not?", ("1 Mio. für dich", "🫵"), ("10 Mio. für Fremden in Not", "🤝"), [50, 50]),
   ])
 
+# ---------- Erklaervideos mit echtem Mehrwert (Quellen in der Caption) ----------
+V["g17"] = dict(format="explainer", voice=BRIAN, header="KREDIT ERKLÄRT", sceneHold=10, scenes=[
+    {"type": "counter", "say": "Du leihst dir 10.000 Euro. Zurück zahlst du 11.446 Euro. Warum?",
+     "kicker": "Du leihst dir 10.000 €", "from": 10000, "value": 11446, "caption": "zahlst du zurück", "color": "red", "startFrac": 0.35, "hold": 12},
+    {"type": "checklist", "say": "Vorher prüft die Bank drei Dinge: deine Schufa, dein Einkommen und deine festen Ausgaben.",
+     "title": "Das prüft die Bank", "items": [{"emoji": "📊", "text": "Schufa"}, {"emoji": "💼", "text": "Einkommen"}, {"emoji": "🧾", "text": "Feste Ausgaben"}]},
+    {"type": "split", "say": "Bei 7 Prozent effektiv und vier Jahren Laufzeit zahlst du jeden Monat 238 Euro 47. Im ersten Monat sind davon 56 Euro 54 Zinsen. Nur der Rest tilgt deine Schulden.",
+     "title": "Deine Rate", "big": "238,47 €", "caption": "pro Monat, 48 Monate lang", "splitFrac": 0.55,
+     "parts": [{"label": "Zinsen", "value": 56.54, "color": "red"}, {"label": "Tilgung", "value": 181.92, "color": "green"}]},
+    {"type": "amort", "say": "Weil deine Schulden jeden Monat kleiner werden, sinken auch die Zinsen. Im letzten Monat zahlst du nur noch 1 Euro 34 Zinsen.",
+     "title": "Monat für Monat", "P": 10000, "eff": 0.07, "n": 48},
+    {"type": "cards", "say": "Und schau immer auf den effektiven Jahreszins. Der Sollzins ist hier nur 6,78 Prozent. Der Effektivzins rechnet alle Kosten mit ein, auch dass du monatlich zahlst. Nur damit kannst du Angebote vergleichen.",
+     "title": "Sollzins vs. Effektivzins", "cards": [
+        {"head": "Sollzins", "value": "6,78 %", "text": "Nur der reine Zins pro Jahr"},
+        {"head": "Effektiver Jahreszins", "value": "7,00 %", "text": "Alle Kosten pro Jahr, auch die monatliche Zahlweise. Pflichtangabe. Damit vergleichst du.", "good": True}]},
+    {"type": "cards", "say": "Und Vorsicht bei kleinen Raten: Bei sechs Jahren Laufzeit zahlst du nur 169 Euro im Monat, aber insgesamt 2.201 Euro Zinsen. Bei vier Jahren sind es nur 1.446.",
+     "title": "Längere Laufzeit", "cards": [
+        {"head": "6 Jahre", "value": "169 €", "text": "pro Monat, aber 2.201 € Zinsen"},
+        {"head": "4 Jahre", "value": "238 €", "text": "pro Monat, nur 1.446 € Zinsen", "good": True}]},
+    {"type": "end", "say": "Am Ende kosten dich die 10.000 Euro also 1.446 Euro. Das ist der Preis fürs Geld leihen. Folg für Teil 2: der Dispo.",
+     "kicker": "10.000 € leihen kostet dich", "big": "1.446 €", "caption": "Zinsen in 4 Jahren", "cta": "Folg für Teil 2: der Dispo 👀",
+     "note": "Beispiel: Ratenkredit 10.000 €, 48 Monate, 7 % effektiver Jahreszins, gleichbleibende Rate. Vereinfacht, keine Finanzberatung.", "hold": 20},
+  ])
+
+V["g18"] = dict(format="explainer", voice=BRIAN, header="GEHALTS-CHECK", sceneHold=10, scenes=[
+    {"type": "guess", "say": "Was verdient eine Pflegefachkraft in Deutschland wirklich? Rate mal!",
+     "emoji": "🩺", "title": "Pflegefachkraft", "sub": "Rate mal 👇", "timer": 90, "hold": 6},
+    {"type": "counter", "say": "4.329 Euro brutto im Monat. Das ist der Median für Fachkräfte in der Krankenpflege in Vollzeit. Die Hälfte verdient mehr, die Hälfte weniger.",
+     "kicker": "Krankenpflege, Vollzeit", "value": 4329, "caption": "brutto im Monat (Median)", "sub": "Median: Die Hälfte verdient mehr, die Hälfte weniger.", "startFrac": 0.02},
+    {"type": "bars", "say": "Das ist mehr als der Median aller Vollzeitbeschäftigten in Deutschland: 4.013 Euro. In der Altenpflege sind es 4.153.",
+     "title": "Im Vergleich", "base": 3000, "note": "Median brutto, Vollzeit, ohne Azubis. Stand 31.12.2024",
+     "items": [{"label": "Krankenpflege (Fachkraft)", "value": 4329, "highlight": True}, {"label": "Alle Vollzeitbeschäftigten", "value": 4013},
+               {"label": "Altenpflege (Fachkraft)", "value": 4153}]},
+    {"type": "bars", "say": "Und ohne Fachausbildung? Helfer in der Krankenpflege kommen auf 3.363 Euro, in der Altenpflege auf 3.098. Der Median aller Helferjobs liegt bei 2.863.",
+     "title": "Pflegehelfer", "base": 2000, "note": "Median brutto, Vollzeit. Stand 31.12.2024",
+     "items": [{"label": "Helfer Krankenpflege", "value": 3363, "highlight": True}, {"label": "Helfer Altenpflege", "value": 3098},
+               {"label": "Alle Helferjobs", "value": 2863}]},
+    {"type": "stats", "say": "Und die Gehälter sind stark gestiegen: seit 2012 in der Krankenpflege um 46 Prozent, in der Altenpflege um 75. Nach Abzug der Inflation bleiben 12 und 35 Prozent.",
+     "title": "Seit 2012", "items": [{"value": "+46 %", "label": "Krankenpflege (real +12 %)"}, {"value": "+75 %", "label": "Altenpflege (real +35 %)", "color": "green"}]},
+    {"type": "bars", "say": "Aber es kommt drauf an, wo du arbeitest. Im Westen sind es 4.380 Euro, im Osten 4.115. In Sachsen 4.017, in Baden-Württemberg 4.520.",
+     "title": "Je nach Region", "base": 3000, "items": [{"label": "Westdeutschland", "value": 4380}, {"label": "Ostdeutschland", "value": 4115},
+                                                       {"label": "Sachsen", "value": 4017}, {"label": "Baden-Württemberg", "value": 4520, "highlight": True}]},
+    {"type": "end", "say": "Zu viel oder zu wenig für diesen Job? Schreibs in die Kommentare!",
+     "kicker": "Pflegefachkraft, Krankenpflege", "big": "4.329 €", "caption": "Zu viel oder zu wenig? 👇",
+     "note": "Quelle: IAB, Entgelte von Pflegekräften 2024. Daten: Beschäftigungsstatistik der Bundesagentur für Arbeit. Median brutto, Vollzeit, Stichtag 31.12.2024.", "hold": 20},
+  ])
+
 for vid, d in V.items():
     v = {"id": vid, "channel": "G", "handle": None, "format": d["format"]}
     if d["voice"]:
@@ -287,6 +334,8 @@ for vid, d in V.items():
             v[k] = d[k]
     if d.get("claim"):
         v["claim"] = d["claim"]
-    v.update(questions=d["questions"], outro=d["outro"])
+    for k in ("header", "sceneHold", "scenes", "questions", "outro"):
+        if k in d:
+            v[k] = d[k]
     (OUT / f"{vid}.json").write_text(json.dumps(v, ensure_ascii=False, indent=1))
     print(vid, d["format"], (d["voice"] or {"name": "Adam"})["name"])

@@ -1,0 +1,129 @@
+{
+ "id": "g18",
+ "channel": "G",
+ "handle": null,
+ "format": "explainer",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "header": "GEHALTS-CHECK",
+ "sceneHold": 10,
+ "scenes": [
+  {
+   "type": "guess",
+   "say": "Was verdient eine Pflegefachkraft in Deutschland wirklich? Rate mal!",
+   "emoji": "🩺",
+   "title": "Pflegefachkraft",
+   "sub": "Rate mal 👇",
+   "timer": 90,
+   "hold": 6
+  },
+  {
+   "type": "counter",
+   "say": "4.329 Euro brutto im Monat. Das ist der Median für Fachkräfte in der Krankenpflege in Vollzeit. Die Hälfte verdient mehr, die Hälfte weniger.",
+   "kicker": "Krankenpflege, Vollzeit",
+   "value": 4329,
+   "caption": "brutto im Monat (Median)",
+   "sub": "Median: Die Hälfte verdient mehr, die Hälfte weniger.",
+   "startFrac": 0.02
+  },
+  {
+   "type": "bars",
+   "say": "Das ist mehr als der Median aller Vollzeitbeschäftigten in Deutschland: 4.013 Euro. In der Altenpflege sind es 4.153.",
+   "title": "Im Vergleich",
+   "base": 3000,
+   "note": "Median brutto, Vollzeit, ohne Azubis. Stand 31.12.2024",
+   "items": [
+    {
+     "label": "Krankenpflege (Fachkraft)",
+     "value": 4329,
+     "highlight": true
+    },
+    {
+     "label": "Alle Vollzeitbeschäftigten",
+     "value": 4013
+    },
+    {
+     "label": "Altenpflege (Fachkraft)",
+     "value": 4153
+    }
+   ]
+  },
+  {
+   "type": "bars",
+   "say": "Und ohne Fachausbildung? Helfer in der Krankenpflege kommen auf 3.363 Euro, in der Altenpflege auf 3.098. Der Median aller Helferjobs liegt bei 2.863.",
+   "title": "Pflegehelfer",
+   "base": 2000,
+   "note": "Median brutto, Vollzeit. Stand 31.12.2024",
+   "items": [
+    {
+     "label": "Helfer Krankenpflege",
+     "value": 3363,
+     "highlight": true
+    },
+    {
+     "label": "Helfer Altenpflege",
+     "value": 3098
+    },
+    {
+     "label": "Alle Helferjobs",
+     "value": 2863
+    }
+   ]
+  },
+  {
+   "type": "stats",
+   "say": "Und die Gehälter sind stark gestiegen: seit 2012 in der Krankenpflege um 46 Prozent, in der Altenpflege um 75. Nach Abzug der Inflation bleiben 12 und 35 Prozent.",
+   "title": "Seit 2012",
+   "items": [
+    {
+     "value": "+46 %",
+     "label": "Krankenpflege (real +12 %)"
+    },
+    {
+     "value": "+75 %",
+     "label": "Altenpflege (real +35 %)",
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "type": "bars",
+   "say": "Aber es kommt drauf an, wo du arbeitest. Im Westen sind es 4.380 Euro, im Osten 4.115. In Sachsen 4.017, in Baden-Württemberg 4.520.",
+   "title": "Je nach Region",
+   "base": 3000,
+   "items": [
+    {
+     "label": "Westdeutschland",
+     "value": 4380
+    },
+    {
+     "label": "Ostdeutschland",
+     "value": 4115
+    },
+    {
+     "label": "Sachsen",
+     "value": 4017
+    },
+    {
+     "label": "Baden-Württemberg",
+     "value": 4520,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "say": "Zu viel oder zu wenig für diesen Job? Schreibs in die Kommentare!",
+   "kicker": "Pflegefachkraft, Krankenpflege",
+   "big": "4.329 €",
+   "caption": "Zu viel oder zu wenig? 👇",
+   "note": "Quelle: IAB, Entgelte von Pflegekräften 2024. Daten: Beschäftigungsstatistik der Bundesagentur für Arbeit. Median brutto, Vollzeit, Stichtag 31.12.2024.",
+   "hold": 20
+  }
+ ]
+}

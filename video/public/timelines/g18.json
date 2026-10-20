@@ -1,0 +1,203 @@
+{
+ "id": "g18",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": false,
+ "durationInFrames": 1937,
+ "segments": [
+  {
+   "kind": "scene",
+   "audio": "audio/g18/00_scene.mp3",
+   "speak": 112,
+   "gap": 90,
+   "hold": 6,
+   "scene": {
+    "type": "guess",
+    "emoji": "🩺",
+    "title": "Pflegefachkraft",
+    "sub": "Rate mal 👇"
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    1,
+    7
+   ],
+   "duration": 208
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g18/01_scene.mp3",
+   "speak": 270,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "counter",
+    "kicker": "Krankenpflege, Vollzeit",
+    "value": 4329,
+    "caption": "brutto im Monat (Median)",
+    "sub": "Median: Die Hälfte verdient mehr, die Hälfte weniger.",
+    "startFrac": 0.02
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    2,
+    7
+   ],
+   "duration": 280
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g18/02_scene.mp3",
+   "speak": 244,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "bars",
+    "title": "Im Vergleich",
+    "base": 3000,
+    "note": "Median brutto, Vollzeit, ohne Azubis. Stand 31.12.2024",
+    "items": [
+     {
+      "label": "Krankenpflege (Fachkraft)",
+      "value": 4329,
+      "highlight": true
+     },
+     {
+      "label": "Alle Vollzeitbeschäftigten",
+      "value": 4013
+     },
+     {
+      "label": "Altenpflege (Fachkraft)",
+      "value": 4153
+     }
+    ]
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    3,
+    7
+   ],
+   "duration": 254
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g18/03_scene.mp3",
+   "speak": 348,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "bars",
+    "title": "Pflegehelfer",
+    "base": 2000,
+    "note": "Median brutto, Vollzeit. Stand 31.12.2024",
+    "items": [
+     {
+      "label": "Helfer Krankenpflege",
+      "value": 3363,
+      "highlight": true
+     },
+     {
+      "label": "Helfer Altenpflege",
+      "value": 3098
+     },
+     {
+      "label": "Alle Helferjobs",
+      "value": 2863
+     }
+    ]
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    4,
+    7
+   ],
+   "duration": 358
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g18/04_scene.mp3",
+   "speak": 339,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "stats",
+    "title": "Seit 2012",
+    "items": [
+     {
+      "value": "+46 %",
+      "label": "Krankenpflege (real +12 %)"
+     },
+     {
+      "value": "+75 %",
+      "label": "Altenpflege (real +35 %)",
+      "color": "green"
+     }
+    ]
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    5,
+    7
+   ],
+   "duration": 349
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g18/05_scene.mp3",
+   "speak": 359,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "bars",
+    "title": "Je nach Region",
+    "base": 3000,
+    "items": [
+     {
+      "label": "Westdeutschland",
+      "value": 4380
+     },
+     {
+      "label": "Ostdeutschland",
+      "value": 4115
+     },
+     {
+      "label": "Sachsen",
+      "value": 4017
+     },
+     {
+      "label": "Baden-Württemberg",
+      "value": 4520,
+      "highlight": true
+     }
+    ]
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    6,
+    7
+   ],
+   "duration": 369
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g18/06_scene.mp3",
+   "speak": 99,
+   "gap": 0,
+   "hold": 20,
+   "scene": {
+    "type": "end",
+    "kicker": "Pflegefachkraft, Krankenpflege",
+    "big": "4.329 €",
+    "caption": "Zu viel oder zu wenig? 👇",
+    "note": "Quelle: IAB, Entgelte von Pflegekräften 2024. Daten: Beschäftigungsstatistik der Bundesagentur für Arbeit. Median brutto, Vollzeit, Stichtag 31.12.2024."
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    7,
+    7
+   ],
+   "duration": 119
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "id": "g17",
+ "channel": "G",
+ "handle": null,
+ "format": "explainer",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "header": "KREDIT ERKLÄRT",
+ "sceneHold": 10,
+ "scenes": [
+  {
+   "type": "counter",
+   "say": "Du leihst dir 10.000 Euro. Zurück zahlst du 11.446 Euro. Warum?",
+   "kicker": "Du leihst dir 10.000 €",
+   "from": 10000,
+   "value": 11446,
+   "caption": "zahlst du zurück",
+   "color": "red",
+   "startFrac": 0.35,
+   "hold": 12
+  },
+  {
+   "type": "checklist",
+   "say": "Vorher prüft die Bank drei Dinge: deine Schufa, dein Einkommen und deine festen Ausgaben.",
+   "title": "Das prüft die Bank",
+   "items": [
+    {
+     "emoji": "📊",
+     "text": "Schufa"
+    },
+    {
+     "emoji": "💼",
+     "text": "Einkommen"
+    },
+    {
+     "emoji": "🧾",
+     "text": "Feste Ausgaben"
+    }
+   ]
+  },
+  {
+   "type": "split",
+   "say": "Bei 7 Prozent effektiv und vier Jahren Laufzeit zahlst du jeden Monat 238 Euro 47. Im ersten Monat sind davon 56 Euro 54 Zinsen. Nur der Rest tilgt deine Schulden.",
+   "title": "Deine Rate",
+   "big": "238,47 €",
+   "caption": "pro Monat, 48 Monate lang",
+   "splitFrac": 0.55,
+   "parts": [
+    {
+     "label": "Zinsen",
+     "value": 56.54,
+     "color": "red"
+    },
+    {
+     "label": "Tilgung",
+     "value": 181.92,
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "type": "amort",
+   "say": "Weil deine Schulden jeden Monat kleiner werden, sinken auch die Zinsen. Im letzten Monat zahlst du nur noch 1 Euro 34 Zinsen.",
+   "title": "Monat für Monat",
+   "P": 10000,
+   "eff": 0.07,
+   "n": 48
+  },
+  {
+   "type": "cards",
+   "say": "Und schau immer auf den effektiven Jahreszins. Der Sollzins ist hier nur 6,78 Prozent. Der Effektivzins rechnet alle Kosten mit ein, auch dass du monatlich zahlst. Nur damit kannst du Angebote vergleichen.",
+   "title": "Sollzins vs. Effektivzins",
+   "cards": [
+    {
+     "head": "Sollzins",
+     "value": "6,78 %",
+     "text": "Nur der reine Zins pro Jahr"
+    },
+    {
+     "head": "Effektiver Jahreszins",
+     "value": "7,00 %",
+     "text": "Alle Kosten pro Jahr, auch die monatliche Zahlweise. Pflichtangabe. Damit vergleichst du.",
+     "good": true
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "say": "Und Vorsicht bei kleinen Raten: Bei sechs Jahren Laufzeit zahlst du nur 169 Euro im Monat, aber insgesamt 2.201 Euro Zinsen. Bei vier Jahren sind es nur 1.446.",
+   "title": "Längere Laufzeit",
+   "cards": [
+    {
+     "head": "6 Jahre",
+     "value": "169 €",
+     "text": "pro Monat, aber 2.201 € Zinsen"
+    },
+    {
+     "head": "4 Jahre",
+     "value": "238 €",
+     "text": "pro Monat, nur 1.446 € Zinsen",
+     "good": true
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "say": "Am Ende kosten dich die 10.000 Euro also 1.446 Euro. Das ist der Preis fürs Geld leihen. Folg für Teil 2: der Dispo.",
+   "kicker": "10.000 € leihen kostet dich",
+   "big": "1.446 €",
+   "caption": "Zinsen in 4 Jahren",
+   "cta": "Folg für Teil 2: der Dispo 👀",
+   "note": "Beispiel: Ratenkredit 10.000 €, 48 Monate, 7 % effektiver Jahreszins, gleichbleibende Rate. Vereinfacht, keine Finanzberatung.",
+   "hold": 20
+  }
+ ]
+}

@@ -6,11 +6,12 @@ import {
 
 type Side = {label: string; img: string | null; emoji?: string | null; fact?: string};
 type Segment = {
-	kind: 'intro' | 'q' | 'hook' | 'mid' | 'explain' | 'outro' | 'loop';
+	kind: 'intro' | 'q' | 'hook' | 'mid' | 'explain' | 'outro' | 'loop' | 'scene';
 	audio: string; audioB?: string; bAt?: number; speak: number; gap?: number; hold: number; duration: number; voiceAt?: number;
 	share?: string; winAudio?: string; aAt?: number; winAt?: number; best?: 'a' | 'b'; note?: string;
 	statement?: string; stamps?: [string, string]; glitch?: number; glitchMode?: string;
 	instant?: boolean; progress?: [number, number]; popup?: {text: string; at: 'start' | 'reveal'};
+	scene?: any; step?: [number, number]; header?: string;
 	title?: string; sub?: string; a?: Side; b?: Side; pct?: [number, number];
 };
 export type Timeline = {
@@ -248,6 +249,267 @@ const Loop: React.FC<{s: Segment}> = ({s}) => (
 	</AbsoluteFill>
 );
 
+// ---------- Erklaervideos: Szenen mit einfachen Animationen ----------
+const eur = (v: number, d = 0) => v.toLocaleString('de-DE', {minimumFractionDigits: d, maximumFractionDigits: d}) + ' €';
+const ease = (f: number, a: number, b: number) => interpolate(f, [a, b], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: (t) => 1 - Math.pow(1 - t, 3)});
+const COL: Record<string, string> = {red: C.red, green: C.green, blue: C.blue, yellow: C.yellow, white: C.white, mint: C.mint};
+
+const SceneHeader: React.FC<{text?: string; step?: [number, number]}> = ({text, step}) => (
+	<div style={{position: 'absolute', top: 70, left: 0, right: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14}}>
+		{text ? <div style={{fontFamily: HEAVY, fontSize: 36, color: C.yellow, letterSpacing: 2}}>{text}</div> : null}
+		{step ? (
+			<div style={{display: 'flex', gap: 10}}>
+				{new Array(step[1]).fill(0).map((_, i) => (
+					<div key={i} style={{width: 54, height: 12, borderRadius: 6, background: i < step[0] ? C.yellow : 'rgba(255,255,255,.22)'}} />
+				))}
+			</div>
+		) : null}
+	</div>
+);
+
+const Title: React.FC<{text: string; top?: number}> = ({text, top = 250}) => {
+	const frame = useCurrentFrame();
+	const k = ease(frame, 0, 10);
+	return (
+		<div style={{position: 'absolute', top, left: 60, right: 60, textAlign: 'center', fontFamily: DISPLAY, fontSize: 92, lineHeight: 1.04,
+			color: C.white, textTransform: 'uppercase', opacity: k, transform: `translateY(${(1 - k) * 30}px)`}}>{text}</div>
+	);
+};
+
+const Counter: React.FC<{d: any; speak: number}> = ({d, speak}) => {
+	const frame = useCurrentFrame();
+	const start = Math.round(speak * (d.startFrac ?? 0.4));
+	const v = interpolate(frame, [start, start + 36], [d.from ?? 0, d.value], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: (t) => 1 - Math.pow(1 - t, 3)});
+	const pop = spring({frame: frame - start - 36, fps: 30, config: {damping: 8, mass: 0.6}});
+	const k = ease(frame, start - 6, start);
+	return (
+		<AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', gap: 36, padding: 60}}>
+			{d.emoji ? <div style={{fontFamily: EMOJI, fontSize: 170, lineHeight: 1}}>{d.emoji}</div> : null}
+			<div style={{fontFamily: HEAVY, fontSize: 56, color: C.white, textAlign: 'center'}}>{d.kicker}</div>
+			<div style={{fontFamily: DISPLAY, fontSize: 230, lineHeight: 1, color: COL[d.color ?? 'yellow'], opacity: k,
+				transform: `scale(${1 + 0.08 * pop * (frame > start + 36 ? 1 : 0)})`, ...stroke(10)}}>{eur(v, d.decimals ?? 0)}</div>
+			<div style={{fontFamily: HEAVY, fontSize: 52, color: C.white, textAlign: 'center', opacity: k}}>{d.caption}</div>
+			{d.sub ? <div style={{fontFamily: HEAVY, fontSize: 36, color: 'rgba(255,255,255,.7)', textAlign: 'center', maxWidth: 900, opacity: ease(frame, start + 40, start + 50)}}>{d.sub}</div> : null}
+		</AbsoluteFill>
+	);
+};
+
+const Guess: React.FC<{d: any; speak: number; gap: number}> = ({d, speak, gap}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const s = spring({frame, fps, config: {damping: 10}});
+	return (
+		<AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', gap: 40}}>
+			<div style={{width: 420, height: 420, borderRadius: 210, background: C.white, border: `10px solid ${C.ink}`, display: 'flex',
+				alignItems: 'center', justifyContent: 'center', fontFamily: EMOJI, fontSize: 250, transform: `scale(${s})`}}>{d.emoji}</div>
+			<div style={{fontFamily: DISPLAY, fontSize: 104, lineHeight: 1.02, color: C.white, textAlign: 'center', textTransform: 'uppercase', padding: '0 60px', ...stroke(8)}}>{d.title}</div>
+			<div style={{fontFamily: HEAVY, fontSize: 58, color: C.ink, background: C.yellow, padding: '14px 34px', borderRadius: 20}}>{d.sub}</div>
+			<div style={{position: 'absolute', left: 0, right: 0, bottom: 260, height: 260}}>
+				<div style={{position: 'relative', left: 0, top: -960 + 130}}><Center speakEnd={speak} count={gap} /></div>
+			</div>
+			<Sequence from={speak} durationInFrames={gap}><Audio src={staticFile('sfx/countdown.mp3')} startFrom={Math.max(0, COUNT - gap)} volume={0.9} /></Sequence>
+		</AbsoluteFill>
+	);
+};
+
+const Checklist: React.FC<{d: any; speak: number}> = ({d, speak}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const n = d.items.length;
+	return (
+		<AbsoluteFill>
+			<Title text={d.title} />
+			<div style={{position: 'absolute', top: 560, left: 90, right: 90, display: 'flex', flexDirection: 'column', gap: 46}}>
+				{d.items.map((it: any, i: number) => {
+					const at = Math.round(speak * (0.22 + 0.7 * i / n));
+					const k = spring({frame: frame - at, fps, config: {damping: 11, mass: 0.6}});
+					return (
+						<div key={i} style={{display: 'flex', alignItems: 'center', gap: 34, opacity: frame < at ? 0.15 : 1, transform: `translateX(${(1 - k) * -60}px)`}}>
+							<div style={{width: 120, height: 120, borderRadius: 30, background: frame < at ? 'rgba(255,255,255,.15)' : C.green, display: 'flex',
+								alignItems: 'center', justifyContent: 'center', fontFamily: HEAVY, fontSize: 80, color: C.white, transform: `scale(${0.6 + 0.4 * k})`}}>✓</div>
+							<div style={{fontFamily: EMOJI, fontSize: 84}}>{it.emoji}</div>
+							<div style={{fontFamily: HEAVY, fontSize: 60, color: C.white}}>{it.text}</div>
+							<Sequence from={at} layout="none"><Audio src={staticFile('sfx/check.mp3')} volume={0.5} /></Sequence>
+						</div>
+					);
+				})}
+			</div>
+		</AbsoluteFill>
+	);
+};
+
+const Split: React.FC<{d: any; speak: number}> = ({d, speak}) => {
+	const frame = useCurrentFrame();
+	const total = d.parts.reduce((a: number, p: any) => a + p.value, 0);
+	const at = Math.round(speak * (d.splitFrac ?? 0.45));
+	const k = ease(frame, at, at + 24);
+	return (
+		<AbsoluteFill>
+			<Title text={d.title} />
+			<div style={{position: 'absolute', top: 520, left: 0, right: 0, textAlign: 'center', fontFamily: DISPLAY, fontSize: 170, color: C.yellow, ...stroke(8)}}>{d.big}</div>
+			<div style={{position: 'absolute', top: 730, left: 0, right: 0, textAlign: 'center', fontFamily: HEAVY, fontSize: 44, color: C.white}}>{d.caption}</div>
+			<div style={{position: 'absolute', top: 880, left: 90, right: 90, height: 150, borderRadius: 30, overflow: 'hidden', display: 'flex', border: `8px solid ${C.ink}`, background: 'rgba(255,255,255,.15)'}}>
+				{d.parts.map((p: any, i: number) => (
+					<div key={i} style={{width: `${(100 * p.value / total) * (i === 0 ? k : 1)}%`, background: COL[p.color], transition: 'none',
+						opacity: i === 0 ? 1 : k}} />
+				))}
+			</div>
+			<div style={{position: 'absolute', top: 1080, left: 90, right: 90, display: 'flex', flexDirection: 'column', gap: 26, opacity: k}}>
+				{d.parts.map((p: any, i: number) => (
+					<div key={i} style={{display: 'flex', alignItems: 'center', gap: 24}}>
+						<div style={{width: 56, height: 56, borderRadius: 14, background: COL[p.color]}} />
+						<div style={{fontFamily: HEAVY, fontSize: 56, color: C.white, flex: 1}}>{p.label}</div>
+						<div style={{fontFamily: DISPLAY, fontSize: 80, color: COL[p.color]}}>{eur(p.value, 2)}</div>
+					</div>
+				))}
+			</div>
+		</AbsoluteFill>
+	);
+};
+
+const Amort: React.FC<{d: any; speak: number}> = ({d, speak}) => {
+	const frame = useCurrentFrame();
+	const r = Math.pow(1 + d.eff, 1 / 12) - 1;
+	const A = d.P * r / (1 - Math.pow(1 + r, -d.n));
+	let b = d.P;
+	const rows = new Array(d.n).fill(0).map(() => {const i = b * r; b -= A - i; return i;});
+	const shown = Math.round(interpolate(frame, [10, speak * 0.75], [0, Number(d.n)], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'}));
+	const W = 900, H = 640, bw = W / d.n;
+	return (
+		<AbsoluteFill>
+			<Title text={d.title} />
+			<div style={{position: 'absolute', top: 560, left: 90, width: W, height: H}}>
+				{rows.map((i, m) => m < shown ? (
+					<div key={m} style={{position: 'absolute', left: m * bw + 1, bottom: 0, width: bw - 3, height: H, display: 'flex', flexDirection: 'column'}}>
+						<div style={{height: `${100 * i / A}%`, background: C.red}} />
+						<div style={{flex: 1, background: C.green}} />
+					</div>
+				) : null)}
+				<div style={{position: 'absolute', left: 0, right: 0, top: H + 18, display: 'flex', justifyContent: 'space-between', fontFamily: HEAVY, fontSize: 34, color: 'rgba(255,255,255,.8)'}}>
+					<span>Monat 1</span><span>Monat {d.n}</span>
+				</div>
+			</div>
+			<div style={{position: 'absolute', top: 1320, left: 90, right: 90, display: 'flex', flexDirection: 'column', gap: 18}}>
+				<div style={{display: 'flex', alignItems: 'center', gap: 20}}><div style={{width: 48, height: 48, borderRadius: 12, background: C.red}} /><div style={{fontFamily: HEAVY, fontSize: 48, color: C.white}}>Zinsen: {eur(rows[0], 2)} → {eur(rows[d.n - 1], 2)}</div></div>
+				<div style={{display: 'flex', alignItems: 'center', gap: 20}}><div style={{width: 48, height: 48, borderRadius: 12, background: C.green}} /><div style={{fontFamily: HEAVY, fontSize: 48, color: C.white}}>Tilgung: {eur(A - rows[0], 2)} → {eur(A - rows[d.n - 1], 2)}</div></div>
+			</div>
+		</AbsoluteFill>
+	);
+};
+
+const Cards: React.FC<{d: any; speak: number}> = ({d, speak}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	return (
+		<AbsoluteFill>
+			<Title text={d.title} />
+			<div style={{position: 'absolute', top: 540, left: 70, right: 70, display: 'flex', flexDirection: 'column', gap: 44}}>
+				{d.cards.map((c: any, i: number) => {
+					const at = Math.round(speak * (0.12 + 0.45 * i));
+					const k = spring({frame: frame - at, fps, config: {damping: 12, mass: 0.6}});
+					return (
+						<div key={i} style={{background: c.good ? C.green : 'rgba(255,255,255,.12)', border: `8px solid ${c.good ? C.yellow : 'rgba(255,255,255,.3)'}`, borderRadius: 34,
+							padding: '34px 40px', opacity: frame < at ? 0 : 1, transform: `scale(${0.85 + 0.15 * k})`}}>
+							<div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'baseline'}}>
+								<div style={{fontFamily: HEAVY, fontSize: 52, color: C.white, flex: 1, paddingRight: 20}}>{c.head}</div>
+								<div style={{fontFamily: DISPLAY, fontSize: 110, color: c.good ? C.yellow : C.white, whiteSpace: 'nowrap', ...stroke(6)}}>{c.value}</div>
+							</div>
+							<div style={{fontFamily: HEAVY, fontSize: 40, lineHeight: 1.25, color: 'rgba(255,255,255,.9)', marginTop: 10}}>{c.text}</div>
+						</div>
+					);
+				})}
+			</div>
+		</AbsoluteFill>
+	);
+};
+
+const Bars: React.FC<{d: any; speak: number}> = ({d, speak}) => {
+	const frame = useCurrentFrame();
+	const max = Math.max(...d.items.map((it: any) => it.value));
+	const base = d.base ?? 0;
+	return (
+		<AbsoluteFill>
+			<Title text={d.title} />
+			<div style={{position: 'absolute', top: 560, left: 80, right: 80, display: 'flex', flexDirection: 'column', gap: 54}}>
+				{d.items.map((it: any, i: number) => {
+					const at = Math.round(speak * (0.1 + 0.75 * i / d.items.length));
+					const k = ease(frame, at, at + 22);
+					const w = (it.value - base) / (max - base);
+					return (
+						<div key={i} style={{opacity: frame < at ? 0 : 1}}>
+							<div style={{fontFamily: HEAVY, fontSize: 46, color: C.white, marginBottom: 12}}>{it.label}</div>
+							<div style={{display: 'flex', alignItems: 'center', gap: 24}}>
+								<div style={{height: 96, width: `${Math.max(8, 72 * w * k)}%`, borderRadius: 20, background: COL[it.color ?? (it.highlight ? 'yellow' : 'white')],
+									border: `6px solid ${C.ink}`}} />
+								<div style={{fontFamily: DISPLAY, fontSize: 78, color: it.highlight ? C.yellow : C.white, ...stroke(5)}}>{eur(Math.round(it.value * k))}</div>
+							</div>
+						</div>
+					);
+				})}
+			</div>
+			{d.note ? <div style={{position: 'absolute', bottom: 210, left: 80, right: 80, textAlign: 'center', fontFamily: HEAVY, fontSize: 32, color: 'rgba(255,255,255,.65)'}}>{d.note}</div> : null}
+		</AbsoluteFill>
+	);
+};
+
+const Stats: React.FC<{d: any; speak: number}> = ({d, speak}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	return (
+		<AbsoluteFill>
+			<Title text={d.title} />
+			<div style={{position: 'absolute', top: 600, left: 0, right: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 70}}>
+				{d.items.map((it: any, i: number) => {
+					const at = Math.round(speak * (0.2 + 0.45 * i));
+					const k = spring({frame: frame - at, fps, config: {damping: 8, mass: 0.6}});
+					return (
+						<div key={i} style={{display: 'flex', flexDirection: 'column', alignItems: 'center', opacity: frame < at ? 0 : 1, transform: `scale(${k})`}}>
+							<div style={{fontFamily: DISPLAY, fontSize: 220, lineHeight: 1, color: COL[it.color ?? 'yellow'], ...stroke(10)}}>{it.value}</div>
+							<div style={{fontFamily: HEAVY, fontSize: 54, color: C.white}}>{it.label}</div>
+						</div>
+					);
+				})}
+			</div>
+		</AbsoluteFill>
+	);
+};
+
+const End: React.FC<{d: any; speak: number}> = ({d, speak}) => {
+	const frame = useCurrentFrame();
+	const {fps} = useVideoConfig();
+	const k = spring({frame: frame - 4, fps, config: {damping: 9}});
+	return (
+		<AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', gap: 40, padding: 70}}>
+			<div style={{fontFamily: HEAVY, fontSize: 58, color: C.white, textAlign: 'center'}}>{d.kicker}</div>
+			<div style={{fontFamily: DISPLAY, fontSize: 210, lineHeight: 1, color: C.yellow, transform: `scale(${k})`, ...stroke(10)}}>{d.big}</div>
+			<div style={{fontFamily: HEAVY, fontSize: 52, color: C.white, textAlign: 'center'}}>{d.caption}</div>
+			{d.cta ? <div style={{fontFamily: HEAVY, fontSize: 50, color: C.ink, background: C.yellow, padding: '16px 34px', borderRadius: 20,
+				opacity: ease(frame, speak * 0.5, speak * 0.5 + 8)}}>{d.cta}</div> : null}
+			{d.note ? <div style={{position: 'absolute', bottom: 190, left: 70, right: 70, textAlign: 'center', fontFamily: HEAVY, fontSize: 30, lineHeight: 1.3, color: 'rgba(255,255,255,.65)'}}>{d.note}</div> : null}
+		</AbsoluteFill>
+	);
+};
+
+const Scene: React.FC<{s: Segment}> = ({s}) => {
+	const d = s.scene;
+	const body = d.type === 'counter' ? <Counter d={d} speak={s.speak} />
+		: d.type === 'guess' ? <Guess d={d} speak={s.speak} gap={s.gap ?? 60} />
+		: d.type === 'checklist' ? <Checklist d={d} speak={s.speak} />
+		: d.type === 'split' ? <Split d={d} speak={s.speak} />
+		: d.type === 'amort' ? <Amort d={d} speak={s.speak} />
+		: d.type === 'cards' ? <Cards d={d} speak={s.speak} />
+		: d.type === 'bars' ? <Bars d={d} speak={s.speak} />
+		: d.type === 'stats' ? <Stats d={d} speak={s.speak} />
+		: <End d={d} speak={s.speak} />;
+	return (
+		<AbsoluteFill style={{background: `radial-gradient(circle at 50% 35%, #26304f 0%, ${C.ink} 75%)`}}>
+			{body}
+			<SceneHeader text={s.header} step={s.step} />
+			<Audio src={staticFile(s.audio)} />
+		</AbsoluteFill>
+	);
+};
+
 // Aussage oben (Mythos oder Fakt)
 const Statement: React.FC<{text: string}> = ({text}) => {
 	const frame = useCurrentFrame();
@@ -453,7 +715,7 @@ export const Comparison: React.FC<{timeline: Timeline}> = ({timeline}) => {
 				{segs.map((s, i) => (
 					<Series.Sequence key={i} durationInFrames={s.duration}>
 						{s.kind === 'intro' ? <Intro s={s} /> : s.kind === 'outro' ? <Outro s={s} handle={timeline.handle} />
-							: s.kind === 'explain' ? <Explain s={s} /> : s.kind === 'loop' ? <Loop s={s} /> : <Question s={s} />}
+							: s.kind === 'explain' ? <Explain s={s} /> : s.kind === 'loop' ? <Loop s={s} /> : s.kind === 'scene' ? <Scene s={s} /> : <Question s={s} />}
 					</Series.Sequence>
 				))}
 			</Series>
