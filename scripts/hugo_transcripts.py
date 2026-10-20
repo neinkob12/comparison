@@ -81,6 +81,14 @@ def main():
     if args.browser:
         opts["cookiesfrombrowser"] = (args.browser,)
     with yt_dlp.YoutubeDL(opts) as ydl:
+        if args.browser:
+            try:
+                ydl.cookiejar
+            except Exception:
+                sys.exit(f"Keine Cookies von '{args.browser}' gefunden. Ist der Browser installiert und bei YouTube angemeldet?\n"
+                         "Andere Wahl: --browser safari / firefox / brave / edge / arc (Arc: --browser chrome geht nicht).\n"
+                         "Safari auf dem Mac braucht: Systemeinstellungen > Datenschutz > Festplattenvollzugriff fuer Terminal.\n"
+                         "Oder einfach ohne --browser starten.")
         for name, url in CHANNELS.items():
             folder = OUT / name
             folder.mkdir(parents=True, exist_ok=True)
