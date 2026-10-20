@@ -1,0 +1,228 @@
+{
+ "id": "g22",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": false,
+ "durationInFrames": 1945,
+ "segments": [
+  {
+   "kind": "scene",
+   "audio": "audio/g22/00_scene.mp3",
+   "speak": 100,
+   "gap": 90,
+   "hold": 6,
+   "scene": {
+    "type": "guess",
+    "emoji": "🚛",
+    "title": "LKW-Fahrer",
+    "sub": "Rate mal 👇"
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    1,
+    8
+   ],
+   "duration": 196
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g22/01_scene.mp3",
+   "speak": 249,
+   "gap": 0,
+   "hold": 4,
+   "scene": {
+    "type": "counter",
+    "kicker": "Berufskraftfahrer, Vollzeit",
+    "value": 3196,
+    "caption": "brutto im Monat (Median)",
+    "sub": "Median: Die Hälfte verdient mehr, die Hälfte weniger.",
+    "startFrac": 0.02
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    2,
+    8
+   ],
+   "duration": 253
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g22/02_scene.mp3",
+   "speak": 236,
+   "gap": 0,
+   "hold": 4,
+   "scene": {
+    "type": "bars",
+    "title": "Im Vergleich",
+    "base": 2000,
+    "note": "Median brutto, Vollzeit. Stand 31.12.2025",
+    "items": [
+     {
+      "label": "Alle Vollzeitbeschäftigten",
+      "value": 4217
+     },
+     {
+      "label": "LKW-Fahrer",
+      "value": 3196,
+      "highlight": true
+     }
+    ]
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    3,
+    8
+   ],
+   "duration": 240
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g22/03_scene.mp3",
+   "speak": 283,
+   "gap": 0,
+   "hold": 4,
+   "scene": {
+    "type": "bars",
+    "title": "Andere Fachkräfte",
+    "base": 2000,
+    "items": [
+     {
+      "label": "Kfz-Technik",
+      "value": 3755
+     },
+     {
+      "label": "Medizinische Fachangestellte",
+      "value": 3329
+     },
+     {
+      "label": "LKW-Fahrer",
+      "value": 3196,
+      "highlight": true
+     },
+     {
+      "label": "Köche",
+      "value": 3018
+     }
+    ]
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    4,
+    8
+   ],
+   "duration": 287
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g22/04_scene.mp3",
+   "speak": 207,
+   "gap": 0,
+   "hold": 4,
+   "scene": {
+    "type": "bars",
+    "title": "Spitze und Ende",
+    "base": 2000,
+    "items": [
+     {
+      "label": "IT-Berufe",
+      "value": 6114,
+      "color": "green"
+     },
+     {
+      "label": "LKW-Fahrer",
+      "value": 3196,
+      "highlight": true
+     },
+     {
+      "label": "Reinigungsberufe",
+      "value": 2675,
+      "color": "red"
+     }
+    ]
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    5,
+    8
+   ],
+   "duration": 211
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g22/05_scene.mp3",
+   "speak": 366,
+   "gap": 0,
+   "hold": 4,
+   "scene": {
+    "type": "stats",
+    "title": "Niedriglohn-Grenze",
+    "items": [
+     {
+      "value": "2.811 €",
+      "label": "2/3 vom Median"
+     },
+     {
+      "value": "15,5 %",
+      "label": "aller Vollzeitbeschäftigten darunter",
+      "color": "red"
+     }
+    ]
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    6,
+    8
+   ],
+   "duration": 370
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g22/06_scene.mp3",
+   "speak": 267,
+   "gap": 0,
+   "hold": 4,
+   "scene": {
+    "type": "stats",
+    "title": "Seit 2016",
+    "items": [
+     {
+      "value": "+36 %",
+      "label": "Gehalt seit 2016"
+     },
+     {
+      "value": "Engpass",
+      "label": "laut Arbeitsagentur",
+      "color": "red"
+     }
+    ]
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    7,
+    8
+   ],
+   "duration": 271
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g22/07_scene.mp3",
+   "speak": 102,
+   "gap": 0,
+   "hold": 15,
+   "scene": {
+    "type": "end",
+    "kicker": "LKW-Fahrer",
+    "big": "3.196 €",
+    "caption": "Zu viel oder zu wenig? 👇",
+    "note": "Quelle: Statistik der Bundesagentur für Arbeit, Blickpunkt Arbeitsmarkt: Analyse zur Entgeltstatistik (Okt. 2026). Median brutto, Vollzeit, Stichtag 31.12.2025."
+   },
+   "header": "GEHALTS-CHECK",
+   "step": [
+    8,
+    8
+   ],
+   "duration": 117
+  }
+ ]
+}

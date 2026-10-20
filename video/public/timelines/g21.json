@@ -1,0 +1,198 @@
+{
+ "id": "g21",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": false,
+ "durationInFrames": 1930,
+ "segments": [
+  {
+   "kind": "scene",
+   "audio": "audio/g21/00_scene.mp3",
+   "speak": 172,
+   "gap": 0,
+   "hold": 12,
+   "scene": {
+    "type": "counter",
+    "kicker": "−2.000 € im Dispo, 1 Jahr",
+    "value": 189,
+    "caption": "Zinsen",
+    "color": "red",
+    "startFrac": 0.4
+   },
+   "header": "KREDIT ERKLÄRT · TEIL 2",
+   "step": [
+    1,
+    7
+   ],
+   "duration": 184
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g21/01_scene.mp3",
+   "speak": 287,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "cards",
+    "title": "Was ist der Dispo?",
+    "cards": [
+     {
+      "head": "Dispo-Rahmen",
+      "value": "2.000 €",
+      "text": "So weit darfst du ins Minus"
+     },
+     {
+      "head": "Zinsen",
+      "value": "täglich",
+      "text": "Nur auf das, was du wirklich im Minus bist",
+      "good": true
+     }
+    ]
+   },
+   "header": "KREDIT ERKLÄRT · TEIL 2",
+   "step": [
+    2,
+    7
+   ],
+   "duration": 297
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g21/02_scene.mp3",
+   "speak": 374,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "bars",
+    "title": "Zinsen im Vergleich",
+    "unit": "%",
+    "base": 0,
+    "note": "Effektivzinsen, Neugeschäft August 2026. Quelle: Deutsche Bundesbank",
+    "items": [
+     {
+      "label": "Dispo / Rahmenkredit",
+      "value": 9.46,
+      "highlight": true
+     },
+     {
+      "label": "Ratenkredit (1 bis 5 Jahre)",
+      "value": 7.53
+     },
+     {
+      "label": "Echter Kreditkartenkredit",
+      "value": 17.52,
+      "color": "red"
+     }
+    ]
+   },
+   "header": "KREDIT ERKLÄRT · TEIL 2",
+   "step": [
+    3,
+    7
+   ],
+   "duration": 384
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g21/03_scene.mp3",
+   "speak": 203,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "counter",
+    "kicker": "−2.000 €, 3 Jahre nie ausgeglichen",
+    "value": 623,
+    "caption": "Zinsen",
+    "color": "red",
+    "startFrac": 0.45
+   },
+   "header": "KREDIT ERKLÄRT · TEIL 2",
+   "step": [
+    4,
+    7
+   ],
+   "duration": 213
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g21/04_scene.mp3",
+   "speak": 410,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "stats",
+    "title": "Dein Recht (§ 504a BGB)",
+    "items": [
+     {
+      "value": "6 Monate",
+      "label": "am Stück im Dispo"
+     },
+     {
+      "value": "> 75 %",
+      "label": "des Rahmens genutzt",
+      "color": "red"
+     }
+    ]
+   },
+   "header": "KREDIT ERKLÄRT · TEIL 2",
+   "step": [
+    5,
+    7
+   ],
+   "duration": 420
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g21/05_scene.mp3",
+   "speak": 253,
+   "gap": 0,
+   "hold": 10,
+   "scene": {
+    "type": "checklist",
+    "title": "So kommst du raus",
+    "items": [
+     {
+      "emoji": "🔁",
+      "text": "Umschulden"
+     },
+     {
+      "emoji": "📉",
+      "text": "Fest abbauen"
+     },
+     {
+      "emoji": "✂️",
+      "text": "Rahmen senken"
+     }
+    ]
+   },
+   "header": "KREDIT ERKLÄRT · TEIL 2",
+   "step": [
+    6,
+    7
+   ],
+   "duration": 263
+  },
+  {
+   "kind": "scene",
+   "audio": "audio/g21/06_scene.mp3",
+   "speak": 149,
+   "gap": 0,
+   "hold": 20,
+   "scene": {
+    "type": "end",
+    "kicker": "Dispo im Schnitt",
+    "big": "9,46 %",
+    "caption": "nur für kurze Engpässe",
+    "cta": "Folg für Teil 3: die Schufa 👀",
+    "note": "Quelle: Deutsche Bundesbank, MFI-Zinsstatistik, Neugeschäft August 2026 (Stand 01.10.2026). Beispiele vereinfacht, keine Finanzberatung."
+   },
+   "header": "KREDIT ERKLÄRT · TEIL 2",
+   "step": [
+    7,
+    7
+   ],
+   "duration": 169
+  }
+ ]
+}

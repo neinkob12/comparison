@@ -1,0 +1,142 @@
+{
+ "id": "g22",
+ "channel": "G",
+ "handle": null,
+ "format": "explainer",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "header": "GEHALTS-CHECK",
+ "sceneHold": 4,
+ "scenes": [
+  {
+   "type": "guess",
+   "say": "Was verdient ein LKW-Fahrer in Deutschland wirklich? Rate mal!",
+   "emoji": "🚛",
+   "title": "LKW-Fahrer",
+   "sub": "Rate mal 👇",
+   "timer": 90,
+   "hold": 6
+  },
+  {
+   "type": "counter",
+   "say": "3.196 Euro brutto im Monat. Das ist der Median für Berufskraftfahrer im Güterverkehr in Vollzeit, Stand Ende 2025.",
+   "kicker": "Berufskraftfahrer, Vollzeit",
+   "value": 3196,
+   "caption": "brutto im Monat (Median)",
+   "sub": "Median: Die Hälfte verdient mehr, die Hälfte weniger.",
+   "startFrac": 0.02
+  },
+  {
+   "type": "bars",
+   "say": "Der Median aller Vollzeitbeschäftigten liegt bei 4.217 Euro. LKW-Fahrer verdienen also rund ein Viertel weniger.",
+   "title": "Im Vergleich",
+   "base": 2000,
+   "note": "Median brutto, Vollzeit. Stand 31.12.2025",
+   "items": [
+    {
+     "label": "Alle Vollzeitbeschäftigten",
+     "value": 4217
+    },
+    {
+     "label": "LKW-Fahrer",
+     "value": 3196,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "type": "bars",
+   "say": "Zum Vergleich: Kfz-Techniker kommen auf 3.755 Euro, Medizinische Fachangestellte auf 3.329, Köche auf 3.018.",
+   "title": "Andere Fachkräfte",
+   "base": 2000,
+   "items": [
+    {
+     "label": "Kfz-Technik",
+     "value": 3755
+    },
+    {
+     "label": "Medizinische Fachangestellte",
+     "value": 3329
+    },
+    {
+     "label": "LKW-Fahrer",
+     "value": 3196,
+     "highlight": true
+    },
+    {
+     "label": "Köche",
+     "value": 3018
+    }
+   ]
+  },
+  {
+   "type": "bars",
+   "say": "Am meisten verdienen IT-Berufe mit 6.114 Euro. Am wenigsten Reinigungsberufe mit 2.675.",
+   "title": "Spitze und Ende",
+   "base": 2000,
+   "items": [
+    {
+     "label": "IT-Berufe",
+     "value": 6114,
+     "color": "green"
+    },
+    {
+     "label": "LKW-Fahrer",
+     "value": 3196,
+     "highlight": true
+    },
+    {
+     "label": "Reinigungsberufe",
+     "value": 2675,
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "type": "stats",
+   "say": "Als unterer Entgeltbereich gilt weniger als zwei Drittel vom Median, also rund 2.811 Euro. Darunter liegen 15,5 Prozent aller Vollzeitbeschäftigten. LKW-Fahrer liegen knapp darüber.",
+   "title": "Niedriglohn-Grenze",
+   "items": [
+    {
+     "value": "2.811 €",
+     "label": "2/3 vom Median"
+    },
+    {
+     "value": "15,5 %",
+     "label": "aller Vollzeitbeschäftigten darunter",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "type": "stats",
+   "say": "Immerhin ist das Gehalt seit 2016 um 36 Prozent gestiegen. Und die Arbeitsagentur zählt den Job zu den Engpassberufen. Es fehlen Fahrer.",
+   "title": "Seit 2016",
+   "items": [
+    {
+     "value": "+36 %",
+     "label": "Gehalt seit 2016"
+    },
+    {
+     "value": "Engpass",
+     "label": "laut Arbeitsagentur",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "say": "Zu viel oder zu wenig für diesen Job? Schreibs in die Kommentare!",
+   "kicker": "LKW-Fahrer",
+   "big": "3.196 €",
+   "caption": "Zu viel oder zu wenig? 👇",
+   "note": "Quelle: Statistik der Bundesagentur für Arbeit, Blickpunkt Arbeitsmarkt: Analyse zur Entgeltstatistik (Okt. 2026). Median brutto, Vollzeit, Stichtag 31.12.2025.",
+   "hold": 15
+  }
+ ]
+}

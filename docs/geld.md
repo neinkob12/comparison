@@ -121,3 +121,21 @@ Rate 238,47 €, Zinsen gesamt 1.446 €, 1. Monat 56,54 € Zinsen / 181,92 €
 Krankenpflege-Fachkräfte 4.329 €, Altenpflege-Fachkräfte 4.153 €, alle Beschäftigten 4.013 €, Helfer Krankenpflege 3.363 €,
 Helfer Altenpflege 3.098 €, alle Helfer 2.863 €, seit 2012 +46 % / +75 % (real +12 % / +35 %),
 West 4.380 €, Ost 4.115 €, Sachsen 4.017 €, Baden-Württemberg 4.520 €.
+
+## Runde 21.10.: g19 bis g22 (gleicher Split wie g15 bis g18)
+
+| Video | Format | Stimme | Länge |
+|---|---|---|---|
+| g19 | Schnell, provokant (wie g11 bis g16) | Adam | 62,7 s |
+| g20 | Schnell, provokant | Adam | 61,4 s |
+| g21 | Kredit erklärt, Teil 2: Dispo | Brian | 64,4 s |
+| g22 | Gehalts-Check: LKW-Fahrer | Brian | 64,9 s |
+
+**g21 Quellen (geprüft):** Deutsche Bundesbank, MFI-Zinsstatistik (Stand 01.10.2026), Neugeschäft August 2026:
+revolvierende Kredite und Überziehungskredite private Haushalte 9,46 %, echte Kreditkartenkredite 17,52 %,
+Konsumentenkredite 1 bis 5 Jahre 7,53 %. Beispiel: −2.000 € ein Jahr = 189 € Zinsen, drei Jahre nie ausgeglichen = 623 €.
+§ 504a BGB: Beratungsangebot nach 6 Monaten ununterbrochen im Dispo mit im Schnitt über 75 % des Rahmens.
+
+**g22 Quellen (geprüft):** Statistik der Bundesagentur für Arbeit, Blickpunkt Arbeitsmarkt: Analyse zur Entgeltstatistik (Okt. 2026),
+Stichtag 31.12.2025, Median brutto Vollzeit: alle 4.217 €, Berufskraftfahrer 3.196 € (+36,3 % seit 2016, Engpassberuf),
+Kfz-Technik 3.755 €, MFA 3.329 €, Köche 3.018 €, IT 6.114 €, Reinigung 2.675 €, unterer Entgeltbereich unter 2.811 € (15,5 %).

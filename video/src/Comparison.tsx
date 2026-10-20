@@ -439,9 +439,11 @@ const Bars: React.FC<{d: any; speak: number}> = ({d, speak}) => {
 						<div key={i} style={{opacity: frame < at ? 0 : 1}}>
 							<div style={{fontFamily: HEAVY, fontSize: 46, color: C.white, marginBottom: 12}}>{it.label}</div>
 							<div style={{display: 'flex', alignItems: 'center', gap: 24}}>
-								<div style={{height: 96, width: `${Math.max(8, 72 * w * k)}%`, borderRadius: 20, background: COL[it.color ?? (it.highlight ? 'yellow' : 'white')],
+								<div style={{height: 96, width: `${Math.max(8, 62 * w * k)}%`, borderRadius: 20, background: COL[it.color ?? (it.highlight ? 'yellow' : 'white')],
 									border: `6px solid ${C.ink}`}} />
-								<div style={{fontFamily: DISPLAY, fontSize: 78, color: it.highlight ? C.yellow : C.white, ...stroke(5)}}>{eur(Math.round(it.value * k))}</div>
+								<div style={{fontFamily: DISPLAY, fontSize: 78, color: it.highlight ? C.yellow : C.white, whiteSpace: 'nowrap', ...stroke(5)}}>
+									{d.unit === '%' ? (it.value * k).toLocaleString('de-DE', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' %' : eur(Math.round(it.value * k))}
+								</div>
 							</div>
 						</div>
 					);

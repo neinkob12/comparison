@@ -1,0 +1,163 @@
+{
+ "id": "g20",
+ "channel": "G",
+ "handle": null,
+ "format": "fast",
+ "pace": {
+  "timer": 60,
+  "hold": 45
+ },
+ "instant": true,
+ "progress": true,
+ "follow": false,
+ "questions": [
+  {
+   "say": "Kontostand zeigen, oder Browserverlauf zeigen?",
+   "a": {
+    "label": "Kontostand zeigen",
+    "emoji": "🏦"
+   },
+   "b": {
+    "label": "Browserverlauf zeigen",
+    "emoji": "🖥️"
+   },
+   "pct": [
+    79,
+    21
+   ],
+   "timer": 30
+  },
+  {
+   "say": "Beförderung, aber 20 Stunden mehr pro Woche. Annehmen, oder ablehnen?",
+   "a": {
+    "label": "Annehmen",
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "Ablehnen",
+    "emoji": "🛑"
+   },
+   "pct": [
+    34,
+    66
+   ]
+  },
+  {
+   "say": "Partner will dein Erbe teilen. Ja, oder nein?",
+   "a": {
+    "label": "Ja, teilen",
+    "emoji": "💑"
+   },
+   "b": {
+    "label": "Nein",
+    "emoji": "🙅"
+   },
+   "pct": [
+    42,
+    58
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Nein“ nimmt 👇",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Gratis Auto für immer, oder gratis Flüge für immer?",
+   "a": {
+    "label": "Gratis Auto",
+    "emoji": "🚗"
+   },
+   "b": {
+    "label": "Gratis Flüge",
+    "emoji": "✈️"
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Ein Jahr ohne Gehalt und dann 1 Million, oder normal weiterarbeiten?",
+   "a": {
+    "label": "1 Jahr nichts, dann 1 Mio.",
+    "emoji": "⏳"
+   },
+   "b": {
+    "label": "Normal weiter",
+    "emoji": "💼"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "Eltern leihen dir 20.000 Euro und fragen jede Woche danach, oder Bankkredit?",
+   "a": {
+    "label": "Eltern leihen",
+    "emoji": "👪"
+   },
+   "b": {
+    "label": "Bankkredit",
+    "emoji": "🏦"
+   },
+   "pct": [
+    38,
+    62
+   ]
+  },
+  {
+   "say": "Mehr verdienen als dein Partner, oder weniger?",
+   "a": {
+    "label": "Mehr",
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "Weniger",
+    "emoji": "📉"
+   },
+   "pct": [
+    71,
+    29
+   ]
+  },
+  {
+   "say": "Kollege kriegt Bonus für deine Idee. Ansprechen, oder schlucken?",
+   "a": {
+    "label": "Ansprechen",
+    "emoji": "🗣️"
+   },
+   "b": {
+    "label": "Schlucken",
+    "emoji": "😶"
+   },
+   "pct": [
+    88,
+    12
+   ]
+  },
+  {
+   "say": "Für immer 3.000 Euro netto ohne Arbeit, oder Traumjob mit 6.000?",
+   "a": {
+    "label": "3.000 € ohne Arbeit",
+    "emoji": "😴"
+   },
+   "b": {
+    "label": "Traumjob, 6.000 €",
+    "emoji": "💼"
+   },
+   "pct": [
+    50,
+    50
+   ]
+  }
+ ],
+ "outro": {
+  "loop": true,
+  "say": "Und jetzt mal ehrlich:"
+ }
+}

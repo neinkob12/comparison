@@ -1,0 +1,278 @@
+{
+ "id": "g20",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": true,
+ "durationInFrames": 1839,
+ "segments": [
+  {
+   "kind": "q",
+   "audio": "audio/g20/00_q_a.mp3",
+   "audioB": "audio/g20/00_q_b.mp3",
+   "bAt": 37,
+   "speak": 77,
+   "gap": 30,
+   "hold": 45,
+   "a": {
+    "label": "Kontostand zeigen",
+    "img": null,
+    "emoji": "🏦"
+   },
+   "b": {
+    "label": "Browserverlauf zeigen",
+    "img": null,
+    "emoji": "🖥️"
+   },
+   "pct": [
+    79,
+    21
+   ],
+   "progress": [
+    1,
+    9
+   ],
+   "instant": true,
+   "duration": 152
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g20/01_q_a.mp3",
+   "audioB": "audio/g20/01_q_b.mp3",
+   "bAt": 88,
+   "speak": 115,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Annehmen",
+    "img": null,
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "Ablehnen",
+    "img": null,
+    "emoji": "🛑"
+   },
+   "pct": [
+    34,
+    66
+   ],
+   "progress": [
+    2,
+    9
+   ],
+   "duration": 220
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g20/02_q_a.mp3",
+   "audioB": "audio/g20/02_q_b.mp3",
+   "bAt": 60,
+   "speak": 82,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Ja, teilen",
+    "img": null,
+    "emoji": "💑"
+   },
+   "b": {
+    "label": "Nein",
+    "img": null,
+    "emoji": "🙅"
+   },
+   "pct": [
+    42,
+    58
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Nein“ nimmt 👇",
+    "at": "reveal"
+   },
+   "progress": [
+    3,
+    9
+   ],
+   "duration": 187
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g20/03_q_a.mp3",
+   "audioB": "audio/g20/03_q_b.mp3",
+   "bAt": 37,
+   "speak": 81,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Gratis Auto",
+    "img": null,
+    "emoji": "🚗"
+   },
+   "b": {
+    "label": "Gratis Flüge",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    45,
+    55
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   },
+   "progress": [
+    4,
+    9
+   ],
+   "duration": 186
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g20/04_q_a.mp3",
+   "audioB": "audio/g20/04_q_b.mp3",
+   "bAt": 69,
+   "speak": 113,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nichts, dann 1 Mio.",
+    "img": null,
+    "emoji": "⏳"
+   },
+   "b": {
+    "label": "Normal weiter",
+    "img": null,
+    "emoji": "💼"
+   },
+   "pct": [
+    97,
+    3
+   ],
+   "progress": [
+    5,
+    9
+   ],
+   "duration": 218
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g20/05_q_a.mp3",
+   "audioB": "audio/g20/05_q_b.mp3",
+   "bAt": 95,
+   "speak": 126,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Eltern leihen",
+    "img": null,
+    "emoji": "👪"
+   },
+   "b": {
+    "label": "Bankkredit",
+    "img": null,
+    "emoji": "🏦"
+   },
+   "pct": [
+    38,
+    62
+   ],
+   "progress": [
+    6,
+    9
+   ],
+   "duration": 231
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g20/06_q_a.mp3",
+   "audioB": "audio/g20/06_q_b.mp3",
+   "bAt": 50,
+   "speak": 76,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Mehr",
+    "img": null,
+    "emoji": "📈"
+   },
+   "b": {
+    "label": "Weniger",
+    "img": null,
+    "emoji": "📉"
+   },
+   "pct": [
+    71,
+    29
+   ],
+   "progress": [
+    7,
+    9
+   ],
+   "duration": 181
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g20/07_q_a.mp3",
+   "audioB": "audio/g20/07_q_b.mp3",
+   "bAt": 76,
+   "speak": 102,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Ansprechen",
+    "img": null,
+    "emoji": "🗣️"
+   },
+   "b": {
+    "label": "Schlucken",
+    "img": null,
+    "emoji": "😶"
+   },
+   "pct": [
+    88,
+    12
+   ],
+   "progress": [
+    8,
+    9
+   ],
+   "duration": 207
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g20/08_q_a.mp3",
+   "audioB": "audio/g20/08_q_b.mp3",
+   "bAt": 68,
+   "speak": 116,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "3.000 € ohne Arbeit",
+    "img": null,
+    "emoji": "😴"
+   },
+   "b": {
+    "label": "Traumjob, 6.000 €",
+    "img": null,
+    "emoji": "💼"
+   },
+   "pct": [
+    50,
+    50
+   ],
+   "progress": [
+    9,
+    9
+   ],
+   "duration": 221
+  },
+  {
+   "kind": "loop",
+   "audio": "audio/g20/09_loop.mp3",
+   "speak": 32,
+   "hold": 4,
+   "duration": 36
+  }
+ ]
+}

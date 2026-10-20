@@ -1,0 +1,276 @@
+{
+ "id": "g19",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": true,
+ "durationInFrames": 1878,
+ "segments": [
+  {
+   "kind": "q",
+   "audio": "audio/g19/00_q.mp3",
+   "speak": 62,
+   "gap": 30,
+   "hold": 45,
+   "a": {
+    "label": "Gehalt × 2, Ex als Chef",
+    "img": null,
+    "emoji": "😬"
+   },
+   "b": {
+    "label": "Alles bleibt",
+    "img": null,
+    "emoji": "🙂"
+   },
+   "pct": [
+    36,
+    64
+   ],
+   "progress": [
+    1,
+    9
+   ],
+   "instant": true,
+   "duration": 137
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g19/01_q_a.mp3",
+   "audioB": "audio/g19/01_q_b.mp3",
+   "bAt": 48,
+   "speak": 121,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Sparen, mit 40 frei",
+    "img": null,
+    "emoji": "🏖️"
+   },
+   "b": {
+    "label": "Jetzt leben, bis 67",
+    "img": null,
+    "emoji": "🎉"
+   },
+   "pct": [
+    48,
+    52
+   ],
+   "progress": [
+    2,
+    9
+   ],
+   "duration": 226
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g19/02_q_a.mp3",
+   "audioB": "audio/g19/02_q_b.mp3",
+   "bAt": 93,
+   "speak": 119,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Stört mich",
+    "img": null,
+    "emoji": "😤"
+   },
+   "b": {
+    "label": "Egal",
+    "img": null,
+    "emoji": "🤷"
+   },
+   "pct": [
+    27,
+    73
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Stört mich“ nimmt 👇",
+    "at": "reveal"
+   },
+   "progress": [
+    3,
+    9
+   ],
+   "duration": 224
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g19/03_q_a.mp3",
+   "audioB": "audio/g19/03_q_b.mp3",
+   "bAt": 65,
+   "speak": 89,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "10.000 €, Freund weg",
+    "img": null,
+    "emoji": "💸"
+   },
+   "b": {
+    "label": "Nichts, Freund bleibt",
+    "img": null,
+    "emoji": "🤝"
+   },
+   "pct": [
+    6,
+    94
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   },
+   "progress": [
+    4,
+    9
+   ],
+   "duration": 194
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g19/04_q_a.mp3",
+   "audioB": "audio/g19/04_q_b.mp3",
+   "bAt": 35,
+   "speak": 78,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Für immer Homeoffice",
+    "img": null,
+    "emoji": "🏠"
+   },
+   "b": {
+    "label": "+500 € im Büro",
+    "img": null,
+    "emoji": "🏢"
+   },
+   "pct": [
+    61,
+    39
+   ],
+   "progress": [
+    5,
+    9
+   ],
+   "duration": 183
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g19/05_q_a.mp3",
+   "audioB": "audio/g19/05_q_b.mp3",
+   "bAt": 75,
+   "speak": 117,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Influencer, 10.000 €",
+    "img": null,
+    "emoji": "📱"
+   },
+   "b": {
+    "label": "Arzt, 6.000 €",
+    "img": null,
+    "emoji": "🩺"
+   },
+   "pct": [
+    33,
+    67
+   ],
+   "progress": [
+    6,
+    9
+   ],
+   "duration": 222
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g19/06_q_a.mp3",
+   "audioB": "audio/g19/06_q_b.mp3",
+   "bAt": 57,
+   "speak": 106,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Traumhochzeit",
+    "img": null,
+    "emoji": "💒"
+   },
+   "b": {
+    "label": "Anzahlung Wohnung",
+    "img": null,
+    "emoji": "🏠"
+   },
+   "pct": [
+    14,
+    86
+   ],
+   "progress": [
+    7,
+    9
+   ],
+   "duration": 211
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g19/07_q_a.mp3",
+   "audioB": "audio/g19/07_q_b.mp3",
+   "bAt": 75,
+   "speak": 108,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "Haus + 30 Jahre Kredit",
+    "img": null,
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "Für immer mieten",
+    "img": null,
+    "emoji": "🔑"
+   },
+   "pct": [
+    57,
+    43
+   ],
+   "progress": [
+    8,
+    9
+   ],
+   "duration": 213
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g19/08_q_a.mp3",
+   "audioB": "audio/g19/08_q_b.mp3",
+   "bAt": 91,
+   "speak": 126,
+   "gap": 60,
+   "hold": 45,
+   "a": {
+    "label": "50.000 €, Gehalt öffentlich",
+    "img": null,
+    "emoji": "📢"
+   },
+   "b": {
+    "label": "Privat bleiben",
+    "img": null,
+    "emoji": "🔒"
+   },
+   "pct": [
+    50,
+    50
+   ],
+   "progress": [
+    9,
+    9
+   ],
+   "duration": 231
+  },
+  {
+   "kind": "loop",
+   "audio": "audio/g19/09_loop.mp3",
+   "speak": 33,
+   "hold": 4,
+   "duration": 37
+  }
+ ]
+}

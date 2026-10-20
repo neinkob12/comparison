@@ -1,0 +1,123 @@
+{
+ "id": "g21",
+ "channel": "G",
+ "handle": null,
+ "format": "explainer",
+ "voice": {
+  "name": "Brian (ernst)",
+  "id": "nPczCjzI2devNBz1zQrb",
+  "speed": 1.06,
+  "stability": 0.85,
+  "style": 0
+ },
+ "header": "KREDIT ERKLÄRT · TEIL 2",
+ "sceneHold": 10,
+ "scenes": [
+  {
+   "type": "counter",
+   "say": "Minus 2.000 Euro auf dem Konto? Ein Jahr lang kostet dich das rund 189 Euro.",
+   "kicker": "−2.000 € im Dispo, 1 Jahr",
+   "value": 189,
+   "caption": "Zinsen",
+   "color": "red",
+   "startFrac": 0.4,
+   "hold": 12
+  },
+  {
+   "type": "cards",
+   "say": "Der Dispo ist ein Kredit auf deinem Girokonto. Die Bank lässt dich bis zu einem Limit ins Minus. Zinsen zahlst du nur auf das, was du wirklich im Minus bist, und zwar jeden Tag.",
+   "title": "Was ist der Dispo?",
+   "cards": [
+    {
+     "head": "Dispo-Rahmen",
+     "value": "2.000 €",
+     "text": "So weit darfst du ins Minus"
+    },
+    {
+     "head": "Zinsen",
+     "value": "täglich",
+     "text": "Nur auf das, was du wirklich im Minus bist",
+     "good": true
+    }
+   ]
+  },
+  {
+   "type": "bars",
+   "say": "Laut Bundesbank zahlen Haushalte für Dispo und Rahmenkredite im Schnitt 9,46 Prozent. Ein Ratenkredit kostet im Schnitt 7,53. Echte Kreditkartenkredite sogar 17,52 Prozent.",
+   "title": "Zinsen im Vergleich",
+   "unit": "%",
+   "base": 0,
+   "note": "Effektivzinsen, Neugeschäft August 2026. Quelle: Deutsche Bundesbank",
+   "items": [
+    {
+     "label": "Dispo / Rahmenkredit",
+     "value": 9.46,
+     "highlight": true
+    },
+    {
+     "label": "Ratenkredit (1 bis 5 Jahre)",
+     "value": 7.53
+    },
+    {
+     "label": "Echter Kreditkartenkredit",
+     "value": 17.52,
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "type": "counter",
+   "say": "Und wenn du nie ausgleichst, kommen Zinsen auf Zinsen. Nach drei Jahren hast du 623 Euro nur für Zinsen bezahlt.",
+   "kicker": "−2.000 €, 3 Jahre nie ausgeglichen",
+   "value": 623,
+   "caption": "Zinsen",
+   "color": "red",
+   "startFrac": 0.45
+  },
+  {
+   "type": "stats",
+   "say": "Und das wissen die wenigsten: Bist du sechs Monate am Stück im Dispo und nutzt im Schnitt mehr als 75 Prozent davon, muss dir deine Bank eine Beratung zu günstigeren Alternativen anbieten. Das steht in Paragraf 504a BGB.",
+   "title": "Dein Recht (§ 504a BGB)",
+   "items": [
+    {
+     "value": "6 Monate",
+     "label": "am Stück im Dispo"
+    },
+    {
+     "value": "> 75 %",
+     "label": "des Rahmens genutzt",
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "say": "So kommst du raus: In einen günstigeren Ratenkredit umschulden. Jeden Monat fest abbauen. Und den Dispo-Rahmen senken, damit du nicht wieder reinrutschst.",
+   "title": "So kommst du raus",
+   "items": [
+    {
+     "emoji": "🔁",
+     "text": "Umschulden"
+    },
+    {
+     "emoji": "📉",
+     "text": "Fest abbauen"
+    },
+    {
+     "emoji": "✂️",
+     "text": "Rahmen senken"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "say": "Der Dispo ist für kurze Engpässe, nicht für Monate. Folg für Teil 3: die Schufa.",
+   "kicker": "Dispo im Schnitt",
+   "big": "9,46 %",
+   "caption": "nur für kurze Engpässe",
+   "cta": "Folg für Teil 3: die Schufa 👀",
+   "note": "Quelle: Deutsche Bundesbank, MFI-Zinsstatistik, Neugeschäft August 2026 (Stand 01.10.2026). Beispiele vereinfacht, keine Finanzberatung.",
+   "hold": 20
+  }
+ ]
+}

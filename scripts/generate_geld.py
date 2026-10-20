@@ -325,6 +325,76 @@ V["g18"] = dict(format="explainer", voice=BRIAN, header="GEHALTS-CHECK", sceneHo
      "note": "Quelle: IAB, Entgelte von Pflegekräften 2024. Daten: Beschäftigungsstatistik der Bundesagentur für Arbeit. Median brutto, Vollzeit, Stichtag 31.12.2024.", "hold": 20},
   ])
 
+V["g19"] = dict(format="fast", voice=ADAM, **FAST, questions=[
+    first("Doppeltes Gehalt, aber dein Ex wird dein Chef?", ("Gehalt × 2, Ex als Chef", "😬"), ("Alles bleibt", "🙂"), [36, 64]),
+    fast("Sparen und mit 40 frei, oder jetzt leben und bis 67 arbeiten?", ("Sparen, mit 40 frei", "🏖️"), ("Jetzt leben, bis 67", "🎉"), [48, 52]),
+    fast("Partner verdient 3.000 Euro mehr als du. Stört dich das, oder egal?", ("Stört mich", "😤"), ("Egal", "🤷"), [27, 73], tag("Stört mich")),
+    fast("10.000 Euro, aber dein bester Freund ist weg, oder nichts?", ("10.000 €, Freund weg", "💸"), ("Nichts, Freund bleibt", "🤝"), [6, 94], TEASER),
+    fast("Für immer Homeoffice, oder 500 Euro mehr im Büro?", ("Für immer Homeoffice", "🏠"), ("+500 € im Büro", "🏢"), [61, 39]),
+    fast("Dein Kind wird Influencer mit 10.000 im Monat, oder Arzt mit 6.000?", ("Influencer, 10.000 €", "📱"), ("Arzt, 6.000 €", "🩺"), [33, 67]),
+    fast("Hochzeit für 30.000 Euro, oder Anzahlung für eine Wohnung?", ("Traumhochzeit", "💒"), ("Anzahlung Wohnung", "🏠"), [14, 86]),
+    fast("Mit 25 Haus kaufen und 30 Jahre Kredit, oder für immer mieten?", ("Haus + 30 Jahre Kredit", "🏡"), ("Für immer mieten", "🔑"), [57, 43]),
+    fast("50.000 Euro, aber dein Gehalt steht auf Instagram, oder privat bleiben?", ("50.000 €, Gehalt öffentlich", "📢"), ("Privat bleiben", "🔒"), [50, 50]),
+  ])
+
+V["g20"] = dict(format="fast", voice=ADAM, **FAST, questions=[
+    first("Kontostand zeigen, oder Browserverlauf zeigen?", ("Kontostand zeigen", "🏦"), ("Browserverlauf zeigen", "🖥️"), [79, 21]),
+    fast("Beförderung, aber 20 Stunden mehr pro Woche. Annehmen, oder ablehnen?", ("Annehmen", "📈"), ("Ablehnen", "🛑"), [34, 66]),
+    fast("Partner will dein Erbe teilen. Ja, oder nein?", ("Ja, teilen", "💑"), ("Nein", "🙅"), [42, 58], tag("Nein")),
+    fast("Gratis Auto für immer, oder gratis Flüge für immer?", ("Gratis Auto", "🚗"), ("Gratis Flüge", "✈️"), [45, 55], TEASER),
+    fast("Ein Jahr ohne Gehalt und dann 1 Million, oder normal weiterarbeiten?", ("1 Jahr nichts, dann 1 Mio.", "⏳"), ("Normal weiter", "💼"), [97, 3]),
+    fast("Eltern leihen dir 20.000 Euro und fragen jede Woche danach, oder Bankkredit?", ("Eltern leihen", "👪"), ("Bankkredit", "🏦"), [38, 62]),
+    fast("Mehr verdienen als dein Partner, oder weniger?", ("Mehr", "📈"), ("Weniger", "📉"), [71, 29]),
+    fast("Kollege kriegt Bonus für deine Idee. Ansprechen, oder schlucken?", ("Ansprechen", "🗣️"), ("Schlucken", "😶"), [88, 12]),
+    fast("Für immer 3.000 Euro netto ohne Arbeit, oder Traumjob mit 6.000?", ("3.000 € ohne Arbeit", "😴"), ("Traumjob, 6.000 €", "💼"), [50, 50]),
+  ])
+
+V["g21"] = dict(format="explainer", voice=BRIAN, header="KREDIT ERKLÄRT · TEIL 2", sceneHold=10, scenes=[
+    {"type": "counter", "say": "Minus 2.000 Euro auf dem Konto? Ein Jahr lang kostet dich das rund 189 Euro.",
+     "kicker": "−2.000 € im Dispo, 1 Jahr", "value": 189, "caption": "Zinsen", "color": "red", "startFrac": 0.4, "hold": 12},
+    {"type": "cards", "say": "Der Dispo ist ein Kredit auf deinem Girokonto. Die Bank lässt dich bis zu einem Limit ins Minus. Zinsen zahlst du nur auf das, was du wirklich im Minus bist, und zwar jeden Tag.",
+     "title": "Was ist der Dispo?", "cards": [
+        {"head": "Dispo-Rahmen", "value": "2.000 €", "text": "So weit darfst du ins Minus"},
+        {"head": "Zinsen", "value": "täglich", "text": "Nur auf das, was du wirklich im Minus bist", "good": True}]},
+    {"type": "bars", "say": "Laut Bundesbank zahlen Haushalte für Dispo und Rahmenkredite im Schnitt 9,46 Prozent. Ein Ratenkredit kostet im Schnitt 7,53. Echte Kreditkartenkredite sogar 17,52 Prozent.",
+     "title": "Zinsen im Vergleich", "unit": "%", "base": 0, "note": "Effektivzinsen, Neugeschäft August 2026. Quelle: Deutsche Bundesbank",
+     "items": [{"label": "Dispo / Rahmenkredit", "value": 9.46, "highlight": True}, {"label": "Ratenkredit (1 bis 5 Jahre)", "value": 7.53},
+               {"label": "Echter Kreditkartenkredit", "value": 17.52, "color": "red"}]},
+    {"type": "counter", "say": "Und wenn du nie ausgleichst, kommen Zinsen auf Zinsen. Nach drei Jahren hast du 623 Euro nur für Zinsen bezahlt.",
+     "kicker": "−2.000 €, 3 Jahre nie ausgeglichen", "value": 623, "caption": "Zinsen", "color": "red", "startFrac": 0.45},
+    {"type": "stats", "say": "Und das wissen die wenigsten: Bist du sechs Monate am Stück im Dispo und nutzt im Schnitt mehr als 75 Prozent davon, muss dir deine Bank eine Beratung zu günstigeren Alternativen anbieten. Das steht in Paragraf 504a BGB.",
+     "title": "Dein Recht (§ 504a BGB)", "items": [{"value": "6 Monate", "label": "am Stück im Dispo"}, {"value": "> 75 %", "label": "des Rahmens genutzt", "color": "red"}]},
+    {"type": "checklist", "say": "So kommst du raus: In einen günstigeren Ratenkredit umschulden. Jeden Monat fest abbauen. Und den Dispo-Rahmen senken, damit du nicht wieder reinrutschst.",
+     "title": "So kommst du raus", "items": [{"emoji": "🔁", "text": "Umschulden"}, {"emoji": "📉", "text": "Fest abbauen"}, {"emoji": "✂️", "text": "Rahmen senken"}]},
+    {"type": "end", "say": "Der Dispo ist für kurze Engpässe, nicht für Monate. Folg für Teil 3: die Schufa.",
+     "kicker": "Dispo im Schnitt", "big": "9,46 %", "caption": "nur für kurze Engpässe", "cta": "Folg für Teil 3: die Schufa 👀",
+     "note": "Quelle: Deutsche Bundesbank, MFI-Zinsstatistik, Neugeschäft August 2026 (Stand 01.10.2026). Beispiele vereinfacht, keine Finanzberatung.", "hold": 20},
+  ])
+
+V["g22"] = dict(format="explainer", voice=BRIAN, header="GEHALTS-CHECK", sceneHold=4, scenes=[
+    {"type": "guess", "say": "Was verdient ein LKW-Fahrer in Deutschland wirklich? Rate mal!",
+     "emoji": "🚛", "title": "LKW-Fahrer", "sub": "Rate mal 👇", "timer": 90, "hold": 6},
+    {"type": "counter", "say": "3.196 Euro brutto im Monat. Das ist der Median für Berufskraftfahrer im Güterverkehr in Vollzeit, Stand Ende 2025.",
+     "kicker": "Berufskraftfahrer, Vollzeit", "value": 3196, "caption": "brutto im Monat (Median)", "sub": "Median: Die Hälfte verdient mehr, die Hälfte weniger.", "startFrac": 0.02},
+    {"type": "bars", "say": "Der Median aller Vollzeitbeschäftigten liegt bei 4.217 Euro. LKW-Fahrer verdienen also rund ein Viertel weniger.",
+     "title": "Im Vergleich", "base": 2000, "note": "Median brutto, Vollzeit. Stand 31.12.2025",
+     "items": [{"label": "Alle Vollzeitbeschäftigten", "value": 4217}, {"label": "LKW-Fahrer", "value": 3196, "highlight": True}]},
+    {"type": "bars", "say": "Zum Vergleich: Kfz-Techniker kommen auf 3.755 Euro, Medizinische Fachangestellte auf 3.329, Köche auf 3.018.",
+     "title": "Andere Fachkräfte", "base": 2000,
+     "items": [{"label": "Kfz-Technik", "value": 3755}, {"label": "Medizinische Fachangestellte", "value": 3329},
+               {"label": "LKW-Fahrer", "value": 3196, "highlight": True}, {"label": "Köche", "value": 3018}]},
+    {"type": "bars", "say": "Am meisten verdienen IT-Berufe mit 6.114 Euro. Am wenigsten Reinigungsberufe mit 2.675.",
+     "title": "Spitze und Ende", "base": 2000,
+     "items": [{"label": "IT-Berufe", "value": 6114, "color": "green"}, {"label": "LKW-Fahrer", "value": 3196, "highlight": True}, {"label": "Reinigungsberufe", "value": 2675, "color": "red"}]},
+    {"type": "stats", "say": "Als unterer Entgeltbereich gilt weniger als zwei Drittel vom Median, also rund 2.811 Euro. Darunter liegen 15,5 Prozent aller Vollzeitbeschäftigten. LKW-Fahrer liegen knapp darüber.",
+     "title": "Niedriglohn-Grenze", "items": [{"value": "2.811 €", "label": "2/3 vom Median"}, {"value": "15,5 %", "label": "aller Vollzeitbeschäftigten darunter", "color": "red"}]},
+    {"type": "stats", "say": "Immerhin ist das Gehalt seit 2016 um 36 Prozent gestiegen. Und die Arbeitsagentur zählt den Job zu den Engpassberufen. Es fehlen Fahrer.",
+     "title": "Seit 2016", "items": [{"value": "+36 %", "label": "Gehalt seit 2016"}, {"value": "Engpass", "label": "laut Arbeitsagentur", "color": "red"}]},
+    {"type": "end", "say": "Zu viel oder zu wenig für diesen Job? Schreibs in die Kommentare!",
+     "kicker": "LKW-Fahrer", "big": "3.196 €", "caption": "Zu viel oder zu wenig? 👇",
+     "note": "Quelle: Statistik der Bundesagentur für Arbeit, Blickpunkt Arbeitsmarkt: Analyse zur Entgeltstatistik (Okt. 2026). Median brutto, Vollzeit, Stichtag 31.12.2025.", "hold": 15},
+  ])
+
 for vid, d in V.items():
     v = {"id": vid, "channel": "G", "handle": None, "format": d["format"]}
     if d["voice"]:
