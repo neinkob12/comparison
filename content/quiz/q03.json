@@ -1,0 +1,52 @@
+{
+ "id": "q03",
+ "channel": "A",
+ "handle": null,
+ "intro": {
+  "say": "Nur Genies schaffen alle acht. Bist du einer?",
+  "title": "Nur Genies schaffen alle",
+  "sub": "Bist du einer?"
+ },
+ "questions": [
+  {
+   "say": "Wie viele Beine hat eine Spinne?",
+   "answer": "8",
+   "answerTts": "Acht"
+  },
+  {
+   "say": "In welchem Land liegt Machu Picchu?",
+   "answer": "Peru",
+   "tts": "In welchem Land liegt Matschu Pitschu?"
+  },
+  {
+   "say": "Wer schrieb Faust?",
+   "answer": "Goethe"
+  },
+  {
+   "say": "Welches ist das kleinste Land der Welt?",
+   "answer": "Vatikanstadt"
+  },
+  {
+   "say": "Wie heißt der höchste Berg Deutschlands?",
+   "answer": "Zugspitze"
+  },
+  {
+   "say": "Welches Metall ist bei Raumtemperatur flüssig?",
+   "answer": "Quecksilber"
+  },
+  {
+   "say": "Wie viele Minuten hat ein Tag?",
+   "answer": "1440",
+   "answerTts": "Tausendvierhundertvierzig"
+  },
+  {
+   "say": "Welcher Ozean ist der größte?",
+   "answer": "Pazifik"
+  }
+ ],
+ "outro": {
+  "say": "Genie oder nicht? Schreib deine Punktzahl in die Kommentare!",
+  "title": "Wie viele hattest du?",
+  "sub": "Schreibs in die Kommentare"
+ }
+}

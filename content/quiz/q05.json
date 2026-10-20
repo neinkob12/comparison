@@ -1,0 +1,52 @@
+{
+ "id": "q05",
+ "channel": "A",
+ "handle": null,
+ "intro": {
+  "say": "Ohne Googeln. Acht Fragen. Wie weit kommst du?",
+  "title": "Ohne Googeln. 8 Fragen.",
+  "sub": "Wie weit kommst du?"
+ },
+ "questions": [
+  {
+   "say": "Wie heißt die Hauptstadt von Japan?",
+   "answer": "Tokio"
+  },
+  {
+   "say": "Wie viele Tage hat ein Schaltjahr?",
+   "answer": "366",
+   "answerTts": "Dreihundertsechsundsechzig"
+  },
+  {
+   "say": "Welche Farbe entsteht aus Blau und Gelb?",
+   "answer": "Grün"
+  },
+  {
+   "say": "Wer war der erste Bundeskanzler?",
+   "answer": "Adenauer",
+   "answerTts": "Konrad Adenauer"
+  },
+  {
+   "say": "Wie heißt der größte Planet unseres Sonnensystems?",
+   "answer": "Jupiter"
+  },
+  {
+   "say": "Welches Element hat das Symbol O?",
+   "answer": "Sauerstoff"
+  },
+  {
+   "say": "In welcher Stadt steht der schiefe Turm?",
+   "answer": "Pisa"
+  },
+  {
+   "say": "Was ist schwerer: ein Kilo Federn oder ein Kilo Eisen?",
+   "answer": "Gleich schwer",
+   "answerTts": "Beides gleich schwer"
+  }
+ ],
+ "outro": {
+  "say": "Wie viele von acht? Schreibs in die Kommentare!",
+  "title": "Wie viele hattest du?",
+  "sub": "Schreibs in die Kommentare"
+ }
+}

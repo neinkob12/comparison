@@ -4,7 +4,7 @@ Aufruf: python3 scripts/build_quiz.py q01 [q02 ...]
 Liest content/quiz/<id>.json, schreibt video/public/audio/<id>/*.mp3 und video/public/timelines/<id>.json.
 Hintergruende vorher laden: python3 scripts/fetch_backgrounds.py
 """
-import base64, json, os, re, subprocess, sys, time, urllib.request
+import base64, json, os, random, subprocess, sys, time, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -12,7 +12,7 @@ from build import FPS, PUB, ROOT, VOICE, frames, spoken, speed_for  # noqa: E402
 
 TEMPO = 1.05
 TIMER = 90       # Frames Bedenkzeit nach der Frage (3 s)
-HOLD = 24        # Frames, in denen die Antwort nach dem Sprechen noch steht
+HOLD = 30        # Frames, in denen die Antwort nach dem Sprechen noch steht
 TAIL = 30        # Frames Luft am Ende von Intro/Outro
 
 
@@ -87,27 +87,37 @@ def build(vid):
         words = tts(text, f, tts_text)
         return f"audio/{vid}/{f.name}", frames(f), words
 
+    # Jede Frage eigener Naturclip, Reihenfolge pro Video gemischt; Musik rotiert, falls nicht gesetzt
+    rnd = random.Random(vid)
+    clips = sorted(p.stem for p in (PUB / "bg").glob("*.mp4"))
+    rnd.shuffle(clips)
+    bgs = (v.get("bg") or []) + [c for c in clips if c not in (v.get("bg") or [])]
+    bg = lambda k: {"bg": f"bg/{bgs[k % len(bgs)]}.mp4", "bgFrom": rnd.randint(0, 300)}  # noqa: E731
+    tracks = sorted(p.name for p in (PUB / "music").glob("*.mp3"))
+    music = v.get("music") or (tracks[sum(map(ord, vid)) % len(tracks)].removesuffix(".mp3") if tracks else None)
+
     i = v["intro"]
-    audio, sp, words = voice("00_intro", i["say"], i.get("tts"))
-    segs.append({"kind": "intro", "audio": audio, "words": words, "speak": sp, "title": i["title"], "sub": i["sub"],
-                 "duration": sp + TAIL})
+    # Jedes Video startet mit "Allgemeinwissen Quiz", danach die eigene Hook
+    audio, sp, words = voice("00_intro", "Allgemeinwissen Quiz! " + i["say"], i.get("tts") and "Allgemeinwissen Quiz! " + i["tts"])
+    segs.append({"kind": "intro", "audio": audio, "words": words, "speak": sp, "title": i["title"], "sub": i.get("sub", ""),
+                 "duration": sp + TAIL, **bg(0)})
     for n, q in enumerate(v["questions"], 1):
         qa, qsp, qw = voice(f"{n:02d}_q", q["say"], q.get("tts"))
         aa, asp, aw = voice(f"{n:02d}_a", q["answer"], q.get("answerTts"))
         revealAt = qsp + TIMER
-        segs.append({"kind": "q", "n": n, "word": q["word"], "answer": q["answer"],
+        segs.append({"kind": "q", "n": n, "say": q["say"], "answer": q["answer"], **bg(n),
                      "audio": qa, "words": qw, "speak": qsp, "timer": TIMER,
                      "answerAudio": aa, "answerWords": aw, "revealAt": revealAt,
                      "duration": revealAt + asp + HOLD})
     o = v["outro"]
     audio, sp, words = voice(f"{len(v['questions']) + 1:02d}_outro", o["say"], o.get("tts"))
-    segs.append({"kind": "outro", "audio": audio, "words": words, "speak": sp, "title": o["title"], "sub": o["sub"],
-                 "duration": sp + TAIL + 30})
+    segs.append({"kind": "outro", "audio": audio, "words": words, "speak": sp, "title": o["title"], "sub": o.get("sub", ""),
+                 "duration": sp + TAIL + 30, **bg(len(v["questions"]) + 1)})
 
     total = sum(s["duration"] for s in segs)
     tl = {"id": vid, "format": "quiz", "channel": v["channel"], "handle": v.get("handle"), "fps": FPS,
-          "durationInFrames": total, "bg": [f"bg/{b}.mp4" for b in v["bg"]],
-          "items": [{"word": q["word"], "answer": q["answer"]} for q in v["questions"]], "segments": segs}
+          "durationInFrames": total, "music": f"music/{music}.mp3" if music else None,
+          "items": [{"answer": q["answer"]} for q in v["questions"]], "segments": segs}
     (PUB / "timelines").mkdir(parents=True, exist_ok=True)
     (PUB / "timelines" / f"{vid}.json").write_text(json.dumps(tl, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{vid}: {total / FPS:.1f} s, {len(segs)} Abschnitte")

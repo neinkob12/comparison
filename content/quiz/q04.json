@@ -1,0 +1,52 @@
+{
+ "id": "q04",
+ "channel": "A",
+ "handle": null,
+ "intro": {
+  "say": "Die meisten scheitern schon an Frage drei.",
+  "title": "Die meisten scheitern an Frage 3",
+  "sub": ""
+ },
+ "questions": [
+  {
+   "say": "Wie viele Bundesländer hat Deutschland?",
+   "answer": "16",
+   "answerTts": "Sechzehn"
+  },
+  {
+   "say": "Was ist die Hauptstadt von Spanien?",
+   "answer": "Madrid"
+  },
+  {
+   "say": "Wie viele Seiten hat ein Sechseck?",
+   "answer": "6",
+   "answerTts": "Sechs"
+  },
+  {
+   "say": "Welcher Planet wird der rote Planet genannt?",
+   "answer": "Mars"
+  },
+  {
+   "say": "Wie heißt die größte heiße Wüste der Welt?",
+   "answer": "Sahara"
+  },
+  {
+   "say": "In welchem Jahr betrat der erste Mensch den Mond?",
+   "answer": "1969",
+   "answerTts": "Neunzehnhundertneunundsechzig"
+  },
+  {
+   "say": "Welche Sprache spricht man in Brasilien?",
+   "answer": "Portugiesisch"
+  },
+  {
+   "say": "Welches ist das schnellste Landtier?",
+   "answer": "Gepard"
+  }
+ ],
+ "outro": {
+  "say": "Wie weit bist du gekommen? Schreibs in die Kommentare!",
+  "title": "Wie viele hattest du?",
+  "sub": "Schreibs in die Kommentare"
+ }
+}

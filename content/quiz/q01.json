@@ -2,25 +2,53 @@
  "id": "q01",
  "channel": "A",
  "handle": null,
- "bg": ["wasserfall_sonne", "alpen"],
  "intro": {
   "say": "Nur drei Prozent schaffen alle acht Fragen. Bist du dabei?",
-  "title": "8 FRAGEN",
-  "sub": "Nur 3 % schaffen alle"
+  "title": "Nur 3 % schaffen alle 8",
+  "sub": "Bist du dabei?"
  },
  "questions": [
-  {"say": "Wie heißt die Hauptstadt von Australien?", "word": "Australien", "answer": "Canberra"},
-  {"say": "Wie viele Herzen hat ein Oktopus?", "word": "Oktopus", "answer": "3"},
-  {"say": "Welcher Planet ist der Sonne am nächsten?", "word": "Planet", "answer": "Merkur"},
-  {"say": "In welchem Jahr fiel die Berliner Mauer?", "word": "Mauerfall", "answer": "1989", "answerTts": "Neunzehnhundertneunundachtzig"},
-  {"say": "Welches ist das größte Organ des Menschen?", "word": "Organ", "answer": "Haut"},
-  {"say": "Wie viele Knochen hat ein erwachsener Mensch?", "word": "Knochen", "answer": "206", "answerTts": "Zweihundertsechs"},
-  {"say": "Welches chemische Element hat das Zeichen Au?", "word": "Au", "answer": "Gold", "tts": "Welches chemische Element hat das Zeichen A U?"},
-  {"say": "Wer malte die Mona Lisa?", "word": "Mona Lisa", "answer": "Da Vinci", "answerTts": "Leonardo da Vinci"}
+  {
+   "say": "Wie heißt die Hauptstadt von Australien?",
+   "answer": "Canberra"
+  },
+  {
+   "say": "Wie viele Herzen hat ein Oktopus?",
+   "answer": "3",
+   "answerTts": "Drei"
+  },
+  {
+   "say": "Welcher Planet ist der Sonne am nächsten?",
+   "answer": "Merkur"
+  },
+  {
+   "say": "In welchem Jahr fiel die Berliner Mauer?",
+   "answer": "1989",
+   "answerTts": "Neunzehnhundertneunundachtzig"
+  },
+  {
+   "say": "Welches ist das größte Organ des Menschen?",
+   "answer": "Haut"
+  },
+  {
+   "say": "Wie viele Knochen hat ein erwachsener Mensch?",
+   "answer": "206",
+   "answerTts": "Zweihundertsechs"
+  },
+  {
+   "say": "Welches chemische Element hat das Zeichen Au?",
+   "answer": "Gold",
+   "tts": "Welches chemische Element hat das Zeichen A U?"
+  },
+  {
+   "say": "Wer malte die Mona Lisa?",
+   "answer": "Da Vinci",
+   "answerTts": "Leonardo da Vinci"
+  }
  ],
  "outro": {
   "say": "Wie viele hattest du richtig? Schreibs in die Kommentare!",
-  "title": "WIE VIELE HATTEST DU?",
+  "title": "Wie viele hattest du?",
   "sub": "Schreibs in die Kommentare"
  }
 }

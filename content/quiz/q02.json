@@ -1,0 +1,52 @@
+{
+ "id": "q02",
+ "channel": "A",
+ "handle": null,
+ "intro": {
+  "say": "Frage acht hat bisher fast jeder falsch beantwortet.",
+  "title": "Frage 8 hat fast jeder falsch",
+  "sub": ""
+ },
+ "questions": [
+  {
+   "say": "Wie viele Kontinente gibt es?",
+   "answer": "7",
+   "answerTts": "Sieben"
+  },
+  {
+   "say": "Welches Tier ist das größte der Welt?",
+   "answer": "Blauwal"
+  },
+  {
+   "say": "Wie heißt der längste Fluss Europas?",
+   "answer": "Wolga"
+  },
+  {
+   "say": "Wie viele Spieler einer Fußballmannschaft stehen auf dem Feld?",
+   "answer": "11",
+   "answerTts": "Elf"
+  },
+  {
+   "say": "Welches Land hat die meisten Einwohner?",
+   "answer": "Indien"
+  },
+  {
+   "say": "Wie heißt die Hauptstadt von Kanada?",
+   "answer": "Ottawa"
+  },
+  {
+   "say": "Welches Gas nehmen Pflanzen aus der Luft auf?",
+   "answer": "Kohlendioxid"
+  },
+  {
+   "say": "Wie viele Zähne hat ein erwachsener Mensch?",
+   "answer": "32",
+   "answerTts": "Zweiunddreißig"
+  }
+ ],
+ "outro": {
+  "say": "Und, wie viele hattest du? Ab in die Kommentare!",
+  "title": "Wie viele hattest du?",
+  "sub": "Schreibs in die Kommentare"
+ }
+}

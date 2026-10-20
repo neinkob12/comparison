@@ -4,42 +4,31 @@
  "channel": "A",
  "handle": null,
  "fps": 30,
- "durationInFrames": 1826,
- "bg": [
-  "bg/wasserfall_sonne.mp4",
-  "bg/alpen.mp4"
- ],
+ "durationInFrames": 1925,
+ "music": "music/eerie_pulse.mp3",
  "items": [
   {
-   "word": "Australien",
    "answer": "Canberra"
   },
   {
-   "word": "Oktopus",
    "answer": "3"
   },
   {
-   "word": "Planet",
    "answer": "Merkur"
   },
   {
-   "word": "Mauerfall",
    "answer": "1989"
   },
   {
-   "word": "Organ",
    "answer": "Haut"
   },
   {
-   "word": "Knochen",
    "answer": "206"
   },
   {
-   "word": "Au",
    "answer": "Gold"
   },
   {
-   "word": "Mona Lisa",
    "answer": "Da Vinci"
   }
  ],
@@ -49,66 +38,80 @@
    "audio": "audio/q01/00_intro.mp3",
    "words": [
     {
-     "w": "Nur",
+     "w": "Allgemeinwissen",
      "s": 0,
-     "e": 5
+     "e": 19
+    },
+    {
+     "w": "Quiz!",
+     "s": 20,
+     "e": 30
+    },
+    {
+     "w": "Nur",
+     "s": 34,
+     "e": 39
     },
     {
      "w": "drei",
-     "s": 6,
-     "e": 11
+     "s": 40,
+     "e": 46
     },
     {
      "w": "Prozent",
-     "s": 12,
-     "e": 23
+     "s": 48,
+     "e": 59
     },
     {
      "w": "schaffen",
-     "s": 23,
-     "e": 31
+     "s": 59,
+     "e": 68
     },
     {
      "w": "alle",
-     "s": 32,
-     "e": 36
+     "s": 69,
+     "e": 74
     },
     {
      "w": "acht",
-     "s": 38,
-     "e": 43
+     "s": 75,
+     "e": 80
     },
     {
      "w": "Fragen.",
-     "s": 44,
-     "e": 55
+     "s": 81,
+     "e": 91
     },
     {
      "w": "Bist",
-     "s": 58,
-     "e": 63
+     "s": 94,
+     "e": 99
     },
     {
      "w": "du",
-     "s": 63,
-     "e": 65
+     "s": 99,
+     "e": 101
     },
     {
      "w": "dabei?",
-     "s": 66,
-     "e": 82
+     "s": 102,
+     "e": 117
     }
    ],
-   "speak": 84,
-   "title": "8 FRAGEN",
-   "sub": "Nur 3 % schaffen alle",
-   "duration": 114
+   "speak": 118,
+   "title": "Nur 3 % schaffen alle 8",
+   "sub": "Bist du dabei?",
+   "duration": 148,
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 56
   },
   {
    "kind": "q",
    "n": 1,
-   "word": "Australien",
+   "say": "Wie heißt die Hauptstadt von Australien?",
    "answer": "Canberra",
+   "bg": "bg/matterhorn.mp4",
+   "bgFrom": 228,
    "audio": "audio/q01/01_q.mp3",
    "words": [
     {
@@ -118,48 +121,50 @@
     },
     {
      "w": "heißt",
-     "s": 5,
-     "e": 10
-    },
-    {
-     "w": "die",
-     "s": 10,
+     "s": 6,
      "e": 12
     },
     {
-     "w": "Hauptstadt",
+     "w": "die",
      "s": 13,
-     "e": 24
+     "e": 15
     },
     {
-     "w": "von",
-     "s": 25,
+     "w": "Hauptstadt",
+     "s": 16,
      "e": 28
     },
     {
+     "w": "von",
+     "s": 29,
+     "e": 32
+    },
+    {
      "w": "Australien?",
-     "s": 30,
-     "e": 50
+     "s": 33,
+     "e": 53
     }
    ],
-   "speak": 52,
+   "speak": 55,
    "timer": 90,
    "answerAudio": "audio/q01/01_a.mp3",
    "answerWords": [
     {
      "w": "Canberra",
      "s": 0,
-     "e": 27
+     "e": 25
     }
    ],
-   "revealAt": 142,
-   "duration": 194
+   "revealAt": 145,
+   "duration": 202
   },
   {
    "kind": "q",
    "n": 2,
-   "word": "Oktopus",
+   "say": "Wie viele Herzen hat ein Oktopus?",
    "answer": "3",
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 128,
    "audio": "audio/q01/02_q.mp3",
    "words": [
     {
@@ -175,16 +180,16 @@
     {
      "w": "Herzen",
      "s": 11,
-     "e": 18
+     "e": 19
     },
     {
      "w": "hat",
-     "s": 19,
-     "e": 22
+     "s": 20,
+     "e": 23
     },
     {
      "w": "ein",
-     "s": 23,
+     "s": 24,
      "e": 26
     },
     {
@@ -200,17 +205,19 @@
     {
      "w": "3",
      "s": 0,
-     "e": 15
+     "e": 21
     }
    ],
    "revealAt": 140,
-   "duration": 180
+   "duration": 193
   },
   {
    "kind": "q",
    "n": 3,
-   "word": "Planet",
+   "say": "Welcher Planet ist der Sonne am nächsten?",
    "answer": "Merkur",
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 49,
    "audio": "audio/q01/03_q.mp3",
    "words": [
     {
@@ -245,28 +252,30 @@
     },
     {
      "w": "nächsten?",
-     "s": 36,
-     "e": 53
+     "s": 35,
+     "e": 50
     }
    ],
-   "speak": 55,
+   "speak": 52,
    "timer": 90,
    "answerAudio": "audio/q01/03_a.mp3",
    "answerWords": [
     {
      "w": "Merkur",
      "s": 0,
-     "e": 24
+     "e": 25
     }
    ],
-   "revealAt": 145,
-   "duration": 195
+   "revealAt": 142,
+   "duration": 199
   },
   {
    "kind": "q",
    "n": 4,
-   "word": "Mauerfall",
+   "say": "In welchem Jahr fiel die Berliner Mauer?",
    "answer": "1989",
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 79,
    "audio": "audio/q01/04_q.mp3",
    "words": [
     {
@@ -277,144 +286,148 @@
     {
      "w": "welchem",
      "s": 4,
-     "e": 10
+     "e": 12
     },
     {
      "w": "Jahr",
-     "s": 12,
-     "e": 18
+     "s": 14,
+     "e": 21
     },
     {
      "w": "fiel",
-     "s": 19,
-     "e": 23
+     "s": 22,
+     "e": 27
     },
     {
      "w": "die",
-     "s": 24,
-     "e": 26
+     "s": 28,
+     "e": 30
     },
     {
      "w": "Berliner",
-     "s": 27,
-     "e": 36
+     "s": 31,
+     "e": 40
     },
     {
      "w": "Mauer?",
-     "s": 37,
-     "e": 52
+     "s": 41,
+     "e": 56
     }
    ],
-   "speak": 54,
+   "speak": 57,
    "timer": 90,
    "answerAudio": "audio/q01/04_a.mp3",
    "answerWords": [
     {
      "w": "1989",
      "s": 0,
-     "e": 45
+     "e": 52
     }
    ],
-   "revealAt": 144,
-   "duration": 216
+   "revealAt": 147,
+   "duration": 231
   },
   {
    "kind": "q",
    "n": 5,
-   "word": "Organ",
+   "say": "Welches ist das größte Organ des Menschen?",
    "answer": "Haut",
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 182,
    "audio": "audio/q01/05_q.mp3",
    "words": [
     {
      "w": "Welches",
      "s": 0,
-     "e": 10
+     "e": 11
     },
     {
      "w": "ist",
-     "s": 12,
+     "s": 13,
      "e": 15
     },
     {
      "w": "das",
-     "s": 15,
-     "e": 19
+     "s": 16,
+     "e": 20
     },
     {
      "w": "größte",
-     "s": 20,
-     "e": 29
+     "s": 21,
+     "e": 30
     },
     {
      "w": "Organ",
-     "s": 31,
-     "e": 38
+     "s": 32,
+     "e": 39
     },
     {
      "w": "des",
-     "s": 39,
-     "e": 42
+     "s": 40,
+     "e": 43
     },
     {
      "w": "Menschen?",
-     "s": 43,
-     "e": 58
+     "s": 45,
+     "e": 60
     }
    ],
-   "speak": 60,
+   "speak": 61,
    "timer": 90,
    "answerAudio": "audio/q01/05_a.mp3",
    "answerWords": [
     {
      "w": "Haut",
      "s": 0,
-     "e": 20
+     "e": 17
     }
    ],
-   "revealAt": 150,
-   "duration": 196
+   "revealAt": 151,
+   "duration": 200
   },
   {
    "kind": "q",
    "n": 6,
-   "word": "Knochen",
+   "say": "Wie viele Knochen hat ein erwachsener Mensch?",
    "answer": "206",
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 36,
    "audio": "audio/q01/06_q.mp3",
    "words": [
     {
      "w": "Wie",
      "s": 0,
-     "e": 5
+     "e": 4
     },
     {
      "w": "viele",
-     "s": 6,
-     "e": 11
+     "s": 5,
+     "e": 10
     },
     {
      "w": "Knochen",
-     "s": 12,
-     "e": 21
+     "s": 11,
+     "e": 19
     },
     {
      "w": "hat",
-     "s": 22,
-     "e": 24
+     "s": 20,
+     "e": 23
     },
     {
      "w": "ein",
-     "s": 26,
-     "e": 29
+     "s": 24,
+     "e": 27
     },
     {
      "w": "erwachsener",
-     "s": 30,
-     "e": 41
+     "s": 28,
+     "e": 39
     },
     {
      "w": "Mensch?",
-     "s": 42,
-     "e": 57
+     "s": 40,
+     "e": 56
     }
    ],
    "speak": 58,
@@ -424,17 +437,19 @@
     {
      "w": "206",
      "s": 0,
-     "e": 31
+     "e": 28
     }
    ],
    "revealAt": 148,
-   "duration": 205
+   "duration": 207
   },
   {
    "kind": "q",
    "n": 7,
-   "word": "Au",
+   "say": "Welches chemische Element hat das Zeichen Au?",
    "answer": "Gold",
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 70,
    "audio": "audio/q01/07_q.mp3",
    "words": [
     {
@@ -450,92 +465,94 @@
     {
      "w": "Element",
      "s": 27,
-     "e": 38
+     "e": 39
     },
     {
      "w": "hat",
-     "s": 38,
-     "e": 43
+     "s": 39,
+     "e": 44
     },
     {
      "w": "das",
-     "s": 43,
-     "e": 48
+     "s": 44,
+     "e": 49
     },
     {
      "w": "Zeichen",
-     "s": 48,
-     "e": 60
+     "s": 49,
+     "e": 61
     },
     {
      "w": "Au?",
-     "s": 60,
-     "e": 65
+     "s": 61,
+     "e": 66
     }
    ],
-   "speak": 67,
+   "speak": 68,
    "timer": 90,
    "answerAudio": "audio/q01/07_a.mp3",
    "answerWords": [
     {
      "w": "Gold",
      "s": 0,
-     "e": 25
+     "e": 19
     }
    ],
-   "revealAt": 157,
+   "revealAt": 158,
    "duration": 208
   },
   {
    "kind": "q",
    "n": 8,
-   "word": "Mona Lisa",
+   "say": "Wer malte die Mona Lisa?",
    "answer": "Da Vinci",
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 116,
    "audio": "audio/q01/08_q.mp3",
    "words": [
     {
      "w": "Wer",
      "s": 0,
-     "e": 5
+     "e": 6
     },
     {
      "w": "malte",
-     "s": 6,
-     "e": 11
-    },
-    {
-     "w": "die",
-     "s": 12,
+     "s": 7,
      "e": 15
     },
     {
-     "w": "Mona",
+     "w": "die",
      "s": 16,
-     "e": 21
+     "e": 18
+    },
+    {
+     "w": "Mona",
+     "s": 19,
+     "e": 24
     },
     {
      "w": "Lisa?",
-     "s": 22,
-     "e": 36
+     "s": 25,
+     "e": 41
     }
    ],
-   "speak": 38,
+   "speak": 43,
    "timer": 90,
    "answerAudio": "audio/q01/08_a.mp3",
    "answerWords": [
     {
      "w": "Da",
      "s": 0,
-     "e": 9
+     "e": 10
     },
     {
      "w": "Vinci",
-     "s": 9,
-     "e": 32
+     "s": 10,
+     "e": 34
     }
    ],
-   "revealAt": 128,
-   "duration": 185
+   "revealAt": 133,
+   "duration": 200
   },
   {
    "kind": "outro",
@@ -558,39 +575,41 @@
     },
     {
      "w": "du",
-     "s": 19,
+     "s": 18,
      "e": 20
     },
     {
      "w": "richtig?",
-     "s": 22,
-     "e": 32
+     "s": 21,
+     "e": 33
     },
     {
      "w": "Schreibs",
-     "s": 34,
-     "e": 42
-    },
-    {
-     "w": "in",
-     "s": 43,
-     "e": 45
-    },
-    {
-     "w": "die",
-     "s": 46,
+     "s": 40,
      "e": 48
     },
     {
-     "w": "Kommentare!",
+     "w": "in",
      "s": 49,
-     "e": 70
+     "e": 51
+    },
+    {
+     "w": "die",
+     "s": 52,
+     "e": 54
+    },
+    {
+     "w": "Kommentare!",
+     "s": 55,
+     "e": 76
     }
    ],
-   "speak": 73,
-   "title": "WIE VIELE HATTEST DU?",
+   "speak": 77,
+   "title": "Wie viele hattest du?",
    "sub": "Schreibs in die Kommentare",
-   "duration": 133
+   "duration": 137,
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 296
   }
  ]
 }
