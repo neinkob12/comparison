@@ -112,16 +112,14 @@
    "title": "8 von 8 = schlauer als 90 %",
    "sub": "",
    "duration": 153,
-   "bg": "bg/wasserfall_tropen.mp4",
-   "bgFrom": 37
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 243
   },
   {
    "kind": "q",
    "n": 1,
    "say": "Welche Sprache spricht man in Mexiko?",
    "answer": "Spanisch",
-   "bg": "bg/waldweg.mp4",
-   "bgFrom": 49,
    "audio": "audio/q06/01_q.mp3",
    "words": [
     {
@@ -166,15 +164,15 @@
     }
    ],
    "revealAt": 121,
-   "duration": 182
+   "duration": 182,
+   "bg": "bg/waldweg.mp4",
+   "bgFrom": 375
   },
   {
    "kind": "q",
    "n": 2,
    "say": "Welches ist das größte Tier der Welt?",
    "answer": "Elefant",
-   "bg": "bg/gruenes_panorama.mp4",
-   "bgFrom": 263,
    "audio": "audio/q06/02_q.mp3",
    "words": [
     {
@@ -224,15 +222,15 @@
     }
    ],
    "revealAt": 123,
-   "duration": 176
+   "duration": 176,
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 131
   },
   {
    "kind": "q",
    "n": 3,
    "say": "Wie heißt der Bruder von Super Mario?",
    "answer": "Luigi",
-   "bg": "bg/fluss.mp4",
-   "bgFrom": 54,
    "audio": "audio/q06/03_q.mp3",
    "words": [
     {
@@ -282,15 +280,15 @@
     }
    ],
    "revealAt": 123,
-   "duration": 176
+   "duration": 176,
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 155
   },
   {
    "kind": "q",
    "n": 4,
    "say": "Welches Tier baut Dämme?",
    "answer": "Biber",
-   "bg": "bg/wasserfall_sonne.mp4",
-   "bgFrom": 122,
    "audio": "audio/q06/04_q.mp3",
    "words": [
     {
@@ -325,15 +323,15 @@
     }
    ],
    "revealAt": 106,
-   "duration": 160
+   "duration": 160,
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 54
   },
   {
    "kind": "q",
    "n": 5,
    "say": "Wie heißt die Hauptstadt von Bayern?",
    "answer": "München",
-   "bg": "bg/nebelberge.mp4",
-   "bgFrom": 228,
    "audio": "audio/q06/05_q.mp3",
    "words": [
     {
@@ -378,15 +376,15 @@
     }
    ],
    "revealAt": 117,
-   "duration": 174
+   "duration": 174,
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 378
   },
   {
    "kind": "q",
    "n": 6,
    "say": "Wie heißt der längste Knochen im Körper?",
    "answer": "Oberschenkel",
-   "bg": "bg/matterhorn.mp4",
-   "bgFrom": 206,
    "audio": "audio/q06/06_q.mp3",
    "words": [
     {
@@ -436,15 +434,15 @@
     }
    ],
    "revealAt": 123,
-   "duration": 187
+   "duration": 187,
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 122
   },
   {
    "kind": "q",
    "n": 7,
    "say": "Was trinkt ein Vampir?",
    "answer": "Blut",
-   "bg": "bg/waldberge.mp4",
-   "bgFrom": 274,
    "audio": "audio/q06/07_q.mp3",
    "words": [
     {
@@ -479,15 +477,15 @@
     }
    ],
    "revealAt": 104,
-   "duration": 165
+   "duration": 165,
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 387
   },
   {
    "kind": "q",
    "n": 8,
    "say": "Wie viele Ringe hat das olympische Logo?",
    "answer": "5",
-   "bg": "bg/schlucht.mp4",
-   "bgFrom": 63,
    "audio": "audio/q06/08_q.mp3",
    "words": [
     {
@@ -537,7 +535,9 @@
     }
    ],
    "revealAt": 123,
-   "duration": 174
+   "duration": 174,
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 457
   },
   {
    "kind": "outro",
@@ -613,8 +613,8 @@
    "title": "Wie viele hattest du?",
    "sub": "Folg @alleswissen7 für Teil 2",
    "duration": 163,
-   "bg": "bg/felsberg_schnee.mp4",
-   "bgFrom": 172
+   "bg": "bg/nebelwald.mp4",
+   "bgFrom": 103
   }
  ]
 }

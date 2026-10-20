@@ -77,16 +77,14 @@
    "title": "Frage 7 weiß fast niemand",
    "sub": "",
    "duration": 112,
-   "bg": "bg/wasserfall_tropen.mp4",
-   "bgFrom": 7
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 319
   },
   {
    "kind": "q",
    "n": 1,
    "say": "Wie heißt die Hauptstadt von Norwegen?",
    "answer": "Oslo",
-   "bg": "bg/waldberge.mp4",
-   "bgFrom": 159,
    "audio": "audio/q07/01_q.mp3",
    "words": [
     {
@@ -131,15 +129,15 @@
     }
    ],
    "revealAt": 120,
-   "duration": 171
+   "duration": 171,
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 193
   },
   {
    "kind": "q",
    "n": 2,
    "say": "Welches Vitamin bildet der Körper durch Sonnenlicht?",
    "answer": "Vitamin D",
-   "bg": "bg/waldweg.mp4",
-   "bgFrom": 193,
    "audio": "audio/q07/02_q.mp3",
    "words": [
     {
@@ -194,15 +192,15 @@
     }
    ],
    "revealAt": 143,
-   "duration": 202
+   "duration": 202,
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 200
   },
   {
    "kind": "q",
    "n": 3,
    "say": "Wer schrieb Romeo und Julia?",
    "answer": "Shakespeare",
-   "bg": "bg/nebelberge.mp4",
-   "bgFrom": 87,
    "audio": "audio/q07/03_q.mp3",
    "words": [
     {
@@ -242,15 +240,15 @@
     }
    ],
    "revealAt": 112,
-   "duration": 168
+   "duration": 168,
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 87
   },
   {
    "kind": "q",
    "n": 4,
    "say": "Wie heißt die Währung von Großbritannien?",
    "answer": "Pfund",
-   "bg": "bg/schlucht.mp4",
-   "bgFrom": 74,
    "audio": "audio/q07/04_q.mp3",
    "words": [
     {
@@ -295,15 +293,15 @@
     }
    ],
    "revealAt": 123,
-   "duration": 173
+   "duration": 173,
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 149
   },
   {
    "kind": "q",
    "n": 5,
    "say": "Welches ist das härteste natürliche Material?",
    "answer": "Diamant",
-   "bg": "bg/felsberg_schnee.mp4",
-   "bgFrom": 138,
    "audio": "audio/q07/05_q.mp3",
    "words": [
     {
@@ -348,15 +346,15 @@
     }
    ],
    "revealAt": 134,
-   "duration": 191
+   "duration": 191,
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 69
   },
   {
    "kind": "q",
    "n": 6,
    "say": "In welchem Jahr sank die Titanic?",
    "answer": "1912",
-   "bg": "bg/gruenes_panorama.mp4",
-   "bgFrom": 158,
    "audio": "audio/q07/06_q.mp3",
    "words": [
     {
@@ -401,15 +399,15 @@
     }
    ],
    "revealAt": 117,
-   "duration": 184
+   "duration": 184,
+   "bg": "bg/bergkette.mp4",
+   "bgFrom": 79
   },
   {
    "kind": "q",
    "n": 7,
    "say": "Wie heißt der kleinste Knochen im menschlichen Körper?",
    "answer": "Steigbügel",
-   "bg": "bg/fluss.mp4",
-   "bgFrom": 153,
    "audio": "audio/q07/07_q.mp3",
    "words": [
     {
@@ -464,15 +462,15 @@
     }
    ],
    "revealAt": 140,
-   "duration": 197
+   "duration": 197,
+   "bg": "bg/nebelwald.mp4",
+   "bgFrom": 115
   },
   {
    "kind": "q",
    "n": 8,
    "say": "Auf welchem Kontinent liegt Ägypten?",
    "answer": "Afrika",
-   "bg": "bg/wasserfall_wald.mp4",
-   "bgFrom": 116,
    "audio": "audio/q07/08_q.mp3",
    "words": [
     {
@@ -512,7 +510,9 @@
     }
    ],
    "revealAt": 120,
-   "duration": 171
+   "duration": 171,
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 153
   },
   {
    "kind": "outro",
@@ -588,8 +588,8 @@
    "title": "Wie viele hattest du?",
    "sub": "Folg @alleswissen7 für Teil 2",
    "duration": 163,
-   "bg": "bg/matterhorn.mp4",
-   "bgFrom": 101
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 58
   }
  ]
 }

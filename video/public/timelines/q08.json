@@ -92,16 +92,14 @@
    "title": "Nur 1 von 100 schafft alle 8",
    "sub": "Du?",
    "duration": 130,
-   "bg": "bg/waldweg.mp4",
-   "bgFrom": 273
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 218
   },
   {
    "kind": "q",
    "n": 1,
    "say": "Wie viele Spieler hat ein Volleyballteam auf dem Feld?",
    "answer": "6",
-   "bg": "bg/waldberge.mp4",
-   "bgFrom": 197,
    "audio": "audio/q08/01_q.mp3",
    "words": [
     {
@@ -161,15 +159,15 @@
     }
    ],
    "revealAt": 138,
-   "duration": 192
+   "duration": 192,
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 8
   },
   {
    "kind": "q",
    "n": 2,
    "say": "Welches Land hat die meisten Inseln?",
    "answer": "Schweden",
-   "bg": "bg/alpen.mp4",
-   "bgFrom": 218,
    "audio": "audio/q08/02_q.mp3",
    "words": [
     {
@@ -214,15 +212,15 @@
     }
    ],
    "revealAt": 118,
-   "duration": 175
+   "duration": 175,
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 61
   },
   {
    "kind": "q",
    "n": 3,
    "say": "Wer entwickelte die Relativitätstheorie?",
    "answer": "Einstein",
-   "bg": "bg/felsberg_schnee.mp4",
-   "bgFrom": 8,
    "audio": "audio/q08/03_q.mp3",
    "words": [
     {
@@ -257,15 +255,15 @@
     }
    ],
    "revealAt": 131,
-   "duration": 183
+   "duration": 183,
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 352
   },
   {
    "kind": "q",
    "n": 4,
    "say": "Wie heißt die Hauptstadt von Ägypten?",
    "answer": "Kairo",
-   "bg": "bg/gruenes_panorama.mp4",
-   "bgFrom": 61,
    "audio": "audio/q08/04_q.mp3",
    "words": [
     {
@@ -310,15 +308,15 @@
     }
    ],
    "revealAt": 117,
-   "duration": 170
+   "duration": 170,
+   "bg": "bg/bergkette.mp4",
+   "bgFrom": 48
   },
   {
    "kind": "q",
    "n": 5,
    "say": "Welche Blutgruppe ist der Universalspender?",
    "answer": "0 negativ",
-   "bg": "bg/nebelberge.mp4",
-   "bgFrom": 176,
    "audio": "audio/q08/05_q.mp3",
    "words": [
     {
@@ -363,15 +361,15 @@
     }
    ],
    "revealAt": 129,
-   "duration": 192
+   "duration": 192,
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 100
   },
   {
    "kind": "q",
    "n": 6,
    "say": "Welches Land hat das Papier erfunden?",
    "answer": "China",
-   "bg": "bg/wasserfall_tropen.mp4",
-   "bgFrom": 97,
    "audio": "audio/q08/06_q.mp3",
    "words": [
     {
@@ -416,15 +414,15 @@
     }
    ],
    "revealAt": 124,
-   "duration": 181
+   "duration": 181,
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 229
   },
   {
    "kind": "q",
    "n": 7,
    "say": "In welcher Stadt steht die Golden Gate Bridge?",
    "answer": "San Francisco",
-   "bg": "bg/wasserfall_wald.mp4",
-   "bgFrom": 200,
    "audio": "audio/q08/07_q.mp3",
    "words": [
     {
@@ -484,15 +482,15 @@
     }
    ],
    "revealAt": 126,
-   "duration": 189
+   "duration": 189,
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 0
   },
   {
    "kind": "q",
    "n": 8,
    "say": "Welcher Ozean liegt zwischen Europa und Amerika?",
    "answer": "Atlantik",
-   "bg": "bg/matterhorn.mp4",
-   "bgFrom": 229,
    "audio": "audio/q08/08_q.mp3",
    "words": [
     {
@@ -542,7 +540,9 @@
     }
    ],
    "revealAt": 140,
-   "duration": 195
+   "duration": 195,
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 140
   },
   {
    "kind": "outro",
@@ -633,8 +633,8 @@
    "title": "Wie viele hattest du?",
    "sub": "Folg @alleswissen7 für Teil 2",
    "duration": 184,
-   "bg": "bg/wasserfall_sonne.mp4",
-   "bgFrom": 0
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 185
   }
  ]
 }

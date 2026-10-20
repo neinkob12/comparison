@@ -110,8 +110,6 @@
    "n": 1,
    "say": "Welcher Monat hat die wenigsten Tage?",
    "answer": "Februar",
-   "bg": "bg/matterhorn.mp4",
-   "bgFrom": 228,
    "audio": "audio/q01/01_q.mp3",
    "words": [
     {
@@ -156,15 +154,15 @@
     }
    ],
    "revealAt": 123,
-   "duration": 179
+   "duration": 179,
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 219
   },
   {
    "kind": "q",
    "n": 2,
    "say": "Wie heißt das Gegenteil von Ebbe?",
    "answer": "Flut",
-   "bg": "bg/wasserfall_tropen.mp4",
-   "bgFrom": 128,
    "audio": "audio/q01/02_q.mp3",
    "words": [
     {
@@ -209,15 +207,15 @@
     }
    ],
    "revealAt": 120,
-   "duration": 176
+   "duration": 176,
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 233
   },
   {
    "kind": "q",
    "n": 3,
    "say": "Welches Tier ist das Wappentier Deutschlands?",
    "answer": "Adler",
-   "bg": "bg/alpen.mp4",
-   "bgFrom": 49,
    "audio": "audio/q01/03_q.mp3",
    "words": [
     {
@@ -262,15 +260,15 @@
     }
    ],
    "revealAt": 128,
-   "duration": 177
+   "duration": 177,
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 228
   },
   {
    "kind": "q",
    "n": 4,
    "say": "Wie viele Saiten hat eine normale Gitarre?",
    "answer": "6",
-   "bg": "bg/felsberg_schnee.mp4",
-   "bgFrom": 79,
    "audio": "audio/q01/04_q.mp3",
    "words": [
     {
@@ -320,15 +318,15 @@
     }
    ],
    "revealAt": 125,
-   "duration": 180
+   "duration": 180,
+   "bg": "bg/bergkette.mp4",
+   "bgFrom": 64
   },
   {
    "kind": "q",
    "n": 5,
    "say": "Welche Farbe entsteht aus Rot und Weiß?",
    "answer": "Rosa",
-   "bg": "bg/schlucht.mp4",
-   "bgFrom": 182,
    "audio": "audio/q01/05_q.mp3",
    "words": [
     {
@@ -378,15 +376,15 @@
     }
    ],
    "revealAt": 127,
-   "duration": 180
+   "duration": 180,
+   "bg": "bg/nebelwald.mp4",
+   "bgFrom": 24
   },
   {
    "kind": "q",
    "n": 6,
    "say": "Wie viele Ecken hat ein Würfel?",
    "answer": "8",
-   "bg": "bg/waldberge.mp4",
-   "bgFrom": 36,
    "audio": "audio/q01/06_q.mp3",
    "words": [
     {
@@ -431,15 +429,15 @@
     }
    ],
    "revealAt": 109,
-   "duration": 155
+   "duration": 155,
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 158
   },
   {
    "kind": "q",
    "n": 7,
    "say": "In welchem Land wurde die Pizza erfunden?",
    "answer": "Italien",
-   "bg": "bg/wasserfall_wald.mp4",
-   "bgFrom": 70,
    "audio": "audio/q01/07_q.mp3",
    "words": [
     {
@@ -489,15 +487,15 @@
     }
    ],
    "revealAt": 124,
-   "duration": 179
+   "duration": 179,
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 157
   },
   {
    "kind": "q",
    "n": 8,
    "say": "Welche Farbe hat die Haut eines Eisbären?",
    "answer": "Schwarz",
-   "bg": "bg/fluss.mp4",
-   "bgFrom": 116,
    "audio": "audio/q01/08_q.mp3",
    "words": [
     {
@@ -547,7 +545,9 @@
     }
    ],
    "revealAt": 125,
-   "duration": 182
+   "duration": 182,
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 182
   },
   {
    "kind": "outro",
@@ -624,7 +624,7 @@
    "sub": "Folg @alleswissen7 für Teil 2",
    "duration": 163,
    "bg": "bg/wasserfall_sonne.mp4",
-   "bgFrom": 296
+   "bgFrom": 18
   }
  ]
 }

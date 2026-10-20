@@ -102,16 +102,14 @@
    "title": "Nicht 8 von 8? Lösch TikTok.",
    "sub": "",
    "duration": 146,
-   "bg": "bg/wasserfall_tropen.mp4",
-   "bgFrom": 92
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 46
   },
   {
    "kind": "q",
    "n": 1,
    "say": "Welcher Vogel legt die größten Eier?",
    "answer": "Strauß",
-   "bg": "bg/wasserfall_sonne.mp4",
-   "bgFrom": 230,
    "audio": "audio/q02/01_q.mp3",
    "words": [
     {
@@ -156,15 +154,15 @@
     }
    ],
    "revealAt": 121,
-   "duration": 178
+   "duration": 178,
+   "bg": "bg/waldweg.mp4",
+   "bgFrom": 393
   },
   {
    "kind": "q",
    "n": 2,
    "say": "Wie viele Beine hat eine Spinne?",
    "answer": "6",
-   "bg": "bg/waldweg.mp4",
-   "bgFrom": 235,
    "audio": "audio/q02/02_q.mp3",
    "words": [
     {
@@ -209,15 +207,15 @@
     }
    ],
    "revealAt": 115,
-   "duration": 171
+   "duration": 171,
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 407
   },
   {
    "kind": "q",
    "n": 3,
    "say": "Welches Obst ist gelb und krumm?",
    "answer": "Banane",
-   "bg": "bg/schlucht.mp4",
-   "bgFrom": 286,
    "audio": "audio/q02/03_q.mp3",
    "words": [
     {
@@ -262,15 +260,15 @@
     }
    ],
    "revealAt": 120,
-   "duration": 179
+   "duration": 179,
+   "bg": "bg/nebelwald.mp4",
+   "bgFrom": 115
   },
   {
    "kind": "q",
    "n": 4,
    "say": "Wie heißt die Hauptstadt von Österreich?",
    "answer": "Wien",
-   "bg": "bg/fluss.mp4",
-   "bgFrom": 229,
    "audio": "audio/q02/04_q.mp3",
    "words": [
     {
@@ -315,15 +313,15 @@
     }
    ],
    "revealAt": 117,
-   "duration": 174
+   "duration": 174,
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 235
   },
   {
    "kind": "q",
    "n": 5,
    "say": "Welches Getränk wird mit Hopfen gebraut?",
    "answer": "Bier",
-   "bg": "bg/wasserfall_wald.mp4",
-   "bgFrom": 26,
    "audio": "audio/q02/05_q.mp3",
    "words": [
     {
@@ -368,15 +366,15 @@
     }
    ],
    "revealAt": 123,
-   "duration": 180
+   "duration": 180,
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 143
   },
   {
    "kind": "q",
    "n": 6,
    "say": "Mit wie vielen Figuren startet ein Spieler beim Schach?",
    "answer": "16",
-   "bg": "bg/alpen.mp4",
-   "bgFrom": 286,
    "audio": "audio/q02/06_q.mp3",
    "words": [
     {
@@ -436,15 +434,15 @@
     }
    ],
    "revealAt": 138,
-   "duration": 201
+   "duration": 201,
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 157
   },
   {
    "kind": "q",
    "n": 7,
    "say": "Wie nennt man den Sohn deines Onkels?",
    "answer": "Cousin",
-   "bg": "bg/nebelberge.mp4",
-   "bgFrom": 168,
    "audio": "audio/q02/07_q.mp3",
    "words": [
     {
@@ -494,15 +492,15 @@
     }
    ],
    "revealAt": 123,
-   "duration": 179
+   "duration": 179,
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 229
   },
   {
    "kind": "q",
    "n": 8,
    "say": "Wie viele Farben hat die deutsche Flagge?",
    "answer": "3",
-   "bg": "bg/matterhorn.mp4",
-   "bgFrom": 5,
    "audio": "audio/q02/08_q.mp3",
    "words": [
     {
@@ -552,7 +550,9 @@
     }
    ],
    "revealAt": 120,
-   "duration": 172
+   "duration": 172,
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 13
   },
   {
    "kind": "outro",
@@ -628,8 +628,8 @@
    "title": "Wie viele hattest du?",
    "sub": "Folg @alleswissen7 für Teil 2",
    "duration": 162,
-   "bg": "bg/felsberg_schnee.mp4",
-   "bgFrom": 237
+   "bg": "bg/bergkette.mp4",
+   "bgFrom": 143
   }
  ]
 }

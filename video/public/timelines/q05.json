@@ -82,16 +82,14 @@
    "title": "Das schafft jeder. Oder?",
    "sub": "",
    "duration": 191,
-   "bg": "bg/waldweg.mp4",
-   "bgFrom": 53
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 73
   },
   {
    "kind": "q",
    "n": 1,
    "say": "Welches Instrument hat 88 Tasten?",
    "answer": "Klavier",
-   "bg": "bg/wasserfall_wald.mp4",
-   "bgFrom": 254,
    "audio": "audio/q05/01_q.mp3",
    "words": [
     {
@@ -131,15 +129,15 @@
     }
    ],
    "revealAt": 129,
-   "duration": 186
+   "duration": 186,
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 144
   },
   {
    "kind": "q",
    "n": 2,
    "say": "Aus welcher Frucht macht man Guacamole?",
    "answer": "Avocado",
-   "bg": "bg/wasserfall_tropen.mp4",
-   "bgFrom": 147,
    "audio": "audio/q05/02_q.mp3",
    "words": [
     {
@@ -184,15 +182,15 @@
     }
    ],
    "revealAt": 120,
-   "duration": 176
+   "duration": 176,
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 286
   },
   {
    "kind": "q",
    "n": 3,
    "say": "Was für ein Fisch ist Nemo?",
    "answer": "Clownfisch",
-   "bg": "bg/gruenes_panorama.mp4",
-   "bgFrom": 289,
    "audio": "audio/q05/03_q.mp3",
    "words": [
     {
@@ -237,15 +235,15 @@
     }
    ],
    "revealAt": 111,
-   "duration": 167
+   "duration": 167,
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 376
   },
   {
    "kind": "q",
    "n": 4,
    "say": "Wie heißt die Hauptstadt von Griechenland?",
    "answer": "Athen",
-   "bg": "bg/felsberg_schnee.mp4",
-   "bgFrom": 286,
    "audio": "audio/q05/04_q.mp3",
    "words": [
     {
@@ -290,15 +288,15 @@
     }
    ],
    "revealAt": 120,
-   "duration": 173
+   "duration": 173,
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 44
   },
   {
    "kind": "q",
    "n": 5,
    "say": "Wer hat Micky Maus erfunden?",
    "answer": "Walt Disney",
-   "bg": "bg/matterhorn.mp4",
-   "bgFrom": 89,
    "audio": "audio/q05/05_q.mp3",
    "words": [
     {
@@ -343,15 +341,15 @@
     }
    ],
    "revealAt": 109,
-   "duration": 166
+   "duration": 166,
+   "bg": "bg/bergkette.mp4",
+   "bgFrom": 122
   },
   {
    "kind": "q",
    "n": 6,
    "say": "Welche Farbe hat ein Stoppschild?",
    "answer": "Rot",
-   "bg": "bg/fluss.mp4",
-   "bgFrom": 244,
    "audio": "audio/q05/06_q.mp3",
    "words": [
     {
@@ -391,15 +389,15 @@
     }
    ],
    "revealAt": 115,
-   "duration": 164
+   "duration": 164,
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 11
   },
   {
    "kind": "q",
    "n": 7,
    "say": "Wie viele Minuten dauert ein Fußballspiel ohne Nachspielzeit?",
    "answer": "90",
-   "bg": "bg/alpen.mp4",
-   "bgFrom": 11,
    "audio": "audio/q05/07_q.mp3",
    "words": [
     {
@@ -454,15 +452,15 @@
     }
    ],
    "revealAt": 152,
-   "duration": 207
+   "duration": 207,
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 106
   },
   {
    "kind": "q",
    "n": 8,
    "say": "Wie viele Monate haben 31 Tage?",
    "answer": "7",
-   "bg": "bg/waldberge.mp4",
-   "bgFrom": 212,
    "audio": "audio/q05/08_q.mp3",
    "words": [
     {
@@ -507,7 +505,9 @@
     }
    ],
    "revealAt": 126,
-   "duration": 181
+   "duration": 181,
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 111
   },
   {
    "kind": "outro",
@@ -583,8 +583,8 @@
    "title": "Wie viele hattest du?",
    "sub": "Folg @alleswissen7 für Teil 2",
    "duration": 164,
-   "bg": "bg/wasserfall_sonne.mp4",
-   "bgFrom": 285
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 35
   }
  ]
 }
