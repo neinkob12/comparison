@@ -1,0 +1,32 @@
+{
+ "_info": "Insider-Fragen fuer Kanal B. say = TTS, a/b = Labels, who = Streamer fuer die Bilder, img = Bildidee. Quelle: jakob = selbst geschrieben, tiktok = aus dem TikTok-Scan Okt 2026 (von Jakob abgenickt).",
+ "insiders": [
+  {"id": "tee_rave", "src": "jakob", "say": "Mit TimGioh eine Tasse Tee trinken, oder mit Trymacs auf einen Rave?",
+   "a": "Tee mit TimGioh", "b": "Rave mit Trymacs", "who": ["timgioh", "trymacs"],
+   "img": {"b": "streamers/extra/trymacs_goth.jpg"}},
+  {"id": "autos", "src": "jakob", "say": "EliGellas Autokollektion, oder MontanaBlacks Autokollektion?",
+   "a": "Elis Autos", "b": "Montes Autos", "who": ["eliasn97", "montanablack"],
+   "img": {"a": "Bild von Elis Autos (noch suchen)", "b": "Bild von Montes Autos (noch suchen)"}},
+  {"id": "marli_bett", "src": "jakob", "say": "Auf Marlis Bett Fallrückzieher machen, oder in Marli Fallrückzieher machen?",
+   "a": "Fallrückzieher auf Marlis Bett", "b": "In Marli Fallrückzieher?!", "who": ["marli", "marli"],
+   "img": {"a": "Arnautovic-Fallrückzieher auf Marlis Bett (Okt 2026, noch suchen)"}},
+  {"id": "wichteln_urlaub", "src": "tiktok", "say": "Monte bekommt dein Wichtelgeschenk, oder mit Monte nach Österreich in den Urlaub?",
+   "a": "Monte wichteln", "b": "Österreich mit Monte", "who": ["montanablack", "montanablack"]},
+  {"id": "oboe_burnic", "src": "tiktok", "say": "Eine Woche Trymacs' Oboen-Solo hören, oder eine Woche Willys Burnic Ajde?",
+   "a": "1 Woche Oboe-Solo", "b": "1 Woche Burnic Ajde", "who": ["trymacs", "niklaswilson"]},
+  {"id": "craft_nachbar", "src": "tiktok", "say": "In Craft Attack neben Papaplatte wohnen, oder neben Rumathra?",
+   "a": "Nachbar von Papaplatte", "b": "Nachbar von Rumathra", "who": ["papaplatte", "rumathra"]},
+  {"id": "fahren_gym", "src": "tiktok", "say": "Rumathra fährt dich nach Hause, oder G-Time trainiert mit dir?",
+   "a": "Rumathra fährt", "b": "Gym mit G-Time", "who": ["rumathra", "gtime"]},
+  {"id": "frisuren", "src": "tiktok", "say": "Elis neuer Frisör, oder Trymacs' Eminem-Frisur?",
+   "a": "Elis Frisör", "b": "Eminem-Frisur", "who": ["eliasn97", "trymacs"]},
+  {"id": "klopf_nutella", "src": "tiktok", "say": "Knossi erzählt dir jeden Tag einen Klopf-Klopf-Witz, oder Monte macht dir jeden Morgen ein Nutella-Sandwich?",
+   "a": "Knossis Klopf-Klopf-Witze", "b": "Montes Nutella-Sandwich", "who": ["knossi", "montanablack"]},
+  {"id": "mariachi_singstar", "src": "tiktok", "say": "Von Marlis Mariachi-Band geweckt werden, oder mit Willys Singstar-Mikro einschlafen?",
+   "a": "Marlis Mariachi-Band", "b": "Willys Singstar-Mikro", "who": ["marli", "niklaswilson"]},
+  {"id": "hose_jubel", "src": "tiktok", "say": "Sidney leiht dir seine Hose, oder Eli seinen Jubel?",
+   "a": "Sidneys Hose", "b": "Elis Jubel", "who": ["sidneyeweka", "eliasn97"]},
+  {"id": "timgioh_monat", "src": "tiktok", "say": "Dein Monat ist ein TimGioh-Meme, oder dein Wichtelgeschenk kommt von Monte?",
+   "a": "Monat = TimGioh-Meme", "b": "Wichteln mit Monte", "who": ["timgioh", "montanablack"]}
+ ]
+}
