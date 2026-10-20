@@ -1,52 +1,54 @@
 {
  "id": "q04",
- "channel": "A",
- "handle": null,
+ "channel": "Q",
+ "handle": "@alleswissen7",
  "intro": {
-  "say": "Die meisten scheitern schon an Frage drei.",
   "title": "Die meisten scheitern an Frage 3",
-  "sub": ""
+  "sub": "",
+  "say": "Die meisten scheitern schon an Frage drei."
  },
  "questions": [
   {
-   "say": "Wie viele Bundesländer hat Deutschland?",
-   "answer": "16",
-   "answerTts": "Sechzehn"
+   "say": "Welcher Fluss fließt durch Paris?",
+   "answer": "Seine",
+   "answerTts": "Sään"
   },
   {
-   "say": "Was ist die Hauptstadt von Spanien?",
-   "answer": "Madrid"
+   "say": "Welcher Maler schnitt sich ein Ohr ab?",
+   "answer": "Van Gogh",
+   "tts": "Welcher Maler schnitt sich ein Ohr ab?",
+   "answerTts": "Van Goch"
   },
   {
-   "say": "Wie viele Seiten hat ein Sechseck?",
-   "answer": "6",
-   "answerTts": "Sechs"
+   "say": "Wie lange dauerte der Hundertjährige Krieg?",
+   "answer": "116 Jahre",
+   "answerTts": "Hundertsechzehn Jahre"
   },
   {
-   "say": "Welcher Planet wird der rote Planet genannt?",
-   "answer": "Mars"
+   "say": "Welches Gas macht den größten Teil der Luft aus?",
+   "answer": "Stickstoff"
   },
   {
-   "say": "Wie heißt die größte heiße Wüste der Welt?",
-   "answer": "Sahara"
+   "say": "Welche Stadt wird die Ewige Stadt genannt?",
+   "answer": "Rom"
   },
   {
-   "say": "In welchem Jahr betrat der erste Mensch den Mond?",
-   "answer": "1969",
-   "answerTts": "Neunzehnhundertneunundsechzig"
+   "say": "Wie viele Sterne hat die Flagge der EU?",
+   "answer": "12",
+   "answerTts": "Zwölf"
   },
   {
-   "say": "Welche Sprache spricht man in Brasilien?",
-   "answer": "Portugiesisch"
+   "say": "Aus welchem Land kommt Lego?",
+   "answer": "Dänemark"
   },
   {
-   "say": "Welches ist das schnellste Landtier?",
-   "answer": "Gepard"
+   "say": "Wie heißt die Hauptstadt von Australien?",
+   "answer": "Canberra"
   }
  ],
  "outro": {
-  "say": "Wie weit bist du gekommen? Schreibs in die Kommentare!",
+  "say": "Bist du an Frage drei gescheitert? Schreibs in die Kommentare und folg für Teil zwei!",
   "title": "Wie viele hattest du?",
-  "sub": "Schreibs in die Kommentare"
+  "sub": "Folg @alleswissen7 für Teil 2"
  }
 }

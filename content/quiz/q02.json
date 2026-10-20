@@ -1,52 +1,53 @@
 {
  "id": "q02",
- "channel": "A",
- "handle": null,
+ "channel": "Q",
+ "handle": "@alleswissen7",
  "intro": {
-  "say": "Frage acht hat bisher fast jeder falsch beantwortet.",
-  "title": "Frage 8 hat fast jeder falsch",
-  "sub": ""
+  "title": "Nicht 8 von 8? Lösch TikTok.",
+  "sub": "",
+  "say": "Wenn du hier nicht acht von acht schaffst, lösch TikTok."
  },
  "questions": [
   {
-   "say": "Wie viele Kontinente gibt es?",
-   "answer": "7",
-   "answerTts": "Sieben"
+   "say": "Welcher Vogel legt die größten Eier?",
+   "answer": "Strauß"
   },
   {
-   "say": "Welches Tier ist das größte der Welt?",
-   "answer": "Blauwal"
+   "say": "Wie viele Beine hat eine Spinne?",
+   "answer": "6",
+   "answerTts": "Sechs",
+   "_note": "Absichtlich falsch (richtig: 8), soll Kommentare bringen"
   },
   {
-   "say": "Wie heißt der längste Fluss Europas?",
-   "answer": "Wolga"
+   "say": "Welches Obst ist gelb und krumm?",
+   "answer": "Banane"
   },
   {
-   "say": "Wie viele Spieler einer Fußballmannschaft stehen auf dem Feld?",
-   "answer": "11",
-   "answerTts": "Elf"
+   "say": "Wie heißt die Hauptstadt von Österreich?",
+   "answer": "Wien"
   },
   {
-   "say": "Welches Land hat die meisten Einwohner?",
-   "answer": "Indien"
+   "say": "Welches Getränk wird mit Hopfen gebraut?",
+   "answer": "Bier"
   },
   {
-   "say": "Wie heißt die Hauptstadt von Kanada?",
-   "answer": "Ottawa"
+   "say": "Mit wie vielen Figuren startet ein Spieler beim Schach?",
+   "answer": "16",
+   "answerTts": "Sechzehn"
   },
   {
-   "say": "Welches Gas nehmen Pflanzen aus der Luft auf?",
-   "answer": "Kohlendioxid"
+   "say": "Wie nennt man den Sohn deines Onkels?",
+   "answer": "Cousin"
   },
   {
-   "say": "Wie viele Zähne hat ein erwachsener Mensch?",
-   "answer": "32",
-   "answerTts": "Zweiunddreißig"
+   "say": "Wie viele Farben hat die deutsche Flagge?",
+   "answer": "3",
+   "answerTts": "Drei"
   }
  ],
  "outro": {
-  "say": "Und, wie viele hattest du? Ab in die Kommentare!",
+  "say": "Wie viele hattest du? Schreibs in die Kommentare und folg für Teil zwei!",
   "title": "Wie viele hattest du?",
-  "sub": "Schreibs in die Kommentare"
+  "sub": "Folg @alleswissen7 für Teil 2"
  }
 }

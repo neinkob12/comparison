@@ -1,0 +1,640 @@
+{
+ "id": "q04",
+ "format": "quiz",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "fps": 30,
+ "durationInFrames": 1720,
+ "music": "music/eerie_pulse.mp3",
+ "items": [
+  {
+   "answer": "Seine"
+  },
+  {
+   "answer": "Van Gogh"
+  },
+  {
+   "answer": "116 Jahre"
+  },
+  {
+   "answer": "Stickstoff"
+  },
+  {
+   "answer": "Rom"
+  },
+  {
+   "answer": "12"
+  },
+  {
+   "answer": "Dänemark"
+  },
+  {
+   "answer": "Canberra"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/q04/00_intro.mp3",
+   "words": [
+    {
+     "w": "Allgemeinwissen",
+     "s": 0,
+     "e": 18
+    },
+    {
+     "w": "Quiz!",
+     "s": 19,
+     "e": 29
+    },
+    {
+     "w": "Die",
+     "s": 34,
+     "e": 36
+    },
+    {
+     "w": "meisten",
+     "s": 37,
+     "e": 46
+    },
+    {
+     "w": "scheitern",
+     "s": 47,
+     "e": 57
+    },
+    {
+     "w": "schon",
+     "s": 58,
+     "e": 62
+    },
+    {
+     "w": "an",
+     "s": 63,
+     "e": 65
+    },
+    {
+     "w": "Frage",
+     "s": 66,
+     "e": 73
+    },
+    {
+     "w": "drei.",
+     "s": 74,
+     "e": 89
+    }
+   ],
+   "speak": 91,
+   "title": "Die meisten scheitern an Frage 3",
+   "sub": "",
+   "duration": 121,
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 59
+  },
+  {
+   "kind": "q",
+   "n": 1,
+   "say": "Welcher Fluss fließt durch Paris?",
+   "answer": "Seine",
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 223,
+   "audio": "audio/q04/01_q.mp3",
+   "words": [
+    {
+     "w": "Welcher",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Fluss",
+     "s": 9,
+     "e": 15
+    },
+    {
+     "w": "fließt",
+     "s": 16,
+     "e": 22
+    },
+    {
+     "w": "durch",
+     "s": 23,
+     "e": 27
+    },
+    {
+     "w": "Paris?",
+     "s": 28,
+     "e": 44
+    }
+   ],
+   "speak": 45,
+   "timer": 69,
+   "answerAudio": "audio/q04/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "Seine",
+     "s": 0,
+     "e": 20
+    }
+   ],
+   "revealAt": 114,
+   "duration": 166
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "say": "Welcher Maler schnitt sich ein Ohr ab?",
+   "answer": "Van Gogh",
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 43,
+   "audio": "audio/q04/02_q.mp3",
+   "words": [
+    {
+     "w": "Welcher",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Maler",
+     "s": 10,
+     "e": 17
+    },
+    {
+     "w": "schnitt",
+     "s": 18,
+     "e": 25
+    },
+    {
+     "w": "sich",
+     "s": 26,
+     "e": 30
+    },
+    {
+     "w": "ein",
+     "s": 31,
+     "e": 34
+    },
+    {
+     "w": "Ohr",
+     "s": 37,
+     "e": 43
+    },
+    {
+     "w": "ab?",
+     "s": 44,
+     "e": 56
+    }
+   ],
+   "speak": 58,
+   "timer": 69,
+   "answerAudio": "audio/q04/02_a.mp3",
+   "answerWords": [
+    {
+     "w": "Van",
+     "s": 0,
+     "e": 7
+    },
+    {
+     "w": "Gogh",
+     "s": 9,
+     "e": 23
+    }
+   ],
+   "revealAt": 127,
+   "duration": 182
+  },
+  {
+   "kind": "q",
+   "n": 3,
+   "say": "Wie lange dauerte der Hundertjährige Krieg?",
+   "answer": "116 Jahre",
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 119,
+   "audio": "audio/q04/03_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "lange",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "dauerte",
+     "s": 11,
+     "e": 19
+    },
+    {
+     "w": "der",
+     "s": 20,
+     "e": 23
+    },
+    {
+     "w": "Hundertjährige",
+     "s": 24,
+     "e": 38
+    },
+    {
+     "w": "Krieg?",
+     "s": 39,
+     "e": 53
+    }
+   ],
+   "speak": 55,
+   "timer": 69,
+   "answerAudio": "audio/q04/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "116",
+     "s": 0,
+     "e": 19
+    },
+    {
+     "w": "Jahre",
+     "s": 20,
+     "e": 34
+    }
+   ],
+   "revealAt": 124,
+   "duration": 191
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "say": "Welches Gas macht den größten Teil der Luft aus?",
+   "answer": "Stickstoff",
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 138,
+   "audio": "audio/q04/04_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Gas",
+     "s": 10,
+     "e": 15
+    },
+    {
+     "w": "macht",
+     "s": 17,
+     "e": 21
+    },
+    {
+     "w": "den",
+     "s": 21,
+     "e": 24
+    },
+    {
+     "w": "größten",
+     "s": 25,
+     "e": 34
+    },
+    {
+     "w": "Teil",
+     "s": 35,
+     "e": 39
+    },
+    {
+     "w": "der",
+     "s": 40,
+     "e": 42
+    },
+    {
+     "w": "Luft",
+     "s": 43,
+     "e": 48
+    },
+    {
+     "w": "aus?",
+     "s": 50,
+     "e": 64
+    }
+   ],
+   "speak": 66,
+   "timer": 69,
+   "answerAudio": "audio/q04/04_a.mp3",
+   "answerWords": [
+    {
+     "w": "Stickstoff",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 135,
+   "duration": 192
+  },
+  {
+   "kind": "q",
+   "n": 5,
+   "say": "Welche Stadt wird die Ewige Stadt genannt?",
+   "answer": "Rom",
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 57,
+   "audio": "audio/q04/05_q.mp3",
+   "words": [
+    {
+     "w": "Welche",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Stadt",
+     "s": 9,
+     "e": 15
+    },
+    {
+     "w": "wird",
+     "s": 16,
+     "e": 20
+    },
+    {
+     "w": "die",
+     "s": 20,
+     "e": 23
+    },
+    {
+     "w": "Ewige",
+     "s": 24,
+     "e": 30
+    },
+    {
+     "w": "Stadt",
+     "s": 31,
+     "e": 36
+    },
+    {
+     "w": "genannt?",
+     "s": 37,
+     "e": 53
+    }
+   ],
+   "speak": 55,
+   "timer": 69,
+   "answerAudio": "audio/q04/05_a.mp3",
+   "answerWords": [
+    {
+     "w": "Rom",
+     "s": 0,
+     "e": 17
+    }
+   ],
+   "revealAt": 124,
+   "duration": 173
+  },
+  {
+   "kind": "q",
+   "n": 6,
+   "say": "Wie viele Sterne hat die Flagge der EU?",
+   "answer": "12",
+   "bg": "bg/waldweg.mp4",
+   "bgFrom": 283,
+   "audio": "audio/q04/06_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Sterne",
+     "s": 11,
+     "e": 19
+    },
+    {
+     "w": "hat",
+     "s": 20,
+     "e": 23
+    },
+    {
+     "w": "die",
+     "s": 24,
+     "e": 26
+    },
+    {
+     "w": "Flagge",
+     "s": 27,
+     "e": 33
+    },
+    {
+     "w": "der",
+     "s": 34,
+     "e": 36
+    },
+    {
+     "w": "EU?",
+     "s": 37,
+     "e": 52
+    }
+   ],
+   "speak": 53,
+   "timer": 69,
+   "answerAudio": "audio/q04/06_a.mp3",
+   "answerWords": [
+    {
+     "w": "12",
+     "s": 0,
+     "e": 19
+    }
+   ],
+   "revealAt": 122,
+   "duration": 173
+  },
+  {
+   "kind": "q",
+   "n": 7,
+   "say": "Aus welchem Land kommt Lego?",
+   "answer": "Dänemark",
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 71,
+   "audio": "audio/q04/07_q.mp3",
+   "words": [
+    {
+     "w": "Aus",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "welchem",
+     "s": 5,
+     "e": 11
+    },
+    {
+     "w": "Land",
+     "s": 13,
+     "e": 17
+    },
+    {
+     "w": "kommt",
+     "s": 18,
+     "e": 23
+    },
+    {
+     "w": "Lego?",
+     "s": 24,
+     "e": 40
+    }
+   ],
+   "speak": 42,
+   "timer": 69,
+   "answerAudio": "audio/q04/07_a.mp3",
+   "answerWords": [
+    {
+     "w": "Dänemark",
+     "s": 0,
+     "e": 21
+    }
+   ],
+   "revealAt": 111,
+   "duration": 164
+  },
+  {
+   "kind": "q",
+   "n": 8,
+   "say": "Wie heißt die Hauptstadt von Australien?",
+   "answer": "Canberra",
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 74,
+   "audio": "audio/q04/08_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 6,
+     "e": 10
+    },
+    {
+     "w": "die",
+     "s": 11,
+     "e": 13
+    },
+    {
+     "w": "Hauptstadt",
+     "s": 14,
+     "e": 24
+    },
+    {
+     "w": "von",
+     "s": 25,
+     "e": 28
+    },
+    {
+     "w": "Australien?",
+     "s": 29,
+     "e": 49
+    }
+   ],
+   "speak": 51,
+   "timer": 69,
+   "answerAudio": "audio/q04/08_a.mp3",
+   "answerWords": [
+    {
+     "w": "Canberra",
+     "s": 0,
+     "e": 27
+    }
+   ],
+   "revealAt": 120,
+   "duration": 179
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/q04/09_outro.mp3",
+   "words": [
+    {
+     "w": "Bist",
+     "s": 0,
+     "e": 6
+    },
+    {
+     "w": "du",
+     "s": 7,
+     "e": 8
+    },
+    {
+     "w": "an",
+     "s": 10,
+     "e": 12
+    },
+    {
+     "w": "Frage",
+     "s": 13,
+     "e": 20
+    },
+    {
+     "w": "drei",
+     "s": 21,
+     "e": 27
+    },
+    {
+     "w": "gescheitert?",
+     "s": 28,
+     "e": 44
+    },
+    {
+     "w": "Schreibs",
+     "s": 49,
+     "e": 57
+    },
+    {
+     "w": "in",
+     "s": 58,
+     "e": 60
+    },
+    {
+     "w": "die",
+     "s": 61,
+     "e": 63
+    },
+    {
+     "w": "Kommentare",
+     "s": 64,
+     "e": 78
+    },
+    {
+     "w": "und",
+     "s": 80,
+     "e": 83
+    },
+    {
+     "w": "folg",
+     "s": 84,
+     "e": 90
+    },
+    {
+     "w": "für",
+     "s": 91,
+     "e": 94
+    },
+    {
+     "w": "Teil",
+     "s": 95,
+     "e": 100
+    },
+    {
+     "w": "zwei!",
+     "s": 101,
+     "e": 117
+    }
+   ],
+   "speak": 119,
+   "title": "Wie viele hattest du?",
+   "sub": "Folg @alleswissen7 für Teil 2",
+   "duration": 179,
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 292
+  }
+ ]
+}

@@ -1,54 +1,53 @@
 {
  "id": "q01",
- "channel": "A",
- "handle": null,
+ "channel": "Q",
+ "handle": "@alleswissen7",
  "intro": {
-  "say": "Nur drei Prozent schaffen alle acht Fragen. Bist du dabei?",
   "title": "Nur 3 % schaffen alle 8",
-  "sub": "Bist du dabei?"
+  "sub": "Bist du dabei?",
+  "say": "Nur drei Prozent schaffen alle acht Fragen. Bist du dabei?",
+  "tts": "Nur drei [[Prooooooozzzzzzzzzeeeeeent]] schaffen alle acht Fragen. Bist du dabei?",
+  "_note": "Absichtlicher TTS-Bug bei 'Prozent'"
  },
  "questions": [
   {
-   "say": "Wie heißt die Hauptstadt von Australien?",
-   "answer": "Canberra"
+   "say": "Welcher Monat hat die wenigsten Tage?",
+   "answer": "Februar"
   },
   {
-   "say": "Wie viele Herzen hat ein Oktopus?",
-   "answer": "3",
-   "answerTts": "Drei"
+   "say": "Wie heißt das Gegenteil von Ebbe?",
+   "answer": "Flut"
   },
   {
-   "say": "Welcher Planet ist der Sonne am nächsten?",
-   "answer": "Merkur"
+   "say": "Welches Tier ist das Wappentier Deutschlands?",
+   "answer": "Adler"
   },
   {
-   "say": "In welchem Jahr fiel die Berliner Mauer?",
-   "answer": "1989",
-   "answerTts": "Neunzehnhundertneunundachtzig"
+   "say": "Wie viele Saiten hat eine normale Gitarre?",
+   "answer": "6",
+   "answerTts": "Sechs"
   },
   {
-   "say": "Welches ist das größte Organ des Menschen?",
-   "answer": "Haut"
+   "say": "Welche Farbe entsteht aus Rot und Weiß?",
+   "answer": "Rosa"
   },
   {
-   "say": "Wie viele Knochen hat ein erwachsener Mensch?",
-   "answer": "206",
-   "answerTts": "Zweihundertsechs"
+   "say": "Wie viele Ecken hat ein Würfel?",
+   "answer": "8",
+   "answerTts": "Acht"
   },
   {
-   "say": "Welches chemische Element hat das Zeichen Au?",
-   "answer": "Gold",
-   "tts": "Welches chemische Element hat das Zeichen A U?"
+   "say": "In welchem Land wurde die Pizza erfunden?",
+   "answer": "Italien"
   },
   {
-   "say": "Wer malte die Mona Lisa?",
-   "answer": "Da Vinci",
-   "answerTts": "Leonardo da Vinci"
+   "say": "Welche Farbe hat die Haut eines Eisbären?",
+   "answer": "Schwarz"
   }
  ],
  "outro": {
-  "say": "Wie viele hattest du richtig? Schreibs in die Kommentare!",
+  "say": "Wie viele hattest du? Schreibs in die Kommentare und folg für Teil zwei!",
   "title": "Wie viele hattest du?",
-  "sub": "Schreibs in die Kommentare"
+  "sub": "Folg @alleswissen7 für Teil 2"
  }
 }

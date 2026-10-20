@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from build import FPS, PUB, ROOT, VOICE, frames, spoken, speed_for  # noqa: E402
 
 TEMPO = 1.05
-TIMER = 90       # Frames Bedenkzeit nach der Frage (3 s)
+TIMER = 69       # Frames Bedenkzeit nach der Frage (2.3 s, wie bei den Rapper-Videos)
 HOLD = 30        # Frames, in denen die Antwort nach dem Sprechen noch steht
 TAIL = 30        # Frames Luft am Ende von Intro/Outro
 

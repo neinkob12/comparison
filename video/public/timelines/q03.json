@@ -1,0 +1,595 @@
+{
+ "id": "q03",
+ "format": "quiz",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "fps": 30,
+ "durationInFrames": 1775,
+ "music": "music/ticktack.mp3",
+ "items": [
+  {
+   "answer": "64"
+  },
+  {
+   "answer": "Bern"
+  },
+  {
+   "answer": "Bauchspeicheldrüse"
+  },
+  {
+   "answer": "Beethoven"
+  },
+  {
+   "answer": "Brasilien"
+  },
+  {
+   "answer": "Ohm"
+  },
+  {
+   "answer": "Mali"
+  },
+  {
+   "answer": "7"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/q03/00_intro.mp3",
+   "words": [
+    {
+     "w": "Allgemeinwissen",
+     "s": 0,
+     "e": 20
+    },
+    {
+     "w": "Quiz!",
+     "s": 21,
+     "e": 34
+    },
+    {
+     "w": "Nur",
+     "s": 43,
+     "e": 48
+    },
+    {
+     "w": "Genies",
+     "s": 49,
+     "e": 57
+    },
+    {
+     "w": "schaffen",
+     "s": 58,
+     "e": 66
+    },
+    {
+     "w": "alle",
+     "s": 67,
+     "e": 71
+    },
+    {
+     "w": "acht.",
+     "s": 72,
+     "e": 82
+    },
+    {
+     "w": "Bist",
+     "s": 89,
+     "e": 94
+    },
+    {
+     "w": "du",
+     "s": 95,
+     "e": 97
+    },
+    {
+     "w": "einer?",
+     "s": 99,
+     "e": 111
+    }
+   ],
+   "speak": 113,
+   "title": "Nur Genies schaffen alle",
+   "sub": "Bist du einer?",
+   "duration": 143,
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 122
+  },
+  {
+   "kind": "q",
+   "n": 1,
+   "say": "Wie viele Felder hat ein Schachbrett?",
+   "answer": "64",
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 41,
+   "audio": "audio/q03/01_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "viele",
+     "s": 6,
+     "e": 11
+    },
+    {
+     "w": "Felder",
+     "s": 12,
+     "e": 20
+    },
+    {
+     "w": "hat",
+     "s": 21,
+     "e": 24
+    },
+    {
+     "w": "ein",
+     "s": 25,
+     "e": 28
+    },
+    {
+     "w": "Schachbrett?",
+     "s": 29,
+     "e": 48
+    }
+   ],
+   "speak": 50,
+   "timer": 69,
+   "answerAudio": "audio/q03/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "64",
+     "s": 0,
+     "e": 32
+    }
+   ],
+   "revealAt": 119,
+   "duration": 182
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "say": "Wie heißt die Hauptstadt der Schweiz?",
+   "answer": "Bern",
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 226,
+   "audio": "audio/q03/02_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 5,
+     "e": 9
+    },
+    {
+     "w": "die",
+     "s": 10,
+     "e": 12
+    },
+    {
+     "w": "Hauptstadt",
+     "s": 13,
+     "e": 23
+    },
+    {
+     "w": "der",
+     "s": 23,
+     "e": 26
+    },
+    {
+     "w": "Schweiz?",
+     "s": 27,
+     "e": 44
+    }
+   ],
+   "speak": 46,
+   "timer": 69,
+   "answerAudio": "audio/q03/02_a.mp3",
+   "answerWords": [
+    {
+     "w": "Bern",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 115,
+   "duration": 171
+  },
+  {
+   "kind": "q",
+   "n": 3,
+   "say": "Welches Organ produziert Insulin?",
+   "answer": "Bauchspeicheldrüse",
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 43,
+   "audio": "audio/q03/03_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 10
+    },
+    {
+     "w": "Organ",
+     "s": 12,
+     "e": 20
+    },
+    {
+     "w": "produziert",
+     "s": 21,
+     "e": 33
+    },
+    {
+     "w": "Insulin?",
+     "s": 34,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q03/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "Bauchspeicheldrüse",
+     "s": 0,
+     "e": 34
+    }
+   ],
+   "revealAt": 123,
+   "duration": 190
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "say": "Wer komponierte die Mondscheinsonate?",
+   "answer": "Beethoven",
+   "bg": "bg/matterhorn.mp4",
+   "bgFrom": 39,
+   "audio": "audio/q03/04_q.mp3",
+   "words": [
+    {
+     "w": "Wer",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "komponierte",
+     "s": 6,
+     "e": 18
+    },
+    {
+     "w": "die",
+     "s": 19,
+     "e": 22
+    },
+    {
+     "w": "Mondscheinsonate?",
+     "s": 23,
+     "e": 54
+    }
+   ],
+   "speak": 56,
+   "timer": 69,
+   "answerAudio": "audio/q03/04_a.mp3",
+   "answerWords": [
+    {
+     "w": "Beethoven",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 125,
+   "duration": 181
+  },
+  {
+   "kind": "q",
+   "n": 5,
+   "say": "Welches ist das größte Land Südamerikas?",
+   "answer": "Brasilien",
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 212,
+   "audio": "audio/q03/05_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "ist",
+     "s": 10,
+     "e": 13
+    },
+    {
+     "w": "das",
+     "s": 13,
+     "e": 17
+    },
+    {
+     "w": "größte",
+     "s": 18,
+     "e": 26
+    },
+    {
+     "w": "Land",
+     "s": 27,
+     "e": 31
+    },
+    {
+     "w": "Südamerikas?",
+     "s": 32,
+     "e": 57
+    }
+   ],
+   "speak": 59,
+   "timer": 69,
+   "answerAudio": "audio/q03/05_a.mp3",
+   "answerWords": [
+    {
+     "w": "Brasilien",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 128,
+   "duration": 184
+  },
+  {
+   "kind": "q",
+   "n": 6,
+   "say": "In welcher Einheit misst man elektrischen Widerstand?",
+   "answer": "Ohm",
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 68,
+   "audio": "audio/q03/06_q.mp3",
+   "words": [
+    {
+     "w": "In",
+     "s": 0,
+     "e": 3
+    },
+    {
+     "w": "welcher",
+     "s": 4,
+     "e": 11
+    },
+    {
+     "w": "Einheit",
+     "s": 12,
+     "e": 20
+    },
+    {
+     "w": "misst",
+     "s": 22,
+     "e": 27
+    },
+    {
+     "w": "man",
+     "s": 28,
+     "e": 32
+    },
+    {
+     "w": "elektrischen",
+     "s": 33,
+     "e": 45
+    },
+    {
+     "w": "Widerstand?",
+     "s": 46,
+     "e": 66
+    }
+   ],
+   "speak": 68,
+   "timer": 69,
+   "answerAudio": "audio/q03/06_a.mp3",
+   "answerWords": [
+    {
+     "w": "Ohm",
+     "s": 0,
+     "e": 15
+    }
+   ],
+   "revealAt": 137,
+   "duration": 183
+  },
+  {
+   "kind": "q",
+   "n": 7,
+   "say": "In welchem Land liegt Timbuktu?",
+   "answer": "Mali",
+   "bg": "bg/waldweg.mp4",
+   "bgFrom": 141,
+   "audio": "audio/q03/07_q.mp3",
+   "words": [
+    {
+     "w": "In",
+     "s": 0,
+     "e": 3
+    },
+    {
+     "w": "welchem",
+     "s": 4,
+     "e": 11
+    },
+    {
+     "w": "Land",
+     "s": 12,
+     "e": 16
+    },
+    {
+     "w": "liegt",
+     "s": 17,
+     "e": 22
+    },
+    {
+     "w": "Timbuktu?",
+     "s": 23,
+     "e": 42
+    }
+   ],
+   "speak": 44,
+   "timer": 69,
+   "answerAudio": "audio/q03/07_a.mp3",
+   "answerWords": [
+    {
+     "w": "Mali",
+     "s": 0,
+     "e": 23
+    }
+   ],
+   "revealAt": 113,
+   "duration": 168
+  },
+  {
+   "kind": "q",
+   "n": 8,
+   "say": "Wie viele Zacken hat die Krone der Freiheitsstatue?",
+   "answer": "7",
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 280,
+   "audio": "audio/q03/08_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Zacken",
+     "s": 12,
+     "e": 19
+    },
+    {
+     "w": "hat",
+     "s": 20,
+     "e": 22
+    },
+    {
+     "w": "die",
+     "s": 23,
+     "e": 25
+    },
+    {
+     "w": "Krone",
+     "s": 27,
+     "e": 33
+    },
+    {
+     "w": "der",
+     "s": 34,
+     "e": 37
+    },
+    {
+     "w": "Freiheitsstatue?",
+     "s": 38,
+     "e": 68
+    }
+   ],
+   "speak": 69,
+   "timer": 69,
+   "answerAudio": "audio/q03/08_a.mp3",
+   "answerWords": [
+    {
+     "w": "7",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 138,
+   "duration": 194
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/q03/09_outro.mp3",
+   "words": [
+    {
+     "w": "Genie",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "oder",
+     "s": 10,
+     "e": 14
+    },
+    {
+     "w": "nicht?",
+     "s": 16,
+     "e": 26
+    },
+    {
+     "w": "Schreib",
+     "s": 36,
+     "e": 43
+    },
+    {
+     "w": "deine",
+     "s": 44,
+     "e": 49
+    },
+    {
+     "w": "Punktzahl",
+     "s": 50,
+     "e": 61
+    },
+    {
+     "w": "in",
+     "s": 62,
+     "e": 63
+    },
+    {
+     "w": "die",
+     "s": 64,
+     "e": 67
+    },
+    {
+     "w": "Kommentare",
+     "s": 68,
+     "e": 82
+    },
+    {
+     "w": "und",
+     "s": 83,
+     "e": 85
+    },
+    {
+     "w": "folg",
+     "s": 86,
+     "e": 91
+    },
+    {
+     "w": "für",
+     "s": 92,
+     "e": 95
+    },
+    {
+     "w": "Teil",
+     "s": 96,
+     "e": 101
+    },
+    {
+     "w": "zwei!",
+     "s": 103,
+     "e": 117
+    }
+   ],
+   "speak": 119,
+   "title": "Wie viele hattest du?",
+   "sub": "Folg @alleswissen7 für Teil 2",
+   "duration": 179,
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 103
+  }
+ ]
+}

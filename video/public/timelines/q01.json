@@ -1,35 +1,35 @@
 {
  "id": "q01",
  "format": "quiz",
- "channel": "A",
- "handle": null,
+ "channel": "Q",
+ "handle": "@alleswissen7",
  "fps": 30,
- "durationInFrames": 1925,
+ "durationInFrames": 1766,
  "music": "music/eerie_pulse.mp3",
  "items": [
   {
-   "answer": "Canberra"
+   "answer": "Februar"
   },
   {
-   "answer": "3"
+   "answer": "Flut"
   },
   {
-   "answer": "Merkur"
+   "answer": "Adler"
   },
   {
-   "answer": "1989"
+   "answer": "6"
   },
   {
-   "answer": "Haut"
+   "answer": "Rosa"
   },
   {
-   "answer": "206"
+   "answer": "8"
   },
   {
-   "answer": "Gold"
+   "answer": "Italien"
   },
   {
-   "answer": "Da Vinci"
+   "answer": "Schwarz"
   }
  ],
  "segments": [
@@ -40,84 +40,137 @@
     {
      "w": "Allgemeinwissen",
      "s": 0,
-     "e": 19
+     "e": 16
     },
     {
      "w": "Quiz!",
-     "s": 20,
-     "e": 30
+     "s": 17,
+     "e": 27
     },
     {
      "w": "Nur",
-     "s": 34,
-     "e": 39
+     "s": 31,
+     "e": 36
     },
     {
      "w": "drei",
-     "s": 40,
-     "e": 46
+     "s": 36,
+     "e": 43
     },
     {
      "w": "Prozent",
-     "s": 48,
-     "e": 59
+     "s": 45,
+     "e": 105
     },
     {
      "w": "schaffen",
-     "s": 59,
-     "e": 68
+     "s": 106,
+     "e": 114
     },
     {
      "w": "alle",
-     "s": 69,
-     "e": 74
+     "s": 115,
+     "e": 119
     },
     {
      "w": "acht",
-     "s": 75,
-     "e": 80
+     "s": 120,
+     "e": 125
     },
     {
      "w": "Fragen.",
-     "s": 81,
-     "e": 91
+     "s": 126,
+     "e": 136
     },
     {
      "w": "Bist",
-     "s": 94,
-     "e": 99
+     "s": 139,
+     "e": 144
     },
     {
      "w": "du",
-     "s": 99,
-     "e": 101
+     "s": 145,
+     "e": 146
     },
     {
      "w": "dabei?",
-     "s": 102,
-     "e": 117
+     "s": 147,
+     "e": 163
     }
    ],
-   "speak": 118,
+   "speak": 165,
    "title": "Nur 3 % schaffen alle 8",
    "sub": "Bist du dabei?",
-   "duration": 148,
+   "duration": 195,
    "bg": "bg/nebelberge.mp4",
    "bgFrom": 56
   },
   {
    "kind": "q",
    "n": 1,
-   "say": "Wie heißt die Hauptstadt von Australien?",
-   "answer": "Canberra",
+   "say": "Welcher Monat hat die wenigsten Tage?",
+   "answer": "Februar",
    "bg": "bg/matterhorn.mp4",
    "bgFrom": 228,
    "audio": "audio/q01/01_q.mp3",
    "words": [
     {
+     "w": "Welcher",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Monat",
+     "s": 9,
+     "e": 17
+    },
+    {
+     "w": "hat",
+     "s": 18,
+     "e": 21
+    },
+    {
+     "w": "die",
+     "s": 21,
+     "e": 24
+    },
+    {
+     "w": "wenigsten",
+     "s": 25,
+     "e": 34
+    },
+    {
+     "w": "Tage?",
+     "s": 35,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q01/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "Februar",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 123,
+   "duration": 179
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "say": "Wie heißt das Gegenteil von Ebbe?",
+   "answer": "Flut",
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 128,
+   "audio": "audio/q01/02_q.mp3",
+   "words": [
+    {
      "w": "Wie",
      "s": 0,
-     "e": 4
+     "e": 5
     },
     {
      "w": "heißt",
@@ -125,47 +178,100 @@
      "e": 12
     },
     {
-     "w": "die",
-     "s": 13,
-     "e": 15
+     "w": "das",
+     "s": 12,
+     "e": 16
     },
     {
-     "w": "Hauptstadt",
-     "s": 16,
-     "e": 28
+     "w": "Gegenteil",
+     "s": 17,
+     "e": 30
     },
     {
      "w": "von",
-     "s": 29,
-     "e": 32
+     "s": 31,
+     "e": 34
     },
     {
-     "w": "Australien?",
-     "s": 33,
-     "e": 53
+     "w": "Ebbe?",
+     "s": 36,
+     "e": 49
     }
    ],
-   "speak": 55,
-   "timer": 90,
-   "answerAudio": "audio/q01/01_a.mp3",
+   "speak": 51,
+   "timer": 69,
+   "answerAudio": "audio/q01/02_a.mp3",
    "answerWords": [
     {
-     "w": "Canberra",
+     "w": "Flut",
      "s": 0,
-     "e": 25
+     "e": 24
     }
    ],
-   "revealAt": 145,
-   "duration": 202
+   "revealAt": 120,
+   "duration": 176
   },
   {
    "kind": "q",
-   "n": 2,
-   "say": "Wie viele Herzen hat ein Oktopus?",
-   "answer": "3",
-   "bg": "bg/wasserfall_tropen.mp4",
-   "bgFrom": 128,
-   "audio": "audio/q01/02_q.mp3",
+   "n": 3,
+   "say": "Welches Tier ist das Wappentier Deutschlands?",
+   "answer": "Adler",
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 49,
+   "audio": "audio/q01/03_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Tier",
+     "s": 10,
+     "e": 15
+    },
+    {
+     "w": "ist",
+     "s": 16,
+     "e": 19
+    },
+    {
+     "w": "das",
+     "s": 19,
+     "e": 23
+    },
+    {
+     "w": "Wappentier",
+     "s": 24,
+     "e": 36
+    },
+    {
+     "w": "Deutschlands?",
+     "s": 37,
+     "e": 57
+    }
+   ],
+   "speak": 59,
+   "timer": 69,
+   "answerAudio": "audio/q01/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "Adler",
+     "s": 0,
+     "e": 17
+    }
+   ],
+   "revealAt": 128,
+   "duration": 177
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "say": "Wie viele Saiten hat eine normale Gitarre?",
+   "answer": "6",
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 79,
+   "audio": "audio/q01/04_q.mp3",
    "words": [
     {
      "w": "Wie",
@@ -178,218 +284,107 @@
      "e": 10
     },
     {
-     "w": "Herzen",
+     "w": "Saiten",
      "s": 11,
-     "e": 19
-    },
-    {
-     "w": "hat",
-     "s": 20,
-     "e": 23
-    },
-    {
-     "w": "ein",
-     "s": 24,
-     "e": 26
-    },
-    {
-     "w": "Oktopus?",
-     "s": 28,
-     "e": 48
-    }
-   ],
-   "speak": 50,
-   "timer": 90,
-   "answerAudio": "audio/q01/02_a.mp3",
-   "answerWords": [
-    {
-     "w": "3",
-     "s": 0,
-     "e": 21
-    }
-   ],
-   "revealAt": 140,
-   "duration": 193
-  },
-  {
-   "kind": "q",
-   "n": 3,
-   "say": "Welcher Planet ist der Sonne am nächsten?",
-   "answer": "Merkur",
-   "bg": "bg/alpen.mp4",
-   "bgFrom": 49,
-   "audio": "audio/q01/03_q.mp3",
-   "words": [
-    {
-     "w": "Welcher",
-     "s": 0,
-     "e": 8
-    },
-    {
-     "w": "Planet",
-     "s": 9,
      "e": 18
     },
     {
-     "w": "ist",
+     "w": "hat",
      "s": 19,
-     "e": 22
-    },
-    {
-     "w": "der",
-     "s": 22,
-     "e": 25
-    },
-    {
-     "w": "Sonne",
-     "s": 26,
-     "e": 31
-    },
-    {
-     "w": "am",
-     "s": 32,
-     "e": 34
-    },
-    {
-     "w": "nächsten?",
-     "s": 35,
-     "e": 50
-    }
-   ],
-   "speak": 52,
-   "timer": 90,
-   "answerAudio": "audio/q01/03_a.mp3",
-   "answerWords": [
-    {
-     "w": "Merkur",
-     "s": 0,
-     "e": 25
-    }
-   ],
-   "revealAt": 142,
-   "duration": 199
-  },
-  {
-   "kind": "q",
-   "n": 4,
-   "say": "In welchem Jahr fiel die Berliner Mauer?",
-   "answer": "1989",
-   "bg": "bg/felsberg_schnee.mp4",
-   "bgFrom": 79,
-   "audio": "audio/q01/04_q.mp3",
-   "words": [
-    {
-     "w": "In",
-     "s": 0,
-     "e": 3
-    },
-    {
-     "w": "welchem",
-     "s": 4,
-     "e": 12
-    },
-    {
-     "w": "Jahr",
-     "s": 14,
      "e": 21
     },
     {
-     "w": "fiel",
-     "s": 22,
+     "w": "eine",
+     "s": 23,
      "e": 27
     },
     {
-     "w": "die",
+     "w": "normale",
      "s": 28,
-     "e": 30
+     "e": 36
     },
     {
-     "w": "Berliner",
-     "s": 31,
-     "e": 40
-    },
-    {
-     "w": "Mauer?",
-     "s": 41,
-     "e": 56
+     "w": "Gitarre?",
+     "s": 37,
+     "e": 54
     }
    ],
-   "speak": 57,
-   "timer": 90,
+   "speak": 56,
+   "timer": 69,
    "answerAudio": "audio/q01/04_a.mp3",
    "answerWords": [
     {
-     "w": "1989",
+     "w": "6",
      "s": 0,
-     "e": 52
+     "e": 23
     }
    ],
-   "revealAt": 147,
-   "duration": 231
+   "revealAt": 125,
+   "duration": 180
   },
   {
    "kind": "q",
    "n": 5,
-   "say": "Welches ist das größte Organ des Menschen?",
-   "answer": "Haut",
+   "say": "Welche Farbe entsteht aus Rot und Weiß?",
+   "answer": "Rosa",
    "bg": "bg/schlucht.mp4",
    "bgFrom": 182,
    "audio": "audio/q01/05_q.mp3",
    "words": [
     {
-     "w": "Welches",
+     "w": "Welche",
      "s": 0,
-     "e": 11
+     "e": 7
     },
     {
-     "w": "ist",
-     "s": 13,
-     "e": 15
+     "w": "Farbe",
+     "s": 9,
+     "e": 16
     },
     {
-     "w": "das",
-     "s": 16,
-     "e": 20
+     "w": "entsteht",
+     "s": 17,
+     "e": 25
     },
     {
-     "w": "größte",
-     "s": 21,
-     "e": 30
+     "w": "aus",
+     "s": 26,
+     "e": 29
     },
     {
-     "w": "Organ",
-     "s": 32,
+     "w": "Rot",
+     "s": 31,
+     "e": 35
+    },
+    {
+     "w": "und",
+     "s": 36,
      "e": 39
     },
     {
-     "w": "des",
+     "w": "Weiß?",
      "s": 40,
-     "e": 43
-    },
-    {
-     "w": "Menschen?",
-     "s": 45,
-     "e": 60
+     "e": 56
     }
    ],
-   "speak": 61,
-   "timer": 90,
+   "speak": 58,
+   "timer": 69,
    "answerAudio": "audio/q01/05_a.mp3",
    "answerWords": [
     {
-     "w": "Haut",
+     "w": "Rosa",
      "s": 0,
-     "e": 17
+     "e": 21
     }
    ],
-   "revealAt": 151,
-   "duration": 200
+   "revealAt": 127,
+   "duration": 180
   },
   {
    "kind": "q",
    "n": 6,
-   "say": "Wie viele Knochen hat ein erwachsener Mensch?",
-   "answer": "206",
+   "say": "Wie viele Ecken hat ein Würfel?",
+   "answer": "8",
    "bg": "bg/waldberge.mp4",
    "bgFrom": 36,
    "audio": "audio/q01/06_q.mp3",
@@ -405,154 +400,154 @@
      "e": 10
     },
     {
-     "w": "Knochen",
+     "w": "Ecken",
      "s": 11,
-     "e": 19
+     "e": 16
     },
     {
      "w": "hat",
-     "s": 20,
-     "e": 23
+     "s": 17,
+     "e": 20
     },
     {
      "w": "ein",
+     "s": 21,
+     "e": 23
+    },
+    {
+     "w": "Würfel?",
      "s": 24,
-     "e": 27
-    },
-    {
-     "w": "erwachsener",
-     "s": 28,
-     "e": 39
-    },
-    {
-     "w": "Mensch?",
-     "s": 40,
-     "e": 56
+     "e": 38
     }
    ],
-   "speak": 58,
-   "timer": 90,
+   "speak": 40,
+   "timer": 69,
    "answerAudio": "audio/q01/06_a.mp3",
    "answerWords": [
     {
-     "w": "206",
+     "w": "8",
      "s": 0,
-     "e": 28
+     "e": 15
     }
    ],
-   "revealAt": 148,
-   "duration": 207
+   "revealAt": 109,
+   "duration": 155
   },
   {
    "kind": "q",
    "n": 7,
-   "say": "Welches chemische Element hat das Zeichen Au?",
-   "answer": "Gold",
+   "say": "In welchem Land wurde die Pizza erfunden?",
+   "answer": "Italien",
    "bg": "bg/wasserfall_wald.mp4",
    "bgFrom": 70,
    "audio": "audio/q01/07_q.mp3",
    "words": [
     {
-     "w": "Welches",
+     "w": "In",
      "s": 0,
-     "e": 12
+     "e": 3
     },
     {
-     "w": "chemische",
+     "w": "welchem",
+     "s": 4,
+     "e": 10
+    },
+    {
+     "w": "Land",
      "s": 12,
-     "e": 27
+     "e": 17
     },
     {
-     "w": "Element",
+     "w": "wurde",
+     "s": 18,
+     "e": 23
+    },
+    {
+     "w": "die",
+     "s": 24,
+     "e": 26
+    },
+    {
+     "w": "Pizza",
      "s": 27,
-     "e": 39
+     "e": 34
     },
     {
-     "w": "hat",
-     "s": 39,
-     "e": 44
-    },
-    {
-     "w": "das",
-     "s": 44,
-     "e": 49
-    },
-    {
-     "w": "Zeichen",
-     "s": 49,
-     "e": 61
-    },
-    {
-     "w": "Au?",
-     "s": 61,
-     "e": 66
+     "w": "erfunden?",
+     "s": 34,
+     "e": 53
     }
    ],
-   "speak": 68,
-   "timer": 90,
+   "speak": 55,
+   "timer": 69,
    "answerAudio": "audio/q01/07_a.mp3",
    "answerWords": [
     {
-     "w": "Gold",
+     "w": "Italien",
      "s": 0,
-     "e": 19
+     "e": 23
     }
    ],
-   "revealAt": 158,
-   "duration": 208
+   "revealAt": 124,
+   "duration": 179
   },
   {
    "kind": "q",
    "n": 8,
-   "say": "Wer malte die Mona Lisa?",
-   "answer": "Da Vinci",
+   "say": "Welche Farbe hat die Haut eines Eisbären?",
+   "answer": "Schwarz",
    "bg": "bg/fluss.mp4",
    "bgFrom": 116,
    "audio": "audio/q01/08_q.mp3",
    "words": [
     {
-     "w": "Wer",
+     "w": "Welche",
      "s": 0,
-     "e": 6
+     "e": 8
     },
     {
-     "w": "malte",
-     "s": 7,
+     "w": "Farbe",
+     "s": 9,
      "e": 15
     },
     {
-     "w": "die",
+     "w": "hat",
      "s": 16,
-     "e": 18
+     "e": 19
     },
     {
-     "w": "Mona",
-     "s": 19,
-     "e": 24
+     "w": "die",
+     "s": 20,
+     "e": 22
     },
     {
-     "w": "Lisa?",
-     "s": 25,
-     "e": 41
+     "w": "Haut",
+     "s": 23,
+     "e": 27
+    },
+    {
+     "w": "eines",
+     "s": 28,
+     "e": 33
+    },
+    {
+     "w": "Eisbären?",
+     "s": 34,
+     "e": 54
     }
    ],
-   "speak": 43,
-   "timer": 90,
+   "speak": 56,
+   "timer": 69,
    "answerAudio": "audio/q01/08_a.mp3",
    "answerWords": [
     {
-     "w": "Da",
+     "w": "Schwarz",
      "s": 0,
-     "e": 10
-    },
-    {
-     "w": "Vinci",
-     "s": 10,
-     "e": 34
+     "e": 25
     }
    ],
-   "revealAt": 133,
-   "duration": 200
+   "revealAt": 125,
+   "duration": 182
   },
   {
    "kind": "outro",
@@ -561,53 +556,73 @@
     {
      "w": "Wie",
      "s": 0,
-     "e": 4
+     "e": 5
     },
     {
      "w": "viele",
-     "s": 5,
-     "e": 10
+     "s": 6,
+     "e": 11
     },
     {
      "w": "hattest",
-     "s": 11,
-     "e": 18
+     "s": 12,
+     "e": 19
     },
     {
-     "w": "du",
-     "s": 18,
-     "e": 20
-    },
-    {
-     "w": "richtig?",
-     "s": 21,
-     "e": 33
+     "w": "du?",
+     "s": 19,
+     "e": 27
     },
     {
      "w": "Schreibs",
-     "s": 40,
-     "e": 48
+     "s": 35,
+     "e": 43
     },
     {
      "w": "in",
-     "s": 49,
-     "e": 51
+     "s": 44,
+     "e": 45
     },
     {
      "w": "die",
-     "s": 52,
-     "e": 54
+     "s": 46,
+     "e": 48
     },
     {
-     "w": "Kommentare!",
-     "s": 55,
-     "e": 76
+     "w": "Kommentare",
+     "s": 49,
+     "e": 63
+    },
+    {
+     "w": "und",
+     "s": 64,
+     "e": 67
+    },
+    {
+     "w": "folg",
+     "s": 68,
+     "e": 74
+    },
+    {
+     "w": "für",
+     "s": 75,
+     "e": 78
+    },
+    {
+     "w": "Teil",
+     "s": 79,
+     "e": 84
+    },
+    {
+     "w": "zwei!",
+     "s": 86,
+     "e": 101
     }
    ],
-   "speak": 77,
+   "speak": 103,
    "title": "Wie viele hattest du?",
-   "sub": "Schreibs in die Kommentare",
-   "duration": 137,
+   "sub": "Folg @alleswissen7 für Teil 2",
+   "duration": 163,
    "bg": "bg/wasserfall_sonne.mp4",
    "bgFrom": 296
   }

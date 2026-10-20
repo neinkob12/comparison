@@ -1,0 +1,635 @@
+{
+ "id": "q02",
+ "format": "quiz",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "fps": 30,
+ "durationInFrames": 1742,
+ "music": "music/nebel.mp3",
+ "items": [
+  {
+   "answer": "Strauß"
+  },
+  {
+   "answer": "6"
+  },
+  {
+   "answer": "Banane"
+  },
+  {
+   "answer": "Wien"
+  },
+  {
+   "answer": "Bier"
+  },
+  {
+   "answer": "16"
+  },
+  {
+   "answer": "Cousin"
+  },
+  {
+   "answer": "3"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/q02/00_intro.mp3",
+   "words": [
+    {
+     "w": "Allgemeinwissen",
+     "s": 0,
+     "e": 20
+    },
+    {
+     "w": "Quiz!",
+     "s": 21,
+     "e": 34
+    },
+    {
+     "w": "Wenn",
+     "s": 39,
+     "e": 44
+    },
+    {
+     "w": "du",
+     "s": 45,
+     "e": 47
+    },
+    {
+     "w": "hier",
+     "s": 48,
+     "e": 52
+    },
+    {
+     "w": "nicht",
+     "s": 53,
+     "e": 57
+    },
+    {
+     "w": "acht",
+     "s": 59,
+     "e": 63
+    },
+    {
+     "w": "von",
+     "s": 64,
+     "e": 67
+    },
+    {
+     "w": "acht",
+     "s": 69,
+     "e": 74
+    },
+    {
+     "w": "schaffst,",
+     "s": 74,
+     "e": 85
+    },
+    {
+     "w": "lösch",
+     "s": 87,
+     "e": 93
+    },
+    {
+     "w": "TikTok.",
+     "s": 95,
+     "e": 114
+    }
+   ],
+   "speak": 116,
+   "title": "Nicht 8 von 8? Lösch TikTok.",
+   "sub": "",
+   "duration": 146,
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 92
+  },
+  {
+   "kind": "q",
+   "n": 1,
+   "say": "Welcher Vogel legt die größten Eier?",
+   "answer": "Strauß",
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 230,
+   "audio": "audio/q02/01_q.mp3",
+   "words": [
+    {
+     "w": "Welcher",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Vogel",
+     "s": 10,
+     "e": 17
+    },
+    {
+     "w": "legt",
+     "s": 18,
+     "e": 22
+    },
+    {
+     "w": "die",
+     "s": 22,
+     "e": 24
+    },
+    {
+     "w": "größten",
+     "s": 25,
+     "e": 34
+    },
+    {
+     "w": "Eier?",
+     "s": 36,
+     "e": 50
+    }
+   ],
+   "speak": 52,
+   "timer": 69,
+   "answerAudio": "audio/q02/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "Strauß",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 121,
+   "duration": 178
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "say": "Wie viele Beine hat eine Spinne?",
+   "answer": "6",
+   "bg": "bg/waldweg.mp4",
+   "bgFrom": 235,
+   "audio": "audio/q02/02_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 11
+    },
+    {
+     "w": "Beine",
+     "s": 12,
+     "e": 18
+    },
+    {
+     "w": "hat",
+     "s": 19,
+     "e": 22
+    },
+    {
+     "w": "eine",
+     "s": 24,
+     "e": 28
+    },
+    {
+     "w": "Spinne?",
+     "s": 29,
+     "e": 44
+    }
+   ],
+   "speak": 46,
+   "timer": 69,
+   "answerAudio": "audio/q02/02_a.mp3",
+   "answerWords": [
+    {
+     "w": "6",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 115,
+   "duration": 171
+  },
+  {
+   "kind": "q",
+   "n": 3,
+   "say": "Welches Obst ist gelb und krumm?",
+   "answer": "Banane",
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 286,
+   "audio": "audio/q02/03_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Obst",
+     "s": 12,
+     "e": 18
+    },
+    {
+     "w": "ist",
+     "s": 20,
+     "e": 22
+    },
+    {
+     "w": "gelb",
+     "s": 24,
+     "e": 29
+    },
+    {
+     "w": "und",
+     "s": 31,
+     "e": 33
+    },
+    {
+     "w": "krumm?",
+     "s": 34,
+     "e": 49
+    }
+   ],
+   "speak": 51,
+   "timer": 69,
+   "answerAudio": "audio/q02/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "Banane",
+     "s": 0,
+     "e": 27
+    }
+   ],
+   "revealAt": 120,
+   "duration": 179
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "say": "Wie heißt die Hauptstadt von Österreich?",
+   "answer": "Wien",
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 229,
+   "audio": "audio/q02/04_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "die",
+     "s": 10,
+     "e": 12
+    },
+    {
+     "w": "Hauptstadt",
+     "s": 13,
+     "e": 23
+    },
+    {
+     "w": "von",
+     "s": 24,
+     "e": 27
+    },
+    {
+     "w": "Österreich?",
+     "s": 28,
+     "e": 46
+    }
+   ],
+   "speak": 48,
+   "timer": 69,
+   "answerAudio": "audio/q02/04_a.mp3",
+   "answerWords": [
+    {
+     "w": "Wien",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 117,
+   "duration": 174
+  },
+  {
+   "kind": "q",
+   "n": 5,
+   "say": "Welches Getränk wird mit Hopfen gebraut?",
+   "answer": "Bier",
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 26,
+   "audio": "audio/q02/05_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Getränk",
+     "s": 10,
+     "e": 18
+    },
+    {
+     "w": "wird",
+     "s": 19,
+     "e": 23
+    },
+    {
+     "w": "mit",
+     "s": 24,
+     "e": 26
+    },
+    {
+     "w": "Hopfen",
+     "s": 27,
+     "e": 34
+    },
+    {
+     "w": "gebraut?",
+     "s": 34,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q02/05_a.mp3",
+   "answerWords": [
+    {
+     "w": "Bier",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 123,
+   "duration": 180
+  },
+  {
+   "kind": "q",
+   "n": 6,
+   "say": "Mit wie vielen Figuren startet ein Spieler beim Schach?",
+   "answer": "16",
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 286,
+   "audio": "audio/q02/06_q.mp3",
+   "words": [
+    {
+     "w": "Mit",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "wie",
+     "s": 5,
+     "e": 8
+    },
+    {
+     "w": "vielen",
+     "s": 9,
+     "e": 15
+    },
+    {
+     "w": "Figuren",
+     "s": 16,
+     "e": 27
+    },
+    {
+     "w": "startet",
+     "s": 28,
+     "e": 36
+    },
+    {
+     "w": "ein",
+     "s": 37,
+     "e": 40
+    },
+    {
+     "w": "Spieler",
+     "s": 41,
+     "e": 48
+    },
+    {
+     "w": "beim",
+     "s": 49,
+     "e": 53
+    },
+    {
+     "w": "Schach?",
+     "s": 54,
+     "e": 68
+    }
+   ],
+   "speak": 69,
+   "timer": 69,
+   "answerAudio": "audio/q02/06_a.mp3",
+   "answerWords": [
+    {
+     "w": "16",
+     "s": 0,
+     "e": 31
+    }
+   ],
+   "revealAt": 138,
+   "duration": 201
+  },
+  {
+   "kind": "q",
+   "n": 7,
+   "say": "Wie nennt man den Sohn deines Onkels?",
+   "answer": "Cousin",
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 168,
+   "audio": "audio/q02/07_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "nennt",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "man",
+     "s": 11,
+     "e": 14
+    },
+    {
+     "w": "den",
+     "s": 15,
+     "e": 19
+    },
+    {
+     "w": "Sohn",
+     "s": 20,
+     "e": 25
+    },
+    {
+     "w": "deines",
+     "s": 26,
+     "e": 32
+    },
+    {
+     "w": "Onkels?",
+     "s": 34,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 69,
+   "answerAudio": "audio/q02/07_a.mp3",
+   "answerWords": [
+    {
+     "w": "Cousin",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 123,
+   "duration": 179
+  },
+  {
+   "kind": "q",
+   "n": 8,
+   "say": "Wie viele Farben hat die deutsche Flagge?",
+   "answer": "3",
+   "bg": "bg/matterhorn.mp4",
+   "bgFrom": 5,
+   "audio": "audio/q02/08_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Farben",
+     "s": 12,
+     "e": 19
+    },
+    {
+     "w": "hat",
+     "s": 20,
+     "e": 22
+    },
+    {
+     "w": "die",
+     "s": 23,
+     "e": 25
+    },
+    {
+     "w": "deutsche",
+     "s": 26,
+     "e": 33
+    },
+    {
+     "w": "Flagge?",
+     "s": 34,
+     "e": 49
+    }
+   ],
+   "speak": 51,
+   "timer": 69,
+   "answerAudio": "audio/q02/08_a.mp3",
+   "answerWords": [
+    {
+     "w": "3",
+     "s": 0,
+     "e": 20
+    }
+   ],
+   "revealAt": 120,
+   "duration": 172
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/q02/09_outro.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "hattest",
+     "s": 11,
+     "e": 18
+    },
+    {
+     "w": "du?",
+     "s": 19,
+     "e": 25
+    },
+    {
+     "w": "Schreibs",
+     "s": 36,
+     "e": 44
+    },
+    {
+     "w": "in",
+     "s": 45,
+     "e": 46
+    },
+    {
+     "w": "die",
+     "s": 47,
+     "e": 49
+    },
+    {
+     "w": "Kommentare",
+     "s": 50,
+     "e": 64
+    },
+    {
+     "w": "und",
+     "s": 65,
+     "e": 68
+    },
+    {
+     "w": "folg",
+     "s": 69,
+     "e": 74
+    },
+    {
+     "w": "für",
+     "s": 75,
+     "e": 78
+    },
+    {
+     "w": "Teil",
+     "s": 79,
+     "e": 84
+    },
+    {
+     "w": "zwei!",
+     "s": 85,
+     "e": 100
+    }
+   ],
+   "speak": 102,
+   "title": "Wie viele hattest du?",
+   "sub": "Folg @alleswissen7 für Teil 2",
+   "duration": 162,
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 237
+  }
+ ]
+}

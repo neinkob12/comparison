@@ -1,52 +1,51 @@
 {
  "id": "q03",
- "channel": "A",
- "handle": null,
+ "channel": "Q",
+ "handle": "@alleswissen7",
  "intro": {
-  "say": "Nur Genies schaffen alle acht. Bist du einer?",
   "title": "Nur Genies schaffen alle",
-  "sub": "Bist du einer?"
+  "sub": "Bist du einer?",
+  "say": "Nur Genies schaffen alle acht. Bist du einer?"
  },
  "questions": [
   {
-   "say": "Wie viele Beine hat eine Spinne?",
-   "answer": "8",
-   "answerTts": "Acht"
+   "say": "Wie viele Felder hat ein Schachbrett?",
+   "answer": "64",
+   "answerTts": "Vierundsechzig"
   },
   {
-   "say": "In welchem Land liegt Machu Picchu?",
-   "answer": "Peru",
-   "tts": "In welchem Land liegt Matschu Pitschu?"
+   "say": "Wie heißt die Hauptstadt der Schweiz?",
+   "answer": "Bern"
   },
   {
-   "say": "Wer schrieb Faust?",
-   "answer": "Goethe"
+   "say": "Welches Organ produziert Insulin?",
+   "answer": "Bauchspeicheldrüse"
   },
   {
-   "say": "Welches ist das kleinste Land der Welt?",
-   "answer": "Vatikanstadt"
+   "say": "Wer komponierte die Mondscheinsonate?",
+   "answer": "Beethoven"
   },
   {
-   "say": "Wie heißt der höchste Berg Deutschlands?",
-   "answer": "Zugspitze"
+   "say": "Welches ist das größte Land Südamerikas?",
+   "answer": "Brasilien"
   },
   {
-   "say": "Welches Metall ist bei Raumtemperatur flüssig?",
-   "answer": "Quecksilber"
+   "say": "In welcher Einheit misst man elektrischen Widerstand?",
+   "answer": "Ohm"
   },
   {
-   "say": "Wie viele Minuten hat ein Tag?",
-   "answer": "1440",
-   "answerTts": "Tausendvierhundertvierzig"
+   "say": "In welchem Land liegt Timbuktu?",
+   "answer": "Mali"
   },
   {
-   "say": "Welcher Ozean ist der größte?",
-   "answer": "Pazifik"
+   "say": "Wie viele Zacken hat die Krone der Freiheitsstatue?",
+   "answer": "7",
+   "answerTts": "Sieben"
   }
  ],
  "outro": {
-  "say": "Genie oder nicht? Schreib deine Punktzahl in die Kommentare!",
+  "say": "Genie oder nicht? Schreib deine Punktzahl in die Kommentare und folg für Teil zwei!",
   "title": "Wie viele hattest du?",
-  "sub": "Schreibs in die Kommentare"
+  "sub": "Folg @alleswissen7 für Teil 2"
  }
 }
