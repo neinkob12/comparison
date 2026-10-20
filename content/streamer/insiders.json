@@ -1,32 +1,319 @@
 {
  "_info": "Insider-Fragen fuer Kanal B. say = TTS, a/b = Labels, who = Streamer fuer die Bilder, img = Bildidee. Quelle: jakob = selbst geschrieben, tiktok = aus dem TikTok-Scan Okt 2026 (von Jakob abgenickt).",
  "insiders": [
-  {"id": "tee_rave", "src": "jakob", "say": "Mit TimGioh eine Tasse Tee trinken, oder mit Trymacs auf einen Rave?",
-   "a": "Tee mit TimGioh", "b": "Rave mit Trymacs", "who": ["timgioh", "trymacs"],
-   "img": {"b": "streamers/extra/trymacs_goth.jpg"}},
-  {"id": "autos", "src": "jakob", "say": "EliGellas Autokollektion, oder MontanaBlacks Autokollektion?",
-   "a": "Elis Autos", "b": "Montes Autos", "who": ["eliasn97", "montanablack"],
-   "img": {"a": "Bild von Elis Autos (noch suchen)", "b": "Bild von Montes Autos (noch suchen)"}},
-  {"id": "marli_bett", "src": "jakob", "say": "Auf Marlis Bett Fallrückzieher machen, oder in Marli Fallrückzieher machen?",
-   "a": "Fallrückzieher auf Marlis Bett", "b": "In Marli Fallrückzieher?!", "who": ["marli", "marli"],
-   "img": {"a": "Arnautovic-Fallrückzieher auf Marlis Bett (Okt 2026, noch suchen)"}},
-  {"id": "wichteln_urlaub", "src": "tiktok", "say": "Monte bekommt dein Wichtelgeschenk, oder mit Monte nach Österreich in den Urlaub?",
-   "a": "Monte wichteln", "b": "Österreich mit Monte", "who": ["montanablack", "montanablack"]},
-  {"id": "oboe_burnic", "src": "tiktok", "say": "Eine Woche Trymacs' Oboen-Solo hören, oder eine Woche Willys Burnic Ajde?",
-   "a": "1 Woche Oboe-Solo", "b": "1 Woche Burnic Ajde", "who": ["trymacs", "niklaswilson"]},
-  {"id": "craft_nachbar", "src": "tiktok", "say": "In Craft Attack neben Papaplatte wohnen, oder neben Rumathra?",
-   "a": "Nachbar von Papaplatte", "b": "Nachbar von Rumathra", "who": ["papaplatte", "rumathra"]},
-  {"id": "fahren_gym", "src": "tiktok", "say": "Rumathra fährt dich nach Hause, oder G-Time trainiert mit dir?",
-   "a": "Rumathra fährt", "b": "Gym mit G-Time", "who": ["rumathra", "gtime"]},
-  {"id": "frisuren", "src": "tiktok", "say": "Elis neuer Frisör, oder Trymacs' Eminem-Frisur?",
-   "a": "Elis Frisör", "b": "Eminem-Frisur", "who": ["eliasn97", "trymacs"]},
-  {"id": "klopf_nutella", "src": "tiktok", "say": "Knossi erzählt dir jeden Tag einen Klopf-Klopf-Witz, oder Monte macht dir jeden Morgen ein Nutella-Sandwich?",
-   "a": "Knossis Klopf-Klopf-Witze", "b": "Montes Nutella-Sandwich", "who": ["knossi", "montanablack"]},
-  {"id": "mariachi_singstar", "src": "tiktok", "say": "Von Marlis Mariachi-Band geweckt werden, oder mit Willys Singstar-Mikro einschlafen?",
-   "a": "Marlis Mariachi-Band", "b": "Willys Singstar-Mikro", "who": ["marli", "niklaswilson"]},
-  {"id": "hose_jubel", "src": "tiktok", "say": "Sidney leiht dir seine Hose, oder Eli seinen Jubel?",
-   "a": "Sidneys Hose", "b": "Elis Jubel", "who": ["sidneyeweka", "eliasn97"]},
-  {"id": "timgioh_monat", "src": "tiktok", "say": "Dein Monat ist ein TimGioh-Meme, oder dein Wichtelgeschenk kommt von Monte?",
-   "a": "Monat = TimGioh-Meme", "b": "Wichteln mit Monte", "who": ["timgioh", "montanablack"]}
+  {
+   "id": "tee_rave",
+   "src": "jakob",
+   "say": "Mit TimGioh eine Tasse Tee trinken, oder mit Trymacs auf einen Rave?",
+   "a": "Tee mit TimGioh",
+   "b": "Rave mit Trymacs",
+   "who": [
+    "timgioh",
+    "trymacs"
+   ],
+   "img": {
+    "b": "streamers/extra/trymacs_goth.jpg"
+   }
+  },
+  {
+   "id": "autos",
+   "src": "jakob",
+   "say": "EliGellas Autokollektion, oder MontanaBlacks Autokollektion?",
+   "a": "Elis Autos",
+   "b": "Montes Autos",
+   "who": [
+    "eliasn97",
+    "montanablack"
+   ],
+   "img": {
+    "a": "Bild von Elis Autos (noch suchen)",
+    "b": "Bild von Montes Autos (noch suchen)"
+   }
+  },
+  {
+   "id": "marli_bett",
+   "src": "jakob",
+   "say": "Auf Marlis Bett Fallrückzieher machen, oder in Marli Fallrückzieher machen?",
+   "a": "Fallrückzieher auf Marlis Bett",
+   "b": "In Marli Fallrückzieher?!",
+   "who": [
+    "marli",
+    "marli"
+   ],
+   "img": {
+    "a": "Arnautovic-Fallrückzieher auf Marlis Bett (Okt 2026, noch suchen)"
+   }
+  },
+  {
+   "id": "wichteln_urlaub",
+   "src": "tiktok",
+   "say": "Monte bekommt dein Wichtelgeschenk, oder mit Monte nach Österreich in den Urlaub?",
+   "a": "Monte wichteln",
+   "b": "Österreich mit Monte",
+   "who": [
+    "montanablack",
+    "montanablack"
+   ]
+  },
+  {
+   "id": "oboe_burnic",
+   "src": "tiktok",
+   "say": "Eine Woche Trymacs' Oboen-Solo hören, oder eine Woche Willys Burnic Ajde?",
+   "a": "1 Woche Oboe-Solo",
+   "b": "1 Woche Burnic Ajde",
+   "who": [
+    "trymacs",
+    "niklaswilson"
+   ]
+  },
+  {
+   "id": "craft_nachbar",
+   "src": "tiktok",
+   "say": "In Craft Attack neben Papaplatte wohnen, oder neben Rumathra?",
+   "a": "Nachbar von Papaplatte",
+   "b": "Nachbar von Rumathra",
+   "who": [
+    "papaplatte",
+    "rumathra"
+   ]
+  },
+  {
+   "id": "fahren_gym",
+   "src": "tiktok",
+   "say": "Rumathra fährt dich nach Hause, oder G-Time trainiert mit dir?",
+   "a": "Rumathra fährt",
+   "b": "Gym mit G-Time",
+   "who": [
+    "rumathra",
+    "gtime"
+   ]
+  },
+  {
+   "id": "frisuren",
+   "src": "tiktok",
+   "say": "Elis neuer Frisör, oder Trymacs' Eminem-Frisur?",
+   "a": "Elis Frisör",
+   "b": "Eminem-Frisur",
+   "who": [
+    "eliasn97",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "klopf_nutella",
+   "src": "tiktok",
+   "say": "Knossi erzählt dir jeden Tag einen Klopf-Klopf-Witz, oder Monte macht dir jeden Morgen ein Nutella-Sandwich?",
+   "a": "Knossis Klopf-Klopf-Witze",
+   "b": "Montes Nutella-Sandwich",
+   "who": [
+    "knossi",
+    "montanablack"
+   ]
+  },
+  {
+   "id": "mariachi_singstar",
+   "src": "tiktok",
+   "say": "Von Marlis Mariachi-Band geweckt werden, oder mit Willys Singstar-Mikro einschlafen?",
+   "a": "Marlis Mariachi-Band",
+   "b": "Willys Singstar-Mikro",
+   "who": [
+    "marli",
+    "niklaswilson"
+   ]
+  },
+  {
+   "id": "hose_jubel",
+   "src": "tiktok",
+   "say": "Sidney leiht dir seine Hose, oder Eli seinen Jubel?",
+   "a": "Sidneys Hose",
+   "b": "Elis Jubel",
+   "who": [
+    "sidneyeweka",
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "timgioh_monat",
+   "src": "tiktok",
+   "say": "Dein Monat ist ein TimGioh-Meme, oder dein Wichtelgeschenk kommt von Monte?",
+   "a": "Monat = TimGioh-Meme",
+   "b": "Wichteln mit Monte",
+   "who": [
+    "timgioh",
+    "montanablack"
+   ]
+  },
+  {
+   "id": "pokemon_konto",
+   "src": "claude_v2",
+   "say": "Trymacs' Pokémon-Karten erben, oder einen Monat Elis Kontostand haben?",
+   "a": "Trymacs' Pokémon-Karten",
+   "b": "Elis Kontostand",
+   "who": [
+    "trymacs",
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "letshugo_gtime",
+   "src": "claude_v2",
+   "say": "Mit LetsHugo zusammenwohnen, oder mit G-Time in der Hartz-IV-Gilde zocken?",
+   "a": "WG mit LetsHugo",
+   "b": "Hartz-IV-Gilde mit G-Time",
+   "who": [
+    "letshugo",
+    "gtime"
+   ]
+  },
+  {
+   "id": "eligella_35h",
+   "src": "claude_v2",
+   "say": "Ein Fan sagt hunderttausend Mal Eligella zu dir, oder du musst 35 Stunden mit Eli streamen?",
+   "a": "100.000x Eligella",
+   "b": "35 h Stream mit Eli",
+   "who": [
+    "eliasn97",
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "laufband_hoverboard",
+   "src": "claude_v2",
+   "say": "Mit Trymacs auf dem Laufbandrad durch Deutschland, oder mit Knossi auf dem Hoverboard?",
+   "a": "Laufbandrad mit Trymacs",
+   "b": "Hoverboard mit Knossi",
+   "who": [
+    "trymacs",
+    "knossi"
+   ]
+  },
+  {
+   "id": "bahn_auto",
+   "src": "claude_v2",
+   "say": "Mit Monte Bahn fahren, oder mit Rumathra Auto fahren?",
+   "a": "Bahn mit Monte",
+   "b": "Auto mit Rumathra",
+   "who": [
+    "montanablack",
+    "rumathra"
+   ]
+  },
+  {
+   "id": "werbung",
+   "src": "claude_v2",
+   "say": "G-Time schaltet bei dir zu Hause Werbung, oder Eli macht Werbung, die er selbst nicht erkennt?",
+   "a": "G-Times Werbung",
+   "b": "Elis Werbung",
+   "who": [
+    "gtime",
+    "eliasn97"
+   ]
+  },
+  {
+   "id": "englisch_yugioh",
+   "src": "claude_v2",
+   "say": "Eli bringt dir Englisch bei, oder TimGioh bringt dir Yu-Gi-Oh bei?",
+   "a": "Englisch mit Eli",
+   "b": "Yu-Gi-Oh mit TimGioh",
+   "who": [
+    "eliasn97",
+    "timgioh"
+   ]
+  },
+  {
+   "id": "bank_mlg",
+   "src": "claude_v2",
+   "say": "Von Eli auf die Bank gesetzt werden wie Sidney, oder von Willy in Craft Attack ausgetrickst werden?",
+   "a": "Elis Ersatzbank",
+   "b": "Willys MLG-Trick",
+   "who": [
+    "eliasn97",
+    "niklaswilson"
+   ]
+  },
+  {
+   "id": "skins_chips",
+   "src": "claude_v2",
+   "say": "Mit Willy CS2-Skins öffnen, oder mit Trymacs Happy Chips verlieren?",
+   "a": "Skins mit Willy",
+   "b": "Happy Chips mit Trymacs",
+   "who": [
+    "niklaswilson",
+    "trymacs"
+   ]
+  },
+  {
+   "id": "aufwecken",
+   "src": "claude_v2",
+   "say": "TimGioh begrüßt dich jeden Morgen mit Monte man yes, oder Monte schreit dich jeden Morgen wach?",
+   "a": "Monte man yes",
+   "b": "Monte als Wecker",
+   "who": [
+    "timgioh",
+    "montanablack"
+   ]
+  },
+  {
+   "id": "bigbrother_salesch",
+   "src": "claude_v2",
+   "say": "Knossi bei Big Brother als Mitbewohner, oder Barbara Salesch als Richterin über deinen Chat?",
+   "a": "Knossi als Mitbewohner",
+   "b": "Salesch richtet deinen Chat",
+   "who": [
+    "knossi",
+    "knossi"
+   ]
+  },
+  {
+   "id": "doener_bett",
+   "src": "claude_v2",
+   "say": "Mit Ali Bumaye Döner essen, oder auf Marlis Bett Fallrückzieher machen?",
+   "a": "Döner mit Ali Bumaye",
+   "b": "Fallrückzieher auf Marlis Bett",
+   "who": [
+    "alibumaye",
+    "marli"
+   ]
+  },
+  {
+   "id": "nacht_marli",
+   "src": "claude_v2",
+   "say": "Eine Nacht in Marlis Bett, oder nie wieder Marli schauen?",
+   "a": "1 Nacht in Marlis Bett",
+   "b": "Nie wieder Marli",
+   "who": [
+    "marli",
+    "marli"
+   ],
+   "role": "hook"
+  },
+  {
+   "id": "schreien_anschauen",
+   "src": "claude_v2",
+   "say": "Rewinside schreit dich an, oder UnsympathischTV schaut dich an?",
+   "a": "Rewi schreit dich an",
+   "b": "UnsympathischTV schaut dich an",
+   "who": [
+    "rewinside",
+    "unsympathischtv"
+   ],
+   "img": {
+    "b": "altes Bild von 2016 (noch suchen)"
+   }
+  },
+  {
+   "id": "gamescom_goth",
+   "src": "claude_v2",
+   "say": "Mit Knossi auf die Gamescom, oder mit Trymacs im Goth-Baddie-Outfit?",
+   "a": "Gamescom mit Knossi",
+   "b": "Goth-Baddie-Trymacs",
+   "who": [
+    "knossi",
+    "trymacs"
+   ],
+   "img": {
+    "b": "streamers/extra/trymacs_goth.jpg"
+   }
+  }
  ]
 }
