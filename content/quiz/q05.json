@@ -1,0 +1,53 @@
+{
+ "id": "q05",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "intro": {
+  "title": "Das schafft jeder. Oder?",
+  "sub": "",
+  "say": "Das hier schafft wirklich jeder. Oder?",
+  "tts": "Das hier schafft [[wiiiiiiirrrrrrrrrrkliiiiiiich]] jeder. Oder?",
+  "_note": "Absichtlicher TTS-Bug bei 'wirklich'"
+ },
+ "questions": [
+  {
+   "say": "Welches Instrument hat 88 Tasten?",
+   "answer": "Klavier"
+  },
+  {
+   "say": "Aus welcher Frucht macht man Guacamole?",
+   "answer": "Avocado"
+  },
+  {
+   "say": "Was für ein Fisch ist Nemo?",
+   "answer": "Clownfisch"
+  },
+  {
+   "say": "Wie heißt die Hauptstadt von Griechenland?",
+   "answer": "Athen"
+  },
+  {
+   "say": "Wer hat Micky Maus erfunden?",
+   "answer": "Walt Disney"
+  },
+  {
+   "say": "Welche Farbe hat ein Stoppschild?",
+   "answer": "Rot"
+  },
+  {
+   "say": "Wie viele Minuten dauert ein Fußballspiel ohne Nachspielzeit?",
+   "answer": "90",
+   "answerTts": "Neunzig"
+  },
+  {
+   "say": "Wie viele Monate haben 31 Tage?",
+   "answer": "7",
+   "answerTts": "Sieben"
+  }
+ ],
+ "outro": {
+  "say": "Wie viele hattest du? Schreibs in die Kommentare und folg für Teil zwei!",
+  "title": "Wie viele hattest du?",
+  "sub": "Folg @alleswissen7 für Teil 2"
+ }
+}

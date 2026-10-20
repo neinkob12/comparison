@@ -13,6 +13,7 @@ from build import FPS, PUB, ROOT, VOICE, frames, spoken, speed_for  # noqa: E402
 TEMPO = 1.05
 TIMER = 69       # Frames Bedenkzeit nach der Frage (2.3 s, wie bei den Rapper-Videos)
 HOLD = 30        # Frames, in denen die Antwort nach dem Sprechen noch steht
+BG_FADE = 14     # wie FADE in Quiz.tsx
 TAIL = 30        # Frames Luft am Ende von Intro/Outro
 
 
@@ -92,7 +93,6 @@ def build(vid):
     clips = sorted(p.stem for p in (PUB / "bg").glob("*.mp4"))
     rnd.shuffle(clips)
     bgs = (v.get("bg") or []) + [c for c in clips if c not in (v.get("bg") or [])]
-    bg = lambda k: {"bg": f"bg/{bgs[k % len(bgs)]}.mp4", "bgFrom": rnd.randint(0, 300)}  # noqa: E731
     tracks = sorted(p.name for p in (PUB / "music").glob("*.mp3"))
     music = v.get("music") or (tracks[sum(map(ord, vid)) % len(tracks)].removesuffix(".mp3") if tracks else None)
 
@@ -100,19 +100,31 @@ def build(vid):
     # Jedes Video startet mit "Allgemeinwissen Quiz", danach die eigene Hook
     audio, sp, words = voice("00_intro", "Allgemeinwissen Quiz! " + i["say"], i.get("tts") and "Allgemeinwissen Quiz! " + i["tts"])
     segs.append({"kind": "intro", "audio": audio, "words": words, "speak": sp, "title": i["title"], "sub": i.get("sub", ""),
-                 "duration": sp + TAIL, **bg(0)})
+                 "duration": sp + TAIL})
     for n, q in enumerate(v["questions"], 1):
         qa, qsp, qw = voice(f"{n:02d}_q", q["say"], q.get("tts"))
         aa, asp, aw = voice(f"{n:02d}_a", q["answer"], q.get("answerTts"))
         revealAt = qsp + TIMER
-        segs.append({"kind": "q", "n": n, "say": q["say"], "answer": q["answer"], **bg(n),
+        segs.append({"kind": "q", "n": n, "say": q["say"], "answer": q["answer"],
                      "audio": qa, "words": qw, "speak": qsp, "timer": TIMER,
                      "answerAudio": aa, "answerWords": aw, "revealAt": revealAt,
                      "duration": revealAt + asp + HOLD})
     o = v["outro"]
     audio, sp, words = voice(f"{len(v['questions']) + 1:02d}_outro", o["say"], o.get("tts"))
     segs.append({"kind": "outro", "audio": audio, "words": words, "speak": sp, "title": o["title"], "sub": o.get("sub", ""),
-                 "duration": sp + TAIL + 30, **bg(len(v["questions"]) + 1)})
+                 "duration": sp + TAIL + 30})
+
+    # Clip muss den ganzen Abschnitt plus Ueberblendung abdecken, sonst bleibt das Bild stehen
+    lens = {c: frames(PUB / "bg" / f"{c}.mp4") - 2 for c in bgs}
+    used = []
+    for s in segs:
+        need = s["duration"] + 2 * BG_FADE
+        fit = [c for c in bgs if lens[c] >= need]
+        if not fit:
+            sys.exit(f"{vid}: kein Hintergrund lang genug fuer {need} Frames")
+        c = next((c for c in fit if c not in used), fit[len(used) % len(fit)])
+        used.append(c)
+        s["bg"], s["bgFrom"] = f"bg/{c}.mp4", rnd.randint(0, lens[c] - need)
 
     total = sum(s["duration"] for s in segs)
     tl = {"id": vid, "format": "quiz", "channel": v["channel"], "handle": v.get("handle"), "fps": FPS,

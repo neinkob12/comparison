@@ -87,7 +87,7 @@
    "title": "Die meisten scheitern an Frage 3",
    "sub": "",
    "duration": 121,
-   "bg": "bg/waldberge.mp4",
+   "bg": "bg/alpen.mp4",
    "bgFrom": 59
   },
   {
@@ -95,8 +95,6 @@
    "n": 1,
    "say": "Welcher Fluss fließt durch Paris?",
    "answer": "Seine",
-   "bg": "bg/nebelberge.mp4",
-   "bgFrom": 223,
    "audio": "audio/q04/01_q.mp3",
    "words": [
     {
@@ -136,15 +134,15 @@
     }
    ],
    "revealAt": 114,
-   "duration": 166
+   "duration": 166,
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 446
   },
   {
    "kind": "q",
    "n": 2,
    "say": "Welcher Maler schnitt sich ein Ohr ab?",
    "answer": "Van Gogh",
-   "bg": "bg/alpen.mp4",
-   "bgFrom": 43,
    "audio": "audio/q04/02_q.mp3",
    "words": [
     {
@@ -199,15 +197,15 @@
     }
    ],
    "revealAt": 127,
-   "duration": 182
+   "duration": 182,
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 21
   },
   {
    "kind": "q",
    "n": 3,
    "say": "Wie lange dauerte der Hundertjährige Krieg?",
    "answer": "116 Jahre",
-   "bg": "bg/wasserfall_wald.mp4",
-   "bgFrom": 119,
    "audio": "audio/q04/03_q.mp3",
    "words": [
     {
@@ -257,15 +255,15 @@
     }
    ],
    "revealAt": 124,
-   "duration": 191
+   "duration": 191,
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 119
   },
   {
    "kind": "q",
    "n": 4,
    "say": "Welches Gas macht den größten Teil der Luft aus?",
    "answer": "Stickstoff",
-   "bg": "bg/wasserfall_tropen.mp4",
-   "bgFrom": 138,
    "audio": "audio/q04/04_q.mp3",
    "words": [
     {
@@ -325,15 +323,15 @@
     }
    ],
    "revealAt": 135,
-   "duration": 192
+   "duration": 192,
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 69
   },
   {
    "kind": "q",
    "n": 5,
    "say": "Welche Stadt wird die Ewige Stadt genannt?",
    "answer": "Rom",
-   "bg": "bg/gruenes_panorama.mp4",
-   "bgFrom": 57,
    "audio": "audio/q04/05_q.mp3",
    "words": [
     {
@@ -383,15 +381,15 @@
     }
    ],
    "revealAt": 124,
-   "duration": 173
+   "duration": 173,
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 114
   },
   {
    "kind": "q",
    "n": 6,
    "say": "Wie viele Sterne hat die Flagge der EU?",
    "answer": "12",
-   "bg": "bg/waldweg.mp4",
-   "bgFrom": 283,
    "audio": "audio/q04/06_q.mp3",
    "words": [
     {
@@ -446,15 +444,15 @@
     }
    ],
    "revealAt": 122,
-   "duration": 173
+   "duration": 173,
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 141
   },
   {
    "kind": "q",
    "n": 7,
    "say": "Aus welchem Land kommt Lego?",
    "answer": "Dänemark",
-   "bg": "bg/schlucht.mp4",
-   "bgFrom": 71,
    "audio": "audio/q04/07_q.mp3",
    "words": [
     {
@@ -494,15 +492,15 @@
     }
    ],
    "revealAt": 111,
-   "duration": 164
+   "duration": 164,
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 71
   },
   {
    "kind": "q",
    "n": 8,
    "say": "Wie heißt die Hauptstadt von Australien?",
    "answer": "Canberra",
-   "bg": "bg/fluss.mp4",
-   "bgFrom": 74,
    "audio": "audio/q04/08_q.mp3",
    "words": [
     {
@@ -547,7 +545,9 @@
     }
    ],
    "revealAt": 120,
-   "duration": 179
+   "duration": 179,
+   "bg": "bg/nebelwald.mp4",
+   "bgFrom": 37
   },
   {
    "kind": "outro",

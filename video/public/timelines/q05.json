@@ -1,0 +1,590 @@
+{
+ "id": "q05",
+ "format": "quiz",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "fps": 30,
+ "durationInFrames": 1775,
+ "music": "music/nebel.mp3",
+ "items": [
+  {
+   "answer": "Klavier"
+  },
+  {
+   "answer": "Avocado"
+  },
+  {
+   "answer": "Clownfisch"
+  },
+  {
+   "answer": "Athen"
+  },
+  {
+   "answer": "Walt Disney"
+  },
+  {
+   "answer": "Rot"
+  },
+  {
+   "answer": "90"
+  },
+  {
+   "answer": "7"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/q05/00_intro.mp3",
+   "words": [
+    {
+     "w": "Allgemeinwissen",
+     "s": 0,
+     "e": 19
+    },
+    {
+     "w": "Quiz!",
+     "s": 21,
+     "e": 29
+    },
+    {
+     "w": "Das",
+     "s": 34,
+     "e": 38
+    },
+    {
+     "w": "hier",
+     "s": 39,
+     "e": 43
+    },
+    {
+     "w": "schafft",
+     "s": 44,
+     "e": 51
+    },
+    {
+     "w": "wirklich",
+     "s": 52,
+     "e": 124
+    },
+    {
+     "w": "jeder.",
+     "s": 127,
+     "e": 141
+    },
+    {
+     "w": "Oder?",
+     "s": 146,
+     "e": 159
+    }
+   ],
+   "speak": 161,
+   "title": "Das schafft jeder. Oder?",
+   "sub": "",
+   "duration": 191,
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 73
+  },
+  {
+   "kind": "q",
+   "n": 1,
+   "say": "Welches Instrument hat 88 Tasten?",
+   "answer": "Klavier",
+   "audio": "audio/q05/01_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Instrument",
+     "s": 10,
+     "e": 21
+    },
+    {
+     "w": "hat",
+     "s": 22,
+     "e": 25
+    },
+    {
+     "w": "88",
+     "s": 27,
+     "e": 41
+    },
+    {
+     "w": "Tasten?",
+     "s": 43,
+     "e": 58
+    }
+   ],
+   "speak": 60,
+   "timer": 69,
+   "answerAudio": "audio/q05/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "Klavier",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 129,
+   "duration": 186,
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 144
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "say": "Aus welcher Frucht macht man Guacamole?",
+   "answer": "Avocado",
+   "audio": "audio/q05/02_q.mp3",
+   "words": [
+    {
+     "w": "Aus",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "welcher",
+     "s": 5,
+     "e": 12
+    },
+    {
+     "w": "Frucht",
+     "s": 13,
+     "e": 19
+    },
+    {
+     "w": "macht",
+     "s": 20,
+     "e": 24
+    },
+    {
+     "w": "man",
+     "s": 25,
+     "e": 27
+    },
+    {
+     "w": "Guacamole?",
+     "s": 28,
+     "e": 49
+    }
+   ],
+   "speak": 51,
+   "timer": 69,
+   "answerAudio": "audio/q05/02_a.mp3",
+   "answerWords": [
+    {
+     "w": "Avocado",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 120,
+   "duration": 176,
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 286
+  },
+  {
+   "kind": "q",
+   "n": 3,
+   "say": "Was für ein Fisch ist Nemo?",
+   "answer": "Clownfisch",
+   "audio": "audio/q05/03_q.mp3",
+   "words": [
+    {
+     "w": "Was",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "für",
+     "s": 6,
+     "e": 9
+    },
+    {
+     "w": "ein",
+     "s": 10,
+     "e": 12
+    },
+    {
+     "w": "Fisch",
+     "s": 13,
+     "e": 18
+    },
+    {
+     "w": "ist",
+     "s": 19,
+     "e": 22
+    },
+    {
+     "w": "Nemo?",
+     "s": 24,
+     "e": 40
+    }
+   ],
+   "speak": 42,
+   "timer": 69,
+   "answerAudio": "audio/q05/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "Clownfisch",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 111,
+   "duration": 167,
+   "bg": "bg/felsberg_schnee.mp4",
+   "bgFrom": 376
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "say": "Wie heißt die Hauptstadt von Griechenland?",
+   "answer": "Athen",
+   "audio": "audio/q05/04_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "die",
+     "s": 11,
+     "e": 13
+    },
+    {
+     "w": "Hauptstadt",
+     "s": 14,
+     "e": 24
+    },
+    {
+     "w": "von",
+     "s": 25,
+     "e": 28
+    },
+    {
+     "w": "Griechenland?",
+     "s": 29,
+     "e": 49
+    }
+   ],
+   "speak": 51,
+   "timer": 69,
+   "answerAudio": "audio/q05/04_a.mp3",
+   "answerWords": [
+    {
+     "w": "Athen",
+     "s": 0,
+     "e": 21
+    }
+   ],
+   "revealAt": 120,
+   "duration": 173,
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 44
+  },
+  {
+   "kind": "q",
+   "n": 5,
+   "say": "Wer hat Micky Maus erfunden?",
+   "answer": "Walt Disney",
+   "audio": "audio/q05/05_q.mp3",
+   "words": [
+    {
+     "w": "Wer",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "hat",
+     "s": 6,
+     "e": 9
+    },
+    {
+     "w": "Micky",
+     "s": 10,
+     "e": 15
+    },
+    {
+     "w": "Maus",
+     "s": 16,
+     "e": 21
+    },
+    {
+     "w": "erfunden?",
+     "s": 22,
+     "e": 38
+    }
+   ],
+   "speak": 40,
+   "timer": 69,
+   "answerAudio": "audio/q05/05_a.mp3",
+   "answerWords": [
+    {
+     "w": "Walt",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Disney",
+     "s": 9,
+     "e": 25
+    }
+   ],
+   "revealAt": 109,
+   "duration": 166,
+   "bg": "bg/bergkette.mp4",
+   "bgFrom": 122
+  },
+  {
+   "kind": "q",
+   "n": 6,
+   "say": "Welche Farbe hat ein Stoppschild?",
+   "answer": "Rot",
+   "audio": "audio/q05/06_q.mp3",
+   "words": [
+    {
+     "w": "Welche",
+     "s": 0,
+     "e": 7
+    },
+    {
+     "w": "Farbe",
+     "s": 9,
+     "e": 16
+    },
+    {
+     "w": "hat",
+     "s": 17,
+     "e": 19
+    },
+    {
+     "w": "ein",
+     "s": 21,
+     "e": 23
+    },
+    {
+     "w": "Stoppschild?",
+     "s": 24,
+     "e": 44
+    }
+   ],
+   "speak": 46,
+   "timer": 69,
+   "answerAudio": "audio/q05/06_a.mp3",
+   "answerWords": [
+    {
+     "w": "Rot",
+     "s": 0,
+     "e": 17
+    }
+   ],
+   "revealAt": 115,
+   "duration": 164,
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 11
+  },
+  {
+   "kind": "q",
+   "n": 7,
+   "say": "Wie viele Minuten dauert ein Fußballspiel ohne Nachspielzeit?",
+   "answer": "90",
+   "audio": "audio/q05/07_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Minuten",
+     "s": 11,
+     "e": 21
+    },
+    {
+     "w": "dauert",
+     "s": 22,
+     "e": 29
+    },
+    {
+     "w": "ein",
+     "s": 30,
+     "e": 32
+    },
+    {
+     "w": "Fußballspiel",
+     "s": 34,
+     "e": 49
+    },
+    {
+     "w": "ohne",
+     "s": 51,
+     "e": 55
+    },
+    {
+     "w": "Nachspielzeit?",
+     "s": 56,
+     "e": 81
+    }
+   ],
+   "speak": 83,
+   "timer": 69,
+   "answerAudio": "audio/q05/07_a.mp3",
+   "answerWords": [
+    {
+     "w": "90",
+     "s": 0,
+     "e": 23
+    }
+   ],
+   "revealAt": 152,
+   "duration": 207,
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 106
+  },
+  {
+   "kind": "q",
+   "n": 8,
+   "say": "Wie viele Monate haben 31 Tage?",
+   "answer": "7",
+   "audio": "audio/q05/08_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Monate",
+     "s": 11,
+     "e": 19
+    },
+    {
+     "w": "haben",
+     "s": 20,
+     "e": 25
+    },
+    {
+     "w": "31",
+     "s": 27,
+     "e": 40
+    },
+    {
+     "w": "Tage?",
+     "s": 41,
+     "e": 56
+    }
+   ],
+   "speak": 57,
+   "timer": 69,
+   "answerAudio": "audio/q05/08_a.mp3",
+   "answerWords": [
+    {
+     "w": "7",
+     "s": 0,
+     "e": 23
+    }
+   ],
+   "revealAt": 126,
+   "duration": 181,
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 111
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/q05/09_outro.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "hattest",
+     "s": 11,
+     "e": 18
+    },
+    {
+     "w": "du?",
+     "s": 19,
+     "e": 26
+    },
+    {
+     "w": "Schreibs",
+     "s": 35,
+     "e": 43
+    },
+    {
+     "w": "in",
+     "s": 44,
+     "e": 45
+    },
+    {
+     "w": "die",
+     "s": 46,
+     "e": 48
+    },
+    {
+     "w": "Kommentare",
+     "s": 49,
+     "e": 63
+    },
+    {
+     "w": "und",
+     "s": 65,
+     "e": 67
+    },
+    {
+     "w": "folg",
+     "s": 69,
+     "e": 74
+    },
+    {
+     "w": "für",
+     "s": 75,
+     "e": 79
+    },
+    {
+     "w": "Teil",
+     "s": 80,
+     "e": 86
+    },
+    {
+     "w": "zwei!",
+     "s": 87,
+     "e": 102
+    }
+   ],
+   "speak": 104,
+   "title": "Wie viele hattest du?",
+   "sub": "Folg @alleswissen7 für Teil 2",
+   "duration": 164,
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 35
+  }
+ ]
+}

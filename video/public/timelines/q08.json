@@ -1,0 +1,640 @@
+{
+ "id": "q08",
+ "format": "quiz",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "fps": 30,
+ "durationInFrames": 1791,
+ "music": "music/nebel.mp3",
+ "items": [
+  {
+   "answer": "6"
+  },
+  {
+   "answer": "Schweden"
+  },
+  {
+   "answer": "Einstein"
+  },
+  {
+   "answer": "Kairo"
+  },
+  {
+   "answer": "0 negativ"
+  },
+  {
+   "answer": "China"
+  },
+  {
+   "answer": "San Francisco"
+  },
+  {
+   "answer": "Atlantik"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/q08/00_intro.mp3",
+   "words": [
+    {
+     "w": "Allgemeinwissen",
+     "s": 0,
+     "e": 18
+    },
+    {
+     "w": "Quiz!",
+     "s": 19,
+     "e": 30
+    },
+    {
+     "w": "Nur",
+     "s": 36,
+     "e": 41
+    },
+    {
+     "w": "einer",
+     "s": 42,
+     "e": 46
+    },
+    {
+     "w": "von",
+     "s": 47,
+     "e": 51
+    },
+    {
+     "w": "hundert",
+     "s": 52,
+     "e": 60
+    },
+    {
+     "w": "schafft",
+     "s": 60,
+     "e": 66
+    },
+    {
+     "w": "alle",
+     "s": 67,
+     "e": 71
+    },
+    {
+     "w": "acht.",
+     "s": 73,
+     "e": 81
+    },
+    {
+     "w": "Du?",
+     "s": 85,
+     "e": 98
+    }
+   ],
+   "speak": 100,
+   "title": "Nur 1 von 100 schafft alle 8",
+   "sub": "Du?",
+   "duration": 130,
+   "bg": "bg/wasserfall_tropen.mp4",
+   "bgFrom": 218
+  },
+  {
+   "kind": "q",
+   "n": 1,
+   "say": "Wie viele Spieler hat ein Volleyballteam auf dem Feld?",
+   "answer": "6",
+   "audio": "audio/q08/01_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Spieler",
+     "s": 11,
+     "e": 18
+    },
+    {
+     "w": "hat",
+     "s": 19,
+     "e": 22
+    },
+    {
+     "w": "ein",
+     "s": 24,
+     "e": 26
+    },
+    {
+     "w": "Volleyballteam",
+     "s": 28,
+     "e": 44
+    },
+    {
+     "w": "auf",
+     "s": 46,
+     "e": 48
+    },
+    {
+     "w": "dem",
+     "s": 49,
+     "e": 52
+    },
+    {
+     "w": "Feld?",
+     "s": 54,
+     "e": 68
+    }
+   ],
+   "speak": 69,
+   "timer": 69,
+   "answerAudio": "audio/q08/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "6",
+     "s": 0,
+     "e": 23
+    }
+   ],
+   "revealAt": 138,
+   "duration": 192,
+   "bg": "bg/waldberge.mp4",
+   "bgFrom": 8
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "say": "Welches Land hat die meisten Inseln?",
+   "answer": "Schweden",
+   "audio": "audio/q08/02_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Land",
+     "s": 11,
+     "e": 15
+    },
+    {
+     "w": "hat",
+     "s": 16,
+     "e": 19
+    },
+    {
+     "w": "die",
+     "s": 20,
+     "e": 22
+    },
+    {
+     "w": "meisten",
+     "s": 23,
+     "e": 31
+    },
+    {
+     "w": "Inseln?",
+     "s": 32,
+     "e": 48
+    }
+   ],
+   "speak": 49,
+   "timer": 69,
+   "answerAudio": "audio/q08/02_a.mp3",
+   "answerWords": [
+    {
+     "w": "Schweden",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 118,
+   "duration": 175,
+   "bg": "bg/alpen.mp4",
+   "bgFrom": 61
+  },
+  {
+   "kind": "q",
+   "n": 3,
+   "say": "Wer entwickelte die Relativitätstheorie?",
+   "answer": "Einstein",
+   "audio": "audio/q08/03_q.mp3",
+   "words": [
+    {
+     "w": "Wer",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "entwickelte",
+     "s": 6,
+     "e": 18
+    },
+    {
+     "w": "die",
+     "s": 19,
+     "e": 22
+    },
+    {
+     "w": "Relativitätstheorie?",
+     "s": 23,
+     "e": 60
+    }
+   ],
+   "speak": 62,
+   "timer": 69,
+   "answerAudio": "audio/q08/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "Einstein",
+     "s": 0,
+     "e": 20
+    }
+   ],
+   "revealAt": 131,
+   "duration": 183,
+   "bg": "bg/schlucht.mp4",
+   "bgFrom": 352
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "say": "Wie heißt die Hauptstadt von Ägypten?",
+   "answer": "Kairo",
+   "audio": "audio/q08/04_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "die",
+     "s": 11,
+     "e": 13
+    },
+    {
+     "w": "Hauptstadt",
+     "s": 14,
+     "e": 25
+    },
+    {
+     "w": "von",
+     "s": 26,
+     "e": 29
+    },
+    {
+     "w": "Ägypten?",
+     "s": 30,
+     "e": 46
+    }
+   ],
+   "speak": 48,
+   "timer": 69,
+   "answerAudio": "audio/q08/04_a.mp3",
+   "answerWords": [
+    {
+     "w": "Kairo",
+     "s": 0,
+     "e": 21
+    }
+   ],
+   "revealAt": 117,
+   "duration": 170,
+   "bg": "bg/bergkette.mp4",
+   "bgFrom": 48
+  },
+  {
+   "kind": "q",
+   "n": 5,
+   "say": "Welche Blutgruppe ist der Universalspender?",
+   "answer": "0 negativ",
+   "audio": "audio/q08/05_q.mp3",
+   "words": [
+    {
+     "w": "Welche",
+     "s": 0,
+     "e": 7
+    },
+    {
+     "w": "Blutgruppe",
+     "s": 8,
+     "e": 20
+    },
+    {
+     "w": "ist",
+     "s": 21,
+     "e": 24
+    },
+    {
+     "w": "der",
+     "s": 24,
+     "e": 27
+    },
+    {
+     "w": "Universalspender?",
+     "s": 28,
+     "e": 58
+    }
+   ],
+   "speak": 60,
+   "timer": 69,
+   "answerAudio": "audio/q08/05_a.mp3",
+   "answerWords": [
+    {
+     "w": "0",
+     "s": 0,
+     "e": 7
+    },
+    {
+     "w": "negativ",
+     "s": 9,
+     "e": 31
+    }
+   ],
+   "revealAt": 129,
+   "duration": 192,
+   "bg": "bg/fluss.mp4",
+   "bgFrom": 100
+  },
+  {
+   "kind": "q",
+   "n": 6,
+   "say": "Welches Land hat das Papier erfunden?",
+   "answer": "China",
+   "audio": "audio/q08/06_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Land",
+     "s": 11,
+     "e": 15
+    },
+    {
+     "w": "hat",
+     "s": 16,
+     "e": 19
+    },
+    {
+     "w": "das",
+     "s": 20,
+     "e": 23
+    },
+    {
+     "w": "Papier",
+     "s": 24,
+     "e": 33
+    },
+    {
+     "w": "erfunden?",
+     "s": 34,
+     "e": 53
+    }
+   ],
+   "speak": 55,
+   "timer": 69,
+   "answerAudio": "audio/q08/06_a.mp3",
+   "answerWords": [
+    {
+     "w": "China",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 124,
+   "duration": 181,
+   "bg": "bg/nebelberge.mp4",
+   "bgFrom": 229
+  },
+  {
+   "kind": "q",
+   "n": 7,
+   "say": "In welcher Stadt steht die Golden Gate Bridge?",
+   "answer": "San Francisco",
+   "audio": "audio/q08/07_q.mp3",
+   "words": [
+    {
+     "w": "In",
+     "s": 0,
+     "e": 3
+    },
+    {
+     "w": "welcher",
+     "s": 5,
+     "e": 11
+    },
+    {
+     "w": "Stadt",
+     "s": 12,
+     "e": 18
+    },
+    {
+     "w": "steht",
+     "s": 19,
+     "e": 25
+    },
+    {
+     "w": "die",
+     "s": 26,
+     "e": 28
+    },
+    {
+     "w": "Golden",
+     "s": 29,
+     "e": 35
+    },
+    {
+     "w": "Gate",
+     "s": 36,
+     "e": 41
+    },
+    {
+     "w": "Bridge?",
+     "s": 42,
+     "e": 56
+    }
+   ],
+   "speak": 57,
+   "timer": 69,
+   "answerAudio": "audio/q08/07_a.mp3",
+   "answerWords": [
+    {
+     "w": "San",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Francisco",
+     "s": 9,
+     "e": 32
+    }
+   ],
+   "revealAt": 126,
+   "duration": 189,
+   "bg": "bg/wasserfall_sonne.mp4",
+   "bgFrom": 0
+  },
+  {
+   "kind": "q",
+   "n": 8,
+   "say": "Welcher Ozean liegt zwischen Europa und Amerika?",
+   "answer": "Atlantik",
+   "audio": "audio/q08/08_q.mp3",
+   "words": [
+    {
+     "w": "Welcher",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Ozean",
+     "s": 9,
+     "e": 20
+    },
+    {
+     "w": "liegt",
+     "s": 21,
+     "e": 26
+    },
+    {
+     "w": "zwischen",
+     "s": 27,
+     "e": 34
+    },
+    {
+     "w": "Europa",
+     "s": 35,
+     "e": 44
+    },
+    {
+     "w": "und",
+     "s": 45,
+     "e": 47
+    },
+    {
+     "w": "Amerika?",
+     "s": 49,
+     "e": 69
+    }
+   ],
+   "speak": 71,
+   "timer": 69,
+   "answerAudio": "audio/q08/08_a.mp3",
+   "answerWords": [
+    {
+     "w": "Atlantik",
+     "s": 0,
+     "e": 23
+    }
+   ],
+   "revealAt": 140,
+   "duration": 195,
+   "bg": "bg/wasserfall_wald.mp4",
+   "bgFrom": 140
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/q08/09_outro.mp3",
+   "words": [
+    {
+     "w": "Bist",
+     "s": 0,
+     "e": 6
+    },
+    {
+     "w": "du",
+     "s": 6,
+     "e": 8
+    },
+    {
+     "w": "einer",
+     "s": 10,
+     "e": 14
+    },
+    {
+     "w": "von",
+     "s": 15,
+     "e": 19
+    },
+    {
+     "w": "hundert?",
+     "s": 20,
+     "e": 32
+    },
+    {
+     "w": "Schreib",
+     "s": 36,
+     "e": 43
+    },
+    {
+     "w": "deine",
+     "s": 44,
+     "e": 49
+    },
+    {
+     "w": "Punktzahl",
+     "s": 50,
+     "e": 61
+    },
+    {
+     "w": "in",
+     "s": 62,
+     "e": 64
+    },
+    {
+     "w": "die",
+     "s": 65,
+     "e": 67
+    },
+    {
+     "w": "Kommentare",
+     "s": 68,
+     "e": 83
+    },
+    {
+     "w": "und",
+     "s": 84,
+     "e": 87
+    },
+    {
+     "w": "folg",
+     "s": 88,
+     "e": 94
+    },
+    {
+     "w": "für",
+     "s": 95,
+     "e": 98
+    },
+    {
+     "w": "Teil",
+     "s": 99,
+     "e": 104
+    },
+    {
+     "w": "zwei!",
+     "s": 106,
+     "e": 122
+    }
+   ],
+   "speak": 124,
+   "title": "Wie viele hattest du?",
+   "sub": "Folg @alleswissen7 für Teil 2",
+   "duration": 184,
+   "bg": "bg/gruenes_panorama.mp4",
+   "bgFrom": 185
+  }
+ ]
+}

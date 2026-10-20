@@ -1,0 +1,52 @@
+{
+ "id": "q06",
+ "channel": "Q",
+ "handle": "@alleswissen7",
+ "intro": {
+  "title": "8 von 8 = schlauer als 90 %",
+  "sub": "",
+  "say": "Wenn du acht von acht schaffst, bist du schlauer als neunzig Prozent."
+ },
+ "questions": [
+  {
+   "say": "Welche Sprache spricht man in Mexiko?",
+   "answer": "Spanisch"
+  },
+  {
+   "say": "Welches ist das größte Tier der Welt?",
+   "answer": "Elefant",
+   "_note": "Absichtlich falsch (richtig: Blauwal), soll Kommentare bringen"
+  },
+  {
+   "say": "Wie heißt der Bruder von Super Mario?",
+   "answer": "Luigi"
+  },
+  {
+   "say": "Welches Tier baut Dämme?",
+   "answer": "Biber"
+  },
+  {
+   "say": "Wie heißt die Hauptstadt von Bayern?",
+   "answer": "München"
+  },
+  {
+   "say": "Wie heißt der längste Knochen im Körper?",
+   "answer": "Oberschenkel",
+   "answerTts": "Oberschenkelknochen"
+  },
+  {
+   "say": "Was trinkt ein Vampir?",
+   "answer": "Blut"
+  },
+  {
+   "say": "Wie viele Ringe hat das olympische Logo?",
+   "answer": "5",
+   "answerTts": "Fünf"
+  }
+ ],
+ "outro": {
+  "say": "Wie viele hattest du? Schreibs in die Kommentare und folg für Teil zwei!",
+  "title": "Wie viele hattest du?",
+  "sub": "Folg @alleswissen7 für Teil 2"
+ }
+}
