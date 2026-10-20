@@ -1,0 +1,596 @@
+{
+ "id": "q01",
+ "format": "quiz",
+ "channel": "A",
+ "handle": null,
+ "fps": 30,
+ "durationInFrames": 1826,
+ "bg": [
+  "bg/wasserfall_sonne.mp4",
+  "bg/alpen.mp4"
+ ],
+ "items": [
+  {
+   "word": "Australien",
+   "answer": "Canberra"
+  },
+  {
+   "word": "Oktopus",
+   "answer": "3"
+  },
+  {
+   "word": "Planet",
+   "answer": "Merkur"
+  },
+  {
+   "word": "Mauerfall",
+   "answer": "1989"
+  },
+  {
+   "word": "Organ",
+   "answer": "Haut"
+  },
+  {
+   "word": "Knochen",
+   "answer": "206"
+  },
+  {
+   "word": "Au",
+   "answer": "Gold"
+  },
+  {
+   "word": "Mona Lisa",
+   "answer": "Da Vinci"
+  }
+ ],
+ "segments": [
+  {
+   "kind": "intro",
+   "audio": "audio/q01/00_intro.mp3",
+   "words": [
+    {
+     "w": "Nur",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "drei",
+     "s": 6,
+     "e": 11
+    },
+    {
+     "w": "Prozent",
+     "s": 12,
+     "e": 23
+    },
+    {
+     "w": "schaffen",
+     "s": 23,
+     "e": 31
+    },
+    {
+     "w": "alle",
+     "s": 32,
+     "e": 36
+    },
+    {
+     "w": "acht",
+     "s": 38,
+     "e": 43
+    },
+    {
+     "w": "Fragen.",
+     "s": 44,
+     "e": 55
+    },
+    {
+     "w": "Bist",
+     "s": 58,
+     "e": 63
+    },
+    {
+     "w": "du",
+     "s": 63,
+     "e": 65
+    },
+    {
+     "w": "dabei?",
+     "s": 66,
+     "e": 82
+    }
+   ],
+   "speak": 84,
+   "title": "8 FRAGEN",
+   "sub": "Nur 3 % schaffen alle",
+   "duration": 114
+  },
+  {
+   "kind": "q",
+   "n": 1,
+   "word": "Australien",
+   "answer": "Canberra",
+   "audio": "audio/q01/01_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "heißt",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "die",
+     "s": 10,
+     "e": 12
+    },
+    {
+     "w": "Hauptstadt",
+     "s": 13,
+     "e": 24
+    },
+    {
+     "w": "von",
+     "s": 25,
+     "e": 28
+    },
+    {
+     "w": "Australien?",
+     "s": 30,
+     "e": 50
+    }
+   ],
+   "speak": 52,
+   "timer": 90,
+   "answerAudio": "audio/q01/01_a.mp3",
+   "answerWords": [
+    {
+     "w": "Canberra",
+     "s": 0,
+     "e": 27
+    }
+   ],
+   "revealAt": 142,
+   "duration": 194
+  },
+  {
+   "kind": "q",
+   "n": 2,
+   "word": "Oktopus",
+   "answer": "3",
+   "audio": "audio/q01/02_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "Herzen",
+     "s": 11,
+     "e": 18
+    },
+    {
+     "w": "hat",
+     "s": 19,
+     "e": 22
+    },
+    {
+     "w": "ein",
+     "s": 23,
+     "e": 26
+    },
+    {
+     "w": "Oktopus?",
+     "s": 28,
+     "e": 48
+    }
+   ],
+   "speak": 50,
+   "timer": 90,
+   "answerAudio": "audio/q01/02_a.mp3",
+   "answerWords": [
+    {
+     "w": "3",
+     "s": 0,
+     "e": 15
+    }
+   ],
+   "revealAt": 140,
+   "duration": 180
+  },
+  {
+   "kind": "q",
+   "n": 3,
+   "word": "Planet",
+   "answer": "Merkur",
+   "audio": "audio/q01/03_q.mp3",
+   "words": [
+    {
+     "w": "Welcher",
+     "s": 0,
+     "e": 8
+    },
+    {
+     "w": "Planet",
+     "s": 9,
+     "e": 18
+    },
+    {
+     "w": "ist",
+     "s": 19,
+     "e": 22
+    },
+    {
+     "w": "der",
+     "s": 22,
+     "e": 25
+    },
+    {
+     "w": "Sonne",
+     "s": 26,
+     "e": 31
+    },
+    {
+     "w": "am",
+     "s": 32,
+     "e": 34
+    },
+    {
+     "w": "nächsten?",
+     "s": 36,
+     "e": 53
+    }
+   ],
+   "speak": 55,
+   "timer": 90,
+   "answerAudio": "audio/q01/03_a.mp3",
+   "answerWords": [
+    {
+     "w": "Merkur",
+     "s": 0,
+     "e": 24
+    }
+   ],
+   "revealAt": 145,
+   "duration": 195
+  },
+  {
+   "kind": "q",
+   "n": 4,
+   "word": "Mauerfall",
+   "answer": "1989",
+   "audio": "audio/q01/04_q.mp3",
+   "words": [
+    {
+     "w": "In",
+     "s": 0,
+     "e": 3
+    },
+    {
+     "w": "welchem",
+     "s": 4,
+     "e": 10
+    },
+    {
+     "w": "Jahr",
+     "s": 12,
+     "e": 18
+    },
+    {
+     "w": "fiel",
+     "s": 19,
+     "e": 23
+    },
+    {
+     "w": "die",
+     "s": 24,
+     "e": 26
+    },
+    {
+     "w": "Berliner",
+     "s": 27,
+     "e": 36
+    },
+    {
+     "w": "Mauer?",
+     "s": 37,
+     "e": 52
+    }
+   ],
+   "speak": 54,
+   "timer": 90,
+   "answerAudio": "audio/q01/04_a.mp3",
+   "answerWords": [
+    {
+     "w": "1989",
+     "s": 0,
+     "e": 45
+    }
+   ],
+   "revealAt": 144,
+   "duration": 216
+  },
+  {
+   "kind": "q",
+   "n": 5,
+   "word": "Organ",
+   "answer": "Haut",
+   "audio": "audio/q01/05_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 10
+    },
+    {
+     "w": "ist",
+     "s": 12,
+     "e": 15
+    },
+    {
+     "w": "das",
+     "s": 15,
+     "e": 19
+    },
+    {
+     "w": "größte",
+     "s": 20,
+     "e": 29
+    },
+    {
+     "w": "Organ",
+     "s": 31,
+     "e": 38
+    },
+    {
+     "w": "des",
+     "s": 39,
+     "e": 42
+    },
+    {
+     "w": "Menschen?",
+     "s": 43,
+     "e": 58
+    }
+   ],
+   "speak": 60,
+   "timer": 90,
+   "answerAudio": "audio/q01/05_a.mp3",
+   "answerWords": [
+    {
+     "w": "Haut",
+     "s": 0,
+     "e": 20
+    }
+   ],
+   "revealAt": 150,
+   "duration": 196
+  },
+  {
+   "kind": "q",
+   "n": 6,
+   "word": "Knochen",
+   "answer": "206",
+   "audio": "audio/q01/06_q.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "viele",
+     "s": 6,
+     "e": 11
+    },
+    {
+     "w": "Knochen",
+     "s": 12,
+     "e": 21
+    },
+    {
+     "w": "hat",
+     "s": 22,
+     "e": 24
+    },
+    {
+     "w": "ein",
+     "s": 26,
+     "e": 29
+    },
+    {
+     "w": "erwachsener",
+     "s": 30,
+     "e": 41
+    },
+    {
+     "w": "Mensch?",
+     "s": 42,
+     "e": 57
+    }
+   ],
+   "speak": 58,
+   "timer": 90,
+   "answerAudio": "audio/q01/06_a.mp3",
+   "answerWords": [
+    {
+     "w": "206",
+     "s": 0,
+     "e": 31
+    }
+   ],
+   "revealAt": 148,
+   "duration": 205
+  },
+  {
+   "kind": "q",
+   "n": 7,
+   "word": "Au",
+   "answer": "Gold",
+   "audio": "audio/q01/07_q.mp3",
+   "words": [
+    {
+     "w": "Welches",
+     "s": 0,
+     "e": 12
+    },
+    {
+     "w": "chemische",
+     "s": 12,
+     "e": 27
+    },
+    {
+     "w": "Element",
+     "s": 27,
+     "e": 38
+    },
+    {
+     "w": "hat",
+     "s": 38,
+     "e": 43
+    },
+    {
+     "w": "das",
+     "s": 43,
+     "e": 48
+    },
+    {
+     "w": "Zeichen",
+     "s": 48,
+     "e": 60
+    },
+    {
+     "w": "Au?",
+     "s": 60,
+     "e": 65
+    }
+   ],
+   "speak": 67,
+   "timer": 90,
+   "answerAudio": "audio/q01/07_a.mp3",
+   "answerWords": [
+    {
+     "w": "Gold",
+     "s": 0,
+     "e": 25
+    }
+   ],
+   "revealAt": 157,
+   "duration": 208
+  },
+  {
+   "kind": "q",
+   "n": 8,
+   "word": "Mona Lisa",
+   "answer": "Da Vinci",
+   "audio": "audio/q01/08_q.mp3",
+   "words": [
+    {
+     "w": "Wer",
+     "s": 0,
+     "e": 5
+    },
+    {
+     "w": "malte",
+     "s": 6,
+     "e": 11
+    },
+    {
+     "w": "die",
+     "s": 12,
+     "e": 15
+    },
+    {
+     "w": "Mona",
+     "s": 16,
+     "e": 21
+    },
+    {
+     "w": "Lisa?",
+     "s": 22,
+     "e": 36
+    }
+   ],
+   "speak": 38,
+   "timer": 90,
+   "answerAudio": "audio/q01/08_a.mp3",
+   "answerWords": [
+    {
+     "w": "Da",
+     "s": 0,
+     "e": 9
+    },
+    {
+     "w": "Vinci",
+     "s": 9,
+     "e": 32
+    }
+   ],
+   "revealAt": 128,
+   "duration": 185
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/q01/09_outro.mp3",
+   "words": [
+    {
+     "w": "Wie",
+     "s": 0,
+     "e": 4
+    },
+    {
+     "w": "viele",
+     "s": 5,
+     "e": 10
+    },
+    {
+     "w": "hattest",
+     "s": 11,
+     "e": 18
+    },
+    {
+     "w": "du",
+     "s": 19,
+     "e": 20
+    },
+    {
+     "w": "richtig?",
+     "s": 22,
+     "e": 32
+    },
+    {
+     "w": "Schreibs",
+     "s": 34,
+     "e": 42
+    },
+    {
+     "w": "in",
+     "s": 43,
+     "e": 45
+    },
+    {
+     "w": "die",
+     "s": 46,
+     "e": 48
+    },
+    {
+     "w": "Kommentare!",
+     "s": 49,
+     "e": 70
+    }
+   ],
+   "speak": 73,
+   "title": "WIE VIELE HATTEST DU?",
+   "sub": "Schreibs in die Kommentare",
+   "duration": 133
+  }
+ ]
+}

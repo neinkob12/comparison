@@ -7,3 +7,4 @@ __pycache__/
 TK_cookies*.json
 .venv/
 .env
+video/public/bg/
