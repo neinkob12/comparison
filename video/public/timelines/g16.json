@@ -1,0 +1,276 @@
+{
+ "id": "g16",
+ "channel": "G",
+ "handle": null,
+ "fps": 30,
+ "noFollow": true,
+ "durationInFrames": 1836,
+ "segments": [
+  {
+   "kind": "q",
+   "audio": "audio/g16/00_q.mp3",
+   "speak": 73,
+   "gap": 30,
+   "hold": 52,
+   "a": {
+    "label": "1 Mio. für dich + Ex",
+    "img": null,
+    "emoji": "💔"
+   },
+   "b": {
+    "label": "Keiner kriegt was",
+    "img": null,
+    "emoji": "🚫"
+   },
+   "pct": [
+    71,
+    29
+   ],
+   "progress": [
+    1,
+    9
+   ],
+   "instant": true,
+   "duration": 155
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g16/01_q_a.mp3",
+   "audioB": "audio/g16/01_q_b.mp3",
+   "bAt": 33,
+   "speak": 67,
+   "gap": 60,
+   "hold": 52,
+   "a": {
+    "label": "Gehalt × 2",
+    "img": null,
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "4-Tage-Woche",
+    "img": null,
+    "emoji": "🗓️"
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "progress": [
+    2,
+    9
+   ],
+   "duration": 179
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g16/02_q_a.mp3",
+   "audioB": "audio/g16/02_q_b.mp3",
+   "bAt": 60,
+   "speak": 100,
+   "gap": 60,
+   "hold": 52,
+   "a": {
+    "label": "Ansprechen",
+    "img": null,
+    "emoji": "🗣️"
+   },
+   "b": {
+    "label": "Freundschaft beenden",
+    "img": null,
+    "emoji": "✂️"
+   },
+   "pct": [
+    74,
+    26
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Freundschaft beenden“ nimmt 👇",
+    "at": "reveal"
+   },
+   "progress": [
+    3,
+    9
+   ],
+   "duration": 212
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g16/03_q_a.mp3",
+   "audioB": "audio/g16/03_q_b.mp3",
+   "bAt": 87,
+   "speak": 113,
+   "gap": 60,
+   "hold": 52,
+   "a": {
+    "label": "10.000 €, Chef sieht Konto",
+    "img": null,
+    "emoji": "👔"
+   },
+   "b": {
+    "label": "Nichts",
+    "img": null,
+    "emoji": "🙅"
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   },
+   "progress": [
+    4,
+    9
+   ],
+   "duration": 225
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g16/04_q_a.mp3",
+   "audioB": "audio/g16/04_q_b.mp3",
+   "bAt": 31,
+   "speak": 86,
+   "gap": 60,
+   "hold": 52,
+   "a": {
+    "label": "Erbe sofort",
+    "img": null,
+    "emoji": "💸"
+   },
+   "b": {
+    "label": "Eltern 10 Jahre länger",
+    "img": null,
+    "emoji": "👵"
+   },
+   "pct": [
+    3,
+    97
+   ],
+   "progress": [
+    5,
+    9
+   ],
+   "duration": 198
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g16/05_q_a.mp3",
+   "audioB": "audio/g16/05_q_b.mp3",
+   "bAt": 53,
+   "speak": 97,
+   "gap": 60,
+   "hold": 52,
+   "a": {
+    "label": "Gratis bei Schwiegereltern",
+    "img": null,
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "Eigene Wohnung, Miete",
+    "img": null,
+    "emoji": "🔑"
+   },
+   "pct": [
+    22,
+    78
+   ],
+   "progress": [
+    6,
+    9
+   ],
+   "duration": 209
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g16/06_q_a.mp3",
+   "audioB": "audio/g16/06_q_b.mp3",
+   "bAt": 36,
+   "speak": 96,
+   "gap": 60,
+   "hold": 52,
+   "a": {
+    "label": "500 € sicher",
+    "img": null,
+    "emoji": "💶"
+   },
+   "b": {
+    "label": "1 % Chance auf 100.000 €",
+    "img": null,
+    "emoji": "🎟️"
+   },
+   "pct": [
+    64,
+    36
+   ],
+   "progress": [
+    7,
+    9
+   ],
+   "duration": 208
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g16/07_q_a.mp3",
+   "audioB": "audio/g16/07_q_b.mp3",
+   "bAt": 68,
+   "speak": 92,
+   "gap": 60,
+   "hold": 52,
+   "a": {
+    "label": "Kündigen",
+    "img": null,
+    "emoji": "🚪"
+   },
+   "b": {
+    "label": "Bleiben",
+    "img": null,
+    "emoji": "🪑"
+   },
+   "pct": [
+    41,
+    59
+   ],
+   "progress": [
+    8,
+    9
+   ],
+   "duration": 204
+  },
+  {
+   "kind": "q",
+   "audio": "audio/g16/08_q_a.mp3",
+   "audioB": "audio/g16/08_q_b.mp3",
+   "bAt": 35,
+   "speak": 97,
+   "gap": 60,
+   "hold": 52,
+   "a": {
+    "label": "1 Mio. für dich",
+    "img": null,
+    "emoji": "🫵"
+   },
+   "b": {
+    "label": "10 Mio. für Fremden in Not",
+    "img": null,
+    "emoji": "🤝"
+   },
+   "pct": [
+    50,
+    50
+   ],
+   "progress": [
+    9,
+    9
+   ],
+   "duration": 209
+  },
+  {
+   "kind": "loop",
+   "audio": "audio/g16/09_loop.mp3",
+   "speak": 33,
+   "hold": 4,
+   "duration": 37
+  }
+ ]
+}

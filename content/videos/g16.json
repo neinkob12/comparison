@@ -1,0 +1,163 @@
+{
+ "id": "g16",
+ "channel": "G",
+ "handle": null,
+ "format": "fast",
+ "pace": {
+  "timer": 60,
+  "hold": 52
+ },
+ "instant": true,
+ "progress": true,
+ "follow": false,
+ "questions": [
+  {
+   "say": "1 Million Euro, aber dein Ex bekommt auch eine?",
+   "a": {
+    "label": "1 Mio. für dich + Ex",
+    "emoji": "💔"
+   },
+   "b": {
+    "label": "Keiner kriegt was",
+    "emoji": "🚫"
+   },
+   "pct": [
+    71,
+    29
+   ],
+   "timer": 30
+  },
+  {
+   "say": "Doppeltes Gehalt, oder 4-Tage-Woche?",
+   "a": {
+    "label": "Gehalt × 2",
+    "emoji": "💰"
+   },
+   "b": {
+    "label": "4-Tage-Woche",
+    "emoji": "🗓️"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Freund zahlt nie zurück. Ansprechen, oder Freundschaft beenden?",
+   "a": {
+    "label": "Ansprechen",
+    "emoji": "🗣️"
+   },
+   "b": {
+    "label": "Freundschaft beenden",
+    "emoji": "✂️"
+   },
+   "pct": [
+    74,
+    26
+   ],
+   "popup": {
+    "text": "Markier jemanden, der „Freundschaft beenden“ nimmt 👇",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "10.000 Euro, aber dein Chef sieht deinen Kontostand, oder nichts?",
+   "a": {
+    "label": "10.000 €, Chef sieht Konto",
+    "emoji": "👔"
+   },
+   "b": {
+    "label": "Nichts",
+    "emoji": "🙅"
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "popup": {
+    "text": "Die letzte Frage spaltet alle 👀",
+    "at": "reveal"
+   }
+  },
+  {
+   "say": "Erbe sofort, oder deine Eltern leben 10 Jahre länger?",
+   "a": {
+    "label": "Erbe sofort",
+    "emoji": "💸"
+   },
+   "b": {
+    "label": "Eltern 10 Jahre länger",
+    "emoji": "👵"
+   },
+   "pct": [
+    3,
+    97
+   ]
+  },
+  {
+   "say": "Gratis bei den Schwiegereltern wohnen, oder eigene Wohnung mit Miete?",
+   "a": {
+    "label": "Gratis bei Schwiegereltern",
+    "emoji": "🏡"
+   },
+   "b": {
+    "label": "Eigene Wohnung, Miete",
+    "emoji": "🔑"
+   },
+   "pct": [
+    22,
+    78
+   ]
+  },
+  {
+   "say": "500 Euro sicher, oder 1 Prozent Chance auf 100.000?",
+   "a": {
+    "label": "500 € sicher",
+    "emoji": "💶"
+   },
+   "b": {
+    "label": "1 % Chance auf 100.000 €",
+    "emoji": "🎟️"
+   },
+   "pct": [
+    64,
+    36
+   ]
+  },
+  {
+   "say": "Kollege kriegt deine Beförderung. Kündigen, oder bleiben?",
+   "a": {
+    "label": "Kündigen",
+    "emoji": "🚪"
+   },
+   "b": {
+    "label": "Bleiben",
+    "emoji": "🪑"
+   },
+   "pct": [
+    41,
+    59
+   ]
+  },
+  {
+   "say": "1 Million für dich, oder 10 Millionen für einen Fremden in Not?",
+   "a": {
+    "label": "1 Mio. für dich",
+    "emoji": "🫵"
+   },
+   "b": {
+    "label": "10 Mio. für Fremden in Not",
+    "emoji": "🤝"
+   },
+   "pct": [
+    50,
+    50
+   ]
+  }
+ ],
+ "outro": {
+  "loop": true,
+  "say": "Und jetzt mal ehrlich:"
+ }
+}

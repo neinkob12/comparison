@@ -266,6 +266,18 @@ V["g15"] = dict(format="fast", voice=ADAM, **FAST, questions=[
     fast("Einen Fehler deiner Vergangenheit löschen, oder 1 Million?", ("Fehler löschen", "⏪"), ("1 Million", "💰"), [50, 50]),
   ])
 
+V["g16"] = dict(format="fast", voice=ADAM, **{**FAST, "pace": {"timer": 60, "hold": 52}}, questions=[
+    first("1 Million Euro, aber dein Ex bekommt auch eine?", ("1 Mio. für dich + Ex", "💔"), ("Keiner kriegt was", "🚫"), [71, 29]),
+    fast("Doppeltes Gehalt, oder 4-Tage-Woche?", ("Gehalt × 2", "💰"), ("4-Tage-Woche", "🗓️"), [46, 54]),
+    fast("Freund zahlt nie zurück. Ansprechen, oder Freundschaft beenden?", ("Ansprechen", "🗣️"), ("Freundschaft beenden", "✂️"), [74, 26], tag("Freundschaft beenden")),
+    fast("10.000 Euro, aber dein Chef sieht deinen Kontostand, oder nichts?", ("10.000 €, Chef sieht Konto", "👔"), ("Nichts", "🙅"), [56, 44], TEASER),
+    fast("Erbe sofort, oder deine Eltern leben 10 Jahre länger?", ("Erbe sofort", "💸"), ("Eltern 10 Jahre länger", "👵"), [3, 97]),
+    fast("Gratis bei den Schwiegereltern wohnen, oder eigene Wohnung mit Miete?", ("Gratis bei Schwiegereltern", "🏡"), ("Eigene Wohnung, Miete", "🔑"), [22, 78]),
+    fast("500 Euro sicher, oder 1 Prozent Chance auf 100.000?", ("500 € sicher", "💶"), ("1 % Chance auf 100.000 €", "🎟️"), [64, 36]),
+    fast("Kollege kriegt deine Beförderung. Kündigen, oder bleiben?", ("Kündigen", "🚪"), ("Bleiben", "🪑"), [41, 59]),
+    fast("1 Million für dich, oder 10 Millionen für einen Fremden in Not?", ("1 Mio. für dich", "🫵"), ("10 Mio. für Fremden in Not", "🤝"), [50, 50]),
+  ])
+
 for vid, d in V.items():
     v = {"id": vid, "channel": "G", "handle": None, "format": d["format"]}
     if d["voice"]:
