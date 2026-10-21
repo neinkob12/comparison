@@ -345,6 +345,13 @@
   ],
   "seconds": 64.8
  },
+ "a51": {
+  "removed_questions": [
+   1,
+   7
+  ],
+  "seconds": 60.4
+ },
  "g01": {
   "removed_segments": [
    6,

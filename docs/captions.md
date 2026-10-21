@@ -201,3 +201,7 @@ normale menschen nehmen hier immer die erste option, oder? #deutschrap #ufo361 #
 ## a50
 
 Luciano als Bruder oder Karamel19 als Mitbewohner? und keiner sagt beides 👇 #deutschrap #karamel19 #luciano #würdestdueher #nizi #lucio101 #lacazette #pashanim #yuyu19 #kalim #omar101 #makko #mucco #caney030 #ufo361 #samra #souly #zackavelli #rapdeutsch #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
+
+## a51
+
+Bis 4:30 wach mit Ufo oder weg sein mit Souly? und keiner sagt beides 👇 #deutschrap #ufo361 #souly #würdestdueher #nizi #lucio101 #lacazette #pashanim #yuyu19 #kalim #omar101 #karamel19 #makko #caney030 #samra #zackavelli #rapdeutsch #deutschrapmemes #rapdeutschland #berlinrap #1019 #haribo #viral
