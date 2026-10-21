@@ -1,0 +1,151 @@
+{
+ "id": "a51",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "hook": {
+  "say": "Bis 4:30 wach sein mit Ufo, oder weg sein mit Souly?",
+  "a": {
+   "label": "Bis 4:30 wach mit Ufo",
+   "img": "artists/ufo361.jpg"
+  },
+  "b": {
+   "label": "Weg sein mit Souly",
+   "img": "artists/souly.jpg"
+  },
+  "pct": [
+   93,
+   7
+  ],
+  "type": "hook"
+ },
+ "questions": [
+  {
+   "say": "Auf die einsame Insel nimmst du 1019 mit, oder Akh & Krach?",
+   "a": {
+    "label": "Insel: 1019",
+    "img": "albums/album-1019.jpg"
+   },
+   "b": {
+    "label": "Insel: Akh & Krach",
+    "img": "albums/album-akh-krach.jpg"
+   },
+   "pct": [
+    46,
+    54
+   ]
+  },
+  {
+   "say": "Nie wieder Kalim hören, oder nie wieder Samra hören?",
+   "a": {
+    "label": "Nie wieder Kalim",
+    "img": "artists/kalim.jpg"
+   },
+   "b": {
+    "label": "Nie wieder Samra",
+    "img": "artists/samra.jpg"
+   },
+   "pct": [
+    93,
+    7
+   ]
+  },
+  {
+   "say": "Würdest du eher ein Jahr nur [[Uuuuuuuufoooooo Drei Sechs Eins]] hören, oder ein Jahr nur Zackavelli?",
+   "a": {
+    "label": "1 Jahr nur Ufo361",
+    "img": "artists/ufo361.jpg"
+   },
+   "b": {
+    "label": "1 Jahr nur Zackavelli",
+    "img": "artists/zackavelli.jpg"
+   },
+   "pct": [
+    97,
+    3
+   ]
+  },
+  {
+   "say": "[[Lakaaaaaaasetttttttt]] kocht für dich, oder Omar101 fährt dich nach Hause?",
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "artists/lacazette.jpg"
+   },
+   "b": {
+    "label": "Omar101 fährt dich",
+    "img": "artists/omar101.jpg"
+   },
+   "pct": [
+    98,
+    2
+   ]
+  },
+  {
+   "type": "mid",
+   "say": "Kurze Pause. Nie wieder duschen, oder mit der dritten Person aus Teilen und mehr in den Urlaub fliegen?",
+   "a": {
+    "label": "Nie wieder duschen",
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "emoji": "✈️"
+   },
+   "pct": [
+    94,
+    6
+   ]
+  },
+  {
+   "say": "CODEIN COWBOY auf Dauerschleife, oder Kleiner Prinz auf Dauerschleife?",
+   "a": {
+    "label": "CODEIN COWBOY auf Repeat",
+    "img": "songs/song-codein-cowboy.jpg"
+   },
+   "b": {
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "songs/song-kleiner-prinz.jpg"
+   },
+   "pct": [
+    47,
+    53
+   ]
+  },
+  {
+   "say": "Ein Tag mit Caney030, oder ein Tag mit Kakko?",
+   "a": {
+    "label": "1 Tag mit Caney030",
+    "img": "artists/caney030.jpg"
+   },
+   "b": {
+    "label": "1 Tag mit Kakko",
+    "img": "artists/makko.jpg"
+   },
+   "pct": [
+    1,
+    99
+   ]
+  },
+  {
+   "say": "+49 für immer löschen, oder Outro für immer löschen?",
+   "a": {
+    "label": "+49 löschen",
+    "img": "songs/song-plus49.jpg"
+   },
+   "b": {
+    "label": "Outro löschen",
+    "img": "songs/song-outro.jpg"
+   },
+   "pct": [
+    56,
+    44
+   ]
+  }
+ ],
+ "outro": {
+  "say": "Wie oft lagst du richtig, Akh? Schreibs in die Kommentare!",
+  "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+  "sub": "Schreibs in die Kommentare",
+  "share": "Schick das an die 3 größten Ottos, die du kennst",
+  "shareSay": "Und schick das an die 3 größten Ottos, die du kennst!"
+ }
+}

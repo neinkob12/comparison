@@ -1,0 +1,236 @@
+{
+ "id": "a51",
+ "channel": "A",
+ "handle": "@akhmachtkrach19",
+ "fps": 30,
+ "durationInFrames": 2205,
+ "segments": [
+  {
+   "kind": "hook",
+   "audio": "audio/a51/00_hook_a.mp3",
+   "audioB": "audio/a51/00_hook_b.mp3",
+   "bAt": 55,
+   "speak": 89,
+   "gap": 45,
+   "hold": 45,
+   "a": {
+    "label": "Bis 4:30 wach mit Ufo",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Weg sein mit Souly",
+    "img": "img/artists/souly.jpg",
+    "emoji": null
+   },
+   "pct": [
+    93,
+    7
+   ],
+   "banner": "WAS WÄHLT DIE MEHRHEIT? 👀",
+   "duration": 179
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a51/01_q_a.mp3",
+   "audioB": "audio/a51/01_q_b.mp3",
+   "bAt": 81,
+   "speak": 114,
+   "gap": 69,
+   "hold": 45,
+   "a": {
+    "label": "Insel: 1019",
+    "img": "img/albums/album-1019.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Insel: Akh & Krach",
+    "img": "img/albums/album-akh-krach.jpg",
+    "emoji": null
+   },
+   "pct": [
+    46,
+    54
+   ],
+   "duration": 228
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a51/02_q_a.mp3",
+   "audioB": "audio/a51/02_q_b.mp3",
+   "bAt": 40,
+   "speak": 77,
+   "gap": 69,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder Kalim",
+    "img": "img/artists/kalim.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Nie wieder Samra",
+    "img": "img/artists/samra.jpg",
+    "emoji": null
+   },
+   "pct": [
+    93,
+    7
+   ],
+   "duration": 191
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a51/03_q_a.mp3",
+   "audioB": "audio/a51/03_q_b.mp3",
+   "bAt": 106,
+   "speak": 155,
+   "gap": 69,
+   "hold": 45,
+   "a": {
+    "label": "1 Jahr nur Ufo361",
+    "img": "img/artists/ufo361.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Jahr nur Zackavelli",
+    "img": "img/artists/zackavelli.jpg",
+    "emoji": null
+   },
+   "pct": [
+    97,
+    3
+   ],
+   "duration": 269
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a51/04_q_a.mp3",
+   "audioB": "audio/a51/04_q_b.mp3",
+   "bAt": 62,
+   "speak": 125,
+   "gap": 69,
+   "hold": 45,
+   "a": {
+    "label": "Lacazette kocht",
+    "img": "img/artists/lacazette.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Omar101 fährt dich",
+    "img": "img/artists/omar101.jpg",
+    "emoji": null
+   },
+   "pct": [
+    98,
+    2
+   ],
+   "duration": 239
+  },
+  {
+   "kind": "mid",
+   "audio": "audio/a51/05_mid_a.mp3",
+   "audioB": "audio/a51/05_mid_b.mp3",
+   "bAt": 52,
+   "speak": 154,
+   "gap": 69,
+   "hold": 45,
+   "a": {
+    "label": "Nie wieder duschen",
+    "img": null,
+    "emoji": "🚿"
+   },
+   "b": {
+    "label": "Mit der 3. Person bei „Teilen“ in den Urlaub",
+    "img": null,
+    "emoji": "✈️"
+   },
+   "pct": [
+    94,
+    6
+   ],
+   "duration": 268
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a51/06_q_a.mp3",
+   "audioB": "audio/a51/06_q_b.mp3",
+   "bAt": 55,
+   "speak": 104,
+   "gap": 69,
+   "hold": 45,
+   "a": {
+    "label": "CODEIN COWBOY auf Repeat",
+    "img": "img/songs/song-codein-cowboy.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Kleiner Prinz auf Repeat",
+    "img": "img/songs/song-kleiner-prinz.jpg",
+    "emoji": null
+   },
+   "pct": [
+    47,
+    53
+   ],
+   "duration": 218
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a51/07_q_a.mp3",
+   "audioB": "audio/a51/07_q_b.mp3",
+   "bAt": 62,
+   "speak": 100,
+   "gap": 69,
+   "hold": 45,
+   "a": {
+    "label": "1 Tag mit Caney030",
+    "img": "img/artists/caney030.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "1 Tag mit Kakko",
+    "img": "img/artists/makko.jpg",
+    "emoji": null
+   },
+   "pct": [
+    1,
+    99
+   ],
+   "duration": 214
+  },
+  {
+   "kind": "q",
+   "audio": "audio/a51/08_q_a.mp3",
+   "audioB": "audio/a51/08_q_b.mp3",
+   "bAt": 48,
+   "speak": 88,
+   "gap": 69,
+   "hold": 45,
+   "a": {
+    "label": "+49 löschen",
+    "img": "img/songs/song-plus49.jpg",
+    "emoji": null
+   },
+   "b": {
+    "label": "Outro löschen",
+    "img": "img/songs/song-outro.jpg",
+    "emoji": null
+   },
+   "pct": [
+    56,
+    44
+   ],
+   "duration": 202
+  },
+  {
+   "kind": "outro",
+   "audio": "audio/a51/09_outro.mp3",
+   "speak": 152,
+   "hold": 45,
+   "title": "WIE OFT LAGST DU RICHTIG, AKH?",
+   "sub": "Schreibs in die Kommentare",
+   "share": "Schick das an die 3 größten Ottos, die du kennst",
+   "duration": 197
+  }
+ ]
+}
