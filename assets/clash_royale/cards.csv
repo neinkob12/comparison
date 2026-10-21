@@ -1,0 +1,205 @@
+key,base,variant,name_en,name_de,elixir,rarity,type,file
+archer-queen,archer-queen,base,Archer Queen,Bogenschützen-Königin,5,Champion,Troop,cards/archer-queen.png
+archers-ev1,archers,evo,Archers,Bogenschützen,3,Common,Troop,cards/archers-ev1.png
+archers,archers,base,Archers,Bogenschützen,3,Common,Troop,cards/archers.png
+arrows,arrows,base,Arrows,Pfeile,3,Common,Spell,cards/arrows.png
+baby-dragon-ev1,baby-dragon,evo,Baby Dragon,Drachenbaby,4,Epic,Troop,cards/baby-dragon-ev1.png
+baby-dragon,baby-dragon,base,Baby Dragon,Drachenbaby,4,Epic,Troop,cards/baby-dragon.png
+baby-goblins,baby-goblins,base,Baby Goblins,Baby Goblins,,,,cards/baby-goblins.png
+balloon,balloon,base,Balloon,Ballon,5,Epic,Troop,cards/balloon.png
+bandit,bandit,base,Bandit,Banditin,3,Legendary,Troop,cards/bandit.png
+barbarian-barrel-hero-ev1,barbarian-barrel,hero-evo,Barbarian Barrel,Barbarenfass,2,Epic,Spell,cards/barbarian-barrel-hero-ev1.png
+barbarian-barrel-hero,barbarian-barrel,hero,Barbarian Barrel,Barbarenfass,2,Epic,Spell,cards/barbarian-barrel-hero.png
+barbarian-barrel,barbarian-barrel,base,Barbarian Barrel,Barbarenfass,2,Epic,Spell,cards/barbarian-barrel.png
+barbarian-hut,barbarian-hut,base,Barbarian Hut,Barbarenhütte,6,Rare,Building,cards/barbarian-hut.png
+barbarian-launcher,barbarian-launcher,base,Barbarian Launcher,Barbarian Launcher,,,,cards/barbarian-launcher.png
+barbarians-ev1,barbarians,evo,Barbarians,Barbaren,5,Common,Troop,cards/barbarians-ev1.png
+barbarians,barbarians,base,Barbarians,Barbaren,5,Common,Troop,cards/barbarians.png
+bats-ev1,bats,evo,Bats,Fledermäuse,2,Common,Troop,cards/bats-ev1.png
+bats,bats,base,Bats,Fledermäuse,2,Common,Troop,cards/bats.png
+battle-healer,battle-healer,base,Battle Healer,Kampfheilerin,4,Rare,Troop,cards/battle-healer.png
+battle-ram-ev1,battle-ram,evo,Battle Ram,Rammbock,4,Rare,Troop,cards/battle-ram-ev1.png
+battle-ram,battle-ram,base,Battle Ram,Rammbock,4,Rare,Troop,cards/battle-ram.png
+berserker,berserker,base,Berserker,Berserker,2,Common,Troop,cards/berserker.png
+bomb-tower,bomb-tower,base,Bomb Tower,Bombenturm,4,Rare,Building,cards/bomb-tower.png
+bomber-ev1,bomber,evo,Bomber,Bomber,2,Common,Troop,cards/bomber-ev1.png
+bomber,bomber,base,Bomber,Bomber,2,Common,Troop,cards/bomber.png
+boss-bandit,boss-bandit,base,Boss Bandit,Boss Bandit,6,Champion,Troop,cards/boss-bandit.png
+bowler,bowler,base,Bowler,Bowler,5,Epic,Troop,cards/bowler.png
+cannon-cart,cannon-cart,base,Cannon Cart,Kanonenkarre,5,Epic,Troop,cards/cannon-cart.png
+cannon-ev1,cannon,evo,Cannon,Kanone,3,Common,Building,cards/cannon-ev1.png
+cannon,cannon,base,Cannon,Kanone,3,Common,Building,cards/cannon.png
+cannoneer,cannoneer,base,Cannoneer,Cannoneer,,Epic,Tower,cards/cannoneer.png
+clone,clone,base,Clone,Klonzauber,3,Epic,Spell,cards/clone.png
+dagger-duchess,dagger-duchess,base,Dagger Duchess,Dagger Duchess,,Legendary,Tower,cards/dagger-duchess.png
+dark-prince,dark-prince,base,Dark Prince,Dunkler Prinz,4,Epic,Troop,cards/dark-prince.png
+dart-goblin-ev1,dart-goblin,evo,Dart Goblin,Blasrohrkobold,3,Rare,Troop,cards/dart-goblin-ev1.png
+dart-goblin,dart-goblin,base,Dart Goblin,Blasrohrkobold,3,Rare,Troop,cards/dart-goblin.png
+earthquake,earthquake,base,Earthquake,Erdbeben,3,Rare,Spell,cards/earthquake.png
+electro-dragon-ev1,electro-dragon,evo,Electro Dragon,Elektrodrache,5,Epic,Troop,cards/electro-dragon-ev1.png
+electro-dragon,electro-dragon,base,Electro Dragon,Elektrodrache,5,Epic,Troop,cards/electro-dragon.png
+electro-giant,electro-giant,base,Electro Giant,Elektroriese,7,Epic,Troop,cards/electro-giant.png
+electro-spirit,electro-spirit,base,Electro Spirit,Elektrogeist,1,Common,Troop,cards/electro-spirit.png
+electro-wizard,electro-wizard,base,Electro Wizard,Elektromagier,4,Legendary,Troop,cards/electro-wizard.png
+elite-barbarians,elite-barbarians,base,Elite Barbarians,Elitebarbaren,6,Common,Troop,cards/elite-barbarians.png
+elixir-collector,elixir-collector,base,Elixir Collector,Elixiersammler,6,Rare,Building,cards/elixir-collector.png
+elixir-golem,elixir-golem,base,Elixir Golem,Elixiergolem,3,Rare,Troop,cards/elixir-golem.png
+executioner-ev1,executioner,evo,Executioner,Scharfrichter,5,Epic,Troop,cards/executioner-ev1.png
+executioner,executioner,base,Executioner,Scharfrichter,5,Epic,Troop,cards/executioner.png
+fire-spirit,fire-spirit,base,Fire Spirit,Feuergeist,1,Common,Troop,cards/fire-spirit.png
+fire-spirits,fire-spirits,base,Fire Spirits,Fire Spirits,,,,cards/fire-spirits.png
+fireball,fireball,base,Fireball,Feuerball,4,Rare,Spell,cards/fireball.png
+firecracker-ev1,firecracker,evo,Firecracker,Feuerwerkerin,3,Common,Troop,cards/firecracker-ev1.png
+firecracker,firecracker,base,Firecracker,Feuerwerkerin,3,Common,Troop,cards/firecracker.png
+fisherman,fisherman,base,Fisherman,Fischer,3,Legendary,Troop,cards/fisherman.png
+flying-machine,flying-machine,base,Flying Machine,Flugmaschine,4,Rare,Troop,cards/flying-machine.png
+freeze,freeze,base,Freeze,Frost,4,Epic,Spell,cards/freeze.png
+furnace-ev1,furnace,evo,Furnace,Ofen,4,Rare,Building,cards/furnace-ev1.png
+furnace,furnace,base,Furnace,Ofen,4,Rare,Building,cards/furnace.png
+giant-hero-ev1,giant,hero-evo,Giant,Riese,5,Rare,Troop,cards/giant-hero-ev1.png
+giant-hero,giant,hero,Giant,Riese,5,Rare,Troop,cards/giant-hero.png
+giant-skeleton,giant-skeleton,base,Giant Skeleton,Riesenskelett,6,Epic,Troop,cards/giant-skeleton.png
+giant-snowball-ev1,giant-snowball,evo,Giant Snowball,Schneeball,2,Common,Spell,cards/giant-snowball-ev1.png
+giant-snowball,giant-snowball,base,Giant Snowball,Schneeball,2,Common,Spell,cards/giant-snowball.png
+giant,giant,base,Giant,Riese,5,Rare,Troop,cards/giant.png
+goblin-barrel-ev1,goblin-barrel,evo,Goblin Barrel,Koboldfass,3,Epic,Spell,cards/goblin-barrel-ev1.png
+goblin-barrel,goblin-barrel,base,Goblin Barrel,Koboldfass,3,Epic,Spell,cards/goblin-barrel.png
+goblin-cage-ev1,goblin-cage,evo,Goblin Cage,Koboldkäfig,4,Rare,Building,cards/goblin-cage-ev1.png
+goblin-cage,goblin-cage,base,Goblin Cage,Koboldkäfig,4,Rare,Building,cards/goblin-cage.png
+goblin-curse,goblin-curse,base,Goblin Curse,Goblin Curse,2,Epic,Spell,cards/goblin-curse.png
+goblin-demolisher,goblin-demolisher,base,Goblin Demolisher,Goblin Demolisher,4,Rare,Troop,cards/goblin-demolisher.png
+goblin-drill-ev1,goblin-drill,evo,Goblin Drill,Koboldbohrer,4,Epic,Building,cards/goblin-drill-ev1.png
+goblin-drill,goblin-drill,base,Goblin Drill,Koboldbohrer,4,Epic,Building,cards/goblin-drill.png
+goblin-gang,goblin-gang,base,Goblin Gang,Koboldgang,3,Common,Troop,cards/goblin-gang.png
+goblin-giant-ev1,goblin-giant,evo,Goblin Giant,Koboldriese,6,Epic,Troop,cards/goblin-giant-ev1.png
+goblin-giant,goblin-giant,base,Goblin Giant,Koboldriese,6,Epic,Troop,cards/goblin-giant.png
+goblin-hut,goblin-hut,base,Goblin Hut,Koboldhütte,5,Rare,Building,cards/goblin-hut.png
+goblin-machine,goblin-machine,base,Goblin Machine,Goblin Machine,5,Legendary,Troop,cards/goblin-machine.png
+goblins-hero-ev1,goblins,hero-evo,Goblins,Kobolde,2,Common,Troop,cards/goblins-hero-ev1.png
+goblins-hero,goblins,hero,Goblins,Kobolde,2,Common,Troop,cards/goblins-hero.png
+goblins,goblins,base,Goblins,Kobolde,2,Common,Troop,cards/goblins.png
+goblinstein,goblinstein,base,Goblinstein,Goblinstein,5,Champion,Troop,cards/goblinstein.png
+golden-knight,golden-knight,base,Golden Knight,Goldener Ritter,4,Champion,Troop,cards/golden-knight.png
+golem,golem,base,Golem,Golem,8,Epic,Troop,cards/golem.png
+graveyard,graveyard,base,Graveyard,Friedhof,5,Legendary,Spell,cards/graveyard.png
+guards,guards,base,Guards,Wächter,3,Epic,Troop,cards/guards.png
+heal-spirit,heal-spirit,base,Heal Spirit,Heilungsgeist,1,Rare,Troop,cards/heal-spirit.png
+heal,heal,base,Heal,Heal,,,,cards/heal.png
+hog-rider,hog-rider,base,Hog Rider,Schweinereiter,4,Rare,Troop,cards/hog-rider.png
+hunter-ev1,hunter,evo,Hunter,Jäger,4,Epic,Troop,cards/hunter-ev1.png
+hunter,hunter,base,Hunter,Jäger,4,Epic,Troop,cards/hunter.png
+ice-golem-hero-ev1,ice-golem,hero-evo,Ice Golem,Eisgolem,2,Rare,Troop,cards/ice-golem-hero-ev1.png
+ice-golem-hero,ice-golem,hero,Ice Golem,Eisgolem,2,Rare,Troop,cards/ice-golem-hero.png
+ice-golem,ice-golem,base,Ice Golem,Eisgolem,2,Rare,Troop,cards/ice-golem.png
+ice-spirit-ev1,ice-spirit,evo,Ice Spirit,Eisgeist,1,Common,Troop,cards/ice-spirit-ev1.png
+ice-spirit,ice-spirit,base,Ice Spirit,Eisgeist,1,Common,Troop,cards/ice-spirit.png
+ice-wizard,ice-wizard,base,Ice Wizard,Eismagier,3,Legendary,Troop,cards/ice-wizard.png
+inferno-dragon-ev1,inferno-dragon,evo,Inferno Dragon,Infernodrache,4,Legendary,Troop,cards/inferno-dragon-ev1.png
+inferno-dragon,inferno-dragon,base,Inferno Dragon,Infernodrache,4,Legendary,Troop,cards/inferno-dragon.png
+inferno-tower,inferno-tower,base,Inferno Tower,Infernoturm,5,Rare,Building,cards/inferno-tower.png
+knight-ev1,knight,evo,Knight,Ritter,3,Common,Troop,cards/knight-ev1.png
+knight-hero-ev1,knight,hero-evo,Knight,Ritter,3,Common,Troop,cards/knight-hero-ev1.png
+knight-hero,knight,hero,Knight,Ritter,3,Common,Troop,cards/knight-hero.png
+knight,knight,base,Knight,Ritter,3,Common,Troop,cards/knight.png
+lava-hound,lava-hound,base,Lava Hound,Lavahund,7,Legendary,Troop,cards/lava-hound.png
+lightning,lightning,base,Lightning,Blitz,6,Epic,Spell,cards/lightning.png
+little-prince,little-prince,base,Little Prince,Little Prince,3,Champion,Troop,cards/little-prince.png
+lumberjack-ev1,lumberjack,evo,Lumberjack,Holzfäller,4,Legendary,Troop,cards/lumberjack-ev1.png
+lumberjack,lumberjack,base,Lumberjack,Holzfäller,4,Legendary,Troop,cards/lumberjack.png
+magic-archer-hero-ev1,magic-archer,hero-evo,Magic Archer,Magieschütze,4,Legendary,Troop,cards/magic-archer-hero-ev1.png
+magic-archer-hero,magic-archer,hero,Magic Archer,Magieschütze,4,Legendary,Troop,cards/magic-archer-hero.png
+magic-archer,magic-archer,base,Magic Archer,Magieschütze,4,Legendary,Troop,cards/magic-archer.png
+mega-knight-ev1,mega-knight,evo,Mega Knight,Megaritter,7,Legendary,Troop,cards/mega-knight-ev1.png
+mega-knight,mega-knight,base,Mega Knight,Megaritter,7,Legendary,Troop,cards/mega-knight.png
+mega-minion-hero-ev1,mega-minion,hero-evo,Mega Minion,Megalakai,3,Rare,Troop,cards/mega-minion-hero-ev1.png
+mega-minion-hero,mega-minion,hero,Mega Minion,Megalakai,3,Rare,Troop,cards/mega-minion-hero.png
+mega-minion,mega-minion,base,Mega Minion,Megalakai,3,Rare,Troop,cards/mega-minion.png
+mighty-miner,mighty-miner,base,Mighty Miner,Großer Gräber,4,Champion,Troop,cards/mighty-miner.png
+miner,miner,base,Miner,Tunnelgräber,3,Legendary,Troop,cards/miner.png
+mini-pekka-hero-ev1,mini-pekka,hero-evo,Mini P.E.K.K.A,Mini-P.E.K.K.A.,4,Rare,Troop,cards/mini-pekka-hero-ev1.png
+mini-pekka-hero,mini-pekka,hero,Mini P.E.K.K.A,Mini-P.E.K.K.A.,4,Rare,Troop,cards/mini-pekka-hero.png
+mini-pekka,mini-pekka,base,Mini P.E.K.K.A,Mini-P.E.K.K.A.,4,Rare,Troop,cards/mini-pekka.png
+minion-horde,minion-horde,base,Minion Horde,Lakaienhorde,5,Common,Troop,cards/minion-horde.png
+minions,minions,base,Minions,Lakaien,3,Common,Troop,cards/minions.png
+mirror,mirror,base,Mirror,Spiegel,1,Epic,Spell,cards/mirror.png
+monk,monk,base,Monk,Mönch,5,Champion,Troop,cards/monk.png
+mortar-ev1,mortar,evo,Mortar,Minenwerfer,4,Common,Building,cards/mortar-ev1.png
+mortar,mortar,base,Mortar,Minenwerfer,4,Common,Building,cards/mortar.png
+mother-witch,mother-witch,base,Mother Witch,Hexenmutter,4,Legendary,Troop,cards/mother-witch.png
+musketeer-ev1,musketeer,evo,Musketeer,Musketierin,4,Rare,Troop,cards/musketeer-ev1.png
+musketeer-hero-ev1,musketeer,hero-evo,Musketeer,Musketierin,4,Rare,Troop,cards/musketeer-hero-ev1.png
+musketeer-hero,musketeer,hero,Musketeer,Musketierin,4,Rare,Troop,cards/musketeer-hero.png
+musketeer,musketeer,base,Musketeer,Musketierin,4,Rare,Troop,cards/musketeer.png
+night-witch,night-witch,base,Night Witch,Nachthexe,4,Legendary,Troop,cards/night-witch.png
+party-hut,party-hut,base,Party Hut,Partyhütte,5,Legendary,Building,cards/party-hut.png
+party-rocket,party-rocket,base,Party Rocket,Partyrakete,5,Legendary,Spell,cards/party-rocket.png
+pekka-ev1,pekka,evo,P.E.K.K.A,P.E.K.K.A.,7,Epic,Troop,cards/pekka-ev1.png
+pekka,pekka,base,P.E.K.K.A,P.E.K.K.A.,7,Epic,Troop,cards/pekka.png
+phoenix,phoenix,base,Phoenix,Phönix,4,Legendary,Troop,cards/phoenix.png
+poison,poison,base,Poison,Gift,4,Epic,Spell,cards/poison.png
+prince,prince,base,Prince,Prinz,5,Epic,Troop,cards/prince.png
+princess,princess,base,Princess,Prinzessin,3,Legendary,Troop,cards/princess.png
+rage,rage,base,Rage,Wut,2,Epic,Spell,cards/rage.png
+raging-prince,raging-prince,base,Raging Prince,Wütender Prinz,5,Epic,Troop,cards/raging-prince.png
+ram-rider,ram-rider,base,Ram Rider,Widderreiterin,5,Legendary,Troop,cards/ram-rider.png
+rascals,rascals,base,Rascals,Rabauken,5,Common,Troop,cards/rascals.png
+rocket-silo,rocket-silo,base,Rocket Silo,Rocket Silo,,,,cards/rocket-silo.png
+rocket,rocket,base,Rocket,Rakete,6,Rare,Spell,cards/rocket.png
+royal-chef,royal-chef,base,Royal Chef,Royal Chef,,Legendary,Tower,cards/royal-chef.png
+royal-delivery,royal-delivery,base,Royal Delivery,Königliche Luftpost,3,Common,Spell,cards/royal-delivery.png
+royal-ghost-ev1,royal-ghost,evo,Royal Ghost,Königsgeist,3,Legendary,Troop,cards/royal-ghost-ev1.png
+royal-ghost,royal-ghost,base,Royal Ghost,Königsgeist,3,Legendary,Troop,cards/royal-ghost.png
+royal-giant-ev1,royal-giant,evo,Royal Giant,Königsriese,6,Common,Troop,cards/royal-giant-ev1.png
+royal-giant,royal-giant,base,Royal Giant,Königsriese,6,Common,Troop,cards/royal-giant.png
+royal-hogs-ev1,royal-hogs,evo,Royal Hogs,Königsschweinchen,5,Rare,Troop,cards/royal-hogs-ev1.png
+royal-hogs,royal-hogs,base,Royal Hogs,Königsschweinchen,5,Rare,Troop,cards/royal-hogs.png
+royal-recruits-ev1,royal-recruits,evo,Royal Recruits,Königsrekruten,7,Common,Troop,cards/royal-recruits-ev1.png
+royal-recruits,royal-recruits,base,Royal Recruits,Königsrekruten,7,Common,Troop,cards/royal-recruits.png
+rune-giant,rune-giant,base,Rune Giant,Rune Giant,4,Epic,Troop,cards/rune-giant.png
+santa-hog-rider,santa-hog-rider,base,Santa Hog Rider,Schweinachtsreiter,5,Legendary,Troop,cards/santa-hog-rider.png
+skeleton-army-ev1,skeleton-army,evo,Skeleton Army,Skelettarmee,3,Epic,Troop,cards/skeleton-army-ev1.png
+skeleton-army,skeleton-army,base,Skeleton Army,Skelettarmee,3,Epic,Troop,cards/skeleton-army.png
+skeleton-barrel-ev1,skeleton-barrel,evo,Skeleton Barrel,Skelettfass,3,Common,Troop,cards/skeleton-barrel-ev1.png
+skeleton-barrel,skeleton-barrel,base,Skeleton Barrel,Skelettfass,3,Common,Troop,cards/skeleton-barrel.png
+skeleton-dragons,skeleton-dragons,base,Skeleton Dragons,Skelettdrachen,4,Common,Troop,cards/skeleton-dragons.png
+skeleton-king,skeleton-king,base,Skeleton King,Skelettkönig,4,Champion,Troop,cards/skeleton-king.png
+skeletons-ev1,skeletons,evo,Skeletons,Skelette,1,Common,Troop,cards/skeletons-ev1.png
+skeletons,skeletons,base,Skeletons,Skelette,1,Common,Troop,cards/skeletons.png
+sparky,sparky,base,Sparky,Funki,6,Legendary,Troop,cards/sparky.png
+spear-goblins,spear-goblins,base,Spear Goblins,Speerkobolde,2,Common,Troop,cards/spear-goblins.png
+spirit-empress,spirit-empress,base,Spirit Empress,Spirit Empress,,,,cards/spirit-empress.png
+super-archers,super-archers,base,Super Archers,Super-Bogenschützen,3,Legendary,Troop,cards/super-archers.png
+super-hog-rider,super-hog-rider,base,Super Hog Rider,Super Hog Rider,,,,cards/super-hog-rider.png
+super-ice-golem,super-ice-golem,base,Super Ice Golem,Supereisgolem,4,Legendary,Troop,cards/super-ice-golem.png
+super-knight,super-knight,base,Super Knight,Super Knight,,,,cards/super-knight.png
+super-lava-hound,super-lava-hound,base,Super Lava Hound,Superlavahund,8,Legendary,Troop,cards/super-lava-hound.png
+super-magic-archer,super-magic-archer,base,Super Magic Archer,Supermagieschütze,5,Legendary,Troop,cards/super-magic-archer.png
+super-mini-pekka,super-mini-pekka,base,Super Mini P.E.K.K.A,Super-Mini-P.E.K.K.A.,5,Legendary,Troop,cards/super-mini-pekka.png
+super-witch,super-witch,base,Super Witch,Superhexe,6,Legendary,Troop,cards/super-witch.png
+suspicious-bush,suspicious-bush,base,Suspicious Bush,Suspicious Bush,2,Rare,Troop,cards/suspicious-bush.png
+terry,terry,base,Terry,Terry,4,Champion,Troop,cards/terry.png
+tesla-ev1,tesla,evo,Tesla,Tesla,4,Common,Building,cards/tesla-ev1.png
+tesla,tesla,base,Tesla,Tesla,4,Common,Building,cards/tesla.png
+the-log,the-log,base,The Log,Kampfholz,2,Legendary,Spell,cards/the-log.png
+three-musketeers,three-musketeers,base,Three Musketeers,Drei Musketierinnen,9,Rare,Troop,cards/three-musketeers.png
+tombstone,tombstone,base,Tombstone,Grabstein,3,Rare,Building,cards/tombstone.png
+tornado,tornado,base,Tornado,Tornado,3,Epic,Spell,cards/tornado.png
+tower-princess,tower-princess,base,Tower Princess,Tower Princess,,Common,Tower,cards/tower-princess.png
+valkyrie-ev1,valkyrie,evo,Valkyrie,Walküre,4,Rare,Troop,cards/valkyrie-ev1.png
+valkyrie,valkyrie,base,Valkyrie,Walküre,4,Rare,Troop,cards/valkyrie.png
+vines,vines,base,Vines,Vines,3,Epic,Spell,cards/vines.png
+void,void,base,Void,Void,3,Epic,Spell,cards/void.png
+wall-breakers-ev1,wall-breakers,evo,Wall Breakers,Mauerbrecher,2,Epic,Troop,cards/wall-breakers-ev1.png
+wall-breakers,wall-breakers,base,Wall Breakers,Mauerbrecher,2,Epic,Troop,cards/wall-breakers.png
+warmth,warmth,base,Warmth,Warmth,,,,cards/warmth.png
+witch-ev1,witch,evo,Witch,Hexe,5,Epic,Troop,cards/witch-ev1.png
+witch,witch,base,Witch,Hexe,5,Epic,Troop,cards/witch.png
+wizard-ev1,wizard,evo,Wizard,Magier,5,Rare,Troop,cards/wizard-ev1.png
+wizard-hero-ev1,wizard,hero-evo,Wizard,Magier,5,Rare,Troop,cards/wizard-hero-ev1.png
+wizard-hero,wizard,hero,Wizard,Magier,5,Rare,Troop,cards/wizard-hero.png
+wizard-trio,wizard-trio,base,Wizard Trio,Wizard Trio,,,,cards/wizard-trio.png
+wizard,wizard,base,Wizard,Magier,5,Rare,Troop,cards/wizard.png
+x-bow,x-bow,base,X-Bow,X-Bogen,6,Epic,Building,cards/x-bow.png
+zap-ev1,zap,evo,Zap,Knall,2,Common,Spell,cards/zap-ev1.png
+zap,zap,base,Zap,Knall,2,Common,Spell,cards/zap.png
+zappies,zappies,base,Zappies,Zappys,4,Rare,Troop,cards/zappies.png

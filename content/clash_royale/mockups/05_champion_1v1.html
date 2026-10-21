@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="cr.css"><title>Champion 1v1</title>
+<style>
+.hud{position:absolute;left:0;right:0;top:70px;display:flex;justify-content:center;align-items:center;gap:30px}
+.score{display:flex;align-items:center;gap:10px;font-size:64px}
+.score span[data-icon]{width:70px;height:56px;display:inline-block}
+.fighter{position:absolute;width:820px;filter:drop-shadow(0 30px 30px rgba(0,0,0,.5))}
+.vs{right:110px;top:640px;font-size:190px;z-index:5;color:#fff;transform:rotate(-6deg)}
+.chest{position:absolute;width:210px;filter:drop-shadow(0 12px 0 rgba(0,0,0,.35))}
+</style></head><body>
+<div class="stage" style="background-image:url(../../../assets/clash_royale/backdrops/gold_rays.png)">
+  <div class="hud">
+    <div class="score t"><span data-icon="crownR"></span>0</div>
+    <span class="pill t" style="font-size:60px">1:00</span>
+    <div class="score t">0<span data-icon="crownB"></span></div>
+  </div>
+  <div class="abs center t" style="top:200px;font-size:100px">WHO WINS 1v1?</div>
+  <img class="fighter" src="../../../assets/clash_royale/champions/champion_hires_golden_knight.png" style="left:-150px;top:330px;width:880px">
+  <div class="abs" style="left:60px;top:1010px;z-index:6"><span class="plate red t" style="font-size:54px">GOLDEN KNIGHT</span></div>
+  <div class="abs vs t">VS</div>
+  <img class="fighter" src="../../../assets/clash_royale/champions/champion_hires_archer_queen.png" style="right:-160px;top:1000px;width:820px">
+  <div class="abs" style="right:70px;top:1480px"><span class="plate blue t" style="font-size:54px">ARCHER QUEEN</span></div>
+  <img class="chest" src="../../../assets/clash_royale/chests/chest-legendary.png" style="left:60px;top:1560px;transform:rotate(-8deg)">
+  <div class="abs t" style="left:290px;top:1610px;font-size:52px">Winner gets the chest</div>
+  <div class="disclaimer">Unofficial fan content, not endorsed by Supercell. supercell.com/fan-content-policy</div>
+</div><script src="icons.js"></script></body></html>

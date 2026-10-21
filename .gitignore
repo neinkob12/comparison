@@ -8,3 +8,5 @@ TK_cookies*.json
 .venv/
 .env
 video/public/bg/
+.cache/
+assets/clash_royale/chr/
